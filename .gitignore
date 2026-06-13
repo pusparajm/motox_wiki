@@ -1,0 +1,11 @@
+# Admin is local-only — see motox_wiki_admin (sibling folder)
+admin/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local env (if any)
+.env
+.env.*

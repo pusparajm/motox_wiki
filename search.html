@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Search motorcycles and technical specifications on MotoX Wiki.">
+  <title>Search — MotoX Wiki</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="css/main.css?v=2">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+
+  <main class="container">
+    <h1>Search Results</h1>
+    <p id="search-query-display"></p>
+    <div id="search-results"></div>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="js/core.js?v=3"></script>
+  <script src="js/search.js?v=2"></script>
+  <script>
+    async function init() {
+      await MotoX.initLayout('search.html');
+      MotoXSearch.init();
+
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('q') || '';
+
+      document.getElementById('search-query-display').textContent =
+        q ? `Showing results for "${q}"` : 'Enter a search term using the header search bar.';
+
+      if (!q) {
+        document.getElementById('search-results').innerHTML =
+          '<div class="empty-state"><p>Try searching for a motorcycle model, torque spec, or oil capacity.</p></div>';
+        return;
+      }
+
+      const { motorcycles, pages } = await MotoX.loadAllSearchData();
+      const index = MotoXSearch.buildIndex(motorcycles, pages);
+      const results = index
+        .map(item => {
+          const title = item.title.toLowerCase();
+          const text = item.searchText;
+          const query = q.toLowerCase();
+          let score = 0;
+          if (title.includes(query)) score += 30;
+          if (text.includes(query)) score += 15;
+          query.split(/\s+/).forEach(w => {
+            if (title.includes(w)) score += 10;
+            if (text.includes(w)) score += 5;
+          });
+          return { ...item, score };
+        })
+        .filter(r => r.score > 0)
+        .sort((a, b) => b.score - a.score);
+
+      const container = document.getElementById('search-results');
+      if (!results.length) {
+        container.innerHTML = '<div class="empty-state"><p>No results found. Try different keywords.</p></div>';
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="page-list">
+          ${results.map(r => `
+            <a href="${r.url}" class="page-item">
+              <h3>${MotoX.escapeHtml(r.title)}</h3>
+              <p>${r.type === 'motorcycle' ? '🏍 Motorcycle' : '📄 Wiki Page'} — ${MotoX.escapeHtml(r.meta)}</p>
+            </a>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Wiki pages and reference guides on MotoX Wiki.">
+  <title>Wiki Pages — MotoX Wiki</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="css/main.css?v=2">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+
+  <main class="container" id="main-content">
+    <div class="loading">Loading…</div>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="js/core.js?v=3"></script>
+  <script src="js/search.js?v=2"></script>
+  <script>
+    async function init() {
+      const settings = await MotoX.initLayout('pages.html');
+      MotoXSearch.init();
+
+      const params = new URLSearchParams(window.location.search);
+      const slug = params.get('slug');
+      const pages = await MotoX.loadPages();
+
+      if (slug) {
+        const page = MotoX.getPageBySlug(pages, slug);
+        if (!page) {
+          document.getElementById('main-content').innerHTML = `
+            <div class="empty-state"><p>Page not found.</p><p><a href="pages.html">View all pages</a></p></div>
+          `;
+          return;
+        }
+
+        document.title = `${page.title} — MotoX Wiki`;
+        const adTop = MotoX.renderAdSlot(settings.ads, 'content-top');
+        const adBottom = MotoX.renderAdSlot(settings.ads, 'content-bottom');
+        const sidebarAd = MotoX.renderAdSlot(settings.ads, 'sidebar');
+
+        document.getElementById('main-content').innerHTML = `
+          <div class="page-layout has-sidebar">
+            <main>
+              <div class="bike-header">
+                <div class="breadcrumb"><a href="index.html">Home</a> / <a href="pages.html">Pages</a> / ${MotoX.escapeHtml(page.title)}</div>
+                <h1>${MotoX.escapeHtml(page.title)}</h1>
+                ${page.summary ? `<p class="bike-subtitle">${MotoX.escapeHtml(page.summary)}</p>` : ''}
+              </div>
+              ${adTop ? `<div class="ad-slot">${adTop}</div>` : ''}
+              <article class="page-content">${page.content}</article>
+              ${adBottom ? `<div class="ad-slot">${adBottom}</div>` : ''}
+            </main>
+            <aside class="sidebar-ad">${sidebarAd}</aside>
+          </div>
+        `;
+        return;
+      }
+
+      document.getElementById('main-content').innerHTML = `
+        <h1>Wiki Pages</h1>
+        <p>Reference guides and general motorcycle technical information.</p>
+        <div class="page-list">
+          ${pages.map(p => `
+            <a href="pages.html?slug=${encodeURIComponent(p.slug || p.id)}" class="page-item">
+              <h3>${MotoX.escapeHtml(p.title)}</h3>
+              <p>${MotoX.escapeHtml(p.summary || '')}</p>
+            </a>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    init();
+  </script>
+</body>
+</html>

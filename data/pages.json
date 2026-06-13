@@ -1,0 +1,31 @@
+{
+  "pages": [
+    {
+      "id": "torque-conversion",
+      "title": "Torque Unit Conversion",
+      "slug": "torque-conversion",
+      "published": true,
+      "order": 1,
+      "summary": "Quick reference for converting between Nm, kgf·m, ft·lb, and in·lb.",
+      "content": "<h2>Torque Conversion Chart</h2><table><thead><tr><th>Nm</th><th>kgf·m</th><th>ft·lb</th><th>in·lb</th></tr></thead><tbody><tr><td>1</td><td>0.10</td><td>0.74</td><td>8.85</td></tr><tr><td>5</td><td>0.51</td><td>3.69</td><td>44.3</td></tr><tr><td>10</td><td>1.02</td><td>7.38</td><td>88.5</td></tr><tr><td>20</td><td>2.04</td><td>14.8</td><td>177</td></tr><tr><td>30</td><td>3.06</td><td>22.1</td><td>266</td></tr><tr><td>50</td><td>5.10</td><td>36.9</td><td>443</td></tr><tr><td>100</td><td>10.2</td><td>73.8</td><td>885</td></tr></tbody></table><p><strong>Formula:</strong> Nm × 0.7376 = ft·lb | Nm × 8.851 = in·lb | Nm × 0.10197 = kgf·m</p>"
+    },
+    {
+      "id": "oil-grades",
+      "title": "Motorcycle Oil Grades Explained",
+      "slug": "oil-grades",
+      "published": true,
+      "order": 2,
+      "summary": "Understanding SAE viscosity ratings, JASO MA/MA2, and API classifications.",
+      "content": "<h2>SAE Viscosity</h2><p>The first number (e.g. <strong>10</strong>W-40) indicates cold-start viscosity. The W means Winter. Lower numbers flow better in cold conditions.</p><p>The second number (e.g. 10W-<strong>40</strong>) indicates viscosity at operating temperature. Higher numbers provide thicker protection at high heat.</p><h2>JASO Certification</h2><ul><li><strong>JASO MA</strong> — Standard for wet-clutch motorcycles. No friction modifiers that cause clutch slip.</li><li><strong>JASO MA2</strong> — Higher friction performance for modern bikes. Preferred for most current motorcycles.</li><li><strong>JASO MB</strong> — For scooters with CVT. Not suitable for manual-clutch bikes.</li></ul><h2>API Rating</h2><p>Look for API SG or higher. Avoid automotive oils with energy-conserving labels — they contain friction modifiers harmful to wet clutches.</p>"
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing to MotoX Wiki",
+      "slug": "contributing",
+      "published": true,
+      "order": 3,
+      "summary": "How to add or update motorcycle specifications.",
+      "content": "<h2>How to Contribute</h2><p>MotoX Wiki is community-maintained. You can contribute by:</p><ol><li>Forking the repository on GitHub</li><li>Editing the JSON files in <code>data/</code> (motorcycles, pages, settings)</li><li>Committing changes and opening a pull request</li></ol><h2>Data Guidelines</h2><ul><li>Always cite the source (service manual, OEM documentation)</li><li>Include year ranges when specs vary by model year</li><li>Use standard units (Nm for torque, L for volume) with conversions in parentheses</li><li>Mark unverified data in the notes field</li></ul>"
+    }
+  ]
+}

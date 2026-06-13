@@ -1,0 +1,59 @@
+{
+  "site": {
+    "title": "MotoX Wiki",
+    "tagline": "Technical reference for motorcycle maintenance & specs",
+    "description": "Torque specs, oil quantities, fork seal sizes, fastener dimensions, and more — all in one place.",
+    "logo": "",
+    "footer": "© 2026 MotoX Wiki. Community-maintained motorcycle technical reference.",
+    "theme": "auto"
+  },
+  "navigation": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "Browse", "href": "index.html#browse" },
+    { "label": "Pages", "href": "pages.html" }
+  ],
+  "ads": {
+    "enabled": true,
+    "slots": [
+      {
+        "id": "header-banner",
+        "label": "Header Banner",
+        "enabled": true,
+        "type": "placeholder",
+        "content": "<div class=\"ad-placeholder\">Advertisement — 728×90 Leaderboard</div>"
+      },
+      {
+        "id": "sidebar",
+        "label": "Sidebar",
+        "enabled": true,
+        "type": "placeholder",
+        "content": "<div class=\"ad-placeholder\">Advertisement — 300×250</div>"
+      },
+      {
+        "id": "content-top",
+        "label": "Content Top",
+        "enabled": false,
+        "type": "html",
+        "content": ""
+      },
+      {
+        "id": "content-bottom",
+        "label": "Content Bottom",
+        "enabled": true,
+        "type": "placeholder",
+        "content": "<div class=\"ad-placeholder\">Advertisement — 728×90</div>"
+      },
+      {
+        "id": "in-article",
+        "label": "In Article",
+        "enabled": false,
+        "type": "html",
+        "content": ""
+      }
+    ]
+  },
+  "search": {
+    "minChars": 2,
+    "maxResults": 20
+  }
+}

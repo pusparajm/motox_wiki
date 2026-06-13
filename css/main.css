@@ -1,0 +1,811 @@
+/* MotoX Wiki — lightweight custom styles on top of Pico CSS */
+
+:root {
+  --motox-accent: #e85d04;
+  --motox-accent-hover: #dc2f02;
+  --motox-surface: var(--pico-card-background-color);
+  --motox-border: var(--pico-muted-border-color);
+  --motox-radius: 0.35rem;
+  --motox-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --motox-header-h: 2.25rem;
+  --motox-ad-bar-h: 2.5rem;
+  --motox-page-padding-x: clamp(0.75rem, 3vw, 1rem);
+}
+
+/* Global spacing overrides */
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  --pico-block-spacing-vertical: 0.75rem;
+  --pico-spacing: 1rem;
+  --pico-block-spacing-horizontal: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  padding: 0 var(--motox-page-padding-x);
+  box-sizing: border-box;
+  overflow-x: clip;
+}
+
+/* Override Pico padding on direct body children */
+body > header,
+body > main,
+body > footer,
+body > .site-top {
+  padding-block: 0;
+  margin-bottom: 0;
+}
+
+body > main {
+  flex: 1 0 auto;
+}
+
+body > footer.site-footer {
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main.container {
+  padding-top: 0.5rem;
+  padding-bottom: 0.75rem;
+}
+
+/* Sticky top region: header + ad bar */
+.site-top {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--pico-background-color);
+}
+
+/* Compact header */
+.site-header {
+  background: var(--pico-background-color);
+  border-bottom: 1px solid var(--motox-border);
+}
+
+.site-header .container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "brand toggle"
+    "search search"
+    "nav nav";
+  align-items: center;
+  gap: 0.5rem;
+  padding-block: 0.35rem;
+}
+
+.header-row {
+  grid-area: brand / brand / toggle / toggle;
+  display: contents;
+}
+
+.brand {
+  grid-area: brand;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.brand span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nav-toggle {
+  grid-area: toggle;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0.35rem;
+  border: 1px solid var(--motox-border);
+  border-radius: var(--motox-radius);
+  background: var(--pico-background-color);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.nav-toggle-bar {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--pico-color);
+  border-radius: 1px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.site-nav {
+  grid-area: nav;
+  display: flex;
+  gap: 0.15rem;
+  flex-wrap: wrap;
+}
+
+.header-search {
+  grid-area: search;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  margin-left: 0;
+}
+
+.brand-icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  background: var(--motox-accent);
+  border-radius: 0.25rem;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.site-nav a {
+  padding: 0.35rem 0.6rem;
+  border-radius: var(--motox-radius);
+  text-decoration: none;
+  font-size: 0.82rem;
+  color: var(--pico-muted-color);
+  transition: background 0.15s, color 0.15s;
+  min-height: 2.25rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  background: var(--pico-primary-background);
+  color: var(--pico-primary-inverse);
+}
+
+.header-search input {
+  margin-bottom: 0;
+  font-size: 1rem;
+  padding: 0.5rem 0.65rem;
+  min-height: 2.75rem;
+  height: 2.75rem;
+  width: 100%;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 0.15rem);
+  left: 0;
+  right: 0;
+  background: var(--pico-background-color);
+  border: 1px solid var(--motox-border);
+  border-radius: var(--motox-radius);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  max-height: 16rem;
+  overflow-y: auto;
+  display: none;
+  z-index: 200;
+}
+
+.search-dropdown.open {
+  display: block;
+}
+
+.search-result-item {
+  display: block;
+  padding: 0.4rem 0.6rem;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid var(--motox-border);
+  transition: background 0.1s;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item:hover {
+  background: var(--pico-card-sectioning-background-color);
+}
+
+.search-result-item .result-title {
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.search-result-item .result-meta {
+  font-size: 0.72rem;
+  color: var(--pico-muted-color);
+}
+
+.search-no-results {
+  padding: 0.5rem 0.6rem;
+  color: var(--pico-muted-color);
+  font-size: 0.78rem;
+}
+
+/* Full-width ad bar under header */
+.site-ad-bar {
+  display: none;
+  width: 100%;
+  background: var(--pico-card-sectioning-background-color);
+  border-bottom: 1px solid var(--motox-border);
+  text-align: center;
+  padding: 0.2rem 0.5rem;
+  min-height: var(--motox-ad-bar-h);
+  box-sizing: border-box;
+}
+
+.site-ad-bar.has-ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-ad-bar .ad-placeholder {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0.35rem 0.5rem;
+  border: 1px dashed var(--motox-border);
+  border-radius: 0;
+  font-size: 0.72rem;
+  line-height: 1.2;
+}
+
+/* Main layout with sidebar */
+.page-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  padding-block: 0.5rem;
+}
+
+@media (min-width: 900px) {
+  .page-layout.has-sidebar {
+    grid-template-columns: 1fr 260px;
+  }
+}
+
+/* Filters */
+.filter-bar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  align-items: stretch;
+  margin-bottom: 0.5rem;
+}
+
+.filter-bar select,
+.filter-bar input[type="search"] {
+  margin-bottom: 0;
+  font-size: 1rem;
+  max-width: none;
+  width: 100%;
+  padding: 0.5rem 0.65rem;
+  min-height: 2.75rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Motorcycle cards */
+.bike-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.bike-card {
+  background: var(--motox-surface);
+  border: 1px solid var(--motox-border);
+  border-radius: var(--motox-radius);
+  padding: 0.6rem 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.bike-card:hover {
+  border-color: var(--motox-accent);
+  box-shadow: var(--motox-shadow);
+}
+
+.bike-card .bike-make {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--motox-accent);
+  font-weight: 600;
+}
+
+.bike-card .bike-model {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.bike-card .bike-meta {
+  font-size: 0.75rem;
+  color: var(--pico-muted-color);
+}
+
+.bike-card .bike-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: auto;
+}
+
+.tag {
+  font-size: 0.68rem;
+  padding: 0.1rem 0.4rem;
+  background: var(--pico-card-sectioning-background-color);
+  border-radius: 2rem;
+  color: var(--pico-muted-color);
+}
+
+/* Detail page */
+.bike-header {
+  margin-bottom: 0.75rem;
+}
+
+.bike-header .breadcrumb {
+  font-size: 0.75rem;
+  color: var(--pico-muted-color);
+  margin-bottom: 0.25rem;
+}
+
+.bike-header .breadcrumb a {
+  color: var(--pico-muted-color);
+}
+
+.bike-title {
+  font-size: clamp(1.15rem, 3vw, 1.5rem);
+  margin-bottom: 0.15rem;
+}
+
+.bike-subtitle {
+  color: var(--pico-muted-color);
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.spec-section {
+  background: var(--motox-surface);
+  border: 1px solid var(--motox-border);
+  border-radius: var(--motox-radius);
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.spec-section summary {
+  padding: 0.45rem 0.65rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  user-select: none;
+}
+
+.spec-section summary::-webkit-details-marker {
+  display: none;
+}
+
+.spec-section summary::before {
+  content: "▸";
+  transition: transform 0.15s;
+  color: var(--motox-accent);
+  font-size: 0.75rem;
+}
+
+.spec-section[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.spec-section .spec-body {
+  padding: 0 0.65rem 0.5rem;
+  border-top: 1px solid var(--motox-border);
+}
+
+.spec-fields {
+  display: grid;
+  gap: 0;
+}
+
+.spec-field {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 0.35rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--motox-border);
+  font-size: 0.82rem;
+}
+
+.spec-field:last-child {
+  border-bottom: none;
+}
+
+.spec-field .field-label {
+  color: var(--pico-muted-color);
+  font-weight: 500;
+}
+
+.spec-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+}
+
+.spec-table {
+  width: 100%;
+  font-size: 0.78rem;
+  margin: 0;
+  min-width: 28rem;
+}
+
+.spec-table th {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0.35rem 0.5rem;
+}
+
+.spec-table td {
+  padding: 0.35rem 0.5rem;
+}
+
+.custom-section {
+  background: var(--pico-card-sectioning-background-color);
+  border-radius: var(--motox-radius);
+  padding: 0.5rem 0.65rem;
+  margin-bottom: 0.5rem;
+}
+
+.custom-section h3 {
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+/* Pages list */
+.page-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.page-item {
+  display: block;
+  padding: 0.6rem 0.75rem;
+  background: var(--motox-surface);
+  border: 1px solid var(--motox-border);
+  border-radius: var(--motox-radius);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s;
+}
+
+.page-item:hover {
+  border-color: var(--motox-accent);
+}
+
+.page-item h3 {
+  margin: 0 0 0.15rem;
+  font-size: 0.95rem;
+}
+
+.page-item p {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--pico-muted-color);
+}
+
+.page-content {
+  background: var(--motox-surface);
+  border: 1px solid var(--motox-border);
+  border-radius: var(--motox-radius);
+  padding: 0.75rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.page-content table {
+  font-size: 0.82rem;
+  min-width: 20rem;
+}
+
+/* In-content ads (sidebar, content slots) */
+.ad-slot {
+  margin-block: 0.5rem;
+  text-align: center;
+}
+
+.ad-slot:empty {
+  display: none;
+}
+
+.ad-placeholder {
+  background: var(--pico-card-sectioning-background-color);
+  border: 1px dashed var(--motox-border);
+  border-radius: var(--motox-radius);
+  padding: 0.5rem;
+  color: var(--pico-muted-color);
+  font-size: 0.72rem;
+}
+
+.sidebar-ad {
+  position: static;
+}
+
+/* Responsive */
+@media (min-width: 480px) {
+  .bike-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+
+  .filter-bar {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .site-header .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    padding-block: 0.2rem;
+    min-height: var(--motox-header-h);
+  }
+
+  .header-row {
+    display: contents;
+  }
+
+  .brand {
+    flex-shrink: 0;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .site-nav {
+    display: flex !important;
+    flex-wrap: wrap;
+    order: 0;
+  }
+
+  .header-search {
+    flex: 1;
+    min-width: 10rem;
+    max-width: 16rem;
+    margin-left: auto;
+    width: auto;
+  }
+
+  .header-search input {
+    font-size: 0.78rem;
+    padding: 0.2rem 0.45rem;
+    min-height: 1.6rem;
+    height: 1.6rem;
+  }
+
+  .site-nav a {
+    padding: 0.15rem 0.45rem;
+    font-size: 0.78rem;
+    min-height: auto;
+  }
+
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .filter-bar select,
+  .filter-bar input[type="search"] {
+    font-size: 0.82rem;
+    padding: 0.25rem 0.45rem;
+    min-height: 1.75rem;
+    width: auto;
+    max-width: 11rem;
+  }
+
+  .sidebar-ad {
+    position: sticky;
+    top: calc(var(--motox-header-h) + var(--motox-ad-bar-h) + 0.5rem);
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .site-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.25rem;
+    padding: 0.25rem 0;
+    border-top: 1px solid var(--motox-border);
+  }
+
+  .site-nav.open {
+    display: flex;
+  }
+
+  .site-nav a {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+    min-height: 2.75rem;
+  }
+
+  .spec-field {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+
+  .spec-field .field-label {
+    font-size: 0.75rem;
+  }
+
+  .bike-header .breadcrumb {
+    word-break: break-word;
+  }
+
+  .site-footer-inner {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .site-footer .footer-sep {
+    display: none;
+  }
+
+  .page-layout.has-sidebar aside {
+    order: 10;
+  }
+}
+
+@media (max-width: 359px) {
+  .brand span:last-child {
+    max-width: 8rem;
+  }
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--motox-border);
+  padding: 0.25rem 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 0.68rem;
+  line-height: 1.3;
+  color: var(--pico-muted-color);
+  background: transparent;
+}
+
+/* Reset Pico global footer styles */
+footer.site-footer {
+  margin-left: 0;
+  margin-right: 0;
+  padding-inline: 0;
+  border-bottom: none;
+  border-radius: 0;
+}
+
+.site-footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.35rem;
+  padding-block: 0;
+}
+
+.site-footer .footer-text,
+.site-footer .footer-sep {
+  margin: 0;
+}
+
+.site-footer a {
+  color: var(--pico-muted-color);
+  text-decoration: none;
+  font-size: 0.68rem;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Utilities */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 1.5rem 0.5rem;
+  color: var(--pico-muted-color);
+}
+
+.loading {
+  text-align: center;
+  padding: 1rem;
+  color: var(--pico-muted-color);
+}
+
+/* Touch-friendly tap targets on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .bike-card {
+    padding: 0.85rem 0.75rem;
+  }
+
+  .page-item {
+    padding: 0.85rem 0.75rem;
+  }
+
+  .spec-section summary {
+    padding: 0.65rem 0.75rem;
+    min-height: 2.75rem;
+  }
+
+  .search-result-item {
+    padding: 0.65rem 0.75rem;
+    min-height: 2.75rem;
+  }
+}

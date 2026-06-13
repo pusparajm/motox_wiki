@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="MotoX Wiki — Motorcycle technical reference with torque specs, oil quantities, fork seals, and fastener dimensions.">
+  <title>MotoX Wiki — Motorcycle Technical Reference</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="css/main.css?v=2">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+
+  <main class="container">
+    <section id="browse">
+      <h2>Browse Motorcycles</h2>
+      <div class="filter-bar">
+        <input type="search" id="filter-search" placeholder="Filter by name…" aria-label="Filter motorcycles">
+        <select id="filter-make" aria-label="Filter by make">
+          <option value="">All Makes</option>
+        </select>
+        <select id="filter-category" aria-label="Filter by category">
+          <option value="">All Categories</option>
+        </select>
+      </div>
+      <div id="bike-grid" class="bike-grid">
+        <div class="loading">Loading motorcycles…</div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="js/core.js?v=3"></script>
+  <script src="js/search.js?v=2"></script>
+  <script>
+    let allBikes = [];
+
+    async function init() {
+      await MotoX.initLayout('index.html');
+      MotoXSearch.init();
+
+      const bikes = await MotoX.loadMotorcycles();
+      allBikes = bikes;
+
+      populateFilters(bikes);
+      renderGrid(bikes);
+
+      document.getElementById('filter-search').addEventListener('input', applyFilters);
+      document.getElementById('filter-make').addEventListener('change', applyFilters);
+      document.getElementById('filter-category').addEventListener('change', applyFilters);
+    }
+
+    function populateFilters(bikes) {
+      const makes = [...new Set(bikes.map(b => b.make))].sort();
+      const categories = [...new Set(bikes.map(b => b.category).filter(Boolean))].sort();
+
+      const makeSelect = document.getElementById('filter-make');
+      makes.forEach(m => {
+        const opt = document.createElement('option');
+        opt.value = m;
+        opt.textContent = m;
+        makeSelect.appendChild(opt);
+      });
+
+      const catSelect = document.getElementById('filter-category');
+      categories.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        catSelect.appendChild(opt);
+      });
+    }
+
+    function applyFilters() {
+      const q = document.getElementById('filter-search').value.toLowerCase();
+      const make = document.getElementById('filter-make').value;
+      const category = document.getElementById('filter-category').value;
+
+      const filtered = allBikes.filter(b => {
+        const matchQ = !q || `${b.make} ${b.model}`.toLowerCase().includes(q) || (b.tags || []).some(t => t.includes(q));
+        const matchMake = !make || b.make === make;
+        const matchCat = !category || b.category === category;
+        return matchQ && matchMake && matchCat;
+      });
+
+      renderGrid(filtered);
+    }
+
+    function renderGrid(bikes) {
+      const grid = document.getElementById('bike-grid');
+      if (!bikes.length) {
+        grid.innerHTML = '<div class="empty-state"><p>No motorcycles match your filters.</p></div>';
+        return;
+      }
+
+      grid.innerHTML = bikes.map(b => `
+        <a href="motorcycle.html?id=${encodeURIComponent(b.id)}" class="bike-card">
+          <span class="bike-make">${MotoX.escapeHtml(b.make)}</span>
+          <h3 class="bike-model">${MotoX.escapeHtml(b.model)}</h3>
+          <span class="bike-meta">${MotoX.escapeHtml(b.year || '')} · ${MotoX.escapeHtml(b.displacement || '')}</span>
+          <div class="bike-tags">${(b.tags || []).slice(0, 4).map(t => `<span class="tag">${MotoX.escapeHtml(t)}</span>`).join('')}</div>
+        </a>
+      `).join('');
+    }
+
+    init();
+  </script>
+</body>
+</html>
