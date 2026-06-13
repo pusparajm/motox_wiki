@@ -248,6 +248,24 @@ const MotoX = (() => {
     `;
   }
 
+  function getPopularMotorcycles(motorcycles, settings) {
+    const popular = settings?.popular_models;
+    if (!popular || popular.enabled === false) return [];
+    const bikeMap = new Map(motorcycles.map(m => [m.id, m]));
+    return (popular.ids || []).map(id => bikeMap.get(id)).filter(Boolean);
+  }
+
+  function renderBikeCard(bike) {
+    return `
+      <a href="${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}" class="bike-card">
+        <span class="bike-make">${escapeHtml(bike.make)}</span>
+        <h3 class="bike-model">${escapeHtml(bike.model)}</h3>
+        <span class="bike-meta">${escapeHtml(bike.year || '')} · ${escapeHtml(bike.displacement || '')}</span>
+        <div class="bike-tags">${(bike.tags || []).slice(0, 4).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>
+      </a>
+    `;
+  }
+
   return {
     BASE,
     fetchJSON,
@@ -257,6 +275,8 @@ const MotoX = (() => {
     loadAllSearchData,
     getMotorcycleById,
     getPageBySlug,
+    getPopularMotorcycles,
+    renderBikeCard,
     renderAdSlot,
     escapeHtml,
     renderHeader,

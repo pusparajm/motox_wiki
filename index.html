@@ -6,14 +6,14 @@
   <meta name="description" content="MotoX Wiki — Motorcycle technical reference with torque specs, oil quantities, fork seals, and fastener dimensions.">
   <title>MotoX Wiki — Motorcycle Technical Reference</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=2">
+  <link rel="stylesheet" href="css/main.css?v=3">
 </head>
 <body>
   <header id="site-header" class="site-header"></header>
 
   <main class="container">
     <section id="browse">
-      <h2>Browse Motorcycles</h2>
+      <h2 id="browse-title">Browse Motorcycles</h2>
       <div class="filter-bar">
         <input type="search" id="filter-search" placeholder="Filter by name…" aria-label="Filter motorcycles">
         <select id="filter-make" aria-label="Filter by make">
@@ -31,17 +31,23 @@
 
   <footer id="site-footer" class="site-footer"></footer>
 
-  <script src="js/core.js?v=3"></script>
+  <script src="js/core.js?v=4"></script>
   <script src="js/search.js?v=2"></script>
   <script>
     let allBikes = [];
 
     async function init() {
-      await MotoX.initLayout('index.html');
+      const settings = await MotoX.initLayout('index.html');
       MotoXSearch.init();
 
-      const bikes = await MotoX.loadMotorcycles();
+      const allPublished = await MotoX.loadMotorcycles();
+      const bikes = MotoX.getPopularMotorcycles(allPublished, settings);
       allBikes = bikes;
+
+      const popular = settings?.popular_models || {};
+      if (popular.enabled !== false && popular.title) {
+        document.getElementById('browse-title').textContent = popular.title;
+      }
 
       populateFilters(bikes);
       renderGrid(bikes);
@@ -84,24 +90,18 @@
         return matchQ && matchMake && matchCat;
       });
 
-      renderGrid(filtered);
+      renderGrid(filtered, true);
     }
 
-    function renderGrid(bikes) {
+    function renderGrid(bikes, filtered = false) {
       const grid = document.getElementById('bike-grid');
       if (!bikes.length) {
-        grid.innerHTML = '<div class="empty-state"><p>No motorcycles match your filters.</p></div>';
+        const msg = filtered ? 'No motorcycles match your filters.' : 'No motorcycles to show yet.';
+        grid.innerHTML = `<div class="empty-state"><p>${msg}</p></div>`;
         return;
       }
 
-      grid.innerHTML = bikes.map(b => `
-        <a href="motorcycle.html?id=${encodeURIComponent(b.id)}" class="bike-card">
-          <span class="bike-make">${MotoX.escapeHtml(b.make)}</span>
-          <h3 class="bike-model">${MotoX.escapeHtml(b.model)}</h3>
-          <span class="bike-meta">${MotoX.escapeHtml(b.year || '')} · ${MotoX.escapeHtml(b.displacement || '')}</span>
-          <div class="bike-tags">${(b.tags || []).slice(0, 4).map(t => `<span class="tag">${MotoX.escapeHtml(t)}</span>`).join('')}</div>
-        </a>
-      `).join('');
+      grid.innerHTML = bikes.map(b => MotoX.renderBikeCard(b)).join('');
     }
 
     init();

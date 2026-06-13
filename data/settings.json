@@ -8,9 +8,18 @@
     "theme": "auto"
   },
   "navigation": [
-    { "label": "Home", "href": "index.html" },
-    { "label": "Browse", "href": "index.html#browse" },
-    { "label": "Pages", "href": "pages.html" }
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "Browse",
+      "href": "index.html#browse"
+    },
+    {
+      "label": "Pages",
+      "href": "pages.html"
+    }
   ],
   "ads": {
     "enabled": true,
@@ -55,5 +64,17 @@
   "search": {
     "minChars": 2,
     "maxResults": 20
+  },
+  "popular_models": {
+    "enabled": true,
+    "title": "Popular Models",
+    "ids": [
+      "ktm-390-duke-2021",
+      "yamaha-mt-07-2018",
+      "honda-cbr600rr-2013",
+      "kawasaki-ninja-zx-10r",
+      "ktm-rc-390",
+      "royal-enfield-himalayan-450"
+    ]
   }
 }
