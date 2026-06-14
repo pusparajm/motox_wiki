@@ -364,7 +364,7 @@ h2 {
   margin: 0;
 }
 
-.bike-card .bike-year {
+.bike-card .bike-variant {
   font-weight: 600;
   color: var(--pico-muted-color);
   font-size: 0.85em;

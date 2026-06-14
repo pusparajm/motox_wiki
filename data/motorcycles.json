@@ -1385,6 +1385,4293 @@
           "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
         }
       ]
+    },
+    {
+      "id": "kawasaki-ninja-zx-6r-2019-2023",
+      "make": "Kawasaki",
+      "model": "Ninja ZX-6R",
+      "year": "2019-2023",
+      "category": "Supersport",
+      "displacement": "636cc",
+      "published": true,
+      "tags": [
+        "zx6r",
+        "ninja",
+        "6r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "kawasaki-ninja-zx-6r-2013-2018",
+      "make": "Kawasaki",
+      "model": "Ninja ZX-6R",
+      "year": "2013-2018",
+      "category": "Supersport",
+      "displacement": "636cc",
+      "published": true,
+      "tags": [
+        "zx6r",
+        "ninja",
+        "6r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "kawasaki-ninja-zx-6r-2009-2012",
+      "make": "Kawasaki",
+      "model": "Ninja ZX-6R",
+      "year": "2009-2012",
+      "category": "Supersport",
+      "displacement": "599cc",
+      "published": true,
+      "tags": [
+        "zx6r",
+        "ninja",
+        "6r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "suzuki-gsx1300r-2021-present",
+      "make": "Suzuki",
+      "model": "GSX1300R",
+      "year": "2021-Present",
+      "category": "Supersport",
+      "displacement": "1340cc",
+      "published": true,
+      "tags": [
+        "busa",
+        "hayabusa",
+        "suzuki",
+        "GSX1300R",
+        "gsx1300r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "suzuki-gsx1300r-2008-2020",
+      "make": "Suzuki",
+      "model": "GSX1300R",
+      "year": "2008-2020",
+      "category": "Supersport",
+      "displacement": "1340cc",
+      "published": true,
+      "tags": [
+        "busa",
+        "hayabusa",
+        "suzuki",
+        "GSX1300R",
+        "gsx1300r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "suzuki-gsx1300r-1999-2007",
+      "make": "Suzuki",
+      "model": "GSX1300R",
+      "year": "1999-2007",
+      "category": "Supersport",
+      "displacement": "1340cc",
+      "published": true,
+      "tags": [
+        "busa",
+        "hayabusa",
+        "suzuki",
+        "GSX1300R",
+        "gsx1300r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-panigale-v4-2018-2019",
+      "make": "Ducati",
+      "model": "Panigale V4",
+      "year": "2018-2019",
+      "category": "Supersport",
+      "displacement": "1103cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "v4",
+        "panigale",
+        "panigale v4",
+        "ducati v4"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-panigale-v4-2020-2022",
+      "make": "Ducati",
+      "model": "Panigale V4",
+      "year": "2020-2021",
+      "category": "Supersport",
+      "displacement": "1103cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "v4",
+        "panigale",
+        "panigale v4",
+        "ducati v4"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-panigale-v4-2022-2023",
+      "make": "Ducati",
+      "model": "Panigale V4",
+      "year": "2022-2023",
+      "category": "Supersport",
+      "displacement": "1103cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "v4",
+        "panigale",
+        "panigale v4",
+        "ducati v4"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-panigale-v4-2024-2024",
+      "make": "Ducati",
+      "model": "Panigale V4",
+      "year": "2024-2024",
+      "category": "Supersport",
+      "displacement": "1103cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "v4",
+        "panigale",
+        "panigale v4",
+        "ducati v4"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-panigale-v4-2025-present",
+      "make": "Ducati",
+      "model": "Panigale V4",
+      "year": "2025-Present",
+      "category": "Supersport",
+      "displacement": "1103cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "v4",
+        "panigale",
+        "panigale v4",
+        "ducati v4"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-959-panigale-2016-2019",
+      "make": "Ducati",
+      "model": "959 Panigale",
+      "year": "2016-2019",
+      "category": "Supersport",
+      "displacement": "955cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "959",
+        "panigale",
+        "panigale 959",
+        "ducati 959"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-899-panigale-2013-2016",
+      "make": "Ducati",
+      "model": "899 Panigale",
+      "year": "2013-2016",
+      "category": "Supersport",
+      "displacement": "898cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "899",
+        "panigale",
+        "panigale 899",
+        "ducati 899"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-848-2008-2013",
+      "make": "Ducati",
+      "model": "848",
+      "year": "2008-2013",
+      "category": "Supersport",
+      "displacement": "849cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "848",
+        "panigale",
+        "panigale 848",
+        "ducati 848"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-749-2003-2007",
+      "make": "Ducati",
+      "model": "749",
+      "year": "2003-2007",
+      "category": "Supersport",
+      "displacement": "748cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "749",
+        "panigale",
+        "panigale 749",
+        "ducati 749"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-panigale-v2-2020-2024",
+      "make": "Ducati",
+      "model": "Panigale V2",
+      "year": "2020-2024",
+      "category": "Supersport",
+      "displacement": "955cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "v2",
+        "panigale",
+        "panigale v2",
+        "ducati v2"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "ducati-panigale-v2-2025-present",
+      "make": "Ducati",
+      "model": "Panigale V2",
+      "year": "2025-Present",
+      "category": "Supersport",
+      "displacement": "890cc",
+      "published": true,
+      "tags": [
+        "ducati",
+        "v2",
+        "panigale",
+        "panigale v2",
+        "ducati v2"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "honda-cbr1000rr-2004-2005",
+      "make": "Honda",
+      "model": "CBR1000RR",
+      "year": "2004-2005",
+      "category": "Supersport",
+      "displacement": "998cc",
+      "published": true,
+      "tags": [
+        "cbr",
+        "honda",
+        "fireblade",
+        "cbr1000rr"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "honda-cbr1000rr-2006-2007",
+      "make": "Honda",
+      "model": "CBR1000RR",
+      "year": "2006-2007",
+      "category": "Supersport",
+      "displacement": "998cc",
+      "published": true,
+      "tags": [
+        "cbr",
+        "honda",
+        "fireblade",
+        "cbr1000rr"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "honda-cbr1000rr-2008-2011",
+      "make": "Honda",
+      "model": "CBR1000RR",
+      "year": "2008-2011",
+      "category": "Supersport",
+      "displacement": "998cc",
+      "published": true,
+      "tags": [
+        "cbr",
+        "honda",
+        "fireblade",
+        "cbr1000rr"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "honda-cbr1000rr-2012-2016",
+      "make": "Honda",
+      "model": "CBR1000RR",
+      "year": "2012-2016",
+      "category": "Supersport",
+      "displacement": "998cc",
+      "published": true,
+      "tags": [
+        "cbr",
+        "honda",
+        "fireblade",
+        "cbr1000rr"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "honda-cbr1000rr-2017-2019",
+      "make": "Honda",
+      "model": "CBR1000RR",
+      "year": "2017-2019",
+      "category": "Supersport",
+      "displacement": "998cc",
+      "published": true,
+      "tags": [
+        "cbr",
+        "honda",
+        "fireblade",
+        "cbr1000rr"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "honda-cbr1000rr-2020-present",
+      "make": "Honda",
+      "model": "CBR1000RR",
+      "year": "2020-Present",
+      "category": "Supersport",
+      "displacement": "998cc",
+      "published": true,
+      "tags": [
+        "cbr",
+        "honda",
+        "fireblade",
+        "cbr1000rr"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "honda-cbr1000rr-r-2020-2023",
+      "make": "Honda",
+      "model": "CBR1000RR-R",
+      "year": "2020-2023",
+      "category": "Supersport",
+      "displacement": "998cc",
+      "published": true,
+      "tags": [
+        "cbr",
+        "honda",
+        "fireblade",
+        "cbr1000rrr",
+        "rrr",
+        "cbr1000rr-r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "honda-cbr1000rr-r-2024-present",
+      "make": "Honda",
+      "model": "CBR1000RR-R",
+      "year": "2024-Present",
+      "category": "Supersport",
+      "displacement": "998cc",
+      "published": true,
+      "tags": [
+        "cbr",
+        "honda",
+        "fireblade",
+        "cbr1000rrr",
+        "rrr",
+        "cbr1000rr-r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "kawasaki-ninja-300-2013-present",
+      "make": "Kawasaki",
+      "model": "Ninja 300",
+      "year": "2013-Present",
+      "category": "Supersport",
+      "displacement": "296cc",
+      "published": true,
+      "tags": [
+        "ninja",
+        "ninja300",
+        "300"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "kawasaki-ninja-400-2018-present",
+      "make": "Kawasaki",
+      "model": "Ninja 400",
+      "year": "2018-Present",
+      "category": "Supersport",
+      "displacement": "399cc",
+      "published": true,
+      "tags": [
+        "ninja",
+        "ninja400",
+        "400"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "kawasaki-ninja-500-2024-present",
+      "make": "Kawasaki",
+      "model": "Ninja 500",
+      "year": "2024-Present",
+      "category": "Supersport",
+      "displacement": "451cc",
+      "published": true,
+      "tags": [
+        "ninja",
+        "ninja500",
+        "500"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "kawasaki-ninja-650-2017-2020",
+      "make": "Kawasaki",
+      "model": "Ninja 650",
+      "year": "2017-2020",
+      "category": "Supersport",
+      "displacement": "649cc",
+      "published": true,
+      "tags": [
+        "ninja",
+        "ninja650",
+        "650"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "kawasaki-ninja-650-2021-present",
+      "make": "Kawasaki",
+      "model": "Ninja 650",
+      "year": "2021-Present",
+      "category": "Supersport",
+      "displacement": "649cc",
+      "published": true,
+      "tags": [
+        "ninja",
+        "ninja650",
+        "650"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "kawasaki-klx-230-2024-present",
+      "make": "Kawasaki",
+      "model": "KLX 230",
+      "year": "2024-Present",
+      "category": "Dual Sport",
+      "displacement": "233cc",
+      "published": true,
+      "tags": [
+        "klx",
+        "klx230",
+        "kawasaki"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.0 L (2.1 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "KTM 78938015010"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 15,000 km / 9,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "25 Nm",
+              "notes": "M12×1.5"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "10 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "65 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "90 Nm",
+              "notes": ""
+            },
+            {
+              "component": "Triple clamp bolts",
+              "torque": "20 Nm",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.5",
+              "length": "18 mm",
+              "head": "Hex 14 mm",
+              "torque": "25 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M18×1.5",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "90 Nm"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
     }
   ]
 }

@@ -248,9 +248,14 @@ const MotoX = (() => {
     `;
   }
 
+  function bikeVariantLabel(bike) {
+    return [bike.year, bike.region].filter(Boolean).join(', ');
+  }
+
   function formatBikeTitle(bike) {
     const name = `${bike.make || ''} ${bike.model || ''}`.trim();
-    return bike.year ? `${name} (${bike.year})` : name;
+    const variant = bikeVariantLabel(bike);
+    return variant ? `${name} (${variant})` : name;
   }
 
   function getPopularMotorcycles(motorcycles, settings) {
@@ -264,7 +269,7 @@ const MotoX = (() => {
     return `
       <a href="${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}" class="bike-card">
         <span class="bike-make">${escapeHtml(bike.make)}</span>
-        <h3 class="bike-model">${escapeHtml(bike.model)}${bike.year ? ` <span class="bike-year">(${escapeHtml(bike.year)})</span>` : ''}</h3>
+        <h3 class="bike-model">${escapeHtml(bike.model)}${bikeVariantLabel(bike) ? ` <span class="bike-variant">(${escapeHtml(bikeVariantLabel(bike))})</span>` : ''}</h3>
         <span class="bike-meta">${escapeHtml(bike.displacement || '')}${bike.category ? ` · ${escapeHtml(bike.category)}` : ''}</span>
         <div class="bike-tags">${(bike.tags || []).slice(0, 4).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>
       </a>
@@ -281,6 +286,7 @@ const MotoX = (() => {
     getMotorcycleById,
     getPageBySlug,
     getPopularMotorcycles,
+    bikeVariantLabel,
     formatBikeTitle,
     renderBikeCard,
     renderAdSlot,

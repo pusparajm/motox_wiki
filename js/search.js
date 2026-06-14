@@ -13,7 +13,7 @@ const MotoXSearch = (() => {
         type: 'motorcycle',
         id: bike.id,
         title: MotoX.formatBikeTitle(bike),
-        meta: [bike.category, bike.displacement].filter(Boolean).join(' · ') || 'Motorcycle',
+        meta: [bike.region, bike.category, bike.displacement].filter(Boolean).join(' · ') || 'Motorcycle',
         url: `motorcycle.html?id=${encodeURIComponent(bike.id)}`,
         searchText: flattenBike(bike)
       });
@@ -35,7 +35,7 @@ const MotoXSearch = (() => {
 
   function flattenBike(bike) {
     const parts = [
-      bike.make, bike.model, bike.year, bike.category, bike.displacement,
+      bike.make, bike.model, bike.year, bike.region, bike.category, bike.displacement,
       bike.summary, ...(bike.tags || [])
     ];
 
