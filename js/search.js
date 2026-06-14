@@ -12,8 +12,8 @@ const MotoXSearch = (() => {
       items.push({
         type: 'motorcycle',
         id: bike.id,
-        title: `${bike.make} ${bike.model}`,
-        meta: `${bike.year || ''} · ${bike.category || ''}`,
+        title: MotoX.formatBikeTitle(bike),
+        meta: [bike.category, bike.displacement].filter(Boolean).join(' · ') || 'Motorcycle',
         url: `motorcycle.html?id=${encodeURIComponent(bike.id)}`,
         searchText: flattenBike(bike)
       });

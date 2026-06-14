@@ -17,8 +17,8 @@
 
   <footer id="site-footer" class="site-footer"></footer>
 
-  <script src="js/core.js?v=4"></script>
-  <script src="js/search.js?v=2"></script>
+  <script src="js/core.js?v=5"></script>
+  <script src="js/search.js?v=3"></script>
   <script>
     async function init() {
       const settings = await MotoX.initLayout('motorcycle.html');
@@ -51,9 +51,9 @@
         return;
       }
 
-      document.title = `${bike.make} ${bike.model} — MotoX Wiki`;
+      document.title = `${MotoX.formatBikeTitle(bike)} — MotoX Wiki`;
       document.querySelector('meta[name="description"]').content =
-        `${bike.make} ${bike.model} specs: torque, oil capacity, fork seals, fasteners, and more.`;
+        `${MotoX.formatBikeTitle(bike)} specs: torque, oil capacity, fork seals, fasteners, and more.`;
 
       document.getElementById('main-content').innerHTML = MotoX.renderMotorcycleDetail(bike, settings);
     }

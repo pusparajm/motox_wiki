@@ -233,8 +233,8 @@ const MotoX = (() => {
         <main>
           <div class="bike-header">
             <div class="breadcrumb"><a href="${BASE}index.html">Home</a> / <a href="${BASE}index.html#browse">Browse</a> / ${escapeHtml(bike.make)} ${escapeHtml(bike.model)}</div>
-            <h1 class="bike-title">${escapeHtml(bike.make)} ${escapeHtml(bike.model)}</h1>
-            <p class="bike-subtitle">${escapeHtml(bike.year || '')} · ${escapeHtml(bike.category || '')} · ${escapeHtml(bike.displacement || '')}</p>
+            <h1 class="bike-title">${escapeHtml(formatBikeTitle(bike))}</h1>
+            <p class="bike-subtitle">${escapeHtml(bike.category || '')}${bike.category && bike.displacement ? ' · ' : ''}${escapeHtml(bike.displacement || '')}</p>
             ${bike.summary ? `<p>${escapeHtml(bike.summary)}</p>` : ''}
           </div>
           ${adTop ? `<div class="ad-slot">${adTop}</div>` : ''}
@@ -248,6 +248,11 @@ const MotoX = (() => {
     `;
   }
 
+  function formatBikeTitle(bike) {
+    const name = `${bike.make || ''} ${bike.model || ''}`.trim();
+    return bike.year ? `${name} (${bike.year})` : name;
+  }
+
   function getPopularMotorcycles(motorcycles, settings) {
     const popular = settings?.popular_models;
     if (!popular || popular.enabled === false) return [];
@@ -259,8 +264,8 @@ const MotoX = (() => {
     return `
       <a href="${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}" class="bike-card">
         <span class="bike-make">${escapeHtml(bike.make)}</span>
-        <h3 class="bike-model">${escapeHtml(bike.model)}</h3>
-        <span class="bike-meta">${escapeHtml(bike.year || '')} · ${escapeHtml(bike.displacement || '')}</span>
+        <h3 class="bike-model">${escapeHtml(bike.model)}${bike.year ? ` <span class="bike-year">(${escapeHtml(bike.year)})</span>` : ''}</h3>
+        <span class="bike-meta">${escapeHtml(bike.displacement || '')}${bike.category ? ` · ${escapeHtml(bike.category)}` : ''}</span>
         <div class="bike-tags">${(bike.tags || []).slice(0, 4).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>
       </a>
     `;
@@ -276,6 +281,7 @@ const MotoX = (() => {
     getMotorcycleById,
     getPageBySlug,
     getPopularMotorcycles,
+    formatBikeTitle,
     renderBikeCard,
     renderAdSlot,
     escapeHtml,
