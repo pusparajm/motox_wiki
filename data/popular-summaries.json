@@ -16,7 +16,9 @@
       ],
       "summary": "Lightweight single-cylinder streetfighter with premium components.",
       "published": true,
-      "model_group": "ktm-390-duke"
+      "model_group": "ktm-390-duke",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     },
     {
       "id": "honda-cbr600rr-2013",
@@ -32,7 +34,9 @@
         "inline-4"
       ],
       "summary": "Track-focused 600cc supersport with high-revving inline-four.",
-      "published": true
+      "published": true,
+      "oil_capacity": "3.2 L (3.4 US qt)",
+      "oil_type": "SAE 10W-30, API SJ or Pro Honda GN4"
     },
     {
       "id": "kawasaki-ninja-zx-10r",
@@ -47,7 +51,9 @@
         "10r"
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
-      "published": true
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     },
     {
       "id": "ktm-rc-390",
@@ -63,7 +69,9 @@
         "single"
       ],
       "summary": "Lightweight single-cylinder streetfighter with premium components.",
-      "published": true
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     },
     {
       "id": "royal-enfield-himalayan-450",
@@ -78,7 +86,9 @@
         "sherpa"
       ],
       "summary": "Lightweight single-cylinder streetfighter with premium components.",
-      "published": true
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     },
     {
       "id": "kawasaki-z900",
@@ -93,7 +103,9 @@
         "kawasaki"
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
-      "published": true
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     },
     {
       "id": "ktm-adventure-390-2026-present-india",
@@ -113,7 +125,9 @@
       ],
       "summary": "Lightweight single-cylinder streetfighter with premium components.",
       "published": true,
-      "model_group": "ktm-adventure-390-2025-present-global"
+      "model_group": "ktm-adventure-390-2025-present-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     },
     {
       "id": "ducati-959-panigale-2016-2019",
@@ -130,7 +144,9 @@
         "ducati 959"
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
-      "published": true
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     },
     {
       "id": "hero-xpulse-200-4v-2022-present-global",
@@ -147,7 +163,9 @@
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
       "published": true,
-      "model_group": "hero-xpulse-200-4v-2022-present-global"
+      "model_group": "hero-xpulse-200-4v-2022-present-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     },
     {
       "id": "hero-xpulse-210-2025-present-global",
@@ -164,7 +182,9 @@
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
       "published": true,
-      "model_group": "hero-xpulse-210-2025-present-global"
+      "model_group": "hero-xpulse-210-2025-present-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     },
     {
       "id": "ducati-panigale-v2-2020-2024",
@@ -181,7 +201,9 @@
         "ducati v2"
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
-      "published": true
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     }
   ]
 }

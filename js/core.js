@@ -333,13 +333,30 @@ const MotoX = (() => {
     return Number.isFinite(size) && size > 0 ? size : 8;
   }
 
+  function getOilField(bike, key) {
+    if (key === 'capacity' && bike.oil_capacity) return bike.oil_capacity;
+    if (key === 'type' && bike.oil_type) return bike.oil_type;
+    const fields = bike.sections?.engine_oil?.fields || [];
+    const field = fields.find(item => item.key === key);
+    return field?.value || '';
+  }
+
   function renderBikeCard(bike) {
+    const capacity = getOilField(bike, 'capacity');
+    const oilType = getOilField(bike, 'type');
+    const oilParts = [];
+    if (capacity) oilParts.push(`<span class="oil-cap">${escapeHtml(capacity)}</span>`);
+    if (oilType) oilParts.push(`<span class="oil-type">${escapeHtml(oilType)}</span>`);
+    const oilHtml = oilParts.length
+      ? `<div class="bike-oil">${oilParts.join('<span class="oil-sep"> · </span>')}</div>`
+      : '';
+
     return `
       <a href="${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}" class="bike-card">
         <span class="bike-make">${escapeHtml(bike.make)}</span>
         <h3 class="bike-model">${escapeHtml(bike.model)}${bikeVariantLabel(bike) ? ` <span class="bike-variant">(${escapeHtml(bikeVariantLabel(bike))})</span>` : ''}</h3>
         <span class="bike-meta">${escapeHtml(bike.displacement || '')}${bike.category ? ` · ${escapeHtml(bike.category)}` : ''}</span>
-        <div class="bike-tags">${(bike.tags || []).slice(0, 4).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>
+        ${oilHtml}
       </a>
     `;
   }
