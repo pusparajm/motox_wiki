@@ -1,0 +1,11 @@
+{
+  "page": {
+    "id": "oil-grades",
+    "title": "Motorcycle Oil Grades Explained",
+    "slug": "oil-grades",
+    "published": true,
+    "order": 2,
+    "summary": "Understanding SAE viscosity ratings, JASO MA/MA2, and API classifications.",
+    "content": "<h2>SAE Viscosity</h2><p>The first number (e.g. <strong>10</strong>W-40) indicates cold-start viscosity. The W means Winter. Lower numbers flow better in cold conditions.</p><p>The second number (e.g. 10W-<strong>40</strong>) indicates viscosity at operating temperature. Higher numbers provide thicker protection at high heat.</p><h2>JASO Certification</h2><ul><li><strong>JASO MA</strong> — Standard for wet-clutch motorcycles. No friction modifiers that cause clutch slip.</li><li><strong>JASO MA2</strong> — Higher friction performance for modern bikes. Preferred for most current motorcycles.</li><li><strong>JASO MB</strong> — For scooters with CVT. Not suitable for manual-clutch bikes.</li></ul><h2>API Rating</h2><p>Look for API SG or higher. Avoid automotive oils with energy-conserving labels — they contain friction modifiers harmful to wet clutches.</p>"
+  }
+}

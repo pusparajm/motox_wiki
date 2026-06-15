@@ -1,0 +1,136 @@
+{
+  "motorcycles": [
+    {
+      "id": "ktm-390-duke-2021",
+      "make": "KTM",
+      "model": "390 Duke",
+      "year": "2024–Present",
+      "region": "Global",
+      "category": "Naked",
+      "displacement": "399 cc",
+      "tags": [
+        "ktm",
+        "390-duke",
+        "naked",
+        "single"
+      ],
+      "summary": "Lightweight single-cylinder streetfighter with premium components.",
+      "published": true,
+      "model_group": "ktm-390-duke"
+    },
+    {
+      "id": "yamaha-mt-07-2018",
+      "make": "Yamaha",
+      "model": "MT-07",
+      "year": "2018–2024",
+      "category": "Naked",
+      "displacement": "689 cc",
+      "tags": [
+        "yamaha",
+        "mt-07",
+        "cp2",
+        "naked",
+        "twin"
+      ],
+      "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",
+      "published": true
+    },
+    {
+      "id": "honda-cbr600rr-2013",
+      "make": "Honda",
+      "model": "CBR600RR",
+      "year": "2013–2017",
+      "category": "Supersport",
+      "displacement": "599 cc",
+      "tags": [
+        "honda",
+        "cbr600rr",
+        "supersport",
+        "inline-4"
+      ],
+      "summary": "Track-focused 600cc supersport with high-revving inline-four.",
+      "published": true
+    },
+    {
+      "id": "kawasaki-ninja-zx-10r",
+      "make": "Kawasaki",
+      "model": "Ninja ZX-10R",
+      "year": "2021-2025",
+      "category": "Supersport",
+      "displacement": "998",
+      "tags": [
+        "zx10r",
+        "ninja",
+        "10r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true
+    },
+    {
+      "id": "ktm-rc-390",
+      "make": "KTM",
+      "model": "RC 390",
+      "year": "2021–2024",
+      "category": "Naked",
+      "displacement": "373 cc",
+      "tags": [
+        "ktm",
+        "390-duke",
+        "naked",
+        "single"
+      ],
+      "summary": "Lightweight single-cylinder streetfighter with premium components.",
+      "published": true
+    },
+    {
+      "id": "royal-enfield-himalayan-450",
+      "make": "Royal Enfield",
+      "model": "Himalayan 450",
+      "year": "2023-Present",
+      "category": "Adventure",
+      "displacement": "452",
+      "tags": [
+        "adventure",
+        "himalayan",
+        "sherpa"
+      ],
+      "summary": "Lightweight single-cylinder streetfighter with premium components.",
+      "published": true
+    },
+    {
+      "id": "kawasaki-z900",
+      "make": "Kawasaki",
+      "model": "Z900",
+      "year": "2017-Present",
+      "category": "Naked",
+      "displacement": "948",
+      "tags": [
+        "z900",
+        "naked",
+        "kawasaki"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true
+    },
+    {
+      "id": "ktm-adventure-390-2026-present-india",
+      "make": "KTM",
+      "model": "Adventure 390",
+      "year": "2026-Present",
+      "region": "India",
+      "category": "Adventure",
+      "displacement": "349 cc",
+      "tags": [
+        "ktm",
+        "350-adventure",
+        "adventure",
+        "350",
+        "390",
+        "390-adventure"
+      ],
+      "summary": "Lightweight single-cylinder streetfighter with premium components.",
+      "published": true,
+      "model_group": "ktm-adventure-390-2025-present-global"
+    }
+  ]
+}

@@ -789,6 +789,24 @@ footer.site-footer {
   color: var(--pico-muted-color);
 }
 
+.browse-pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.browse-showing-count {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--pico-muted-color);
+}
+
+#browse-load-more {
+  min-width: 10rem;
+}
+
 .loading {
   text-align: center;
   padding: 1rem;

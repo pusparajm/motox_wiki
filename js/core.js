@@ -28,14 +28,67 @@ const MotoX = (() => {
     return fetchJSON('settings.json');
   }
 
-  async function loadMotorcycles() {
-    const data = await fetchJSON('motorcycles.json');
+  async function loadMotorcycleIndex() {
+    const data = await fetchJSON('motorcycles-index.json');
     return (data.motorcycles || []).filter(m => m.published !== false);
   }
 
+  async function loadMotorcycle(id) {
+    if (!id) return null;
+    const data = await fetchJSON(`motorcycles/${encodeURIComponent(id)}.json`);
+    const bike = data.motorcycle || data;
+    return bike?.published === false ? null : bike;
+  }
+
+  async function loadPopularSummaries(settings) {
+    const popular = settings?.popular_models;
+    if (!popular || popular.enabled === false) return [];
+    try {
+      const data = await fetchJSON('popular-summaries.json');
+      return data.motorcycles || [];
+    } catch {
+      const index = await loadMotorcycleIndex();
+      return getPopularMotorcycles(index, settings);
+    }
+  }
+
+  async function loadPagesIndex() {
+    const data = await fetchJSON('pages-index.json');
+    return (data.pages || [])
+      .filter(p => p.published !== false)
+      .sort((a, b) => (a.order || 0) - (b.order || 0));
+  }
+
+  async function loadPage(slug) {
+    if (!slug) return null;
+    const data = await fetchJSON(`pages/${encodeURIComponent(slug)}.json`);
+    const page = data.page || data;
+    return page?.published === false ? null : page;
+  }
+
+  async function loadSearchIndex() {
+    const data = await fetchJSON('search-index.json');
+    return data.items || [];
+  }
+
+  /** @deprecated Use loadMotorcycleIndex or loadMotorcycle for public pages. */
+  async function loadMotorcycles() {
+    try {
+      return await loadMotorcycleIndex();
+    } catch {
+      const data = await fetchJSON('motorcycles.json');
+      return (data.motorcycles || []).filter(m => m.published !== false);
+    }
+  }
+
+  /** @deprecated Use loadPagesIndex or loadPage for public pages. */
   async function loadPages() {
-    const data = await fetchJSON('pages.json');
-    return (data.pages || []).filter(p => p.published !== false).sort((a, b) => (a.order || 0) - (b.order || 0));
+    try {
+      return await loadPagesIndex();
+    } catch {
+      const data = await fetchJSON('pages.json');
+      return (data.pages || []).filter(p => p.published !== false).sort((a, b) => (a.order || 0) - (b.order || 0));
+    }
   }
 
   async function loadAllSearchData() {
@@ -265,6 +318,11 @@ const MotoX = (() => {
     return (popular.ids || []).map(id => bikeMap.get(id)).filter(Boolean);
   }
 
+  function getPopularPageSize(settings) {
+    const size = parseInt(settings?.popular_models?.page_size, 10);
+    return Number.isFinite(size) && size > 0 ? size : 8;
+  }
+
   function renderBikeCard(bike) {
     return `
       <a href="${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}" class="bike-card">
@@ -280,12 +338,19 @@ const MotoX = (() => {
     BASE,
     fetchJSON,
     loadSettings,
+    loadMotorcycleIndex,
+    loadMotorcycle,
+    loadPopularSummaries,
+    loadPagesIndex,
+    loadPage,
+    loadSearchIndex,
     loadMotorcycles,
     loadPages,
     loadAllSearchData,
     getMotorcycleById,
     getPageBySlug,
     getPopularMotorcycles,
+    getPopularPageSize,
     bikeVariantLabel,
     formatBikeTitle,
     renderBikeCard,

@@ -1,0 +1,11 @@
+{
+  "page": {
+    "id": "torque-conversion",
+    "title": "Torque Unit Conversion",
+    "slug": "torque-conversion",
+    "published": true,
+    "order": 1,
+    "summary": "Quick reference for converting between Nm, kgf·m, ft·lb, and in·lb.",
+    "content": "<h2>Torque Conversion Chart</h2><table><thead><tr><th>Nm</th><th>kgf·m</th><th>ft·lb</th><th>in·lb</th></tr></thead><tbody><tr><td>1</td><td>0.10</td><td>0.74</td><td>8.85</td></tr><tr><td>5</td><td>0.51</td><td>3.69</td><td>44.3</td></tr><tr><td>10</td><td>1.02</td><td>7.38</td><td>88.5</td></tr><tr><td>20</td><td>2.04</td><td>14.8</td><td>177</td></tr><tr><td>30</td><td>3.06</td><td>22.1</td><td>266</td></tr><tr><td>50</td><td>5.10</td><td>36.9</td><td>443</td></tr><tr><td>100</td><td>10.2</td><td>73.8</td><td>885</td></tr></tbody></table><p><strong>Formula:</strong> Nm × 0.7376 = ft·lb | Nm × 8.851 = in·lb | Nm × 0.10197 = kgf·m</p>"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "motorcycle": {
+    "id": "kawasaki-versys-1000-2019-2021-global",
+    "make": "Kawasaki",
+    "model": "VERSYS 1000",
+    "year": "2019-2021",
+    "region": "Global",
+    "model_group": "kawasaki-versys-1000-2012-2015-global",
+    "category": "Sports Tourer",
+    "displacement": "1049cc",
+    "published": true,
+    "tags": [
+      "versys",
+      "versys1000",
+      "kawasaki"
+    ],
+    "summary": "Lightweight four-cylinder supersport from japan",
+    "sections": {
+      "engine_oil": {
+        "label": "Engine Oil",
+        "fields": [
+          {
+            "key": "capacity",
+            "label": "Oil Capacity (with filter)",
+            "value": "2.0 L (2.1 US qt)"
+          },
+          {
+            "key": "type",
+            "label": "Recommended Grade",
+            "value": "SAE 15W-50, JASO MA2"
+          },
+          {
+            "key": "filter",
+            "label": "Oil Filter",
+            "value": "KTM 78938015010"
+          },
+          {
+            "key": "interval",
+            "label": "Change Interval",
+            "value": "Every 15,000 km / 9,000 mi"
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "table": [
+          {
+            "component": "Oil drain plug",
+            "torque": "25 Nm",
+            "notes": "M12×1.5"
+          },
+          {
+            "component": "Oil filter cover",
+            "torque": "10 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Front axle nut",
+            "torque": "65 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Rear axle nut",
+            "torque": "90 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Triple clamp bolts",
+            "torque": "20 Nm",
+            "notes": ""
+          }
+        ]
+      },
+      "fork_seals": {
+        "label": "Fork Seals",
+        "fields": [
+          {
+            "key": "size",
+            "label": "Seal Dimensions",
+            "value": "43 mm × 55 mm × 9.5 mm"
+          },
+          {
+            "key": "oil",
+            "label": "Fork Oil",
+            "value": "WP AER 46, 480 ml per leg"
+          },
+          {
+            "key": "part",
+            "label": "OEM Part Number",
+            "value": "48601079S1"
+          }
+        ]
+      },
+      "fasteners": {
+        "label": "Bolt & Nut Dimensions",
+        "table": [
+          {
+            "name": "Oil drain plug",
+            "thread": "M12×1.5",
+            "length": "18 mm",
+            "head": "Hex 14 mm",
+            "torque": "25 Nm"
+          },
+          {
+            "name": "Rear sprocket nut",
+            "thread": "M18×1.5",
+            "length": "—",
+            "head": "Hex 27 mm",
+            "torque": "90 Nm"
+          }
+        ]
+      },
+      "brake_fluid": {
+        "label": "Brake Fluid",
+        "fields": [
+          {
+            "key": "type",
+            "label": "Type",
+            "value": "DOT 4"
+          },
+          {
+            "key": "front",
+            "label": "Front Reservoir",
+            "value": "Brembo M4.32 caliper"
+          },
+          {
+            "key": "interval",
+            "label": "Change Interval",
+            "value": "Every 2 years"
+          }
+        ]
+      }
+    },
+    "custom_sections": [
+      {
+        "title": "Valve Clearance",
+        "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+      }
+    ]
+  }
+}

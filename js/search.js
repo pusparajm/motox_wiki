@@ -3,7 +3,9 @@
  */
 const MotoXSearch = (() => {
   let index = [];
+  let indexPromise = null;
   let debounceTimer = null;
+  let searchSettings = { minChars: 2, maxResults: 20 };
 
   function buildIndex(motorcycles, pages) {
     const items = [];
@@ -79,13 +81,33 @@ const MotoXSearch = (() => {
     return score;
   }
 
-  function search(query, maxResults = 20) {
-    if (!query || query.length < 2) return [];
+  function search(query, maxResults = searchSettings.maxResults) {
+    if (!query || query.length < searchSettings.minChars) return [];
     return index
       .map(item => ({ ...item, score: scoreItem(item, query) }))
       .filter(item => item.score > 0)
       .sort((a, b) => b.score - a.score)
       .slice(0, maxResults);
+  }
+
+  async function ensureIndex() {
+    if (index.length) return index;
+    if (!indexPromise) {
+      indexPromise = (async () => {
+        try {
+          index = await MotoX.loadSearchIndex();
+        } catch {
+          const { motorcycles, pages, settings } = await MotoX.loadAllSearchData();
+          searchSettings = {
+            minChars: settings.search?.minChars || 2,
+            maxResults: settings.search?.maxResults || 20
+          };
+          index = buildIndex(motorcycles, pages);
+        }
+        return index;
+      })();
+    }
+    return indexPromise;
   }
 
   function renderResults(results, dropdown, base) {
@@ -109,28 +131,43 @@ const MotoXSearch = (() => {
     dropdown.innerHTML = '';
   }
 
-  async function init() {
+  async function init(options = {}) {
     const input = document.getElementById('global-search');
     const dropdown = document.getElementById('search-dropdown');
     if (!input || !dropdown) return;
 
-    const { motorcycles, pages, settings } = await MotoX.loadAllSearchData();
-    index = buildIndex(motorcycles, pages);
-    const minChars = settings.search?.minChars || 2;
-    const maxResults = settings.search?.maxResults || 20;
+    const lazy = options.lazy !== false;
+    if (!lazy) {
+      await ensureIndex();
+    }
+
+    if (options.settings) {
+      searchSettings = {
+        minChars: options.settings.search?.minChars || 2,
+        maxResults: options.settings.search?.maxResults || 20
+      };
+    }
+
+    async function runSearch() {
+      await ensureIndex();
+      const q = input.value.trim();
+      if (q.length < searchSettings.minChars) {
+        closeDropdown(dropdown);
+        input.setAttribute('aria-expanded', 'false');
+        return;
+      }
+      const results = search(q, searchSettings.maxResults);
+      renderResults(results, dropdown, MotoX.BASE);
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    input.addEventListener('focus', () => {
+      if (lazy) ensureIndex();
+    });
 
     input.addEventListener('input', () => {
       clearTimeout(debounceTimer);
-      debounceTimer = setTimeout(() => {
-        const q = input.value.trim();
-        if (q.length < minChars) {
-          closeDropdown(dropdown);
-          return;
-        }
-        const results = search(q, maxResults);
-        renderResults(results, dropdown, MotoX.BASE);
-        input.setAttribute('aria-expanded', 'true');
-      }, 150);
+      debounceTimer = setTimeout(runSearch, 150);
     });
 
     input.addEventListener('keydown', e => {
@@ -140,7 +177,7 @@ const MotoXSearch = (() => {
       }
       if (e.key === 'Enter') {
         const q = input.value.trim();
-        if (q.length >= minChars) {
+        if (q.length >= searchSettings.minChars) {
           window.location.href = `${MotoX.BASE}search.html?q=${encodeURIComponent(q)}`;
         }
       }
@@ -154,5 +191,5 @@ const MotoXSearch = (() => {
     });
   }
 
-  return { init, search, buildIndex };
+  return { init, search, buildIndex, ensureIndex };
 })();

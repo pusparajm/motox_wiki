@@ -6,7 +6,7 @@
   <meta name="description" content="MotoX Wiki — Motorcycle technical reference with torque specs, oil quantities, fork seals, and fastener dimensions.">
   <title>MotoX Wiki — Motorcycle Technical Reference</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=3">
+  <link rel="stylesheet" href="css/main.css?v=4">
 </head>
 <body>
   <header id="site-header" class="site-header"></header>
@@ -26,35 +26,46 @@
       <div id="bike-grid" class="bike-grid">
         <div class="loading">Loading motorcycles…</div>
       </div>
+      <div id="browse-pagination" class="browse-pagination" hidden>
+        <button type="button" id="browse-load-more" class="secondary outline">Load more</button>
+        <p id="browse-showing-count" class="browse-showing-count" aria-live="polite"></p>
+      </div>
     </section>
   </main>
 
   <footer id="site-footer" class="site-footer"></footer>
 
-  <script src="js/core.js?v=6"></script>
-  <script src="js/search.js?v=4"></script>
+  <script src="js/core.js?v=8"></script>
+  <script src="js/search.js?v=5"></script>
   <script>
     let allBikes = [];
+    let activeList = [];
+    let pageSize = 8;
+    let visibleCount = 0;
 
     async function init() {
       const settings = await MotoX.initLayout('index.html');
-      MotoXSearch.init();
-
-      const allPublished = await MotoX.loadMotorcycles();
-      const bikes = MotoX.getPopularMotorcycles(allPublished, settings);
-      allBikes = bikes;
+      MotoXSearch.init({ lazy: true, settings });
 
       const popular = settings?.popular_models || {};
+      pageSize = MotoX.getPopularPageSize(settings);
+
+      const bikes = await MotoX.loadPopularSummaries(settings);
+      allBikes = bikes;
+      activeList = bikes;
+      visibleCount = Math.min(pageSize, bikes.length);
+
       if (popular.enabled !== false && popular.title) {
         document.getElementById('browse-title').textContent = popular.title;
       }
 
       populateFilters(bikes);
-      renderGrid(bikes);
+      renderGrid();
 
       document.getElementById('filter-search').addEventListener('input', applyFilters);
       document.getElementById('filter-make').addEventListener('change', applyFilters);
       document.getElementById('filter-category').addEventListener('change', applyFilters);
+      document.getElementById('browse-load-more').addEventListener('click', loadMore);
     }
 
     function populateFilters(bikes) {
@@ -83,25 +94,48 @@
       const make = document.getElementById('filter-make').value;
       const category = document.getElementById('filter-category').value;
 
-      const filtered = allBikes.filter(b => {
+      activeList = allBikes.filter(b => {
         const matchQ = !q || `${b.make} ${b.model} ${b.year || ''} ${b.region || ''}`.toLowerCase().includes(q) || (b.tags || []).some(t => t.includes(q));
         const matchMake = !make || b.make === make;
         const matchCat = !category || b.category === category;
         return matchQ && matchMake && matchCat;
       });
 
-      renderGrid(filtered, true);
+      visibleCount = Math.min(pageSize, activeList.length);
+      renderGrid(true);
     }
 
-    function renderGrid(bikes, filtered = false) {
+    function loadMore() {
+      visibleCount = Math.min(visibleCount + pageSize, activeList.length);
+      renderGrid();
+    }
+
+    function renderGrid(filtered = false) {
       const grid = document.getElementById('bike-grid');
-      if (!bikes.length) {
+      const pagination = document.getElementById('browse-pagination');
+      const loadMoreBtn = document.getElementById('browse-load-more');
+      const countEl = document.getElementById('browse-showing-count');
+
+      if (!activeList.length) {
         const msg = filtered ? 'No motorcycles match your filters.' : 'No motorcycles to show yet.';
         grid.innerHTML = `<div class="empty-state"><p>${msg}</p></div>`;
+        pagination.hidden = true;
         return;
       }
 
-      grid.innerHTML = bikes.map(b => MotoX.renderBikeCard(b)).join('');
+      const visible = activeList.slice(0, visibleCount);
+      grid.innerHTML = visible.map(b => MotoX.renderBikeCard(b)).join('');
+
+      const hasMore = visibleCount < activeList.length;
+      if (activeList.length <= pageSize) {
+        pagination.hidden = true;
+      } else {
+        pagination.hidden = false;
+        loadMoreBtn.hidden = !hasMore;
+        const nextBatch = Math.min(pageSize, activeList.length - visibleCount);
+        loadMoreBtn.textContent = hasMore ? `Load more (${nextBatch})` : 'Load more';
+        countEl.textContent = `Showing ${visible.length} of ${activeList.length}`;
+      }
     }
 
     init();

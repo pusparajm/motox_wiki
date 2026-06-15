@@ -1,0 +1,11 @@
+{
+  "page": {
+    "id": "contributing",
+    "title": "Contributing to MotoX Wiki",
+    "slug": "contributing",
+    "published": true,
+    "order": 3,
+    "summary": "How to add or update motorcycle specifications.",
+    "content": "<h2>How to Contribute</h2><p>MotoX Wiki is community-maintained. You can contribute by:</p><ol><li>Forking the repository on GitHub</li><li>Editing the JSON files in <code>data/</code> (motorcycles, pages, settings)</li><li>Committing changes and opening a pull request</li></ol><h2>Data Guidelines</h2><ul><li>Always cite the source (service manual, OEM documentation)</li><li>Include year ranges when specs vary by model year</li><li>Use standard units (Nm for torque, L for volume) with conversions in parentheses</li><li>Mark unverified data in the notes field</li></ul>"
+  }
+}

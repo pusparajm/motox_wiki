@@ -68,6 +68,7 @@
   "popular_models": {
     "enabled": true,
     "title": "Popular Models",
+    "page_size": 8,
     "ids": [
       "ktm-390-duke-2021",
       "yamaha-mt-07-2018",

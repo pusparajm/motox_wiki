@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "id": "torque-conversion",
+      "title": "Torque Unit Conversion",
+      "slug": "torque-conversion",
+      "summary": "Quick reference for converting between Nm, kgf·m, ft·lb, and in·lb.",
+      "order": 1,
+      "published": true
+    },
+    {
+      "id": "oil-grades",
+      "title": "Motorcycle Oil Grades Explained",
+      "slug": "oil-grades",
+      "summary": "Understanding SAE viscosity ratings, JASO MA/MA2, and API classifications.",
+      "order": 2,
+      "published": true
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing to MotoX Wiki",
+      "slug": "contributing",
+      "summary": "How to add or update motorcycle specifications.",
+      "order": 3,
+      "published": true
+    }
+  ]
+}
