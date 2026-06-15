@@ -1,18 +1,18 @@
 {
   "motorcycle": {
-    "id": "ducati-panigale-v4-2025-present",
-    "make": "Ducati",
-    "model": "Panigale V4",
-    "year": "2025-Present",
+    "id": "aprilia-rs-457-2023-present-global",
+    "make": "Aprilia",
+    "model": "RS 457",
+    "year": "2023-Present",
+    "region": "Global",
+    "model_group": "aprilia-rs-457",
     "category": "Supersport",
-    "displacement": "1103cc",
+    "displacement": "457 cc",
     "published": true,
     "tags": [
-      "ducati",
-      "v4",
-      "panigale",
-      "panigale v4",
-      "ducati v4"
+      "aprillia",
+      "457",
+      "rs457"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {
@@ -136,7 +136,6 @@
         "title": "Valve Clearance",
         "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
       }
-    ],
-    "model_group": "ducati-panigale-v4-2025-present"
+    ]
   }
 }

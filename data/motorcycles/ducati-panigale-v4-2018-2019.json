@@ -136,6 +136,7 @@
         "title": "Valve Clearance",
         "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
       }
-    ]
+    ],
+    "model_group": "ducati-panigale-v4-2025-present"
   }
 }

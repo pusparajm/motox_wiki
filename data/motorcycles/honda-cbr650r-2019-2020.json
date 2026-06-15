@@ -1,0 +1,129 @@
+{
+  "motorcycle": {
+    "id": "honda-cbr650r-2019-2020",
+    "make": "Honda",
+    "model": "CBR650R",
+    "year": "2019-2020",
+    "region": "",
+    "model_group": "honda-cbr650r-2024-present-global",
+    "category": "Supersport",
+    "displacement": "648 cc",
+    "published": true,
+    "tags": [
+      "honda",
+      "cbr650",
+      "supersport",
+      "inline-4"
+    ],
+    "summary": "Track-focused 600cc supersport with high-revving inline-four.",
+    "sections": {
+      "engine_oil": {
+        "label": "Engine Oil",
+        "fields": [
+          {
+            "key": "capacity",
+            "label": "Oil Capacity (with filter)",
+            "value": "3.2 L (3.4 US qt)"
+          },
+          {
+            "key": "type",
+            "label": "Recommended Grade",
+            "value": "SAE 10W-30, API SJ or Pro Honda GN4"
+          },
+          {
+            "key": "filter",
+            "label": "Oil Filter",
+            "value": "Honda 15400-PLM-A01"
+          },
+          {
+            "key": "interval",
+            "label": "Change Interval",
+            "value": "Every 12,000 km / 7,500 mi"
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "table": [
+          {
+            "component": "Oil drain plug",
+            "torque": "30 Nm (3.0 kgf·m)",
+            "notes": "M14×1.5"
+          },
+          {
+            "component": "Oil filter",
+            "torque": "Hand tight + 3/4 turn",
+            "notes": ""
+          },
+          {
+            "component": "Front axle nut",
+            "torque": "108 Nm (11.0 kgf·m)",
+            "notes": ""
+          },
+          {
+            "component": "Rear axle nut",
+            "torque": "100 Nm (10.2 kgf·m)",
+            "notes": ""
+          },
+          {
+            "component": "Caliper mounting bolts",
+            "torque": "35 Nm (3.5 kgf·m)",
+            "notes": ""
+          },
+          {
+            "component": "Spark plugs",
+            "torque": "18 Nm (1.8 kgf·m)",
+            "notes": "NGK IMR9C-9HES"
+          }
+        ]
+      },
+      "fork_seals": {
+        "label": "Fork Seals",
+        "fields": [
+          {
+            "key": "size",
+            "label": "Seal Dimensions",
+            "value": "43 mm × 55 mm × 11 mm"
+          },
+          {
+            "key": "oil",
+            "label": "Fork Oil",
+            "value": "Honda SS-8, 460 ml per leg"
+          },
+          {
+            "key": "part",
+            "label": "OEM Part Number",
+            "value": "51490-MFJ-D01"
+          }
+        ]
+      },
+      "fasteners": {
+        "label": "Bolt & Nut Dimensions",
+        "table": [
+          {
+            "name": "Oil drain plug",
+            "thread": "M14×1.5",
+            "length": "20 mm",
+            "head": "Hex 17 mm",
+            "torque": "30 Nm"
+          },
+          {
+            "name": "Fairing bolt (upper)",
+            "thread": "M6×1.0",
+            "length": "20 mm",
+            "head": "Hex 10 mm",
+            "torque": "9.8 Nm"
+          },
+          {
+            "name": "Rear sprocket nut",
+            "thread": "M20×1.5",
+            "length": "—",
+            "head": "Hex 27 mm",
+            "torque": "108 Nm"
+          }
+        ]
+      }
+    },
+    "custom_sections": []
+  }
+}

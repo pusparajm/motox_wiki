@@ -43,13 +43,23 @@ const MotoX = (() => {
   async function loadPopularSummaries(settings) {
     const popular = settings?.popular_models;
     if (!popular || popular.enabled === false) return [];
+
+    const ids = popular.ids || [];
+    if (!ids.length) return [];
+
+    const summaryMap = new Map();
+
     try {
-      const data = await fetchJSON('popular-summaries.json');
-      return data.motorcycles || [];
-    } catch {
+      const cached = await fetchJSON('popular-summaries.json');
+      (cached.motorcycles || []).forEach(m => summaryMap.set(m.id, m));
+    } catch { /* optional cache file */ }
+
+    if (ids.some(id => !summaryMap.has(id))) {
       const index = await loadMotorcycleIndex();
-      return getPopularMotorcycles(index, settings);
+      index.forEach(m => summaryMap.set(m.id, m));
     }
+
+    return ids.map(id => summaryMap.get(id)).filter(Boolean);
   }
 
   async function loadPagesIndex() {

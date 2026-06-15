@@ -19,23 +19,6 @@
       "model_group": "ktm-390-duke"
     },
     {
-      "id": "yamaha-mt-07-2018",
-      "make": "Yamaha",
-      "model": "MT-07",
-      "year": "2018–2024",
-      "category": "Naked",
-      "displacement": "689 cc",
-      "tags": [
-        "yamaha",
-        "mt-07",
-        "cp2",
-        "naked",
-        "twin"
-      ],
-      "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",
-      "published": true
-    },
-    {
       "id": "honda-cbr600rr-2013",
       "make": "Honda",
       "model": "CBR600RR",
@@ -131,6 +114,74 @@
       "summary": "Lightweight single-cylinder streetfighter with premium components.",
       "published": true,
       "model_group": "ktm-adventure-390-2025-present-global"
+    },
+    {
+      "id": "ducati-959-panigale-2016-2019",
+      "make": "Ducati",
+      "model": "959 Panigale",
+      "year": "2016-2019",
+      "category": "Supersport",
+      "displacement": "955cc",
+      "tags": [
+        "ducati",
+        "959",
+        "panigale",
+        "panigale 959",
+        "ducati 959"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true
+    },
+    {
+      "id": "hero-xpulse-200-4v-2022-present-global",
+      "make": "Hero",
+      "model": "XPulse 200 4V",
+      "year": "2022-Present",
+      "region": "Global",
+      "category": "Dual Sport",
+      "displacement": "199.7cc",
+      "tags": [
+        "200",
+        "xpulse",
+        "hero"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "hero-xpulse-200-4v-2022-present-global"
+    },
+    {
+      "id": "hero-xpulse-210-2025-present-global",
+      "make": "Hero",
+      "model": "XPulse 210",
+      "year": "2025-Present",
+      "region": "Global",
+      "category": "Dual Sport",
+      "displacement": "210cc",
+      "tags": [
+        "210",
+        "xpulse",
+        "hero"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "hero-xpulse-210-2025-present-global"
+    },
+    {
+      "id": "ducati-panigale-v2-2020-2024",
+      "make": "Ducati",
+      "model": "Panigale V2",
+      "year": "2020-2024",
+      "category": "Supersport",
+      "displacement": "955cc",
+      "tags": [
+        "ducati",
+        "v2",
+        "panigale",
+        "panigale v2",
+        "ducati v2"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true
     }
   ]
 }

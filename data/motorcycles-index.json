@@ -268,7 +268,8 @@
         "ducati v4"
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
-      "published": true
+      "published": true,
+      "model_group": "ducati-panigale-v4-2025-present"
     },
     {
       "id": "ducati-panigale-v4-2020-2022",
@@ -285,7 +286,8 @@
         "ducati v4"
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
-      "published": true
+      "published": true,
+      "model_group": "ducati-panigale-v4-2025-present"
     },
     {
       "id": "ducati-panigale-v4-2022-2023",
@@ -302,7 +304,8 @@
         "ducati v4"
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
-      "published": true
+      "published": true,
+      "model_group": "ducati-panigale-v4-2025-present"
     },
     {
       "id": "ducati-panigale-v4-2024-2024",
@@ -319,7 +322,8 @@
         "ducati v4"
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
-      "published": true
+      "published": true,
+      "model_group": "ducati-panigale-v4-2025-present"
     },
     {
       "id": "ducati-panigale-v4-2025-present",
@@ -336,7 +340,8 @@
         "ducati v4"
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
-      "published": true
+      "published": true,
+      "model_group": "ducati-panigale-v4-2025-present"
     },
     {
       "id": "ducati-959-panigale-2016-2019",
@@ -1026,6 +1031,148 @@
       "summary": "Lightweight single-cylinder streetfighter with premium components.",
       "published": true,
       "model_group": "royal-enfield-hunter-350-2022-present-global"
+    },
+    {
+      "id": "aprilia-rs-457-2023-present-global",
+      "make": "Aprilia",
+      "model": "RS 457",
+      "year": "2023-Present",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "457 cc",
+      "tags": [
+        "aprillia",
+        "457",
+        "rs457"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "aprilia-rs-457"
+    },
+    {
+      "id": "harley-davidson-x440-t-2025-present-global",
+      "make": "Harley-Davidson",
+      "model": "X440 T",
+      "year": "2025-Present",
+      "region": "Global",
+      "category": "Cruiser",
+      "displacement": "440 cc",
+      "tags": [
+        "harley",
+        "440",
+        "x440t"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "aprilia-rs-457"
+    },
+    {
+      "id": "honda-cbr650f-2013-2016-global",
+      "make": "Honda",
+      "model": "CBR650F",
+      "year": "2013-2016",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "648 cc",
+      "tags": [
+        "honda",
+        "cbr650",
+        "supersport",
+        "inline-4"
+      ],
+      "summary": "Track-focused 600cc supersport with high-revving inline-four.",
+      "published": true,
+      "model_group": "honda-cbr650f"
+    },
+    {
+      "id": "honda-cbr650f-2017-2018-global",
+      "make": "Honda",
+      "model": "CBR650F",
+      "year": "2017-2018",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "648 cc",
+      "tags": [
+        "honda",
+        "cbr650",
+        "supersport",
+        "inline-4"
+      ],
+      "summary": "Track-focused 600cc supersport with high-revving inline-four.",
+      "published": true,
+      "model_group": "honda-cbr650f"
+    },
+    {
+      "id": "honda-cbr650r-2019-2020",
+      "make": "Honda",
+      "model": "CBR650R",
+      "year": "2019-2020",
+      "region": "",
+      "category": "Supersport",
+      "displacement": "648 cc",
+      "tags": [
+        "honda",
+        "cbr650",
+        "supersport",
+        "inline-4"
+      ],
+      "summary": "Track-focused 600cc supersport with high-revving inline-four.",
+      "published": true,
+      "model_group": "honda-cbr650r-2024-present-global"
+    },
+    {
+      "id": "honda-cbr650r-2021-2023-global",
+      "make": "Honda",
+      "model": "CBR650R",
+      "year": "2021-2023",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "648 cc",
+      "tags": [
+        "honda",
+        "cbr650",
+        "supersport",
+        "inline-4"
+      ],
+      "summary": "Track-focused 600cc supersport with high-revving inline-four.",
+      "published": true,
+      "model_group": "honda-cbr650r-2024-present-global"
+    },
+    {
+      "id": "honda-cbr650r-2024-present-global",
+      "make": "Honda",
+      "model": "CBR650R",
+      "year": "2024-Present",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "648 cc",
+      "tags": [
+        "honda",
+        "cbr650",
+        "supersport",
+        "inline-4"
+      ],
+      "summary": "Track-focused 600cc supersport with high-revving inline-four.",
+      "published": true,
+      "model_group": "honda-cbr650r-2024-present-global"
+    },
+    {
+      "id": "honda-cb650f-2013-2016",
+      "make": "Honda",
+      "model": "CB650F",
+      "year": "2013-2016",
+      "region": "",
+      "category": "naked",
+      "displacement": "648 cc",
+      "tags": [
+        "honda",
+        "cbr650",
+        "supersport",
+        "inline-4"
+      ],
+      "summary": "Track-focused 600cc supersport with high-revving inline-four.",
+      "published": true,
+      "model_group": "honda-cb650f-2013-2016"
     }
   ]
 }
