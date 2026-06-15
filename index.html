@@ -6,14 +6,13 @@
   <meta name="description" content="MotoX Wiki — Motorcycle technical reference with torque specs, oil quantities, fork seals, and fastener dimensions.">
   <title>MotoX Wiki — Motorcycle Technical Reference</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=5">
+  <link rel="stylesheet" href="css/main.css?v=6">
 </head>
 <body>
   <header id="site-header" class="site-header"></header>
 
   <main class="container">
     <section id="browse">
-      <h2 id="browse-title">Browse Motorcycles</h2>
       <div class="filter-bar">
         <input type="search" id="filter-search" placeholder="Filter by name…" aria-label="Filter motorcycles">
         <select id="filter-make" aria-label="Filter by make">
@@ -40,24 +39,22 @@
   <script>
     let allBikes = [];
     let activeList = [];
-    let pageSize = 8;
-    let visibleCount = 0;
+    let displayedRows = 1;
+    let layoutSyncNeeded = true;
+    let resizeTimer = null;
+
+    const EST_CARD_HEIGHT = 78;
+    const PAGINATION_RESERVE = 96;
 
     async function init() {
       const settings = await MotoX.initLayout('index.html');
       MotoXSearch.init({ lazy: true, settings });
 
-      const popular = settings?.popular_models || {};
-      pageSize = MotoX.getPopularPageSize(settings);
-
       const bikes = await MotoX.loadPopularSummaries(settings);
       allBikes = bikes;
       activeList = bikes;
-      visibleCount = Math.min(pageSize, bikes.length);
-
-      if (popular.enabled !== false && popular.title) {
-        document.getElementById('browse-title').textContent = popular.title;
-      }
+      layoutSyncNeeded = true;
+      displayedRows = estimateViewportRows(document.getElementById('bike-grid'));
 
       populateFilters(bikes);
       renderGrid();
@@ -66,6 +63,64 @@
       document.getElementById('filter-make').addEventListener('change', applyFilters);
       document.getElementById('filter-category').addEventListener('change', applyFilters);
       document.getElementById('browse-load-more').addEventListener('click', loadMore);
+      window.addEventListener('resize', onResize);
+
+      if (window.ResizeObserver) {
+        new ResizeObserver(onResize).observe(document.getElementById('bike-grid'));
+      }
+    }
+
+    function getGrid() {
+      return document.getElementById('bike-grid');
+    }
+
+    function getColumnCount(grid) {
+      const style = getComputedStyle(grid);
+      const tracks = style.gridTemplateColumns.split(' ').filter(track => {
+        const value = parseFloat(track);
+        return Number.isFinite(value) && value > 0;
+      });
+
+      if (tracks.length > 1) return tracks.length;
+      if (grid.clientWidth < 480) return 1;
+
+      const gap = parseFloat(style.columnGap) || 0;
+      const minCard = parseFloat(style.getPropertyValue('--bike-card-min')) || 180;
+      return Math.max(1, Math.floor((grid.clientWidth + gap) / (minCard + gap)));
+    }
+
+    function estimateViewportRows(grid) {
+      const gap = parseFloat(getComputedStyle(grid).rowGap) || 6;
+      const top = grid.getBoundingClientRect().top;
+      const available = Math.max(EST_CARD_HEIGHT, window.innerHeight - top - PAGINATION_RESERVE);
+      return Math.max(1, Math.floor(available / (EST_CARD_HEIGHT + gap)));
+    }
+
+    function measureLayout(grid) {
+      const cols = getColumnCount(grid);
+      const card = grid.querySelector('.bike-card');
+      const gap = parseFloat(getComputedStyle(grid).rowGap) || 6;
+      const cardHeight = card ? card.getBoundingClientRect().height : EST_CARD_HEIGHT;
+      const top = grid.getBoundingClientRect().top;
+      const available = Math.max(cardHeight, window.innerHeight - top - PAGINATION_RESERVE);
+      const rows = Math.max(1, Math.floor(available / (cardHeight + gap)));
+      return { cols, rows, cardHeight, gap };
+    }
+
+    function snapToCompleteRows(count, cols, total) {
+      if (count >= total) return total;
+      const fullRows = Math.max(1, Math.floor(count / cols));
+      return Math.min(fullRows * cols, total);
+    }
+
+    function visibleCountForRows(rows, layout, total) {
+      return snapToCompleteRows(rows * layout.cols, layout.cols, total);
+    }
+
+    function initialRows(layout, total) {
+      const viewportRows = layout.rows;
+      const totalRows = Math.ceil(total / layout.cols);
+      return Math.min(viewportRows, totalRows);
     }
 
     function populateFilters(bikes) {
@@ -101,20 +156,71 @@
         return matchQ && matchMake && matchCat;
       });
 
-      visibleCount = Math.min(pageSize, activeList.length);
+      layoutSyncNeeded = true;
+      displayedRows = estimateViewportRows(getGrid());
       renderGrid(true);
     }
 
     function loadMore() {
-      visibleCount = Math.min(visibleCount + pageSize, activeList.length);
+      const grid = getGrid();
+      const layout = measureLayout(grid);
+      displayedRows += layout.rows;
       renderGrid();
     }
 
-    function renderGrid(filtered = false) {
-      const grid = document.getElementById('bike-grid');
+    function onResize() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        const grid = getGrid();
+        if (!grid || !activeList.length) return;
+
+        const layout = measureLayout(grid);
+        const viewportRows = layout.rows;
+        const currentVisible = visibleCountForRows(displayedRows, layout, activeList.length);
+        const currentRows = Math.max(1, Math.ceil(currentVisible / layout.cols));
+
+        if (layoutSyncNeeded || currentVisible >= activeList.length) {
+          displayedRows = Math.max(viewportRows, currentRows);
+        } else if (currentRows < viewportRows) {
+          displayedRows = viewportRows;
+        }
+
+        renderGrid();
+      }, 120);
+    }
+
+    function updatePagination(visibleCount, layout) {
       const pagination = document.getElementById('browse-pagination');
       const loadMoreBtn = document.getElementById('browse-load-more');
       const countEl = document.getElementById('browse-showing-count');
+      const total = activeList.length;
+      const initialCapacity = layout.cols * layout.rows;
+      const hasMore = visibleCount < total;
+
+      if (total <= initialCapacity) {
+        pagination.hidden = true;
+        return;
+      }
+
+      pagination.hidden = false;
+      loadMoreBtn.hidden = !hasMore;
+
+      if (hasMore) {
+        const nextCount = snapToCompleteRows(
+          visibleCount + layout.rows * layout.cols,
+          layout.cols,
+          total
+        );
+        const nextBatch = nextCount - visibleCount;
+        loadMoreBtn.textContent = `Load more (${nextBatch})`;
+      }
+
+      countEl.textContent = `Showing ${visibleCount} of ${total}`;
+    }
+
+    function renderGrid(filtered = false) {
+      const grid = getGrid();
+      const pagination = document.getElementById('browse-pagination');
 
       if (!activeList.length) {
         const msg = filtered ? 'No motorcycles match your filters.' : 'No motorcycles to show yet.';
@@ -123,19 +229,27 @@
         return;
       }
 
-      const visible = activeList.slice(0, visibleCount);
-      grid.innerHTML = visible.map(b => MotoX.renderBikeCard(b)).join('');
-
-      const hasMore = visibleCount < activeList.length;
-      if (activeList.length <= pageSize) {
-        pagination.hidden = true;
-      } else {
-        pagination.hidden = false;
-        loadMoreBtn.hidden = !hasMore;
-        const nextBatch = Math.min(pageSize, activeList.length - visibleCount);
-        loadMoreBtn.textContent = hasMore ? `Load more (${nextBatch})` : 'Load more';
-        countEl.textContent = `Showing ${visible.length} of ${activeList.length}`;
+      let layout = measureLayout(grid);
+      if (layoutSyncNeeded) {
+        displayedRows = initialRows(layout, activeList.length);
+        layoutSyncNeeded = false;
       }
+
+      let visibleCount = visibleCountForRows(displayedRows, layout, activeList.length);
+      grid.innerHTML = activeList.slice(0, visibleCount).map(b => MotoX.renderBikeCard(b)).join('');
+
+      requestAnimationFrame(() => {
+        layout = measureLayout(grid);
+        const refinedVisible = visibleCountForRows(displayedRows, layout, activeList.length);
+
+        if (refinedVisible !== visibleCount) {
+          visibleCount = refinedVisible;
+          grid.innerHTML = activeList.slice(0, visibleCount).map(b => MotoX.renderBikeCard(b)).join('');
+          layout = measureLayout(grid);
+        }
+
+        updatePagination(visibleCount, layout);
+      });
     }
 
     init();
