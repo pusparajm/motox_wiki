@@ -1,18 +1,18 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "id": "kawasaki-z1000-2014-2016-global",
+    "make": "Kawasaki",
+    "model": "Z1000",
+    "year": "2014-2016",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "model_group": "kawasaki-z1000",
+    "category": "Naked",
+    "displacement": "1043 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "z1000",
+      "naked",
+      "kawasaki"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

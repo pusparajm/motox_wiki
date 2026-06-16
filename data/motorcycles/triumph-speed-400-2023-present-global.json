@@ -1,18 +1,18 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "id": "triumph-speed-400-2023-present-global",
+    "make": "Triumph",
+    "model": "Speed 400",
+    "year": "2023-Present",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "model_group": "triumph-speed-400-2023-present-global",
+    "category": "Naked",
+    "displacement": "398 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "triumph",
+      "400",
+      "speed400"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

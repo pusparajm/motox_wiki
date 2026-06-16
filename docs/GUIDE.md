@@ -14,13 +14,14 @@ This document covers everything you need to run, edit, and publish the MotoX Wik
 6. [How Admin Login Works (Static Sites)](#how-admin-login-works-static-sites)
 7. [Publishing Changes to GitHub](#publishing-changes-to-github)
 8. [Deploy to GitHub Pages](#deploy-to-github-pages)
-9. [Editing Content](#editing-content)
-10. [Data Model](#data-model)
-11. [Advertisements](#advertisements)
-12. [Search](#search)
-13. [Mobile & Responsive Design](#mobile--responsive-design)
-14. [Layout & Spacing Notes](#layout--spacing-notes)
-15. [Troubleshooting](#troubleshooting)
+9. [Custom domain with Cloudflare](#custom-domain-with-cloudflare)
+10. [Editing Content](#editing-content)
+11. [Data Model](#data-model)
+12. [Advertisements](#advertisements)
+13. [Search](#search)
+14. [Mobile & Responsive Design](#mobile--responsive-design)
+15. [Layout & Spacing Notes](#layout--spacing-notes)
+16. [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -297,6 +298,139 @@ https://<username>.github.io/<repo>/
 
 > **Important:** Only push `motox_wiki`. Do **not** add `motox_wiki_admin` to this repository.
 
+For this repo, the default GitHub Pages URL is:
+
+```
+https://pusparajm.github.io/motox_wiki/
+```
+
+---
+
+## Custom domain with Cloudflare
+
+Cloudflare sits in front of your site for **free HTTPS, caching, analytics, and country data** (useful later for region-based content). You need a **custom `.com` domain** first — Cloudflare cannot fully proxy `*.github.io` URLs.
+
+### Overview
+
+```
+Visitor → Cloudflare (DNS + CDN + SSL) → GitHub Pages (motox_wiki repo)
+```
+
+### Step 1 — Buy a domain
+
+Register a `.com` (e.g. `motospec.com`, `bikespec.com`) at Cloudflare Registrar, Namecheap, or Porkbun.
+
+### Step 2 — Add the domain to Cloudflare
+
+1. Go to [dash.cloudflare.com](https://dash.cloudflare.com) → **Add a site**
+2. Enter your domain → choose **Free** plan
+3. Cloudflare shows two nameservers (e.g. `ada.ns.cloudflare.com`)
+4. At your domain registrar, replace existing nameservers with Cloudflare’s
+5. Wait until Cloudflare shows **Active** (usually 5–30 minutes)
+
+### Step 3 — DNS records in Cloudflare
+
+In **DNS → Records**, add:
+
+| Type | Name | Content | Proxy |
+|------|------|---------|-------|
+| **CNAME** | `www` | `pusparajm.github.io` | Proxied (orange cloud) |
+| **CNAME** | `@` | `pusparajm.github.io` | Proxied (orange cloud) |
+
+Cloudflare flattens the apex `@` CNAME to work like an A record.
+
+**Alternative (apex only):** use GitHub’s A records instead of `@` CNAME:
+
+| Type | Name | Content | Proxy |
+|------|------|---------|-------|
+| **A** | `@` | `185.199.108.153` | Proxied |
+| **A** | `@` | `185.199.109.153` | Proxied |
+| **A** | `@` | `185.199.110.153` | Proxied |
+| **A** | `@` | `185.199.111.153` | Proxied |
+| **CNAME** | `www` | `pusparajm.github.io` | Proxied |
+
+### Step 4 — Tell GitHub about your domain
+
+1. GitHub → **pusparajm/motox_wiki** → **Settings → Pages**
+2. Under **Custom domain**, enter: `www.yourdomain.com` (or apex `yourdomain.com`)
+3. Enable **Enforce HTTPS** when GitHub offers it (after DNS propagates)
+
+### Step 5 — Add `CNAME` file to this repo
+
+Create `CNAME` in the repo root (one domain per line):
+
+```
+www.yourdomain.com
+```
+
+Then commit and push:
+
+```bash
+cd ~/motox_wiki
+echo "www.yourdomain.com" > CNAME
+git add CNAME
+git commit -m "Add custom domain for GitHub Pages"
+git push
+```
+
+> Use the same hostname you entered in GitHub Pages settings.
+
+A template is in `CNAME.example`.
+
+### Step 6 — Cloudflare SSL settings
+
+In Cloudflare → **SSL/TLS**:
+
+| Setting | Value |
+|---------|--------|
+| **Encryption mode** | Full (strict) — after GitHub certificate is issued |
+| **Always Use HTTPS** | On |
+| **Automatic HTTPS Rewrites** | On |
+
+If you see a redirect loop, temporarily set SSL to **Full** (not strict) until GitHub’s certificate is ready, then switch to **Full (strict)**.
+
+### Step 7 — Optional: free Web Analytics
+
+1. Cloudflare → **Web Analytics** → **Add a site**
+2. Copy the beacon token
+3. Add the script to your pages (or ask to wire it via `settings.json`)
+
+This gives page views, referrers, and **country breakdown** without cookies.
+
+### Step 8 — Verify
+
+```bash
+# DNS (may take up to 48h, usually minutes)
+dig www.yourdomain.com
+
+# Site loads
+curl -I https://www.yourdomain.com
+```
+
+Open `https://www.yourdomain.com` — you should see the wiki (not `/motox_wiki/` in the URL; custom domain serves from site root).
+
+### Redirect apex → www (recommended)
+
+Cloudflare → **Rules** → **Redirect Rules**:
+
+- If hostname equals `yourdomain.com` → redirect to `https://www.yourdomain.com` (301)
+
+Use one canonical URL in GitHub Pages and in the `CNAME` file.
+
+### Troubleshooting Cloudflare + GitHub Pages
+
+| Problem | Fix |
+|---------|-----|
+| **522 / 525 SSL error** | Set SSL to Full (strict); ensure GitHub custom domain is verified |
+| **404 on custom domain** | Confirm `CNAME` file matches GitHub Pages domain; wait for deploy |
+| **Too many redirects** | SSL mode should be Full or Full (strict), not Flexible |
+| **Old github.io URL still works** | Normal — both URLs work unless you add redirects |
+| **CSS/JS 404 on custom domain** | Site uses relative paths — should work; hard refresh |
+
+### Future: region-based content
+
+With Cloudflare proxy enabled, a **Worker** (free tier) can read `request.cf.country` and serve different `popular-summaries.json` per region. That step comes after the domain is live.
+
 ---
 
 ## Editing Content
@@ -497,6 +631,12 @@ Hard refresh: `Ctrl + Shift + R` (or `Cmd + Shift + R` on Mac)
 - Ensure `.nojekyll` exists in the repo root
 - Check Pages settings: branch `main`, folder `/ (root)`
 - Wait 1–2 minutes after pushing
+
+### Custom domain not working (Cloudflare)
+
+- See [Custom domain with Cloudflare](#custom-domain-with-cloudflare)
+- `CNAME` file in repo must match GitHub Pages custom domain
+- Cloudflare SSL must be **Full** or **Full (strict)**, not Flexible
 
 ### Forgot admin password
 

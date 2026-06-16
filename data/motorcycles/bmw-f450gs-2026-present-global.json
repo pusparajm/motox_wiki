@@ -1,18 +1,18 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "id": "bmw-f450gs-2026-present-global",
+    "make": "BMW",
+    "model": "F450GS",
+    "year": "2026-Present",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "model_group": "bmw-f450gs-2026-present-global",
+    "category": "Adventure",
+    "displacement": "450 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "450",
+      "bmw",
+      "450gs"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

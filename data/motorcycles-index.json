@@ -1190,7 +1190,7 @@
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
       "published": true,
-      "model_group": "aprilia-rs-457",
+      "model_group": "harley-davidson-x440-t-2025-present-global",
       "oil_capacity": "2.0 L (2.1 US qt)",
       "oil_type": "SAE 15W-50, JASO MA2"
     },
@@ -1313,6 +1313,575 @@
       "model_group": "honda-cb650f-2013-2016",
       "oil_capacity": "3.2 L (3.4 US qt)",
       "oil_type": "SAE 10W-30, API SJ or Pro Honda GN4"
+    },
+    {
+      "id": "harley-davidson-street-2013-2021-global",
+      "make": "Harley-Davidson",
+      "model": "Street",
+      "year": "2013-2016",
+      "region": "Global",
+      "category": "Cruiser",
+      "displacement": "749 cc",
+      "tags": [
+        "harley",
+        "street",
+        "street750"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "harley-davidson-street",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "harley-davidson-street-rod-2017-2021-global",
+      "make": "Harley-Davidson",
+      "model": "Street Rod",
+      "year": "2017-2021",
+      "region": "Global",
+      "category": "Cruiser",
+      "displacement": "749 cc",
+      "tags": [
+        "harley",
+        "street",
+        "street750"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "harley-davidson-street",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "harley-davidson-fat-boy-2013-present-global",
+      "make": "Harley-Davidson",
+      "model": "Fat Boy",
+      "year": "2013-Present",
+      "region": "Global",
+      "category": "Cruiser",
+      "displacement": "749 cc",
+      "tags": [
+        "fatboy",
+        "harley"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "harley-davidson-fat-boy-2013-present-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "harley-davidson-breakout-2013-present-global",
+      "make": "Harley-Davidson",
+      "model": "Breakout",
+      "year": "2013-Present",
+      "region": "Global",
+      "category": "Cruiser",
+      "displacement": "749 cc",
+      "tags": [
+        "breakout",
+        "harley"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "harley-davidson-breakout-2013-present-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "harley-davidson-street-bob-2013-2016-global",
+      "make": "Harley-Davidson",
+      "model": "Street Bob",
+      "year": "2013-2016",
+      "region": "Global",
+      "category": "Cruiser",
+      "displacement": "749 cc",
+      "tags": [
+        "streetbob",
+        "harley"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "harley-davidson-street-bob-2013-2016-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "ducati-hypermotard-821-2013-2016",
+      "make": "Ducati",
+      "model": "Hypermotard 821",
+      "year": "2013-2016",
+      "region": "",
+      "category": "Supersport",
+      "displacement": "821 cc",
+      "tags": [
+        "hyper",
+        "hypermotard",
+        "821",
+        "ducati hypermotard"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "ducati-hypermotard-821-2013-2016",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx-r1000-2001-2002-global",
+      "make": "Suzuki",
+      "model": "GSX-R1000",
+      "year": "2001-2002",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "gixxer",
+        "suzuki",
+        "gsxr1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "suzuki-gsx-r1000",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx-r1000-2003-2004-global",
+      "make": "Suzuki",
+      "model": "GSX-R1000",
+      "year": "2003-2004",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "gixxer",
+        "suzuki",
+        "gsxr1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "suzuki-gsx-r1000",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx-r1000-2005-2006-global",
+      "make": "Suzuki",
+      "model": "GSX-R1000",
+      "year": "2005-2006",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "gixxer",
+        "suzuki",
+        "gsxr1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "suzuki-gsx-r1000",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx-r1000-2007-2008-global",
+      "make": "Suzuki",
+      "model": "GSX-R1000",
+      "year": "2007-2008",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "gixxer",
+        "suzuki",
+        "gsxr1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "suzuki-gsx-r1000",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx-r1000-2009-2011-global",
+      "make": "Suzuki",
+      "model": "GSX-R1000",
+      "year": "2009-2011",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "gixxer",
+        "suzuki",
+        "gsxr1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "suzuki-gsx-r1000",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx-r1000-2012-2016-global",
+      "make": "Suzuki",
+      "model": "GSX-R1000",
+      "year": "2012-2016",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "gixxer",
+        "suzuki",
+        "gsxr1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "suzuki-gsx-r1000",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx-r1000-2017-present-global",
+      "make": "Suzuki",
+      "model": "GSX-R1000",
+      "year": "2017-Present",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "gixxer",
+        "suzuki",
+        "gsxr1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "suzuki-gsx-r1000",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "bmw-s-1000-rr-2008-2016-global",
+      "make": "BMW",
+      "model": "S 1000 RR",
+      "year": "2008-2016",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "s1k",
+        "bmw",
+        "s1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "bmw-s-1000-rr",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "bmw-s-1000-rr-2017-2018-global",
+      "make": "BMW",
+      "model": "S 1000 RR",
+      "year": "2017-2018",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "s1k",
+        "bmw",
+        "s1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "bmw-s-1000-rr",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "bmw-s-1000-rr-2019-present-global",
+      "make": "BMW",
+      "model": "S 1000 RR",
+      "year": "2019-Present",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "s1k",
+        "bmw",
+        "s1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "bmw-s-1000-rr",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "bmw-g310rr-2015-2025",
+      "make": "BMW",
+      "model": "G310RR",
+      "year": "2015-2025",
+      "region": "",
+      "category": "Supersport",
+      "displacement": "313 cc",
+      "tags": [
+        "310r",
+        "bmw",
+        "310"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "bmw-g310rr-2015-2025",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "bmw-g310r-2015-2025-global",
+      "make": "BMW",
+      "model": "G310R",
+      "year": "2015-2025",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "313 cc",
+      "tags": [
+        "310r",
+        "bmw",
+        "310"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "bmw-g310r-2015-2025-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "bmw-f450gs-2026-present-global",
+      "make": "BMW",
+      "model": "F450GS",
+      "year": "2026-Present",
+      "region": "Global",
+      "category": "Adventure",
+      "displacement": "450 cc",
+      "tags": [
+        "450",
+        "bmw",
+        "450gs"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "bmw-f450gs-2026-present-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "kawasaki-ninja-zx-10r-2026-present-global",
+      "make": "Kawasaki",
+      "model": "Ninja ZX-10R",
+      "year": "2026-Present",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998",
+      "tags": [
+        "zx10r",
+        "ninja",
+        "10r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "kawasaki-ninja-zx-10r",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "kawasaki-z1000-2014-2016-global",
+      "make": "Kawasaki",
+      "model": "Z1000",
+      "year": "2014-2016",
+      "region": "Global",
+      "category": "Naked",
+      "displacement": "1043 cc",
+      "tags": [
+        "z1000",
+        "naked",
+        "kawasaki"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "kawasaki-z1000",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "yamaha-r3-2019-present-global",
+      "make": "Yamaha",
+      "model": "R3",
+      "year": "2019-Present",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "321 cc",
+      "tags": [
+        "yamaha",
+        "r3",
+        "twin"
+      ],
+      "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",
+      "published": true,
+      "model_group": "yamaha-r3-2019-present-global",
+      "oil_capacity": "2.91 L (3.07 US qt)",
+      "oil_type": "SAE 10W-40, API SG or higher"
+    },
+    {
+      "id": "yamaha-r3-2015-2018-global",
+      "make": "Yamaha",
+      "model": "R3",
+      "year": "2015-2018",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "321 cc",
+      "tags": [
+        "yamaha",
+        "r3",
+        "twin"
+      ],
+      "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",
+      "published": true,
+      "model_group": "yamaha-r3-2019-present-global",
+      "oil_capacity": "2.91 L (3.07 US qt)",
+      "oil_type": "SAE 10W-40, API SG or higher"
+    },
+    {
+      "id": "yamaha-r1-2020-2024-global",
+      "make": "Yamaha",
+      "model": "R1",
+      "year": "2020-2024",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "yamaha",
+        "r1",
+        "crossplane"
+      ],
+      "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",
+      "published": true,
+      "model_group": "yamaha-r1-2020-2024-global",
+      "oil_capacity": "2.91 L (3.07 US qt)",
+      "oil_type": "SAE 10W-40, API SG or higher"
+    },
+    {
+      "id": "benelli-tnt-600i-2013-2020-global",
+      "make": "Benelli",
+      "model": "TNT 600i",
+      "year": "2013-2020",
+      "region": "Global",
+      "category": "naked",
+      "displacement": "600 cc",
+      "tags": [
+        "tnt",
+        "600",
+        "benelli"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "benelli-tnt-600i-2013-2020-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "benelli-302r-2015-2020-global",
+      "make": "Benelli",
+      "model": "302R",
+      "year": "2015-2020",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "300 cc",
+      "tags": [
+        "300",
+        "302r",
+        "benelli"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "benelli-302r-2015-2020-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "benelli-502c-2021-present-global",
+      "make": "Benelli",
+      "model": "502C",
+      "year": "2021-Present",
+      "region": "Global",
+      "category": "Cruiser",
+      "displacement": "500 cc",
+      "tags": [
+        "502c",
+        "502",
+        "benelli"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "benelli-502c-2021-present-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "benelli-leoncino-500-2021-present-global",
+      "make": "Benelli",
+      "model": "Leoncino 500",
+      "year": "2021-Present",
+      "region": "Global",
+      "category": "Naked",
+      "displacement": "500 cc",
+      "tags": [
+        "leoncino",
+        "500",
+        "benelli",
+        "leoncino500"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "benelli-leoncino-500-2021-present-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "triumph-speed-400-2023-present-global",
+      "make": "Triumph",
+      "model": "Speed 400",
+      "year": "2023-Present",
+      "region": "Global",
+      "category": "Naked",
+      "displacement": "398 cc",
+      "tags": [
+        "triumph",
+        "400",
+        "speed400"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "triumph-speed-400-2023-present-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "triumph-bonneville-t100-2016-present-global",
+      "make": "Triumph",
+      "model": "Bonneville T100",
+      "year": "2016-Present",
+      "region": "Global",
+      "category": "Cruiser",
+      "displacement": "398 cc",
+      "tags": [
+        "triumph",
+        "Bonneville",
+        "t100"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "triumph-bonneville-t100-2016-present-global",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     }
   ]
 }

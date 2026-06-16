@@ -40,6 +40,7 @@
     let allBikes = [];
     let activeList = [];
     let displayedRows = 1;
+    let maxPerPage = 8;
     let layoutSyncNeeded = true;
     let resizeTimer = null;
 
@@ -50,6 +51,7 @@
       const settings = await MotoX.initLayout('index.html');
       MotoXSearch.init({ lazy: true, settings });
 
+      maxPerPage = MotoX.getPopularPageSize(settings);
       const bikes = await MotoX.loadPopularSummaries(settings);
       allBikes = bikes;
       activeList = bikes;
@@ -117,10 +119,15 @@
       return snapToCompleteRows(rows * layout.cols, layout.cols, total);
     }
 
+    function batchRows(cols) {
+      return Math.max(1, Math.ceil(maxPerPage / cols));
+    }
+
     function initialRows(layout, total) {
+      const perBatch = batchRows(layout.cols);
       const viewportRows = layout.rows;
       const totalRows = Math.ceil(total / layout.cols);
-      return Math.min(viewportRows, totalRows);
+      return Math.min(perBatch, viewportRows, totalRows);
     }
 
     function populateFilters(bikes) {
@@ -162,9 +169,8 @@
     }
 
     function loadMore() {
-      const grid = getGrid();
-      const layout = measureLayout(grid);
-      displayedRows += layout.rows;
+      const layout = measureLayout(getGrid());
+      displayedRows += batchRows(layout.cols);
       renderGrid();
     }
 
@@ -175,14 +181,15 @@
         if (!grid || !activeList.length) return;
 
         const layout = measureLayout(grid);
+        const perBatch = batchRows(layout.cols);
         const viewportRows = layout.rows;
         const currentVisible = visibleCountForRows(displayedRows, layout, activeList.length);
         const currentRows = Math.max(1, Math.ceil(currentVisible / layout.cols));
 
         if (layoutSyncNeeded || currentVisible >= activeList.length) {
-          displayedRows = Math.max(viewportRows, currentRows);
-        } else if (currentRows < viewportRows) {
-          displayedRows = viewportRows;
+          displayedRows = Math.max(Math.min(perBatch, viewportRows), currentRows);
+        } else if (currentRows < Math.min(perBatch, viewportRows)) {
+          displayedRows = Math.min(perBatch, viewportRows);
         }
 
         renderGrid();
@@ -194,10 +201,10 @@
       const loadMoreBtn = document.getElementById('browse-load-more');
       const countEl = document.getElementById('browse-showing-count');
       const total = activeList.length;
-      const initialCapacity = layout.cols * layout.rows;
+      const firstBatchCount = visibleCountForRows(batchRows(layout.cols), layout, total);
       const hasMore = visibleCount < total;
 
-      if (total <= initialCapacity) {
+      if (total <= firstBatchCount) {
         pagination.hidden = true;
         return;
       }
@@ -207,7 +214,7 @@
 
       if (hasMore) {
         const nextCount = snapToCompleteRows(
-          visibleCount + layout.rows * layout.cols,
+          visibleCount + batchRows(layout.cols) * layout.cols,
           layout.cols,
           total
         );

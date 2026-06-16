@@ -1,18 +1,19 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
-    "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "id": "ducati-hypermotard-821-2013-2016",
+    "make": "Ducati",
+    "model": "Hypermotard 821",
+    "year": "2013-2016",
+    "region": "",
+    "model_group": "ducati-hypermotard-821-2013-2016",
+    "category": "Supersport",
+    "displacement": "821 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "hyper",
+      "hypermotard",
+      "821",
+      "ducati hypermotard"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

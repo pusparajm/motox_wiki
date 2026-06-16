@@ -1,18 +1,18 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "id": "suzuki-gsx-r1000-2003-2004-global",
+    "make": "Suzuki",
+    "model": "GSX-R1000",
+    "year": "2003-2004",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "model_group": "suzuki-gsx-r1000",
+    "category": "Supersport",
+    "displacement": "998 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "gixxer",
+      "suzuki",
+      "gsxr1000"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

@@ -1,18 +1,19 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "id": "benelli-leoncino-500-2021-present-global",
+    "make": "Benelli",
+    "model": "Leoncino 500",
+    "year": "2021-Present",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "model_group": "benelli-leoncino-500-2021-present-global",
+    "category": "Naked",
+    "displacement": "500 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "leoncino",
+      "500",
+      "benelli",
+      "leoncino500"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

@@ -1,18 +1,17 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
+    "id": "harley-davidson-street-bob-2013-2016-global",
     "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "model": "Street Bob",
+    "year": "2013-2016",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
+    "model_group": "harley-davidson-street-bob-2013-2016-global",
     "category": "Cruiser",
-    "displacement": "440 cc",
+    "displacement": "749 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "streetbob",
+      "harley"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

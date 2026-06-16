@@ -1,18 +1,18 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
-    "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "id": "bmw-g310rr-2015-2025",
+    "make": "BMW",
+    "model": "G310RR",
+    "year": "2015-2025",
+    "region": "",
+    "model_group": "bmw-g310rr-2015-2025",
+    "category": "Supersport",
+    "displacement": "313 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "310r",
+      "bmw",
+      "310"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

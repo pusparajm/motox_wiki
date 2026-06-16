@@ -1,18 +1,18 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "id": "benelli-tnt-600i-2013-2020-global",
+    "make": "Benelli",
+    "model": "TNT 600i",
+    "year": "2013-2020",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "model_group": "benelli-tnt-600i-2013-2020-global",
+    "category": "naked",
+    "displacement": "600 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "tnt",
+      "600",
+      "benelli"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

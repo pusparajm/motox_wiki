@@ -204,6 +204,247 @@
       "published": true,
       "oil_capacity": "2.0 L (2.1 US qt)",
       "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx1300r-1999-2007",
+      "make": "Suzuki",
+      "model": "GSX1300R",
+      "year": "1999-2007",
+      "category": "Supersport",
+      "displacement": "1340cc",
+      "tags": [
+        "busa",
+        "hayabusa",
+        "suzuki",
+        "GSX1300R",
+        "gsx1300r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx1300r-2008-2020",
+      "make": "Suzuki",
+      "model": "GSX1300R",
+      "year": "2008-2020",
+      "category": "Supersport",
+      "displacement": "1340cc",
+      "tags": [
+        "busa",
+        "hayabusa",
+        "suzuki",
+        "GSX1300R",
+        "gsx1300r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx1300r-2021-present",
+      "make": "Suzuki",
+      "model": "GSX1300R",
+      "year": "2021-Present",
+      "category": "Supersport",
+      "displacement": "1340cc",
+      "tags": [
+        "busa",
+        "hayabusa",
+        "suzuki",
+        "GSX1300R",
+        "gsx1300r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "ducati-899-panigale-2013-2016",
+      "make": "Ducati",
+      "model": "899 Panigale",
+      "year": "2013-2016",
+      "category": "Supersport",
+      "displacement": "898cc",
+      "tags": [
+        "ducati",
+        "899",
+        "panigale",
+        "panigale 899",
+        "ducati 899"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "aprilia-rs-457-2023-present-global",
+      "make": "Aprilia",
+      "model": "RS 457",
+      "year": "2023-Present",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "457 cc",
+      "tags": [
+        "aprillia",
+        "457",
+        "rs457"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "aprilia-rs-457",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "suzuki-gsx-r1000-2017-present-global",
+      "make": "Suzuki",
+      "model": "GSX-R1000",
+      "year": "2017-Present",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998 cc",
+      "tags": [
+        "gixxer",
+        "suzuki",
+        "gsxr1000"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "suzuki-gsx-r1000",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "kawasaki-klx-230-2024-present",
+      "make": "Kawasaki",
+      "model": "KLX 230",
+      "year": "2024-Present",
+      "category": "Dual Sport",
+      "displacement": "233cc",
+      "tags": [
+        "klx",
+        "klx230",
+        "kawasaki"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "hero-xpulse-200-2v-2019-2021-global",
+      "make": "Hero",
+      "model": "XPulse 200 2V",
+      "year": "2019-2021",
+      "region": "Global",
+      "category": "Dual Sport",
+      "displacement": "199.7cc",
+      "tags": [
+        "200",
+        "xpulse",
+        "hero"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "hero-xpulse-200-2v",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "kawasaki-ninja-zx-6r",
+      "make": "Kawasaki",
+      "model": "Ninja ZX-6R",
+      "year": "2024-Present",
+      "category": "Supersport",
+      "displacement": "636cc",
+      "tags": [
+        "zx6r",
+        "ninja",
+        "6r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "harley-davidson-street-rod-2017-2021-global",
+      "make": "Harley-Davidson",
+      "model": "Street Rod",
+      "year": "2017-2021",
+      "region": "Global",
+      "category": "Cruiser",
+      "displacement": "749 cc",
+      "tags": [
+        "harley",
+        "street",
+        "street750"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "harley-davidson-street",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "royal-enfield-himalayan-411-2015-2023-global",
+      "make": "Royal Enfield",
+      "model": "Himalayan 411",
+      "year": "2015-2023",
+      "region": "Global",
+      "category": "Adventure",
+      "displacement": "411",
+      "tags": [
+        "adventure",
+        "himalayan",
+        "411"
+      ],
+      "summary": "Lightweight single-cylinder streetfighter with premium components.",
+      "published": true,
+      "model_group": "royal-enfield-himalayan-411",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "royal-enfield-guerrilla-450-2020-present-global",
+      "make": "Royal Enfield",
+      "model": "Guerrilla 450",
+      "year": "2023-Present",
+      "region": "Global",
+      "category": "naked",
+      "displacement": "452",
+      "tags": [
+        "naked",
+        "guerrilla",
+        "sherpa"
+      ],
+      "summary": "Lightweight single-cylinder streetfighter with premium components.",
+      "published": true,
+      "model_group": "royal-enfield-guerrilla-450",
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "kawasaki-z1100",
+      "make": "Kawasaki",
+      "model": "Z1100",
+      "year": "2026-Present",
+      "category": "Naked",
+      "displacement": "1099cc",
+      "tags": [
+        "z1100",
+        "naked",
+        "kawasaki"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "oil_capacity": "2.0 L (2.1 US qt)",
+      "oil_type": "SAE 15W-50, JASO MA2"
     }
   ]
 }

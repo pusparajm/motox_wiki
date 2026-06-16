@@ -28,7 +28,7 @@ Open [http://localhost:8080](http://localhost:8080)
 2. Go to **Settings → Pages**.
 3. Set **Source** to `Deploy from a branch`.
 4. Select branch `main` (or `master`) and folder `/ (root)`.
-5. Save. Your site will be live at `https://<username>.github.io/<repo>/`.
+5. Save. Your site will be live at `https://pusparajm.github.io/motox_wiki/` (or your [custom domain via Cloudflare](docs/GUIDE.md#custom-domain-with-cloudflare)).
 
 **Note:** This repo contains only the public site. No admin code is included.
 

@@ -1,18 +1,17 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
+    "id": "harley-davidson-fat-boy-2013-present-global",
     "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "model": "Fat Boy",
+    "year": "2013-Present",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
+    "model_group": "harley-davidson-fat-boy-2013-present-global",
     "category": "Cruiser",
-    "displacement": "440 cc",
+    "displacement": "749 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "fatboy",
+      "harley"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

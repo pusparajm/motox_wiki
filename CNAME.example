@@ -1,0 +1,9 @@
+# Copy this file to CNAME (no extension) when your domain is ready.
+# Use the same hostname as GitHub Pages → Settings → Custom domain.
+#
+# Example:
+#   cp CNAME.example CNAME
+#   edit CNAME → replace with your domain
+#   git add CNAME && git commit -m "Add custom domain" && git push
+#
+www.yourdomain.com

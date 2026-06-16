@@ -1,18 +1,18 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "id": "kawasaki-ninja-zx-10r-2026-present-global",
+    "make": "Kawasaki",
+    "model": "Ninja ZX-10R",
+    "year": "2026-Present",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "model_group": "kawasaki-ninja-zx-10r",
+    "category": "Supersport",
+    "displacement": "998",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "zx10r",
+      "ninja",
+      "10r"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

@@ -1,18 +1,18 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "id": "bmw-s-1000-rr-2017-2018-global",
+    "make": "BMW",
+    "model": "S 1000 RR",
+    "year": "2017-2018",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "model_group": "bmw-s-1000-rr",
+    "category": "Supersport",
+    "displacement": "998 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "s1k",
+      "bmw",
+      "s1000"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {

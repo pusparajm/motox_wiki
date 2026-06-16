@@ -1,18 +1,18 @@
 {
   "motorcycle": {
-    "id": "harley-davidson-x440-t-2025-present-global",
-    "make": "Harley-Davidson",
-    "model": "X440 T",
-    "year": "2025-Present",
+    "id": "benelli-302r-2015-2020-global",
+    "make": "Benelli",
+    "model": "302R",
+    "year": "2015-2020",
     "region": "Global",
-    "model_group": "harley-davidson-x440-t-2025-present-global",
-    "category": "Cruiser",
-    "displacement": "440 cc",
+    "model_group": "benelli-302r-2015-2020-global",
+    "category": "Supersport",
+    "displacement": "300 cc",
     "published": true,
     "tags": [
-      "harley",
-      "440",
-      "x440t"
+      "300",
+      "302r",
+      "benelli"
     ],
     "summary": "Lightweight four-cylinder supersport from japan",
     "sections": {
