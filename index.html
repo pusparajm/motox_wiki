@@ -6,7 +6,7 @@
   <meta name="description" content="MotoX Wiki — Motorcycle technical reference with torque specs, oil quantities, fork seals, and fastener dimensions.">
   <title>MotoX Wiki — Motorcycle Technical Reference</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=7">
+  <link rel="stylesheet" href="css/main.css?v=8">
 </head>
 <body>
   <header id="site-header" class="site-header"></header>
@@ -44,9 +44,6 @@
     let layoutSyncNeeded = true;
     let resizeTimer = null;
 
-    const EST_CARD_HEIGHT = 78;
-    const PAGINATION_RESERVE = 96;
-
     async function init() {
       const settings = await MotoX.initLayout('index.html');
       MotoXSearch.init({ lazy: true, settings });
@@ -56,7 +53,6 @@
       allBikes = bikes;
       activeList = bikes;
       layoutSyncNeeded = true;
-      displayedRows = estimateViewportRows(document.getElementById('bike-grid'));
 
       populateFilters(bikes);
       renderGrid();
@@ -91,22 +87,10 @@
       return Math.max(1, Math.floor((grid.clientWidth + gap) / (minCard + gap)));
     }
 
-    function estimateViewportRows(grid) {
-      const gap = parseFloat(getComputedStyle(grid).rowGap) || 6;
-      const top = grid.getBoundingClientRect().top;
-      const available = Math.max(EST_CARD_HEIGHT, window.innerHeight - top - PAGINATION_RESERVE);
-      return Math.max(1, Math.floor(available / (EST_CARD_HEIGHT + gap)));
-    }
-
     function measureLayout(grid) {
       const cols = getColumnCount(grid);
-      const card = grid.querySelector('.bike-card');
       const gap = parseFloat(getComputedStyle(grid).rowGap) || 6;
-      const cardHeight = card ? card.getBoundingClientRect().height : EST_CARD_HEIGHT;
-      const top = grid.getBoundingClientRect().top;
-      const available = Math.max(cardHeight, window.innerHeight - top - PAGINATION_RESERVE);
-      const rows = Math.max(1, Math.floor(available / (cardHeight + gap)));
-      return { cols, rows, cardHeight, gap };
+      return { cols, gap };
     }
 
     function snapToCompleteRows(count, cols, total) {
@@ -125,9 +109,8 @@
 
     function initialRows(layout, total) {
       const perBatch = batchRows(layout.cols);
-      const viewportRows = layout.rows;
       const totalRows = Math.ceil(total / layout.cols);
-      return Math.min(perBatch, viewportRows, totalRows);
+      return Math.min(perBatch, totalRows);
     }
 
     function populateFilters(bikes) {
@@ -164,7 +147,6 @@
       });
 
       layoutSyncNeeded = true;
-      displayedRows = estimateViewportRows(getGrid());
       renderGrid(true);
     }
 
@@ -181,15 +163,14 @@
         if (!grid || !activeList.length) return;
 
         const layout = measureLayout(grid);
-        const perBatch = batchRows(layout.cols);
-        const viewportRows = layout.rows;
         const currentVisible = visibleCountForRows(displayedRows, layout, activeList.length);
         const currentRows = Math.max(1, Math.ceil(currentVisible / layout.cols));
 
-        if (layoutSyncNeeded || currentVisible >= activeList.length) {
-          displayedRows = Math.max(Math.min(perBatch, viewportRows), currentRows);
-        } else if (currentRows < Math.min(perBatch, viewportRows)) {
-          displayedRows = Math.min(perBatch, viewportRows);
+        if (layoutSyncNeeded) {
+          displayedRows = initialRows(layout, activeList.length);
+          layoutSyncNeeded = false;
+        } else {
+          displayedRows = Math.max(displayedRows, currentRows);
         }
 
         renderGrid();
