@@ -106,8 +106,8 @@
       ],
       "summary": "Lightweight four-cylinder supersport from japan",
       "published": true,
-      "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_capacity": "3.7 L (3.9 US qt)",
+      "oil_type": "SAE 10W-40, JASO MA2, "
     },
     {
       "id": "kawasaki-z900",
@@ -1689,8 +1689,8 @@
       "summary": "Lightweight four-cylinder supersport from japan",
       "published": true,
       "model_group": "kawasaki-ninja-zx-10r",
-      "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_capacity": "3.7 L (3.9 US qt)",
+      "oil_type": "SAE 10W-40, JASO MA2, "
     },
     {
       "id": "kawasaki-z1000-2014-2016-global",
@@ -1882,6 +1882,25 @@
       "model_group": "triumph-bonneville-t100-2016-present-global",
       "oil_capacity": "2.0 L (2.1 US qt)",
       "oil_type": "SAE 15W-50, JASO MA2"
+    },
+    {
+      "id": "kawasaki-ninja-zx-10r-2016-2020-global",
+      "make": "Kawasaki",
+      "model": "Ninja ZX-10R",
+      "year": "2016-2020",
+      "region": "Global",
+      "category": "Supersport",
+      "displacement": "998",
+      "tags": [
+        "zx10r",
+        "ninja",
+        "10r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "published": true,
+      "model_group": "kawasaki-ninja-zx-10r",
+      "oil_capacity": "3.7 L (3.9 US qt)",
+      "oil_type": "SAE 10W-40, JASO MA2, "
     }
   ]
 }

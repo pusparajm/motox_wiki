@@ -113,6 +113,7 @@ Configure ad slots in `data/settings.json` under `ads.slots`:
 | `sidebar` | Right sidebar on detail pages |
 | `content-top` | Above spec content |
 | `content-bottom` | Below spec content |
+| `footer-banner` | Above site footer on every page |
 | `in-article` | Between spec sections |
 
 ## License

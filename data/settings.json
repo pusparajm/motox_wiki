@@ -29,35 +29,27 @@
         "label": "Header Banner",
         "enabled": true,
         "type": "placeholder",
-        "content": "<div class=\"ad-placeholder\">Advertisement — 728×90 Leaderboard</div>"
+        "content": "<div class=\"ad-placeholder\">Advertisement — 728×90 Leaderboard</div>",
+        "client": "",
+        "slotId": ""
       },
       {
         "id": "sidebar",
         "label": "Sidebar",
         "enabled": true,
         "type": "placeholder",
-        "content": "<div class=\"ad-placeholder\">Advertisement — 300×250</div>"
+        "content": "<div class=\"ad-placeholder\">Advertisement — 300×250</div>",
+        "client": "",
+        "slotId": ""
       },
       {
-        "id": "content-top",
-        "label": "Content Top",
+        "id": "footer",
+        "label": "",
         "enabled": false,
-        "type": "html",
-        "content": ""
-      },
-      {
-        "id": "content-bottom",
-        "label": "Content Bottom",
-        "enabled": true,
         "type": "placeholder",
-        "content": "<div class=\"ad-placeholder\">Advertisement — 728×90</div>"
-      },
-      {
-        "id": "in-article",
-        "label": "In Article",
-        "enabled": false,
-        "type": "html",
-        "content": ""
+        "content": "<div class=\"ad-placeholder\">Advertisement Footer</div>",
+        "client": "",
+        "slotId": ""
       }
     ]
   },

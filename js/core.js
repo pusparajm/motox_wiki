@@ -223,7 +223,9 @@ const MotoX = (() => {
   function renderFooter(container, settings) {
     if (!container) return;
     const site = settings.site || {};
+    const footerAd = settings.ads ? renderAdSlot(settings.ads, 'footer-banner') : '';
     container.innerHTML = `
+      ${footerAd ? `<div class="site-footer-ad">${footerAd}</div>` : ''}
       <div class="container site-footer-inner">
         <span class="footer-text">${escapeHtml(site.footer || '')}</span>
       </div>

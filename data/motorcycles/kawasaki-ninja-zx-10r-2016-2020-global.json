@@ -1,9 +1,11 @@
 {
   "motorcycle": {
-    "id": "kawasaki-ninja-zx-10r",
+    "id": "kawasaki-ninja-zx-10r-2016-2020-global",
     "make": "Kawasaki",
     "model": "Ninja ZX-10R",
-    "year": "2021-2025",
+    "year": "2016-2020",
+    "region": "Global",
+    "model_group": "kawasaki-ninja-zx-10r",
     "category": "Supersport",
     "displacement": "998",
     "published": true,

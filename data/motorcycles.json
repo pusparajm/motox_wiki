@@ -724,22 +724,22 @@
             {
               "key": "capacity",
               "label": "Oil Capacity (with filter)",
-              "value": "2.0 L (2.1 US qt)"
+              "value": "3.7 L (3.9 US qt)"
             },
             {
               "key": "type",
               "label": "Recommended Grade",
-              "value": "SAE 15W-50, JASO MA2"
+              "value": "SAE 10W-40, JASO MA2, "
             },
             {
               "key": "filter",
               "label": "Oil Filter",
-              "value": "KTM 78938015010"
+              "value": "16097-0011"
             },
             {
               "key": "interval",
               "label": "Change Interval",
-              "value": "Every 15,000 km / 9,000 mi"
+              "value": "5000 km / 9000 mi"
             }
           ]
         },
@@ -747,28 +747,58 @@
           "label": "Torque Specifications",
           "table": [
             {
-              "component": "Oil drain plug",
-              "torque": "25 Nm",
-              "notes": "M12×1.5"
-            },
-            {
-              "component": "Oil filter cover",
-              "torque": "10 Nm",
-              "notes": ""
-            },
-            {
               "component": "Front axle nut",
-              "torque": "65 Nm",
+              "torque": "130 N·m (13.3 kgf-m, 95.9 ft-lb)",
               "notes": ""
             },
             {
               "component": "Rear axle nut",
-              "torque": "90 Nm",
+              "torque": "130 N·m (13.3 kgf-m, 95.9 ft-lb)",
               "notes": ""
             },
             {
-              "component": "Triple clamp bolts",
-              "torque": "20 Nm",
+              "component": "Front Axle Clamp Bolts",
+              "torque": "20 N·m (2.0 kgf·m, 15 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Engine Sprocket Nut",
+              "torque": "147 N·m (15.0 kgf·m, 108 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Steering Stem Head Nut",
+              "torque": "80 N·m (8.2 kgf·m, 59 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Handlebar Clamp Bolts ",
+              "torque": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Rear Brake Disc Mounting Bolts",
+              "torque": "28 N·m (2.9 kgf·m, 21 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Front Brake Disc Mounting Bolts",
+              "torque": "28 N·m (2.9 kgf·m, 21 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Front Caliper Mounting Bolts",
+              "torque": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Rear Caliper Pin Bolt ",
+              "torque": "27 N·m (2.8 kgf·m, 20 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Oil Filter",
+              "torque": "17 N·m (1.7 kgf·m, 13 ft·lb)",
               "notes": ""
             }
           ]
@@ -793,25 +823,6 @@
             }
           ]
         },
-        "fasteners": {
-          "label": "Bolt & Nut Dimensions",
-          "table": [
-            {
-              "name": "Oil drain plug",
-              "thread": "M12×1.5",
-              "length": "18 mm",
-              "head": "Hex 14 mm",
-              "torque": "25 Nm"
-            },
-            {
-              "name": "Rear sprocket nut",
-              "thread": "M18×1.5",
-              "length": "—",
-              "head": "Hex 27 mm",
-              "torque": "90 Nm"
-            }
-          ]
-        },
         "brake_fluid": {
           "label": "Brake Fluid",
           "fields": [
@@ -831,12 +842,47 @@
               "value": "Every 2 years"
             }
           ]
+        },
+        "chain": {
+          "label": "Chain",
+          "table": [
+            {
+              "component": "Chain Slack",
+              "torque": "25 ∼ 35 mm (1.0 ∼ 1.4 in.)",
+              "notes": ""
+            },
+            {
+              "component": "Link",
+              "torque": "114 links",
+              "notes": ""
+            },
+            {
+              "component": "Type",
+              "torque": "525",
+              "notes": ""
+            }
+          ]
+        },
+        "spark_plug": {
+          "label": "Spark Plug",
+          "table": [
+            {
+              "component": "Type",
+              "torque": "NGK SILMAR9B9",
+              "notes": ""
+            },
+            {
+              "component": "Gap",
+              "torque": "0.8 ∼ 0.9 mm (0.031 ∼ 0.035 in.)",
+              "notes": ""
+            }
+          ]
         }
       },
       "custom_sections": [
         {
           "title": "Valve Clearance",
-          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+          "content": "Intake: 0.17 ∼ 0.22 mm (0.0067 ∼ 0.0087 in.)\nExhaust: 0.15 ∼ 0.22 mm (0.0059 ∼ 0.0087 in.)\nCheck every 30,000 km.\n"
         }
       ]
     },
@@ -12460,22 +12506,22 @@
             {
               "key": "capacity",
               "label": "Oil Capacity (with filter)",
-              "value": "2.0 L (2.1 US qt)"
+              "value": "3.7 L (3.9 US qt)"
             },
             {
               "key": "type",
               "label": "Recommended Grade",
-              "value": "SAE 15W-50, JASO MA2"
+              "value": "SAE 10W-40, JASO MA2, "
             },
             {
               "key": "filter",
               "label": "Oil Filter",
-              "value": "KTM 78938015010"
+              "value": "16097-0011"
             },
             {
               "key": "interval",
               "label": "Change Interval",
-              "value": "Every 15,000 km / 9,000 mi"
+              "value": "5000 km / 9000 mi"
             }
           ]
         },
@@ -12483,28 +12529,58 @@
           "label": "Torque Specifications",
           "table": [
             {
-              "component": "Oil drain plug",
-              "torque": "25 Nm",
-              "notes": "M12×1.5"
-            },
-            {
-              "component": "Oil filter cover",
-              "torque": "10 Nm",
-              "notes": ""
-            },
-            {
               "component": "Front axle nut",
-              "torque": "65 Nm",
+              "torque": "130 N·m (13.3 kgf-m, 95.9 ft-lb)",
               "notes": ""
             },
             {
               "component": "Rear axle nut",
-              "torque": "90 Nm",
+              "torque": "130 N·m (13.3 kgf-m, 95.9 ft-lb)",
               "notes": ""
             },
             {
-              "component": "Triple clamp bolts",
-              "torque": "20 Nm",
+              "component": "Front Axle Clamp Bolts",
+              "torque": "20 N·m (2.0 kgf·m, 15 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Engine Sprocket Nut",
+              "torque": "147 N·m (15.0 kgf·m, 108 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Steering Stem Head Nut",
+              "torque": "80 N·m (8.2 kgf·m, 59 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Handlebar Clamp Bolts ",
+              "torque": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Rear Brake Disc Mounting Bolts",
+              "torque": "28 N·m (2.9 kgf·m, 21 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Front Brake Disc Mounting Bolts",
+              "torque": "28 N·m (2.9 kgf·m, 21 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Front Caliper Mounting Bolts",
+              "torque": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Rear Caliper Pin Bolt ",
+              "torque": "27 N·m (2.8 kgf·m, 20 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Oil Filter",
+              "torque": "17 N·m (1.7 kgf·m, 13 ft·lb)",
               "notes": ""
             }
           ]
@@ -12529,25 +12605,6 @@
             }
           ]
         },
-        "fasteners": {
-          "label": "Bolt & Nut Dimensions",
-          "table": [
-            {
-              "name": "Oil drain plug",
-              "thread": "M12×1.5",
-              "length": "18 mm",
-              "head": "Hex 14 mm",
-              "torque": "25 Nm"
-            },
-            {
-              "name": "Rear sprocket nut",
-              "thread": "M18×1.5",
-              "length": "—",
-              "head": "Hex 27 mm",
-              "torque": "90 Nm"
-            }
-          ]
-        },
         "brake_fluid": {
           "label": "Brake Fluid",
           "fields": [
@@ -12567,12 +12624,47 @@
               "value": "Every 2 years"
             }
           ]
+        },
+        "chain": {
+          "label": "Chain",
+          "table": [
+            {
+              "component": "Chain Slack",
+              "torque": "25 ∼ 35 mm (1.0 ∼ 1.4 in.)",
+              "notes": ""
+            },
+            {
+              "component": "Link",
+              "torque": "114 links",
+              "notes": ""
+            },
+            {
+              "component": "Type",
+              "torque": "525",
+              "notes": ""
+            }
+          ]
+        },
+        "spark_plug": {
+          "label": "Spark Plug",
+          "table": [
+            {
+              "component": "Type",
+              "torque": "NGK SILMAR9B9",
+              "notes": ""
+            },
+            {
+              "component": "Gap",
+              "torque": "0.8 ∼ 0.9 mm (0.031 ∼ 0.035 in.)",
+              "notes": ""
+            }
+          ]
         }
       },
       "custom_sections": [
         {
           "title": "Valve Clearance",
-          "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+          "content": "Intake: 0.17 ∼ 0.22 mm (0.0067 ∼ 0.0087 in.)\nExhaust: 0.15 ∼ 0.22 mm (0.0059 ∼ 0.0087 in.)\nCheck every 30,000 km.\n"
         }
       ]
     },
@@ -14036,6 +14128,191 @@
         {
           "title": "Valve Clearance",
           "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
+        }
+      ]
+    },
+    {
+      "id": "kawasaki-ninja-zx-10r-2016-2020-global",
+      "make": "Kawasaki",
+      "model": "Ninja ZX-10R",
+      "year": "2016-2020",
+      "region": "Global",
+      "model_group": "kawasaki-ninja-zx-10r",
+      "category": "Supersport",
+      "displacement": "998",
+      "published": true,
+      "tags": [
+        "zx10r",
+        "ninja",
+        "10r"
+      ],
+      "summary": "Lightweight four-cylinder supersport from japan",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "3.7 L (3.9 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 10W-40, JASO MA2, "
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "16097-0011"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "5000 km / 9000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Front axle nut",
+              "torque": "130 N·m (13.3 kgf-m, 95.9 ft-lb)",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "130 N·m (13.3 kgf-m, 95.9 ft-lb)",
+              "notes": ""
+            },
+            {
+              "component": "Front Axle Clamp Bolts",
+              "torque": "20 N·m (2.0 kgf·m, 15 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Engine Sprocket Nut",
+              "torque": "147 N·m (15.0 kgf·m, 108 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Steering Stem Head Nut",
+              "torque": "80 N·m (8.2 kgf·m, 59 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Handlebar Clamp Bolts ",
+              "torque": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Rear Brake Disc Mounting Bolts",
+              "torque": "28 N·m (2.9 kgf·m, 21 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Front Brake Disc Mounting Bolts",
+              "torque": "28 N·m (2.9 kgf·m, 21 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Front Caliper Mounting Bolts",
+              "torque": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Rear Caliper Pin Bolt ",
+              "torque": "27 N·m (2.8 kgf·m, 20 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Oil Filter",
+              "torque": "17 N·m (1.7 kgf·m, 13 ft·lb)",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        },
+        "chain": {
+          "label": "Chain",
+          "table": [
+            {
+              "component": "Chain Slack",
+              "torque": "25 ∼ 35 mm (1.0 ∼ 1.4 in.)",
+              "notes": ""
+            },
+            {
+              "component": "Link",
+              "torque": "114 links",
+              "notes": ""
+            },
+            {
+              "component": "Type",
+              "torque": "525",
+              "notes": ""
+            }
+          ]
+        },
+        "spark_plug": {
+          "label": "Spark Plug",
+          "table": [
+            {
+              "component": "Type",
+              "torque": "NGK SILMAR9B9",
+              "notes": ""
+            },
+            {
+              "component": "Gap",
+              "torque": "0.8 ∼ 0.9 mm (0.031 ∼ 0.035 in.)",
+              "notes": ""
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.17 ∼ 0.22 mm (0.0067 ∼ 0.0087 in.)\nExhaust: 0.15 ∼ 0.22 mm (0.0059 ∼ 0.0087 in.)\nCheck every 30,000 km.\n"
         }
       ]
     }
