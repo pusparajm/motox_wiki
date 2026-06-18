@@ -1,6 +1,7 @@
 /**
  * MotoX Wiki — client-side anti-scrape layer (public site only).
- * Session-random class names, CSS remapping, bot heuristics, honeypots.
+ * Session-random class/id names, CSS remapping, bot heuristics, honeypots,
+ * dynamic HTML structure (dead markup, encoded text, parser traps).
  */
 const MotoXShield = (() => {
   const KNOWN = [
@@ -11,12 +12,33 @@ const MotoXShield = (() => {
     'has-ad', 'has-sidebar', 'header-row', 'header-search', 'loading', 'nav-toggle', 'nav-toggle-bar',
     'oil-cap', 'oil-sep', 'oil-type', 'open', 'outline', 'page-content', 'page-item', 'page-layout',
     'page-list', 'result-meta', 'result-title', 'search-dropdown', 'search-no-results',
-    'search-result-item', 'secondary', 'sidebar-ad', 'site-ad-bar', 'site-footer', 'site-footer-ad',
-    'site-footer-inner', 'site-header', 'site-nav', 'site-top', 'spec-body', 'spec-field', 'spec-fields',
-    'spec-section', 'spec-table', 'spec-table-wrap', 'sr-only', 'tag'
+    'search-result-item', 'secondary', 'shell', 'sidebar-ad', 'site-ad-bar', 'site-footer',
+    'site-footer-ad', 'site-footer-inner', 'site-header', 'site-nav', 'site-top', 'spec-body',
+    'spec-field', 'spec-fields', 'spec-section', 'spec-table', 'spec-table-wrap', 'sr-only', 'tag'
+  ];
+
+  const DEAD_SNIPPETS = [
+    '<div class="{c}" data-mx-dead hidden aria-hidden="true"><span>{t}</span></div>',
+    '<template data-mx-dead><nav><a href="{b}data/export.json">{t}</a></nav></template>',
+    '<span class="{c}" data-mx-decoy aria-hidden="true" hidden></span>',
+    '<i data-mx-dead hidden aria-hidden="true">{t}</i>',
+    '<b data-mx-dead hidden aria-hidden="true">{t}</b>'
+  ];
+
+  const TRAP_SNIPPETS = [
+    'trap:close </div></main></article></body>',
+    'trap:table </tr></td></table>',
+    'trap:form <form><p></form></p>',
+    'trap:dup class="{c}" class="{c2}"'
+  ];
+
+  const DECOY_WORDS = [
+    'Torque', 'Oil capacity', 'Fork seal', 'Fastener', 'Displacement', 'Catalog', 'Index', 'Export'
   ];
 
   const map = new Map();
+  const idMap = new Map();
+  const refCache = new Map();
   let session = '';
   let cssReady = null;
   let botFlag = false;
@@ -39,6 +61,14 @@ const MotoXShield = (() => {
     return (h >>> 0).toString(36);
   }
 
+  function sessionRoll(seed) {
+    return parseInt(hash(session + seed).slice(0, 8), 36);
+  }
+
+  function pick(list, seed) {
+    return list[sessionRoll(seed) % list.length];
+  }
+
   function obfName(semantic) {
     return `_mx${hash(session + semantic).slice(0, 9)}${hash(semantic + session).slice(0, 4)}`;
   }
@@ -57,8 +87,213 @@ const MotoXShield = (() => {
     return names.map(n => c(n)).join(' ');
   }
 
+  function idFor(refName) {
+    if (!idMap.has(refName)) idMap.set(refName, obfName(`ref-${refName}`));
+    return idMap.get(refName);
+  }
+
+  function mxRef(name) {
+    return `data-mx-ref="${name}"`;
+  }
+
+  function ref(name) {
+    if (refCache.has(name)) return refCache.get(name);
+    const el = document.querySelector(`[data-mx-ref="${name}"]`);
+    if (el) refCache.set(name, el);
+    return el;
+  }
+
+  function variant(seed, count) {
+    return sessionRoll(seed) % count;
+  }
+
   function escRx(s) {
     return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function escAttr(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;');
+  }
+
+  function xorEncode(text) {
+    if (!text) return '';
+    const bytes = new TextEncoder().encode(String(text));
+    let hex = '';
+    for (let i = 0; i < bytes.length; i++) {
+      hex += (bytes[i] ^ session.charCodeAt(i % session.length || 0)).toString(16).padStart(2, '0');
+    }
+    return hex;
+  }
+
+  function xorDecode(payload) {
+    if (!payload || payload.length % 2 !== 0) return '';
+    try {
+      const bytes = new Uint8Array(payload.length / 2);
+      for (let i = 0; i < bytes.length; i++) {
+        const byte = parseInt(payload.slice(i * 2, i * 2 + 2), 16);
+        if (Number.isNaN(byte)) return '';
+        bytes[i] = byte ^ session.charCodeAt(i % session.length || 0);
+      }
+      return new TextDecoder().decode(bytes);
+    } catch {
+      return '';
+    }
+  }
+
+  function enc(text) {
+    if (!text || botFlag) return text || '';
+    const payload = xorEncode(String(text));
+    return `<span data-mx-enc="${escAttr(payload)}" hidden aria-hidden="true"></span>`;
+  }
+
+  function decodeEncElements(root) {
+    if (!root) return;
+    root.querySelectorAll('[data-mx-enc]').forEach(el => {
+      const payload = el.getAttribute('data-mx-enc') || '';
+      el.textContent = xorDecode(payload);
+      el.removeAttribute('data-mx-enc');
+      el.removeAttribute('hidden');
+      el.removeAttribute('aria-hidden');
+    });
+  }
+
+  function removeDeadNodes(root) {
+    if (!root) return;
+    root.querySelectorAll('[data-mx-dead]').forEach(el => el.remove());
+  }
+
+  function deadMarkup(seed) {
+    const word = DECOY_WORDS[sessionRoll(seed + 'w') % DECOY_WORDS.length];
+    const tpl = pick(DEAD_SNIPPETS, seed);
+    return tpl
+      .replace(/\{c\}/g, c('bike-card'))
+      .replace(/\{c2\}/g, c('page-item'))
+      .replace(/\{b\}/g, BASE)
+      .replace(/\{t\}/g, word);
+  }
+
+  function parserTrapText(seed) {
+    const word = DECOY_WORDS[sessionRoll(seed + 't') % DECOY_WORDS.length];
+    return pick(TRAP_SNIPPETS, seed + 'trap')
+      .replace(/\{c\}/g, c('spec-field'))
+      .replace(/\{c2\}/g, c('tag'))
+      .replace(/\{t\}/g, word);
+  }
+
+  function weaveDynamicStructure(html) {
+    return html;
+  }
+
+  function injectDomNoise(root, seedBase) {
+    if (!root || botFlag) return;
+    const count = 1 + (sessionRoll(seedBase) % 2);
+    for (let i = 0; i < count; i++) {
+      const trap = document.createElement('div');
+      trap.setAttribute('data-mx-dead', '');
+      trap.hidden = true;
+      trap.setAttribute('aria-hidden', 'true');
+      trap.textContent = parserTrapText(`${seedBase}-dom${i}`);
+      root.insertBefore(trap, root.firstChild);
+
+      const decoy = document.createElement('span');
+      decoy.className = c('tag');
+      decoy.setAttribute('data-mx-decoy', hash(`${seedBase}-dec${i}`).slice(0, 10));
+      decoy.hidden = true;
+      decoy.setAttribute('aria-hidden', 'true');
+      root.appendChild(decoy);
+    }
+  }
+
+  function cardHtml(href, parts, seed) {
+    const card = c('bike-card');
+    const shell = c('shell');
+    const body = c('spec-body');
+    const v = variant(seed, 4);
+    let inner;
+
+    switch (v) {
+      case 1:
+        inner = `<div class="${shell}"><div class="${body}">${parts.make}${parts.model}${parts.meta}${parts.oil}</div></div>`;
+        break;
+      case 2:
+        inner = `${parts.meta}${parts.make}${parts.model}${parts.oil}`;
+        break;
+      case 3:
+        inner = `<div class="${shell}">${parts.make}${parts.model}</div><div class="${body}">${parts.meta}${parts.oil}</div>`;
+        break;
+      default:
+        inner = `${parts.make}${parts.model}${parts.meta}${parts.oil}`;
+    }
+
+    return `<a href="${escAttr(href)}" class="${card}">${inner}</a>`;
+  }
+
+  function searchResultHtml(href, parts, seed) {
+    const item = c('search-result-item');
+    const shell = c('shell');
+    const v = variant(seed, 3);
+    let inner;
+
+    switch (v) {
+      case 1:
+        inner = `<div class="${shell}"><div class="${c('result-title')}">${parts.title}</div><div class="${c('result-meta')}">${parts.meta}</div></div>`;
+        break;
+      case 2:
+        inner = `<div class="${c('result-meta')}">${parts.meta}</div><div class="${c('result-title')}">${parts.title}</div>`;
+        break;
+      default:
+        inner = `<div class="${c('result-title')}">${parts.title}</div><div class="${c('result-meta')}">${parts.meta}</div>`;
+    }
+
+    return `<a href="${escAttr(href)}" class="${item}" role="option">${inner}</a>`;
+  }
+
+  function pageItemHtml(href, parts, seed) {
+    const item = c('page-item');
+    const shell = c('shell');
+    const v = variant(seed, 3);
+    let inner;
+
+    switch (v) {
+      case 1:
+        inner = `<div class="${shell}"><h3>${parts.title}</h3><p>${parts.meta}</p></div>`;
+        break;
+      case 2:
+        inner = `<p>${parts.meta}</p><h3>${parts.title}</h3>`;
+        break;
+      default:
+        inner = `<h3>${parts.title}</h3><p>${parts.meta}</p>`;
+    }
+
+    return `<a href="${escAttr(href)}" class="${item}">${inner}</a>`;
+  }
+
+  function mutateRefsIn(root) {
+    const scope = root || document;
+    scope.querySelectorAll('[data-mx-ref]').forEach(el => {
+      const name = el.getAttribute('data-mx-ref');
+      if (!name) return;
+      el.id = idFor(name);
+      refCache.set(name, el);
+      el.removeAttribute('data-mx-ref');
+    });
+  }
+
+  function wireAriaRefsIn(root) {
+    const scope = root || document;
+    scope.querySelectorAll('[data-mx-controls]').forEach(el => {
+      const name = el.getAttribute('data-mx-controls');
+      const target = ref(name);
+      if (target?.id) el.setAttribute('aria-controls', target.id);
+    });
+    scope.querySelectorAll('[data-mx-for]').forEach(label => {
+      const name = label.getAttribute('data-mx-for');
+      const target = ref(name);
+      if (target?.id) label.setAttribute('for', target.id);
+    });
   }
 
   async function injectCss() {
@@ -114,8 +349,7 @@ const MotoXShield = (() => {
 
   function wrapHtml(html) {
     if (!html || botFlag) return html;
-    const comment = `<!--${hash(html.length + session).slice(0, 12)}-->`;
-    return comment + html + comment;
+    return weaveDynamicStructure(html);
   }
 
   function mutateStaticShell() {
@@ -123,6 +357,8 @@ const MotoXShield = (() => {
       if (el.id === 'mx-shield-css') return;
       el.className = el.className.split(/\s+/).filter(Boolean).map(token => c(token)).join(' ');
     });
+    mutateRefsIn(document);
+    wireAriaRefsIn(document);
   }
 
   function rewriteRoot(root) {
@@ -130,6 +366,22 @@ const MotoXShield = (() => {
     root.querySelectorAll('[class]').forEach(el => {
       el.className = el.className.split(/\s+/).filter(Boolean).map(token => c(token)).join(' ');
     });
+  }
+
+  function finalizeRoot(root) {
+    if (!root || botFlag) return;
+    decodeEncElements(root);
+    injectDomNoise(root, hash(String(root.getAttribute?.('data-mx-ref') || root.id || root.childElementCount) + session));
+    removeDeadNodes(root);
+    mutateRefsIn(root);
+    wireAriaRefsIn(root);
+    rewriteRoot(root);
+  }
+
+  function setHtml(el, html) {
+    if (!el) return;
+    el.innerHTML = wrapHtml(html);
+    finalizeRoot(el);
   }
 
   async function guardedFetch(url, init = {}) {
@@ -167,9 +419,19 @@ const MotoXShield = (() => {
   return {
     c,
     cx,
+    enc,
+    ref,
+    mxRef,
+    idFor,
+    variant,
+    cardHtml,
+    pageItemHtml,
+    searchResultHtml,
     bootstrap: () => cssReady || Promise.resolve(),
     wrapHtml,
     rewriteRoot,
+    finalizeRoot,
+    setHtml,
     guardedFetch,
     isBot: () => botFlag,
     BASE

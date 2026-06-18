@@ -7,22 +7,22 @@
   <title>Search — MotoX Wiki</title>
   <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=10" id="mx-main-css">
+  <link rel="stylesheet" href="css/main.css?v=11" id="mx-main-css">
 </head>
 <body>
-  <header id="site-header" class="site-header"></header>
+  <header data-mx-ref="site-header" class="site-header"></header>
 
   <main class="container">
     <h1>Search Results</h1>
-    <p id="search-query-display"></p>
-    <div id="search-results"><div class="loading">Loading search index…</div></div>
+    <p data-mx-ref="search-query-display"></p>
+    <div data-mx-ref="search-results"><div class="loading">Loading search index…</div></div>
   </main>
 
-  <footer id="site-footer" class="site-footer"></footer>
+  <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script src="js/dist/shield.js?v=1"></script>
-  <script src="js/dist/core.js?v=12"></script>
-  <script src="js/dist/search.js?v=6"></script>
+  <script src="js/dist/shield.js?v=3"></script>
+  <script src="js/dist/core.js?v=15"></script>
+  <script src="js/dist/search.js?v=7"></script>
   <script>
     async function init() {
       const settings = await MotoX.initLayout('search.html');
@@ -32,14 +32,15 @@
       const params = new URLSearchParams(window.location.search);
       const q = params.get('q') || '';
 
-      document.getElementById('search-query-display').textContent =
+      MotoX.ref('search-query-display').textContent =
         q ? `Showing results for "${q}"` : 'Enter a search term using the header search bar.';
 
-      const container = document.getElementById('search-results');
+      const container = MotoX.ref('search-results');
 
       if (!q) {
-        container.innerHTML =
-          `<div class="${m('empty-state')}"><p>Try searching for a motorcycle model, torque spec, or oil capacity.</p></div>`;
+        MotoX.setContainerHtml(container,
+          `<div class="${m('empty-state')}"><p>Try searching for a motorcycle model, torque spec, or oil capacity.</p></div>`
+        );
         return;
       }
 
@@ -47,20 +48,20 @@
       const results = MotoXSearch.search(q, settings.search?.maxResults || 50);
 
       if (!results.length) {
-        container.innerHTML = `<div class="${m('empty-state')}"><p>No results found. Try different keywords.</p></div>`;
+        MotoX.setContainerHtml(container, `<div class="${m('empty-state')}"><p>No results found. Try different keywords.</p></div>`);
         return;
       }
 
-      container.innerHTML = `
+      MotoX.setContainerHtml(container, `
         <div class="${m('page-list')}">
-          ${results.map(r => `
-            <a href="${r.url}" class="${m('page-item')}">
-              <h3>${MotoX.escapeHtml(r.title)}</h3>
-              <p>${r.type === 'motorcycle' ? '🏍 Motorcycle' : '📄 Wiki Page'} — ${MotoX.escapeHtml(r.meta)}</p>
-            </a>
-          `).join('')}
+          ${results.map(r => MotoX.renderPageItem(
+            r.url,
+            r.title,
+            `${r.type === 'motorcycle' ? '🏍 Motorcycle' : '📄 Wiki Page'} — ${r.meta}`,
+            r.title
+          )).join('')}
         </div>
-      `;
+      `);
     }
 
     MotoXShield.bootstrap().then(() => init());

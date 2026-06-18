@@ -7,25 +7,26 @@
   <title>Wiki Pages — MotoX Wiki</title>
   <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=10" id="mx-main-css">
+  <link rel="stylesheet" href="css/main.css?v=11" id="mx-main-css">
 </head>
 <body>
-  <header id="site-header" class="site-header"></header>
+  <header data-mx-ref="site-header" class="site-header"></header>
 
-  <main class="container" id="main-content">
+  <main class="container" data-mx-ref="main-content">
     <div class="loading">Loading…</div>
   </main>
 
-  <footer id="site-footer" class="site-footer"></footer>
+  <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script src="js/dist/shield.js?v=1"></script>
-  <script src="js/dist/core.js?v=12"></script>
-  <script src="js/dist/search.js?v=6"></script>
+  <script src="js/dist/shield.js?v=3"></script>
+  <script src="js/dist/core.js?v=15"></script>
+  <script src="js/dist/search.js?v=7"></script>
   <script>
     async function init() {
       const settings = await MotoX.initLayout('pages.html');
       MotoXSearch.init({ lazy: true, settings });
       const m = MotoX.mx;
+      const main = MotoX.ref('main-content');
 
       const params = new URLSearchParams(window.location.search);
       const slug = params.get('slug');
@@ -33,9 +34,9 @@
       if (slug) {
         const page = await MotoX.loadPage(slug);
         if (!page) {
-          document.getElementById('main-content').innerHTML = `
+          MotoX.setContainerHtml(main, `
             <div class="${m('empty-state')}"><p>Page not found.</p><p><a href="pages.html">View all pages</a></p></div>
-          `;
+          `);
           return;
         }
 
@@ -44,13 +45,13 @@
         const adBottom = MotoX.renderAdSlot(settings.ads, 'content-bottom');
         const sidebarAd = MotoX.renderAdSlot(settings.ads, 'sidebar');
 
-        document.getElementById('main-content').innerHTML = MotoXShield.wrapHtml(`
+        MotoX.setContainerHtml(main, `
           <div class="${m('page-layout')} ${m('has-sidebar')}">
             <main>
               <div class="${m('bike-header')}">
-                <div class="${m('breadcrumb')}"><a href="index.html">Home</a> / <a href="pages.html">Pages</a> / ${MotoX.escapeHtml(page.title)}</div>
-                <h1>${MotoX.escapeHtml(page.title)}</h1>
-                ${page.summary ? `<p class="${m('bike-subtitle')}">${MotoX.escapeHtml(page.summary)}</p>` : ''}
+                <div class="${m('breadcrumb')}"><a href="index.html">Home</a> / <a href="pages.html">Pages</a> / ${MotoX.shieldEnc(page.title)}</div>
+                <h1>${MotoX.shieldEnc(page.title)}</h1>
+                ${page.summary ? `<p class="${m('bike-subtitle')}">${MotoX.shieldEnc(page.summary)}</p>` : ''}
               </div>
               ${adTop ? `<div class="${m('ad-slot')}">${adTop}</div>` : ''}
               <article class="${m('page-content')}">${page.content}</article>
@@ -63,18 +64,18 @@
       }
 
       const pages = await MotoX.loadPagesIndex();
-      document.getElementById('main-content').innerHTML = `
+      MotoX.setContainerHtml(main, `
         <h1>Wiki Pages</h1>
         <p>Reference guides and general motorcycle technical information.</p>
         <div class="${m('page-list')}">
-          ${pages.map(p => `
-            <a href="pages.html?slug=${encodeURIComponent(p.slug || p.id)}" class="${m('page-item')}">
-              <h3>${MotoX.escapeHtml(p.title)}</h3>
-              <p>${MotoX.escapeHtml(p.summary || '')}</p>
-            </a>
-          `).join('')}
+          ${pages.map(p => MotoX.renderPageItem(
+            `pages.html?slug=${encodeURIComponent(p.slug || p.id)}`,
+            p.title,
+            p.summary || '',
+            p.slug || p.id
+          )).join('')}
         </div>
-      `;
+      `);
     }
 
     MotoXShield.bootstrap().then(() => init());

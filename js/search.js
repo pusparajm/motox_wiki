@@ -118,16 +118,15 @@ const MotoXSearch = (() => {
     if (!results.length) {
       dropdown.innerHTML = `<div class="${mx('search-no-results')}">No results found</div>`;
       dropdown.classList.add(mx('open'));
+      if (typeof MotoXShield !== 'undefined') MotoXShield.finalizeRoot(dropdown);
       return;
     }
 
     dropdown.innerHTML = results.map(r => `
-      <a href="${base}${r.url}" class="${mx('search-result-item')}" role="option">
-        <div class="${mx('result-title')}">${MotoX.escapeHtml(r.title)}</div>
-        <div class="${mx('result-meta')}">${r.type === 'motorcycle' ? '🏍 ' : '📄 '}${MotoX.escapeHtml(r.meta)}</div>
-      </a>
+      ${MotoX.renderSearchResult(`${base}${r.url}`, r.title, `${r.type === 'motorcycle' ? '🏍 ' : '📄 '}${r.meta}`, r.title)}
     `).join('');
     dropdown.classList.add(mx('open'));
+    if (typeof MotoXShield !== 'undefined') MotoXShield.finalizeRoot(dropdown);
   }
 
   function closeDropdown(dropdown) {
@@ -136,8 +135,8 @@ const MotoXSearch = (() => {
   }
 
   async function init(options = {}) {
-    const input = document.getElementById('global-search');
-    const dropdown = document.getElementById('search-dropdown');
+    const input = MotoX.ref('global-search');
+    const dropdown = MotoX.ref('search-dropdown');
     if (!input || !dropdown) return;
 
     const lazy = options.lazy !== false;

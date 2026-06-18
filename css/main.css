@@ -334,7 +334,9 @@ h2 {
 }
 
 .bike-grid > [data-mx-decoy],
-.bike-grid > .tag[data-mx-decoy] {
+.bike-grid > .tag[data-mx-decoy],
+[data-mx-dead],
+[data-mx-decoy] {
   display: none !important;
 }
 
@@ -350,6 +352,14 @@ h2 {
   flex-direction: column;
   gap: 0.12rem;
   min-height: 0;
+}
+
+.bike-card > div,
+.bike-card > header,
+.bike-card > footer,
+.page-item > div,
+.search-result-item > div {
+  display: contents;
 }
 
 .bike-card:hover {

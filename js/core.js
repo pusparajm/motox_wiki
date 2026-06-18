@@ -12,6 +12,15 @@ const MotoX = (() => {
     return `data-mx-hook="${name}"`;
   }
 
+  function mxRef(name) {
+    return typeof MotoXShield !== 'undefined' ? MotoXShield.mxRef(name) : `data-mx-ref="${name}"`;
+  }
+
+  function ref(name) {
+    if (typeof MotoXShield !== 'undefined') return MotoXShield.ref(name);
+    return document.querySelector(`[data-mx-ref="${name}"]`) || document.getElementById(name);
+  }
+
   function getBasePath() {
     const path = window.location.pathname;
     const parts = path.split('/').filter(Boolean);
@@ -144,44 +153,62 @@ const MotoX = (() => {
     return div.innerHTML;
   }
 
+  function shieldEnc(str) {
+    if (!str) return '';
+    return typeof MotoXShield !== 'undefined' ? MotoXShield.enc(str) : escapeHtml(str);
+  }
+
+  function finalizeContent(root) {
+    if (typeof MotoXShield !== 'undefined') MotoXShield.finalizeRoot(root);
+  }
+
+  function setContainerHtml(container, html) {
+    if (!container) return;
+    if (typeof MotoXShield !== 'undefined') {
+      MotoXShield.setHtml(container, html);
+    } else {
+      container.innerHTML = html;
+    }
+  }
+
   function renderHeader(container, settings, activePage) {
     if (!container) return;
     const site = settings.site || {};
     const nav = settings.navigation || [];
 
-    container.innerHTML = `
+    setContainerHtml(container, `
       <div class="${mx('container')}">
         <div class="${mx('header-row')}">
           <a href="${BASE}index.html" class="${mx('brand')}">
             <span class="${mx('brand-icon')}">⚙</span>
-            <span>${escapeHtml(site.title || 'MotoX Wiki')}</span>
+            <span>${shieldEnc(site.title || 'MotoX Wiki')}</span>
           </a>
-          <button type="button" class="${mx('nav-toggle')}" ${mxHook('nav-toggle')} aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+          <button type="button" class="${mx('nav-toggle')}" ${mxHook('nav-toggle')} aria-label="Toggle navigation" aria-expanded="false" data-mx-controls="site-nav">
             <span class="${mx('nav-toggle-bar')}"></span>
             <span class="${mx('nav-toggle-bar')}"></span>
             <span class="${mx('nav-toggle-bar')}"></span>
           </button>
         </div>
-        <nav id="site-nav" class="${mx('site-nav')}" aria-label="Main navigation">
+        <nav ${mxRef('site-nav')} class="${mx('site-nav')}" aria-label="Main navigation">
           ${nav.map(item => {
             const isActive = activePage && (item.href === activePage || item.href.includes(activePage));
-            return `<a href="${BASE}${item.href.replace(/^\.\//, '')}" ${isActive ? `class="${mx('active')}"` : ''}>${escapeHtml(item.label)}</a>`;
+            return `<a href="${BASE}${item.href.replace(/^\.\//, '')}" ${isActive ? `class="${mx('active')}"` : ''}>${shieldEnc(item.label)}</a>`;
           }).join('')}
         </nav>
         <div class="${mx('header-search')}">
-          <label for="global-search" class="${mx('sr-only')}">Search motorcycles and pages</label>
-          <input type="search" id="global-search" placeholder="Search specs, models…" autocomplete="off" aria-expanded="false" aria-controls="search-dropdown" enterkeyhint="search">
-          <div id="search-dropdown" class="${mx('search-dropdown')}" role="listbox"></div>
+          <label data-mx-for="global-search" class="${mx('sr-only')}">Search motorcycles and pages</label>
+          <input type="search" ${mxRef('global-search')} placeholder="Search specs, models…" autocomplete="off" aria-expanded="false" data-mx-controls="search-dropdown" enterkeyhint="search">
+          <div ${mxRef('search-dropdown')} class="${mx('search-dropdown')}" role="listbox"></div>
         </div>
       </div>
-    `;
+    `);
 
     initMobileNav(container);
   }
 
   function initMobileNav(header) {
     const toggle = header.querySelector('[data-mx-hook="nav-toggle"]');
-    const nav = header.querySelector('#site-nav');
+    const nav = ref('site-nav');
     if (!toggle || !nav) return;
 
     toggle.addEventListener('click', () => {
@@ -205,7 +232,7 @@ const MotoX = (() => {
   }
 
   function renderAdBar(settings) {
-    const header = document.getElementById('site-header');
+    const header = ref('site-header');
     if (!header) return;
 
     let wrapper = header.parentElement;
@@ -216,12 +243,13 @@ const MotoX = (() => {
       wrapper.appendChild(header);
     }
 
-    let bar = document.getElementById('site-ad-bar');
+    let bar = ref('site-ad-bar');
     if (!bar) {
       bar = document.createElement('div');
-      bar.id = 'site-ad-bar';
+      bar.setAttribute('data-mx-ref', 'site-ad-bar');
       bar.className = mx('site-ad-bar');
       wrapper.appendChild(bar);
+      if (typeof MotoXShield !== 'undefined') bar.id = MotoXShield.idFor('site-ad-bar');
     }
 
     const content = settings.ads ? renderAdSlot(settings.ads, 'header-banner') : '';
@@ -233,19 +261,19 @@ const MotoX = (() => {
     if (!container) return;
     const site = settings.site || {};
     const footerAd = settings.ads ? renderAdSlot(settings.ads, 'footer-banner') : '';
-    container.innerHTML = `
+    setContainerHtml(container, `
       ${footerAd ? `<div class="${mx('site-footer-ad')}">${footerAd}</div>` : ''}
       <div class="${mx('container')} ${mx('site-footer-inner')}">
-        <span class="${mx('footer-text')}">${escapeHtml(site.footer || '')}</span>
+        <span class="${mx('footer-text')}">${shieldEnc(site.footer || '')}</span>
       </div>
-    `;
+    `);
   }
 
   function initLayout(activePage) {
     return loadSettings().then(settings => {
-      renderHeader(document.getElementById('site-header'), settings, activePage);
+      renderHeader(ref('site-header'), settings, activePage);
       renderAdBar(settings);
-      renderFooter(document.getElementById('site-footer'), settings);
+      renderFooter(ref('site-footer'), settings);
       return settings;
     });
   }
@@ -257,8 +285,8 @@ const MotoX = (() => {
     if (section.fields && section.fields.length) {
       body = `<div class="${mx('spec-fields')}">${section.fields.map(f => `
         <div class="${mx('spec-field')}">
-          <span class="${mx('field-label')}">${escapeHtml(f.label)}</span>
-          <span class="${mx('field-value')}">${escapeHtml(f.value)}</span>
+          <span class="${mx('field-label')}">${shieldEnc(f.label)}</span>
+          <span class="${mx('field-value')}">${shieldEnc(f.value)}</span>
         </div>
       `).join('')}</div>`;
     }
@@ -271,19 +299,19 @@ const MotoX = (() => {
       };
       body += `<div class="${mx('spec-table-wrap')}" tabindex="0" aria-label="Scrollable table">
         <table class="${mx('spec-table')}">
-        <thead><tr>${headers.map(h => `<th>${escapeHtml(labels[h] || h)}</th>`).join('')}</tr></thead>
+        <thead><tr>${headers.map(h => `<th>${shieldEnc(labels[h] || h)}</th>`).join('')}</tr></thead>
         <tbody>${section.table.map(row => `
-          <tr>${headers.map(h => `<td>${escapeHtml(row[h] || '')}</td>`).join('')}</tr>
+          <tr>${headers.map(h => `<td>${shieldEnc(row[h] || '')}</td>`).join('')}</tr>
         `).join('')}</tbody>
       </table></div>`;
     }
 
-    return shieldWrap(`
+    return `
       <details class="${mx('spec-section')}" ${key === 'engine_oil' || key === 'torque_specs' ? 'open' : ''}>
-        <summary>${escapeHtml(section.label || key)}</summary>
+        <summary>${shieldEnc(section.label || key)}</summary>
         <div class="${mx('spec-body')}">${body}</div>
       </details>
-    `);
+    `;
   }
 
   function shieldWrap(html) {
@@ -294,26 +322,26 @@ const MotoX = (() => {
     const sections = bike.sections || {};
     const sectionHtml = Object.entries(sections).map(([key, sec]) => renderSpecSection(key, sec)).join('');
 
-    const customHtml = (bike.custom_sections || []).map(cs => shieldWrap(`
+    const customHtml = (bike.custom_sections || []).map(cs => `
       <div class="${mx('custom-section')}">
-        <h3>${escapeHtml(cs.title)}</h3>
+        <h3>${shieldEnc(cs.title)}</h3>
         <div>${cs.content}</div>
       </div>
-    `)).join('');
+    `).join('');
 
     const adTop = settings ? renderAdSlot(settings.ads, 'content-top') : '';
     const adBottom = settings ? renderAdSlot(settings.ads, 'content-bottom') : '';
     const adInArticle = settings ? renderAdSlot(settings.ads, 'in-article') : '';
     const sidebarAd = settings ? renderAdSlot(settings.ads, 'sidebar') : '';
 
-    return shieldWrap(`
+    return `
       <div class="${mx('page-layout')} ${mx('has-sidebar')}">
         <main>
           <div class="${mx('bike-header')}">
-            <div class="${mx('breadcrumb')}"><a href="${BASE}index.html">Home</a> / <a href="${BASE}index.html#browse">Browse</a> / ${escapeHtml(bike.make)} ${escapeHtml(bike.model)}</div>
-            <h1 class="${mx('bike-title')}">${escapeHtml(formatBikeTitle(bike))}</h1>
-            <p class="${mx('bike-subtitle')}">${escapeHtml(bike.category || '')}${bike.category && bike.displacement ? ' · ' : ''}${escapeHtml(bike.displacement || '')}</p>
-            ${bike.summary ? `<p>${escapeHtml(bike.summary)}</p>` : ''}
+            <div class="${mx('breadcrumb')}"><a href="${BASE}index.html">Home</a> / <a href="${BASE}index.html#browse">Browse</a> / ${shieldEnc(bike.make)} ${shieldEnc(bike.model)}</div>
+            <h1 class="${mx('bike-title')}">${shieldEnc(formatBikeTitle(bike))}</h1>
+            <p class="${mx('bike-subtitle')}">${shieldEnc(bike.category || '')}${bike.category && bike.displacement ? ' · ' : ''}${shieldEnc(bike.displacement || '')}</p>
+            ${bike.summary ? `<p>${shieldEnc(bike.summary)}</p>` : ''}
           </div>
           ${adTop ? `<div class="${mx('ad-slot')}">${adTop}</div>` : ''}
           ${sectionHtml}
@@ -323,7 +351,7 @@ const MotoX = (() => {
         </main>
         <aside class="${mx('sidebar-ad')}">${sidebarAd}</aside>
       </div>
-    `);
+    `;
   }
 
   function bikeVariantLabel(bike) {
@@ -360,20 +388,50 @@ const MotoX = (() => {
     const capacity = getOilField(bike, 'capacity');
     const oilType = getOilField(bike, 'type');
     const oilParts = [];
-    if (capacity) oilParts.push(`<span class="${mx('oil-cap')}">${escapeHtml(capacity)}</span>`);
-    if (oilType) oilParts.push(`<span class="${mx('oil-type')}">${escapeHtml(oilType)}</span>`);
+    if (capacity) oilParts.push(`<span class="${mx('oil-cap')}">${shieldEnc(capacity)}</span>`);
+    if (oilType) oilParts.push(`<span class="${mx('oil-type')}">${shieldEnc(oilType)}</span>`);
     const oilHtml = oilParts.length
       ? `<div class="${mx('bike-oil')}">${oilParts.join(`<span class="${mx('oil-sep')}"> · </span>`)}</div>`
       : '';
 
-    return `
-      <a href="${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}" class="${mx('bike-card')}">
-        <span class="${mx('bike-make')}">${escapeHtml(bike.make)}</span>
-        <h3 class="${mx('bike-model')}">${escapeHtml(bike.model)}${bikeVariantLabel(bike) ? ` <span class="${mx('bike-variant')}">(${escapeHtml(bikeVariantLabel(bike))})</span>` : ''}</h3>
-        <span class="${mx('bike-meta')}">${escapeHtml(bike.displacement || '')}${bike.category ? ` · ${escapeHtml(bike.category)}` : ''}</span>
-        ${oilHtml}
-      </a>
-    `;
+    const parts = {
+      make: `<span class="${mx('bike-make')}">${shieldEnc(bike.make)}</span>`,
+      model: `<h3 class="${mx('bike-model')}">${shieldEnc(bike.model)}${bikeVariantLabel(bike) ? ` <span class="${mx('bike-variant')}">(${shieldEnc(bikeVariantLabel(bike))})</span>` : ''}</h3>`,
+      meta: `<span class="${mx('bike-meta')}">${shieldEnc(bike.displacement || '')}${bike.category ? ` · ${shieldEnc(bike.category)}` : ''}</span>`,
+      oil: oilHtml
+    };
+    const href = `${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}`;
+
+    if (typeof MotoXShield !== 'undefined') {
+      return MotoXShield.cardHtml(href, parts, bike.id);
+    }
+
+    return `<a href="${href}" class="${mx('bike-card')}">${parts.make}${parts.model}${parts.meta}${parts.oil}</a>`;
+  }
+
+  function renderSearchResult(url, title, meta, seed) {
+    const parts = {
+      title: shieldEnc(title),
+      meta: shieldEnc(meta)
+    };
+
+    if (typeof MotoXShield !== 'undefined') {
+      return MotoXShield.searchResultHtml(url, parts, seed || title);
+    }
+
+    return `<a href="${url}" class="${mx('search-result-item')}" role="option"><div class="${mx('result-title')}">${parts.title}</div><div class="${mx('result-meta')}">${parts.meta}</div></a>`;
+  }
+  function renderPageItem(url, title, meta, seed) {
+    const parts = {
+      title: shieldEnc(title),
+      meta: shieldEnc(meta)
+    };
+
+    if (typeof MotoXShield !== 'undefined') {
+      return MotoXShield.pageItemHtml(url, parts, seed || title);
+    }
+
+    return `<a href="${url}" class="${mx('page-item')}"><h3>${parts.title}</h3><p>${parts.meta}</p></a>`;
   }
 
   return {
@@ -396,8 +454,15 @@ const MotoX = (() => {
     bikeVariantLabel,
     formatBikeTitle,
     renderBikeCard,
+    renderPageItem,
+    renderSearchResult,
+    ref,
+    mxRef,
     renderAdSlot,
     escapeHtml,
+    shieldEnc,
+    finalizeContent,
+    setContainerHtml,
     renderHeader,
     renderFooter,
     initLayout,

@@ -39,7 +39,7 @@ The public site includes a client-side **`js/shield.js`** layer that:
 - Randomizes CSS class names on every page load (session-specific)
 - Remaps `main.css` selectors to match obfuscated classes
 - Adds honeypot links and bot heuristics for headless browsers
-- Wraps rendered HTML with decoy markup
+- Weaves dynamic HTML structure: dead markup removed at runtime, session-encoded text, parser traps for strict HTML/XML scrapers
 
 For stronger protection before deploy, obfuscate the public JavaScript:
 

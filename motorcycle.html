@@ -7,20 +7,20 @@
   <title>Motorcycle Details — MotoX Wiki</title>
   <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=10" id="mx-main-css">
+  <link rel="stylesheet" href="css/main.css?v=11" id="mx-main-css">
 </head>
 <body>
-  <header id="site-header" class="site-header"></header>
+  <header data-mx-ref="site-header" class="site-header"></header>
 
-  <main class="container" id="main-content">
+  <main class="container" data-mx-ref="main-content">
     <div class="loading">Loading…</div>
   </main>
 
-  <footer id="site-footer" class="site-footer"></footer>
+  <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script src="js/dist/shield.js?v=1"></script>
-  <script src="js/dist/core.js?v=12"></script>
-  <script src="js/dist/search.js?v=6"></script>
+  <script src="js/dist/shield.js?v=3"></script>
+  <script src="js/dist/core.js?v=15"></script>
+  <script src="js/dist/search.js?v=7"></script>
   <script>
     async function init() {
       const settings = await MotoX.initLayout('motorcycle.html');
@@ -31,24 +31,24 @@
       const m = MotoX.mx;
 
       if (!id) {
-        document.getElementById('main-content').innerHTML = `
+        MotoX.setContainerHtml(MotoX.ref('main-content'), `
           <div class="${m('empty-state')}">
             <p>No motorcycle specified.</p>
             <p><a href="index.html">Browse all motorcycles</a></p>
           </div>
-        `;
+        `);
         return;
       }
 
       const bike = await MotoX.loadMotorcycle(id);
 
       if (!bike) {
-        document.getElementById('main-content').innerHTML = `
+        MotoX.setContainerHtml(MotoX.ref('main-content'), `
           <div class="${m('empty-state')}">
             <p>Motorcycle not found.</p>
             <p><a href="index.html">Browse all motorcycles</a></p>
           </div>
-        `;
+        `);
         document.title = 'Not Found — MotoX Wiki';
         return;
       }
@@ -57,7 +57,7 @@
       document.querySelector('meta[name="description"]').content =
         `${MotoX.formatBikeTitle(bike)} specs: torque, oil capacity, fork seals, fasteners, and more.`;
 
-      document.getElementById('main-content').innerHTML = MotoX.renderMotorcycleDetail(bike, settings);
+      MotoX.setContainerHtml(MotoX.ref('main-content'), MotoX.renderMotorcycleDetail(bike, settings));
     }
 
     MotoXShield.bootstrap().then(() => init());
