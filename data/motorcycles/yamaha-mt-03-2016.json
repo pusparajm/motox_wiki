@@ -1,17 +1,17 @@
 {
   "motorcycle": {
-    "id": "yamaha-r3-2015-2018-global",
+    "id": "yamaha-mt-03-2016",
     "make": "Yamaha",
-    "model": "YZF-R3",
-    "year": "2015-2018",
+    "model": "MT-03",
+    "year": "2016-Present",
     "region": "Global",
-    "model_group": "yamaha-r3-2019-present-global",
-    "category": "Supersport",
+    "model_group": "yamaha-mt-03-2006-2015",
+    "category": "Naked",
     "displacement": "321 cc",
     "published": true,
     "tags": [
       "yamaha",
-      "r3",
+      "mt03",
       "twin"
     ],
     "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",

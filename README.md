@@ -32,6 +32,40 @@ Open [http://localhost:8080](http://localhost:8080)
 
 **Note:** This repo contains only the public site. No admin code is included.
 
+### Anti-scrape protection (optional hardening)
+
+The public site includes a client-side **`js/shield.js`** layer that:
+
+- Randomizes CSS class names on every page load (session-specific)
+- Remaps `main.css` selectors to match obfuscated classes
+- Adds honeypot links and bot heuristics for headless browsers
+- Wraps rendered HTML with decoy markup
+
+For stronger protection before deploy, obfuscate the public JavaScript:
+
+```bash
+npm install
+npm run build:web          # one-off build → js/dist/
+npm run watch:web          # rebuild automatically when js/*.js changes
+npm run preview            # build + watch + http://localhost:8765
+npm run setup:hooks        # install git hooks (also runs on npm install)
+```
+
+Git hooks (auto-rebuild `js/dist/`):
+
+- **pre-commit** — runs `npm run build:web` when `js/shield.js`, `js/core.js`, or `js/search.js` are staged or newer than `js/dist/`, then stages `js/dist/*.js`
+- **post-merge** — rebuilds after `git pull` if sources are newer than dist
+
+Enable once per clone:
+
+```bash
+npm run setup:hooks
+```
+
+(Happens automatically on `npm install` via the `prepare` script.)
+
+**Limitation:** JSON files under `data/` remain directly fetchable on static hosting. Class obfuscation raises the bar for HTML scrapers; blocking bulk JSON export requires a server or edge worker.
+
 ## Editing content
 
 ### Option A — Edit JSON directly

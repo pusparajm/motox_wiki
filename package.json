@@ -1,0 +1,15 @@
+{
+  "name": "motox-wiki",
+  "private": true,
+  "description": "MotoX Wiki public site build tools",
+  "scripts": {
+    "build:web": "node scripts/build-web.mjs",
+    "watch:web": "node scripts/watch-web.mjs",
+    "preview": "bash scripts/preview-wiki.sh",
+    "setup:hooks": "bash scripts/setup-git-hooks.sh",
+    "prepare": "bash scripts/setup-git-hooks.sh"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1"
+  }
+}

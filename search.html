@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="description" content="Search motorcycles and technical specifications on MotoX Wiki.">
   <title>Search — MotoX Wiki</title>
+  <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=7">
+  <link rel="stylesheet" href="css/main.css?v=10" id="mx-main-css">
 </head>
 <body>
   <header id="site-header" class="site-header"></header>
@@ -19,12 +20,14 @@
 
   <footer id="site-footer" class="site-footer"></footer>
 
-  <script src="js/core.js?v=11"></script>
-  <script src="js/search.js?v=5"></script>
+  <script src="js/dist/shield.js?v=1"></script>
+  <script src="js/dist/core.js?v=12"></script>
+  <script src="js/dist/search.js?v=6"></script>
   <script>
     async function init() {
       const settings = await MotoX.initLayout('search.html');
       MotoXSearch.init({ lazy: true, settings });
+      const m = MotoX.mx;
 
       const params = new URLSearchParams(window.location.search);
       const q = params.get('q') || '';
@@ -36,7 +39,7 @@
 
       if (!q) {
         container.innerHTML =
-          '<div class="empty-state"><p>Try searching for a motorcycle model, torque spec, or oil capacity.</p></div>';
+          `<div class="${m('empty-state')}"><p>Try searching for a motorcycle model, torque spec, or oil capacity.</p></div>`;
         return;
       }
 
@@ -44,14 +47,14 @@
       const results = MotoXSearch.search(q, settings.search?.maxResults || 50);
 
       if (!results.length) {
-        container.innerHTML = '<div class="empty-state"><p>No results found. Try different keywords.</p></div>';
+        container.innerHTML = `<div class="${m('empty-state')}"><p>No results found. Try different keywords.</p></div>`;
         return;
       }
 
       container.innerHTML = `
-        <div class="page-list">
+        <div class="${m('page-list')}">
           ${results.map(r => `
-            <a href="${r.url}" class="page-item">
+            <a href="${r.url}" class="${m('page-item')}">
               <h3>${MotoX.escapeHtml(r.title)}</h3>
               <p>${r.type === 'motorcycle' ? '🏍 Motorcycle' : '📄 Wiki Page'} — ${MotoX.escapeHtml(r.meta)}</p>
             </a>
@@ -60,7 +63,7 @@
       `;
     }
 
-    init();
+    MotoXShield.bootstrap().then(() => init());
   </script>
 </body>
 </html>

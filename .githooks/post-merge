@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# After pull/merge: rebuild js/dist if sources are newer than output.
+set -euo pipefail
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT"
+
+SOURCES=(js/shield.js js/core.js js/search.js)
+NEEDS_BUILD=0
+
+for file in "${SOURCES[@]}"; do
+  dist="js/dist/$(basename "$file")"
+  if [ ! -f "$dist" ] || [ "$file" -nt "$dist" ]; then
+    NEEDS_BUILD=1
+    break
+  fi
+done
+
+if [ "$NEEDS_BUILD" -eq 0 ]; then
+  exit 0
+fi
+
+echo "[post-merge] JS sources changed — rebuilding js/dist/…"
+
+if [ ! -d node_modules ]; then
+  npm install --no-fund --no-audit
+fi
+
+npm run build:web
+echo "[post-merge] Rebuild complete."
+
+exit 0

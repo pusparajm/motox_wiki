@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="description" content="MotoX Wiki — Motorcycle technical reference with torque specs, oil quantities, fork seals, and fastener dimensions.">
   <title>MotoX Wiki — Motorcycle Technical Reference</title>
+  <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=8">
+  <link rel="stylesheet" href="css/main.css?v=10" id="mx-main-css">
 </head>
 <body>
   <header id="site-header" class="site-header"></header>
@@ -34,8 +35,9 @@
 
   <footer id="site-footer" class="site-footer"></footer>
 
-  <script src="js/core.js?v=11"></script>
-  <script src="js/search.js?v=5"></script>
+  <script src="js/dist/shield.js?v=1"></script>
+  <script src="js/dist/core.js?v=13"></script>
+  <script src="js/dist/search.js?v=6"></script>
   <script>
     let allBikes = [];
     let activeList = [];
@@ -212,7 +214,7 @@
 
       if (!activeList.length) {
         const msg = filtered ? 'No motorcycles match your filters.' : 'No motorcycles to show yet.';
-        grid.innerHTML = `<div class="empty-state"><p>${msg}</p></div>`;
+        grid.innerHTML = `<div class="${MotoX.mx('empty-state')}"><p>${msg}</p></div>`;
         pagination.hidden = true;
         return;
       }
@@ -240,7 +242,7 @@
       });
     }
 
-    init();
+    MotoXShield.bootstrap().then(() => init());
   </script>
 </body>
 </html>

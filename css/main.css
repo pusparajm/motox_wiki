@@ -333,6 +333,11 @@ h2 {
   --bike-card-min: 100%;
 }
 
+.bike-grid > [data-mx-decoy],
+.bike-grid > .tag[data-mx-decoy] {
+  display: none !important;
+}
+
 .bike-card {
   background: var(--motox-surface);
   border: 1px solid var(--motox-border);
@@ -872,4 +877,8 @@ footer.site-footer {
     padding: 0.65rem 0.75rem;
     min-height: 2.75rem;
   }
+}
+
+html.mx-lock body {
+  visibility: hidden;
 }

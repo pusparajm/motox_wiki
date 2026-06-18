@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+# Rebuild obfuscated js/dist when public JS sources change.
+set -euo pipefail
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT"
+
+SOURCES=(js/shield.js js/core.js js/search.js)
+NEEDS_BUILD=0
+
+for file in "${SOURCES[@]}"; do
+  if git diff --cached --name-only --diff-filter=ACMR | grep -qx "$file"; then
+    NEEDS_BUILD=1
+    break
+  fi
+done
+
+if [ "$NEEDS_BUILD" -eq 0 ]; then
+  for file in "${SOURCES[@]}"; do
+    dist="js/dist/$(basename "$file")"
+    if [ ! -f "$dist" ] || [ "$file" -nt "$dist" ]; then
+      NEEDS_BUILD=1
+      break
+    fi
+  done
+fi
+
+if [ "$NEEDS_BUILD" -eq 0 ]; then
+  exit 0
+fi
+
+echo "[pre-commit] Rebuilding obfuscated JS (js/dist/)…"
+
+if [ ! -d node_modules ]; then
+  npm install --no-fund --no-audit
+fi
+
+npm run build:web
+
+git add js/dist/shield.js js/dist/core.js js/dist/search.js
+
+if ! git diff --cached --quiet -- js/dist/; then
+  echo "[pre-commit] Staged updated js/dist/ for this commit."
+fi
+
+exit 0

@@ -4,6 +4,14 @@
 const MotoX = (() => {
   const BASE = getBasePath();
 
+  function mx(name) {
+    return typeof MotoXShield !== 'undefined' ? MotoXShield.c(name) : name;
+  }
+
+  function mxHook(name) {
+    return `data-mx-hook="${name}"`;
+  }
+
   function getBasePath() {
     const path = window.location.pathname;
     const parts = path.split('/').filter(Boolean);
@@ -17,7 +25,8 @@ const MotoX = (() => {
   async function fetchJSON(file) {
     if (cache[file]) return structuredClone(cache[file]);
     const url = `${BASE}data/${file}`;
-    const res = await fetch(url, { cache: 'no-store' });
+    const fetchFn = typeof MotoXShield !== 'undefined' ? MotoXShield.guardedFetch.bind(MotoXShield) : fetch;
+    const res = await fetchFn(url, { cache: 'no-store' });
     if (!res.ok) throw new Error(`Failed to load ${file}`);
     const data = await res.json();
     cache[file] = data;
@@ -141,28 +150,28 @@ const MotoX = (() => {
     const nav = settings.navigation || [];
 
     container.innerHTML = `
-      <div class="container">
-        <div class="header-row">
-          <a href="${BASE}index.html" class="brand">
-            <span class="brand-icon">⚙</span>
+      <div class="${mx('container')}">
+        <div class="${mx('header-row')}">
+          <a href="${BASE}index.html" class="${mx('brand')}">
+            <span class="${mx('brand-icon')}">⚙</span>
             <span>${escapeHtml(site.title || 'MotoX Wiki')}</span>
           </a>
-          <button type="button" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
-            <span class="nav-toggle-bar"></span>
-            <span class="nav-toggle-bar"></span>
-            <span class="nav-toggle-bar"></span>
+          <button type="button" class="${mx('nav-toggle')}" ${mxHook('nav-toggle')} aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+            <span class="${mx('nav-toggle-bar')}"></span>
+            <span class="${mx('nav-toggle-bar')}"></span>
+            <span class="${mx('nav-toggle-bar')}"></span>
           </button>
         </div>
-        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <nav id="site-nav" class="${mx('site-nav')}" aria-label="Main navigation">
           ${nav.map(item => {
             const isActive = activePage && (item.href === activePage || item.href.includes(activePage));
-            return `<a href="${BASE}${item.href.replace(/^\.\//, '')}" ${isActive ? 'class="active"' : ''}>${escapeHtml(item.label)}</a>`;
+            return `<a href="${BASE}${item.href.replace(/^\.\//, '')}" ${isActive ? `class="${mx('active')}"` : ''}>${escapeHtml(item.label)}</a>`;
           }).join('')}
         </nav>
-        <div class="header-search">
-          <label for="global-search" class="sr-only">Search motorcycles and pages</label>
+        <div class="${mx('header-search')}">
+          <label for="global-search" class="${mx('sr-only')}">Search motorcycles and pages</label>
           <input type="search" id="global-search" placeholder="Search specs, models…" autocomplete="off" aria-expanded="false" aria-controls="search-dropdown" enterkeyhint="search">
-          <div id="search-dropdown" class="search-dropdown" role="listbox"></div>
+          <div id="search-dropdown" class="${mx('search-dropdown')}" role="listbox"></div>
         </div>
       </div>
     `;
@@ -171,25 +180,25 @@ const MotoX = (() => {
   }
 
   function initMobileNav(header) {
-    const toggle = header.querySelector('.nav-toggle');
+    const toggle = header.querySelector('[data-mx-hook="nav-toggle"]');
     const nav = header.querySelector('#site-nav');
     if (!toggle || !nav) return;
 
     toggle.addEventListener('click', () => {
-      const open = nav.classList.toggle('open');
+      const open = nav.classList.toggle(mx('open'));
       toggle.setAttribute('aria-expanded', String(open));
     });
 
     nav.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
-        nav.classList.remove('open');
+        nav.classList.remove(mx('open'));
         toggle.setAttribute('aria-expanded', 'false');
       });
     });
 
     document.addEventListener('click', e => {
       if (!header.contains(e.target)) {
-        nav.classList.remove('open');
+        nav.classList.remove(mx('open'));
         toggle.setAttribute('aria-expanded', 'false');
       }
     });
@@ -200,9 +209,9 @@ const MotoX = (() => {
     if (!header) return;
 
     let wrapper = header.parentElement;
-    if (!wrapper.classList.contains('site-top')) {
+    if (!wrapper.classList.contains(mx('site-top'))) {
       wrapper = document.createElement('div');
-      wrapper.className = 'site-top';
+      wrapper.className = mx('site-top');
       header.parentNode.insertBefore(wrapper, header);
       wrapper.appendChild(header);
     }
@@ -211,13 +220,13 @@ const MotoX = (() => {
     if (!bar) {
       bar = document.createElement('div');
       bar.id = 'site-ad-bar';
-      bar.className = 'site-ad-bar';
+      bar.className = mx('site-ad-bar');
       wrapper.appendChild(bar);
     }
 
     const content = settings.ads ? renderAdSlot(settings.ads, 'header-banner') : '';
     bar.innerHTML = content;
-    bar.classList.toggle('has-ad', !!content);
+    bar.classList.toggle(mx('has-ad'), !!content);
   }
 
   function renderFooter(container, settings) {
@@ -225,9 +234,9 @@ const MotoX = (() => {
     const site = settings.site || {};
     const footerAd = settings.ads ? renderAdSlot(settings.ads, 'footer-banner') : '';
     container.innerHTML = `
-      ${footerAd ? `<div class="site-footer-ad">${footerAd}</div>` : ''}
-      <div class="container site-footer-inner">
-        <span class="footer-text">${escapeHtml(site.footer || '')}</span>
+      ${footerAd ? `<div class="${mx('site-footer-ad')}">${footerAd}</div>` : ''}
+      <div class="${mx('container')} ${mx('site-footer-inner')}">
+        <span class="${mx('footer-text')}">${escapeHtml(site.footer || '')}</span>
       </div>
     `;
   }
@@ -246,10 +255,10 @@ const MotoX = (() => {
 
     let body = '';
     if (section.fields && section.fields.length) {
-      body = `<div class="spec-fields">${section.fields.map(f => `
-        <div class="spec-field">
-          <span class="field-label">${escapeHtml(f.label)}</span>
-          <span class="field-value">${escapeHtml(f.value)}</span>
+      body = `<div class="${mx('spec-fields')}">${section.fields.map(f => `
+        <div class="${mx('spec-field')}">
+          <span class="${mx('field-label')}">${escapeHtml(f.label)}</span>
+          <span class="${mx('field-value')}">${escapeHtml(f.value)}</span>
         </div>
       `).join('')}</div>`;
     }
@@ -260,8 +269,8 @@ const MotoX = (() => {
         component: 'Component', torque: 'Torque', notes: 'Notes',
         name: 'Name', thread: 'Thread', length: 'Length', head: 'Head', 
       };
-      body += `<div class="spec-table-wrap" tabindex="0" aria-label="Scrollable table">
-        <table class="spec-table">
+      body += `<div class="${mx('spec-table-wrap')}" tabindex="0" aria-label="Scrollable table">
+        <table class="${mx('spec-table')}">
         <thead><tr>${headers.map(h => `<th>${escapeHtml(labels[h] || h)}</th>`).join('')}</tr></thead>
         <tbody>${section.table.map(row => `
           <tr>${headers.map(h => `<td>${escapeHtml(row[h] || '')}</td>`).join('')}</tr>
@@ -269,48 +278,52 @@ const MotoX = (() => {
       </table></div>`;
     }
 
-    return `
-      <details class="spec-section" ${key === 'engine_oil' || key === 'torque_specs' ? 'open' : ''}>
+    return shieldWrap(`
+      <details class="${mx('spec-section')}" ${key === 'engine_oil' || key === 'torque_specs' ? 'open' : ''}>
         <summary>${escapeHtml(section.label || key)}</summary>
-        <div class="spec-body">${body}</div>
+        <div class="${mx('spec-body')}">${body}</div>
       </details>
-    `;
+    `);
+  }
+
+  function shieldWrap(html) {
+    return typeof MotoXShield !== 'undefined' ? MotoXShield.wrapHtml(html) : html;
   }
 
   function renderMotorcycleDetail(bike, settings) {
     const sections = bike.sections || {};
     const sectionHtml = Object.entries(sections).map(([key, sec]) => renderSpecSection(key, sec)).join('');
 
-    const customHtml = (bike.custom_sections || []).map(cs => `
-      <div class="custom-section">
+    const customHtml = (bike.custom_sections || []).map(cs => shieldWrap(`
+      <div class="${mx('custom-section')}">
         <h3>${escapeHtml(cs.title)}</h3>
         <div>${cs.content}</div>
       </div>
-    `).join('');
+    `)).join('');
 
     const adTop = settings ? renderAdSlot(settings.ads, 'content-top') : '';
     const adBottom = settings ? renderAdSlot(settings.ads, 'content-bottom') : '';
     const adInArticle = settings ? renderAdSlot(settings.ads, 'in-article') : '';
     const sidebarAd = settings ? renderAdSlot(settings.ads, 'sidebar') : '';
 
-    return `
-      <div class="page-layout has-sidebar">
+    return shieldWrap(`
+      <div class="${mx('page-layout')} ${mx('has-sidebar')}">
         <main>
-          <div class="bike-header">
-            <div class="breadcrumb"><a href="${BASE}index.html">Home</a> / <a href="${BASE}index.html#browse">Browse</a> / ${escapeHtml(bike.make)} ${escapeHtml(bike.model)}</div>
-            <h1 class="bike-title">${escapeHtml(formatBikeTitle(bike))}</h1>
-            <p class="bike-subtitle">${escapeHtml(bike.category || '')}${bike.category && bike.displacement ? ' · ' : ''}${escapeHtml(bike.displacement || '')}</p>
+          <div class="${mx('bike-header')}">
+            <div class="${mx('breadcrumb')}"><a href="${BASE}index.html">Home</a> / <a href="${BASE}index.html#browse">Browse</a> / ${escapeHtml(bike.make)} ${escapeHtml(bike.model)}</div>
+            <h1 class="${mx('bike-title')}">${escapeHtml(formatBikeTitle(bike))}</h1>
+            <p class="${mx('bike-subtitle')}">${escapeHtml(bike.category || '')}${bike.category && bike.displacement ? ' · ' : ''}${escapeHtml(bike.displacement || '')}</p>
             ${bike.summary ? `<p>${escapeHtml(bike.summary)}</p>` : ''}
           </div>
-          ${adTop ? `<div class="ad-slot">${adTop}</div>` : ''}
+          ${adTop ? `<div class="${mx('ad-slot')}">${adTop}</div>` : ''}
           ${sectionHtml}
-          ${adInArticle ? `<div class="ad-slot">${adInArticle}</div>` : ''}
+          ${adInArticle ? `<div class="${mx('ad-slot')}">${adInArticle}</div>` : ''}
           ${customHtml}
-          ${adBottom ? `<div class="ad-slot">${adBottom}</div>` : ''}
+          ${adBottom ? `<div class="${mx('ad-slot')}">${adBottom}</div>` : ''}
         </main>
-        <aside class="sidebar-ad">${sidebarAd}</aside>
+        <aside class="${mx('sidebar-ad')}">${sidebarAd}</aside>
       </div>
-    `;
+    `);
   }
 
   function bikeVariantLabel(bike) {
@@ -347,17 +360,17 @@ const MotoX = (() => {
     const capacity = getOilField(bike, 'capacity');
     const oilType = getOilField(bike, 'type');
     const oilParts = [];
-    if (capacity) oilParts.push(`<span class="oil-cap">${escapeHtml(capacity)}</span>`);
-    if (oilType) oilParts.push(`<span class="oil-type">${escapeHtml(oilType)}</span>`);
+    if (capacity) oilParts.push(`<span class="${mx('oil-cap')}">${escapeHtml(capacity)}</span>`);
+    if (oilType) oilParts.push(`<span class="${mx('oil-type')}">${escapeHtml(oilType)}</span>`);
     const oilHtml = oilParts.length
-      ? `<div class="bike-oil">${oilParts.join('<span class="oil-sep"> · </span>')}</div>`
+      ? `<div class="${mx('bike-oil')}">${oilParts.join(`<span class="${mx('oil-sep')}"> · </span>`)}</div>`
       : '';
 
     return `
-      <a href="${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}" class="bike-card">
-        <span class="bike-make">${escapeHtml(bike.make)}</span>
-        <h3 class="bike-model">${escapeHtml(bike.model)}${bikeVariantLabel(bike) ? ` <span class="bike-variant">(${escapeHtml(bikeVariantLabel(bike))})</span>` : ''}</h3>
-        <span class="bike-meta">${escapeHtml(bike.displacement || '')}${bike.category ? ` · ${escapeHtml(bike.category)}` : ''}</span>
+      <a href="${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}" class="${mx('bike-card')}">
+        <span class="${mx('bike-make')}">${escapeHtml(bike.make)}</span>
+        <h3 class="${mx('bike-model')}">${escapeHtml(bike.model)}${bikeVariantLabel(bike) ? ` <span class="${mx('bike-variant')}">(${escapeHtml(bikeVariantLabel(bike))})</span>` : ''}</h3>
+        <span class="${mx('bike-meta')}">${escapeHtml(bike.displacement || '')}${bike.category ? ` · ${escapeHtml(bike.category)}` : ''}</span>
         ${oilHtml}
       </a>
     `;
@@ -390,6 +403,7 @@ const MotoX = (() => {
     initLayout,
     renderSpecSection,
     renderMotorcycleDetail,
+    mx,
     clearCache() { Object.keys(cache).forEach(k => delete cache[k]); }
   };
 })();

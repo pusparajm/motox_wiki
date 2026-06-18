@@ -1,17 +1,17 @@
 {
   "motorcycle": {
-    "id": "yamaha-r3-2015-2018-global",
+    "id": "yamaha-yzf-r25-2013-2019",
     "make": "Yamaha",
-    "model": "YZF-R3",
-    "year": "2015-2018",
+    "model": "YZF-R25",
+    "year": "2013-2019",
     "region": "Global",
-    "model_group": "yamaha-r3-2019-present-global",
+    "model_group": "yamaha-yzf-r25-2013-2019",
     "category": "Supersport",
-    "displacement": "321 cc",
+    "displacement": "249 cc",
     "published": true,
     "tags": [
       "yamaha",
-      "r3",
+      "r25",
       "twin"
     ],
     "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",

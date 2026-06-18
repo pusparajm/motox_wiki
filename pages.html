@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="description" content="Wiki pages and reference guides on MotoX Wiki.">
   <title>Wiki Pages — MotoX Wiki</title>
+  <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=7">
+  <link rel="stylesheet" href="css/main.css?v=10" id="mx-main-css">
 </head>
 <body>
   <header id="site-header" class="site-header"></header>
@@ -17,12 +18,14 @@
 
   <footer id="site-footer" class="site-footer"></footer>
 
-  <script src="js/core.js?v=11"></script>
-  <script src="js/search.js?v=5"></script>
+  <script src="js/dist/shield.js?v=1"></script>
+  <script src="js/dist/core.js?v=12"></script>
+  <script src="js/dist/search.js?v=6"></script>
   <script>
     async function init() {
       const settings = await MotoX.initLayout('pages.html');
       MotoXSearch.init({ lazy: true, settings });
+      const m = MotoX.mx;
 
       const params = new URLSearchParams(window.location.search);
       const slug = params.get('slug');
@@ -31,7 +34,7 @@
         const page = await MotoX.loadPage(slug);
         if (!page) {
           document.getElementById('main-content').innerHTML = `
-            <div class="empty-state"><p>Page not found.</p><p><a href="pages.html">View all pages</a></p></div>
+            <div class="${m('empty-state')}"><p>Page not found.</p><p><a href="pages.html">View all pages</a></p></div>
           `;
           return;
         }
@@ -41,21 +44,21 @@
         const adBottom = MotoX.renderAdSlot(settings.ads, 'content-bottom');
         const sidebarAd = MotoX.renderAdSlot(settings.ads, 'sidebar');
 
-        document.getElementById('main-content').innerHTML = `
-          <div class="page-layout has-sidebar">
+        document.getElementById('main-content').innerHTML = MotoXShield.wrapHtml(`
+          <div class="${m('page-layout')} ${m('has-sidebar')}">
             <main>
-              <div class="bike-header">
-                <div class="breadcrumb"><a href="index.html">Home</a> / <a href="pages.html">Pages</a> / ${MotoX.escapeHtml(page.title)}</div>
+              <div class="${m('bike-header')}">
+                <div class="${m('breadcrumb')}"><a href="index.html">Home</a> / <a href="pages.html">Pages</a> / ${MotoX.escapeHtml(page.title)}</div>
                 <h1>${MotoX.escapeHtml(page.title)}</h1>
-                ${page.summary ? `<p class="bike-subtitle">${MotoX.escapeHtml(page.summary)}</p>` : ''}
+                ${page.summary ? `<p class="${m('bike-subtitle')}">${MotoX.escapeHtml(page.summary)}</p>` : ''}
               </div>
-              ${adTop ? `<div class="ad-slot">${adTop}</div>` : ''}
-              <article class="page-content">${page.content}</article>
-              ${adBottom ? `<div class="ad-slot">${adBottom}</div>` : ''}
+              ${adTop ? `<div class="${m('ad-slot')}">${adTop}</div>` : ''}
+              <article class="${m('page-content')}">${page.content}</article>
+              ${adBottom ? `<div class="${m('ad-slot')}">${adBottom}</div>` : ''}
             </main>
-            <aside class="sidebar-ad">${sidebarAd}</aside>
+            <aside class="${m('sidebar-ad')}">${sidebarAd}</aside>
           </div>
-        `;
+        `);
         return;
       }
 
@@ -63,9 +66,9 @@
       document.getElementById('main-content').innerHTML = `
         <h1>Wiki Pages</h1>
         <p>Reference guides and general motorcycle technical information.</p>
-        <div class="page-list">
+        <div class="${m('page-list')}">
           ${pages.map(p => `
-            <a href="pages.html?slug=${encodeURIComponent(p.slug || p.id)}" class="page-item">
+            <a href="pages.html?slug=${encodeURIComponent(p.slug || p.id)}" class="${m('page-item')}">
               <h3>${MotoX.escapeHtml(p.title)}</h3>
               <p>${MotoX.escapeHtml(p.summary || '')}</p>
             </a>
@@ -74,7 +77,7 @@
       `;
     }
 
-    init();
+    MotoXShield.bootstrap().then(() => init());
   </script>
 </body>
 </html>

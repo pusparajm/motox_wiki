@@ -12810,7 +12810,7 @@
     {
       "id": "yamaha-r3-2019-present-global",
       "make": "Yamaha",
-      "model": "R3",
+      "model": "YZF-R3",
       "year": "2019-Present",
       "region": "Global",
       "model_group": "yamaha-r3-2019-present-global",
@@ -12973,7 +12973,7 @@
     {
       "id": "yamaha-r3-2015-2018-global",
       "make": "Yamaha",
-      "model": "R3",
+      "model": "YZF-R3",
       "year": "2015-2018",
       "region": "Global",
       "model_group": "yamaha-r3-2019-present-global",
@@ -14313,6 +14313,517 @@
         {
           "title": "Valve Clearance",
           "content": "Intake: 0.17 ∼ 0.22 mm (0.0067 ∼ 0.0087 in.)\nExhaust: 0.15 ∼ 0.22 mm (0.0059 ∼ 0.0087 in.)\nCheck every 30,000 km.\n"
+        }
+      ]
+    },
+    {
+      "id": "yamaha-mt-03-2006-2015",
+      "make": "Yamaha",
+      "model": "MT-03",
+      "year": "2006-2014",
+      "region": "",
+      "model_group": "yamaha-mt-03-2006-2015",
+      "category": "Naked",
+      "displacement": "660 cc",
+      "published": true,
+      "tags": [
+        "yamaha",
+        "mt03",
+        "single"
+      ],
+      "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "3.7 L (3.9 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 10W-40, JASO MA2, "
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "16097-0011"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "5000 km / 9000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Front axle nut",
+              "torque": "72 N·m (7.2 kgf-m, 52 ft-lb)",
+              "notes": ""
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "150 N·m (15 kgf-m, 108 ft-lb)",
+              "notes": ""
+            },
+            {
+              "component": "Front Axle Clamp Bolts",
+              "torque": "14 N·m (1.4 kgf·m, 10 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Engine Sprocket Nut",
+              "torque": "120 N·m (12.0 kgf·m, 85 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Steering Stem Head Nut",
+              "torque": "80 N·m (8.2 kgf·m, 59 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Handlebar Clamp Bolts ",
+              "torque": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Rear Brake Disc Mounting Bolts",
+              "torque": "28 N·m (2.9 kgf·m, 21 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Front Brake Disc Mounting Bolts",
+              "torque": "18 N·m (1.8 kgf·m, 13 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Front Caliper Mounting Bolts",
+              "torque": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Rear Caliper Pin Bolt ",
+              "torque": "27 N·m (2.8 kgf·m, 20 ft·lb)",
+              "notes": ""
+            },
+            {
+              "component": "Oil Filter",
+              "torque": "17 N·m (1.7 kgf·m, 13 ft·lb)",
+              "notes": ""
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "43 mm × 55 mm × 9.5 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "WP AER 46, 480 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "48601079S1"
+            }
+          ]
+        },
+        "brake_fluid": {
+          "label": "Brake Fluid",
+          "fields": [
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "DOT 4"
+            },
+            {
+              "key": "front",
+              "label": "Front Reservoir",
+              "value": "Brembo M4.32 caliper"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 2 years"
+            }
+          ]
+        },
+        "chain": {
+          "label": "Chain",
+          "table": [
+            {
+              "component": "Chain Slack",
+              "torque": "40 ∼ 50 mm (1.57 ∼ 1.97 in)",
+              "notes": ""
+            },
+            {
+              "component": "Link",
+              "torque": "112 links",
+              "notes": ""
+            },
+            {
+              "component": "Type",
+              "torque": "520",
+              "notes": ""
+            }
+          ]
+        },
+        "spark_plug": {
+          "label": "Spark Plug",
+          "table": [
+            {
+              "component": "Type",
+              "torque": "NGK/CR7E",
+              "notes": ""
+            },
+            {
+              "component": "Gap",
+              "torque": "0.7 ~ 0.8 mm (0.028 ~ 0.031 in)",
+              "notes": ""
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Valve Clearance",
+          "content": "Intake: 0.09 ~ 0.13 mm (0.0035 ~ 0.0051 in)\nExhaust: 0.16 ~ 0.20 mm (0.0063 ~ 0.0079 in)\nCheck every 30,000 km.\n"
+        }
+      ]
+    },
+    {
+      "id": "yamaha-mt-03-2016",
+      "make": "Yamaha",
+      "model": "MT-03",
+      "year": "2016-Present",
+      "region": "Global",
+      "model_group": "yamaha-mt-03-2006-2015",
+      "category": "Naked",
+      "displacement": "321 cc",
+      "published": true,
+      "tags": [
+        "yamaha",
+        "mt03",
+        "twin"
+      ],
+      "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.91 L (3.07 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 10W-40, API SG or higher"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "Yamaha 5GH-13440-60 or equivalent"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 10,000 km / 6,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "43 Nm (4.3 kgf·m)",
+              "notes": "Replace crush washer"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "11 Nm (1.1 kgf·m)",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "108 Nm (11.0 kgf·m)",
+              "notes": "Use new cotter pin"
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "110 Nm (11.2 kgf·m)",
+              "notes": ""
+            },
+            {
+              "component": "Front caliper bolts",
+              "torque": "35 Nm (3.5 kgf·m)",
+              "notes": "M8×35"
+            },
+            {
+              "component": "Spark plugs",
+              "torque": "13 Nm (1.3 kgf·m)",
+              "notes": "NGK CR8E"
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "41 mm × 53 mm × 11 mm (ID × OD × H)"
+            },
+            {
+              "key": "dust_seal",
+              "label": "Dust Seal",
+              "value": "41 mm × 54 mm × 11 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "Yamalube 10W, 518 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "5SL-W0047-00-00"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.25",
+              "length": "16 mm",
+              "head": "Hex 14 mm",
+              "torque": "43 Nm"
+            },
+            {
+              "name": "Front brake caliper bolt",
+              "thread": "M8×1.25",
+              "length": "35 mm",
+              "head": "Hex 12 mm",
+              "torque": "35 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M20×1.0",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "110 Nm"
+            },
+            {
+              "name": "Handlebar clamp bolt",
+              "thread": "M8×1.25",
+              "length": "30 mm",
+              "head": "Hex 12 mm",
+              "torque": "22 Nm"
+            }
+          ]
+        },
+        "coolant": {
+          "label": "Coolant",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Capacity",
+              "value": "2.43 L (2.57 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "Yamaha ethylene glycol coolant"
+            },
+            {
+              "key": "ratio",
+              "label": "Mix Ratio",
+              "value": "1:1 with distilled water"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Chain & Sprocket",
+          "content": "Standard chain: 525 × 114 links. Front sprocket 15T, rear 42T. Chain slack: 35–45 mm at midpoint."
+        }
+      ]
+    },
+    {
+      "id": "yamaha-yzf-r25-2013-2019",
+      "make": "Yamaha",
+      "model": "YZF-R25",
+      "year": "2013-2019",
+      "region": "Global",
+      "model_group": "yamaha-yzf-r25-2013-2019",
+      "category": "Supersport",
+      "displacement": "249 cc",
+      "published": true,
+      "tags": [
+        "yamaha",
+        "r25",
+        "twin"
+      ],
+      "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",
+      "sections": {
+        "engine_oil": {
+          "label": "Engine Oil",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Oil Capacity (with filter)",
+              "value": "2.91 L (3.07 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Recommended Grade",
+              "value": "SAE 10W-40, API SG or higher"
+            },
+            {
+              "key": "filter",
+              "label": "Oil Filter",
+              "value": "Yamaha 5GH-13440-60 or equivalent"
+            },
+            {
+              "key": "interval",
+              "label": "Change Interval",
+              "value": "Every 10,000 km / 6,000 mi"
+            }
+          ]
+        },
+        "torque_specs": {
+          "label": "Torque Specifications",
+          "table": [
+            {
+              "component": "Oil drain plug",
+              "torque": "43 Nm (4.3 kgf·m)",
+              "notes": "Replace crush washer"
+            },
+            {
+              "component": "Oil filter cover",
+              "torque": "11 Nm (1.1 kgf·m)",
+              "notes": ""
+            },
+            {
+              "component": "Front axle nut",
+              "torque": "108 Nm (11.0 kgf·m)",
+              "notes": "Use new cotter pin"
+            },
+            {
+              "component": "Rear axle nut",
+              "torque": "110 Nm (11.2 kgf·m)",
+              "notes": ""
+            },
+            {
+              "component": "Front caliper bolts",
+              "torque": "35 Nm (3.5 kgf·m)",
+              "notes": "M8×35"
+            },
+            {
+              "component": "Spark plugs",
+              "torque": "13 Nm (1.3 kgf·m)",
+              "notes": "NGK CR8E"
+            }
+          ]
+        },
+        "fork_seals": {
+          "label": "Fork Seals",
+          "fields": [
+            {
+              "key": "size",
+              "label": "Seal Dimensions",
+              "value": "41 mm × 53 mm × 11 mm (ID × OD × H)"
+            },
+            {
+              "key": "dust_seal",
+              "label": "Dust Seal",
+              "value": "41 mm × 54 mm × 11 mm"
+            },
+            {
+              "key": "oil",
+              "label": "Fork Oil",
+              "value": "Yamalube 10W, 518 ml per leg"
+            },
+            {
+              "key": "part",
+              "label": "OEM Part Number",
+              "value": "5SL-W0047-00-00"
+            }
+          ]
+        },
+        "fasteners": {
+          "label": "Bolt & Nut Dimensions",
+          "table": [
+            {
+              "name": "Oil drain plug",
+              "thread": "M12×1.25",
+              "length": "16 mm",
+              "head": "Hex 14 mm",
+              "torque": "43 Nm"
+            },
+            {
+              "name": "Front brake caliper bolt",
+              "thread": "M8×1.25",
+              "length": "35 mm",
+              "head": "Hex 12 mm",
+              "torque": "35 Nm"
+            },
+            {
+              "name": "Rear sprocket nut",
+              "thread": "M20×1.0",
+              "length": "—",
+              "head": "Hex 27 mm",
+              "torque": "110 Nm"
+            },
+            {
+              "name": "Handlebar clamp bolt",
+              "thread": "M8×1.25",
+              "length": "30 mm",
+              "head": "Hex 12 mm",
+              "torque": "22 Nm"
+            }
+          ]
+        },
+        "coolant": {
+          "label": "Coolant",
+          "fields": [
+            {
+              "key": "capacity",
+              "label": "Capacity",
+              "value": "2.43 L (2.57 US qt)"
+            },
+            {
+              "key": "type",
+              "label": "Type",
+              "value": "Yamaha ethylene glycol coolant"
+            },
+            {
+              "key": "ratio",
+              "label": "Mix Ratio",
+              "value": "1:1 with distilled water"
+            }
+          ]
+        }
+      },
+      "custom_sections": [
+        {
+          "title": "Chain & Sprocket",
+          "content": "Standard chain: 525 × 114 links. Front sprocket 15T, rear 42T. Chain slack: 35–45 mm at midpoint."
         }
       ]
     }

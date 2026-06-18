@@ -2,6 +2,10 @@
  * MotoX Wiki — client-side search (no external dependencies)
  */
 const MotoXSearch = (() => {
+  function mx(name) {
+    return typeof MotoXShield !== 'undefined' ? MotoXShield.c(name) : name;
+  }
+
   let index = [];
   let indexPromise = null;
   let debounceTimer = null;
@@ -112,22 +116,22 @@ const MotoXSearch = (() => {
 
   function renderResults(results, dropdown, base) {
     if (!results.length) {
-      dropdown.innerHTML = '<div class="search-no-results">No results found</div>';
-      dropdown.classList.add('open');
+      dropdown.innerHTML = `<div class="${mx('search-no-results')}">No results found</div>`;
+      dropdown.classList.add(mx('open'));
       return;
     }
 
     dropdown.innerHTML = results.map(r => `
-      <a href="${base}${r.url}" class="search-result-item" role="option">
-        <div class="result-title">${MotoX.escapeHtml(r.title)}</div>
-        <div class="result-meta">${r.type === 'motorcycle' ? '🏍 ' : '📄 '}${MotoX.escapeHtml(r.meta)}</div>
+      <a href="${base}${r.url}" class="${mx('search-result-item')}" role="option">
+        <div class="${mx('result-title')}">${MotoX.escapeHtml(r.title)}</div>
+        <div class="${mx('result-meta')}">${r.type === 'motorcycle' ? '🏍 ' : '📄 '}${MotoX.escapeHtml(r.meta)}</div>
       </a>
     `).join('');
-    dropdown.classList.add('open');
+    dropdown.classList.add(mx('open'));
   }
 
   function closeDropdown(dropdown) {
-    dropdown.classList.remove('open');
+    dropdown.classList.remove(mx('open'));
     dropdown.innerHTML = '';
   }
 
