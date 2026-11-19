@@ -145,6 +145,13 @@
             "torque": "18 Nm (13 lb-ft)",
             "notes": "NGK IMR9C-9HES"
           }
+        ],
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "Service-manual reference values. Torque figures can vary by model year, market and fastener condition — confirm against the workshop manual."
+          }
         ]
       }
     }

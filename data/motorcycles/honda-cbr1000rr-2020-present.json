@@ -111,6 +111,48 @@
             "value": "530 O-ring, 116 links"
           }
         ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "Service-manual reference values. Torque figures can vary by model year, market and fastener condition — confirm against the workshop manual."
+          }
+        ],
+        "table": [
+          {
+            "component": "Oil drain plug",
+            "torque": "30 Nm",
+            "notes": "Replace crush washer"
+          },
+          {
+            "component": "Front axle nut",
+            "torque": "108 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Rear axle nut",
+            "torque": "100 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Front brake caliper bolts",
+            "torque": "35 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Spark plugs",
+            "torque": "18 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Oil filter",
+            "torque": "17 Nm",
+            "notes": "Spin-on type"
+          }
+        ]
       }
     }
   }

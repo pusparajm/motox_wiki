@@ -98,7 +98,7 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "2.9 L (3.1 US qt)"
+            "value": "2.6 L (2.7 US qt)"
           },
           {
             "key": "oil_grade",
@@ -142,7 +142,7 @@
           },
           {
             "component": "Rear axle nut",
-            "torque": "110 Nm (81 lb-ft)",
+            "torque": "105 Nm (77 lb-ft)",
             "notes": ""
           },
           {
@@ -154,6 +154,13 @@
             "component": "Spark plugs",
             "torque": "13 Nm (10 lb-ft)",
             "notes": "NGK CR8E"
+          }
+        ],
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "Service-manual reference values. Torque figures can vary by model year, market and fastener condition — confirm against the workshop manual."
           }
         ]
       }

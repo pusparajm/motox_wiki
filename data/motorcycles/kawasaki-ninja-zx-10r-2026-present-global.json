@@ -111,6 +111,48 @@
             "value": "525 O-ring, 114 links"
           }
         ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "Service-manual reference values. Torque figures can vary by model year, market and fastener condition — confirm against the workshop manual."
+          }
+        ],
+        "table": [
+          {
+            "component": "Front axle nut",
+            "torque": "130 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Rear axle nut",
+            "torque": "130 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Front axle clamp bolts",
+            "torque": "20 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Engine sprocket nut",
+            "torque": "147 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Steering stem head nut",
+            "torque": "80 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Handlebar clamp bolts",
+            "torque": "25 Nm",
+            "notes": ""
+          }
+        ]
       }
     }
   }

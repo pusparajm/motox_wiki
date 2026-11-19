@@ -98,7 +98,7 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "2.9 L (3.1 US qt)"
+            "value": "2.6 L (2.7 US qt)"
           },
           {
             "key": "oil_grade",
@@ -109,6 +109,48 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 112 links"
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "Service-manual reference values. Torque figures can vary by model year, market and fastener condition — confirm against the workshop manual."
+          }
+        ],
+        "table": [
+          {
+            "component": "Oil drain plug",
+            "torque": "43 Nm",
+            "notes": "Replace crush washer"
+          },
+          {
+            "component": "Front axle nut",
+            "torque": "108 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Rear axle nut",
+            "torque": "105 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Front brake caliper bolts",
+            "torque": "35 Nm",
+            "notes": "M8×35"
+          },
+          {
+            "component": "Spark plugs",
+            "torque": "13 Nm",
+            "notes": "NGK CR8E"
+          },
+          {
+            "component": "Oil filter",
+            "torque": "17 Nm",
+            "notes": "Spin-on type"
           }
         ]
       }

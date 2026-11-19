@@ -95,6 +95,48 @@
             "value": "150 km/h"
           }
         ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not yet available for this model. The ranges below are general motorcycle fastener references — always use the workshop manual for exact values and sequences."
+          }
+        ],
+        "table": [
+          {
+            "component": "Front axle nut",
+            "torque": "50–90 Nm",
+            "notes": "Varies with fork and axle design"
+          },
+          {
+            "component": "Rear axle nut",
+            "torque": "80–130 Nm",
+            "notes": "Check locking method"
+          },
+          {
+            "component": "Front brake caliper bolts",
+            "torque": "25–40 Nm",
+            "notes": "Use threadlocker if specified"
+          },
+          {
+            "component": "Motor mount bolts",
+            "torque": "40–60 Nm",
+            "notes": "Follow the manufacturer sequence"
+          },
+          {
+            "component": "Final drive belt/chain",
+            "torque": "See owner's manual",
+            "notes": "Tension and alignment are model-specific"
+          },
+          {
+            "component": "Wheel / brake disc bolts",
+            "torque": "20–30 Nm",
+            "notes": "Tighten evenly in a star pattern"
+          }
+        ]
       }
     }
   }

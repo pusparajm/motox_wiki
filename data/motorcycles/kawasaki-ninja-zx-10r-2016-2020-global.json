@@ -150,6 +150,13 @@
             "torque": "25 Nm (18 lb-ft)",
             "notes": ""
           }
+        ],
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "Service-manual reference values. Torque figures can vary by model year, market and fastener condition — confirm against the workshop manual."
+          }
         ]
       }
     }

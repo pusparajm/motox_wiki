@@ -15,7 +15,7 @@ The catalogue currently contains **409 mass-produced motorcycles from 36 manufac
 - Cruisers, baggers and touring bikes
 - Electric motorcycles
 
-Every entry has a **General Specifications** section (engine, power, torque, transmission, suspension, brakes, tyres, weight, seat height, fuel capacity and more). Where reliable data is available, entries also include **Service Data** (oil capacity and grade, chain size, spark plug, fork oil and seal sizes) and model-specific **Torque Specifications**.
+Every entry has a **General Specifications** section (engine, power, torque, transmission, suspension, brakes, tyres, weight, seat height, fuel capacity and more) and a **Torque Specifications** section. Where reliable model-specific data is available, the torque table shows exact component values; otherwise the page shows a clearly labelled general fastener reference instead of inventing figures. Where reliable data is available, entries also include **Service Data** (oil capacity and grade, chain size, spark plug, fork oil and seal sizes).
 
 Manufacturers covered include Aprilia, Ather, Bajaj, Benelli, BMW, BSA, CFMOTO, Ducati, Energica, Harley-Davidson, Hero, Honda, Husqvarna, Indian, Jawa, Kawasaki, KTM, Kove, Kymco, LiveWire, Moto Guzzi, Ola, Piaggio, QJMotor, Royal Enfield, Stark, Suzuki, SYM, Triumph, TVS, Ultraviolette, Vespa, Voge, Yamaha, Zero and Zontes.
 

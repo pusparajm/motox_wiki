@@ -452,7 +452,7 @@ Each motorcycle entry supports:
 - Basic info: make, model, year, region, category, displacement, tags, summary
 - **General specifications** — engine, power, torque, transmission, chassis, suspension, brakes, tyres, dimensions, weight and fuel capacity
 - **Service data** — oil capacity/grade, chain, spark plug, fork oil and seal sizes where verified
-- **Torque specifications** — model-specific tables
+- **Torque specifications** — model-specific tables where verified, otherwise a clearly labelled general fastener reference
 - **Custom sections** — free-form HTML blocks
 
 After editing the source file, regenerate the derived files:

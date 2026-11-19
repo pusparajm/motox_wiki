@@ -106,6 +106,53 @@
             "value": "SAE 5W-40, JASO MB"
           }
         ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not yet available for this model. The ranges below are general motorcycle fastener references — always use the workshop manual for exact values and sequences."
+          }
+        ],
+        "table": [
+          {
+            "component": "Oil drain plug",
+            "torque": "20–30 Nm",
+            "notes": "Use a new crush washer"
+          },
+          {
+            "component": "Front axle nut",
+            "torque": "50–90 Nm",
+            "notes": "Varies with fork and axle design"
+          },
+          {
+            "component": "Rear axle nut",
+            "torque": "80–130 Nm",
+            "notes": "Check cotter pin / locking method"
+          },
+          {
+            "component": "Front brake caliper bolts",
+            "torque": "25–40 Nm",
+            "notes": "Use threadlocker if specified"
+          },
+          {
+            "component": "Spark plugs",
+            "torque": "12–18 Nm",
+            "notes": "Do not overtighten"
+          },
+          {
+            "component": "CVT cover bolts",
+            "torque": "8–12 Nm",
+            "notes": "Tighten evenly, do not distort the cover"
+          },
+          {
+            "component": "Exhaust mounting bolts",
+            "torque": "20–25 Nm",
+            "notes": "Check for stress-free alignment"
+          }
+        ]
       }
     }
   }

@@ -49,7 +49,7 @@
       "weight": "184 kg",
       "seat_height": "805 mm",
       "fuel_capacity": "14 L",
-      "oil_capacity": "2.9 L (3.1 US qt)",
+      "oil_capacity": "2.6 L (2.7 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2"
     },
     {
@@ -75,7 +75,7 @@
       "weight": "212 kg",
       "seat_height": "795 mm",
       "fuel_capacity": "17 L",
-      "oil_capacity": "4.0 L (4.2 US qt)",
+      "oil_capacity": "3.6 L (3.8 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2"
     },
     {
@@ -308,7 +308,7 @@
       "weight": "204 kg",
       "seat_height": "875 mm",
       "fuel_capacity": "16 L",
-      "oil_capacity": "2.9 L (3.1 US qt)",
+      "oil_capacity": "2.6 L (2.7 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2"
     }
   ]

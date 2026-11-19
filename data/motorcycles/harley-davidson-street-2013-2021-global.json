@@ -91,6 +91,43 @@
             "value": "13.2 L"
           }
         ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "Service-manual reference values. Torque figures can vary by model year, market and fastener condition — confirm against the workshop manual."
+          }
+        ],
+        "table": [
+          {
+            "component": "Oil drain plug",
+            "torque": "19 Nm (14 lb-ft)",
+            "notes": "Replace O-ring"
+          },
+          {
+            "component": "Front axle nut",
+            "torque": "102 Nm (75 lb-ft)",
+            "notes": ""
+          },
+          {
+            "component": "Rear axle nut",
+            "torque": "136 Nm (100 lb-ft)",
+            "notes": ""
+          },
+          {
+            "component": "Front brake caliper bolts",
+            "torque": "35 Nm (26 lb-ft)",
+            "notes": ""
+          },
+          {
+            "component": "Spark plugs",
+            "torque": "18 Nm (13 lb-ft)",
+            "notes": ""
+          }
+        ]
       }
     }
   }

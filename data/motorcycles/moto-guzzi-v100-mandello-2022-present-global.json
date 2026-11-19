@@ -91,6 +91,43 @@
             "value": "17 L"
           }
         ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "Service-manual reference values. Torque figures can vary by model year, market and fastener condition — confirm against the workshop manual."
+          }
+        ],
+        "table": [
+          {
+            "component": "Oil drain plug",
+            "torque": "20 Nm",
+            "notes": "Replace crush washer"
+          },
+          {
+            "component": "Front axle nut",
+            "torque": "63 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Rear axle nut",
+            "torque": "63 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Front brake caliper bolts",
+            "torque": "30 Nm",
+            "notes": ""
+          },
+          {
+            "component": "Spark plugs",
+            "torque": "14 Nm",
+            "notes": ""
+          }
+        ]
       }
     }
   }

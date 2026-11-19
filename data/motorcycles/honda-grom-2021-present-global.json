@@ -111,6 +111,53 @@
             "value": "420 O-ring, 108 links"
           }
         ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not yet available for this model. The ranges below are general motorcycle fastener references — always use the workshop manual for exact values and sequences."
+          }
+        ],
+        "table": [
+          {
+            "component": "Oil drain plug",
+            "torque": "20–30 Nm",
+            "notes": "Use a new crush washer"
+          },
+          {
+            "component": "Front axle nut",
+            "torque": "60–110 Nm",
+            "notes": "Varies with axle and fork design"
+          },
+          {
+            "component": "Rear axle nut",
+            "torque": "80–130 Nm",
+            "notes": "Check cotter pin / locking method"
+          },
+          {
+            "component": "Front brake caliper bolts",
+            "torque": "25–40 Nm",
+            "notes": "Use threadlocker if specified"
+          },
+          {
+            "component": "Spark plugs",
+            "torque": "12–18 Nm",
+            "notes": "Aluminium cylinder heads — do not overtighten"
+          },
+          {
+            "component": "Handlebar clamp bolts",
+            "torque": "20–25 Nm",
+            "notes": "Tighten evenly"
+          },
+          {
+            "component": "Rear sprocket nuts",
+            "torque": "50–60 Nm",
+            "notes": "Tighten in a star pattern"
+          }
+        ]
       }
     }
   }
