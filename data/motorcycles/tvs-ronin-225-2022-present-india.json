@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "tvs-ronin-225-2022-present-india",
+    "make": "TVS",
+    "model": "Ronin 225",
+    "year": "2022–Present",
+    "region": "India",
+    "model_group": "tvs-ronin-225",
+    "category": "Scrambler",
+    "displacement": "225.9 cc",
+    "summary": "A modern scrambler with a torquey single, relaxed ergonomics and neo-retro styling.",
+    "tags": [
+      "tvs",
+      "ronin-225",
+      "scrambler",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "225.9 cc air/oil-cooled SOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "225.9 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "20.4 hp (15 kW) @ 7,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "19.93 Nm (15 lb-ft) @ 3,750 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70-17 front, 130/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "795 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "160 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "14 L"
+          }
+        ]
+      }
+    }
+  }
+}

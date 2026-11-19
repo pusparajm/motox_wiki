@@ -1,16 +1,36 @@
 # MotoX Wiki
 
-A fast, lightweight motorcycle technical reference wiki — torque specs, oil quantities, fork seal sizes, fastener dimensions, and more. Built for [GitHub Pages](https://pages.github.com/) with zero heavy frameworks.
+A fast, lightweight motorcycle technical reference — engine and performance specifications, dimensions, service data, torque values, oil quantities, fork seal sizes, fastener dimensions, and more. Built for [GitHub Pages](https://pages.github.com/) with zero heavy frameworks.
 
 📖 **[Complete setup & workflow guide](docs/GUIDE.md)** — local admin, publishing, data model, troubleshooting.
 
+## Coverage
+
+The catalogue currently contains **301 mass-produced motorcycles from 33 manufacturers**, spanning:
+
+- Commuters, scooters and mini-bikes
+- Naked bikes, retro roadsters and scramblers
+- Supersports, sportbikes and hyper-nakeds
+- Adventure, dual-sport, enduro and motocross models
+- Cruisers, baggers and touring bikes
+- Electric motorcycles
+
+Every entry has a **General Specifications** section (engine, power, torque, transmission, suspension, brakes, tyres, weight, seat height, fuel capacity and more). Where reliable data is available, entries also include **Service Data** (oil capacity and grade, chain size, spark plug, fork oil and seal sizes) and model-specific **Torque Specifications**.
+
+Manufacturers covered include Aprilia, Bajaj, Benelli, BMW, BSA, CFMOTO, Ducati, Harley-Davidson, Hero, Honda, Husqvarna, Indian, Jawa, Kawasaki, KTM, Kove, Kymco, LiveWire, Moto Guzzi, Ola, Piaggio, QJMotor, Royal Enfield, Suzuki, SYM, Triumph, TVS, Ultraviolette, Vespa, Voge, Yamaha, Zero and Zontes.
+
+> Specifications are manufacturer-claimed, compiled from public model data, and can vary by model year and market. Always confirm service limits and torque values against the owner's or workshop manual before working on a motorcycle. The site shows service data only where a reliable figure is available rather than filling gaps with generic values.
+
 ## Features
 
-- **Lightweight** — Vanilla HTML/CSS/JS with [Pico CSS](https://picocss.com/) (~10 KB). No React, Vue, or build step.
-- **Search** — Instant client-side search across motorcycles and wiki pages.
-- **Expandable specs** — JSON-driven sections (key-value fields, tables, custom HTML blocks).
-- **Advertisements** — Configurable ad slots (placeholder, custom HTML, Google AdSense).
-- **Responsive** — Mobile-friendly layout with collapsible spec sections.
+- **Lightweight** — vanilla HTML/CSS/JS with [Pico CSS](https://picocss.com/). No React, Vue, or runtime framework.
+- **Complete catalogue** — browse all 301 models with make, category, text, and sort filters.
+- **Instant search** — client-side search across models, engines, specs and wiki pages.
+- **Expandable specs** — JSON-driven sections for key-value fields, tables and custom HTML blocks.
+- **Related models** — each detail page links to other variants and models in the same family.
+- **Advertisements** — configurable ad slots (placeholder, custom HTML, Google AdSense).
+- **Responsive** — mobile-friendly layout with collapsible spec sections.
+- **SEO** — generated sitemap, per-model canonical URLs and Motorcycle structured data.
 
 ## Quick Start
 
@@ -20,7 +40,15 @@ A fast, lightweight motorcycle technical reference wiki — torque specs, oil qu
 python3 -m http.server 8080
 ```
 
-Open [http://localhost:8080](http://localhost:8080)
+Open [http://localhost:8080](http://localhost:8080).
+
+### Rebuild data after editing `data/motorcycles.json`
+
+```bash
+npm run build:data
+```
+
+This regenerates `motorcycles-index.json`, per-bike files under `data/motorcycles/`, the search index, page indexes and the popular-model cache.
 
 ### Deploy to GitHub Pages
 
@@ -68,14 +96,20 @@ npm run setup:hooks
 
 ## Editing content
 
-### Option A — Edit JSON directly
+### Option A — edit JSON directly
 
 Edit files in `data/`:
-- `motorcycles.json` — bike specs
+- `motorcycles.json` — source of truth for bike specs
 - `pages.json` — wiki articles
-- `settings.json` — site title, ads, navigation
+- `settings.json` — site title, ads, navigation, featured models
 
-### Option B — Local admin tool (recommended)
+Then regenerate the derived files:
+
+```bash
+npm run build:data
+```
+
+### Option B — local admin tool (recommended)
 
 Use the separate **`motox_wiki_admin`** folder (sibling to this repo, not committed here):
 
@@ -86,56 +120,84 @@ cd ../motox_wiki_admin
 ./start.sh          # terminal 2 — admin at :8766
 ```
 
-Export JSON from the admin dashboard, copy into `motox_wiki/data/`, then commit and push this repo.
+Export JSON from the admin dashboard, copy into `motox_wiki/data/`, then rebuild and commit.
 
 ## Project Structure
 
 ```
 motox_wiki/              # This repo (public, GitHub Pages)
-├── index.html
-├── motorcycle.html
-├── pages.html
-├── search.html
+├── index.html           # Browse all models
+├── motorcycle.html      # Model detail page
+├── pages.html           # Wiki reference pages
+├── search.html          # Full search results
+├── sitemap.xml
+├── robots.txt
 ├── css/main.css
 ├── js/
 │   ├── core.js
-│   └── search.js
+│   ├── search.js
+│   └── shield.js
+├── scripts/
+│   ├── build-data.py    # Generate derived JSON from motorcycles.json
+│   └── build-web.mjs    # Obfuscate public JS into js/dist/
 └── data/
     ├── motorcycles.json
+    ├── motorcycles-index.json
+    ├── motorcycles/<id>.json
     ├── pages.json
     └── settings.json
-
-motox_wiki_admin/        # Local only — NOT in this repo
-├── index.html
-├── js/admin.js
-└── setup.sh
 ```
 
 ## Data Model
 
-Motorcycles support flexible, expandable spec sections:
+Motorcycles use flexible, expandable spec sections. A typical entry:
 
 ```json
 {
   "id": "yamaha-mt-07-2018",
   "make": "Yamaha",
   "model": "MT-07",
+  "year": "2018–Present",
+  "region": "Global",
+  "category": "Naked",
+  "displacement": "689 cc",
+  "summary": "Yamaha's hugely popular CP2 naked…",
   "sections": {
-    "engine_oil": {
-      "label": "Engine Oil",
+    "general_specs": {
+      "label": "General Specifications",
       "fields": [
-        { "key": "capacity", "label": "Oil Capacity", "value": "2.91 L" }
+        { "key": "engine", "label": "Engine", "value": "689 cc liquid-cooled DOHC parallel twin" },
+        { "key": "power", "label": "Max Power", "value": "74 hp (55 kW) @ 9,000 rpm" },
+        { "key": "torque", "label": "Max Torque", "value": "68 Nm (50 lb-ft) @ 6,500 rpm" },
+        { "key": "weight", "label": "Kerb Weight", "value": "184 kg" }
+      ]
+    },
+    "service": {
+      "label": "Service Data",
+      "fields": [
+        { "key": "oil_capacity", "label": "Engine Oil (with filter)", "value": "2.9 L (3.1 US qt)" },
+        { "key": "oil_grade", "label": "Oil Grade", "value": "SAE 10W-40, JASO MA2" }
       ]
     },
     "torque_specs": {
       "label": "Torque Specifications",
       "table": [
-        { "component": "Oil drain plug", "torque": "43 Nm", "notes": "" }
+        { "component": "Oil drain plug", "torque": "43 Nm", "notes": "Replace crush washer" }
       ]
     }
   }
 }
 ```
+
+Field keys in `general_specs` (`power`, `torque`, `weight`, `seat_height`, `engine`, `fuel_capacity`) are extracted into the compact index so browse cards and search results stay fast.
+
+## Data Sources & Accuracy
+
+The catalogue was rebuilt from public manufacturer specifications and model data. It deliberately avoids filling every bike with the same generic values.
+
+- Where a reliable service figure (oil capacity, chain size, fork seal) was available, it is included.
+- Where it was not, the field is omitted and the page displays a verification note.
+- Model-year and market differences exist. Treat the figures as a starting point and verify against the official workshop manual.
 
 ## Advertisements
 

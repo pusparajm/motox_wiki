@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "yamaha-fz-s-fi-v4-2022-present-india",
+    "make": "Yamaha",
+    "model": "FZ-S Fi V4",
+    "year": "2022–Present",
+    "region": "India",
+    "model_group": "yamaha-fz-s-fi-v4",
+    "category": "Naked",
+    "displacement": "149 cc",
+    "summary": "Yamaha's 150 cc street roadster for India, with a fuel-injected single and muscular styling.",
+    "tags": [
+      "yamaha",
+      "fz-s-fi-v4",
+      "naked",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "149 cc air-cooled SOHC single, 2 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "149 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "12.4 hp (9.1 kW) @ 7,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "13.3 Nm (10 lb-ft) @ 5,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "282 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Single-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/80-17 front, 140/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "790 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "136 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13 L"
+          }
+        ]
+      }
+    }
+  }
+}

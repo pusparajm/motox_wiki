@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "indian-chief-2022-present-global",
+    "make": "Indian",
+    "model": "Chief",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "indian-chief",
+    "category": "Cruiser",
+    "displacement": "1,811 cc",
+    "summary": "The modern Chief, with the Thunderstroke 111 V-twin, classic lines and a low, planted stance.",
+    "tags": [
+      "indian",
+      "chief",
+      "cruiser",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,811 cc air-cooled Thunderstroke 111 V-twin"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,811 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "74 hp (55 kW) @ 4,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "146 Nm (108 lb-ft) @ 2,600 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "46 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "300 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-16 front, 180/65-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "665 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "304 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "15.1 L"
+          }
+        ]
+      }
+    }
+  }
+}

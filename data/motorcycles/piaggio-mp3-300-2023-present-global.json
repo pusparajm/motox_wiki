@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "piaggio-mp3-300-2023-present-global",
+    "make": "Piaggio",
+    "model": "MP3 300",
+    "year": "2023–Present",
+    "region": "Global",
+    "model_group": "piaggio-mp3-300",
+    "category": "Scooter",
+    "displacement": "278 cc",
+    "summary": "The three-wheeled maxi-scooter, with dual front wheels for extra stability and confidence.",
+    "tags": [
+      "piaggio",
+      "mp3-300",
+      "scooter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "278 cc liquid-cooled SOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "278 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "26 hp (19 kW) @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "26 Nm (19 lb-ft) @ 5,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Articulated quad fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "258 mm dual discs"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "258 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70-13 front, 140/70-14 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "780 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "280 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11 L"
+          }
+        ]
+      }
+    }
+  }
+}

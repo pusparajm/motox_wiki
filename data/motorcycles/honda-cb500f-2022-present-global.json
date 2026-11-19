@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "honda-cb500f-2022-present-global",
+    "make": "Honda",
+    "model": "CB500F",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "honda-cb500f",
+    "category": "Naked",
+    "displacement": "471 cc",
+    "summary": "Honda's A2-friendly middleweight naked, with a smooth parallel twin and practical ergonomics.",
+    "tags": [
+      "honda",
+      "cb500f",
+      "naked",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "471 cc liquid-cooled DOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "471 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "47 hp (35 kW) @ 8,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "43 Nm (32 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, preload adjustable"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "296 mm dual discs, 2-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 160/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "785 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "189 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17.1 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.2 L (3.4 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 112 links"
+          }
+        ]
+      }
+    }
+  }
+}

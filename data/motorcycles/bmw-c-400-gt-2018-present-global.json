@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "bmw-c-400-gt-2018-present-global",
+    "make": "BMW",
+    "model": "C 400 GT",
+    "year": "2018–Present",
+    "region": "Global",
+    "model_group": "bmw-c-400-gt",
+    "category": "Scooter",
+    "displacement": "350 cc",
+    "summary": "A premium mid-size maxi-scooter with BMW build quality, a CVT and generous storage.",
+    "tags": [
+      "bmw",
+      "c-400-gt",
+      "scooter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "350 cc liquid-cooled SOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "350 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "34 hp (25 kW) @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "35 Nm (26 lb-ft) @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "35 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "265 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "265 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-15 front, 150/70-14 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "775 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "206 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12.8 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.0 L (2.1 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 5W-40, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

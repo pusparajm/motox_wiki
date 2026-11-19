@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "suzuki-gsx-s1000-2021-present-global",
+    "make": "Suzuki",
+    "model": "GSX-S1000",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "suzuki-gsx-s1000",
+    "category": "Naked",
+    "displacement": "999 cc",
+    "summary": "Suzuki's litre-class naked, using a GSX-R-derived engine in a sharper, electronics-rich package.",
+    "tags": [
+      "suzuki",
+      "gsx-s1000",
+      "naked",
+      "inline-4"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "999 cc liquid-cooled DOHC inline-four, 16 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "999 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "150 hp (110 kW) @ 11,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "106 Nm (78 lb-ft) @ 9,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Link-type single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 190/50-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "810 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "214 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "19 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.7 L (3.9 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 118 links"
+          }
+        ]
+      }
+    }
+  }
+}

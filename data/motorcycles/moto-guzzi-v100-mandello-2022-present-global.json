@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "moto-guzzi-v100-mandello-2022-present-global",
+    "make": "Moto Guzzi",
+    "model": "V100 Mandello",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "moto-guzzi-v100-mandello",
+    "category": "Sport Tourer",
+    "displacement": "1,042 cc",
+    "summary": "Moto Guzzi's modern sport-tourer, with a new liquid-cooled V-twin and active aerodynamics.",
+    "tags": [
+      "moto-guzzi",
+      "v100-mandello",
+      "sport-tourer",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,042 cc liquid-cooled DOHC V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,042 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "115 hp (85 kW) @ 8,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "105 Nm (77 lb-ft) @ 6,750 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, shaft final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "40 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "280 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 190/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "815 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "233 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
+          }
+        ]
+      }
+    }
+  }
+}

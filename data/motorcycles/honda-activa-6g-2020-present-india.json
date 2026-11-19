@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "honda-activa-6g-2020-present-india",
+    "make": "Honda",
+    "model": "Activa 6G",
+    "year": "2020–Present",
+    "region": "India",
+    "model_group": "honda-activa-6g",
+    "category": "Scooter",
+    "displacement": "110 cc",
+    "summary": "India's best-selling scooter, with a frugal 110 cc engine and practical family-friendly layout.",
+    "tags": [
+      "honda",
+      "activa-6g",
+      "scooter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "109.5 cc air-cooled SOHC single, 2 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "110 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "7.7 hp (5.7 kW) @ 8,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "8.9 Nm (7 lb-ft) @ 5,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "30 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "130 mm drum"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "130 mm drum"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Combined braking system"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-12 front, 90/100-10 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "765 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "106 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "5.3 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.8 L (0.85 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MB"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -4,126 +4,114 @@
     "make": "Honda",
     "model": "CB650F",
     "year": "2013-2016",
-    "region": "",
+    "region": "Global",
     "model_group": "honda-cb650f-2013-2016",
-    "category": "naked",
-    "displacement": "648 cc",
-    "published": true,
+    "category": "Naked",
+    "displacement": "649 cc",
+    "summary": "Honda's four-cylinder middleweight naked, powered by a detuned CBR650 engine with an upright riding position.",
     "tags": [
       "honda",
-      "cbr650",
-      "supersport",
+      "cb650f",
+      "naked",
       "inline-4"
     ],
-    "summary": "Track-focused 600cc supersport with high-revving inline-four.",
+    "published": true,
     "sections": {
-      "engine_oil": {
-        "label": "Engine Oil",
+      "general_specs": {
+        "label": "General Specifications",
         "fields": [
           {
-            "key": "capacity",
-            "label": "Oil Capacity (with filter)",
-            "value": "3.2 L (3.4 US qt)"
+            "key": "engine",
+            "label": "Engine",
+            "value": "649 cc liquid-cooled DOHC inline-four, 16 valves"
           },
           {
-            "key": "type",
-            "label": "Recommended Grade",
-            "value": "SAE 10W-30, API SJ or Pro Honda GN4"
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "649 cc"
           },
           {
-            "key": "filter",
-            "label": "Oil Filter",
-            "value": "Honda 15400-PLM-A01"
+            "key": "power",
+            "label": "Max Power",
+            "value": "86 hp (64 kW) @ 11,000 rpm"
           },
           {
-            "key": "interval",
-            "label": "Change Interval",
-            "value": "Every 12,000 km / 7,500 mi"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "60 Nm (44 lb-ft) @ 8,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, preload adjustable"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, 2-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc, 1-piston caliper"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "810 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "208 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17.3 L"
           }
         ]
       },
-      "torque_specs": {
-        "label": "Torque Specifications",
-        "table": [
-          {
-            "component": "Oil drain plug",
-            "torque": "30 Nm (3.0 kgf·m)",
-            "notes": "M14×1.5"
-          },
-          {
-            "component": "Oil filter",
-            "torque": "Hand tight + 3/4 turn",
-            "notes": ""
-          },
-          {
-            "component": "Front axle nut",
-            "torque": "108 Nm (11.0 kgf·m)",
-            "notes": ""
-          },
-          {
-            "component": "Rear axle nut",
-            "torque": "100 Nm (10.2 kgf·m)",
-            "notes": ""
-          },
-          {
-            "component": "Caliper mounting bolts",
-            "torque": "35 Nm (3.5 kgf·m)",
-            "notes": ""
-          },
-          {
-            "component": "Spark plugs",
-            "torque": "18 Nm (1.8 kgf·m)",
-            "notes": "NGK IMR9C-9HES"
-          }
-        ]
-      },
-      "fork_seals": {
-        "label": "Fork Seals",
+      "service": {
+        "label": "Service Data",
         "fields": [
           {
-            "key": "size",
-            "label": "Seal Dimensions",
-            "value": "43 mm × 55 mm × 11 mm"
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
           },
           {
-            "key": "oil",
-            "label": "Fork Oil",
-            "value": "Honda SS-8, 460 ml per leg"
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA"
           },
           {
-            "key": "part",
-            "label": "OEM Part Number",
-            "value": "51490-MFJ-D01"
-          }
-        ]
-      },
-      "fasteners": {
-        "label": "Bolt & Nut Dimensions",
-        "table": [
-          {
-            "name": "Oil drain plug",
-            "thread": "M14×1.5",
-            "length": "20 mm",
-            "head": "Hex 17 mm",
-            "torque": "30 Nm"
-          },
-          {
-            "name": "Fairing bolt (upper)",
-            "thread": "M6×1.0",
-            "length": "20 mm",
-            "head": "Hex 10 mm",
-            "torque": "9.8 Nm"
-          },
-          {
-            "name": "Rear sprocket nut",
-            "thread": "M20×1.5",
-            "length": "—",
-            "head": "Hex 27 mm",
-            "torque": "108 Nm"
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 118 links"
           }
         ]
       }
-    },
-    "custom_sections": []
+    }
   }
 }

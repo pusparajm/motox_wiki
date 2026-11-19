@@ -4,39 +4,116 @@
     "make": "Honda",
     "model": "CBR600RR",
     "year": "2013–2017",
+    "region": "Global",
+    "model_group": "honda-cbr600rr",
     "category": "Supersport",
     "displacement": "599 cc",
-    "published": true,
+    "summary": "Honda's razor-sharp 600 cc supersport, with a high-revving inline-four, twin-spar aluminium frame and MotoGP-derived bodywork.",
     "tags": [
       "honda",
       "cbr600rr",
       "supersport",
       "inline-4"
     ],
-    "summary": "Track-focused 600cc supersport with high-revving inline-four.",
+    "published": true,
     "sections": {
-      "engine_oil": {
-        "label": "Engine Oil",
+      "general_specs": {
+        "label": "General Specifications",
         "fields": [
           {
-            "key": "capacity",
-            "label": "Oil Capacity (with filter)",
+            "key": "engine",
+            "label": "Engine",
+            "value": "599 cc liquid-cooled DOHC inline-four, 16 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "599 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "118 hp (88 kW) @ 13,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "66 Nm (49 lb-ft) @ 11,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted Big Piston Fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Pro-Link single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc, 1-piston caliper"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "820 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "194 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "18 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
             "value": "3.2 L (3.4 US qt)"
           },
           {
-            "key": "type",
-            "label": "Recommended Grade",
-            "value": "SAE 10W-30, API SJ or Pro Honda GN4"
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA"
           },
           {
-            "key": "filter",
-            "label": "Oil Filter",
-            "value": "Honda 15400-PLM-A01"
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "Honda SS-8, 460 ml per leg"
           },
           {
-            "key": "interval",
-            "label": "Change Interval",
-            "value": "Every 12,000 km / 7,500 mi"
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "41 mm × 53 mm × 11 mm"
           }
         ]
       },
@@ -45,83 +122,31 @@
         "table": [
           {
             "component": "Oil drain plug",
-            "torque": "30 Nm (3.0 kgf·m)",
+            "torque": "30 Nm (22 lb-ft)",
             "notes": "M14×1.5"
           },
           {
-            "component": "Oil filter",
-            "torque": "Hand tight + 3/4 turn",
-            "notes": ""
-          },
-          {
             "component": "Front axle nut",
-            "torque": "108 Nm (11.0 kgf·m)",
+            "torque": "108 Nm (80 lb-ft)",
             "notes": ""
           },
           {
             "component": "Rear axle nut",
-            "torque": "100 Nm (10.2 kgf·m)",
+            "torque": "100 Nm (74 lb-ft)",
             "notes": ""
           },
           {
             "component": "Caliper mounting bolts",
-            "torque": "35 Nm (3.5 kgf·m)",
+            "torque": "35 Nm (26 lb-ft)",
             "notes": ""
           },
           {
             "component": "Spark plugs",
-            "torque": "18 Nm (1.8 kgf·m)",
+            "torque": "18 Nm (13 lb-ft)",
             "notes": "NGK IMR9C-9HES"
           }
         ]
-      },
-      "fork_seals": {
-        "label": "Fork Seals",
-        "fields": [
-          {
-            "key": "size",
-            "label": "Seal Dimensions",
-            "value": "43 mm × 55 mm × 11 mm"
-          },
-          {
-            "key": "oil",
-            "label": "Fork Oil",
-            "value": "Honda SS-8, 460 ml per leg"
-          },
-          {
-            "key": "part",
-            "label": "OEM Part Number",
-            "value": "51490-MFJ-D01"
-          }
-        ]
-      },
-      "fasteners": {
-        "label": "Bolt & Nut Dimensions",
-        "table": [
-          {
-            "name": "Oil drain plug",
-            "thread": "M14×1.5",
-            "length": "20 mm",
-            "head": "Hex 17 mm",
-            "torque": "30 Nm"
-          },
-          {
-            "name": "Fairing bolt (upper)",
-            "thread": "M6×1.0",
-            "length": "20 mm",
-            "head": "Hex 10 mm",
-            "torque": "9.8 Nm"
-          },
-          {
-            "name": "Rear sprocket nut",
-            "thread": "M20×1.5",
-            "length": "—",
-            "head": "Hex 27 mm",
-            "torque": "108 Nm"
-          }
-        ]
       }
-    },
-    "custom_sections": []
+    }
   }
 }

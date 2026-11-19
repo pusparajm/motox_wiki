@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "royal-enfield-meteor-350-2021-present-global",
+    "make": "Royal Enfield",
+    "model": "Meteor 350",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "royal-enfield-meteor-350",
+    "category": "Cruiser",
+    "displacement": "349 cc",
+    "summary": "A relaxed small-capacity cruiser with a low seat, forward-set pegs and classic Royal Enfield character.",
+    "tags": [
+      "royal-enfield",
+      "meteor-350",
+      "cruiser",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "349 cc air/oil-cooled SOHC single, 2 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "349 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "20.2 hp (15 kW) @ 6,100 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "27 Nm (20 lb-ft) @ 4,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "270 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-19 front, 140/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "765 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "191 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "15 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.5 L (1.6 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 15W-50, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 108 links"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "suzuki-gsx-r125-2017-present-global",
+    "make": "Suzuki",
+    "model": "GSX-R125",
+    "year": "2017–Present",
+    "region": "Global",
+    "model_group": "suzuki-gsx-r125",
+    "category": "Supersport",
+    "displacement": "124 cc",
+    "summary": "Suzuki's learner-legal sportbike, with a rev-happy single and GSX-R-inspired styling.",
+    "tags": [
+      "suzuki",
+      "gsx-r125",
+      "supersport",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "124 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "15 hp (11 kW) @ 10,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "11.5 Nm (8.5 lb-ft) @ 8,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "37 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "290 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/80-17 front, 130/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "785 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "134 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11 L"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "honda-crf450r-2021-present-global",
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "honda-crf450r",
+    "category": "Motocross",
+    "displacement": "450 cc",
+    "summary": "Honda's premier motocross bike, with a powerful Unicam single and a chassis built for aggressive racing.",
+    "tags": [
+      "honda",
+      "crf450r",
+      "motocross",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "450 cc liquid-cooled SOHC Unicam single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "450 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "57 hp (42 kW)"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "47 Nm (35 lb-ft)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "49 mm inverted Showa fork, 310 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Pro-Link single shock, 300 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "260 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "None"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "80/100-21 front, 120/80-19 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "960 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "111 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "6.3 L"
+          }
+        ]
+      }
+    }
+  }
+}

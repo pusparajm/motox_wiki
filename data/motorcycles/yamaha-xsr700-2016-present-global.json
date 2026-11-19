@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "yamaha-xsr700-2016-present-global",
+    "make": "Yamaha",
+    "model": "XSR700",
+    "year": "2016–Present",
+    "region": "Global",
+    "model_group": "yamaha-xsr700",
+    "category": "Retro",
+    "displacement": "689 cc",
+    "summary": "Retro-styled roadster based on the MT-07, with the same characterful CP2 parallel twin.",
+    "tags": [
+      "yamaha",
+      "xsr700",
+      "retro",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "689 cc liquid-cooled DOHC parallel twin, 8 valves, 270° crank"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "689 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "74 hp (55 kW) @ 9,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "68 Nm (50 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "298 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "245 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "835 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "186 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "14 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.9 L (3.1 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 112 links"
+          }
+        ]
+      }
+    }
+  }
+}

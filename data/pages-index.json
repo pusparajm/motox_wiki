@@ -21,6 +21,14 @@
       "title": "Contributing to MotoX Wiki",
       "slug": "contributing",
       "summary": "How to add or update motorcycle specifications.",
+      "order": 4,
+      "published": true
+    },
+    {
+      "id": "fastener-torque",
+      "title": "Metric Fastener Torque Guide",
+      "slug": "fastener-torque",
+      "summary": "Typical dry torque values for common metric bolts and nuts by property class.",
       "order": 3,
       "published": true
     }

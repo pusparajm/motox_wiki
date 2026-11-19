@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "suzuki-sv650-2016-present-global",
+    "make": "Suzuki",
+    "model": "SV650",
+    "year": "2016–Present",
+    "region": "Global",
+    "model_group": "suzuki-sv650",
+    "category": "Naked",
+    "displacement": "645 cc",
+    "summary": "The evergreen SV650: a sweet-handling V-twin roadster that is forgiving, affordable and fun.",
+    "tags": [
+      "suzuki",
+      "sv650",
+      "naked",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "645 cc liquid-cooled DOHC V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "645 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "75 hp (55 kW) @ 8,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "64 Nm (47 lb-ft) @ 8,100 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Link-type single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "290 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 160/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "785 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "198 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "14.5 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.9 L (3.1 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 112 links"
+          }
+        ]
+      }
+    }
+  }
+}

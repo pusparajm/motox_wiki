@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "aprilia-tuono-v4-2021-present-global",
+    "make": "Aprilia",
+    "model": "Tuono V4",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "aprilia-tuono-v4",
+    "category": "Naked",
+    "displacement": "1,099 cc",
+    "summary": "Aprilia's V4 hyper-naked, with superbike-derived power, winglets and a track-focused chassis.",
+    "tags": [
+      "aprilia",
+      "tuono-v4",
+      "naked",
+      "v4"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,099 cc liquid-cooled DOHC V4, 16 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,099 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "175 hp (129 kW) @ 11,350 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "121 Nm (89 lb-ft) @ 9,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm Öhlins inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Öhlins single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "330 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 200/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "845 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "209 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17.9 L"
+          }
+        ]
+      }
+    }
+  }
+}

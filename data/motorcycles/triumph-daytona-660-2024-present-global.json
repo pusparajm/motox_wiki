@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "triumph-daytona-660-2024-present-global",
+    "make": "Triumph",
+    "model": "Daytona 660",
+    "year": "2024–Present",
+    "region": "Global",
+    "model_group": "triumph-daytona-660",
+    "category": "Supersport",
+    "displacement": "660 cc",
+    "summary": "Triumph's new middleweight sportbike, using the Trident triple in a faired, track-capable package.",
+    "tags": [
+      "triumph",
+      "daytona-660",
+      "supersport",
+      "triple"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "660 cc liquid-cooled DOHC inline-three, 12 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "660 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "80 hp (59 kW) @ 10,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "69 Nm (51 lb-ft) @ 8,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted Showa fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "810 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "201 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "14 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 112 links"
+          }
+        ]
+      }
+    }
+  }
+}

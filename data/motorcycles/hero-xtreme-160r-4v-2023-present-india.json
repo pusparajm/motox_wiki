@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "hero-xtreme-160r-4v-2023-present-india",
+    "make": "Hero",
+    "model": "Xtreme 160R 4V",
+    "year": "2023–Present",
+    "region": "India",
+    "model_group": "hero-xtreme-160r-4v",
+    "category": "Naked",
+    "displacement": "163 cc",
+    "summary": "Hero's sporty 160 cc naked, with a four-valve engine and sharp streetfighter styling.",
+    "tags": [
+      "hero",
+      "xtreme-160r-4v",
+      "naked",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "163 cc air-cooled SOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "163 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "15 hp (11 kW) @ 8,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "14.2 Nm (10.5 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "37 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "276 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Single-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/80-17 front, 130/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "795 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "140 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12 L"
+          }
+        ]
+      }
+    }
+  }
+}

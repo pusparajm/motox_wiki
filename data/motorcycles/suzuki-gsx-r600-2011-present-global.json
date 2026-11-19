@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "suzuki-gsx-r600-2011-present-global",
+    "make": "Suzuki",
+    "model": "GSX-R600",
+    "year": "2011–Present",
+    "region": "Global",
+    "model_group": "suzuki-gsx-r600",
+    "category": "Supersport",
+    "displacement": "599 cc",
+    "summary": "Suzuki's 600 cc supersport, with a high-revving inline-four, Brembo monobloc brakes and a proven chassis.",
+    "tags": [
+      "suzuki",
+      "gsx-r600",
+      "supersport",
+      "inline-4"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "599 cc liquid-cooled DOHC inline-four, 16 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "599 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "124 hp (91 kW) @ 13,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "68 Nm (50 lb-ft) @ 11,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted Big Piston Fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Link-type single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, Brembo radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "810 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "187 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.9 L (3.1 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 110 links"
+          }
+        ]
+      }
+    }
+  }
+}

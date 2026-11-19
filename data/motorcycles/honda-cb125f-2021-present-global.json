@@ -1,0 +1,122 @@
+{
+  "motorcycle": {
+    "id": "honda-cb125f-2021-present-global",
+    "make": "Honda",
+    "model": "CB125F",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "honda-cb125f",
+    "category": "Commuter",
+    "displacement": "124 cc",
+    "summary": "Honda's frugal 125 cc commuter, built for low running costs and easy city riding.",
+    "tags": [
+      "honda",
+      "cb125f",
+      "commuter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124 cc air-cooled SOHC single, 2 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "124 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "10.7 hp (8 kW) @ 7,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "10.9 Nm (8 lb-ft) @ 6,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "31 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "130 mm drum"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Single-channel ABS (front)"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "80/100-18 front, 90/90-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "775 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "117 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11 L"
+          },
+          {
+            "key": "top_speed",
+            "label": "Top Speed",
+            "value": "100 km/h"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.8 L (0.85 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "428 O-ring, 118 links"
+          }
+        ]
+      }
+    }
+  }
+}

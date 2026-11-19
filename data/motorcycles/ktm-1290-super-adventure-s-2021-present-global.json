@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "ktm-1290-super-adventure-s-2021-present-global",
+    "make": "KTM",
+    "model": "1290 Super Adventure S",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "ktm-1290-super-adventure-s",
+    "category": "Adventure",
+    "displacement": "1,301 cc",
+    "summary": "KTM's high-performance adventure tourer, with a 160 hp V-twin, radar cruise control and electronic suspension.",
+    "tags": [
+      "ktm",
+      "1290-super-adventure-s",
+      "adventure",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,301 cc liquid-cooled DOHC V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,301 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "160 hp (118 kW) @ 8,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "138 Nm (102 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "48 mm inverted WP SAT fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP SAT single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "267 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-19 front, 170/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "849 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "227 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "23 L"
+          }
+        ]
+      }
+    }
+  }
+}

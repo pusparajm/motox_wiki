@@ -1,0 +1,96 @@
+{
+  "motorcycle": {
+    "id": "honda-gold-wing-2018-present-global",
+    "make": "Honda",
+    "model": "Gold Wing",
+    "year": "2018–Present",
+    "region": "Global",
+    "model_group": "honda-gold-wing",
+    "category": "Touring",
+    "displacement": "1,833 cc",
+    "summary": "Honda's luxury tourer, with a smooth flat-six, massive comfort and optional DCT.",
+    "tags": [
+      "honda",
+      "gold-wing",
+      "touring"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,833 cc liquid-cooled SOHC flat-six, 24 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,833 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "126 hp (94 kW) @ 5,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "170 Nm (125 lb-ft) @ 4,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed manual or 7-speed DCT, shaft final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Double wishbone fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Pro-Link single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, 6-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "316 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/70-18 front, 200/55-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "745 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "383 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "21 L"
+          }
+        ]
+      }
+    }
+  }
+}

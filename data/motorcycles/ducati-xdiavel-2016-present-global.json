@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "ducati-xdiavel-2016-present-global",
+    "make": "Ducati",
+    "model": "XDiavel",
+    "year": "2016–Present",
+    "region": "Global",
+    "model_group": "ducati-xdiavel",
+    "category": "Cruiser",
+    "displacement": "1,262 cc",
+    "summary": "A long, low power cruiser with a Testastretta DVT V-twin and feet-forward ergonomics.",
+    "tags": [
+      "ducati",
+      "xdiavel",
+      "cruiser",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,262 cc liquid-cooled Desmodromic DVT V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,262 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "160 hp (118 kW) @ 9,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "128 Nm (94 lb-ft) @ 7,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "50 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "265 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 240/45-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "755 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "245 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "18 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L (4.0 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 15W-50, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

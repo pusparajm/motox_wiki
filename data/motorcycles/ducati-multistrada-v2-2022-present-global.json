@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "ducati-multistrada-v2-2022-present-global",
+    "make": "Ducati",
+    "model": "Multistrada V2",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "ducati-multistrada-v2",
+    "category": "Adventure",
+    "displacement": "937 cc",
+    "summary": "The lighter, more accessible Multistrada, using the 937 cc Testastretta in a touring-focused chassis.",
+    "tags": [
+      "ducati",
+      "multistrada-v2",
+      "adventure",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "937 cc liquid-cooled Desmodromic V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "937 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "113 hp (83 kW) @ 9,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "96 Nm (71 lb-ft) @ 6,750 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "48 mm inverted fork, electronic adjustment"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, electronic adjustment"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "265 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-19 front, 170/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "830/850 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "225 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "20 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L (4.0 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 15W-50, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 116 links"
+          }
+        ]
+      }
+    }
+  }
+}

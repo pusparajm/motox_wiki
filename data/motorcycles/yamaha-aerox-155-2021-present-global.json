@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "yamaha-aerox-155-2021-present-global",
+    "make": "Yamaha",
+    "model": "Aerox 155",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "yamaha-aerox-155",
+    "category": "Scooter",
+    "displacement": "155 cc",
+    "summary": "Yamaha's sporty 155 cc scooter, with VVA, liquid cooling and motorcycle-derived running gear.",
+    "tags": [
+      "yamaha",
+      "aerox-155",
+      "scooter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "155 cc liquid-cooled SOHC single, 4 valves, VVA"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "155 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "15.4 hp (11.3 kW) @ 8,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "13.9 Nm (10 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "26 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "230 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "230 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Single-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-14 front, 140/70-14 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "790 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "125 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "5.5 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.9 L (0.95 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MB"
+          }
+        ]
+      }
+    }
+  }
+}

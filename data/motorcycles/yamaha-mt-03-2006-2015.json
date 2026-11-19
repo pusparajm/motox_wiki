@@ -3,185 +3,115 @@
     "id": "yamaha-mt-03-2006-2015",
     "make": "Yamaha",
     "model": "MT-03",
-    "year": "2006-2014",
-    "region": "",
+    "year": "2006–2014",
+    "region": "Global",
     "model_group": "yamaha-mt-03-2006-2015",
     "category": "Naked",
     "displacement": "660 cc",
-    "published": true,
+    "summary": "The original MT-03 was a tall, minimal street single with a punchy 660 cc engine.",
     "tags": [
       "yamaha",
-      "mt03",
+      "mt-03",
+      "naked",
       "single"
     ],
-    "summary": "Popular middleweight naked bike with the CP2 parallel-twin engine.",
+    "published": true,
     "sections": {
-      "engine_oil": {
-        "label": "Engine Oil",
+      "general_specs": {
+        "label": "General Specifications",
         "fields": [
           {
-            "key": "capacity",
-            "label": "Oil Capacity (with filter)",
-            "value": "3.7 L (3.9 US qt)"
+            "key": "engine",
+            "label": "Engine",
+            "value": "660 cc liquid-cooled SOHC single, 4 valves"
           },
           {
-            "key": "type",
-            "label": "Recommended Grade",
-            "value": "SAE 10W-40, JASO MA2, "
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "660 cc"
           },
           {
-            "key": "filter",
-            "label": "Oil Filter",
-            "value": "16097-0011"
+            "key": "power",
+            "label": "Max Power",
+            "value": "45 hp (33 kW) @ 6,250 rpm"
           },
           {
-            "key": "interval",
-            "label": "Change Interval",
-            "value": "5000 km / 9000 mi"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "56.4 Nm (42 lb-ft) @ 5,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "298 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "245 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "None"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 160/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "805 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "192 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "15 L"
           }
         ]
       },
-      "torque_specs": {
-        "label": "Torque Specifications",
-        "table": [
-          {
-            "component": "Front axle nut",
-            "torque": "72 N·m (7.2 kgf-m, 52 ft-lb)",
-            "notes": ""
-          },
-          {
-            "component": "Rear axle nut",
-            "torque": "150 N·m (15 kgf-m, 108 ft-lb)",
-            "notes": ""
-          },
-          {
-            "component": "Front Axle Clamp Bolts",
-            "torque": "14 N·m (1.4 kgf·m, 10 ft·lb)",
-            "notes": ""
-          },
-          {
-            "component": "Engine Sprocket Nut",
-            "torque": "120 N·m (12.0 kgf·m, 85 ft·lb)",
-            "notes": ""
-          },
-          {
-            "component": "Steering Stem Head Nut",
-            "torque": "80 N·m (8.2 kgf·m, 59 ft·lb)",
-            "notes": ""
-          },
-          {
-            "component": "Handlebar Clamp Bolts ",
-            "torque": "25 N·m (2.5 kgf·m, 18 ft·lb)",
-            "notes": ""
-          },
-          {
-            "component": "Rear Brake Disc Mounting Bolts",
-            "torque": "28 N·m (2.9 kgf·m, 21 ft·lb)",
-            "notes": ""
-          },
-          {
-            "component": "Front Brake Disc Mounting Bolts",
-            "torque": "18 N·m (1.8 kgf·m, 13 ft·lb)",
-            "notes": ""
-          },
-          {
-            "component": "Front Caliper Mounting Bolts",
-            "torque": "35 N·m (3.6 kgf·m, 26 ft·lb)",
-            "notes": ""
-          },
-          {
-            "component": "Rear Caliper Pin Bolt ",
-            "torque": "27 N·m (2.8 kgf·m, 20 ft·lb)",
-            "notes": ""
-          },
-          {
-            "component": "Oil Filter",
-            "torque": "17 N·m (1.7 kgf·m, 13 ft·lb)",
-            "notes": ""
-          }
-        ]
-      },
-      "fork_seals": {
-        "label": "Fork Seals",
+      "service": {
+        "label": "Service Data",
         "fields": [
           {
-            "key": "size",
-            "label": "Seal Dimensions",
-            "value": "43 mm × 55 mm × 9.5 mm"
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.4 L (2.5 US qt)"
           },
           {
-            "key": "oil",
-            "label": "Fork Oil",
-            "value": "WP AER 46, 480 ml per leg"
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
           },
           {
-            "key": "part",
-            "label": "OEM Part Number",
-            "value": "48601079S1"
-          }
-        ]
-      },
-      "brake_fluid": {
-        "label": "Brake Fluid",
-        "fields": [
-          {
-            "key": "type",
-            "label": "Type",
-            "value": "DOT 4"
-          },
-          {
-            "key": "front",
-            "label": "Front Reservoir",
-            "value": "Brembo M4.32 caliper"
-          },
-          {
-            "key": "interval",
-            "label": "Change Interval",
-            "value": "Every 2 years"
-          }
-        ]
-      },
-      "chain": {
-        "label": "Chain",
-        "table": [
-          {
-            "component": "Chain Slack",
-            "torque": "40 ∼ 50 mm (1.57 ∼ 1.97 in)",
-            "notes": ""
-          },
-          {
-            "component": "Link",
-            "torque": "112 links",
-            "notes": ""
-          },
-          {
-            "component": "Type",
-            "torque": "520",
-            "notes": ""
-          }
-        ]
-      },
-      "spark_plug": {
-        "label": "Spark Plug",
-        "table": [
-          {
-            "component": "Type",
-            "torque": "NGK/CR7E",
-            "notes": ""
-          },
-          {
-            "component": "Gap",
-            "torque": "0.7 ~ 0.8 mm (0.028 ~ 0.031 in)",
-            "notes": ""
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 106 links"
           }
         ]
       }
-    },
-    "custom_sections": [
-      {
-        "title": "Valve Clearance",
-        "content": "Intake: 0.09 ~ 0.13 mm (0.0035 ~ 0.0051 in)\nExhaust: 0.16 ~ 0.20 mm (0.0063 ~ 0.0079 in)\nCheck every 30,000 km.\n"
-      }
-    ]
+    }
   }
 }

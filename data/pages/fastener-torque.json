@@ -1,0 +1,11 @@
+{
+  "page": {
+    "id": "fastener-torque",
+    "title": "Metric Fastener Torque Guide",
+    "slug": "fastener-torque",
+    "summary": "Typical dry torque values for common metric bolts and nuts by property class.",
+    "order": 3,
+    "published": true,
+    "content": "<h2>Typical dry torque values</h2><p>Use these values only as a general reference for clean, dry, lightly oiled or plated threads where the manufacturer does not specify a torque. Always prefer the torque figure in the official workshop manual, especially for engine, brake, suspension and safety-critical fasteners.</p><table><thead><tr><th>Thread</th><th>8.8</th><th>10.9</th><th>12.9</th></tr></thead><tbody><tr><td>M5</td><td>5.5 Nm</td><td>8 Nm</td><td>9.5 Nm</td></tr><tr><td>M6</td><td>9.5 Nm</td><td>14 Nm</td><td>16.5 Nm</td></tr><tr><td>M8</td><td>23 Nm</td><td>34 Nm</td><td>40 Nm</td></tr><tr><td>M10</td><td>46 Nm</td><td>68 Nm</td><td>80 Nm</td></tr><tr><td>M12</td><td>80 Nm</td><td>117 Nm</td><td>140 Nm</td></tr><tr><td>M14</td><td>128 Nm</td><td>187 Nm</td><td>225 Nm</td></tr><tr><td>M16</td><td>197 Nm</td><td>290 Nm</td><td>345 Nm</td></tr></tbody></table><h2>Notes</h2><ul><li>These are approximate dry-thread values for metric coarse threads. Lubricated threads can require 20–30% less torque for the same clamp load.</li><li>Reduce torque for aluminium threads, hollow fasteners, banjo bolts and fasteners into plastic.</li><li>Use a calibrated torque wrench and tighten in stages where a sequence is specified.</li><li>Never reuse torque-to-yield or single-use fasteners.</li></ul>"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "bajaj-pulsar-ns400z-2024-present-india",
+    "make": "Bajaj",
+    "model": "Pulsar NS400Z",
+    "year": "2024–Present",
+    "region": "India",
+    "model_group": "bajaj-pulsar-ns400z",
+    "category": "Naked",
+    "displacement": "373.3 cc",
+    "summary": "The biggest Pulsar, using the Dominar 400 engine in a lighter, sharper NS chassis.",
+    "tags": [
+      "bajaj",
+      "pulsar-ns400z",
+      "naked",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "373.3 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "373.3 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "40 hp (30 kW) @ 8,800 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "35 Nm (26 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm disc, radial 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "230 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70-17 front, 150/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "807 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "174 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12 L"
+          }
+        ]
+      }
+    }
+  }
+}

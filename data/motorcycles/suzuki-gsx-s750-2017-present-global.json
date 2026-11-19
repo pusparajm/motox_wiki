@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "suzuki-gsx-s750-2017-present-global",
+    "make": "Suzuki",
+    "model": "GSX-S750",
+    "year": "2017–Present",
+    "region": "Global",
+    "model_group": "suzuki-gsx-s750",
+    "category": "Naked",
+    "displacement": "749 cc",
+    "summary": "A naked GSX-R750: strong inline-four performance with upright ergonomics and sharp styling.",
+    "tags": [
+      "suzuki",
+      "gsx-s750",
+      "naked",
+      "inline-4"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "749 cc liquid-cooled DOHC inline-four, 16 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "749 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "114 hp (84 kW) @ 10,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "81 Nm (60 lb-ft) @ 9,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Link-type single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "820 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "213 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "16 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 110 links"
+          }
+        ]
+      }
+    }
+  }
+}

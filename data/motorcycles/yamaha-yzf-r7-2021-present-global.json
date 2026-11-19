@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "yamaha-yzf-r7-2021-present-global",
+    "make": "Yamaha",
+    "model": "YZF-R7",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "yamaha-yzf-r7",
+    "category": "Supersport",
+    "displacement": "689 cc",
+    "summary": "Yamaha's middleweight sportbike, using the CP2 twin in a lightweight, track-focused chassis.",
+    "tags": [
+      "yamaha",
+      "yzf-r7",
+      "supersport",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "689 cc liquid-cooled DOHC parallel twin, 8 valves, 270° crank"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "689 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "72 hp (53 kW) @ 8,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "67 Nm (49 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Link-type single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "298 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "245 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "835 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "188 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.9 L (3.1 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 112 links"
+          }
+        ]
+      }
+    }
+  }
+}

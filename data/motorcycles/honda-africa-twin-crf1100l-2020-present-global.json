@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "honda-africa-twin-crf1100l-2020-present-global",
+    "make": "Honda",
+    "model": "Africa Twin CRF1100L",
+    "year": "2020–Present",
+    "region": "Global",
+    "model_group": "honda-africa-twin-crf1100l",
+    "category": "Adventure",
+    "displacement": "1,084 cc",
+    "summary": "Honda's flagship adventure bike, with a torque-rich parallel twin, long-travel suspension and optional DCT.",
+    "tags": [
+      "honda",
+      "africa-twin-crf1100l",
+      "adventure",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,084 cc liquid-cooled SOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,084 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "101 hp (75 kW) @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "105 Nm (77 lb-ft) @ 6,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed manual or 6-speed DCT, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "45 mm inverted fork, 230 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, 220 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "256 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 150/70-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "850/870 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "226 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "18.8 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.0 L (4.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 124 links"
+          }
+        ]
+      }
+    }
+  }
+}

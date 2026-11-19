@@ -7,134 +7,91 @@
     "region": "Global",
     "model_group": "harley-davidson-street-bob-2013-2016-global",
     "category": "Cruiser",
-    "displacement": "749 cc",
-    "published": true,
+    "displacement": "1,690 cc",
+    "summary": "Minimalist bobber styling and a torquey Twin Cam 103 engine made the Street Bob a custom favourite.",
     "tags": [
-      "streetbob",
-      "harley"
+      "harley-davidson",
+      "street-bob",
+      "cruiser",
+      "v-twin"
     ],
-    "summary": "Lightweight four-cylinder supersport from japan",
+    "published": true,
     "sections": {
-      "engine_oil": {
-        "label": "Engine Oil",
+      "general_specs": {
+        "label": "General Specifications",
         "fields": [
           {
-            "key": "capacity",
-            "label": "Oil Capacity (with filter)",
-            "value": "2.0 L (2.1 US qt)"
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,690 cc air-cooled Twin Cam 103 V-twin"
           },
           {
-            "key": "type",
-            "label": "Recommended Grade",
-            "value": "SAE 15W-50, JASO MA2"
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,690 cc"
           },
           {
-            "key": "filter",
-            "label": "Oil Filter",
-            "value": "KTM 78938015010"
+            "key": "power",
+            "label": "Max Power",
+            "value": "75 hp (56 kW) @ 5,000 rpm"
           },
           {
-            "key": "interval",
-            "label": "Change Interval",
-            "value": "Every 15,000 km / 9,000 mi"
-          }
-        ]
-      },
-      "torque_specs": {
-        "label": "Torque Specifications",
-        "table": [
-          {
-            "component": "Oil drain plug",
-            "torque": "25 Nm",
-            "notes": "M12×1.5"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "126 Nm (93 lb-ft) @ 3,000 rpm"
           },
           {
-            "component": "Oil filter cover",
-            "torque": "10 Nm",
-            "notes": ""
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, belt final drive"
           },
           {
-            "component": "Front axle nut",
-            "torque": "65 Nm",
-            "notes": ""
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "49 mm telescopic fork"
           },
           {
-            "component": "Rear axle nut",
-            "torque": "90 Nm",
-            "notes": ""
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
           },
           {
-            "component": "Triple clamp bolts",
-            "torque": "20 Nm",
-            "notes": ""
-          }
-        ]
-      },
-      "fork_seals": {
-        "label": "Fork Seals",
-        "fields": [
-          {
-            "key": "size",
-            "label": "Seal Dimensions",
-            "value": "43 mm × 55 mm × 9.5 mm"
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm disc, 4-piston caliper"
           },
           {
-            "key": "oil",
-            "label": "Fork Oil",
-            "value": "WP AER 46, 480 ml per leg"
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "292 mm disc"
           },
           {
-            "key": "part",
-            "label": "OEM Part Number",
-            "value": "48601079S1"
-          }
-        ]
-      },
-      "fasteners": {
-        "label": "Bolt & Nut Dimensions",
-        "table": [
-          {
-            "name": "Oil drain plug",
-            "thread": "M12×1.5",
-            "length": "18 mm",
-            "head": "Hex 14 mm",
-            "torque": "25 Nm"
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
           },
           {
-            "name": "Rear sprocket nut",
-            "thread": "M18×1.5",
-            "length": "—",
-            "head": "Hex 27 mm",
-            "torque": "90 Nm"
-          }
-        ]
-      },
-      "brake_fluid": {
-        "label": "Brake Fluid",
-        "fields": [
-          {
-            "key": "type",
-            "label": "Type",
-            "value": "DOT 4"
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-19 front, 160/70-17 rear"
           },
           {
-            "key": "front",
-            "label": "Front Reservoir",
-            "value": "Brembo M4.32 caliper"
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "680 mm"
           },
           {
-            "key": "interval",
-            "label": "Change Interval",
-            "value": "Every 2 years"
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "301 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17.3 L"
           }
         ]
       }
-    },
-    "custom_sections": [
-      {
-        "title": "Valve Clearance",
-        "content": "Intake: 0.10 mm, Exhaust: 0.15 mm (cold engine). Check every 30,000 km."
-      }
-    ]
+    }
   }
 }

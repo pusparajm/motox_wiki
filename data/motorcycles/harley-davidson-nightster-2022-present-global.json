@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "harley-davidson-nightster-2022-present-global",
+    "make": "Harley-Davidson",
+    "model": "Nightster",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "harley-davidson-nightster",
+    "category": "Cruiser",
+    "displacement": "975 cc",
+    "summary": "A lighter, more accessible Sportster with the Revolution Max 975T engine and minimalist bobber styling.",
+    "tags": [
+      "harley-davidson",
+      "nightster",
+      "cruiser",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "975 cc liquid-cooled DOHC Revolution Max 975T V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "975 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "90 hp (67 kW) @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "95 Nm (70 lb-ft) @ 5,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm disc, radial 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "260 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-16 front, 150/80-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "705 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "218 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11.7 L"
+          }
+        ]
+      }
+    }
+  }
+}

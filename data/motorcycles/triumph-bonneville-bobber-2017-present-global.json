@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "triumph-bonneville-bobber-2017-present-global",
+    "make": "Triumph",
+    "model": "Bonneville Bobber",
+    "year": "2017–Present",
+    "region": "Global",
+    "model_group": "triumph-bonneville-bobber",
+    "category": "Cruiser",
+    "displacement": "1,200 cc",
+    "summary": "A stripped-back factory bobber with the Bonneville 1,200 cc twin, solo seat and floating aluminium styling.",
+    "tags": [
+      "triumph",
+      "bonneville-bobber",
+      "cruiser",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,200 cc liquid-cooled SOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,200 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "76 hp (57 kW) @ 6,100 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "106 Nm (78 lb-ft) @ 4,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "47 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, 2-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "255 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-19 front, 150/80-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "690 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "251 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L (4.0 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 112 links"
+          }
+        ]
+      }
+    }
+  }
+}

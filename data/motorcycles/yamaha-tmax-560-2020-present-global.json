@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "yamaha-tmax-560-2020-present-global",
+    "make": "Yamaha",
+    "model": "TMAX 560",
+    "year": "2020–Present",
+    "region": "Global",
+    "model_group": "yamaha-tmax-560",
+    "category": "Scooter",
+    "displacement": "562 cc",
+    "summary": "The benchmark sport scooter, with a 560 cc parallel twin, aluminium frame and motorcycle-like dynamics.",
+    "tags": [
+      "yamaha",
+      "tmax-560",
+      "scooter",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "562 cc liquid-cooled DOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "562 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "47 hp (35 kW) @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "55.7 Nm (41 lb-ft) @ 5,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Link-type single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "282 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "282 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-15 front, 160/60-15 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "800 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "220 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "15 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.7 L (2.9 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

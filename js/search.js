@@ -20,6 +20,8 @@ const MotoXSearch = (() => {
         id: bike.id,
         title: MotoX.formatBikeTitle(bike),
         meta: [bike.region, bike.category, bike.displacement].filter(Boolean).join(' · ') || 'Motorcycle',
+        power: MotoX.getGeneralField(bike, 'power'),
+        weight: MotoX.getGeneralField(bike, 'weight'),
         url: `motorcycle.html?id=${encodeURIComponent(bike.id)}`,
         searchText: flattenBike(bike)
       });
@@ -42,7 +44,7 @@ const MotoXSearch = (() => {
   function flattenBike(bike) {
     const parts = [
       bike.make, bike.model, bike.year, bike.region, bike.category, bike.displacement,
-      bike.summary, ...(bike.tags || [])
+      bike.summary, bike.power, bike.torque, bike.weight, bike.engine, ...(bike.tags || [])
     ];
 
     const sections = bike.sections || {};
@@ -122,9 +124,10 @@ const MotoXSearch = (() => {
       return;
     }
 
-    dropdown.innerHTML = results.map(r => `
-      ${MotoX.renderSearchResult(`${base}${r.url}`, r.title, `${r.type === 'motorcycle' ? '🏍 ' : '📄 '}${r.meta}`, r.title)}
-    `).join('');
+    dropdown.innerHTML = results.map(r => {
+      const extras = [r.meta, r.power].filter(Boolean).join(' · ');
+      return MotoX.renderSearchResult(`${base}${r.url}`, r.title, `${r.type === 'motorcycle' ? '🏍 ' : '📄 '}${extras}`, r.title);
+    }).join('');
     dropdown.classList.add(mx('open'));
     if (typeof MotoXShield !== 'undefined') MotoXShield.finalizeRoot(dropdown);
   }

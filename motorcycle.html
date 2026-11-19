@@ -7,7 +7,7 @@
   <title>Motorcycle Details — MotoX Wiki</title>
   <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=11" id="mx-main-css">
+  <link rel="stylesheet" href="css/main.css?v=15" id="mx-main-css">
 </head>
 <body>
   <header data-mx-ref="site-header" class="site-header"></header>
@@ -18,17 +18,60 @@
 
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script src="js/dist/shield.js?v=3"></script>
-  <script src="js/dist/core.js?v=15"></script>
-  <script src="js/dist/search.js?v=7"></script>
+  <script src="js/dist/shield.js?v=5"></script>
+  <script src="js/dist/core.js?v=20"></script>
+  <script src="js/dist/search.js?v=9"></script>
   <script>
+    function setStructuredData(bike) {
+      const existing = document.getElementById('mx-jsonld');
+      if (existing) existing.remove();
+      const spec = key => MotoX.getGeneralField(bike, key);
+      const quantity = (value, unitCode) => {
+        const num = parseFloat(String(value || '').replace(/,/g, ''));
+        return Number.isFinite(num) ? { '@type': 'QuantitativeValue', value: num, unitCode } : (value || undefined);
+      };
+      const fuel = spec('fuel_capacity') || '';
+      const data = {
+        '@context': 'https://schema.org',
+        '@type': 'Motorcycle',
+        name: MotoX.formatBikeTitle(bike),
+        brand: { '@type': 'Brand', name: bike.make },
+        model: bike.model,
+        vehicleModelDate: bike.year,
+        description: bike.summary || undefined,
+        bodyType: bike.category || undefined,
+        weight: quantity(spec('weight'), 'KGM'),
+        fuelCapacity: quantity(fuel, /kwh/i.test(fuel) ? 'KWH' : 'LTR'),
+        vehicleEngine: {
+          '@type': 'EngineSpecification',
+          engineDisplacement: quantity(bike.displacement, 'CMQ'),
+          enginePower: quantity(spec('power'), 'BHP'),
+          engineTorque: quantity(spec('torque'), 'NU')
+        },
+        url: window.location.href
+      };
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.id = 'mx-jsonld';
+      script.textContent = JSON.stringify(data);
+      document.head.appendChild(script);
+
+      let canonical = document.querySelector('link[rel="canonical"]');
+      if (!canonical) {
+        canonical = document.createElement('link');
+        canonical.rel = 'canonical';
+        document.head.appendChild(canonical);
+      }
+      canonical.href = window.location.href;
+    }
+
     async function init() {
       const settings = await MotoX.initLayout('motorcycle.html');
       MotoXSearch.init({ lazy: true, settings });
+      const m = MotoX.mx;
 
       const params = new URLSearchParams(window.location.search);
       const id = params.get('id');
-      const m = MotoX.mx;
 
       if (!id) {
         MotoX.setContainerHtml(MotoX.ref('main-content'), `
@@ -40,7 +83,10 @@
         return;
       }
 
-      const bike = await MotoX.loadMotorcycle(id);
+      const [bike, index] = await Promise.all([
+        MotoX.loadMotorcycle(id),
+        MotoX.loadMotorcycleIndex().catch(() => [])
+      ]);
 
       if (!bike) {
         MotoX.setContainerHtml(MotoX.ref('main-content'), `
@@ -54,10 +100,15 @@
       }
 
       document.title = `${MotoX.formatBikeTitle(bike)} — MotoX Wiki`;
+      const power = MotoX.getGeneralField(bike, 'power');
+      const weight = MotoX.getGeneralField(bike, 'weight');
       document.querySelector('meta[name="description"]').content =
-        `${MotoX.formatBikeTitle(bike)} specs: torque, oil capacity, fork seals, fasteners, and more.`;
+        `${MotoX.formatBikeTitle(bike)} specifications${power ? `: ${power}` : ''}${weight ? `, ${weight}` : ''}. Engine, performance, chassis, dimensions and service data.`;
+      setStructuredData(bike);
 
-      MotoX.setContainerHtml(MotoX.ref('main-content'), MotoX.renderMotorcycleDetail(bike, settings));
+      const detailHtml = MotoX.renderMotorcycleDetail(bike, settings);
+      const relatedHtml = MotoX.renderRelatedModels(bike, index);
+      MotoX.setContainerHtml(MotoX.ref('main-content'), `${detailHtml}${relatedHtml}`);
     }
 
     MotoXShield.bootstrap().then(() => init());

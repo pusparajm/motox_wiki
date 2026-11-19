@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "royal-enfield-interceptor-650-2018-present-global",
+    "make": "Royal Enfield",
+    "model": "Interceptor 650",
+    "year": "2018–Present",
+    "region": "Global",
+    "model_group": "royal-enfield-interceptor-650",
+    "category": "Retro",
+    "displacement": "648 cc",
+    "summary": "The Interceptor 650 revived Royal Enfield's twin-cylinder heritage with a punchy parallel twin and classic roadster style.",
+    "tags": [
+      "royal-enfield",
+      "interceptor-650",
+      "retro",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "648 cc air/oil-cooled SOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "648 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "47 hp (35 kW) @ 7,150 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "52 Nm (38 lb-ft) @ 5,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-18 front, 130/70-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "804 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "218 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13.7 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 110 links"
+          }
+        ]
+      }
+    }
+  }
+}

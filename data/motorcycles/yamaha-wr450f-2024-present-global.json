@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "yamaha-wr450f-2024-present-global",
+    "make": "Yamaha",
+    "model": "WR450F",
+    "year": "2024–Present",
+    "region": "Global",
+    "model_group": "yamaha-wr450f",
+    "category": "Enduro",
+    "displacement": "450 cc",
+    "summary": "Yamaha's enduro weapon, derived from the YZ450F motocrosser and tuned for trail and competition use.",
+    "tags": [
+      "yamaha",
+      "wr450f",
+      "enduro",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "450 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "450 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "53 hp (39 kW) @ 9,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "43 Nm (32 lb-ft) @ 7,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "KYB inverted fork, 300 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "KYB single shock, 300 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "270 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "None"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 140/80-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "965 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "117 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "7.9 L"
+          }
+        ]
+      }
+    }
+  }
+}

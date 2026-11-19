@@ -4,8 +4,8 @@
     "title": "Contributing to MotoX Wiki",
     "slug": "contributing",
     "published": true,
-    "order": 3,
+    "order": 4,
     "summary": "How to add or update motorcycle specifications.",
-    "content": "<h2>How to Contribute</h2><p>MotoX Wiki is community-maintained. You can contribute by:</p><ol><li>Forking the repository on GitHub</li><li>Editing the JSON files in <code>data/</code> (motorcycles, pages, settings)</li><li>Committing changes and opening a pull request</li></ol><h2>Data Guidelines</h2><ul><li>Always cite the source (service manual, OEM documentation)</li><li>Include year ranges when specs vary by model year</li><li>Use standard units (Nm for torque, L for volume) with conversions in parentheses</li><li>Mark unverified data in the notes field</li></ul>"
+    "content": "<h2>How to Contribute</h2><p>MotoX Wiki is community-maintained. You can contribute by:</p><ol><li>Forking the repository on GitHub</li><li>Editing <code>data/motorcycles.json</code>, <code>data/pages.json</code>, or <code>data/settings.json</code></li><li>Running <code>npm run build:data</code> to regenerate indexes and detail files</li><li>Committing changes and opening a pull request</li></ol><h2>Data Guidelines</h2><ul><li>Always cite the source (service manual, OEM documentation, manufacturer spec sheet)</li><li>Include year ranges and market/region when specs vary</li><li>Use standard units (Nm for torque, L for volume, hp/kW for power) with conversions in parentheses</li><li>Put general specs in <code>sections.general_specs</code> and service figures in <code>sections.service</code></li><li>Leave a field out rather than filling it with a generic value — an empty field is better than wrong data</li><li>Mark unverified data in the notes field or a custom section</li></ul>"
   }
 }

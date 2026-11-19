@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "yamaha-yzf-r15-v4-2021-present-global",
+    "make": "Yamaha",
+    "model": "YZF-R15 V4",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "yamaha-yzf-r15-v4",
+    "category": "Supersport",
+    "displacement": "155 cc",
+    "summary": "Yamaha's premium 155 cc sportbike, with VVA variable valve timing and R-series design.",
+    "tags": [
+      "yamaha",
+      "yzf-r15-v4",
+      "supersport",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "155 cc liquid-cooled SOHC single, 4 valves, VVA"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "155 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "18.4 hp (13.5 kW) @ 10,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "14.2 Nm (10.5 lb-ft) @ 7,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "37 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "282 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/80-17 front, 140/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "815 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "142 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.0 L (1.05 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "428 O-ring, 126 links"
+          }
+        ]
+      }
+    }
+  }
+}

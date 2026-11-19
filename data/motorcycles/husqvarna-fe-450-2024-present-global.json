@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "husqvarna-fe-450-2024-present-global",
+    "make": "Husqvarna",
+    "model": "FE 450",
+    "year": "2024–Present",
+    "region": "Global",
+    "model_group": "husqvarna-fe-450",
+    "category": "Enduro",
+    "displacement": "449 cc",
+    "summary": "A premium enduro 450 with WP suspension, a lightweight chassis and tractable power.",
+    "tags": [
+      "husqvarna",
+      "fe-450",
+      "enduro",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "449 cc liquid-cooled SOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "449 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "53 hp (39 kW)"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "44 Nm (32 lb-ft)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "WP XPLOR 48 mm fork, 300 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP XPLOR single shock, 300 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "260 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "None"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 140/80-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "950 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "117 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "8.5 L"
+          }
+        ]
+      }
+    }
+  }
+}

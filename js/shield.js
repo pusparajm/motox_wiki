@@ -5,16 +5,21 @@
  */
 const MotoXShield = (() => {
   const KNOWN = [
-    'active', 'ad-placeholder', 'ad-slot', 'adsbygoogle', 'bike-card', 'bike-grid', 'bike-header',
-    'bike-make', 'bike-meta', 'bike-model', 'bike-oil', 'bike-subtitle', 'bike-title', 'bike-variant',
-    'brand', 'brand-icon', 'breadcrumb', 'browse-pagination', 'browse-showing-count', 'container',
-    'custom-section', 'empty-state', 'field-label', 'field-value', 'filter-bar', 'footer-text',
-    'has-ad', 'has-sidebar', 'header-row', 'header-search', 'loading', 'nav-toggle', 'nav-toggle-bar',
-    'oil-cap', 'oil-sep', 'oil-type', 'open', 'outline', 'page-content', 'page-item', 'page-layout',
-    'page-list', 'result-meta', 'result-title', 'search-dropdown', 'search-no-results',
-    'search-result-item', 'secondary', 'shell', 'sidebar-ad', 'site-ad-bar', 'site-footer',
-    'site-footer-ad', 'site-footer-inner', 'site-header', 'site-nav', 'site-top', 'spec-body',
-    'spec-field', 'spec-fields', 'spec-section', 'spec-table', 'spec-table-wrap', 'sr-only', 'tag'
+    'active', 'ad-placeholder', 'ad-slot', 'adsbygoogle', 'bike-card', 'bike-engine', 'bike-grid',
+    'bike-header', 'bike-make', 'bike-meta', 'bike-model', 'bike-oil', 'bike-spec', 'bike-spec-sep',
+    'bike-specs', 'bike-subtitle', 'bike-tags', 'bike-title', 'bike-variant', 'bike-weight', 'brand',
+    'brand-icon', 'breadcrumb', 'browse-count', 'browse-pagination', 'browse-showing-count',
+    'browse-toolbar', 'category-chips', 'clear-filters', 'chip', 'chip-active', 'chips', 'container',
+    'custom-section', 'data-note', 'empty-state', 'field-label', 'field-value', 'filter-actions',
+    'filter-bar', 'filter-count', 'footer-text', 'has-ad', 'has-sidebar', 'header-row', 'header-search',
+    'hero-label', 'hero-stat', 'hero-stats', 'hero-value', 'loading', 'model-count', 'nav-toggle',
+    'nav-toggle-bar', 'oil-cap', 'oil-sep', 'oil-type', 'open', 'page-content', 'page-item',
+    'page-layout', 'page-list', 'related-grid', 'related-section', 'related-title', 'result-meta',
+    'result-title', 'search-dropdown', 'search-no-results', 'search-result-item', 'shell',
+    'sidebar-ad', 'site-ad-bar', 'site-footer', 'site-footer-ad', 'site-footer-inner', 'site-header',
+    'site-nav', 'site-top', 'sort-bar', 'sort-select', 'spec-body', 'spec-field', 'spec-fields',
+    'spec-section', 'spec-section-compact', 'spec-quick-row', 'spec-table', 'spec-table-wrap',
+    'service-pending', 'spec-source', 'sr-only', 'tag', 'toolbar', 'toolbar-count'
   ];
 
   const DEAD_SNIPPETS = [
@@ -210,65 +215,28 @@ const MotoXShield = (() => {
   function cardHtml(href, parts, seed) {
     const card = c('bike-card');
     const shell = c('shell');
-    const body = c('spec-body');
-    const v = variant(seed, 4);
-    let inner;
-
-    switch (v) {
-      case 1:
-        inner = `<div class="${shell}"><div class="${body}">${parts.make}${parts.model}${parts.meta}${parts.oil}</div></div>`;
-        break;
-      case 2:
-        inner = `${parts.meta}${parts.make}${parts.model}${parts.oil}`;
-        break;
-      case 3:
-        inner = `<div class="${shell}">${parts.make}${parts.model}</div><div class="${body}">${parts.meta}${parts.oil}</div>`;
-        break;
-      default:
-        inner = `${parts.make}${parts.model}${parts.meta}${parts.oil}`;
-    }
-
-    return `<a href="${escAttr(href)}" class="${card}">${inner}</a>`;
+    const v = variant(seed, 2);
+    const inner = `${parts.make}${parts.model}${parts.meta}${parts.specs || ''}${parts.oil}`;
+    const wrapped = v === 1 ? `<div class="${shell}">${inner}</div>` : inner;
+    return `<a href="${escAttr(href)}" class="${card}">${wrapped}</a>`;
   }
 
   function searchResultHtml(href, parts, seed) {
     const item = c('search-result-item');
     const shell = c('shell');
-    const v = variant(seed, 3);
-    let inner;
-
-    switch (v) {
-      case 1:
-        inner = `<div class="${shell}"><div class="${c('result-title')}">${parts.title}</div><div class="${c('result-meta')}">${parts.meta}</div></div>`;
-        break;
-      case 2:
-        inner = `<div class="${c('result-meta')}">${parts.meta}</div><div class="${c('result-title')}">${parts.title}</div>`;
-        break;
-      default:
-        inner = `<div class="${c('result-title')}">${parts.title}</div><div class="${c('result-meta')}">${parts.meta}</div>`;
-    }
-
-    return `<a href="${escAttr(href)}" class="${item}" role="option">${inner}</a>`;
+    const v = variant(seed, 2);
+    const inner = `<div class="${c('result-title')}">${parts.title}</div><div class="${c('result-meta')}">${parts.meta}</div>`;
+    const wrapped = v === 1 ? `<div class="${shell}">${inner}</div>` : inner;
+    return `<a href="${escAttr(href)}" class="${item}" role="option">${wrapped}</a>`;
   }
 
   function pageItemHtml(href, parts, seed) {
     const item = c('page-item');
     const shell = c('shell');
-    const v = variant(seed, 3);
-    let inner;
-
-    switch (v) {
-      case 1:
-        inner = `<div class="${shell}"><h3>${parts.title}</h3><p>${parts.meta}</p></div>`;
-        break;
-      case 2:
-        inner = `<p>${parts.meta}</p><h3>${parts.title}</h3>`;
-        break;
-      default:
-        inner = `<h3>${parts.title}</h3><p>${parts.meta}</p>`;
-    }
-
-    return `<a href="${escAttr(href)}" class="${item}">${inner}</a>`;
+    const v = variant(seed, 2);
+    const inner = `<h2>${parts.title}</h2><p>${parts.meta}</p>`;
+    const wrapped = v === 1 ? `<div class="${shell}">${inner}</div>` : inner;
+    return `<a href="${escAttr(href)}" class="${item}">${wrapped}</a>`;
   }
 
   function mutateRefsIn(root) {
@@ -326,6 +294,8 @@ const MotoXShield = (() => {
   }
 
   function detectBot() {
+    // Allow local preview tooling; production hosts retain full bot checks.
+    if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return false;
     const ua = navigator.userAgent || '';
     if (navigator.webdriver) return true;
     if (window.document.documentElement.getAttribute('webdriver')) return true;
@@ -345,6 +315,10 @@ const MotoXShield = (() => {
       <a href="${BASE}data/search-index.json" class="${c('page-item')}" tabindex="-1">index</a>
     </nav>`;
     document.body.appendChild(trap);
+  }
+
+  function quickSpecGroup() {
+    return `mxq-${hash(session).slice(0, 8)}`;
   }
 
   function wrapHtml(html) {
@@ -427,6 +401,7 @@ const MotoXShield = (() => {
     cardHtml,
     pageItemHtml,
     searchResultHtml,
+    quickSpecGroup,
     bootstrap: () => cssReady || Promise.resolve(),
     wrapHtml,
     rewriteRoot,

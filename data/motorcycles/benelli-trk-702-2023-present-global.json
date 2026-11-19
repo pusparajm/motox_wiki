@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "benelli-trk-702-2023-present-global",
+    "make": "Benelli",
+    "model": "TRK 702",
+    "year": "2023–Present",
+    "region": "Global",
+    "model_group": "benelli-trk-702",
+    "category": "Adventure",
+    "displacement": "693 cc",
+    "summary": "A larger, more powerful TRK with a 693 cc twin and long-distance touring equipment.",
+    "tags": [
+      "benelli",
+      "trk-702",
+      "adventure",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "693 cc liquid-cooled DOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "693 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "70 hp (52 kW) @ 8,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "70 Nm (52 lb-ft) @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "50 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "260 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-19 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "825 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "220 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "20 L"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "ducati-monster-1200-2014-2020-global",
+    "make": "Ducati",
+    "model": "Monster 1200",
+    "year": "2014–2020",
+    "region": "Global",
+    "model_group": "ducati-monster-1200",
+    "category": "Naked",
+    "displacement": "1,198 cc",
+    "summary": "The Monster 1200 combined Ducati's big Testastretta V-twin with a muscular, naked silhouette.",
+    "tags": [
+      "ducati",
+      "monster-1200",
+      "naked",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,198 cc liquid-cooled Desmodromic V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,198 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "150 hp (110 kW) @ 9,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "126 Nm (93 lb-ft) @ 7,750 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "245 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 190/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "810 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "211 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L (4.0 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 15W-50, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

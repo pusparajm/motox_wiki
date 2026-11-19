@@ -1,0 +1,101 @@
+{
+  "motorcycle": {
+    "id": "ultraviolette-f77-2024-present-india",
+    "make": "Ultraviolette",
+    "model": "F77",
+    "year": "2024–Present",
+    "region": "India",
+    "model_group": "ultraviolette-f77",
+    "category": "Naked",
+    "displacement": "—",
+    "summary": "India's high-performance electric streetbike, with rapid acceleration, connected tech and distinctive styling.",
+    "tags": [
+      "ultraviolette",
+      "f77",
+      "naked"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "Permanent-magnet electric motor, 10.3 kWh battery"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "—"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "40 hp (30 kW)"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "100 Nm (74 lb-ft)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Single-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm disc, radial 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "230 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70-17 front, 150/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "800 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "207 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "10.3 kWh battery"
+          },
+          {
+            "key": "top_speed",
+            "label": "Top Speed",
+            "value": "150 km/h"
+          }
+        ]
+      }
+    }
+  }
+}

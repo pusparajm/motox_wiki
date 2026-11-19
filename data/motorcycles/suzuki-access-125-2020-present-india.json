@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "suzuki-access-125-2020-present-india",
+    "make": "Suzuki",
+    "model": "Access 125",
+    "year": "2020–Present",
+    "region": "India",
+    "model_group": "suzuki-access-125",
+    "category": "Scooter",
+    "displacement": "124 cc",
+    "summary": "Suzuki's popular 125 cc scooter, with a strong engine, comfortable seat and generous under-seat storage.",
+    "tags": [
+      "suzuki",
+      "access-125",
+      "scooter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124 cc air-cooled SOHC single, 2 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "124 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "8.6 hp (6.4 kW) @ 6,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "10.2 Nm (8 lb-ft) @ 5,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "30 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "120 mm drum"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "120 mm drum"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Combined braking system"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-12 front, 90/90-12 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "773 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "104 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "5 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.7 L (0.75 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MB"
+          }
+        ]
+      }
+    }
+  }
+}

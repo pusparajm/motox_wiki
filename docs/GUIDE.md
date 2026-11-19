@@ -29,11 +29,14 @@ This document covers everything you need to run, edit, and publish the MotoX Wik
 
 MotoX Wiki is a **static website** for motorcycle technical reference:
 
+- General specifications (engine, power, torque, weight, dimensions)
+- Service data (oil capacity and grade, chain, spark plug, fork oil/seals)
 - Torque specs
-- Engine oil quantities
 - Fork seal sizes
 - Bolt & nut dimensions
 - Custom expandable spec sections
+
+The catalogue ships with **301 mass-produced models from 33 manufacturers** and is rebuilt from a single source file (`data/motorcycles.json`).
 
 **Tech stack (kept intentionally light):**
 
@@ -62,11 +65,18 @@ Two folders live side by side on your computer:
 │   ├── core.js            # Data loading, header, footer, ads
 │   └── search.js          # Client-side search
 ├── data/
-│   ├── motorcycles.json   # All motorcycle specs
-│   ├── pages.json         # Wiki articles
-│   └── settings.json      # Site title, nav, ads, search config
+│   ├── motorcycles.json         # Source of truth: all motorcycle specs
+│   ├── motorcycles-index.json   # Generated compact browse/search summaries
+│   ├── motorcycles/<id>.json    # Generated per-bike detail files
+│   ├── pages.json               # Wiki articles
+│   ├── search-index.json        # Generated search index
+│   └── settings.json            # Site title, nav, ads, search config
+├── scripts/
+│   └── build-data.py            # Regenerate derived data from motorcycles.json
+├── sitemap.xml
+├── robots.txt
 ├── docs/
-│   └── GUIDE.md           # This file
+│   └── GUIDE.md                 # This file
 ├── .gitignore             # Excludes admin/ if ever re-added
 ├── .nojekyll              # Required for GitHub Pages
 └── README.md
@@ -439,9 +449,17 @@ With Cloudflare proxy enabled, a **Worker** (free tier) can read `request.cf.cou
 
 Each motorcycle entry supports:
 
-- Basic info: make, model, year, category, displacement, tags, summary
-- **Spec sections** — expandable groups (engine oil, torque, fork seals, fasteners, etc.)
+- Basic info: make, model, year, region, category, displacement, tags, summary
+- **General specifications** — engine, power, torque, transmission, chassis, suspension, brakes, tyres, dimensions, weight and fuel capacity
+- **Service data** — oil capacity/grade, chain, spark plug, fork oil and seal sizes where verified
+- **Torque specifications** — model-specific tables
 - **Custom sections** — free-form HTML blocks
+
+After editing the source file, regenerate the derived files:
+
+```bash
+npm run build:data
+```
 
 ### Wiki pages (`data/pages.json`)
 
@@ -465,18 +483,28 @@ Reference articles (e.g. torque conversion chart, oil grades guide).
   "id": "yamaha-mt-07-2018",
   "make": "Yamaha",
   "model": "MT-07",
-  "year": "2018–2024",
+  "year": "2018–Present",
+  "region": "Global",
   "category": "Naked",
   "displacement": "689 cc",
   "published": true,
-  "tags": ["yamaha", "mt-07", "naked"],
-  "summary": "Popular middleweight naked bike.",
+  "tags": ["yamaha", "mt-07", "naked", "twin"],
+  "summary": "Yamaha's hugely popular CP2 naked…",
   "sections": {
-    "engine_oil": {
-      "label": "Engine Oil",
+    "general_specs": {
+      "label": "General Specifications",
       "fields": [
-        { "key": "capacity", "label": "Oil Capacity", "value": "2.91 L" },
-        { "key": "type", "label": "Grade", "value": "SAE 10W-40" }
+        { "key": "engine", "label": "Engine", "value": "689 cc liquid-cooled DOHC parallel twin" },
+        { "key": "power", "label": "Max Power", "value": "74 hp (55 kW) @ 9,000 rpm" },
+        { "key": "torque", "label": "Max Torque", "value": "68 Nm (50 lb-ft) @ 6,500 rpm" },
+        { "key": "weight", "label": "Kerb Weight", "value": "184 kg" }
+      ]
+    },
+    "service": {
+      "label": "Service Data",
+      "fields": [
+        { "key": "oil_capacity", "label": "Engine Oil (with filter)", "value": "2.9 L (3.1 US qt)" },
+        { "key": "oil_grade", "label": "Oil Grade", "value": "SAE 10W-40, JASO MA2" }
       ]
     },
     "torque_specs": {
@@ -487,10 +515,12 @@ Reference articles (e.g. torque conversion chart, oil grades guide).
     }
   },
   "custom_sections": [
-    { "title": "Chain & Sprocket", "content": "525 chain, 114 links..." }
+    { "title": "Chain & Sprocket", "content": "525 chain, 112 links..." }
   ]
 }
 ```
+
+The compact index extracts `engine`, `power`, `torque`, `weight`, `seat_height` and `fuel_capacity` from `general_specs`, so browse cards stay fast without loading each detail file.
 
 ### Section types
 

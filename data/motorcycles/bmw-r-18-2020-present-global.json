@@ -1,0 +1,111 @@
+{
+  "motorcycle": {
+    "id": "bmw-r-18-2020-present-global",
+    "make": "BMW",
+    "model": "R 18",
+    "year": "2020–Present",
+    "region": "Global",
+    "model_group": "bmw-r-18",
+    "category": "Cruiser",
+    "displacement": "1,802 cc",
+    "summary": "BMW's big-boxer cruiser, with classic proportions, a huge torque curve and old-school charm.",
+    "tags": [
+      "bmw",
+      "r-18",
+      "cruiser"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,802 cc air/oil-cooled OHV boxer twin, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,802 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "91 hp (67 kW) @ 4,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "158 Nm (117 lb-ft) @ 3,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, shaft final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "49 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Paralever single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "300 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-19 front, 180/65-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "690 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "345 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "16 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.5 L (4.8 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 5W-40, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

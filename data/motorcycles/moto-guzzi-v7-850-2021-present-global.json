@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "moto-guzzi-v7-850-2021-present-global",
+    "make": "Moto Guzzi",
+    "model": "V7 850",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "moto-guzzi-v7-850",
+    "category": "Retro",
+    "displacement": "853 cc",
+    "summary": "Moto Guzzi's classic V7, with a transverse V-twin, shaft drive and timeless Italian styling.",
+    "tags": [
+      "moto-guzzi",
+      "v7-850",
+      "retro",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "853 cc air-cooled OHV V-twin, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "853 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "65 hp (48 kW) @ 6,800 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "73 Nm (54 lb-ft) @ 5,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, shaft final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "40 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm disc, 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "260 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-18 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "780 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "218 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "21 L"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "bsa-gold-star-650-2021-present-global",
+    "make": "BSA",
+    "model": "Gold Star 650",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "bsa-gold-star-650",
+    "category": "Retro",
+    "displacement": "652 cc",
+    "summary": "The revived BSA Gold Star, with a Rotax-developed 650 single and classic British roadster style.",
+    "tags": [
+      "bsa",
+      "gold-star-650",
+      "retro",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "652 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "652 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "45 hp (33 kW) @ 6,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "55 Nm (41 lb-ft) @ 4,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-19 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "780 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "198 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12 L"
+          }
+        ]
+      }
+    }
+  }
+}

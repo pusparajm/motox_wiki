@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "kove-450-rally-2023-present-global",
+    "make": "Kove",
+    "model": "450 Rally",
+    "year": "2023–Present",
+    "region": "Global",
+    "model_group": "kove-450-rally",
+    "category": "Dual Sport",
+    "displacement": "449 cc",
+    "summary": "A Dakar-inspired rally bike with long-travel suspension, a huge fuel range and competitive weight.",
+    "tags": [
+      "kove",
+      "450-rally",
+      "dual-sport",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "449 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "449 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "51 hp (38 kW) @ 9,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "43 Nm (32 lb-ft) @ 7,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "49 mm inverted fork, 305 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, 300 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "None"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 140/80-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "920 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "145 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "30 L"
+          }
+        ]
+      }
+    }
+  }
+}

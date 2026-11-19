@@ -12,3 +12,7 @@ Thumbs.db
 
 # Web build
 node_modules/
+
+# Python cache
+__pycache__/
+*.pyc

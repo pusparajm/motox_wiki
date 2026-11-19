@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "harley-davidson-forty-eight-2010-present-global",
+    "make": "Harley-Davidson",
+    "model": "Forty-Eight",
+    "year": "2010–Present",
+    "region": "Global",
+    "model_group": "harley-davidson-forty-eight",
+    "category": "Cruiser",
+    "displacement": "1,202 cc",
+    "summary": "A fat-tyred, low-slung Sportster bobber with peanut tank and minimalist style.",
+    "tags": [
+      "harley-davidson",
+      "forty-eight",
+      "cruiser",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,202 cc air-cooled Evolution V-twin, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,202 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "66 hp (49 kW) @ 6,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "96 Nm (71 lb-ft) @ 3,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "39 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "292 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-16 front, 150/80-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "710 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "252 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "7.9 L"
+          }
+        ]
+      }
+    }
+  }
+}

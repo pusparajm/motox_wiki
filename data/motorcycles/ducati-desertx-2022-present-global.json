@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "ducati-desertx-2022-present-global",
+    "make": "Ducati",
+    "model": "DesertX",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "ducati-desertx",
+    "category": "Adventure",
+    "displacement": "937 cc",
+    "summary": "Ducati's retro-rally adventure bike, with a 21-inch front wheel, long travel and Dakar-inspired style.",
+    "tags": [
+      "ducati",
+      "desertx",
+      "adventure",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "937 cc liquid-cooled Desmodromic V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "937 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "110 hp (81 kW) @ 9,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "92 Nm (68 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "46 mm inverted fork, 230 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, 220 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "265 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 150/70-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "875 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "223 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "21 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L (4.0 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 15W-50, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 116 links"
+          }
+        ]
+      }
+    }
+  }
+}

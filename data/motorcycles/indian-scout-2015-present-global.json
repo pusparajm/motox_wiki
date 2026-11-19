@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "indian-scout-2015-present-global",
+    "make": "Indian",
+    "model": "Scout",
+    "year": "2015–Present",
+    "region": "Global",
+    "model_group": "indian-scout",
+    "category": "Cruiser",
+    "displacement": "1,133 cc",
+    "summary": "A lighter, sportier Indian cruiser with a liquid-cooled V-twin and classic Scout style.",
+    "tags": [
+      "indian",
+      "scout",
+      "cruiser",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,133 cc liquid-cooled DOHC V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,133 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "100 hp (75 kW) @ 8,100 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "97 Nm (72 lb-ft) @ 5,900 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "298 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "298 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-16 front, 150/80-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "649 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "242 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12.5 L"
+          }
+        ]
+      }
+    }
+  }
+}

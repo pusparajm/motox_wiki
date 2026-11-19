@@ -23,9 +23,18 @@
       "title": "Contributing to MotoX Wiki",
       "slug": "contributing",
       "published": true,
-      "order": 3,
+      "order": 4,
       "summary": "How to add or update motorcycle specifications.",
-      "content": "<h2>How to Contribute</h2><p>MotoX Wiki is community-maintained. You can contribute by:</p><ol><li>Forking the repository on GitHub</li><li>Editing the JSON files in <code>data/</code> (motorcycles, pages, settings)</li><li>Committing changes and opening a pull request</li></ol><h2>Data Guidelines</h2><ul><li>Always cite the source (service manual, OEM documentation)</li><li>Include year ranges when specs vary by model year</li><li>Use standard units (Nm for torque, L for volume) with conversions in parentheses</li><li>Mark unverified data in the notes field</li></ul>"
+      "content": "<h2>How to Contribute</h2><p>MotoX Wiki is community-maintained. You can contribute by:</p><ol><li>Forking the repository on GitHub</li><li>Editing <code>data/motorcycles.json</code>, <code>data/pages.json</code>, or <code>data/settings.json</code></li><li>Running <code>npm run build:data</code> to regenerate indexes and detail files</li><li>Committing changes and opening a pull request</li></ol><h2>Data Guidelines</h2><ul><li>Always cite the source (service manual, OEM documentation, manufacturer spec sheet)</li><li>Include year ranges and market/region when specs vary</li><li>Use standard units (Nm for torque, L for volume, hp/kW for power) with conversions in parentheses</li><li>Put general specs in <code>sections.general_specs</code> and service figures in <code>sections.service</code></li><li>Leave a field out rather than filling it with a generic value — an empty field is better than wrong data</li><li>Mark unverified data in the notes field or a custom section</li></ul>"
+    },
+    {
+      "id": "fastener-torque",
+      "title": "Metric Fastener Torque Guide",
+      "slug": "fastener-torque",
+      "summary": "Typical dry torque values for common metric bolts and nuts by property class.",
+      "order": 3,
+      "published": true,
+      "content": "<h2>Typical dry torque values</h2><p>Use these values only as a general reference for clean, dry, lightly oiled or plated threads where the manufacturer does not specify a torque. Always prefer the torque figure in the official workshop manual, especially for engine, brake, suspension and safety-critical fasteners.</p><table><thead><tr><th>Thread</th><th>8.8</th><th>10.9</th><th>12.9</th></tr></thead><tbody><tr><td>M5</td><td>5.5 Nm</td><td>8 Nm</td><td>9.5 Nm</td></tr><tr><td>M6</td><td>9.5 Nm</td><td>14 Nm</td><td>16.5 Nm</td></tr><tr><td>M8</td><td>23 Nm</td><td>34 Nm</td><td>40 Nm</td></tr><tr><td>M10</td><td>46 Nm</td><td>68 Nm</td><td>80 Nm</td></tr><tr><td>M12</td><td>80 Nm</td><td>117 Nm</td><td>140 Nm</td></tr><tr><td>M14</td><td>128 Nm</td><td>187 Nm</td><td>225 Nm</td></tr><tr><td>M16</td><td>197 Nm</td><td>290 Nm</td><td>345 Nm</td></tr></tbody></table><h2>Notes</h2><ul><li>These are approximate dry-thread values for metric coarse threads. Lubricated threads can require 20–30% less torque for the same clamp load.</li><li>Reduce torque for aluminium threads, hollow fasteners, banjo bolts and fasteners into plastic.</li><li>Use a calibrated torque wrench and tighten in stages where a sequence is specified.</li><li>Never reuse torque-to-yield or single-use fasteners.</li></ul>"
     }
   ]
 }

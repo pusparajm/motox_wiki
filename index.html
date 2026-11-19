@@ -3,29 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="MotoX Wiki — Motorcycle technical reference with torque specs, oil quantities, fork seals, and fastener dimensions.">
-  <title>MotoX Wiki — Motorcycle Technical Reference</title>
+  <meta name="description" content="Browse 301 mass-produced motorcycles from 33 manufacturers — engine specs, power, torque, weight, service data and more.">
+  <title>Browse Motorcycles — MotoX Wiki</title>
   <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=11" id="mx-main-css">
+  <link rel="stylesheet" href="css/main.css?v=15" id="mx-main-css">
 </head>
 <body>
   <header data-mx-ref="site-header" class="site-header"></header>
 
   <main class="container">
     <section data-mx-ref="browse">
+      <div class="browse-toolbar">
+        <div>
+          <h1>Browse Motorcycles</h1>
+          <p class="toolbar-count" data-mx-ref="browse-total">Loading the catalogue…</p>
+        </div>
+        <label class="sort-select">Sort by
+          <select data-mx-ref="sort-mode">
+            <option value="make">Make (A–Z)</option>
+            <option value="newest">Newest first</option>
+            <option value="power">Power (high–low)</option>
+            <option value="displacement">Engine size (high–low)</option>
+            <option value="weight">Weight (light–heavy)</option>
+          </select>
+        </label>
+      </div>
+
       <div class="filter-bar">
-        <input type="search" data-mx-ref="filter-search" placeholder="Filter by name…" aria-label="Filter motorcycles">
+        <input type="search" data-mx-ref="filter-search" placeholder="Search bikes…" aria-label="Filter motorcycles">
         <select data-mx-ref="filter-make" aria-label="Filter by make">
           <option value="">All Makes</option>
         </select>
         <select data-mx-ref="filter-category" aria-label="Filter by category">
           <option value="">All Categories</option>
         </select>
+        <button type="button" data-mx-ref="clear-filters" class="secondary outline clear-filters">Clear</button>
       </div>
+
+      <div class="category-chips" data-mx-ref="category-chips" aria-label="Quick category filters"></div>
+      <h2 class="sr-only">Motorcycle catalogue</h2>
+
       <div data-mx-ref="bike-grid" class="bike-grid">
         <div class="loading">Loading motorcycles…</div>
       </div>
+
       <div data-mx-ref="browse-pagination" class="browse-pagination" hidden>
         <button type="button" data-mx-ref="browse-load-more" class="secondary outline">Load more</button>
         <p data-mx-ref="browse-showing-count" class="browse-showing-count" aria-live="polite"></p>
@@ -35,33 +57,41 @@
 
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script src="js/dist/shield.js?v=3"></script>
-  <script src="js/dist/core.js?v=15"></script>
-  <script src="js/dist/search.js?v=7"></script>
+  <script src="js/dist/shield.js?v=5"></script>
+  <script src="js/dist/core.js?v=20"></script>
+  <script src="js/dist/search.js?v=9"></script>
   <script>
     let allBikes = [];
     let activeList = [];
     let displayedRows = 1;
-    let maxPerPage = 8;
+    let maxPerPage = 24;
     let layoutSyncNeeded = true;
     let resizeTimer = null;
+    let activeCategory = '';
 
     async function init() {
       const settings = await MotoX.initLayout('index.html');
       MotoXSearch.init({ lazy: true, settings });
 
-      maxPerPage = MotoX.getPopularPageSize(settings);
-      const bikes = await MotoX.loadPopularSummaries(settings);
-      allBikes = bikes;
-      activeList = bikes;
+      maxPerPage = MotoX.getPopularPageSize(settings) || 24;
+      allBikes = await MotoX.loadMotorcycleIndex();
+      activeList = allBikes.slice();
       layoutSyncNeeded = true;
 
-      populateFilters(bikes);
+      populateFilters(allBikes);
+      renderChips(allBikes);
+      updateTotal();
       renderGrid();
 
       MotoX.ref('filter-search').addEventListener('input', applyFilters);
       MotoX.ref('filter-make').addEventListener('change', applyFilters);
-      MotoX.ref('filter-category').addEventListener('change', applyFilters);
+      MotoX.ref('filter-category').addEventListener('change', () => {
+        activeCategory = MotoX.ref('filter-category').value;
+        renderChips(allBikes);
+        applyFilters();
+      });
+      MotoX.ref('sort-mode').addEventListener('change', applyFilters);
+      MotoX.ref('clear-filters').addEventListener('click', clearFilters);
       MotoX.ref('browse-load-more').addEventListener('click', loadMore);
       window.addEventListener('resize', onResize);
 
@@ -136,20 +166,103 @@
       });
     }
 
+    function renderChips(bikes) {
+      const container = MotoX.ref('category-chips');
+      if (!container) return;
+      const counts = {};
+      bikes.forEach(b => {
+        if (!b.category) return;
+        counts[b.category] = (counts[b.category] || 0) + 1;
+      });
+      const categories = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+      const chips = [
+        `<button type="button" class="${MotoX.mx('chip')}${activeCategory ? '' : ` ${MotoX.mx('chip-active')}`}" data-category="">All <span>${bikes.length}</span></button>`,
+        ...categories.map(([name, count]) => `<button type="button" class="${MotoX.mx('chip')}${activeCategory === name ? ` ${MotoX.mx('chip-active')}` : ''}" data-category="${MotoX.escapeHtml(name)}">${MotoX.escapeHtml(name)} <span>${count}</span></button>`)
+      ];
+      MotoX.setContainerHtml(container, chips.join(''));
+      container.querySelectorAll('[data-category]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeCategory = btn.getAttribute('data-category') || '';
+          MotoX.ref('filter-category').value = activeCategory;
+          renderChips(bikes);
+          applyFilters();
+        });
+      });
+    }
+
+    function sortList(list) {
+      const mode = MotoX.ref('sort-mode')?.value || 'make';
+      const sorted = list.slice();
+      const num = v => {
+        if (!v) return 0;
+        const m = String(v).replace(/,/g, '').match(/-?\d+(?:\.\d+)?/);
+        return m ? parseFloat(m[0]) : 0;
+      };
+      const startYear = y => {
+        const m = String(y || '').match(/(19|20)\d{2}/);
+        return m ? parseInt(m[0], 10) : 0;
+      };
+      switch (mode) {
+        case 'newest':
+          sorted.sort((a, b) => startYear(b.year) - startYear(a.year) || a.make.localeCompare(b.make) || a.model.localeCompare(b.model));
+          break;
+        case 'power':
+          sorted.sort((a, b) => num(b.power) - num(a.power) || a.make.localeCompare(b.make) || a.model.localeCompare(b.model));
+          break;
+        case 'displacement':
+          sorted.sort((a, b) => num(b.displacement) - num(a.displacement) || a.make.localeCompare(b.make) || a.model.localeCompare(b.model));
+          break;
+        case 'weight':
+          sorted.sort((a, b) => (num(a.weight) || 9999) - (num(b.weight) || 9999) || a.make.localeCompare(b.make) || a.model.localeCompare(b.model));
+          break;
+        default:
+          sorted.sort((a, b) => a.make.localeCompare(b.make) || a.model.localeCompare(b.model) || startYear(b.year) - startYear(a.year));
+      }
+      return sorted;
+    }
+
     function applyFilters() {
-      const q = MotoX.ref('filter-search').value.toLowerCase();
+      const q = MotoX.ref('filter-search').value.trim().toLowerCase();
       const make = MotoX.ref('filter-make').value;
       const category = MotoX.ref('filter-category').value;
+      activeCategory = category;
 
-      activeList = allBikes.filter(b => {
-        const matchQ = !q || `${b.make} ${b.model} ${b.year || ''} ${b.region || ''}`.toLowerCase().includes(q) || (b.tags || []).some(t => t.includes(q));
+      const filtered = allBikes.filter(b => {
+        const haystack = [
+          b.make, b.model, b.year, b.region, b.category, b.displacement,
+          b.engine, b.power, b.torque, b.weight, b.seat_height, ...(b.tags || [])
+        ].filter(Boolean).join(' ').toLowerCase();
+        const matchQ = !q || haystack.includes(q);
         const matchMake = !make || b.make === make;
         const matchCat = !category || b.category === category;
         return matchQ && matchMake && matchCat;
       });
 
+      activeList = sortList(filtered);
       layoutSyncNeeded = true;
+      updateTotal();
       renderGrid(true);
+    }
+
+    function updateTotal() {
+      const total = MotoX.ref('browse-total');
+      if (!total) return;
+      const makes = new Set(allBikes.map(b => b.make)).size;
+      if (activeList.length === allBikes.length) {
+        total.textContent = `${allBikes.length} models · ${makes} manufacturers · specifications, performance and service data`;
+      } else {
+        total.textContent = `${activeList.length} of ${allBikes.length} models match`;
+      }
+    }
+
+    function clearFilters() {
+      MotoX.ref('filter-search').value = '';
+      MotoX.ref('filter-make').value = '';
+      MotoX.ref('filter-category').value = '';
+      activeCategory = '';
+      renderChips(allBikes);
+      applyFilters();
+      MotoX.ref('filter-search').focus();
     }
 
     function loadMore() {
@@ -214,7 +327,7 @@
 
       if (!activeList.length) {
         const msg = filtered ? 'No motorcycles match your filters.' : 'No motorcycles to show yet.';
-        MotoX.setContainerHtml(grid, `<div class="${MotoX.mx('empty-state')}"><p>${msg}</p></div>`);
+        MotoX.setContainerHtml(grid, `<div class="${MotoX.mx('empty-state')}"><p>${msg}</p><button type="button" class="${MotoX.mx('secondary')} ${MotoX.mx('outline')}" onclick="clearFilters()">Clear filters</button></div>`);
         pagination.hidden = true;
         return;
       }

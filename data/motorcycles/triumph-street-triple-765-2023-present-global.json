@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "triumph-street-triple-765-2023-present-global",
+    "make": "Triumph",
+    "model": "Street Triple 765",
+    "year": "2023–Present",
+    "region": "Global",
+    "model_group": "triumph-street-triple-765",
+    "category": "Naked",
+    "displacement": "765 cc",
+    "summary": "Triumph's acclaimed middleweight naked, with a high-revving triple and Moto2-derived engine internals.",
+    "tags": [
+      "triumph",
+      "street-triple-765",
+      "naked",
+      "triple"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "765 cc liquid-cooled DOHC inline-three, 12 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "765 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "128 hp (96 kW) @ 12,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "80 Nm (59 lb-ft) @ 9,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted Showa fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "826 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "188 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "15 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.2 L (3.4 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 118 links"
+          }
+        ]
+      }
+    }
+  }
+}

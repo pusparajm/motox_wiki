@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "tvs-apache-rr-310-2020-present-india",
+    "make": "TVS",
+    "model": "Apache RR 310",
+    "year": "2020–Present",
+    "region": "India",
+    "model_group": "tvs-apache-rr-310",
+    "category": "Supersport",
+    "displacement": "312 cc",
+    "summary": "TVS and BMW co-developed this faired 310 cc sportbike, with a reverse-inclined single and race ergonomics.",
+    "tags": [
+      "tvs",
+      "apache-rr-310",
+      "supersport",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "312.2 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "312 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "34 hp (25 kW) @ 9,700 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "27.3 Nm (20 lb-ft) @ 7,700 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "37 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm disc, radial 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70-17 front, 150/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "810 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "174 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11 L"
+          }
+        ]
+      }
+    }
+  }
+}

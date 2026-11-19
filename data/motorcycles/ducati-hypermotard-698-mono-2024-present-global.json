@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "ducati-hypermotard-698-mono-2024-present-global",
+    "make": "Ducati",
+    "model": "Hypermotard 698 Mono",
+    "year": "2024–Present",
+    "region": "Global",
+    "model_group": "ducati-hypermotard-698-mono",
+    "category": "Supermoto",
+    "displacement": "659 cc",
+    "summary": "Ducati's lightweight single-cylinder supermoto, with a high-revving engine and minimalist chassis.",
+    "tags": [
+      "ducati",
+      "hypermotard-698-mono",
+      "supermoto",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "659 cc liquid-cooled Desmodromic single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "659 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "77 hp (57 kW) @ 9,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "63 Nm (46 lb-ft) @ 8,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "45 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "330 mm disc, radial 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "245 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 160/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "880 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "151 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12 L"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -160,6 +160,7 @@ const MotoX = (() => {
 
   function finalizeContent(root) {
     if (typeof MotoXShield !== 'undefined') MotoXShield.finalizeRoot(root);
+    wireQuickSpecSync(root);
   }
 
   function setContainerHtml(container, html) {
@@ -169,6 +170,7 @@ const MotoX = (() => {
     } else {
       container.innerHTML = html;
     }
+    wireQuickSpecSync(container);
   }
 
   function renderHeader(container, settings, activePage) {
@@ -197,7 +199,7 @@ const MotoX = (() => {
         </nav>
         <div class="${mx('header-search')}">
           <label data-mx-for="global-search" class="${mx('sr-only')}">Search motorcycles and pages</label>
-          <input type="search" ${mxRef('global-search')} placeholder="Search specs, models…" autocomplete="off" aria-expanded="false" data-mx-controls="search-dropdown" enterkeyhint="search">
+          <input type="search" ${mxRef('global-search')} placeholder="Search specs, models…" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" data-mx-controls="search-dropdown" enterkeyhint="search">
           <div ${mxRef('search-dropdown')} class="${mx('search-dropdown')}" role="listbox"></div>
         </div>
       </div>
@@ -264,7 +266,7 @@ const MotoX = (() => {
     setContainerHtml(container, `
       ${footerAd ? `<div class="${mx('site-footer-ad')}">${footerAd}</div>` : ''}
       <div class="${mx('container')} ${mx('site-footer-inner')}">
-        <span class="${mx('footer-text')}">${shieldEnc(site.footer || '')}</span>
+        <span class="${mx('footer-text')}">${shieldEnc(site.footer || '')}${site.data_updated ? ` · Data updated ${shieldEnc(site.data_updated)}` : ''}</span>
       </div>
     `);
   }
@@ -278,7 +280,7 @@ const MotoX = (() => {
     });
   }
 
-  function renderSpecSection(key, section) {
+  function renderSpecSection(key, section, options = {}) {
     if (!section) return '';
 
     let body = '';
@@ -306,12 +308,97 @@ const MotoX = (() => {
       </table></div>`;
     }
 
+    const openAttr = (options.defaultOpen ?? (key === 'general_specs' || key === 'overview')) ? 'open' : '';
+    const compactClass = options.compact ? ` ${mx('spec-section-compact')}` : '';
+    const syncName = options.syncGroup ? ` name="${options.syncGroup}"` : '';
+
     return `
-      <details class="${mx('spec-section')}" ${key === 'engine_oil' || key === 'torque_specs' ? 'open' : ''}>
+      <details class="${mx('spec-section')}${compactClass}"${syncName} ${openAttr}>
         <summary>${shieldEnc(section.label || key)}</summary>
         <div class="${mx('spec-body')}">${body}</div>
       </details>
     `;
+  }
+
+  function isQuickSpecKey(key) {
+    return key === 'service' || key === 'engine_oil';
+  }
+
+  function quickSpecKeys(sections) {
+    const keys = [];
+    if (sections.service) keys.push('service');
+    else if (sections.engine_oil) keys.push('engine_oil');
+    return keys;
+  }
+
+  function renderQuickSpecRow(sections, quickKeys) {
+    if (!quickKeys.length) return '';
+
+    if (quickKeys.length === 1) {
+      return renderSpecSection(quickKeys[0], sections[quickKeys[0]], { defaultOpen: true });
+    }
+
+    const syncGroup = typeof MotoXShield !== 'undefined'
+      ? MotoXShield.quickSpecGroup()
+      : 'mx-quick-spec';
+
+    const cards = quickKeys.map(key => renderSpecSection(key, sections[key], {
+      compact: true,
+      defaultOpen: true,
+      syncGroup
+    }));
+
+    return `<div class="${mx('spec-quick-row')}" data-mx-quick-spec-row>${cards.join('')}</div>`;
+  }
+
+  function wireQuickSpecSync(root) {
+    if (!root) return;
+
+    root.querySelectorAll('[data-mx-quick-spec-row]').forEach(row => {
+      const details = [...row.querySelectorAll('details')];
+      if (details.length < 2) return;
+
+      const syncOpen = (source, open) => {
+        details.forEach(other => {
+          if (other !== source) other.open = open;
+        });
+      };
+
+      details.forEach(el => {
+        if (el.dataset.mxSyncWired) return;
+        el.dataset.mxSyncWired = '1';
+
+        el.addEventListener('toggle', () => {
+          if (row.dataset.mxSyncLock) return;
+          row.dataset.mxSyncLock = '1';
+          syncOpen(el, el.open);
+          delete row.dataset.mxSyncLock;
+        });
+      });
+    });
+  }
+
+  function renderAllSpecSections(sections) {
+    const quickKeys = quickSpecKeys(sections);
+    let quickRowRendered = false;
+    const html = [];
+
+    for (const [key, section] of Object.entries(sections)) {
+      if (isQuickSpecKey(key)) {
+        if (!quickRowRendered && quickKeys.length) {
+          html.push(renderQuickSpecRow(sections, quickKeys));
+          quickRowRendered = true;
+        }
+        continue;
+      }
+      html.push(renderSpecSection(key, section));
+    }
+
+    if (!quickRowRendered && quickKeys.length) {
+      html.unshift(renderQuickSpecRow(sections, quickKeys));
+    }
+
+    return html.join('');
   }
 
   function shieldWrap(html) {
@@ -320,7 +407,7 @@ const MotoX = (() => {
 
   function renderMotorcycleDetail(bike, settings) {
     const sections = bike.sections || {};
-    const sectionHtml = Object.entries(sections).map(([key, sec]) => renderSpecSection(key, sec)).join('');
+    const sectionHtml = renderAllSpecSections(sections);
 
     const customHtml = (bike.custom_sections || []).map(cs => `
       <div class="${mx('custom-section')}">
@@ -342,12 +429,15 @@ const MotoX = (() => {
             <h1 class="${mx('bike-title')}">${shieldEnc(formatBikeTitle(bike))}</h1>
             <p class="${mx('bike-subtitle')}">${shieldEnc(bike.category || '')}${bike.category && bike.displacement ? ' · ' : ''}${shieldEnc(bike.displacement || '')}</p>
             ${bike.summary ? `<p>${shieldEnc(bike.summary)}</p>` : ''}
+            ${renderHeroStats(bike)}
           </div>
           ${adTop ? `<div class="${mx('ad-slot')}">${adTop}</div>` : ''}
           ${sectionHtml}
           ${adInArticle ? `<div class="${mx('ad-slot')}">${adInArticle}</div>` : ''}
           ${customHtml}
           ${adBottom ? `<div class="${mx('ad-slot')}">${adBottom}</div>` : ''}
+          ${(bike.sections?.service || bike.sections?.engine_oil) ? '' : `<p class="${mx('data-note')} ${mx('service-pending')}">Service data for this model is still being compiled. Use the owner's or workshop manual for oil capacity, fluid grades and torque values.</p>`}
+          <p class="${mx('data-note')}">Specifications are manufacturer-claimed and can vary by model year and market. Always confirm service limits and torque values against the owner's or workshop manual before working on your motorcycle.</p>
         </main>
         <aside class="${mx('sidebar-ad')}">${sidebarAd}</aside>
       </div>
@@ -376,28 +466,74 @@ const MotoX = (() => {
     return Number.isFinite(size) && size > 0 ? size : 8;
   }
 
+  function fieldValue(section, key) {
+    const fields = section?.fields || [];
+    return fields.find(item => item.key === key)?.value || '';
+  }
+
+  function getGeneralField(bike, key) {
+    if (!bike) return '';
+    if (bike[key]) return bike[key];
+    return fieldValue(bike.sections?.general_specs, key);
+  }
+
+  function getServiceField(bike, key) {
+    if (!bike) return '';
+    return fieldValue(bike.sections?.service, key) || fieldValue(bike.sections?.engine_oil, key);
+  }
+
   function getOilField(bike, key) {
-    if (key === 'capacity' && bike.oil_capacity) return bike.oil_capacity;
-    if (key === 'type' && bike.oil_type) return bike.oil_type;
-    const fields = bike.sections?.engine_oil?.fields || [];
-    const field = fields.find(item => item.key === key);
-    return field?.value || '';
+    const serviceKey = key === 'capacity' ? 'oil_capacity' : key === 'type' ? 'oil_grade' : key;
+    const serviceValue = getServiceField(bike, serviceKey);
+    if (serviceValue) return serviceValue;
+    if (key === 'capacity') return bike.oil_capacity || '';
+    if (key === 'type') return bike.oil_type || '';
+    return fieldValue(bike.sections?.engine_oil, key);
+  }
+
+  function specHeadline(value) {
+    if (!value) return '';
+    return String(value).split('@')[0].replace(/\s+/g, ' ').trim();
+  }
+
+  function specCompact(value) {
+    if (!value) return '';
+    return String(value)
+      .split('@')[0]
+      .replace(/\([^)]*\)/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function numericSpec(value) {
+    if (!value) return 0;
+    const match = String(value).replace(/,/g, '').match(/-?\d+(?:\.\d+)?/);
+    return match ? parseFloat(match[0]) : 0;
+  }
+
+  function getSpecNumber(bike, key) {
+    return numericSpec(getGeneralField(bike, key));
   }
 
   function renderBikeCard(bike) {
-    const capacity = getOilField(bike, 'capacity');
-    const oilType = getOilField(bike, 'type');
-    const oilParts = [];
-    if (capacity) oilParts.push(`<span class="${mx('oil-cap')}">${shieldEnc(capacity)}</span>`);
-    if (oilType) oilParts.push(`<span class="${mx('oil-type')}">${shieldEnc(oilType)}</span>`);
-    const oilHtml = oilParts.length
-      ? `<div class="${mx('bike-oil')}">${oilParts.join(`<span class="${mx('oil-sep')}"> · </span>`)}</div>`
+    const power = getGeneralField(bike, 'power');
+    const torque = getGeneralField(bike, 'torque');
+    const weight = getGeneralField(bike, 'weight');
+    const specParts = [];
+    if (power) specParts.push(`<span class="${mx('bike-spec')}"><b>${shieldEnc(specCompact(power))}</b></span>`);
+    if (torque) specParts.push(`<span class="${mx('bike-spec')}"><b>${shieldEnc(specCompact(torque))}</b></span>`);
+    if (weight) specParts.push(`<span class="${mx('bike-spec')}"><b>${shieldEnc(specCompact(weight))}</b></span>`);
+    const specsHtml = specParts.length
+      ? `<div class="${mx('bike-specs')}">${specParts.join(`<span class="${mx('bike-spec-sep')}">·</span>`)}</div>`
       : '';
+
+    const oilHtml = '';
 
     const parts = {
       make: `<span class="${mx('bike-make')}">${shieldEnc(bike.make)}</span>`,
-      model: `<h3 class="${mx('bike-model')}">${shieldEnc(bike.model)}${bikeVariantLabel(bike) ? ` <span class="${mx('bike-variant')}">(${shieldEnc(bikeVariantLabel(bike))})</span>` : ''}</h3>`,
-      meta: `<span class="${mx('bike-meta')}">${shieldEnc(bike.displacement || '')}${bike.category ? ` · ${shieldEnc(bike.category)}` : ''}</span>`,
+      model: `<h3 class="${mx('bike-model')}">${shieldEnc(bike.model)}</h3>`,
+      meta: `<span class="${mx('bike-meta')}">${[bike.year, bike.displacement].filter(Boolean).map(v => shieldEnc(v)).join(' · ')}</span>`,
+      specs: specsHtml,
       oil: oilHtml
     };
     const href = `${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}`;
@@ -406,7 +542,35 @@ const MotoX = (() => {
       return MotoXShield.cardHtml(href, parts, bike.id);
     }
 
-    return `<a href="${href}" class="${mx('bike-card')}">${parts.make}${parts.model}${parts.meta}${parts.oil}</a>`;
+    return `<a href="${href}" class="${mx('bike-card')}">${parts.make}${parts.model}${parts.meta}${parts.specs}${parts.oil}</a>`;
+  }
+
+  function renderHeroStats(bike) {
+    const items = [
+      ['Power', getGeneralField(bike, 'power')],
+      ['Torque', getGeneralField(bike, 'torque')],
+      ['Kerb Weight', getGeneralField(bike, 'weight')],
+      ['Seat Height', getGeneralField(bike, 'seat_height')]
+    ].filter(([, value]) => value);
+    if (!items.length) return '';
+    return `<div class="${mx('hero-stats')}">${items.map(([label, value]) => `
+      <div class="${mx('hero-stat')}">
+        <span class="${mx('hero-label')}">${shieldEnc(label)}</span>
+        <span class="${mx('hero-value')}">${shieldEnc(value)}</span>
+      </div>`).join('')}</div>`;
+  }
+
+  function renderRelatedModels(bike, motorcycles, limit = 6) {
+    if (!bike || !motorcycles?.length) return '';
+    const group = bike.model_group;
+    const same = motorcycles.filter(m => m.id !== bike.id && ((group && m.model_group === group) || (m.make === bike.make && m.model === bike.model)));
+    const pool = same.length ? same : motorcycles.filter(m => m.id !== bike.id && m.make === bike.make && m.category === bike.category);
+    const related = pool.slice(0, limit);
+    if (!related.length) return '';
+    return `<section class="${mx('related-section')}">
+      <h2 class="${mx('related-title')}">Related Models</h2>
+      <div class="${mx('bike-grid')} ${mx('related-grid')}">${related.map(renderBikeCard).join('')}</div>
+    </section>`;
   }
 
   function renderSearchResult(url, title, meta, seed) {
@@ -453,7 +617,15 @@ const MotoX = (() => {
     getPopularPageSize,
     bikeVariantLabel,
     formatBikeTitle,
+    getOilField,
+    getGeneralField,
+    getServiceField,
+    getSpecNumber,
+    specHeadline,
+    specCompact,
     renderBikeCard,
+    renderHeroStats,
+    renderRelatedModels,
     renderPageItem,
     renderSearchResult,
     ref,

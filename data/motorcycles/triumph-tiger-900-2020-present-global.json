@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "triumph-tiger-900-2020-present-global",
+    "make": "Triumph",
+    "model": "Tiger 900",
+    "year": "2020–Present",
+    "region": "Global",
+    "model_group": "triumph-tiger-900",
+    "category": "Adventure",
+    "displacement": "888 cc",
+    "summary": "Triumph's middleweight adventure bike, with a T-plane triple, long-travel suspension and rally-ready versions.",
+    "tags": [
+      "triumph",
+      "tiger-900",
+      "adventure",
+      "triple"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "888 cc liquid-cooled DOHC inline-three, 12 valves, T-plane crank"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "888 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "107 hp (79 kW) @ 8,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "90 Nm (66 lb-ft) @ 7,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "45 mm inverted fork, 200 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, 200 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "255 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "810/830 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "223 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "20 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 118 links"
+          }
+        ]
+      }
+    }
+  }
+}

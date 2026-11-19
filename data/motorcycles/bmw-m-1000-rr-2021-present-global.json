@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "bmw-m-1000-rr-2021-present-global",
+    "make": "BMW",
+    "model": "M 1000 RR",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "bmw-m-1000-rr",
+    "category": "Supersport",
+    "displacement": "999 cc",
+    "summary": "BMW's homologation special, with a high-revving ShiftCam engine, carbon wheels and M-specific electronics.",
+    "tags": [
+      "bmw",
+      "m-1000-rr",
+      "supersport",
+      "inline-4"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "999 cc liquid-cooled DOHC inline-four, 16 valves, ShiftCam"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "999 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "212 hp (156 kW) @ 14,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "113 Nm (83 lb-ft) @ 11,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "45 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 200/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "832 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "192 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "16.5 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.0 L (4.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 5W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 120 links"
+          }
+        ]
+      }
+    }
+  }
+}

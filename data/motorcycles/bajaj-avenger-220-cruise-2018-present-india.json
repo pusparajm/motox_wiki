@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "bajaj-avenger-220-cruise-2018-present-india",
+    "make": "Bajaj",
+    "model": "Avenger 220 Cruise",
+    "year": "2018–Present",
+    "region": "India",
+    "model_group": "bajaj-avenger-220-cruise",
+    "category": "Cruiser",
+    "displacement": "220 cc",
+    "summary": "An affordable, low-slung cruiser designed for relaxed highway cruising.",
+    "tags": [
+      "bajaj",
+      "avenger-220-cruise",
+      "cruiser",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "220 cc air-cooled SOHC single, 2 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "220 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "19 hp (14 kW) @ 8,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "17.55 Nm (13 lb-ft) @ 7,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "37 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "280 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "130 mm drum"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Single-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-17 front, 130/80-15 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "737 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "163 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13 L"
+          }
+        ]
+      }
+    }
+  }
+}

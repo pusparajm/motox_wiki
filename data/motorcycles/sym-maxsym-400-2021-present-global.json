@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "sym-maxsym-400-2021-present-global",
+    "make": "SYM",
+    "model": "Maxsym 400",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "sym-maxsym-400",
+    "category": "Scooter",
+    "displacement": "399 cc",
+    "summary": "A practical and comfortable maxi-scooter with a 400 cc single and generous storage.",
+    "tags": [
+      "sym",
+      "maxsym-400",
+      "scooter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "399 cc liquid-cooled SOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "399 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "34 hp (25 kW) @ 7,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "35 Nm (26 lb-ft) @ 5,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "275 mm dual discs"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "275 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-15 front, 160/60-15 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "800 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "213 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13 L"
+          }
+        ]
+      }
+    }
+  }
+}
