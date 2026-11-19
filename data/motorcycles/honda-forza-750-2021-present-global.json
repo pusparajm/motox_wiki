@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "honda-forza-750-2021-present-global",
+    "make": "Honda",
+    "model": "Forza 750",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "honda-forza-750",
+    "category": "Scooter",
+    "displacement": "745 cc",
+    "summary": "A flagship maxi-scooter with the NC750 twin, DCT and motorcycle-class chassis hardware.",
+    "tags": [
+      "honda",
+      "forza-750",
+      "scooter",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "745 cc liquid-cooled SOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "745 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "58 hp (43 kW) @ 6,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "69 Nm (51 lb-ft) @ 4,750 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed DCT, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 160/60-15 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "790 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "224 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13.2 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 114 links"
+          }
+        ]
+      }
+    }
+  }
+}

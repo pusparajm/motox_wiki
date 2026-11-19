@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "honda-trail-125-2020-present-global",
+    "make": "Honda",
+    "model": "Trail 125",
+    "year": "2020–Present",
+    "region": "Global",
+    "model_group": "honda-trail-125",
+    "category": "Mini",
+    "displacement": "124 cc",
+    "summary": "The CT125 Trail is a rugged mini-adventure bike inspired by Honda's original trail Cub.",
+    "tags": [
+      "honda",
+      "trail-125",
+      "mini",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124 cc air-cooled SOHC single, 2 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "124 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "8.7 hp (6.5 kW) @ 6,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "11 Nm (8 lb-ft) @ 4,750 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "4-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "27 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "190 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Single-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "80/90-17 front, 80/90-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "800 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "118 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "5.3 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.8 L (0.85 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA"
+          }
+        ]
+      }
+    }
+  }
+}

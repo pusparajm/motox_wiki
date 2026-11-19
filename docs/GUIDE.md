@@ -36,7 +36,7 @@ MotoX Wiki is a **static website** for motorcycle technical reference:
 - Bolt & nut dimensions
 - Custom expandable spec sections
 
-The catalogue ships with **301 mass-produced models from 33 manufacturers** and is rebuilt from a single source file (`data/motorcycles.json`).
+The catalogue ships with **409 mass-produced models from 36 manufacturers** and is rebuilt from a single source file (`data/motorcycles.json`).
 
 **Tech stack (kept intentionally light):**
 

@@ -1,0 +1,101 @@
+{
+  "motorcycle": {
+    "id": "ather-450x-2022-present-india",
+    "make": "Ather",
+    "model": "450X",
+    "year": "2022–Present",
+    "region": "India",
+    "model_group": "ather-450x",
+    "category": "Scooter",
+    "displacement": "—",
+    "summary": "India's premium electric scooter, with a 3.7 kWh battery, fast charging and connected features.",
+    "tags": [
+      "ather",
+      "450x",
+      "scooter"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "PMSM electric motor, 3.7 kWh battery"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "—"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "8.6 hp (6.4 kW)"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "26 Nm (19 lb-ft)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Single-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "30 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "200 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "190 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Combined braking system"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-12 front, 100/80-12 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "780 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "111 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "3.7 kWh battery"
+          },
+          {
+            "key": "top_speed",
+            "label": "Top Speed",
+            "value": "90 km/h"
+          }
+        ]
+      }
+    }
+  }
+}

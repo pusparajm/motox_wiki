@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "triumph-rocket-3-gt-2020-present-global",
+    "make": "Triumph",
+    "model": "Rocket 3 GT",
+    "year": "2020–Present",
+    "region": "Global",
+    "model_group": "triumph-rocket-3-gt",
+    "category": "Cruiser",
+    "displacement": "2,458 cc",
+    "summary": "The touring version of the Rocket 3, with a 2,458 cc triple, forward controls and a relaxed riding position.",
+    "tags": [
+      "triumph",
+      "rocket-3-gt",
+      "cruiser",
+      "triple"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "2,458 cc liquid-cooled DOHC inline-three, 12 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "2,458 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "165 hp (123 kW) @ 6,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "221 Nm (163 lb-ft) @ 4,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, shaft final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "47 mm inverted Showa fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "300 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "150/80-17 front, 240/50-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "750 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "294 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "18 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "5.5 L (5.8 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

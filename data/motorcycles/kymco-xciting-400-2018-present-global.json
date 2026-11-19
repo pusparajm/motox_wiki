@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "kymco-xciting-400-2018-present-global",
+    "make": "Kymco",
+    "model": "Xciting 400",
+    "year": "2018–Present",
+    "region": "Global",
+    "model_group": "kymco-xciting-400",
+    "category": "Scooter",
+    "displacement": "400 cc",
+    "summary": "A maxi-scooter with a 400 cc single, generous storage and highway-capable comfort.",
+    "tags": [
+      "kymco",
+      "xciting-400",
+      "scooter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "400 cc liquid-cooled SOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "400 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "35 hp (26 kW) @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "37 Nm (27 lb-ft) @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "280 mm dual discs"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-15 front, 150/70-14 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "805 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "213 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12.5 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.0 L (2.1 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 5W-40, JASO MB"
+          }
+        ]
+      }
+    }
+  }
+}

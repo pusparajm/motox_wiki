@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "yamaha-super-tenere-1200-2010-2020-global",
+    "make": "Yamaha",
+    "model": "Super Ténéré 1200",
+    "year": "2010–2020",
+    "region": "Global",
+    "model_group": "yamaha-super-t-n-r-1200",
+    "category": "Adventure",
+    "displacement": "1,199 cc",
+    "summary": "Yamaha's shaft-driven litre adventure twin, with a strong engine and long-distance comfort.",
+    "tags": [
+      "yamaha",
+      "super-t-n-r-1200",
+      "adventure",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,199 cc liquid-cooled DOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,199 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "112 hp (82 kW) @ 7,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "117 Nm (86 lb-ft) @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, shaft final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted fork, 190 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Link-type single shock, 190 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "282 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-19 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "845/870 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "261 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "23 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.0 L (4.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

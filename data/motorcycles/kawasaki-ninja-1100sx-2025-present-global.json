@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "kawasaki-ninja-1100sx-2025-present-global",
+    "make": "Kawasaki",
+    "model": "Ninja 1100SX",
+    "year": "2025–Present",
+    "region": "Global",
+    "model_group": "kawasaki-ninja-1100sx",
+    "category": "Sport Tourer",
+    "displacement": "1,099 cc",
+    "summary": "The Ninja 1000SX grows to 1,099 cc, with more torque, updated electronics and touring comfort.",
+    "tags": [
+      "kawasaki",
+      "ninja-1100sx",
+      "sport-tourer",
+      "inline-4"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,099 cc liquid-cooled DOHC inline-four, 16 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,099 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "136 hp (100 kW) @ 9,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "113 Nm (83 lb-ft) @ 7,600 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Horizontal back-link single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "250 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 190/50-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "820 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "234 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "19 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.0 L (4.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 116 links"
+          }
+        ]
+      }
+    }
+  }
+}

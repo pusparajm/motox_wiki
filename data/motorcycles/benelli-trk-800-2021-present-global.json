@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "benelli-trk-800-2021-present-global",
+    "make": "Benelli",
+    "model": "TRK 800",
+    "year": "2021–Present",
+    "region": "Global",
+    "model_group": "benelli-trk-800",
+    "category": "Adventure",
+    "displacement": "754 cc",
+    "summary": "A larger, more premium TRK with a 754 cc twin and touring-focused equipment.",
+    "tags": [
+      "benelli",
+      "trk-800",
+      "adventure",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "754 cc liquid-cooled DOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "754 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "76 hp (56 kW) @ 8,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "67 Nm (49 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "50 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "260 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-19 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "835 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "222 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "22 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 118 links"
+          }
+        ]
+      }
+    }
+  }
+}

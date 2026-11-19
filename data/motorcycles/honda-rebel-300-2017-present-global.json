@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "honda-rebel-300-2017-present-global",
+    "make": "Honda",
+    "model": "Rebel 300",
+    "year": "2017–Present",
+    "region": "Global",
+    "model_group": "honda-rebel-300",
+    "category": "Cruiser",
+    "displacement": "286 cc",
+    "summary": "A lightweight, low-seat cruiser built around Honda's 286 cc single and beginner-friendly ergonomics.",
+    "tags": [
+      "honda",
+      "rebel-300",
+      "cruiser",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "286 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "286 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "27 hp (20 kW) @ 8,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "27 Nm (20 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "296 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-16 front, 150/80-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "690 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "164 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11.2 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.8 L (1.9 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 108 links"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "tvs-jupiter-125-2021-present-india",
+    "make": "TVS",
+    "model": "Jupiter 125",
+    "year": "2021–Present",
+    "region": "India",
+    "model_group": "tvs-jupiter-125",
+    "category": "Scooter",
+    "displacement": "125 cc",
+    "summary": "A 125 cc version of the popular Jupiter, with more power and practical family-friendly features.",
+    "tags": [
+      "tvs",
+      "jupiter-125",
+      "scooter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124.8 cc air-cooled SOHC single, 3 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "125 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "9 hp (6.7 kW) @ 7,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "10.5 Nm (8 lb-ft) @ 5,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "30 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "130 mm drum"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Combined braking system"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-12 front, 90/90-12 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "765 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "115 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "5.1 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.8 L (0.85 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MB"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -2,6 +2,16 @@
   "items": [
     {
       "type": "motorcycle",
+      "id": "aprilia-rs-125-2021-present-global",
+      "title": "Aprilia RS 125 (2021–Present, Global)",
+      "meta": "Global · Supersport · 125 cc",
+      "power": "15 hp (11 kW) @ 10,750 rpm",
+      "weight": "134 kg",
+      "url": "motorcycle.html?id=aprilia-rs-125-2021-present-global",
+      "searchText": "aprilia rs 125 2021–present global supersport 125 cc a full-size learner sportbike with rsv4-inspired styling and a rev-happy 125 cc single. 124.2 cc liquid-cooled dohc single, 4 valves 15 hp (11 kw) @ 10,750 rpm 11.2 nm (8 lb-ft) @ 8,000 rpm 134 kg 820 mm aprilia rs-125 supersport single general specifications engine 124.2 cc liquid-cooled dohc single, 4 valves displacement 125 cc max power 15 hp (11 kw) @ 10,750 rpm max torque 11.2 nm (8 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 40 mm inverted fork rear suspension single shock front brake 300 mm disc, radial 4-piston caliper rear brake 218 mm disc abs dual-channel abs tyres 100/80-17 front, 130/70-17 rear seat height 820 mm kerb weight 134 kg fuel capacity 14.5 l service data engine oil (with filter) 1.2 l (1.3 us qt) oil grade sae 5w-40, jaso ma2 chain / final drive 520 o-ring, 110 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "aprilia-rs-457-2023-present-global",
       "title": "Aprilia RS 457 (2023-Present, Global)",
       "meta": "Global · Supersport · 457 cc",
@@ -32,6 +42,26 @@
     },
     {
       "type": "motorcycle",
+      "id": "aprilia-sr-160-2021-present-india",
+      "title": "Aprilia SR 160 (2021–Present, India)",
+      "meta": "India · Scooter · 160 cc",
+      "power": "11 hp (8 kW) @ 7,000 rpm",
+      "weight": "122 kg",
+      "url": "motorcycle.html?id=aprilia-sr-160-2021-present-india",
+      "searchText": "aprilia sr 160 2021–present india scooter 160 cc a sporty 160 cc scooter for india, with aggressive styling and a strong single-cylinder engine. 160 cc air-cooled sohc single, 3 valves 11 hp (8 kw) @ 7,000 rpm 11.6 nm (9 lb-ft) @ 6,000 rpm 122 kg 790 mm aprilia sr-160 scooter single general specifications engine 160 cc air-cooled sohc single, 3 valves displacement 160 cc max power 11 hp (8 kw) @ 7,000 rpm max torque 11.6 nm (9 lb-ft) @ 6,000 rpm transmission cvt, belt final drive front suspension 30 mm telescopic fork rear suspension single shock front brake 220 mm disc rear brake 120 mm drum abs combined braking system tyres 110/70-12 front, 120/70-12 rear seat height 790 mm kerb weight 122 kg fuel capacity 6 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-30, jaso mb"
+    },
+    {
+      "type": "motorcycle",
+      "id": "aprilia-sx-125-2018-present-global",
+      "title": "Aprilia SX 125 (2018–Present, Global)",
+      "meta": "Global · Supermoto · 125 cc",
+      "power": "15 hp (11 kW) @ 10,750 rpm",
+      "weight": "134 kg",
+      "url": "motorcycle.html?id=aprilia-sx-125-2018-present-global",
+      "searchText": "aprilia sx 125 2018–present global supermoto 125 cc a learner-legal supermoto with long-travel suspension, wide bars and a 17-inch front wheel. 124.2 cc liquid-cooled dohc single, 4 valves 15 hp (11 kw) @ 10,750 rpm 11.2 nm (8 lb-ft) @ 8,000 rpm 134 kg 880 mm aprilia sx-125 supermoto single general specifications engine 124.2 cc liquid-cooled dohc single, 4 valves displacement 125 cc max power 15 hp (11 kw) @ 10,750 rpm max torque 11.2 nm (8 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork, 240 mm travel rear suspension single shock, 220 mm travel front brake 300 mm disc, radial 4-piston caliper rear brake 218 mm disc abs dual-channel abs tyres 110/80-17 front, 130/70-17 rear seat height 880 mm kerb weight 134 kg fuel capacity 7.5 l service data engine oil (with filter) 1.2 l (1.3 us qt) oil grade sae 5w-40, jaso ma2 chain / final drive 520 o-ring, 110 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "aprilia-tuareg-660-2022-present-global",
       "title": "Aprilia Tuareg 660 (2022–Present, Global)",
       "meta": "Global · Adventure · 659 cc",
@@ -39,6 +69,16 @@
       "weight": "204 kg",
       "url": "motorcycle.html?id=aprilia-tuareg-660-2022-present-global",
       "searchText": "aprilia tuareg 660 2022–present global adventure 659 cc aprilia's middleweight adventure bike, with the rs 660 twin and genuine off-road capability. 659 cc liquid-cooled dohc parallel twin, 8 valves, 270° crank 80 hp (59 kw) @ 9,250 rpm 70 nm (52 lb-ft) @ 6,500 rpm 204 kg 860 mm aprilia tuareg-660 adventure twin general specifications engine 659 cc liquid-cooled dohc parallel twin, 8 valves, 270° crank displacement 659 cc max power 80 hp (59 kw) @ 9,250 rpm max torque 70 nm (52 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork, 240 mm travel rear suspension single shock, 240 mm travel front brake 300 mm dual discs, radial 4-piston calipers rear brake 260 mm disc abs cornering abs tyres 90/90-21 front, 150/70-18 rear seat height 860 mm kerb weight 204 kg fuel capacity 18 l service data engine oil (with filter) 2.8 l (3.0 us qt) oil grade sae 5w-40, jaso ma2 chain / final drive 525 o-ring, 110 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "aprilia-tuono-125-2017-present-global",
+      "title": "Aprilia Tuono 125 (2017–Present, Global)",
+      "meta": "Global · Naked · 125 cc",
+      "power": "15 hp (11 kW) @ 10,750 rpm",
+      "weight": "134 kg",
+      "url": "motorcycle.html?id=aprilia-tuono-125-2017-present-global",
+      "searchText": "aprilia tuono 125 2017–present global naked 125 cc the naked rs 125, with upright ergonomics and aggressive tuono styling. 124.2 cc liquid-cooled dohc single, 4 valves 15 hp (11 kw) @ 10,750 rpm 11.2 nm (8 lb-ft) @ 8,000 rpm 134 kg 820 mm aprilia tuono-125 naked single general specifications engine 124.2 cc liquid-cooled dohc single, 4 valves displacement 125 cc max power 15 hp (11 kw) @ 10,750 rpm max torque 11.2 nm (8 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 40 mm inverted fork rear suspension single shock front brake 300 mm disc, radial 4-piston caliper rear brake 218 mm disc abs dual-channel abs tyres 100/80-17 front, 130/70-17 rear seat height 820 mm kerb weight 134 kg fuel capacity 14.5 l service data engine oil (with filter) 1.2 l (1.3 us qt) oil grade sae 5w-40, jaso ma2 chain / final drive 520 o-ring, 110 links"
     },
     {
       "type": "motorcycle",
@@ -62,6 +102,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "ather-450x-2022-present-india",
+      "title": "Ather 450X (2022–Present, India)",
+      "meta": "India · Scooter · —",
+      "power": "8.6 hp (6.4 kW)",
+      "weight": "111 kg",
+      "url": "motorcycle.html?id=ather-450x-2022-present-india",
+      "searchText": "ather 450x 2022–present india scooter — india's premium electric scooter, with a 3.7 kwh battery, fast charging and connected features. pmsm electric motor, 3.7 kwh battery 8.6 hp (6.4 kw) 26 nm (19 lb-ft) 111 kg 780 mm ather 450x scooter general specifications engine pmsm electric motor, 3.7 kwh battery displacement — max power 8.6 hp (6.4 kw) max torque 26 nm (19 lb-ft) transmission single-speed, belt final drive front suspension 30 mm telescopic fork rear suspension single shock front brake 200 mm disc rear brake 190 mm disc abs combined braking system tyres 90/90-12 front, 100/80-12 rear seat height 780 mm kerb weight 111 kg fuel capacity 3.7 kwh battery top speed 90 km/h"
+    },
+    {
+      "type": "motorcycle",
       "id": "bajaj-avenger-220-cruise-2018-present-india",
       "title": "Bajaj Avenger 220 Cruise (2018–Present, India)",
       "meta": "India · Cruiser · 220 cc",
@@ -69,6 +119,16 @@
       "weight": "163 kg",
       "url": "motorcycle.html?id=bajaj-avenger-220-cruise-2018-present-india",
       "searchText": "bajaj avenger 220 cruise 2018–present india cruiser 220 cc an affordable, low-slung cruiser designed for relaxed highway cruising. 220 cc air-cooled sohc single, 2 valves 19 hp (14 kw) @ 8,500 rpm 17.55 nm (13 lb-ft) @ 7,000 rpm 163 kg 737 mm bajaj avenger-220-cruise cruiser single general specifications engine 220 cc air-cooled sohc single, 2 valves displacement 220 cc max power 19 hp (14 kw) @ 8,500 rpm max torque 17.55 nm (13 lb-ft) @ 7,000 rpm transmission 5-speed, chain final drive front suspension 37 mm telescopic fork rear suspension twin shocks front brake 280 mm disc, 2-piston caliper rear brake 130 mm drum abs single-channel abs tyres 90/90-17 front, 130/80-15 rear seat height 737 mm kerb weight 163 kg fuel capacity 13 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "bajaj-chetak-2020-present-india",
+      "title": "Bajaj Chetak (2020–Present, India)",
+      "meta": "India · Scooter · —",
+      "power": "5.4 hp (4 kW)",
+      "weight": "132 kg",
+      "url": "motorcycle.html?id=bajaj-chetak-2020-present-india",
+      "searchText": "bajaj chetak 2020–present india scooter — the electric revival of the chetak name, with a retro-modern body and practical city range. bldc electric motor, 3.5 kwh battery 5.4 hp (4 kw) 20 nm (15 lb-ft) 132 kg 780 mm bajaj chetak scooter general specifications engine bldc electric motor, 3.5 kwh battery displacement — max power 5.4 hp (4 kw) max torque 20 nm (15 lb-ft) transmission single-speed, belt final drive front suspension 30 mm telescopic fork rear suspension single shock front brake 200 mm disc rear brake 130 mm drum abs combined braking system tyres 90/90-12 front, 100/80-12 rear seat height 780 mm kerb weight 132 kg fuel capacity 3.5 kwh battery top speed 73 km/h"
     },
     {
       "type": "motorcycle",
@@ -112,6 +172,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "bajaj-pulsar-n250-2021-present-india",
+      "title": "Bajaj Pulsar N250 (2021–Present, India)",
+      "meta": "India · Naked · 249 cc",
+      "power": "24.5 hp (18 kW) @ 8,750 rpm",
+      "weight": "162 kg",
+      "url": "motorcycle.html?id=bajaj-pulsar-n250-2021-present-india",
+      "searchText": "bajaj pulsar n250 2021–present india naked 249 cc a refined 250 cc naked with a strong single, usd forks and big-bike-inspired styling. 249 cc oil-cooled sohc single, 2 valves 24.5 hp (18 kw) @ 8,750 rpm 21.5 nm (16 lb-ft) @ 6,500 rpm 162 kg 795 mm bajaj pulsar-n250 naked single general specifications engine 249 cc oil-cooled sohc single, 2 valves displacement 249 cc max power 24.5 hp (18 kw) @ 8,750 rpm max torque 21.5 nm (16 lb-ft) @ 6,500 rpm transmission 5-speed, chain final drive front suspension 37 mm inverted fork rear suspension single shock front brake 300 mm disc, 2-piston caliper rear brake 230 mm disc abs dual-channel abs tyres 100/80-17 front, 130/70-17 rear seat height 795 mm kerb weight 162 kg fuel capacity 14 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 110 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "bajaj-pulsar-ns200-2023-present-india",
       "title": "Bajaj Pulsar NS200 (2023–Present, India)",
       "meta": "India · Naked · 199.5 cc",
@@ -149,6 +219,16 @@
       "weight": "217 kg",
       "url": "motorcycle.html?id=benelli-502c-2021-present-global",
       "searchText": "benelli 502c 2021-present global cruiser 500 cc benelli's power-cruiser, with a torquey parallel twin and aggressive, low-slung styling. 500 cc liquid-cooled dohc parallel twin, 8 valves 47.6 hp (35 kw) @ 8,500 rpm 46 nm (34 lb-ft) @ 6,000 rpm 217 kg 750 mm benelli 502c cruiser twin general specifications engine 500 cc liquid-cooled dohc parallel twin, 8 valves displacement 500 cc max power 47.6 hp (35 kw) @ 8,500 rpm max torque 46 nm (34 lb-ft) @ 6,000 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 320 mm dual discs, 4-piston calipers rear brake 260 mm disc abs dual-channel abs tyres 120/70-17 front, 160/60-17 rear seat height 750 mm kerb weight 217 kg fuel capacity 21.5 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "benelli-imperiale-400-2019-present-global",
+      "title": "Benelli Imperiale 400 (2019–Present, Global)",
+      "meta": "Global · Retro · 374 cc",
+      "power": "21 hp (15.5 kW) @ 5,500 rpm",
+      "weight": "205 kg",
+      "url": "motorcycle.html?id=benelli-imperiale-400-2019-present-global",
+      "searchText": "benelli imperiale 400 2019–present global retro 374 cc a classic british-style single with retro lines, a low seat and relaxed roadster ergonomics. 374 cc air-cooled sohc single, 4 valves 21 hp (15.5 kw) @ 5,500 rpm 29 nm (21 lb-ft) @ 4,500 rpm 205 kg 780 mm benelli imperiale-400 retro single general specifications engine 374 cc air-cooled sohc single, 4 valves displacement 374 cc max power 21 hp (15.5 kw) @ 5,500 rpm max torque 29 nm (21 lb-ft) @ 4,500 rpm transmission 5-speed, chain final drive front suspension 41 mm telescopic fork rear suspension twin shocks front brake 300 mm disc, 2-piston caliper rear brake 240 mm disc abs dual-channel abs tyres 100/90-19 front, 130/80-18 rear seat height 780 mm kerb weight 205 kg fuel capacity 12 l service data engine oil (with filter) 2.0 l (2.1 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 110 links"
     },
     {
       "type": "motorcycle",
@@ -202,6 +282,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "benelli-trk-800-2021-present-global",
+      "title": "Benelli TRK 800 (2021–Present, Global)",
+      "meta": "Global · Adventure · 754 cc",
+      "power": "76 hp (56 kW) @ 8,500 rpm",
+      "weight": "222 kg",
+      "url": "motorcycle.html?id=benelli-trk-800-2021-present-global",
+      "searchText": "benelli trk 800 2021–present global adventure 754 cc a larger, more premium trk with a 754 cc twin and touring-focused equipment. 754 cc liquid-cooled dohc parallel twin, 8 valves 76 hp (56 kw) @ 8,500 rpm 67 nm (49 lb-ft) @ 6,500 rpm 222 kg 835 mm benelli trk-800 adventure twin general specifications engine 754 cc liquid-cooled dohc parallel twin, 8 valves displacement 754 cc max power 76 hp (56 kw) @ 8,500 rpm max torque 67 nm (49 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 50 mm inverted fork rear suspension single shock front brake 320 mm dual discs, 4-piston calipers rear brake 260 mm disc abs dual-channel abs tyres 110/80-19 front, 150/70-17 rear seat height 835 mm kerb weight 222 kg fuel capacity 22 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "bmw-c-400-gt-2018-present-global",
       "title": "BMW C 400 GT (2018–Present, Global)",
       "meta": "Global · Scooter · 350 cc",
@@ -212,6 +302,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "bmw-ce-04-2022-present-global",
+      "title": "BMW CE 04 (2022–Present, Global)",
+      "meta": "Global · Scooter · —",
+      "power": "42 hp (31 kW)",
+      "weight": "231 kg",
+      "url": "motorcycle.html?id=bmw-ce-04-2022-present-global",
+      "searchText": "bmw ce 04 2022–present global scooter — bmw's futuristic electric maxi-scooter, with a 10.25-inch display and 130 km of range. permanent-magnet electric motor, 8.9 kwh battery 42 hp (31 kw) 62 nm (46 lb-ft) 231 kg 780 mm bmw ce-04 scooter general specifications engine permanent-magnet electric motor, 8.9 kwh battery displacement — max power 42 hp (31 kw) max torque 62 nm (46 lb-ft) transmission single-speed, belt final drive front suspension 35 mm telescopic fork rear suspension single shock front brake 265 mm dual discs rear brake 265 mm disc abs dual-channel abs tyres 120/70-15 front, 160/60-15 rear seat height 780 mm kerb weight 231 kg fuel capacity 8.9 kwh battery top speed 120 km/h"
+    },
+    {
+      "type": "motorcycle",
       "id": "bmw-f450gs-2026-present-global",
       "title": "BMW F 450 GS (2026–Present, Global)",
       "meta": "Global · Adventure · 450 cc",
@@ -219,6 +319,26 @@
       "weight": "178 kg",
       "url": "motorcycle.html?id=bmw-f450gs-2026-present-global",
       "searchText": "bmw f 450 gs 2026–present global adventure 450 cc bmw's lightweight adventure twin, designed as an a2-friendly gs with real off-road ability. 450 cc liquid-cooled dohc parallel twin, 8 valves 48 hp (35 kw) @ 8,750 rpm 43 nm (32 lb-ft) @ 6,500 rpm 178 kg 830 mm bmw f-450-gs adventure twin general specifications engine 450 cc liquid-cooled dohc parallel twin, 8 valves displacement 450 cc max power 48 hp (35 kw) @ 8,750 rpm max torque 43 nm (32 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork rear suspension single shock front brake 320 mm disc, radial 4-piston caliper rear brake 240 mm disc abs cornering abs tyres 110/80-19 front, 150/70-17 rear seat height 830 mm kerb weight 178 kg fuel capacity 14 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "bmw-f-800-gs-2024-present-global",
+      "title": "BMW F 800 GS (2024–Present, Global)",
+      "meta": "Global · Adventure · 895 cc",
+      "power": "87 hp (64 kW) @ 6,750 rpm",
+      "weight": "227 kg",
+      "url": "motorcycle.html?id=bmw-f-800-gs-2024-present-global",
+      "searchText": "bmw f 800 gs 2024–present global adventure 895 cc a more road-focused middleweight gs, with the 895 cc twin and a lower, more accessible seat. 895 cc liquid-cooled dohc parallel twin, 8 valves, 270° crank 87 hp (64 kw) @ 6,750 rpm 91 nm (67 lb-ft) @ 6,250 rpm 227 kg 815 mm bmw f-800-gs adventure twin general specifications engine 895 cc liquid-cooled dohc parallel twin, 8 valves, 270° crank displacement 895 cc max power 87 hp (64 kw) @ 6,750 rpm max torque 91 nm (67 lb-ft) @ 6,250 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork, 170 mm travel rear suspension single shock, 170 mm travel front brake 305 mm dual discs, radial 4-piston calipers rear brake 265 mm disc abs cornering abs tyres 110/80-19 front, 150/70-17 rear seat height 815 mm kerb weight 227 kg fuel capacity 14.5 l service data engine oil (with filter) 3.5 l (3.7 us qt) oil grade sae 5w-40, jaso ma2 chain / final drive 525 o-ring, 120 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "bmw-f-900-gs-2024-present-global",
+      "title": "BMW F 900 GS (2024–Present, Global)",
+      "meta": "Global · Adventure · 895 cc",
+      "power": "105 hp (77 kW) @ 8,500 rpm",
+      "weight": "219 kg",
+      "url": "motorcycle.html?id=bmw-f-900-gs-2024-present-global",
+      "searchText": "bmw f 900 gs 2024–present global adventure 895 cc the new middleweight gs, with a lighter chassis, more off-road focus and the 895 cc parallel twin. 895 cc liquid-cooled dohc parallel twin, 8 valves, 270° crank 105 hp (77 kw) @ 8,500 rpm 93 nm (69 lb-ft) @ 6,500 rpm 219 kg 870 mm bmw f-900-gs adventure twin general specifications engine 895 cc liquid-cooled dohc parallel twin, 8 valves, 270° crank displacement 895 cc max power 105 hp (77 kw) @ 8,500 rpm max torque 93 nm (69 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork, 230 mm travel rear suspension single shock, 215 mm travel front brake 305 mm dual discs, radial 4-piston calipers rear brake 265 mm disc abs cornering abs tyres 90/90-21 front, 150/70-17 rear seat height 870 mm kerb weight 219 kg fuel capacity 14.5 l service data engine oil (with filter) 3.5 l (3.7 us qt) oil grade sae 5w-40, jaso ma2 chain / final drive 525 o-ring, 120 links"
     },
     {
       "type": "motorcycle",
@@ -272,6 +392,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "bmw-m-1000-r-2021-present-global",
+      "title": "BMW M 1000 R (2021–Present, Global)",
+      "meta": "Global · Naked · 999 cc",
+      "power": "205 hp (151 kW) @ 13,500 rpm",
+      "weight": "199 kg",
+      "url": "motorcycle.html?id=bmw-m-1000-r-2021-present-global",
+      "searchText": "bmw m 1000 r 2021–present global naked 999 cc the m version of the s 1000 r, with a high-revving shiftcam engine, carbon parts and track-focused electronics. 999 cc liquid-cooled dohc inline-four, 16 valves, shiftcam 205 hp (151 kw) @ 13,500 rpm 113 nm (83 lb-ft) @ 11,000 rpm 199 kg 830 mm bmw m-1000-r naked inline-4 general specifications engine 999 cc liquid-cooled dohc inline-four, 16 valves, shiftcam displacement 999 cc max power 205 hp (151 kw) @ 13,500 rpm max torque 113 nm (83 lb-ft) @ 11,000 rpm transmission 6-speed, chain final drive front suspension 45 mm inverted fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 220 mm disc abs cornering abs tyres 120/70-17 front, 190/55-17 rear seat height 830 mm kerb weight 199 kg fuel capacity 16.5 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 5w-40, jaso ma2 chain / final drive 525 o-ring, 120 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "bmw-m-1000-rr-2021-present-global",
       "title": "BMW M 1000 RR (2021–Present, Global)",
       "meta": "Global · Supersport · 999 cc",
@@ -279,6 +409,16 @@
       "weight": "192 kg",
       "url": "motorcycle.html?id=bmw-m-1000-rr-2021-present-global",
       "searchText": "bmw m 1000 rr 2021–present global supersport 999 cc bmw's homologation special, with a high-revving shiftcam engine, carbon wheels and m-specific electronics. 999 cc liquid-cooled dohc inline-four, 16 valves, shiftcam 212 hp (156 kw) @ 14,500 rpm 113 nm (83 lb-ft) @ 11,000 rpm 192 kg 832 mm bmw m-1000-rr supersport inline-4 general specifications engine 999 cc liquid-cooled dohc inline-four, 16 valves, shiftcam displacement 999 cc max power 212 hp (156 kw) @ 14,500 rpm max torque 113 nm (83 lb-ft) @ 11,000 rpm transmission 6-speed, chain final drive front suspension 45 mm inverted fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 220 mm disc abs cornering abs tyres 120/70-17 front, 200/55-17 rear seat height 832 mm kerb weight 192 kg fuel capacity 16.5 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 5w-40, jaso ma2 chain / final drive 525 o-ring, 120 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "bmw-r-12-2024-present-global",
+      "title": "BMW R 12 (2024–Present, Global)",
+      "meta": "Global · Cruiser · 1,170 cc",
+      "power": "95 hp (70 kW) @ 6,500 rpm",
+      "weight": "227 kg",
+      "url": "motorcycle.html?id=bmw-r-12-2024-present-global",
+      "searchText": "bmw r 12 2024–present global cruiser 1,170 cc a simpler, more accessible boxer cruiser with the air/oil-cooled 1,170 cc engine and classic lines. 1,170 cc air/oil-cooled dohc boxer twin, 8 valves 95 hp (70 kw) @ 6,500 rpm 110 nm (81 lb-ft) @ 6,000 rpm 227 kg 755 mm bmw r-12 cruiser general specifications engine 1,170 cc air/oil-cooled dohc boxer twin, 8 valves displacement 1,170 cc max power 95 hp (70 kw) @ 6,500 rpm max torque 110 nm (81 lb-ft) @ 6,000 rpm transmission 6-speed, shaft final drive front suspension 45 mm inverted fork rear suspension paralever single shock front brake 310 mm dual discs, radial 4-piston calipers rear brake 265 mm disc abs cornering abs tyres 100/90-19 front, 150/80-16 rear seat height 755 mm kerb weight 227 kg fuel capacity 14 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 5w-40, jaso ma2"
     },
     {
       "type": "motorcycle",
@@ -299,6 +439,16 @@
       "weight": "249 kg",
       "url": "motorcycle.html?id=bmw-r-1250-gs-2019-present-global",
       "searchText": "bmw r 1250 gs 2019–present global adventure 1,254 cc the benchmark adventure bike, with bmw's shiftcam boxer twin and a continent-crossing reputation. 1,254 cc air/liquid-cooled dohc boxer twin, 8 valves, shiftcam 136 hp (100 kw) @ 7,750 rpm 143 nm (105 lb-ft) @ 6,250 rpm 249 kg 850/870 mm bmw r-1250-gs adventure general specifications engine 1,254 cc air/liquid-cooled dohc boxer twin, 8 valves, shiftcam displacement 1,254 cc max power 136 hp (100 kw) @ 7,750 rpm max torque 143 nm (105 lb-ft) @ 6,250 rpm transmission 6-speed, shaft final drive front suspension telelever, 190 mm travel rear suspension paralever, 200 mm travel front brake 305 mm dual discs, radial 4-piston calipers rear brake 276 mm disc abs cornering abs tyres 120/70-19 front, 170/60-17 rear seat height 850/870 mm kerb weight 249 kg fuel capacity 20 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 5w-40, jaso ma2"
+    },
+    {
+      "type": "motorcycle",
+      "id": "bmw-r-1250-rt-2019-present-global",
+      "title": "BMW R 1250 RT (2019–Present, Global)",
+      "meta": "Global · Touring · 1,254 cc",
+      "power": "136 hp (100 kW) @ 7,750 rpm",
+      "weight": "279 kg",
+      "url": "motorcycle.html?id=bmw-r-1250-rt-2019-present-global",
+      "searchText": "bmw r 1250 rt 2019–present global touring 1,254 cc bmw's luxury sport-tourer, with the shiftcam boxer, a large fairing and long-distance comfort. 1,254 cc air/liquid-cooled dohc boxer twin, 8 valves, shiftcam 136 hp (100 kw) @ 7,750 rpm 143 nm (105 lb-ft) @ 6,250 rpm 279 kg 805/825 mm bmw r-1250-rt touring general specifications engine 1,254 cc air/liquid-cooled dohc boxer twin, 8 valves, shiftcam displacement 1,254 cc max power 136 hp (100 kw) @ 7,750 rpm max torque 143 nm (105 lb-ft) @ 6,250 rpm transmission 6-speed, shaft final drive front suspension telelever, 120 mm travel rear suspension paralever, 136 mm travel front brake 320 mm dual discs, radial 4-piston calipers rear brake 276 mm disc abs cornering abs tyres 120/70-17 front, 180/55-17 rear seat height 805/825 mm kerb weight 279 kg fuel capacity 25 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 5w-40, jaso ma2"
     },
     {
       "type": "motorcycle",
@@ -382,6 +532,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "cfmoto-250sr-2020-present-global",
+      "title": "CFMOTO 250SR (2020–Present, Global)",
+      "meta": "Global · Supersport · 249 cc",
+      "power": "27.5 hp (20.5 kW) @ 9,750 rpm",
+      "weight": "165 kg",
+      "url": "motorcycle.html?id=cfmoto-250sr-2020-present-global",
+      "searchText": "cfmoto 250sr 2020–present global supersport 249 cc a lightweight, value-focused 250 cc sportbike with sharp styling and a rev-happy single. 249 cc liquid-cooled dohc single, 4 valves 27.5 hp (20.5 kw) @ 9,750 rpm 22 nm (16 lb-ft) @ 7,500 rpm 165 kg 780 mm cfmoto 250sr supersport single general specifications engine 249 cc liquid-cooled dohc single, 4 valves displacement 249 cc max power 27.5 hp (20.5 kw) @ 9,750 rpm max torque 22 nm (16 lb-ft) @ 7,500 rpm transmission 6-speed, chain final drive front suspension 37 mm inverted fork rear suspension single shock front brake 292 mm disc, 4-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 780 mm kerb weight 165 kg fuel capacity 12 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 108 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "cfmoto-300sr-2020-present-global",
       "title": "CFMOTO 300SR (2020–Present, Global)",
       "meta": "Global · Supersport · 292 cc",
@@ -412,6 +572,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "cfmoto-650nk-2015-present-global",
+      "title": "CFMOTO 650NK (2015–Present, Global)",
+      "meta": "Global · Naked · 649 cc",
+      "power": "60 hp (45 kW) @ 8,750 rpm",
+      "weight": "206 kg",
+      "url": "motorcycle.html?id=cfmoto-650nk-2015-present-global",
+      "searchText": "cfmoto 650nk 2015–present global naked 649 cc a middleweight naked with a parallel twin, aggressive styling and accessible performance. 649 cc liquid-cooled dohc parallel twin, 8 valves 60 hp (45 kw) @ 8,750 rpm 56 nm (41 lb-ft) @ 7,000 rpm 206 kg 780 mm cfmoto 650nk naked twin general specifications engine 649 cc liquid-cooled dohc parallel twin, 8 valves displacement 649 cc max power 60 hp (45 kw) @ 8,750 rpm max torque 56 nm (41 lb-ft) @ 7,000 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 300 mm dual discs, 2-piston calipers rear brake 240 mm disc abs dual-channel abs tyres 120/70-17 front, 160/60-17 rear seat height 780 mm kerb weight 206 kg fuel capacity 17 l service data engine oil (with filter) 2.5 l (2.6 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 110 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "cfmoto-675sr-r-2024-present-global",
       "title": "CFMOTO 675SR-R (2024–Present, Global)",
       "meta": "Global · Supersport · 674 cc",
@@ -419,6 +589,16 @@
       "weight": "194 kg",
       "url": "motorcycle.html?id=cfmoto-675sr-r-2024-present-global",
       "searchText": "cfmoto 675sr-r 2024–present global supersport 674 cc cfmoto's three-cylinder supersport, with a high-revving engine and track-focused chassis. 674 cc liquid-cooled dohc inline-three, 12 valves 95 hp (70 kw) @ 11,000 rpm 70 nm (52 lb-ft) @ 8,250 rpm 194 kg 810 mm cfmoto 675sr-r supersport triple general specifications engine 674 cc liquid-cooled dohc inline-three, 12 valves displacement 674 cc max power 95 hp (70 kw) @ 11,000 rpm max torque 70 nm (52 lb-ft) @ 8,250 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 180/55-17 rear seat height 810 mm kerb weight 194 kg fuel capacity 15 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "cfmoto-700cl-x-2021-present-global",
+      "title": "CFMOTO 700CL-X (2021–Present, Global)",
+      "meta": "Global · Retro · 693 cc",
+      "power": "74 hp (55 kW) @ 8,500 rpm",
+      "weight": "196 kg",
+      "url": "motorcycle.html?id=cfmoto-700cl-x-2021-present-global",
+      "searchText": "cfmoto 700cl-x 2021–present global retro 693 cc a retro-modern roadster with a 693 cc parallel twin and distinct scrambler-inspired styling. 693 cc liquid-cooled dohc parallel twin, 8 valves 74 hp (55 kw) @ 8,500 rpm 68 nm (50 lb-ft) @ 6,500 rpm 196 kg 800 mm cfmoto 700cl-x retro twin general specifications engine 693 cc liquid-cooled dohc parallel twin, 8 valves displacement 693 cc max power 74 hp (55 kw) @ 8,500 rpm max torque 68 nm (50 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 320 mm disc, radial 4-piston caliper rear brake 260 mm disc abs dual-channel abs tyres 120/70-17 front, 180/55-17 rear seat height 800 mm kerb weight 196 kg fuel capacity 13 l service data engine oil (with filter) 2.5 l (2.6 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 110 links"
     },
     {
       "type": "motorcycle",
@@ -532,6 +712,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "ducati-hypermotard-950-2019-present-global",
+      "title": "Ducati Hypermotard 950 (2019–Present, Global)",
+      "meta": "Global · Supermoto · 937 cc",
+      "power": "114 hp (84 kW) @ 9,000 rpm",
+      "weight": "200 kg",
+      "url": "motorcycle.html?id=ducati-hypermotard-950-2019-present-global",
+      "searchText": "ducati hypermotard 950 2019–present global supermoto 937 cc a hooligan supermoto with the 937 cc testastretta, a lightweight chassis and aggressive styling. 937 cc liquid-cooled desmodromic v-twin, 8 valves 114 hp (84 kw) @ 9,000 rpm 96 nm (71 lb-ft) @ 7,250 rpm 200 kg 870 mm ducati hypermotard-950 supermoto v-twin general specifications engine 937 cc liquid-cooled desmodromic v-twin, 8 valves displacement 937 cc max power 114 hp (84 kw) @ 9,000 rpm max torque 96 nm (71 lb-ft) @ 7,250 rpm transmission 6-speed, chain final drive front suspension 45 mm inverted fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 245 mm disc abs cornering abs tyres 120/70-17 front, 180/55-17 rear seat height 870 mm kerb weight 200 kg fuel capacity 14.5 l service data engine oil (with filter) 3.8 l (4.0 us qt) oil grade sae 15w-50, jaso ma2 chain / final drive 525 o-ring, 112 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "ducati-monster-1200-2014-2020-global",
       "title": "Ducati Monster 1200 (2014–2020, Global)",
       "meta": "Global · Naked · 1,198 cc",
@@ -539,6 +729,16 @@
       "weight": "211 kg",
       "url": "motorcycle.html?id=ducati-monster-1200-2014-2020-global",
       "searchText": "ducati monster 1200 2014–2020 global naked 1,198 cc the monster 1200 combined ducati's big testastretta v-twin with a muscular, naked silhouette. 1,198 cc liquid-cooled desmodromic v-twin, 8 valves 150 hp (110 kw) @ 9,250 rpm 126 nm (93 lb-ft) @ 7,750 rpm 211 kg 810 mm ducati monster-1200 naked v-twin general specifications engine 1,198 cc liquid-cooled desmodromic v-twin, 8 valves displacement 1,198 cc max power 150 hp (110 kw) @ 9,250 rpm max torque 126 nm (93 lb-ft) @ 7,750 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 245 mm disc abs cornering abs tyres 120/70-17 front, 190/55-17 rear seat height 810 mm kerb weight 211 kg fuel capacity 17 l service data engine oil (with filter) 3.8 l (4.0 us qt) oil grade sae 15w-50, jaso ma2"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ducati-monster-821-2014-2020-global",
+      "title": "Ducati Monster 821 (2014–2020, Global)",
+      "meta": "Global · Naked · 821 cc",
+      "power": "109 hp (80 kW) @ 9,250 rpm",
+      "weight": "206 kg",
+      "url": "motorcycle.html?id=ducati-monster-821-2014-2020-global",
+      "searchText": "ducati monster 821 2014–2020 global naked 821 cc a middleweight monster with the testastretta 11° v-twin, trellis frame and aggressive naked styling. 821 cc liquid-cooled desmodromic v-twin, 8 valves 109 hp (80 kw) @ 9,250 rpm 86 nm (63 lb-ft) @ 7,750 rpm 206 kg 810 mm ducati monster-821 naked v-twin general specifications engine 821 cc liquid-cooled desmodromic v-twin, 8 valves displacement 821 cc max power 109 hp (80 kw) @ 9,250 rpm max torque 86 nm (63 lb-ft) @ 7,750 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 245 mm disc abs dual-channel abs tyres 120/70-17 front, 180/55-17 rear seat height 810 mm kerb weight 206 kg fuel capacity 16.5 l service data engine oil (with filter) 3.8 l (4.0 us qt) oil grade sae 15w-50, jaso ma2 chain / final drive 525 o-ring, 108 links"
     },
     {
       "type": "motorcycle",
@@ -642,6 +842,36 @@
     },
     {
       "type": "motorcycle",
+      "id": "ducati-panigale-v4-r-2019-present-global",
+      "title": "Ducati Panigale V4 R (2019–Present, Global)",
+      "meta": "Global · Supersport · 998 cc",
+      "power": "221 hp (165 kW) @ 15,250 rpm",
+      "weight": "193 kg",
+      "url": "motorcycle.html?id=ducati-panigale-v4-r-2019-present-global",
+      "searchText": "ducati panigale v4 r 2019–present global supersport 998 cc ducati's homologation superbike, with a high-revving 998 cc v4 and race-derived aerodynamics. 998 cc liquid-cooled desmosedici stradale r v4, 16 valves 221 hp (165 kw) @ 15,250 rpm 112 nm (83 lb-ft) @ 12,000 rpm 193 kg 830 mm ducati panigale-v4-r supersport v4 general specifications engine 998 cc liquid-cooled desmosedici stradale r v4, 16 valves displacement 998 cc max power 221 hp (165 kw) @ 15,250 rpm max torque 112 nm (83 lb-ft) @ 12,000 rpm transmission 6-speed, chain final drive front suspension 43 mm öhlins inverted fork rear suspension öhlins ttx36 single shock front brake 330 mm dual discs, radial 4-piston calipers rear brake 245 mm disc abs cornering abs tyres 120/70-17 front, 200/60-17 rear seat height 830 mm kerb weight 193 kg fuel capacity 17 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 15w-50, jaso ma2 chain / final drive 525 o-ring, 116 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ducati-scrambler-desert-sled-2017-present-global",
+      "title": "Ducati Scrambler Desert Sled (2017–Present, Global)",
+      "meta": "Global · Scrambler · 803 cc",
+      "power": "73 hp (54 kW) @ 8,250 rpm",
+      "weight": "209 kg",
+      "url": "motorcycle.html?id=ducati-scrambler-desert-sled-2017-present-global",
+      "searchText": "ducati scrambler desert sled 2017–present global scrambler 803 cc an off-road-ready scrambler with longer travel, a 19-inch front wheel and a reinforced frame. 803 cc air-cooled desmodromic v-twin, 4 valves 73 hp (54 kw) @ 8,250 rpm 66 nm (49 lb-ft) @ 5,750 rpm 209 kg 860 mm ducati scrambler-desert-sled scrambler v-twin general specifications engine 803 cc air-cooled desmodromic v-twin, 4 valves displacement 803 cc max power 73 hp (54 kw) @ 8,250 rpm max torque 66 nm (49 lb-ft) @ 5,750 rpm transmission 6-speed, chain final drive front suspension 46 mm inverted fork, 200 mm travel rear suspension single shock, 200 mm travel front brake 330 mm disc, radial 4-piston caliper rear brake 245 mm disc abs cornering abs tyres 120/70-19 front, 170/60-17 rear seat height 860 mm kerb weight 209 kg fuel capacity 13.5 l service data engine oil (with filter) 3.6 l (3.8 us qt) oil grade sae 15w-50, jaso ma2 chain / final drive 525 o-ring, 112 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ducati-scrambler-full-throttle-2019-present-global",
+      "title": "Ducati Scrambler Full Throttle (2019–Present, Global)",
+      "meta": "Global · Scrambler · 803 cc",
+      "power": "73 hp (54 kW) @ 8,250 rpm",
+      "weight": "196 kg",
+      "url": "motorcycle.html?id=ducati-scrambler-full-throttle-2019-present-global",
+      "searchText": "ducati scrambler full throttle 2019–present global scrambler 803 cc the sportiest scrambler icon variant, with flat-track styling, a low bar and a sport seat. 803 cc air-cooled desmodromic v-twin, 4 valves 73 hp (54 kw) @ 8,250 rpm 65 nm (48 lb-ft) @ 7,000 rpm 196 kg 795 mm ducati scrambler-full-throttle scrambler v-twin general specifications engine 803 cc air-cooled desmodromic v-twin, 4 valves displacement 803 cc max power 73 hp (54 kw) @ 8,250 rpm max torque 65 nm (48 lb-ft) @ 7,000 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 330 mm disc, radial 4-piston caliper rear brake 245 mm disc abs cornering abs tyres 110/80-18 front, 180/55-17 rear seat height 795 mm kerb weight 196 kg fuel capacity 13.5 l service data engine oil (with filter) 3.6 l (3.8 us qt) oil grade sae 15w-50, jaso ma2 chain / final drive 525 o-ring, 112 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "ducati-scrambler-icon-2015-present-global",
       "title": "Ducati Scrambler Icon (2015–Present, Global)",
       "meta": "Global · Scrambler · 803 cc",
@@ -649,6 +879,16 @@
       "weight": "196 kg",
       "url": "motorcycle.html?id=ducati-scrambler-icon-2015-present-global",
       "searchText": "ducati scrambler icon 2015–present global scrambler 803 cc the scrambler icon is ducati's playful retro roadster, with simple styling and a friendly v-twin. 803 cc air-cooled desmodromic v-twin, 4 valves 73 hp (54 kw) @ 8,250 rpm 65 nm (48 lb-ft) @ 7,000 rpm 196 kg 798 mm ducati scrambler-icon scrambler v-twin general specifications engine 803 cc air-cooled desmodromic v-twin, 4 valves displacement 803 cc max power 73 hp (54 kw) @ 8,250 rpm max torque 65 nm (48 lb-ft) @ 7,000 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 330 mm disc, radial 4-piston caliper rear brake 245 mm disc abs cornering abs tyres 110/80-18 front, 180/55-17 rear seat height 798 mm kerb weight 196 kg fuel capacity 13.5 l service data engine oil (with filter) 3.6 l (3.8 us qt) oil grade sae 15w-50, jaso ma2 chain / final drive 525 o-ring, 112 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ducati-streetfighter-v2-2022-present-global",
+      "title": "Ducati Streetfighter V2 (2022–Present, Global)",
+      "meta": "Global · Naked · 955 cc",
+      "power": "153 hp (113 kW) @ 10,750 rpm",
+      "weight": "200 kg",
+      "url": "motorcycle.html?id=ducati-streetfighter-v2-2022-present-global",
+      "searchText": "ducati streetfighter v2 2022–present global naked 955 cc the middleweight streetfighter, with the panigale v2 engine and a stripped-back, aggressive chassis. 955 cc liquid-cooled desmodromic v-twin, 8 valves 153 hp (113 kw) @ 10,750 rpm 101 nm (74 lb-ft) @ 9,000 rpm 200 kg 845 mm ducati streetfighter-v2 naked v-twin general specifications engine 955 cc liquid-cooled desmodromic v-twin, 8 valves displacement 955 cc max power 153 hp (113 kw) @ 10,750 rpm max torque 101 nm (74 lb-ft) @ 9,000 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 245 mm disc abs cornering abs tyres 120/70-17 front, 180/55-17 rear seat height 845 mm kerb weight 200 kg fuel capacity 17 l service data engine oil (with filter) 3.8 l (4.0 us qt) oil grade sae 15w-50, jaso ma2 chain / final drive 520 o-ring, 106 links"
     },
     {
       "type": "motorcycle",
@@ -682,6 +922,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "energica-experia-2022-present-global",
+      "title": "Energica Experia (2022–Present, Global)",
+      "meta": "Global · Adventure · —",
+      "power": "102 hp (75 kW)",
+      "weight": "260 kg",
+      "url": "motorcycle.html?id=energica-experia-2022-present-global",
+      "searchText": "energica experia 2022–present global adventure — an electric adventure-sport tourer with a 22.5 kwh battery, fast charging and long-range capability. permanent-magnet electric motor, 22.5 kwh battery 102 hp (75 kw) 115 nm (85 lb-ft) 260 kg 810 mm energica experia adventure general specifications engine permanent-magnet electric motor, 22.5 kwh battery displacement — max power 102 hp (75 kw) max torque 115 nm (85 lb-ft) transmission single-speed, chain final drive front suspension 43 mm inverted fork, 150 mm travel rear suspension single shock, 150 mm travel front brake 330 mm dual discs, radial 4-piston calipers rear brake 245 mm disc abs cornering abs tyres 120/70-19 front, 170/60-17 rear seat height 810 mm kerb weight 260 kg fuel capacity 22.5 kwh battery top speed 180 km/h"
+    },
+    {
+      "type": "motorcycle",
       "id": "harley-davidson-breakout-2013-present-global",
       "title": "Harley-Davidson Breakout (2013-Present, Global)",
       "meta": "Global · Cruiser · 1,923 cc",
@@ -709,6 +959,26 @@
       "weight": "252 kg",
       "url": "motorcycle.html?id=harley-davidson-forty-eight-2010-present-global",
       "searchText": "harley-davidson forty-eight 2010–present global cruiser 1,202 cc a fat-tyred, low-slung sportster bobber with peanut tank and minimalist style. 1,202 cc air-cooled evolution v-twin, 4 valves 66 hp (49 kw) @ 6,000 rpm 96 nm (71 lb-ft) @ 3,500 rpm 252 kg 710 mm harley-davidson forty-eight cruiser v-twin general specifications engine 1,202 cc air-cooled evolution v-twin, 4 valves displacement 1,202 cc max power 66 hp (49 kw) @ 6,000 rpm max torque 96 nm (71 lb-ft) @ 3,500 rpm transmission 5-speed, belt final drive front suspension 39 mm telescopic fork rear suspension twin shocks front brake 300 mm disc, 2-piston caliper rear brake 292 mm disc abs dual-channel abs tyres 130/90-16 front, 150/80-16 rear seat height 710 mm kerb weight 252 kg fuel capacity 7.9 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "harley-davidson-heritage-classic-2018-present-global",
+      "title": "Harley-Davidson Heritage Classic (2018–Present, Global)",
+      "meta": "Global · Touring · 1,868 cc",
+      "power": "94 hp (70 kW) @ 4,750 rpm",
+      "weight": "330 kg",
+      "url": "motorcycle.html?id=harley-davidson-heritage-classic-2018-present-global",
+      "searchText": "harley-davidson heritage classic 2018–present global touring 1,868 cc a classic touring cruiser with leather saddlebags, a detachable screen and the milwaukee-eight 114. 1,868 cc air/oil-cooled milwaukee-eight 114 v-twin 94 hp (70 kw) @ 4,750 rpm 155 nm (114 lb-ft) @ 3,250 rpm 330 kg 680 mm harley-davidson heritage-classic touring v-twin general specifications engine 1,868 cc air/oil-cooled milwaukee-eight 114 v-twin displacement 1,868 cc max power 94 hp (70 kw) @ 4,750 rpm max torque 155 nm (114 lb-ft) @ 3,250 rpm transmission 6-speed, belt final drive front suspension 49 mm telescopic fork rear suspension twin shocks front brake 300 mm dual discs, 4-piston calipers rear brake 292 mm disc abs dual-channel abs tyres 130/90-16 front, 150/80-16 rear seat height 680 mm kerb weight 330 kg fuel capacity 18.9 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "harley-davidson-iron-883-2009-2022-global",
+      "title": "Harley-Davidson Iron 883 (2009–2022, Global)",
+      "meta": "Global · Cruiser · 883 cc",
+      "power": "50 hp (37 kW) @ 6,000 rpm",
+      "weight": "256 kg",
+      "url": "motorcycle.html?id=harley-davidson-iron-883-2009-2022-global",
+      "searchText": "harley-davidson iron 883 2009–2022 global cruiser 883 cc a blacked-out, minimalist sportster with the iconic 883 cc evolution v-twin. 883 cc air-cooled evolution v-twin, 4 valves 50 hp (37 kw) @ 6,000 rpm 68 nm (50 lb-ft) @ 4,750 rpm 256 kg 760 mm harley-davidson iron-883 cruiser v-twin general specifications engine 883 cc air-cooled evolution v-twin, 4 valves displacement 883 cc max power 50 hp (37 kw) @ 6,000 rpm max torque 68 nm (50 lb-ft) @ 4,750 rpm transmission 5-speed, belt final drive front suspension 39 mm telescopic fork rear suspension twin shocks front brake 300 mm disc, 2-piston caliper rear brake 292 mm disc abs dual-channel abs tyres 120/80-17 front, 150/80-16 rear seat height 760 mm kerb weight 256 kg fuel capacity 12.5 l"
     },
     {
       "type": "motorcycle",
@@ -759,6 +1029,16 @@
       "weight": "368 kg",
       "url": "motorcycle.html?id=harley-davidson-road-glide-2024-present-global",
       "searchText": "harley-davidson road glide 2024–present global touring 1,923 cc the 2024 road glide moves to the milwaukee-eight 117, new bodywork and a redesigned chassis. 1,923 cc air/oil-cooled milwaukee-eight 117 v-twin 107 hp (80 kw) @ 5,020 rpm 178 nm (131 lb-ft) @ 3,500 rpm 368 kg 715 mm harley-davidson road-glide touring v-twin general specifications engine 1,923 cc air/oil-cooled milwaukee-eight 117 v-twin displacement 1,923 cc max power 107 hp (80 kw) @ 5,020 rpm max torque 178 nm (131 lb-ft) @ 3,500 rpm transmission 6-speed, belt final drive front suspension 49 mm telescopic fork rear suspension twin shocks front brake 320 mm dual discs, 4-piston calipers rear brake 300 mm disc abs cornering abs tyres 130/60-19 front, 180/55-18 rear seat height 715 mm kerb weight 368 kg fuel capacity 22.7 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "harley-davidson-road-king-2017-present-global",
+      "title": "Harley-Davidson Road King (2017–Present, Global)",
+      "meta": "Global · Touring · 1,868 cc",
+      "power": "93 hp (69 kW) @ 5,020 rpm",
+      "weight": "379 kg",
+      "url": "motorcycle.html?id=harley-davidson-road-king-2017-present-global",
+      "searchText": "harley-davidson road king 2017–present global touring 1,868 cc a stripped-down touring harley with a detachable screen, hard bags and the milwaukee-eight 114. 1,868 cc air/oil-cooled milwaukee-eight 114 v-twin 93 hp (69 kw) @ 5,020 rpm 158 nm (117 lb-ft) @ 3,250 rpm 379 kg 715 mm harley-davidson road-king touring v-twin general specifications engine 1,868 cc air/oil-cooled milwaukee-eight 114 v-twin displacement 1,868 cc max power 93 hp (69 kw) @ 5,020 rpm max torque 158 nm (117 lb-ft) @ 3,250 rpm transmission 6-speed, belt final drive front suspension 49 mm telescopic fork rear suspension twin shocks front brake 300 mm dual discs, 4-piston calipers rear brake 292 mm disc abs cornering abs tyres 130/60-19 front, 180/55-18 rear seat height 715 mm kerb weight 379 kg fuel capacity 22.7 l"
     },
     {
       "type": "motorcycle",
@@ -832,6 +1112,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "hero-destini-125-2020-present-india",
+      "title": "Hero Destini 125 (2020–Present, India)",
+      "meta": "India · Scooter · 125 cc",
+      "power": "9 hp (6.7 kW) @ 7,000 rpm",
+      "weight": "115 kg",
+      "url": "motorcycle.html?id=hero-destini-125-2020-present-india",
+      "searchText": "hero destini 125 2020–present india scooter 125 cc a practical 125 cc family scooter with a comfortable seat and easy handling. 124.6 cc air-cooled sohc single, 2 valves 9 hp (6.7 kw) @ 7,000 rpm 10.4 nm (8 lb-ft) @ 5,500 rpm 115 kg 780 mm hero destini-125 scooter single general specifications engine 124.6 cc air-cooled sohc single, 2 valves displacement 125 cc max power 9 hp (6.7 kw) @ 7,000 rpm max torque 10.4 nm (8 lb-ft) @ 5,500 rpm transmission cvt, belt final drive front suspension 30 mm telescopic fork rear suspension single shock front brake 130 mm drum rear brake 130 mm drum abs combined braking system tyres 90/90-12 front, 90/90-12 rear seat height 780 mm kerb weight 115 kg fuel capacity 5 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-30, jaso mb"
+    },
+    {
+      "type": "motorcycle",
       "id": "hero-glamour-2020-present-india",
       "title": "Hero Glamour (2020–Present, India)",
       "meta": "India · Commuter · 125 cc",
@@ -869,6 +1159,16 @@
       "weight": "112 kg",
       "url": "motorcycle.html?id=hero-splendor-plus-2010-present-india",
       "searchText": "hero splendor plus 2010–present india commuter 97.2 cc india's best-selling motorcycle: simple, frugal and nearly indestructible. 97.2 cc air-cooled sohc single, 2 valves 8 hp (6 kw) @ 8,000 rpm 8.05 nm (6 lb-ft) @ 6,000 rpm 112 kg 785 mm hero splendor-plus commuter single general specifications engine 97.2 cc air-cooled sohc single, 2 valves displacement 97.2 cc max power 8 hp (6 kw) @ 8,000 rpm max torque 8.05 nm (6 lb-ft) @ 6,000 rpm transmission 4-speed, chain final drive front suspension 30 mm telescopic fork rear suspension twin shocks front brake 130 mm drum rear brake 130 mm drum abs integrated braking system tyres 80/100-18 front, 80/100-18 rear seat height 785 mm kerb weight 112 kg fuel capacity 9.8 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "hero-xoom-125-2023-present-india",
+      "title": "Hero Xoom 125 (2023–Present, India)",
+      "meta": "India · Scooter · 125 cc",
+      "power": "9.1 hp (6.8 kW) @ 7,000 rpm",
+      "weight": "117 kg",
+      "url": "motorcycle.html?id=hero-xoom-125-2023-present-india",
+      "searchText": "hero xoom 125 2023–present india scooter 125 cc a sporty 125 cc scooter with sharp styling, led lighting and connected features. 124.6 cc air-cooled sohc single, 2 valves 9.1 hp (6.8 kw) @ 7,000 rpm 10.4 nm (8 lb-ft) @ 5,500 rpm 117 kg 780 mm hero xoom-125 scooter single general specifications engine 124.6 cc air-cooled sohc single, 2 valves displacement 125 cc max power 9.1 hp (6.8 kw) @ 7,000 rpm max torque 10.4 nm (8 lb-ft) @ 5,500 rpm transmission cvt, belt final drive front suspension 30 mm telescopic fork rear suspension single shock front brake 220 mm disc rear brake 130 mm drum abs combined braking system tyres 100/80-12 front, 110/80-12 rear seat height 780 mm kerb weight 117 kg fuel capacity 5.2 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-30, jaso mb"
     },
     {
       "type": "motorcycle",
@@ -922,6 +1222,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "hero-xtreme-250r-2025-present-india",
+      "title": "Hero Xtreme 250R (2025–Present, India)",
+      "meta": "India · Naked · 249 cc",
+      "power": "30 hp (22 kW) @ 8,500 rpm",
+      "weight": "167 kg",
+      "url": "motorcycle.html?id=hero-xtreme-250r-2025-present-india",
+      "searchText": "hero xtreme 250r 2025–present india naked 249 cc hero's newest 250 cc naked, with a liquid-cooled engine and aggressive streetfighter styling. 249 cc liquid-cooled dohc single, 4 valves 30 hp (22 kw) @ 8,500 rpm 25 nm (18 lb-ft) @ 6,500 rpm 167 kg 815 mm hero xtreme-250r naked single general specifications engine 249 cc liquid-cooled dohc single, 4 valves displacement 249 cc max power 30 hp (22 kw) @ 8,500 rpm max torque 25 nm (18 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork rear suspension single shock front brake 320 mm disc, radial 4-piston caliper rear brake 230 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 815 mm kerb weight 167 kg fuel capacity 13 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 110 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "honda-activa-6g-2020-present-india",
       "title": "Honda Activa 6G (2020–Present, India)",
       "meta": "India · Scooter · 110 cc",
@@ -929,6 +1239,26 @@
       "weight": "106 kg",
       "url": "motorcycle.html?id=honda-activa-6g-2020-present-india",
       "searchText": "honda activa 6g 2020–present india scooter 110 cc india's best-selling scooter, with a frugal 110 cc engine and practical family-friendly layout. 109.5 cc air-cooled sohc single, 2 valves 7.7 hp (5.7 kw) @ 8,000 rpm 8.9 nm (7 lb-ft) @ 5,500 rpm 106 kg 765 mm honda activa-6g scooter single general specifications engine 109.5 cc air-cooled sohc single, 2 valves displacement 110 cc max power 7.7 hp (5.7 kw) @ 8,000 rpm max torque 8.9 nm (7 lb-ft) @ 5,500 rpm transmission cvt, belt final drive front suspension 30 mm telescopic fork rear suspension single shock front brake 130 mm drum rear brake 130 mm drum abs combined braking system tyres 90/90-12 front, 90/100-10 rear seat height 765 mm kerb weight 106 kg fuel capacity 5.3 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-30, jaso mb"
+    },
+    {
+      "type": "motorcycle",
+      "id": "honda-adv-160-2022-present-global",
+      "title": "Honda ADV 160 (2022–Present, Global)",
+      "meta": "Global · Scooter · 157 cc",
+      "power": "15.8 hp (11.8 kW) @ 8,500 rpm",
+      "weight": "133 kg",
+      "url": "motorcycle.html?id=honda-adv-160-2022-present-global",
+      "searchText": "honda adv 160 2022–present global scooter 157 cc an adventure-styled 160 cc scooter with long-travel suspension, wide bars and practical storage. 156.9 cc liquid-cooled sohc esp+ single, 4 valves 15.8 hp (11.8 kw) @ 8,500 rpm 14.7 nm (11 lb-ft) @ 6,500 rpm 133 kg 795 mm honda adv-160 scooter single general specifications engine 156.9 cc liquid-cooled sohc esp+ single, 4 valves displacement 157 cc max power 15.8 hp (11.8 kw) @ 8,500 rpm max torque 14.7 nm (11 lb-ft) @ 6,500 rpm transmission cvt, belt final drive front suspension 31 mm telescopic fork rear suspension twin shocks front brake 240 mm disc rear brake 220 mm disc abs dual-channel abs tyres 110/80-14 front, 130/70-13 rear seat height 795 mm kerb weight 133 kg fuel capacity 8.1 l service data engine oil (with filter) 0.9 l (0.95 us qt) oil grade sae 10w-30, jaso mb"
+    },
+    {
+      "type": "motorcycle",
+      "id": "honda-adv-350-2022-present-global",
+      "title": "Honda ADV 350 (2022–Present, Global)",
+      "meta": "Global · Scooter · 330 cc",
+      "power": "29 hp (21 kW) @ 7,500 rpm",
+      "weight": "186 kg",
+      "url": "motorcycle.html?id=honda-adv-350-2022-present-global",
+      "searchText": "honda adv 350 2022–present global scooter 330 cc the larger adv scooter, with the forza 350 engine and a more rugged, adventure-ready stance. 330 cc liquid-cooled sohc esp+ single, 4 valves 29 hp (21 kw) @ 7,500 rpm 31.5 nm (23 lb-ft) @ 5,250 rpm 186 kg 795 mm honda adv-350 scooter single general specifications engine 330 cc liquid-cooled sohc esp+ single, 4 valves displacement 330 cc max power 29 hp (21 kw) @ 7,500 rpm max torque 31.5 nm (23 lb-ft) @ 5,250 rpm transmission cvt, belt final drive front suspension 37 mm inverted fork rear suspension twin shocks front brake 256 mm disc rear brake 240 mm disc abs dual-channel abs tyres 120/70-15 front, 150/70-14 rear seat height 795 mm kerb weight 186 kg fuel capacity 11.7 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-30, jaso mb"
     },
     {
       "type": "motorcycle",
@@ -962,6 +1292,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "honda-cb125r-2018-present-global",
+      "title": "Honda CB125R (2018–Present, Global)",
+      "meta": "Global · Naked · 125 cc",
+      "power": "14.8 hp (11 kW) @ 10,000 rpm",
+      "weight": "130 kg",
+      "url": "motorcycle.html?id=honda-cb125r-2018-present-global",
+      "searchText": "honda cb125r 2018–present global naked 125 cc a premium 125 cc naked with neo sports café styling, upside-down forks and radial brakes. 124.9 cc liquid-cooled dohc single, 4 valves 14.8 hp (11 kw) @ 10,000 rpm 11.6 nm (9 lb-ft) @ 8,000 rpm 130 kg 816 mm honda cb125r naked single general specifications engine 124.9 cc liquid-cooled dohc single, 4 valves displacement 125 cc max power 14.8 hp (11 kw) @ 10,000 rpm max torque 11.6 nm (9 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 296 mm disc, radial 4-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 816 mm kerb weight 130 kg fuel capacity 10.1 l service data engine oil (with filter) 1.2 l (1.3 us qt) oil grade sae 10w-30, jaso ma chain / final drive 428 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "honda-cb300r-2018-present-global",
       "title": "Honda CB300R (2018–Present, Global)",
       "meta": "Global · Naked · 286 cc",
@@ -979,6 +1319,16 @@
       "weight": "181 kg",
       "url": "motorcycle.html?id=honda-cb350-2021-present-india",
       "searchText": "honda cb350 2021–present india retro 348 cc honda's retro roadster for india, with classic proportions and a long-stroke single. 348 cc air-cooled sohc single, 2 valves 20.8 hp (15.5 kw) @ 5,500 rpm 30 nm (22 lb-ft) @ 3,000 rpm 181 kg 800 mm honda cb350 retro single general specifications engine 348 cc air-cooled sohc single, 2 valves displacement 348 cc max power 20.8 hp (15.5 kw) @ 5,500 rpm max torque 30 nm (22 lb-ft) @ 3,000 rpm transmission 5-speed, chain final drive front suspension 41 mm telescopic fork rear suspension twin shocks front brake 310 mm disc, 2-piston caliper rear brake 240 mm disc abs dual-channel abs tyres 100/90-19 front, 130/70-18 rear seat height 800 mm kerb weight 181 kg fuel capacity 15 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-30, jaso ma chain / final drive 520 o-ring, 108 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "honda-cb350rs-2021-present-india",
+      "title": "Honda CB350RS (2021–Present, India)",
+      "meta": "India · Scrambler · 348 cc",
+      "power": "20.8 hp (15.5 kW) @ 5,500 rpm",
+      "weight": "179 kg",
+      "url": "motorcycle.html?id=honda-cb350rs-2021-present-india",
+      "searchText": "honda cb350rs 2021–present india scrambler 348 cc a scrambler-styled version of the cb350, with a taller stance, wider bars and chunky tyres. 348 cc air-cooled sohc single, 2 valves 20.8 hp (15.5 kw) @ 5,500 rpm 30 nm (22 lb-ft) @ 3,000 rpm 179 kg 800 mm honda cb350rs scrambler single general specifications engine 348 cc air-cooled sohc single, 2 valves displacement 348 cc max power 20.8 hp (15.5 kw) @ 5,500 rpm max torque 30 nm (22 lb-ft) @ 3,000 rpm transmission 5-speed, chain final drive front suspension 41 mm telescopic fork rear suspension twin shocks front brake 310 mm disc, 2-piston caliper rear brake 240 mm disc abs dual-channel abs tyres 100/90-19 front, 150/70-17 rear seat height 800 mm kerb weight 179 kg fuel capacity 15 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-30, jaso ma chain / final drive 520 o-ring, 108 links"
     },
     {
       "type": "motorcycle",
@@ -1182,6 +1532,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "honda-crf300-rally-2021-present-global",
+      "title": "Honda CRF300 Rally (2021–Present, Global)",
+      "meta": "Global · Dual Sport · 286 cc",
+      "power": "27 hp (20 kW) @ 8,500 rpm",
+      "weight": "153 kg",
+      "url": "motorcycle.html?id=honda-crf300-rally-2021-present-global",
+      "searchText": "honda crf300 rally 2021–present global dual sport 286 cc the rally-styled crf300l, with a larger tank, taller screen and long-distance dual-sport equipment. 286 cc liquid-cooled dohc single, 4 valves 27 hp (20 kw) @ 8,500 rpm 26.3 nm (19 lb-ft) @ 6,500 rpm 153 kg 885 mm honda crf300-rally dual-sport single general specifications engine 286 cc liquid-cooled dohc single, 4 valves displacement 286 cc max power 27 hp (20 kw) @ 8,500 rpm max torque 26.3 nm (19 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork, 260 mm travel rear suspension pro-link single shock, 260 mm travel front brake 256 mm disc, 2-piston caliper rear brake 220 mm disc abs single-channel abs tyres 80/100-21 front, 120/80-18 rear seat height 885 mm kerb weight 153 kg fuel capacity 12.8 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-30, jaso ma chain / final drive 520 o-ring, 108 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "honda-crf300l-2021-present-global",
       "title": "Honda CRF300L (2021–Present, Global)",
       "meta": "Global · Dual Sport · 286 cc",
@@ -1202,6 +1562,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "honda-dax-125-2022-present-global",
+      "title": "Honda Dax 125 (2022–Present, Global)",
+      "meta": "Global · Mini · 124 cc",
+      "power": "9.8 hp (7.3 kW) @ 6,750 rpm",
+      "weight": "107 kg",
+      "url": "motorcycle.html?id=honda-dax-125-2022-present-global",
+      "searchText": "honda dax 125 2022–present global mini 124 cc the dax returns as a compact 125 cc mini-bike with a t-shaped frame and retro scrambler looks. 124 cc air-cooled sohc single, 2 valves 9.8 hp (7.3 kw) @ 6,750 rpm 10.5 nm (8 lb-ft) @ 5,500 rpm 107 kg 775 mm honda dax-125 mini single general specifications engine 124 cc air-cooled sohc single, 2 valves displacement 124 cc max power 9.8 hp (7.3 kw) @ 6,750 rpm max torque 10.5 nm (8 lb-ft) @ 5,500 rpm transmission 5-speed, chain final drive front suspension 31 mm inverted fork rear suspension twin shocks front brake 220 mm disc rear brake 190 mm disc abs single-channel abs tyres 120/70-12 front, 130/70-12 rear seat height 775 mm kerb weight 107 kg fuel capacity 3.8 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-30, jaso ma"
+    },
+    {
+      "type": "motorcycle",
       "id": "honda-forza-350-2021-present-global",
       "title": "Honda Forza 350 (2021–Present, Global)",
       "meta": "Global · Scooter · 330 cc",
@@ -1209,6 +1579,16 @@
       "weight": "185 kg",
       "url": "motorcycle.html?id=honda-forza-350-2021-present-global",
       "searchText": "honda forza 350 2021–present global scooter 330 cc honda's premium mid-size maxi-scooter, with a smooth esp+ engine and electric screen. 330 cc liquid-cooled sohc esp+ single, 4 valves 29 hp (21 kw) @ 7,500 rpm 31.5 nm (23 lb-ft) @ 5,250 rpm 185 kg 780 mm honda forza-350 scooter single general specifications engine 330 cc liquid-cooled sohc esp+ single, 4 valves displacement 330 cc max power 29 hp (21 kw) @ 7,500 rpm max torque 31.5 nm (23 lb-ft) @ 5,250 rpm transmission cvt, belt final drive front suspension 35 mm telescopic fork rear suspension twin shocks front brake 256 mm disc rear brake 240 mm disc abs dual-channel abs tyres 120/70-15 front, 150/70-14 rear seat height 780 mm kerb weight 185 kg fuel capacity 11.7 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "honda-forza-750-2021-present-global",
+      "title": "Honda Forza 750 (2021–Present, Global)",
+      "meta": "Global · Scooter · 745 cc",
+      "power": "58 hp (43 kW) @ 6,750 rpm",
+      "weight": "224 kg",
+      "url": "motorcycle.html?id=honda-forza-750-2021-present-global",
+      "searchText": "honda forza 750 2021–present global scooter 745 cc a flagship maxi-scooter with the nc750 twin, dct and motorcycle-class chassis hardware. 745 cc liquid-cooled sohc parallel twin, 8 valves 58 hp (43 kw) @ 6,750 rpm 69 nm (51 lb-ft) @ 4,750 rpm 224 kg 790 mm honda forza-750 scooter twin general specifications engine 745 cc liquid-cooled sohc parallel twin, 8 valves displacement 745 cc max power 58 hp (43 kw) @ 6,750 rpm max torque 69 nm (51 lb-ft) @ 4,750 rpm transmission 6-speed dct, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 310 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs dual-channel abs tyres 120/70-17 front, 160/60-15 rear seat height 790 mm kerb weight 224 kg fuel capacity 13.2 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-30, jaso ma chain / final drive 520 o-ring, 114 links"
     },
     {
       "type": "motorcycle",
@@ -1229,6 +1609,16 @@
       "weight": "104 kg",
       "url": "motorcycle.html?id=honda-grom-2021-present-global",
       "searchText": "honda grom 2021–present global naked 124 cc the grom is a tiny, fun-focused mini-moto with big-bike styling and a strong aftermarket scene. 124 cc air-cooled sohc single, 2 valves 9.8 hp (7.3 kw) @ 7,250 rpm 10.5 nm (8 lb-ft) @ 6,000 rpm 104 kg 761 mm honda grom naked single general specifications engine 124 cc air-cooled sohc single, 2 valves displacement 124 cc max power 9.8 hp (7.3 kw) @ 7,250 rpm max torque 10.5 nm (8 lb-ft) @ 6,000 rpm transmission 5-speed, chain final drive front suspension 31 mm inverted fork rear suspension single shock front brake 220 mm disc rear brake 190 mm disc abs single-channel abs tyres 120/70-12 front, 130/70-12 rear seat height 761 mm kerb weight 104 kg fuel capacity 6 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-30, jaso ma chain / final drive 420 o-ring, 108 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "honda-monkey-125-2018-present-global",
+      "title": "Honda Monkey 125 (2018–Present, Global)",
+      "meta": "Global · Mini · 124 cc",
+      "power": "9.8 hp (7.3 kW) @ 6,750 rpm",
+      "weight": "104 kg",
+      "url": "motorcycle.html?id=honda-monkey-125-2018-present-global",
+      "searchText": "honda monkey 125 2018–present global mini 124 cc a modern take on the iconic monkey, with a 125 cc engine, chunky tyres and compact proportions. 124 cc air-cooled sohc single, 2 valves 9.8 hp (7.3 kw) @ 6,750 rpm 11 nm (8 lb-ft) @ 5,500 rpm 104 kg 776 mm honda monkey-125 mini single general specifications engine 124 cc air-cooled sohc single, 2 valves displacement 124 cc max power 9.8 hp (7.3 kw) @ 6,750 rpm max torque 11 nm (8 lb-ft) @ 5,500 rpm transmission 5-speed, chain final drive front suspension 31 mm inverted fork rear suspension twin shocks front brake 220 mm disc rear brake 190 mm disc abs single-channel abs tyres 120/80-12 front, 130/80-12 rear seat height 776 mm kerb weight 104 kg fuel capacity 5.6 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-30, jaso ma"
     },
     {
       "type": "motorcycle",
@@ -1272,6 +1662,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "honda-rebel-300-2017-present-global",
+      "title": "Honda Rebel 300 (2017–Present, Global)",
+      "meta": "Global · Cruiser · 286 cc",
+      "power": "27 hp (20 kW) @ 8,000 rpm",
+      "weight": "164 kg",
+      "url": "motorcycle.html?id=honda-rebel-300-2017-present-global",
+      "searchText": "honda rebel 300 2017–present global cruiser 286 cc a lightweight, low-seat cruiser built around honda's 286 cc single and beginner-friendly ergonomics. 286 cc liquid-cooled dohc single, 4 valves 27 hp (20 kw) @ 8,000 rpm 27 nm (20 lb-ft) @ 6,500 rpm 164 kg 690 mm honda rebel-300 cruiser single general specifications engine 286 cc liquid-cooled dohc single, 4 valves displacement 286 cc max power 27 hp (20 kw) @ 8,000 rpm max torque 27 nm (20 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 41 mm telescopic fork rear suspension twin shocks front brake 296 mm disc, 2-piston caliper rear brake 240 mm disc abs dual-channel abs tyres 130/90-16 front, 150/80-16 rear seat height 690 mm kerb weight 164 kg fuel capacity 11.2 l service data engine oil (with filter) 1.8 l (1.9 us qt) oil grade sae 10w-30, jaso ma chain / final drive 520 o-ring, 108 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "honda-rebel-500-2017-present-global",
       "title": "Honda Rebel 500 (2017–Present, Global)",
       "meta": "Global · Cruiser · 471 cc",
@@ -1312,6 +1712,46 @@
     },
     {
       "type": "motorcycle",
+      "id": "honda-trail-125-2020-present-global",
+      "title": "Honda Trail 125 (2020–Present, Global)",
+      "meta": "Global · Mini · 124 cc",
+      "power": "8.7 hp (6.5 kW) @ 6,250 rpm",
+      "weight": "118 kg",
+      "url": "motorcycle.html?id=honda-trail-125-2020-present-global",
+      "searchText": "honda trail 125 2020–present global mini 124 cc the ct125 trail is a rugged mini-adventure bike inspired by honda's original trail cub. 124 cc air-cooled sohc single, 2 valves 8.7 hp (6.5 kw) @ 6,250 rpm 11 nm (8 lb-ft) @ 4,750 rpm 118 kg 800 mm honda trail-125 mini single general specifications engine 124 cc air-cooled sohc single, 2 valves displacement 124 cc max power 8.7 hp (6.5 kw) @ 6,250 rpm max torque 11 nm (8 lb-ft) @ 4,750 rpm transmission 4-speed, chain final drive front suspension 27 mm telescopic fork rear suspension twin shocks front brake 220 mm disc rear brake 190 mm disc abs single-channel abs tyres 80/90-17 front, 80/90-17 rear seat height 800 mm kerb weight 118 kg fuel capacity 5.3 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-30, jaso ma"
+    },
+    {
+      "type": "motorcycle",
+      "id": "honda-x-adv-750-2017-present-global",
+      "title": "Honda X-ADV 750 (2017–Present, Global)",
+      "meta": "Global · Scooter · 745 cc",
+      "power": "58 hp (43 kW) @ 6,750 rpm",
+      "weight": "236 kg",
+      "url": "motorcycle.html?id=honda-x-adv-750-2017-present-global",
+      "searchText": "honda x-adv 750 2017–present global scooter 745 cc the original adventure scooter: nc750 power, dct and long-travel suspension in a maxi-scooter package. 745 cc liquid-cooled sohc parallel twin, 8 valves 58 hp (43 kw) @ 6,750 rpm 69 nm (51 lb-ft) @ 4,750 rpm 236 kg 820 mm honda x-adv-750 scooter twin general specifications engine 745 cc liquid-cooled sohc parallel twin, 8 valves displacement 745 cc max power 58 hp (43 kw) @ 6,750 rpm max torque 69 nm (51 lb-ft) @ 4,750 rpm transmission 6-speed dct, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 296 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs dual-channel abs tyres 120/70-17 front, 160/60-15 rear seat height 820 mm kerb weight 236 kg fuel capacity 13.2 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-30, jaso ma chain / final drive 520 o-ring, 114 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "husqvarna-701-supermoto-2016-present-global",
+      "title": "Husqvarna 701 Supermoto (2016–Present, Global)",
+      "meta": "Global · Supermoto · 692 cc",
+      "power": "74 hp (55 kW) @ 8,000 rpm",
+      "weight": "147 kg",
+      "url": "motorcycle.html?id=husqvarna-701-supermoto-2016-present-global",
+      "searchText": "husqvarna 701 supermoto 2016–present global supermoto 692 cc a big single-cylinder supermoto with a lightweight chassis and long-travel wp suspension. 692 cc liquid-cooled sohc single, 4 valves 74 hp (55 kw) @ 8,000 rpm 73.5 nm (54 lb-ft) @ 6,500 rpm 147 kg 890 mm husqvarna 701-supermoto supermoto single general specifications engine 692 cc liquid-cooled sohc single, 4 valves displacement 692 cc max power 74 hp (55 kw) @ 8,000 rpm max torque 73.5 nm (54 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 48 mm inverted wp apex fork rear suspension wp apex single shock front brake 320 mm disc, radial 4-piston caliper rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 160/60-17 rear seat height 890 mm kerb weight 147 kg fuel capacity 13.5 l service data engine oil (with filter) 1.7 l (1.8 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 520 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "husqvarna-fe-350-2017-present-global",
+      "title": "Husqvarna FE 350 (2017–Present, Global)",
+      "meta": "Global · Enduro · 350 cc",
+      "power": "45 hp (33 kW)",
+      "weight": "106 kg",
+      "url": "motorcycle.html?id=husqvarna-fe-350-2017-present-global",
+      "searchText": "husqvarna fe 350 2017–present global enduro 350 cc a premium enduro four-stroke with wp xplor suspension and a lightweight chromium-molybdenum frame. 350 cc liquid-cooled dohc single, 4 valves 45 hp (33 kw) 36 nm (27 lb-ft) 106 kg 950 mm husqvarna fe-350 enduro single general specifications engine 350 cc liquid-cooled dohc single, 4 valves displacement 350 cc max power 45 hp (33 kw) max torque 36 nm (27 lb-ft) transmission 6-speed, chain final drive front suspension wp xplor 48 mm fork, 300 mm travel rear suspension wp xplor single shock, 300 mm travel front brake 260 mm disc rear brake 220 mm disc abs none tyres 90/90-21 front, 140/80-18 rear seat height 950 mm kerb weight 106 kg fuel capacity 8.5 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-50, jaso ma2"
+    },
+    {
+      "type": "motorcycle",
       "id": "husqvarna-fe-450-2024-present-global",
       "title": "Husqvarna FE 450 (2024–Present, Global)",
       "meta": "Global · Enduro · 449 cc",
@@ -1332,6 +1772,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "husqvarna-svartpilen-250-2020-present-global",
+      "title": "Husqvarna Svartpilen 250 (2020–Present, Global)",
+      "meta": "Global · Scrambler · 248 cc",
+      "power": "31 hp (23 kW) @ 9,000 rpm",
+      "weight": "154 kg",
+      "url": "motorcycle.html?id=husqvarna-svartpilen-250-2020-present-global",
+      "searchText": "husqvarna svartpilen 250 2020–present global scrambler 248 cc a small-capacity scrambler based on the ktm 250 duke, with distinctive swedish styling. 248 cc liquid-cooled dohc single, 4 valves 31 hp (23 kw) @ 9,000 rpm 24 nm (18 lb-ft) @ 7,500 rpm 154 kg 835 mm husqvarna svartpilen-250 scrambler single general specifications engine 248 cc liquid-cooled dohc single, 4 valves displacement 248 cc max power 31 hp (23 kw) @ 9,000 rpm max torque 24 nm (18 lb-ft) @ 7,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted wp apex fork rear suspension wp apex single shock front brake 320 mm disc, radial 4-piston caliper rear brake 230 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 835 mm kerb weight 154 kg fuel capacity 9.5 l service data engine oil (with filter) 1.7 l (1.8 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 520 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "husqvarna-svartpilen-401-2020-present-global",
       "title": "Husqvarna Svartpilen 401 (2020–Present, Global)",
       "meta": "Global · Scrambler · 373 cc",
@@ -1339,6 +1789,16 @@
       "weight": "172 kg",
       "url": "motorcycle.html?id=husqvarna-svartpilen-401-2020-present-global",
       "searchText": "husqvarna svartpilen 401 2020–present global scrambler 373 cc the scrambler-styled twin of the vitpilen 401, with wide bars and a rugged look. 373 cc liquid-cooled dohc single, 4 valves 44 hp (32 kw) @ 9,000 rpm 37 nm (27 lb-ft) @ 7,000 rpm 172 kg 835 mm husqvarna svartpilen-401 scrambler single general specifications engine 373 cc liquid-cooled dohc single, 4 valves displacement 373 cc max power 44 hp (32 kw) @ 9,000 rpm max torque 37 nm (27 lb-ft) @ 7,000 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted wp apex fork rear suspension wp apex single shock front brake 320 mm disc, radial 4-piston caliper rear brake 230 mm disc abs cornering abs tyres 110/70-17 front, 150/60-17 rear seat height 835 mm kerb weight 172 kg fuel capacity 9.5 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "husqvarna-svartpilen-801-2024-present-global",
+      "title": "Husqvarna Svartpilen 801 (2024–Present, Global)",
+      "meta": "Global · Scrambler · 799 cc",
+      "power": "105 hp (77 kW) @ 9,000 rpm",
+      "weight": "181 kg",
+      "url": "motorcycle.html?id=husqvarna-svartpilen-801-2024-present-global",
+      "searchText": "husqvarna svartpilen 801 2024–present global scrambler 799 cc a larger, more powerful svartpilen using the 790/890 parallel twin and premium chassis parts. 799 cc liquid-cooled dohc parallel twin, 8 valves 105 hp (77 kw) @ 9,000 rpm 87 nm (64 lb-ft) @ 8,000 rpm 181 kg 820 mm husqvarna svartpilen-801 scrambler twin general specifications engine 799 cc liquid-cooled dohc parallel twin, 8 valves displacement 799 cc max power 105 hp (77 kw) @ 9,000 rpm max torque 87 nm (64 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted wp apex fork rear suspension wp apex single shock front brake 300 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 180/55-17 rear seat height 820 mm kerb weight 181 kg fuel capacity 14 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 525 o-ring, 116 links"
     },
     {
       "type": "motorcycle",
@@ -1372,6 +1832,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "indian-chieftain-2014-present-global",
+      "title": "Indian Chieftain (2014–Present, Global)",
+      "meta": "Global · Touring · 1,890 cc",
+      "power": "100 hp (75 kW) @ 5,000 rpm",
+      "weight": "371 kg",
+      "url": "motorcycle.html?id=indian-chieftain-2014-present-global",
+      "searchText": "indian chieftain 2014–present global touring 1,890 cc a fixed-fairing indian bagger with the thunderstroke 116, premium audio and long-distance comfort. 1,890 cc air-cooled thunderstroke 116 v-twin 100 hp (75 kw) @ 5,000 rpm 169 nm (125 lb-ft) @ 3,000 rpm 371 kg 660 mm indian chieftain touring v-twin general specifications engine 1,890 cc air-cooled thunderstroke 116 v-twin displacement 1,890 cc max power 100 hp (75 kw) @ 5,000 rpm max torque 169 nm (125 lb-ft) @ 3,000 rpm transmission 6-speed, belt final drive front suspension 46 mm telescopic fork rear suspension single shock front brake 300 mm dual discs, 4-piston calipers rear brake 300 mm disc abs dual-channel abs tyres 130/90-16 front, 180/65-16 rear seat height 660 mm kerb weight 371 kg fuel capacity 20.8 l"
+    },
+    {
+      "type": "motorcycle",
       "id": "indian-ftr-1200-2019-present-global",
       "title": "Indian FTR 1200 (2019–Present, Global)",
       "meta": "Global · Naked · 1,203 cc",
@@ -1379,6 +1849,16 @@
       "weight": "235 kg",
       "url": "motorcycle.html?id=indian-ftr-1200-2019-present-global",
       "searchText": "indian ftr 1200 2019–present global naked 1,203 cc a flat-track-inspired streetbike with a high-revving v-twin and aggressive dirt-track styling. 1,203 cc liquid-cooled dohc v-twin, 8 valves 120 hp (89 kw) @ 7,750 rpm 112 nm (83 lb-ft) @ 6,000 rpm 235 kg 815 mm indian ftr-1200 naked v-twin general specifications engine 1,203 cc liquid-cooled dohc v-twin, 8 valves displacement 1,203 cc max power 120 hp (89 kw) @ 7,750 rpm max torque 112 nm (83 lb-ft) @ 6,000 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 260 mm disc abs cornering abs tyres 120/70-18 front, 180/55-18 rear seat height 815 mm kerb weight 235 kg fuel capacity 13 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "indian-pursuit-2022-present-global",
+      "title": "Indian Pursuit (2022–Present, Global)",
+      "meta": "Global · Touring · 1,769 cc",
+      "power": "122 hp (91 kW) @ 5,500 rpm",
+      "weight": "400 kg",
+      "url": "motorcycle.html?id=indian-pursuit-2022-present-global",
+      "searchText": "indian pursuit 2022–present global touring 1,769 cc indian's luxury touring bagger, with the liquid-cooled powerplus v-twin and a full touring cockpit. 1,769 cc liquid-cooled dohc powerplus v-twin, 8 valves 122 hp (91 kw) @ 5,500 rpm 178 nm (131 lb-ft) @ 3,800 rpm 400 kg 700 mm indian pursuit touring v-twin general specifications engine 1,769 cc liquid-cooled dohc powerplus v-twin, 8 valves displacement 1,769 cc max power 122 hp (91 kw) @ 5,500 rpm max torque 178 nm (131 lb-ft) @ 3,800 rpm transmission 6-speed, belt final drive front suspension 43 mm inverted fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 298 mm disc abs cornering abs tyres 130/60-19 front, 180/60-16 rear seat height 700 mm kerb weight 400 kg fuel capacity 22.7 l"
     },
     {
       "type": "motorcycle",
@@ -1399,6 +1879,16 @@
       "weight": "251 kg",
       "url": "motorcycle.html?id=indian-scout-bobber-2018-present-global",
       "searchText": "indian scout bobber 2018–present global cruiser 1,133 cc a blacked-out, low-slung bobber version of the scout, with the same punchy liquid-cooled v-twin. 1,133 cc liquid-cooled dohc v-twin, 8 valves 100 hp (75 kw) @ 8,100 rpm 97 nm (72 lb-ft) @ 5,900 rpm 251 kg 649 mm indian scout-bobber cruiser v-twin general specifications engine 1,133 cc liquid-cooled dohc v-twin, 8 valves displacement 1,133 cc max power 100 hp (75 kw) @ 8,100 rpm max torque 97 nm (72 lb-ft) @ 5,900 rpm transmission 6-speed, belt final drive front suspension 41 mm telescopic fork rear suspension twin shocks front brake 298 mm disc, 2-piston caliper rear brake 298 mm disc abs dual-channel abs tyres 130/90-16 front, 150/80-16 rear seat height 649 mm kerb weight 251 kg fuel capacity 12.5 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "indian-scout-sixty-2016-present-global",
+      "title": "Indian Scout Sixty (2016–Present, Global)",
+      "meta": "Global · Cruiser · 999 cc",
+      "power": "78 hp (58 kW) @ 7,300 rpm",
+      "weight": "249 kg",
+      "url": "motorcycle.html?id=indian-scout-sixty-2016-present-global",
+      "searchText": "indian scout sixty 2016–present global cruiser 999 cc a smaller, more accessible scout with a 999 cc v-twin and the same low-slung, sporty character. 999 cc liquid-cooled dohc v-twin, 8 valves 78 hp (58 kw) @ 7,300 rpm 88 nm (65 lb-ft) @ 5,800 rpm 249 kg 649 mm indian scout-sixty cruiser v-twin general specifications engine 999 cc liquid-cooled dohc v-twin, 8 valves displacement 999 cc max power 78 hp (58 kw) @ 7,300 rpm max torque 88 nm (65 lb-ft) @ 5,800 rpm transmission 5-speed, belt final drive front suspension 41 mm telescopic fork rear suspension twin shocks front brake 298 mm disc, 2-piston caliper rear brake 298 mm disc abs dual-channel abs tyres 130/90-16 front, 150/80-16 rear seat height 649 mm kerb weight 249 kg fuel capacity 12.5 l"
     },
     {
       "type": "motorcycle",
@@ -1469,6 +1959,36 @@
       "weight": "110 kg",
       "url": "motorcycle.html?id=kawasaki-kx450-2024-present-global",
       "searchText": "kawasaki kx450 2024–present global motocross 449 cc kawasaki's 450 motocrosser, with a strong single, hydraulic clutch and race-ready suspension. 449 cc liquid-cooled dohc single, 4 valves 58 hp (43 kw) 49 nm (36 lb-ft) 110 kg 960 mm kawasaki kx450 motocross single general specifications engine 449 cc liquid-cooled dohc single, 4 valves displacement 449 cc max power 58 hp (43 kw) max torque 49 nm (36 lb-ft) transmission 5-speed, chain final drive front suspension 49 mm inverted showa fork, 305 mm travel rear suspension uni-trak single shock, 300 mm travel front brake 270 mm disc rear brake 240 mm disc abs none tyres 80/100-21 front, 120/80-19 rear seat height 960 mm kerb weight 110 kg fuel capacity 6.2 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "kawasaki-ninja-1000sx-2020-present-global",
+      "title": "Kawasaki Ninja 1000SX (2020–Present, Global)",
+      "meta": "Global · Sport Tourer · 1,043 cc",
+      "power": "142 hp (105 kW) @ 10,000 rpm",
+      "weight": "235 kg",
+      "url": "motorcycle.html?id=kawasaki-ninja-1000sx-2020-present-global",
+      "searchText": "kawasaki ninja 1000sx 2020–present global sport tourer 1,043 cc a sport-touring four-cylinder with a comfortable riding position, cruise control and luggage options. 1,043 cc liquid-cooled dohc inline-four, 16 valves 142 hp (105 kw) @ 10,000 rpm 111 nm (82 lb-ft) @ 8,000 rpm 235 kg 820 mm kawasaki ninja-1000sx sport-tourer inline-4 general specifications engine 1,043 cc liquid-cooled dohc inline-four, 16 valves displacement 1,043 cc max power 142 hp (105 kw) @ 10,000 rpm max torque 111 nm (82 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension horizontal back-link single shock front brake 300 mm dual discs, radial 4-piston calipers rear brake 250 mm disc abs cornering abs tyres 120/70-17 front, 190/50-17 rear seat height 820 mm kerb weight 235 kg fuel capacity 19 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 116 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "kawasaki-ninja-1100sx-2025-present-global",
+      "title": "Kawasaki Ninja 1100SX (2025–Present, Global)",
+      "meta": "Global · Sport Tourer · 1,099 cc",
+      "power": "136 hp (100 kW) @ 9,000 rpm",
+      "weight": "234 kg",
+      "url": "motorcycle.html?id=kawasaki-ninja-1100sx-2025-present-global",
+      "searchText": "kawasaki ninja 1100sx 2025–present global sport tourer 1,099 cc the ninja 1000sx grows to 1,099 cc, with more torque, updated electronics and touring comfort. 1,099 cc liquid-cooled dohc inline-four, 16 valves 136 hp (100 kw) @ 9,000 rpm 113 nm (83 lb-ft) @ 7,600 rpm 234 kg 820 mm kawasaki ninja-1100sx sport-tourer inline-4 general specifications engine 1,099 cc liquid-cooled dohc inline-four, 16 valves displacement 1,099 cc max power 136 hp (100 kw) @ 9,000 rpm max torque 113 nm (83 lb-ft) @ 7,600 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension horizontal back-link single shock front brake 300 mm dual discs, radial 4-piston calipers rear brake 250 mm disc abs cornering abs tyres 120/70-17 front, 190/50-17 rear seat height 820 mm kerb weight 234 kg fuel capacity 19 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 116 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "kawasaki-ninja-125-2019-present-global",
+      "title": "Kawasaki Ninja 125 (2019–Present, Global)",
+      "meta": "Global · Supersport · 125 cc",
+      "power": "15 hp (11 kW) @ 10,000 rpm",
+      "weight": "148 kg",
+      "url": "motorcycle.html?id=kawasaki-ninja-125-2019-present-global",
+      "searchText": "kawasaki ninja 125 2019–present global supersport 125 cc a learner-legal ninja with full-size proportions, sharp styling and a rev-happy single. 125 cc liquid-cooled dohc single, 4 valves 15 hp (11 kw) @ 10,000 rpm 11.7 nm (9 lb-ft) @ 7,700 rpm 148 kg 785 mm kawasaki ninja-125 supersport single general specifications engine 125 cc liquid-cooled dohc single, 4 valves displacement 125 cc max power 15 hp (11 kw) @ 10,000 rpm max torque 11.7 nm (9 lb-ft) @ 7,700 rpm transmission 6-speed, chain final drive front suspension 37 mm telescopic fork rear suspension uni-trak single shock front brake 290 mm disc, 2-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 100/80-17 front, 130/70-17 rear seat height 785 mm kerb weight 148 kg fuel capacity 11 l service data engine oil (with filter) 1.1 l (1.16 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 428 o-ring, 122 links"
     },
     {
       "type": "motorcycle",
@@ -1592,6 +2112,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "kawasaki-ninja-zx-25r-2020-present-global",
+      "title": "Kawasaki Ninja ZX-25R (2020–Present, Global)",
+      "meta": "Global · Supersport · 249 cc",
+      "power": "50 hp (37 kW) @ 15,500 rpm",
+      "weight": "183 kg",
+      "url": "motorcycle.html?id=kawasaki-ninja-zx-25r-2020-present-global",
+      "searchText": "kawasaki ninja zx-25r 2020–present global supersport 249 cc a rare 250 cc inline-four supersport, revving to 17,000 rpm in a lightweight chassis. 249 cc liquid-cooled dohc inline-four, 16 valves 50 hp (37 kw) @ 15,500 rpm 22.9 nm (17 lb-ft) @ 14,500 rpm 183 kg 785 mm kawasaki ninja-zx-25r supersport inline-4 general specifications engine 249 cc liquid-cooled dohc inline-four, 16 valves displacement 249 cc max power 50 hp (37 kw) @ 15,500 rpm max torque 22.9 nm (17 lb-ft) @ 14,500 rpm transmission 6-speed, chain final drive front suspension 37 mm inverted fork rear suspension link-type single shock front brake 310 mm disc, radial 4-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 785 mm kerb weight 183 kg fuel capacity 15 l service data engine oil (with filter) 2.4 l (2.5 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 110 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "kawasaki-ninja-zx-4r-2023-present-global",
       "title": "Kawasaki Ninja ZX-4R (2023–Present, Global)",
       "meta": "Global · Supersport · 399 cc",
@@ -1599,6 +2129,16 @@
       "weight": "189 kg",
       "url": "motorcycle.html?id=kawasaki-ninja-zx-4r-2023-present-global",
       "searchText": "kawasaki ninja zx-4r 2023–present global supersport 399 cc a rare small-capacity inline-four supersport, revving to 16,000 rpm in a lightweight chassis. 399 cc liquid-cooled dohc inline-four, 16 valves 77 hp (57 kw) @ 14,500 rpm 39 nm (29 lb-ft) @ 13,000 rpm 189 kg 800 mm kawasaki ninja-zx-4r supersport inline-4 general specifications engine 399 cc liquid-cooled dohc inline-four, 16 valves displacement 399 cc max power 77 hp (57 kw) @ 14,500 rpm max torque 39 nm (29 lb-ft) @ 13,000 rpm transmission 6-speed, chain final drive front suspension 37 mm inverted fork rear suspension link-type single shock front brake 290 mm dual discs, radial 4-piston calipers rear brake 220 mm disc abs dual-channel abs tyres 120/70-17 front, 160/60-17 rear seat height 800 mm kerb weight 189 kg fuel capacity 15 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "kawasaki-ninja-zx-4rr-2023-present-global",
+      "title": "Kawasaki Ninja ZX-4RR (2023–Present, Global)",
+      "meta": "Global · Supersport · 399 cc",
+      "power": "77 hp (57 kW) @ 14,500 rpm",
+      "weight": "189 kg",
+      "url": "motorcycle.html?id=kawasaki-ninja-zx-4rr-2023-present-global",
+      "searchText": "kawasaki ninja zx-4rr 2023–present global supersport 399 cc the higher-spec zx-4r, with adjustable suspension, a quickshifter and track-focused components. 399 cc liquid-cooled dohc inline-four, 16 valves 77 hp (57 kw) @ 14,500 rpm 39 nm (29 lb-ft) @ 13,000 rpm 189 kg 800 mm kawasaki ninja-zx-4rr supersport inline-4 general specifications engine 399 cc liquid-cooled dohc inline-four, 16 valves displacement 399 cc max power 77 hp (57 kw) @ 14,500 rpm max torque 39 nm (29 lb-ft) @ 13,000 rpm transmission 6-speed, chain final drive front suspension 37 mm inverted fork, adjustable rear suspension link-type single shock front brake 290 mm dual discs, radial 4-piston calipers rear brake 220 mm disc abs dual-channel abs tyres 120/70-17 front, 160/60-17 rear seat height 800 mm kerb weight 189 kg fuel capacity 15 l service data engine oil (with filter) 2.8 l (3.0 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 110 links"
     },
     {
       "type": "motorcycle",
@@ -1732,6 +2272,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "kawasaki-vulcan-900-2007-present-global",
+      "title": "Kawasaki Vulcan 900 (2007–Present, Global)",
+      "meta": "Global · Cruiser · 903 cc",
+      "power": "50 hp (37 kW) @ 5,700 rpm",
+      "weight": "277 kg",
+      "url": "motorcycle.html?id=kawasaki-vulcan-900-2007-present-global",
+      "searchText": "kawasaki vulcan 900 2007–present global cruiser 903 cc a classic middleweight cruiser with a torquey v-twin, belt drive and relaxed ergonomics. 903 cc liquid-cooled sohc v-twin, 8 valves 50 hp (37 kw) @ 5,700 rpm 78 nm (58 lb-ft) @ 3,700 rpm 277 kg 680 mm kawasaki vulcan-900 cruiser v-twin general specifications engine 903 cc liquid-cooled sohc v-twin, 8 valves displacement 903 cc max power 50 hp (37 kw) @ 5,700 rpm max torque 78 nm (58 lb-ft) @ 3,700 rpm transmission 5-speed, belt final drive front suspension 41 mm telescopic fork rear suspension twin shocks front brake 300 mm disc, 2-piston caliper rear brake 300 mm disc abs dual-channel abs tyres 130/90-16 front, 180/70-15 rear seat height 680 mm kerb weight 277 kg fuel capacity 20 l service data engine oil (with filter) 3.7 l (3.9 us qt) oil grade sae 10w-40, jaso ma2"
+    },
+    {
+      "type": "motorcycle",
       "id": "kawasaki-vulcan-s-2015-present-global",
       "title": "Kawasaki Vulcan S (2015–Present, Global)",
       "meta": "Global · Cruiser · 649 cc",
@@ -1782,6 +2332,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "kawasaki-z125-2019-present-global",
+      "title": "Kawasaki Z125 (2019–Present, Global)",
+      "meta": "Global · Naked · 125 cc",
+      "power": "15 hp (11 kW) @ 10,000 rpm",
+      "weight": "146 kg",
+      "url": "motorcycle.html?id=kawasaki-z125-2019-present-global",
+      "searchText": "kawasaki z125 2019–present global naked 125 cc the naked ninja 125, with sugomi-inspired styling and upright ergonomics. 125 cc liquid-cooled dohc single, 4 valves 15 hp (11 kw) @ 10,000 rpm 11.7 nm (9 lb-ft) @ 7,700 rpm 146 kg 815 mm kawasaki z125 naked single general specifications engine 125 cc liquid-cooled dohc single, 4 valves displacement 125 cc max power 15 hp (11 kw) @ 10,000 rpm max torque 11.7 nm (9 lb-ft) @ 7,700 rpm transmission 6-speed, chain final drive front suspension 37 mm telescopic fork rear suspension uni-trak single shock front brake 290 mm disc, 2-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 100/80-17 front, 130/70-17 rear seat height 815 mm kerb weight 146 kg fuel capacity 11 l service data engine oil (with filter) 1.1 l (1.16 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 428 o-ring, 122 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "kawasaki-z400-2019-present-global",
       "title": "Kawasaki Z400 (2019–Present, Global)",
       "meta": "Global · Naked · 399 cc",
@@ -1792,6 +2352,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "kawasaki-z500-2024-present-global",
+      "title": "Kawasaki Z500 (2024–Present, Global)",
+      "meta": "Global · Naked · 451 cc",
+      "power": "51 hp (38 kW) @ 10,000 rpm",
+      "weight": "167 kg",
+      "url": "motorcycle.html?id=kawasaki-z500-2024-present-global",
+      "searchText": "kawasaki z500 2024–present global naked 451 cc the naked version of the ninja 500, with a torquey parallel twin and sharp z styling. 451 cc liquid-cooled dohc parallel twin, 8 valves 51 hp (38 kw) @ 10,000 rpm 42.6 nm (31 lb-ft) @ 7,500 rpm 167 kg 785 mm kawasaki z500 naked twin general specifications engine 451 cc liquid-cooled dohc parallel twin, 8 valves displacement 451 cc max power 51 hp (38 kw) @ 10,000 rpm max torque 42.6 nm (31 lb-ft) @ 7,500 rpm transmission 6-speed, chain final drive front suspension 41 mm telescopic fork rear suspension uni-trak single shock front brake 310 mm disc, 2-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 785 mm kerb weight 167 kg fuel capacity 14 l service data engine oil (with filter) 2.4 l (2.5 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 112 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "kawasaki-z650-2017-present-global",
       "title": "Kawasaki Z650 (2017–Present, Global)",
       "meta": "Global · Naked · 649 cc",
@@ -1799,6 +2369,16 @@
       "weight": "187 kg",
       "url": "motorcycle.html?id=kawasaki-z650-2017-present-global",
       "searchText": "kawasaki z650 2017–present global naked 649 cc a friendly middleweight naked with the ninja 650 twin, light handling and aggressive z styling. 649 cc liquid-cooled dohc parallel twin, 8 valves 67 hp (50 kw) @ 8,000 rpm 64 nm (47 lb-ft) @ 6,700 rpm 187 kg 790 mm kawasaki z650 naked twin general specifications engine 649 cc liquid-cooled dohc parallel twin, 8 valves displacement 649 cc max power 67 hp (50 kw) @ 8,000 rpm max torque 64 nm (47 lb-ft) @ 6,700 rpm transmission 6-speed, chain final drive front suspension 41 mm telescopic fork rear suspension horizontal back-link single shock front brake 300 mm dual discs, 2-piston calipers rear brake 220 mm disc abs dual-channel abs tyres 120/70-17 front, 160/60-17 rear seat height 790 mm kerb weight 187 kg fuel capacity 15 l service data engine oil (with filter) 2.4 l (2.5 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 112 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "kawasaki-z650rs-2022-present-global",
+      "title": "Kawasaki Z650RS (2022–Present, Global)",
+      "meta": "Global · Retro · 649 cc",
+      "power": "68 hp (50 kW) @ 8,000 rpm",
+      "weight": "187 kg",
+      "url": "motorcycle.html?id=kawasaki-z650rs-2022-present-global",
+      "searchText": "kawasaki z650rs 2022–present global retro 649 cc a retro-styled middleweight with the z650 twin, round led lighting and classic z1 cues. 649 cc liquid-cooled dohc parallel twin, 8 valves 68 hp (50 kw) @ 8,000 rpm 64 nm (47 lb-ft) @ 6,700 rpm 187 kg 800 mm kawasaki z650rs retro twin general specifications engine 649 cc liquid-cooled dohc parallel twin, 8 valves displacement 649 cc max power 68 hp (50 kw) @ 8,000 rpm max torque 64 nm (47 lb-ft) @ 6,700 rpm transmission 6-speed, chain final drive front suspension 41 mm telescopic fork rear suspension horizontal back-link single shock front brake 300 mm dual discs, 2-piston calipers rear brake 220 mm disc abs dual-channel abs tyres 120/70-17 front, 160/60-17 rear seat height 800 mm kerb weight 187 kg fuel capacity 12 l service data engine oil (with filter) 2.4 l (2.5 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 112 links"
     },
     {
       "type": "motorcycle",
@@ -1862,6 +2442,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "ktm-1290-super-duke-gt-2016-present-global",
+      "title": "KTM 1290 Super Duke GT (2016–Present, Global)",
+      "meta": "Global · Sport Tourer · 1,301 cc",
+      "power": "175 hp (129 kW) @ 9,750 rpm",
+      "weight": "209 kg",
+      "url": "motorcycle.html?id=ktm-1290-super-duke-gt-2016-present-global",
+      "searchText": "ktm 1290 super duke gt 2016–present global sport tourer 1,301 cc the touring super duke, with a 175 hp v-twin, semi-active suspension and long-distance equipment. 1,301 cc liquid-cooled dohc v-twin, 8 valves 175 hp (129 kw) @ 9,750 rpm 141 nm (104 lb-ft) @ 7,000 rpm 209 kg 835 mm ktm 1290-super-duke-gt sport-tourer v-twin general specifications engine 1,301 cc liquid-cooled dohc v-twin, 8 valves displacement 1,301 cc max power 175 hp (129 kw) @ 9,750 rpm max torque 141 nm (104 lb-ft) @ 7,000 rpm transmission 6-speed, chain final drive front suspension 48 mm inverted wp semi-active fork rear suspension wp semi-active single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 190/55-17 rear seat height 835 mm kerb weight 209 kg fuel capacity 19 l service data engine oil (with filter) 3.6 l (3.8 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 525 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "ktm-1390-super-duke-r-2024-present-global",
       "title": "KTM 1390 Super Duke R (2024–Present, Global)",
       "meta": "Global · Naked · 1,350 cc",
@@ -1869,6 +2459,16 @@
       "weight": "200 kg",
       "url": "motorcycle.html?id=ktm-1390-super-duke-r-2024-present-global",
       "searchText": "ktm 1390 super duke r 2024–present global naked 1,350 cc the latest super duke r, with a larger v-twin, more power and active aerodynamics. 1,350 cc liquid-cooled dohc v-twin, 8 valves 190 hp (140 kw) @ 10,000 rpm 145 nm (107 lb-ft) @ 8,000 rpm 200 kg 834 mm ktm 1390-super-duke-r naked v-twin general specifications engine 1,350 cc liquid-cooled dohc v-twin, 8 valves displacement 1,350 cc max power 190 hp (140 kw) @ 10,000 rpm max torque 145 nm (107 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 48 mm inverted wp apex fork rear suspension wp apex single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 190/55-17 rear seat height 834 mm kerb weight 200 kg fuel capacity 16 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ktm-200-duke-2012-present-global",
+      "title": "KTM 200 Duke (2012–Present, Global)",
+      "meta": "Global · Naked · 199.5 cc",
+      "power": "25 hp (19 kW) @ 10,000 rpm",
+      "weight": "159 kg",
+      "url": "motorcycle.html?id=ktm-200-duke-2012-present-global",
+      "searchText": "ktm 200 duke 2012–present global naked 199.5 cc a high-revving 200 cc single that brings ktm's duke attitude to the lightweight class. 199.5 cc liquid-cooled dohc single, 4 valves 25 hp (19 kw) @ 10,000 rpm 19.2 nm (14 lb-ft) @ 8,000 rpm 159 kg 830 mm ktm 200-duke naked single general specifications engine 199.5 cc liquid-cooled dohc single, 4 valves displacement 199.5 cc max power 25 hp (19 kw) @ 10,000 rpm max torque 19.2 nm (14 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork rear suspension single shock front brake 320 mm disc, radial 4-piston caliper rear brake 230 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 830 mm kerb weight 159 kg fuel capacity 13.4 l service data engine oil (with filter) 1.7 l (1.8 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 520 o-ring, 118 links"
     },
     {
       "type": "motorcycle",
@@ -1892,6 +2492,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "ktm-250-sx-f-2013-present-global",
+      "title": "KTM 250 SX-F (2013–Present, Global)",
+      "meta": "Global · Motocross · 250 cc",
+      "power": "48 hp (36 kW)",
+      "weight": "101 kg",
+      "url": "motorcycle.html?id=ktm-250-sx-f-2013-present-global",
+      "searchText": "ktm 250 sx-f 2013–present global motocross 250 cc a championship-winning 250 cc motocross four-stroke with a light chassis and wp xact suspension. 250 cc liquid-cooled dohc single, 4 valves 48 hp (36 kw) 38 nm (28 lb-ft) 101 kg 958 mm ktm 250-sx-f motocross single general specifications engine 250 cc liquid-cooled dohc single, 4 valves displacement 250 cc max power 48 hp (36 kw) max torque 38 nm (28 lb-ft) transmission 5-speed, chain final drive front suspension wp xact 48 mm fork, 310 mm travel rear suspension wp xact single shock, 300 mm travel front brake 260 mm disc rear brake 220 mm disc abs none tyres 80/100-21 front, 110/90-19 rear seat height 958 mm kerb weight 101 kg fuel capacity 7 l service data engine oil (with filter) 1.0 l (1.05 us qt) oil grade sae 10w-50, jaso ma2"
+    },
+    {
+      "type": "motorcycle",
       "id": "ktm-300-exc-2017-present-global",
       "title": "KTM 300 EXC (2017–Present, Global)",
       "meta": "Global · Enduro · 293 cc",
@@ -1899,6 +2509,16 @@
       "weight": "106 kg",
       "url": "motorcycle.html?id=ktm-300-exc-2017-present-global",
       "searchText": "ktm 300 exc 2017–present global enduro 293 cc a two-stroke enduro favourite, with electric start, wp suspension and a lightweight chassis. 293 cc liquid-cooled two-stroke single 49 hp (36 kw) 44 nm (32 lb-ft) 106 kg 960 mm ktm 300-exc enduro single general specifications engine 293 cc liquid-cooled two-stroke single displacement 293 cc max power 49 hp (36 kw) max torque 44 nm (32 lb-ft) transmission 6-speed, chain final drive front suspension wp xplor 48 mm fork, 300 mm travel rear suspension wp xplor single shock, 310 mm travel front brake 260 mm disc rear brake 220 mm disc abs none tyres 90/90-21 front, 140/80-18 rear seat height 960 mm kerb weight 106 kg fuel capacity 9 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ktm-350-exc-f-2012-present-global",
+      "title": "KTM 350 EXC-F (2012–Present, Global)",
+      "meta": "Global · Enduro · 350 cc",
+      "power": "45 hp (33 kW)",
+      "weight": "106 kg",
+      "url": "motorcycle.html?id=ktm-350-exc-f-2012-present-global",
+      "searchText": "ktm 350 exc-f 2012–present global enduro 350 cc a lightweight enduro four-stroke with a broad powerband and race-ready wp suspension. 350 cc liquid-cooled dohc single, 4 valves 45 hp (33 kw) 36 nm (27 lb-ft) 106 kg 960 mm ktm 350-exc-f enduro single general specifications engine 350 cc liquid-cooled dohc single, 4 valves displacement 350 cc max power 45 hp (33 kw) max torque 36 nm (27 lb-ft) transmission 6-speed, chain final drive front suspension wp xplor 48 mm fork, 300 mm travel rear suspension wp xplor single shock, 310 mm travel front brake 260 mm disc rear brake 220 mm disc abs none tyres 90/90-21 front, 140/80-18 rear seat height 960 mm kerb weight 106 kg fuel capacity 9 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-50, jaso ma2"
     },
     {
       "type": "motorcycle",
@@ -1962,6 +2582,26 @@
     },
     {
       "type": "motorcycle",
+      "id": "ktm-390-enduro-r-2025-present-global",
+      "title": "KTM 390 Enduro R (2025–Present, Global)",
+      "meta": "Global · Enduro · 399 cc",
+      "power": "44.5 hp (33 kW) @ 8,500 rpm",
+      "weight": "159 kg",
+      "url": "motorcycle.html?id=ktm-390-enduro-r-2025-present-global",
+      "searchText": "ktm 390 enduro r 2025–present global enduro 399 cc a lightweight dual-sport based on the 390 platform, with long-travel wp suspension and a 21-inch front wheel. 399 cc liquid-cooled dohc single, 4 valves 44.5 hp (33 kw) @ 8,500 rpm 39 nm (29 lb-ft) @ 6,500 rpm 159 kg 890 mm ktm 390-enduro-r enduro single general specifications engine 399 cc liquid-cooled dohc single, 4 valves displacement 399 cc max power 44.5 hp (33 kw) @ 8,500 rpm max torque 39 nm (29 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted wp fork, 230 mm travel rear suspension wp single shock, 220 mm travel front brake 320 mm disc, 2-piston caliper rear brake 240 mm disc abs cornering abs (off-road mode) tyres 90/90-21 front, 140/80-18 rear seat height 890 mm kerb weight 159 kg fuel capacity 9 l service data engine oil (with filter) 1.7 l (1.8 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 520 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ktm-390-smc-r-2025-present-global",
+      "title": "KTM 390 SMC R (2025–Present, Global)",
+      "meta": "Global · Supermoto · 399 cc",
+      "power": "44.5 hp (33 kW) @ 8,500 rpm",
+      "weight": "154 kg",
+      "url": "motorcycle.html?id=ktm-390-smc-r-2025-present-global",
+      "searchText": "ktm 390 smc r 2025–present global supermoto 399 cc a lightweight supermoto with the 390 engine, 17-inch wheels and aggressive wp suspension. 399 cc liquid-cooled dohc single, 4 valves 44.5 hp (33 kw) @ 8,500 rpm 39 nm (29 lb-ft) @ 6,500 rpm 154 kg 890 mm ktm 390-smc-r supermoto single general specifications engine 399 cc liquid-cooled dohc single, 4 valves displacement 399 cc max power 44.5 hp (33 kw) @ 8,500 rpm max torque 39 nm (29 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted wp fork, 230 mm travel rear suspension wp single shock, 220 mm travel front brake 320 mm disc, radial 4-piston caliper rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 160/60-17 rear seat height 890 mm kerb weight 154 kg fuel capacity 9 l service data engine oil (with filter) 1.7 l (1.8 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 520 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "ktm-450-sx-f-2022-present-global",
       "title": "KTM 450 SX-F (2022–Present, Global)",
       "meta": "Global · Motocross · 450 cc",
@@ -1969,6 +2609,16 @@
       "weight": "104 kg",
       "url": "motorcycle.html?id=ktm-450-sx-f-2022-present-global",
       "searchText": "ktm 450 sx-f 2022–present global motocross 450 cc ktm's premier motocross weapon, with a powerful single and race-ready wp suspension. 450 cc liquid-cooled sohc single, 4 valves 63 hp (47 kw) 49 nm (36 lb-ft) 104 kg 958 mm ktm 450-sx-f motocross single general specifications engine 450 cc liquid-cooled sohc single, 4 valves displacement 450 cc max power 63 hp (47 kw) max torque 49 nm (36 lb-ft) transmission 5-speed, chain final drive front suspension wp xact 48 mm fork, 310 mm travel rear suspension wp xact single shock, 300 mm travel front brake 260 mm disc rear brake 220 mm disc abs none tyres 80/100-21 front, 110/90-19 rear seat height 958 mm kerb weight 104 kg fuel capacity 7 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ktm-500-exc-f-2012-present-global",
+      "title": "KTM 500 EXC-F (2012–Present, Global)",
+      "meta": "Global · Enduro · 510 cc",
+      "power": "58 hp (43 kW)",
+      "weight": "111 kg",
+      "url": "motorcycle.html?id=ktm-500-exc-f-2012-present-global",
+      "searchText": "ktm 500 exc-f 2012–present global enduro 510 cc ktm's big-bore enduro four-stroke, with strong torque and a surprisingly light chassis. 510 cc liquid-cooled sohc single, 4 valves 58 hp (43 kw) 48 nm (35 lb-ft) 111 kg 960 mm ktm 500-exc-f enduro single general specifications engine 510 cc liquid-cooled sohc single, 4 valves displacement 510 cc max power 58 hp (43 kw) max torque 48 nm (35 lb-ft) transmission 6-speed, chain final drive front suspension wp xplor 48 mm fork, 300 mm travel rear suspension wp xplor single shock, 310 mm travel front brake 260 mm disc rear brake 220 mm disc abs none tyres 90/90-21 front, 140/80-18 rear seat height 960 mm kerb weight 111 kg fuel capacity 9 l service data engine oil (with filter) 1.0 l (1.05 us qt) oil grade sae 10w-50, jaso ma2"
     },
     {
       "type": "motorcycle",
@@ -1982,6 +2632,46 @@
     },
     {
       "type": "motorcycle",
+      "id": "ktm-690-smc-r-2008-present-global",
+      "title": "KTM 690 SMC R (2008–Present, Global)",
+      "meta": "Global · Supermoto · 692 cc",
+      "power": "74 hp (55 kW) @ 8,000 rpm",
+      "weight": "147 kg",
+      "url": "motorcycle.html?id=ktm-690-smc-r-2008-present-global",
+      "searchText": "ktm 690 smc r 2008–present global supermoto 692 cc a big-bore single-cylinder supermoto with a lightweight chassis and wp suspension. 692 cc liquid-cooled sohc single, 4 valves 74 hp (55 kw) @ 8,000 rpm 73.5 nm (54 lb-ft) @ 6,500 rpm 147 kg 890 mm ktm 690-smc-r supermoto single general specifications engine 692 cc liquid-cooled sohc single, 4 valves displacement 692 cc max power 74 hp (55 kw) @ 8,000 rpm max torque 73.5 nm (54 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 48 mm inverted wp apex fork rear suspension wp apex single shock front brake 320 mm disc, radial 4-piston caliper rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 160/60-17 rear seat height 890 mm kerb weight 147 kg fuel capacity 13.5 l service data engine oil (with filter) 1.7 l (1.8 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 520 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ktm-790-adventure-2019-2023-global",
+      "title": "KTM 790 Adventure (2019–2023, Global)",
+      "meta": "Global · Adventure · 799 cc",
+      "power": "95 hp (70 kW) @ 8,000 rpm",
+      "weight": "189 kg",
+      "url": "motorcycle.html?id=ktm-790-adventure-2019-2023-global",
+      "searchText": "ktm 790 adventure 2019–2023 global adventure 799 cc a middleweight adventure twin with a low-slung tank, long travel and genuine off-road ability. 799 cc liquid-cooled dohc parallel twin, 8 valves 95 hp (70 kw) @ 8,000 rpm 88 nm (65 lb-ft) @ 6,600 rpm 189 kg 830/850 mm ktm 790-adventure adventure twin general specifications engine 799 cc liquid-cooled dohc parallel twin, 8 valves displacement 799 cc max power 95 hp (70 kw) @ 8,000 rpm max torque 88 nm (65 lb-ft) @ 6,600 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted wp fork, 200 mm travel rear suspension wp single shock, 200 mm travel front brake 320 mm dual discs, radial 4-piston calipers rear brake 260 mm disc abs cornering abs tyres 90/90-21 front, 150/70-18 rear seat height 830/850 mm kerb weight 189 kg fuel capacity 20 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 525 o-ring, 116 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ktm-790-duke-2018-2023-global",
+      "title": "KTM 790 Duke (2018–2023, Global)",
+      "meta": "Global · Naked · 799 cc",
+      "power": "105 hp (77 kW) @ 9,000 rpm",
+      "weight": "169 kg",
+      "url": "motorcycle.html?id=ktm-790-duke-2018-2023-global",
+      "searchText": "ktm 790 duke 2018–2023 global naked 799 cc the original 790 duke, with a compact parallel twin and scalpel-sharp handling. 799 cc liquid-cooled dohc parallel twin, 8 valves 105 hp (77 kw) @ 9,000 rpm 87 nm (64 lb-ft) @ 8,000 rpm 169 kg 825 mm ktm 790-duke naked twin general specifications engine 799 cc liquid-cooled dohc parallel twin, 8 valves displacement 799 cc max power 105 hp (77 kw) @ 9,000 rpm max torque 87 nm (64 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted wp apex fork rear suspension wp apex single shock front brake 300 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 180/55-17 rear seat height 825 mm kerb weight 169 kg fuel capacity 14 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 525 o-ring, 116 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ktm-890-adventure-r-2021-present-global",
+      "title": "KTM 890 Adventure R (2021–Present, Global)",
+      "meta": "Global · Adventure · 889 cc",
+      "power": "105 hp (77 kW) @ 8,000 rpm",
+      "weight": "204 kg",
+      "url": "motorcycle.html?id=ktm-890-adventure-r-2021-present-global",
+      "searchText": "ktm 890 adventure r 2021–present global adventure 889 cc the off-road-focused 890 adventure, with fully adjustable wp suspension and a rally-inspired cockpit. 889 cc liquid-cooled dohc parallel twin, 8 valves 105 hp (77 kw) @ 8,000 rpm 100 nm (74 lb-ft) @ 6,500 rpm 204 kg 880 mm ktm 890-adventure-r adventure twin general specifications engine 889 cc liquid-cooled dohc parallel twin, 8 valves displacement 889 cc max power 105 hp (77 kw) @ 8,000 rpm max torque 100 nm (74 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 48 mm inverted wp xplor fork, 240 mm travel rear suspension wp xplor single shock, 240 mm travel front brake 320 mm dual discs, radial 4-piston calipers rear brake 260 mm disc abs cornering abs (off-road mode) tyres 90/90-21 front, 150/70-18 rear seat height 880 mm kerb weight 204 kg fuel capacity 20 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 525 o-ring, 116 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "ktm-890-duke-r-2020-present-global",
       "title": "KTM 890 Duke R (2020–Present, Global)",
       "meta": "Global · Naked · 889 cc",
@@ -1989,6 +2679,16 @@
       "weight": "181 kg",
       "url": "motorcycle.html?id=ktm-890-duke-r-2020-present-global",
       "searchText": "ktm 890 duke r 2020–present global naked 889 cc the track-focused 890 duke r, with a punchy parallel twin and fully adjustable wp suspension. 889 cc liquid-cooled dohc parallel twin, 8 valves 121 hp (89 kw) @ 9,250 rpm 99 nm (73 lb-ft) @ 7,750 rpm 181 kg 834 mm ktm 890-duke-r naked twin general specifications engine 889 cc liquid-cooled dohc parallel twin, 8 valves displacement 889 cc max power 121 hp (89 kw) @ 9,250 rpm max torque 99 nm (73 lb-ft) @ 7,750 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted wp apex fork rear suspension wp apex single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 180/55-17 rear seat height 834 mm kerb weight 181 kg fuel capacity 14.5 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 525 o-ring, 116 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "ktm-890-smt-2023-present-global",
+      "title": "KTM 890 SMT (2023–Present, Global)",
+      "meta": "Global · Sport Tourer · 889 cc",
+      "power": "105 hp (77 kW) @ 8,000 rpm",
+      "weight": "194 kg",
+      "url": "motorcycle.html?id=ktm-890-smt-2023-present-global",
+      "searchText": "ktm 890 smt 2023–present global sport tourer 889 cc a sport-touring take on the 890 platform, with 17-inch wheels and long-distance comfort. 889 cc liquid-cooled dohc parallel twin, 8 valves 105 hp (77 kw) @ 8,000 rpm 100 nm (74 lb-ft) @ 6,500 rpm 194 kg 860 mm ktm 890-smt sport-tourer twin general specifications engine 889 cc liquid-cooled dohc parallel twin, 8 valves displacement 889 cc max power 105 hp (77 kw) @ 8,000 rpm max torque 100 nm (74 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted wp apex fork rear suspension wp apex single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 180/55-17 rear seat height 860 mm kerb weight 194 kg fuel capacity 15.5 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 525 o-ring, 116 links"
     },
     {
       "type": "motorcycle",
@@ -2012,6 +2712,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "ktm-rc-200-2014-present-global",
+      "title": "KTM RC 200 (2014–Present, Global)",
+      "meta": "Global · Supersport · 199.5 cc",
+      "power": "25 hp (19 kW) @ 10,000 rpm",
+      "weight": "160 kg",
+      "url": "motorcycle.html?id=ktm-rc-200-2014-present-global",
+      "searchText": "ktm rc 200 2014–present global supersport 199.5 cc the faired 200 duke, with clip-on bars, aggressive bodywork and a track-ready chassis. 199.5 cc liquid-cooled dohc single, 4 valves 25 hp (19 kw) @ 10,000 rpm 19.2 nm (14 lb-ft) @ 8,000 rpm 160 kg 820 mm ktm rc-200 supersport single general specifications engine 199.5 cc liquid-cooled dohc single, 4 valves displacement 199.5 cc max power 25 hp (19 kw) @ 10,000 rpm max torque 19.2 nm (14 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork rear suspension single shock front brake 320 mm disc, radial 4-piston caliper rear brake 230 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 820 mm kerb weight 160 kg fuel capacity 13.4 l service data engine oil (with filter) 1.7 l (1.8 us qt) oil grade sae 10w-50, jaso ma2 chain / final drive 520 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "ktm-rc-390",
       "title": "KTM RC 390 (2021–2024, Global)",
       "meta": "Global · Supersport · 373 cc",
@@ -2029,6 +2739,16 @@
       "weight": "226 kg",
       "url": "motorcycle.html?id=kymco-ak-550-2017-present-global",
       "searchText": "kymco ak 550 2017–present global scooter 550 cc a sporty maxi-scooter with a 550 cc parallel twin and motorcycle-like dynamics. 550 cc liquid-cooled dohc parallel twin, 8 valves 53 hp (39 kw) @ 7,500 rpm 55 nm (41 lb-ft) @ 5,500 rpm 226 kg 785 mm kymco ak-550 scooter twin general specifications engine 550 cc liquid-cooled dohc parallel twin, 8 valves displacement 550 cc max power 53 hp (39 kw) @ 7,500 rpm max torque 55 nm (41 lb-ft) @ 5,500 rpm transmission cvt, belt final drive front suspension 41 mm inverted fork rear suspension twin shocks front brake 280 mm dual discs rear brake 260 mm disc abs dual-channel abs tyres 120/70-15 front, 160/60-15 rear seat height 785 mm kerb weight 226 kg fuel capacity 15 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "kymco-xciting-400-2018-present-global",
+      "title": "Kymco Xciting 400 (2018–Present, Global)",
+      "meta": "Global · Scooter · 400 cc",
+      "power": "35 hp (26 kW) @ 7,500 rpm",
+      "weight": "213 kg",
+      "url": "motorcycle.html?id=kymco-xciting-400-2018-present-global",
+      "searchText": "kymco xciting 400 2018–present global scooter 400 cc a maxi-scooter with a 400 cc single, generous storage and highway-capable comfort. 400 cc liquid-cooled sohc single, 4 valves 35 hp (26 kw) @ 7,500 rpm 37 nm (27 lb-ft) @ 6,000 rpm 213 kg 805 mm kymco xciting-400 scooter single general specifications engine 400 cc liquid-cooled sohc single, 4 valves displacement 400 cc max power 35 hp (26 kw) @ 7,500 rpm max torque 37 nm (27 lb-ft) @ 6,000 rpm transmission cvt, belt final drive front suspension 41 mm telescopic fork rear suspension twin shocks front brake 280 mm dual discs rear brake 240 mm disc abs dual-channel abs tyres 120/70-15 front, 150/70-14 rear seat height 805 mm kerb weight 213 kg fuel capacity 12.5 l service data engine oil (with filter) 2.0 l (2.1 us qt) oil grade sae 5w-40, jaso mb"
     },
     {
       "type": "motorcycle",
@@ -2052,6 +2772,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "moto-guzzi-v100-stelvio-2024-present-global",
+      "title": "Moto Guzzi V100 Stelvio (2024–Present, Global)",
+      "meta": "Global · Adventure · 1,042 cc",
+      "power": "115 hp (85 kW) @ 8,750 rpm",
+      "weight": "246 kg",
+      "url": "motorcycle.html?id=moto-guzzi-v100-stelvio-2024-present-global",
+      "searchText": "moto guzzi v100 stelvio 2024–present global adventure 1,042 cc an adventure-touring version of the v100 mandello, with a 21-inch front wheel and long-travel suspension. 1,042 cc liquid-cooled dohc v-twin, 8 valves 115 hp (85 kw) @ 8,750 rpm 105 nm (77 lb-ft) @ 6,750 rpm 246 kg 830 mm moto-guzzi v100-stelvio adventure v-twin general specifications engine 1,042 cc liquid-cooled dohc v-twin, 8 valves displacement 1,042 cc max power 115 hp (85 kw) @ 8,750 rpm max torque 105 nm (77 lb-ft) @ 6,750 rpm transmission 6-speed, shaft final drive front suspension 46 mm inverted fork, 170 mm travel rear suspension single shock, 170 mm travel front brake 320 mm dual discs, radial 4-piston calipers rear brake 280 mm disc abs cornering abs tyres 120/70-19 front, 170/60-17 rear seat height 830 mm kerb weight 246 kg fuel capacity 17 l service data engine oil (with filter) 3.5 l (3.7 us qt) oil grade sae 5w-40, jaso ma2"
+    },
+    {
+      "type": "motorcycle",
       "id": "moto-guzzi-v7-850-2021-present-global",
       "title": "Moto Guzzi V7 850 (2021–Present, Global)",
       "meta": "Global · Retro · 853 cc",
@@ -2072,6 +2802,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "moto-guzzi-v9-bobber-2016-present-global",
+      "title": "Moto Guzzi V9 Bobber (2016–Present, Global)",
+      "meta": "Global · Cruiser · 853 cc",
+      "power": "65 hp (48 kW) @ 6,800 rpm",
+      "weight": "199 kg",
+      "url": "motorcycle.html?id=moto-guzzi-v9-bobber-2016-present-global",
+      "searchText": "moto guzzi v9 bobber 2016–present global cruiser 853 cc a minimalist bobber with moto guzzi's transverse v-twin, shaft drive and fat tyres. 853 cc air-cooled ohv v-twin, 4 valves 65 hp (48 kw) @ 6,800 rpm 73 nm (54 lb-ft) @ 5,000 rpm 199 kg 785 mm moto-guzzi v9-bobber cruiser v-twin general specifications engine 853 cc air-cooled ohv v-twin, 4 valves displacement 853 cc max power 65 hp (48 kw) @ 6,800 rpm max torque 73 nm (54 lb-ft) @ 5,000 rpm transmission 6-speed, shaft final drive front suspension 40 mm telescopic fork rear suspension twin shocks front brake 320 mm disc, 4-piston caliper rear brake 260 mm disc abs dual-channel abs tyres 130/90-16 front, 150/80-16 rear seat height 785 mm kerb weight 199 kg fuel capacity 15 l service data engine oil (with filter) 2.0 l (2.1 us qt) oil grade sae 10w-60, jaso ma2"
+    },
+    {
+      "type": "motorcycle",
       "id": "ola-s1-pro-2021-present-india",
       "title": "Ola S1 Pro (2021–Present, India)",
       "meta": "India · Scooter · —",
@@ -2082,6 +2822,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "ola-s1-x-2023-present-india",
+      "title": "Ola S1 X (2023–Present, India)",
+      "meta": "India · Scooter · —",
+      "power": "8 hp (6 kW)",
+      "weight": "108 kg",
+      "url": "motorcycle.html?id=ola-s1-x-2023-present-india",
+      "searchText": "ola s1 x 2023–present india scooter — a more affordable ola electric scooter, with a 4 kwh battery and connected features. mid-drive electric motor, 4 kwh battery 8 hp (6 kw) 58 nm (43 lb-ft) 108 kg 792 mm ola s1-x scooter general specifications engine mid-drive electric motor, 4 kwh battery displacement — max power 8 hp (6 kw) max torque 58 nm (43 lb-ft) transmission single-speed, belt final drive front suspension twin telescopic fork rear suspension single shock front brake 220 mm disc rear brake 180 mm disc abs combined braking system tyres 110/70-12 front, 110/70-12 rear seat height 792 mm kerb weight 108 kg fuel capacity 4 kwh battery top speed 90 km/h"
+    },
+    {
+      "type": "motorcycle",
       "id": "piaggio-mp3-300-2023-present-global",
       "title": "Piaggio MP3 300 (2023–Present, Global)",
       "meta": "Global · Scooter · 278 cc",
@@ -2089,6 +2839,16 @@
       "weight": "280 kg",
       "url": "motorcycle.html?id=piaggio-mp3-300-2023-present-global",
       "searchText": "piaggio mp3 300 2023–present global scooter 278 cc the three-wheeled maxi-scooter, with dual front wheels for extra stability and confidence. 278 cc liquid-cooled sohc single, 4 valves 26 hp (19 kw) @ 7,500 rpm 26 nm (19 lb-ft) @ 5,000 rpm 280 kg 780 mm piaggio mp3-300 scooter single general specifications engine 278 cc liquid-cooled sohc single, 4 valves displacement 278 cc max power 26 hp (19 kw) @ 7,500 rpm max torque 26 nm (19 lb-ft) @ 5,000 rpm transmission cvt, belt final drive front suspension articulated quad fork rear suspension twin shocks front brake 258 mm dual discs rear brake 258 mm disc abs dual-channel abs tyres 110/70-13 front, 140/70-14 rear seat height 780 mm kerb weight 280 kg fuel capacity 11 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "qjmotor-srt-550-2022-present-global",
+      "title": "QJMotor SRT 550 (2022–Present, Global)",
+      "meta": "Global · Adventure · 554 cc",
+      "power": "55 hp (41 kW) @ 7,500 rpm",
+      "weight": "210 kg",
+      "url": "motorcycle.html?id=qjmotor-srt-550-2022-present-global",
+      "searchText": "qjmotor srt 550 2022–present global adventure 554 cc a middleweight adventure twin with a tall stance, long-travel suspension and touring equipment. 554 cc liquid-cooled dohc parallel twin, 8 valves 55 hp (41 kw) @ 7,500 rpm 55 nm (41 lb-ft) @ 5,500 rpm 210 kg 830 mm qjmotor srt-550 adventure twin general specifications engine 554 cc liquid-cooled dohc parallel twin, 8 valves displacement 554 cc max power 55 hp (41 kw) @ 7,500 rpm max torque 55 nm (41 lb-ft) @ 5,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork, 150 mm travel rear suspension single shock, 150 mm travel front brake 320 mm dual discs, 4-piston calipers rear brake 240 mm disc abs dual-channel abs tyres 110/80-19 front, 150/70-17 rear seat height 830 mm kerb weight 210 kg fuel capacity 20 l service data engine oil (with filter) 2.5 l (2.6 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 118 links"
     },
     {
       "type": "motorcycle",
@@ -2232,6 +2992,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "royal-enfield-scram-440-2025-present-global",
+      "title": "Royal Enfield Scram 440 (2025–Present, Global)",
+      "meta": "Global · Scrambler · 443 cc",
+      "power": "25.4 hp (19 kW) @ 6,250 rpm",
+      "weight": "196 kg",
+      "url": "motorcycle.html?id=royal-enfield-scram-440-2025-present-global",
+      "searchText": "royal enfield scram 440 2025–present global scrambler 443 cc a larger, more powerful scram with the updated 443 cc single and improved off-road equipment. 443 cc air/oil-cooled sohc single, 2 valves 25.4 hp (19 kw) @ 6,250 rpm 34 nm (25 lb-ft) @ 4,000 rpm 196 kg 825 mm royal-enfield scram-440 scrambler single general specifications engine 443 cc air/oil-cooled sohc single, 2 valves displacement 443 cc max power 25.4 hp (19 kw) @ 6,250 rpm max torque 34 nm (25 lb-ft) @ 4,000 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork, 200 mm travel rear suspension single shock, 180 mm travel front brake 320 mm disc, 2-piston caliper rear brake 270 mm disc abs dual-channel abs tyres 100/90-19 front, 140/80-17 rear seat height 825 mm kerb weight 196 kg fuel capacity 13.5 l service data engine oil (with filter) 1.8 l (1.9 us qt) oil grade sae 15w-50, jaso ma2 chain / final drive 520 o-ring, 110 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "royal-enfield-shotgun-650-2024-present-global",
       "title": "Royal Enfield Shotgun 650 (2024–Present, Global)",
       "meta": "Global · Cruiser · 648 cc",
@@ -2252,6 +3022,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "stark-varg-2023-present-global",
+      "title": "Stark Varg (2023–Present, Global)",
+      "meta": "Global · Motocross · —",
+      "power": "80 hp (60 kW)",
+      "weight": "118 kg",
+      "url": "motorcycle.html?id=stark-varg-2023-present-global",
+      "searchText": "stark varg 2023–present global motocross — a high-performance electric motocross bike with 80 hp, 938 nm at the rear wheel and adjustable power delivery. permanent-magnet electric motor, 6 kwh battery 80 hp (60 kw) 938 nm (692 lb-ft) at the rear wheel 118 kg 950 mm stark varg motocross general specifications engine permanent-magnet electric motor, 6 kwh battery displacement — max power 80 hp (60 kw) max torque 938 nm (692 lb-ft) at the rear wheel transmission single-speed, chain final drive front suspension 48 mm inverted kyb fork, 310 mm travel rear suspension kyb single shock, 300 mm travel front brake 260 mm disc rear brake 220 mm disc abs none tyres 80/100-21 front, 110/90-19 rear seat height 950 mm kerb weight 118 kg fuel capacity 6 kwh battery top speed 120 km/h"
+    },
+    {
+      "type": "motorcycle",
       "id": "suzuki-access-125-2020-present-india",
       "title": "Suzuki Access 125 (2020–Present, India)",
       "meta": "India · Scooter · 124 cc",
@@ -2262,6 +3042,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "suzuki-boulevard-m109r-2006-present-global",
+      "title": "Suzuki Boulevard M109R (2006–Present, Global)",
+      "meta": "Global · Cruiser · 1,783 cc",
+      "power": "123 hp (92 kW) @ 6,200 rpm",
+      "weight": "347 kg",
+      "url": "motorcycle.html?id=suzuki-boulevard-m109r-2006-present-global",
+      "searchText": "suzuki boulevard m109r 2006–present global cruiser 1,783 cc a massive power cruiser with a 1,783 cc v-twin, muscular styling and a surprisingly capable chassis. 1,783 cc liquid-cooled dohc v-twin, 8 valves 123 hp (92 kw) @ 6,200 rpm 160 nm (118 lb-ft) @ 3,200 rpm 347 kg 705 mm suzuki boulevard-m109r cruiser v-twin general specifications engine 1,783 cc liquid-cooled dohc v-twin, 8 valves displacement 1,783 cc max power 123 hp (92 kw) @ 6,200 rpm max torque 160 nm (118 lb-ft) @ 3,200 rpm transmission 5-speed, shaft final drive front suspension 46 mm inverted fork rear suspension link-type single shock front brake 310 mm dual discs, 4-piston calipers rear brake 275 mm disc abs dual-channel abs tyres 130/70-18 front, 240/40-18 rear seat height 705 mm kerb weight 347 kg fuel capacity 19.5 l service data engine oil (with filter) 4.5 l (4.8 us qt) oil grade sae 10w-40, jaso ma2"
+    },
+    {
+      "type": "motorcycle",
       "id": "suzuki-burgman-400-2017-present-global",
       "title": "Suzuki Burgman 400 (2017–Present, Global)",
       "meta": "Global · Scooter · 400 cc",
@@ -2269,6 +3059,16 @@
       "weight": "215 kg",
       "url": "motorcycle.html?id=suzuki-burgman-400-2017-present-global",
       "searchText": "suzuki burgman 400 2017–present global scooter 400 cc a comfortable maxi-scooter with a 400 cc single, generous storage and highway-capable performance. 400 cc liquid-cooled dohc single, 4 valves 31 hp (23 kw) @ 6,300 rpm 36 nm (27 lb-ft) @ 4,900 rpm 215 kg 755 mm suzuki burgman-400 scooter single general specifications engine 400 cc liquid-cooled dohc single, 4 valves displacement 400 cc max power 31 hp (23 kw) @ 6,300 rpm max torque 36 nm (27 lb-ft) @ 4,900 rpm transmission cvt, belt final drive front suspension 41 mm telescopic fork rear suspension link-type single shock front brake 260 mm dual discs, 2-piston calipers rear brake 210 mm disc abs dual-channel abs tyres 120/70-15 front, 150/70-13 rear seat height 755 mm kerb weight 215 kg fuel capacity 13.5 l service data engine oil (with filter) 2.3 l (2.4 us qt) oil grade sae 10w-40, jaso ma2"
+    },
+    {
+      "type": "motorcycle",
+      "id": "suzuki-burgman-street-125-2018-present-india",
+      "title": "Suzuki Burgman Street 125 (2018–Present, India)",
+      "meta": "India · Scooter · 124 cc",
+      "power": "8.6 hp (6.4 kW) @ 6,750 rpm",
+      "weight": "110 kg",
+      "url": "motorcycle.html?id=suzuki-burgman-street-125-2018-present-india",
+      "searchText": "suzuki burgman street 125 2018–present india scooter 124 cc a practical 125 cc scooter with maxi-scooter styling, a comfortable seat and good storage. 124 cc air-cooled sohc single, 2 valves 8.6 hp (6.4 kw) @ 6,750 rpm 10.2 nm (8 lb-ft) @ 5,000 rpm 110 kg 780 mm suzuki burgman-street-125 scooter single general specifications engine 124 cc air-cooled sohc single, 2 valves displacement 124 cc max power 8.6 hp (6.4 kw) @ 6,750 rpm max torque 10.2 nm (8 lb-ft) @ 5,000 rpm transmission cvt, belt final drive front suspension 26 mm telescopic fork rear suspension single shock front brake 120 mm disc rear brake 120 mm drum abs combined braking system tyres 90/90-12 front, 90/100-10 rear seat height 780 mm kerb weight 110 kg fuel capacity 5.3 l service data engine oil (with filter) 0.7 l (0.75 us qt) oil grade sae 10w-30, jaso mb"
     },
     {
       "type": "motorcycle",
@@ -2289,6 +3089,16 @@
       "weight": "156 kg",
       "url": "motorcycle.html?id=suzuki-gixxer-250-2019-present-india",
       "searchText": "suzuki gixxer 250 2019–present india naked 249 cc suzuki's quarter-litre naked for india and global markets, with an oil-cooled single and sporty chassis. 249 cc oil-cooled sohc single, 4 valves 26.5 hp (19.8 kw) @ 9,300 rpm 22.2 nm (16 lb-ft) @ 7,300 rpm 156 kg 795 mm suzuki gixxer-250 naked single general specifications engine 249 cc oil-cooled sohc single, 4 valves displacement 249 cc max power 26.5 hp (19.8 kw) @ 9,300 rpm max torque 22.2 nm (16 lb-ft) @ 7,300 rpm transmission 6-speed, chain final drive front suspension 41 mm telescopic fork rear suspension single shock front brake 300 mm disc, 2-piston caliper rear brake 240 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 795 mm kerb weight 156 kg fuel capacity 12 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 108 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "suzuki-gixxer-sf-250-2019-present-india",
+      "title": "Suzuki Gixxer SF 250 (2019–Present, India)",
+      "meta": "India · Supersport · 249 cc",
+      "power": "26.5 hp (19.8 kW) @ 9,300 rpm",
+      "weight": "161 kg",
+      "url": "motorcycle.html?id=suzuki-gixxer-sf-250-2019-present-india",
+      "searchText": "suzuki gixxer sf 250 2019–present india supersport 249 cc suzuki's faired 250 cc sportbike for india, with an oil-cooled single and sharp handling. 249 cc oil-cooled sohc single, 4 valves 26.5 hp (19.8 kw) @ 9,300 rpm 22.2 nm (16 lb-ft) @ 7,300 rpm 161 kg 795 mm suzuki gixxer-sf-250 supersport single general specifications engine 249 cc oil-cooled sohc single, 4 valves displacement 249 cc max power 26.5 hp (19.8 kw) @ 9,300 rpm max torque 22.2 nm (16 lb-ft) @ 7,300 rpm transmission 6-speed, chain final drive front suspension 41 mm telescopic fork rear suspension single shock front brake 300 mm disc, 2-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 795 mm kerb weight 161 kg fuel capacity 12 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 108 links"
     },
     {
       "type": "motorcycle",
@@ -2422,6 +3232,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "suzuki-gsx-s1000gt-2022-present-global",
+      "title": "Suzuki GSX-S1000GT (2022–Present, Global)",
+      "meta": "Global · Sport Tourer · 999 cc",
+      "power": "150 hp (110 kW) @ 11,000 rpm",
+      "weight": "226 kg",
+      "url": "motorcycle.html?id=suzuki-gsx-s1000gt-2022-present-global",
+      "searchText": "suzuki gsx-s1000gt 2022–present global sport tourer 999 cc a sport-touring version of the gsx-s1000, with a full fairing, hard luggage and long-distance comfort. 999 cc liquid-cooled dohc inline-four, 16 valves 150 hp (110 kw) @ 11,000 rpm 106 nm (78 lb-ft) @ 9,250 rpm 226 kg 810 mm suzuki gsx-s1000gt sport-tourer inline-4 general specifications engine 999 cc liquid-cooled dohc inline-four, 16 valves displacement 999 cc max power 150 hp (110 kw) @ 11,000 rpm max torque 106 nm (78 lb-ft) @ 9,250 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork rear suspension link-type single shock front brake 310 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 190/50-17 rear seat height 810 mm kerb weight 226 kg fuel capacity 19 l service data engine oil (with filter) 3.7 l (3.9 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "suzuki-gsx-s750-2017-present-global",
       "title": "Suzuki GSX-S750 (2017–Present, Global)",
       "meta": "Global · Naked · 749 cc",
@@ -2462,6 +3282,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "suzuki-gsx250r-2017-present-global",
+      "title": "Suzuki GSX250R (2017–Present, Global)",
+      "meta": "Global · Supersport · 248 cc",
+      "power": "25 hp (18 kW) @ 8,000 rpm",
+      "weight": "181 kg",
+      "url": "motorcycle.html?id=suzuki-gsx250r-2017-present-global",
+      "searchText": "suzuki gsx250r 2017–present global supersport 248 cc a friendly quarter-litre sportbike with a smooth parallel twin and full fairing. 248 cc liquid-cooled sohc parallel twin, 4 valves 25 hp (18 kw) @ 8,000 rpm 23.4 nm (17 lb-ft) @ 6,500 rpm 181 kg 790 mm suzuki gsx250r supersport twin general specifications engine 248 cc liquid-cooled sohc parallel twin, 4 valves displacement 248 cc max power 25 hp (18 kw) @ 8,000 rpm max torque 23.4 nm (17 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 37 mm telescopic fork rear suspension single shock front brake 290 mm disc, 2-piston caliper rear brake 240 mm disc abs dual-channel abs tyres 110/80-17 front, 140/70-17 rear seat height 790 mm kerb weight 181 kg fuel capacity 15 l service data engine oil (with filter) 2.2 l (2.3 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 116 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "suzuki-katana-2019-present-global",
       "title": "Suzuki Katana (2019–Present, Global)",
       "meta": "Global · Retro · 999 cc",
@@ -2492,6 +3322,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "suzuki-v-strom-1050de-2023-present-global",
+      "title": "Suzuki V-Strom 1050DE (2023–Present, Global)",
+      "meta": "Global · Adventure · 1,037 cc",
+      "power": "107 hp (79 kW) @ 8,500 rpm",
+      "weight": "252 kg",
+      "url": "motorcycle.html?id=suzuki-v-strom-1050de-2023-present-global",
+      "searchText": "suzuki v-strom 1050de 2023–present global adventure 1,037 cc the more off-road-focused v-strom 1050, with a 21-inch front wheel, longer travel and switchable abs. 1,037 cc liquid-cooled dohc v-twin, 8 valves 107 hp (79 kw) @ 8,500 rpm 100 nm (74 lb-ft) @ 6,000 rpm 252 kg 880 mm suzuki v-strom-1050de adventure v-twin general specifications engine 1,037 cc liquid-cooled dohc v-twin, 8 valves displacement 1,037 cc max power 107 hp (79 kw) @ 8,500 rpm max torque 100 nm (74 lb-ft) @ 6,000 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork, 170 mm travel rear suspension link-type single shock, 170 mm travel front brake 310 mm dual discs, radial 4-piston calipers rear brake 260 mm disc abs cornering abs (off-road mode) tyres 90/90-21 front, 150/70-17 rear seat height 880 mm kerb weight 252 kg fuel capacity 20 l service data engine oil (with filter) 3.7 l (3.9 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "suzuki-v-strom-650-2017-present-global",
       "title": "Suzuki V-Strom 650 (2017–Present, Global)",
       "meta": "Global · Adventure · 645 cc",
@@ -2512,6 +3352,26 @@
     },
     {
       "type": "motorcycle",
+      "id": "suzuki-v-strom-sx-250-2022-present-india",
+      "title": "Suzuki V-Strom SX 250 (2022–Present, India)",
+      "meta": "India · Adventure · 249 cc",
+      "power": "26.5 hp (19.8 kW) @ 9,300 rpm",
+      "weight": "167 kg",
+      "url": "motorcycle.html?id=suzuki-v-strom-sx-250-2022-present-india",
+      "searchText": "suzuki v-strom sx 250 2022–present india adventure 249 cc a lightweight adventure-styled 250 based on the gixxer platform, aimed at indian and asian markets. 249 cc oil-cooled sohc single, 4 valves 26.5 hp (19.8 kw) @ 9,300 rpm 22.2 nm (16 lb-ft) @ 7,300 rpm 167 kg 835 mm suzuki v-strom-sx-250 adventure single general specifications engine 249 cc oil-cooled sohc single, 4 valves displacement 249 cc max power 26.5 hp (19.8 kw) @ 9,300 rpm max torque 22.2 nm (16 lb-ft) @ 7,300 rpm transmission 6-speed, chain final drive front suspension 41 mm telescopic fork rear suspension single shock front brake 280 mm disc, 2-piston caliper rear brake 240 mm disc abs dual-channel abs tyres 100/90-19 front, 140/70-17 rear seat height 835 mm kerb weight 167 kg fuel capacity 12 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 108 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "sym-adx-125-2022-present-global",
+      "title": "SYM ADX 125 (2022–Present, Global)",
+      "meta": "Global · Scooter · 125 cc",
+      "power": "12.5 hp (9.3 kW) @ 8,500 rpm",
+      "weight": "136 kg",
+      "url": "motorcycle.html?id=sym-adx-125-2022-present-global",
+      "searchText": "sym adx 125 2022–present global scooter 125 cc an adventure-styled 125 cc scooter with long-travel suspension and rugged bodywork. 125 cc liquid-cooled sohc single, 4 valves 12.5 hp (9.3 kw) @ 8,500 rpm 11.5 nm (8.5 lb-ft) @ 6,500 rpm 136 kg 795 mm sym adx-125 scooter single general specifications engine 125 cc liquid-cooled sohc single, 4 valves displacement 125 cc max power 12.5 hp (9.3 kw) @ 8,500 rpm max torque 11.5 nm (8.5 lb-ft) @ 6,500 rpm transmission cvt, belt final drive front suspension 37 mm telescopic fork rear suspension twin shocks front brake 260 mm disc rear brake 230 mm disc abs dual-channel abs tyres 120/70-13 front, 130/70-13 rear seat height 795 mm kerb weight 136 kg fuel capacity 7.5 l service data engine oil (with filter) 1.0 l (1.05 us qt) oil grade sae 5w-40, jaso mb"
+    },
+    {
+      "type": "motorcycle",
       "id": "sym-maxsym-400-2021-present-global",
       "title": "SYM Maxsym 400 (2021–Present, Global)",
       "meta": "Global · Scooter · 399 cc",
@@ -2529,6 +3389,16 @@
       "weight": "251 kg",
       "url": "motorcycle.html?id=triumph-bonneville-bobber-2017-present-global",
       "searchText": "triumph bonneville bobber 2017–present global cruiser 1,200 cc a stripped-back factory bobber with the bonneville 1,200 cc twin, solo seat and floating aluminium styling. 1,200 cc liquid-cooled sohc parallel twin, 8 valves 76 hp (57 kw) @ 6,100 rpm 106 nm (78 lb-ft) @ 4,000 rpm 251 kg 690 mm triumph bonneville-bobber cruiser twin general specifications engine 1,200 cc liquid-cooled sohc parallel twin, 8 valves displacement 1,200 cc max power 76 hp (57 kw) @ 6,100 rpm max torque 106 nm (78 lb-ft) @ 4,000 rpm transmission 6-speed, chain final drive front suspension 47 mm telescopic fork rear suspension single shock front brake 310 mm dual discs, 2-piston calipers rear brake 255 mm disc abs dual-channel abs tyres 100/90-19 front, 150/80-16 rear seat height 690 mm kerb weight 251 kg fuel capacity 12 l service data engine oil (with filter) 3.8 l (4.0 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 112 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "triumph-bonneville-speedmaster-2018-present-global",
+      "title": "Triumph Bonneville Speedmaster (2018–Present, Global)",
+      "meta": "Global · Cruiser · 1,200 cc",
+      "power": "76 hp (57 kW) @ 6,100 rpm",
+      "weight": "263 kg",
+      "url": "motorcycle.html?id=triumph-bonneville-speedmaster-2018-present-global",
+      "searchText": "triumph bonneville speedmaster 2018–present global cruiser 1,200 cc a relaxed bonneville cruiser with forward controls, a low seat and the 1,200 cc parallel twin. 1,200 cc liquid-cooled sohc parallel twin, 8 valves 76 hp (57 kw) @ 6,100 rpm 106 nm (78 lb-ft) @ 4,000 rpm 263 kg 705 mm triumph bonneville-speedmaster cruiser twin general specifications engine 1,200 cc liquid-cooled sohc parallel twin, 8 valves displacement 1,200 cc max power 76 hp (57 kw) @ 6,100 rpm max torque 106 nm (78 lb-ft) @ 4,000 rpm transmission 6-speed, chain final drive front suspension 47 mm telescopic fork rear suspension single shock front brake 310 mm dual discs, 2-piston calipers rear brake 255 mm disc abs dual-channel abs tyres 100/90-19 front, 150/80-16 rear seat height 705 mm kerb weight 263 kg fuel capacity 12 l service data engine oil (with filter) 3.8 l (4.0 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 112 links"
     },
     {
       "type": "motorcycle",
@@ -2562,6 +3432,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "triumph-rocket-3-gt-2020-present-global",
+      "title": "Triumph Rocket 3 GT (2020–Present, Global)",
+      "meta": "Global · Cruiser · 2,458 cc",
+      "power": "165 hp (123 kW) @ 6,000 rpm",
+      "weight": "294 kg",
+      "url": "motorcycle.html?id=triumph-rocket-3-gt-2020-present-global",
+      "searchText": "triumph rocket 3 gt 2020–present global cruiser 2,458 cc the touring version of the rocket 3, with a 2,458 cc triple, forward controls and a relaxed riding position. 2,458 cc liquid-cooled dohc inline-three, 12 valves 165 hp (123 kw) @ 6,000 rpm 221 nm (163 lb-ft) @ 4,000 rpm 294 kg 750 mm triumph rocket-3-gt cruiser triple general specifications engine 2,458 cc liquid-cooled dohc inline-three, 12 valves displacement 2,458 cc max power 165 hp (123 kw) @ 6,000 rpm max torque 221 nm (163 lb-ft) @ 4,000 rpm transmission 6-speed, shaft final drive front suspension 47 mm inverted showa fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 300 mm disc abs cornering abs tyres 150/80-17 front, 240/50-16 rear seat height 750 mm kerb weight 294 kg fuel capacity 18 l service data engine oil (with filter) 5.5 l (5.8 us qt) oil grade sae 10w-40, jaso ma2"
+    },
+    {
+      "type": "motorcycle",
       "id": "triumph-rocket-3-r-2020-present-global",
       "title": "Triumph Rocket 3 R (2020–Present, Global)",
       "meta": "Global · Cruiser · 2,458 cc",
@@ -2569,6 +3449,16 @@
       "weight": "291 kg",
       "url": "motorcycle.html?id=triumph-rocket-3-r-2020-present-global",
       "searchText": "triumph rocket 3 r 2020–present global cruiser 2,458 cc the world's largest production motorcycle engine: a 2,458 cc triple in a muscular power cruiser. 2,458 cc liquid-cooled dohc inline-three, 12 valves 165 hp (123 kw) @ 6,000 rpm 221 nm (163 lb-ft) @ 4,000 rpm 291 kg 773 mm triumph rocket-3-r cruiser triple general specifications engine 2,458 cc liquid-cooled dohc inline-three, 12 valves displacement 2,458 cc max power 165 hp (123 kw) @ 6,000 rpm max torque 221 nm (163 lb-ft) @ 4,000 rpm transmission 6-speed, shaft final drive front suspension 47 mm inverted showa fork rear suspension single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 300 mm disc abs cornering abs tyres 150/80-17 front, 240/50-16 rear seat height 773 mm kerb weight 291 kg fuel capacity 18 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "triumph-scrambler-1200-xe-2019-present-global",
+      "title": "Triumph Scrambler 1200 XE (2019–Present, Global)",
+      "meta": "Global · Scrambler · 1,200 cc",
+      "power": "89 hp (66 kW) @ 7,250 rpm",
+      "weight": "230 kg",
+      "url": "motorcycle.html?id=triumph-scrambler-1200-xe-2019-present-global",
+      "searchText": "triumph scrambler 1200 xe 2019–present global scrambler 1,200 cc the off-road-focused scrambler 1200, with long-travel öhlins suspension and a 21-inch front wheel. 1,200 cc liquid-cooled sohc parallel twin, 8 valves 89 hp (66 kw) @ 7,250 rpm 110 nm (81 lb-ft) @ 4,500 rpm 230 kg 870 mm triumph scrambler-1200-xe scrambler twin general specifications engine 1,200 cc liquid-cooled sohc parallel twin, 8 valves displacement 1,200 cc max power 89 hp (66 kw) @ 7,250 rpm max torque 110 nm (81 lb-ft) @ 4,500 rpm transmission 6-speed, chain final drive front suspension 45 mm inverted showa fork, 250 mm travel rear suspension öhlins twin shocks, 250 mm travel front brake 320 mm dual discs, radial 4-piston calipers rear brake 255 mm disc abs cornering abs (off-road mode) tyres 90/90-21 front, 150/70-17 rear seat height 870 mm kerb weight 230 kg fuel capacity 16 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 118 links"
     },
     {
       "type": "motorcycle",
@@ -2599,6 +3489,16 @@
       "weight": "170 kg",
       "url": "motorcycle.html?id=triumph-speed-400-2023-present-global",
       "searchText": "triumph speed 400 2023-present global naked 398 cc triumph's entry-level roadster, developed with bajaj and built for global markets. 398 cc liquid-cooled dohc single, 4 valves 40 hp (30 kw) @ 8,000 rpm 37.5 nm (28 lb-ft) @ 6,500 rpm 170 kg 790 mm triumph speed-400 naked single general specifications engine 398 cc liquid-cooled dohc single, 4 valves displacement 398 cc max power 40 hp (30 kw) @ 8,000 rpm max torque 37.5 nm (28 lb-ft) @ 6,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork rear suspension single shock front brake 300 mm disc, radial 4-piston caliper rear brake 230 mm disc abs dual-channel abs tyres 110/70-17 front, 150/60-17 rear seat height 790 mm kerb weight 170 kg fuel capacity 13 l service data engine oil (with filter) 1.8 l (1.9 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 110 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "triumph-speed-triple-1200-rr-2022-present-global",
+      "title": "Triumph Speed Triple 1200 RR (2022–Present, Global)",
+      "meta": "Global · Sport · 1,160 cc",
+      "power": "177 hp (132 kW) @ 10,750 rpm",
+      "weight": "199 kg",
+      "url": "motorcycle.html?id=triumph-speed-triple-1200-rr-2022-present-global",
+      "searchText": "triumph speed triple 1200 rr 2022–present global sport 1,160 cc a faired, more focused speed triple with öhlins semi-active suspension and a café-racer-inspired front end. 1,160 cc liquid-cooled dohc inline-three, 12 valves 177 hp (132 kw) @ 10,750 rpm 125 nm (92 lb-ft) @ 9,000 rpm 199 kg 830 mm triumph speed-triple-1200-rr sport triple general specifications engine 1,160 cc liquid-cooled dohc inline-three, 12 valves displacement 1,160 cc max power 177 hp (132 kw) @ 10,750 rpm max torque 125 nm (92 lb-ft) @ 9,000 rpm transmission 6-speed, chain final drive front suspension 43 mm öhlins semi-active fork rear suspension öhlins semi-active shock front brake 320 mm dual discs, brembo stylema radial 4-piston calipers rear brake 220 mm disc abs cornering abs tyres 120/70-17 front, 190/55-17 rear seat height 830 mm kerb weight 199 kg fuel capacity 15.5 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 120 links"
     },
     {
       "type": "motorcycle",
@@ -2652,6 +3552,26 @@
     },
     {
       "type": "motorcycle",
+      "id": "triumph-tiger-sport-660-2022-present-global",
+      "title": "Triumph Tiger Sport 660 (2022–Present, Global)",
+      "meta": "Global · Sport Tourer · 660 cc",
+      "power": "80 hp (59 kW) @ 10,250 rpm",
+      "weight": "206 kg",
+      "url": "motorcycle.html?id=triumph-tiger-sport-660-2022-present-global",
+      "searchText": "triumph tiger sport 660 2022–present global sport tourer 660 cc a road-focused sport-tourer based on the trident 660, with a taller stance and touring equipment. 660 cc liquid-cooled dohc inline-three, 12 valves 80 hp (59 kw) @ 10,250 rpm 64 nm (47 lb-ft) @ 6,250 rpm 206 kg 835 mm triumph tiger-sport-660 sport-tourer triple general specifications engine 660 cc liquid-cooled dohc inline-three, 12 valves displacement 660 cc max power 80 hp (59 kw) @ 10,250 rpm max torque 64 nm (47 lb-ft) @ 6,250 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted showa fork rear suspension single shock front brake 310 mm dual discs, 2-piston calipers rear brake 255 mm disc abs dual-channel abs tyres 120/70-17 front, 180/55-17 rear seat height 835 mm kerb weight 206 kg fuel capacity 17.2 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 112 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "triumph-tiger-sport-800-2025-present-global",
+      "title": "Triumph Tiger Sport 800 (2025–Present, Global)",
+      "meta": "Global · Sport Tourer · 798 cc",
+      "power": "113 hp (84 kW) @ 10,750 rpm",
+      "weight": "214 kg",
+      "url": "motorcycle.html?id=triumph-tiger-sport-800-2025-present-global",
+      "searchText": "triumph tiger sport 800 2025–present global sport tourer 798 cc a new middleweight sport-tourer with a larger triple, more power and long-distance comfort. 798 cc liquid-cooled dohc inline-three, 12 valves 113 hp (84 kw) @ 10,750 rpm 84 nm (62 lb-ft) @ 8,500 rpm 214 kg 835 mm triumph tiger-sport-800 sport-tourer triple general specifications engine 798 cc liquid-cooled dohc inline-three, 12 valves displacement 798 cc max power 113 hp (84 kw) @ 10,750 rpm max torque 84 nm (62 lb-ft) @ 8,500 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted showa fork rear suspension single shock front brake 310 mm dual discs, radial 4-piston calipers rear brake 255 mm disc abs cornering abs tyres 120/70-17 front, 180/55-17 rear seat height 835 mm kerb weight 214 kg fuel capacity 18.6 l service data engine oil (with filter) 3.0 l (3.2 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "triumph-trident-660-2021-present-global",
       "title": "Triumph Trident 660 (2021–Present, Global)",
       "meta": "Global · Naked · 660 cc",
@@ -2672,6 +3592,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "tvs-apache-rtr-160-4v-2020-present-india",
+      "title": "TVS Apache RTR 160 4V (2020–Present, India)",
+      "meta": "India · Naked · 160 cc",
+      "power": "17.55 hp (13 kW) @ 9,250 rpm",
+      "weight": "144 kg",
+      "url": "motorcycle.html?id=tvs-apache-rtr-160-4v-2020-present-india",
+      "searchText": "tvs apache rtr 160 4v 2020–present india naked 160 cc a sharp-handling 160 cc naked with a four-valve engine, ride modes and a digital dash. 159.7 cc air/oil-cooled sohc single, 4 valves 17.55 hp (13 kw) @ 9,250 rpm 14.73 nm (11 lb-ft) @ 7,250 rpm 144 kg 800 mm tvs apache-rtr-160-4v naked single general specifications engine 159.7 cc air/oil-cooled sohc single, 4 valves displacement 160 cc max power 17.55 hp (13 kw) @ 9,250 rpm max torque 14.73 nm (11 lb-ft) @ 7,250 rpm transmission 5-speed, chain final drive front suspension 37 mm telescopic fork rear suspension single shock front brake 270 mm disc, 2-piston caliper rear brake 200 mm disc abs single-channel abs tyres 90/90-17 front, 130/70-17 rear seat height 800 mm kerb weight 144 kg fuel capacity 12 l service data engine oil (with filter) 1.2 l (1.3 us qt) oil grade sae 10w-30, jaso ma2 chain / final drive 520 o-ring, 110 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "tvs-apache-rtr-200-4v-2020-present-india",
       "title": "TVS Apache RTR 200 4V (2020–Present, India)",
       "meta": "India · Naked · 197.8 cc",
@@ -2682,6 +3612,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "tvs-iqube-2022-present-india",
+      "title": "TVS iQube (2022–Present, India)",
+      "meta": "India · Scooter · —",
+      "power": "6 hp (4.4 kW)",
+      "weight": "118 kg",
+      "url": "motorcycle.html?id=tvs-iqube-2022-present-india",
+      "searchText": "tvs iqube 2022–present india scooter — tvs's electric scooter, with a 5.3 kwh battery, connected features and practical city range. bldc electric motor, 5.3 kwh battery 6 hp (4.4 kw) 33 nm (24 lb-ft) 118 kg 770 mm tvs iqube scooter general specifications engine bldc electric motor, 5.3 kwh battery displacement — max power 6 hp (4.4 kw) max torque 33 nm (24 lb-ft) transmission single-speed, belt final drive front suspension 30 mm telescopic fork rear suspension single shock front brake 220 mm disc rear brake 130 mm drum abs combined braking system tyres 90/90-12 front, 110/80-12 rear seat height 770 mm kerb weight 118 kg fuel capacity 5.3 kwh battery top speed 78 km/h"
+    },
+    {
+      "type": "motorcycle",
       "id": "tvs-jupiter-110-2022-present-india",
       "title": "TVS Jupiter 110 (2022–Present, India)",
       "meta": "India · Scooter · 110 cc",
@@ -2689,6 +3629,16 @@
       "weight": "107 kg",
       "url": "motorcycle.html?id=tvs-jupiter-110-2022-present-india",
       "searchText": "tvs jupiter 110 2022–present india scooter 110 cc one of india's most popular family scooters, with a comfortable ride and practical storage. 109.7 cc air-cooled sohc single, 2 valves 7.9 hp (5.9 kw) @ 7,500 rpm 8.8 nm (6 lb-ft) @ 5,500 rpm 107 kg 765 mm tvs jupiter-110 scooter single general specifications engine 109.7 cc air-cooled sohc single, 2 valves displacement 110 cc max power 7.9 hp (5.9 kw) @ 7,500 rpm max torque 8.8 nm (6 lb-ft) @ 5,500 rpm transmission cvt, belt final drive front suspension 30 mm telescopic fork rear suspension single shock front brake 130 mm drum rear brake 130 mm drum abs combined braking system tyres 90/90-12 front, 90/90-12 rear seat height 765 mm kerb weight 107 kg fuel capacity 5 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "tvs-jupiter-125-2021-present-india",
+      "title": "TVS Jupiter 125 (2021–Present, India)",
+      "meta": "India · Scooter · 125 cc",
+      "power": "9 hp (6.7 kW) @ 7,000 rpm",
+      "weight": "115 kg",
+      "url": "motorcycle.html?id=tvs-jupiter-125-2021-present-india",
+      "searchText": "tvs jupiter 125 2021–present india scooter 125 cc a 125 cc version of the popular jupiter, with more power and practical family-friendly features. 124.8 cc air-cooled sohc single, 3 valves 9 hp (6.7 kw) @ 7,000 rpm 10.5 nm (8 lb-ft) @ 5,500 rpm 115 kg 765 mm tvs jupiter-125 scooter single general specifications engine 124.8 cc air-cooled sohc single, 3 valves displacement 125 cc max power 9 hp (6.7 kw) @ 7,000 rpm max torque 10.5 nm (8 lb-ft) @ 5,500 rpm transmission cvt, belt final drive front suspension 30 mm telescopic fork rear suspension single shock front brake 220 mm disc rear brake 130 mm drum abs combined braking system tyres 90/90-12 front, 90/90-12 rear seat height 765 mm kerb weight 115 kg fuel capacity 5.1 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-30, jaso mb"
     },
     {
       "type": "motorcycle",
@@ -2742,6 +3692,36 @@
     },
     {
       "type": "motorcycle",
+      "id": "vespa-gtv-300-2023-present-global",
+      "title": "Vespa GTV 300 (2023–Present, Global)",
+      "meta": "Global · Scooter · 278 cc",
+      "power": "24 hp (18 kW) @ 8,250 rpm",
+      "weight": "175 kg",
+      "url": "motorcycle.html?id=vespa-gtv-300-2023-present-global",
+      "searchText": "vespa gtv 300 2023–present global scooter 278 cc a sporty, retro-styled vespa with the gts 300 engine and distinctive café-racer details. 278 cc liquid-cooled sohc single, 4 valves 24 hp (18 kw) @ 8,250 rpm 26 nm (19 lb-ft) @ 5,250 rpm 175 kg 790 mm vespa gtv-300 scooter single general specifications engine 278 cc liquid-cooled sohc single, 4 valves displacement 278 cc max power 24 hp (18 kw) @ 8,250 rpm max torque 26 nm (19 lb-ft) @ 5,250 rpm transmission cvt, belt final drive front suspension 32 mm telescopic fork rear suspension twin shocks front brake 220 mm disc rear brake 220 mm disc abs dual-channel abs tyres 120/70-12 front, 130/70-12 rear seat height 790 mm kerb weight 175 kg fuel capacity 8.5 l service data engine oil (with filter) 1.0 l (1.05 us qt) oil grade sae 5w-40, jaso mb"
+    },
+    {
+      "type": "motorcycle",
+      "id": "vespa-primavera-150-2014-present-global",
+      "title": "Vespa Primavera 150 (2014–Present, Global)",
+      "meta": "Global · Scooter · 155 cc",
+      "power": "12.9 hp (9.5 kW) @ 7,750 rpm",
+      "weight": "114 kg",
+      "url": "motorcycle.html?id=vespa-primavera-150-2014-present-global",
+      "searchText": "vespa primavera 150 2014–present global scooter 155 cc the classic vespa primavera, with a 155 cc engine and timeless italian styling. 155 cc air-cooled sohc single, 3 valves 12.9 hp (9.5 kw) @ 7,750 rpm 12.8 nm (9 lb-ft) @ 6,500 rpm 114 kg 790 mm vespa primavera-150 scooter single general specifications engine 155 cc air-cooled sohc single, 3 valves displacement 155 cc max power 12.9 hp (9.5 kw) @ 7,750 rpm max torque 12.8 nm (9 lb-ft) @ 6,500 rpm transmission cvt, belt final drive front suspension 32 mm telescopic fork rear suspension single shock front brake 200 mm disc rear brake 140 mm drum abs dual-channel abs tyres 110/70-12 front, 120/70-12 rear seat height 790 mm kerb weight 114 kg fuel capacity 8 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 5w-40, jaso mb"
+    },
+    {
+      "type": "motorcycle",
+      "id": "voge-300-rally-2022-present-global",
+      "title": "Voge 300 Rally (2022–Present, Global)",
+      "meta": "Global · Dual Sport · 292 cc",
+      "power": "29 hp (21 kW) @ 9,000 rpm",
+      "weight": "158 kg",
+      "url": "motorcycle.html?id=voge-300-rally-2022-present-global",
+      "searchText": "voge 300 rally 2022–present global dual sport 292 cc a lightweight rally-styled dual-sport with long-travel suspension and a large fuel tank. 292 cc liquid-cooled dohc single, 4 valves 29 hp (21 kw) @ 9,000 rpm 25 nm (18 lb-ft) @ 7,000 rpm 158 kg 850 mm voge 300-rally dual-sport single general specifications engine 292 cc liquid-cooled dohc single, 4 valves displacement 292 cc max power 29 hp (21 kw) @ 9,000 rpm max torque 25 nm (18 lb-ft) @ 7,000 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork, 200 mm travel rear suspension single shock, 200 mm travel front brake 280 mm disc, 2-piston caliper rear brake 240 mm disc abs dual-channel abs tyres 90/90-21 front, 140/80-18 rear seat height 850 mm kerb weight 158 kg fuel capacity 11 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 520 o-ring, 108 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "voge-900dsx-2023-present-global",
       "title": "Voge 900DSX (2023–Present, Global)",
       "meta": "Global · Adventure · 895 cc",
@@ -2762,6 +3742,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "yamaha-fascino-125-2020-present-india",
+      "title": "Yamaha Fascino 125 (2020–Present, India)",
+      "meta": "India · Scooter · 125 cc",
+      "power": "8.2 hp (6 kW) @ 6,500 rpm",
+      "weight": "99 kg",
+      "url": "motorcycle.html?id=yamaha-fascino-125-2020-present-india",
+      "searchText": "yamaha fascino 125 2020–present india scooter 125 cc a stylish 125 cc scooter for india, with a smooth engine and lightweight, easy handling. 125 cc air-cooled sohc single, 2 valves 8.2 hp (6 kw) @ 6,500 rpm 10.3 nm (8 lb-ft) @ 5,000 rpm 99 kg 780 mm yamaha fascino-125 scooter single general specifications engine 125 cc air-cooled sohc single, 2 valves displacement 125 cc max power 8.2 hp (6 kw) @ 6,500 rpm max torque 10.3 nm (8 lb-ft) @ 5,000 rpm transmission cvt, belt final drive front suspension 26 mm telescopic fork rear suspension single shock front brake 190 mm disc rear brake 130 mm drum abs combined braking system tyres 90/90-12 front, 90/90-12 rear seat height 780 mm kerb weight 99 kg fuel capacity 5.2 l service data engine oil (with filter) 0.8 l (0.85 us qt) oil grade sae 10w-30, jaso mb"
+    },
+    {
+      "type": "motorcycle",
       "id": "yamaha-fz-s-fi-v4-2022-present-india",
       "title": "Yamaha FZ-S Fi V4 (2022–Present, India)",
       "meta": "India · Naked · 149 cc",
@@ -2769,6 +3759,16 @@
       "weight": "136 kg",
       "url": "motorcycle.html?id=yamaha-fz-s-fi-v4-2022-present-india",
       "searchText": "yamaha fz-s fi v4 2022–present india naked 149 cc yamaha's 150 cc street roadster for india, with a fuel-injected single and muscular styling. 149 cc air-cooled sohc single, 2 valves 12.4 hp (9.1 kw) @ 7,250 rpm 13.3 nm (10 lb-ft) @ 5,500 rpm 136 kg 790 mm yamaha fz-s-fi-v4 naked single general specifications engine 149 cc air-cooled sohc single, 2 valves displacement 149 cc max power 12.4 hp (9.1 kw) @ 7,250 rpm max torque 13.3 nm (10 lb-ft) @ 5,500 rpm transmission 5-speed, chain final drive front suspension 41 mm telescopic fork rear suspension single shock front brake 282 mm disc, 2-piston caliper rear brake 220 mm disc abs single-channel abs tyres 100/80-17 front, 140/60-17 rear seat height 790 mm kerb weight 136 kg fuel capacity 13 l"
+    },
+    {
+      "type": "motorcycle",
+      "id": "yamaha-fz-x-150-2021-present-india",
+      "title": "Yamaha FZ-X 150 (2021–Present, India)",
+      "meta": "India · Retro · 149 cc",
+      "power": "12.4 hp (9.1 kW) @ 7,250 rpm",
+      "weight": "139 kg",
+      "url": "motorcycle.html?id=yamaha-fz-x-150-2021-present-india",
+      "searchText": "yamaha fz-x 150 2021–present india retro 149 cc a neo-retro 150 cc roadster for india, with block-pattern tyres and a rugged, upright stance. 149 cc air-cooled sohc single, 2 valves 12.4 hp (9.1 kw) @ 7,250 rpm 13.3 nm (10 lb-ft) @ 5,500 rpm 139 kg 810 mm yamaha fz-x-150 retro single general specifications engine 149 cc air-cooled sohc single, 2 valves displacement 149 cc max power 12.4 hp (9.1 kw) @ 7,250 rpm max torque 13.3 nm (10 lb-ft) @ 5,500 rpm transmission 5-speed, chain final drive front suspension 41 mm telescopic fork rear suspension single shock front brake 282 mm disc, 2-piston caliper rear brake 220 mm disc abs single-channel abs tyres 100/80-17 front, 140/60-17 rear seat height 810 mm kerb weight 139 kg fuel capacity 10 l service data engine oil (with filter) 1.0 l (1.05 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 428 o-ring, 128 links"
     },
     {
       "type": "motorcycle",
@@ -2822,6 +3822,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "yamaha-mt-125-2014-present-global",
+      "title": "Yamaha MT-125 (2014–Present, Global)",
+      "meta": "Global · Naked · 125 cc",
+      "power": "14.8 hp (11 kW) @ 10,000 rpm",
+      "weight": "142 kg",
+      "url": "motorcycle.html?id=yamaha-mt-125-2014-present-global",
+      "searchText": "yamaha mt-125 2014–present global naked 125 cc yamaha's premium 125 cc naked, with r125-derived running gear and aggressive mt styling. 124.7 cc liquid-cooled sohc single, 4 valves, vva 14.8 hp (11 kw) @ 10,000 rpm 11.5 nm (8.5 lb-ft) @ 8,000 rpm 142 kg 810 mm yamaha mt-125 naked single general specifications engine 124.7 cc liquid-cooled sohc single, 4 valves, vva displacement 125 cc max power 14.8 hp (11 kw) @ 10,000 rpm max torque 11.5 nm (8.5 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 292 mm disc, radial 4-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 100/80-17 front, 140/70-17 rear seat height 810 mm kerb weight 142 kg fuel capacity 11 l service data engine oil (with filter) 1.0 l (1.05 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 428 o-ring, 126 links"
+    },
+    {
+      "type": "motorcycle",
       "id": "yamaha-mt-15-2018-present-india",
       "title": "Yamaha MT-15 (2018–Present, India)",
       "meta": "India · Naked · 155 cc",
@@ -2832,6 +3842,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "yamaha-mt-25-2015-present-global",
+      "title": "Yamaha MT-25 (2015–Present, Global)",
+      "meta": "Global · Naked · 249 cc",
+      "power": "35.5 hp (26 kW) @ 12,000 rpm",
+      "weight": "169 kg",
+      "url": "motorcycle.html?id=yamaha-mt-25-2015-present-global",
+      "searchText": "yamaha mt-25 2015–present global naked 249 cc the quarter-litre naked twin, with a high-revving engine and compact, agile chassis. 249 cc liquid-cooled dohc parallel twin, 8 valves 35.5 hp (26 kw) @ 12,000 rpm 23.6 nm (17 lb-ft) @ 10,000 rpm 169 kg 780 mm yamaha mt-25 naked twin general specifications engine 249 cc liquid-cooled dohc parallel twin, 8 valves displacement 249 cc max power 35.5 hp (26 kw) @ 12,000 rpm max torque 23.6 nm (17 lb-ft) @ 10,000 rpm transmission 6-speed, chain final drive front suspension 41 mm telescopic fork rear suspension single shock front brake 298 mm disc, 2-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 110/70-17 front, 140/70-17 rear seat height 780 mm kerb weight 169 kg fuel capacity 14 l"
+    },
+    {
+      "type": "motorcycle",
       "id": "yamaha-nmax-155-2020-present-global",
       "title": "Yamaha NMAX 155 (2020–Present, Global)",
       "meta": "Global · Scooter · 155 cc",
@@ -2839,6 +3859,16 @@
       "weight": "132 kg",
       "url": "motorcycle.html?id=yamaha-nmax-155-2020-present-global",
       "searchText": "yamaha nmax 155 2020–present global scooter 155 cc yamaha's sporty 155 cc maxi-scooter, with vva, traction control and practical storage. 155 cc liquid-cooled sohc single, 4 valves, vva 15.4 hp (11.3 kw) @ 8,000 rpm 13.9 nm (10 lb-ft) @ 6,500 rpm 132 kg 765 mm yamaha nmax-155 scooter single general specifications engine 155 cc liquid-cooled sohc single, 4 valves, vva displacement 155 cc max power 15.4 hp (11.3 kw) @ 8,000 rpm max torque 13.9 nm (10 lb-ft) @ 6,500 rpm transmission cvt, belt final drive front suspension 26 mm telescopic fork rear suspension twin shocks front brake 230 mm disc rear brake 230 mm disc abs dual-channel abs tyres 110/70-13 front, 130/70-13 rear seat height 765 mm kerb weight 132 kg fuel capacity 7.1 l service data engine oil (with filter) 0.9 l (0.95 us qt) oil grade sae 10w-30, jaso mb"
+    },
+    {
+      "type": "motorcycle",
+      "id": "yamaha-super-tenere-1200-2010-2020-global",
+      "title": "Yamaha Super Ténéré 1200 (2010–2020, Global)",
+      "meta": "Global · Adventure · 1,199 cc",
+      "power": "112 hp (82 kW) @ 7,250 rpm",
+      "weight": "261 kg",
+      "url": "motorcycle.html?id=yamaha-super-tenere-1200-2010-2020-global",
+      "searchText": "yamaha super ténéré 1200 2010–2020 global adventure 1,199 cc yamaha's shaft-driven litre adventure twin, with a strong engine and long-distance comfort. 1,199 cc liquid-cooled dohc parallel twin, 8 valves 112 hp (82 kw) @ 7,250 rpm 117 nm (86 lb-ft) @ 6,000 rpm 261 kg 845/870 mm yamaha super-t-n-r-1200 adventure twin general specifications engine 1,199 cc liquid-cooled dohc parallel twin, 8 valves displacement 1,199 cc max power 112 hp (82 kw) @ 7,250 rpm max torque 117 nm (86 lb-ft) @ 6,000 rpm transmission 6-speed, shaft final drive front suspension 43 mm inverted fork, 190 mm travel rear suspension link-type single shock, 190 mm travel front brake 310 mm dual discs, radial 4-piston calipers rear brake 282 mm disc abs dual-channel abs tyres 110/80-19 front, 150/70-17 rear seat height 845/870 mm kerb weight 261 kg fuel capacity 23 l service data engine oil (with filter) 4.0 l (4.2 us qt) oil grade sae 10w-40, jaso ma2"
     },
     {
       "type": "motorcycle",
@@ -2892,6 +3922,26 @@
     },
     {
       "type": "motorcycle",
+      "id": "yamaha-xsr125-2021-present-global",
+      "title": "Yamaha XSR125 (2021–Present, Global)",
+      "meta": "Global · Retro · 125 cc",
+      "power": "14.8 hp (11 kW) @ 10,000 rpm",
+      "weight": "140 kg",
+      "url": "motorcycle.html?id=yamaha-xsr125-2021-present-global",
+      "searchText": "yamaha xsr125 2021–present global retro 125 cc a retro-styled 125 cc roadster with round led lighting and yamaha's xsr family dna. 124.7 cc liquid-cooled sohc single, 4 valves, vva 14.8 hp (11 kw) @ 10,000 rpm 11.5 nm (8.5 lb-ft) @ 8,000 rpm 140 kg 815 mm yamaha xsr125 retro single general specifications engine 124.7 cc liquid-cooled sohc single, 4 valves, vva displacement 125 cc max power 14.8 hp (11 kw) @ 10,000 rpm max torque 11.5 nm (8.5 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 37 mm inverted fork rear suspension single shock front brake 298 mm disc, 2-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 110/70-17 front, 140/70-17 rear seat height 815 mm kerb weight 140 kg fuel capacity 11 l service data engine oil (with filter) 1.0 l (1.05 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 428 o-ring, 126 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "yamaha-xsr155-2019-present-global",
+      "title": "Yamaha XSR155 (2019–Present, Global)",
+      "meta": "Global · Retro · 155 cc",
+      "power": "19 hp (14 kW) @ 10,000 rpm",
+      "weight": "134 kg",
+      "url": "motorcycle.html?id=yamaha-xsr155-2019-present-global",
+      "searchText": "yamaha xsr155 2019–present global retro 155 cc a small-capacity retro roadster popular in asia, with vva and a lightweight deltabox frame. 155 cc liquid-cooled sohc single, 4 valves, vva 19 hp (14 kw) @ 10,000 rpm 14.7 nm (11 lb-ft) @ 8,500 rpm 134 kg 810 mm yamaha xsr155 retro single general specifications engine 155 cc liquid-cooled sohc single, 4 valves, vva displacement 155 cc max power 19 hp (14 kw) @ 10,000 rpm max torque 14.7 nm (11 lb-ft) @ 8,500 rpm transmission 6-speed, chain final drive front suspension 37 mm inverted fork rear suspension single shock front brake 282 mm disc, 2-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 110/70-17 front, 140/70-17 rear seat height 810 mm kerb weight 134 kg fuel capacity 10 l"
+    },
+    {
+      "type": "motorcycle",
       "id": "yamaha-xsr700-2016-present-global",
       "title": "Yamaha XSR700 (2016–Present, Global)",
       "meta": "Global · Retro · 689 cc",
@@ -2929,6 +3979,16 @@
       "weight": "201 kg",
       "url": "motorcycle.html?id=yamaha-r1-2020-2024-global",
       "searchText": "yamaha yzf-r1 2020-2024 global supersport 998 cc yamaha's flagship superbike with a crossplane inline-four, motogp-derived chassis and winglet aerodynamics. 998 cc liquid-cooled dohc inline-four, 16 valves, crossplane crank 200 hp (147 kw) @ 13,500 rpm 113 nm (83 lb-ft) @ 11,500 rpm 201 kg 860 mm yamaha yzf-r1 supersport inline-4 general specifications engine 998 cc liquid-cooled dohc inline-four, 16 valves, crossplane crank displacement 998 cc max power 200 hp (147 kw) @ 13,500 rpm max torque 113 nm (83 lb-ft) @ 11,500 rpm transmission 6-speed, chain final drive front suspension 43 mm inverted fork, öhlins electronic adjustment rear suspension link-type single shock, öhlins electronic adjustment front brake 320 mm dual discs, radial 4-piston calipers rear brake 220 mm disc abs cornering abs tyres 120/70-17 front, 190/55-17 rear seat height 860 mm kerb weight 201 kg fuel capacity 17 l service data engine oil (with filter) 3.9 l (4.1 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 525 o-ring, 118 links"
+    },
+    {
+      "type": "motorcycle",
+      "id": "yamaha-yzf-r125-2008-present-global",
+      "title": "Yamaha YZF-R125 (2008–Present, Global)",
+      "meta": "Global · Supersport · 125 cc",
+      "power": "14.8 hp (11 kW) @ 10,000 rpm",
+      "weight": "142 kg",
+      "url": "motorcycle.html?id=yamaha-yzf-r125-2008-present-global",
+      "searchText": "yamaha yzf-r125 2008–present global supersport 125 cc yamaha's learner-legal r-series sportbike, with a high-revving single and full-size chassis. 124.7 cc liquid-cooled sohc single, 4 valves, vva 14.8 hp (11 kw) @ 10,000 rpm 11.5 nm (8.5 lb-ft) @ 8,000 rpm 142 kg 825 mm yamaha yzf-r125 supersport single general specifications engine 124.7 cc liquid-cooled sohc single, 4 valves, vva displacement 125 cc max power 14.8 hp (11 kw) @ 10,000 rpm max torque 11.5 nm (8.5 lb-ft) @ 8,000 rpm transmission 6-speed, chain final drive front suspension 41 mm inverted fork rear suspension single shock front brake 292 mm disc, radial 4-piston caliper rear brake 220 mm disc abs dual-channel abs tyres 100/80-17 front, 140/70-17 rear seat height 825 mm kerb weight 142 kg fuel capacity 11 l service data engine oil (with filter) 1.0 l (1.05 us qt) oil grade sae 10w-40, jaso ma2 chain / final drive 428 o-ring, 126 links"
     },
     {
       "type": "motorcycle",
@@ -2992,6 +4052,16 @@
     },
     {
       "type": "motorcycle",
+      "id": "zero-dsr-x-2022-present-global",
+      "title": "Zero DSR/X (2022–Present, Global)",
+      "meta": "Global · Adventure · —",
+      "power": "100 hp (75 kW)",
+      "weight": "247 kg",
+      "url": "motorcycle.html?id=zero-dsr-x-2022-present-global",
+      "searchText": "zero dsr/x 2022–present global adventure — zero's electric adventure bike, with a 17.3 kwh battery, long travel and instant torque. zf75-10 electric motor, 17.3 kwh battery 100 hp (75 kw) 225 nm (166 lb-ft) 247 kg 828 mm zero dsr-x adventure general specifications engine zf75-10 electric motor, 17.3 kwh battery displacement — max power 100 hp (75 kw) max torque 225 nm (166 lb-ft) transmission single-speed, belt final drive front suspension 43 mm inverted showa fork, 200 mm travel rear suspension showa single shock, 200 mm travel front brake 320 mm dual discs, radial 4-piston calipers rear brake 265 mm disc abs cornering abs tyres 90/90-19 front, 150/70-17 rear seat height 828 mm kerb weight 247 kg fuel capacity 17.3 kwh battery top speed 180 km/h"
+    },
+    {
+      "type": "motorcycle",
       "id": "zero-sr-f-2020-present-global",
       "title": "Zero SR/F (2020–Present, Global)",
       "meta": "Global · Naked · —",
@@ -2999,6 +4069,16 @@
       "weight": "223 kg",
       "url": "motorcycle.html?id=zero-sr-f-2020-present-global",
       "searchText": "zero sr/f 2020–present global naked — zero's flagship electric streetbike, with instant torque, fast charging and connected telemetry. zf75-10 electric motor, 14.4 kwh battery 110 hp (82 kw) @ 5,000 rpm 190 nm (140 lb-ft) 223 kg 787 mm zero sr-f naked general specifications engine zf75-10 electric motor, 14.4 kwh battery displacement — max power 110 hp (82 kw) @ 5,000 rpm max torque 190 nm (140 lb-ft) transmission single-speed, belt final drive front suspension 43 mm inverted showa fork rear suspension showa single shock front brake 320 mm dual discs, radial 4-piston calipers rear brake 240 mm disc abs cornering abs tyres 120/70-17 front, 180/55-17 rear seat height 787 mm kerb weight 223 kg fuel capacity 14.4 kwh battery top speed 200 km/h"
+    },
+    {
+      "type": "motorcycle",
+      "id": "zontes-368g-2024-present-global",
+      "title": "Zontes 368G (2024–Present, Global)",
+      "meta": "Global · Adventure · 368 cc",
+      "power": "38 hp (28 kW) @ 8,500 rpm",
+      "weight": "199 kg",
+      "url": "motorcycle.html?id=zontes-368g-2024-present-global",
+      "searchText": "zontes 368g 2024–present global adventure 368 cc a tech-rich chinese adventure scooter with a 368 cc single and rugged, touring-ready styling. 368 cc liquid-cooled sohc single, 4 valves 38 hp (28 kw) @ 8,500 rpm 38 nm (28 lb-ft) @ 6,500 rpm 199 kg 800 mm zontes 368g adventure single general specifications engine 368 cc liquid-cooled sohc single, 4 valves displacement 368 cc max power 38 hp (28 kw) @ 8,500 rpm max torque 38 nm (28 lb-ft) @ 6,500 rpm transmission cvt, belt final drive front suspension 41 mm inverted fork rear suspension twin shocks front brake 320 mm dual discs, 4-piston calipers rear brake 260 mm disc abs dual-channel abs tyres 120/70-17 front, 160/60-17 rear seat height 800 mm kerb weight 199 kg fuel capacity 17 l service data engine oil (with filter) 1.5 l (1.6 us qt) oil grade sae 10w-40, jaso ma2"
     },
     {
       "type": "motorcycle",

@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "honda-dax-125-2022-present-global",
+    "make": "Honda",
+    "model": "Dax 125",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "honda-dax-125",
+    "category": "Mini",
+    "displacement": "124 cc",
+    "summary": "The Dax returns as a compact 125 cc mini-bike with a T-shaped frame and retro scrambler looks.",
+    "tags": [
+      "honda",
+      "dax-125",
+      "mini",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124 cc air-cooled SOHC single, 2 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "124 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "9.8 hp (7.3 kW) @ 6,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "10.5 Nm (8 lb-ft) @ 5,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "31 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "190 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Single-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-12 front, 130/70-12 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "775 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "107 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "3.8 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.8 L (0.85 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA"
+          }
+        ]
+      }
+    }
+  }
+}

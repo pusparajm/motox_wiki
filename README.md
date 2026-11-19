@@ -6,7 +6,7 @@ A fast, lightweight motorcycle technical reference — engine and performance sp
 
 ## Coverage
 
-The catalogue currently contains **301 mass-produced motorcycles from 33 manufacturers**, spanning:
+The catalogue currently contains **409 mass-produced motorcycles from 36 manufacturers**, spanning:
 
 - Commuters, scooters and mini-bikes
 - Naked bikes, retro roadsters and scramblers
@@ -17,14 +17,14 @@ The catalogue currently contains **301 mass-produced motorcycles from 33 manufac
 
 Every entry has a **General Specifications** section (engine, power, torque, transmission, suspension, brakes, tyres, weight, seat height, fuel capacity and more). Where reliable data is available, entries also include **Service Data** (oil capacity and grade, chain size, spark plug, fork oil and seal sizes) and model-specific **Torque Specifications**.
 
-Manufacturers covered include Aprilia, Bajaj, Benelli, BMW, BSA, CFMOTO, Ducati, Harley-Davidson, Hero, Honda, Husqvarna, Indian, Jawa, Kawasaki, KTM, Kove, Kymco, LiveWire, Moto Guzzi, Ola, Piaggio, QJMotor, Royal Enfield, Suzuki, SYM, Triumph, TVS, Ultraviolette, Vespa, Voge, Yamaha, Zero and Zontes.
+Manufacturers covered include Aprilia, Ather, Bajaj, Benelli, BMW, BSA, CFMOTO, Ducati, Energica, Harley-Davidson, Hero, Honda, Husqvarna, Indian, Jawa, Kawasaki, KTM, Kove, Kymco, LiveWire, Moto Guzzi, Ola, Piaggio, QJMotor, Royal Enfield, Stark, Suzuki, SYM, Triumph, TVS, Ultraviolette, Vespa, Voge, Yamaha, Zero and Zontes.
 
 > Specifications are manufacturer-claimed, compiled from public model data, and can vary by model year and market. Always confirm service limits and torque values against the owner's or workshop manual before working on a motorcycle. The site shows service data only where a reliable figure is available rather than filling gaps with generic values.
 
 ## Features
 
 - **Lightweight** — vanilla HTML/CSS/JS with [Pico CSS](https://picocss.com/). No React, Vue, or runtime framework.
-- **Complete catalogue** — browse all 301 models with make, category, text, and sort filters.
+- **Complete catalogue** — browse all 409 models with make, category, text, and sort filters.
 - **Instant search** — client-side search across models, engines, specs and wiki pages.
 - **Expandable specs** — JSON-driven sections for key-value fields, tables and custom HTML blocks.
 - **Related models** — each detail page links to other variants and models in the same family.

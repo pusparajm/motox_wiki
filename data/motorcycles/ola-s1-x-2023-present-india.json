@@ -1,0 +1,101 @@
+{
+  "motorcycle": {
+    "id": "ola-s1-x-2023-present-india",
+    "make": "Ola",
+    "model": "S1 X",
+    "year": "2023–Present",
+    "region": "India",
+    "model_group": "ola-s1-x",
+    "category": "Scooter",
+    "displacement": "—",
+    "summary": "A more affordable Ola electric scooter, with a 4 kWh battery and connected features.",
+    "tags": [
+      "ola",
+      "s1-x",
+      "scooter"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "Mid-drive electric motor, 4 kWh battery"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "—"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "8 hp (6 kW)"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "58 Nm (43 lb-ft)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Single-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Twin telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "180 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Combined braking system"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70-12 front, 110/70-12 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "792 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "108 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "4 kWh battery"
+          },
+          {
+            "key": "top_speed",
+            "label": "Top Speed",
+            "value": "90 km/h"
+          }
+        ]
+      }
+    }
+  }
+}

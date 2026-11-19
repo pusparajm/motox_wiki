@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "triumph-tiger-sport-800-2025-present-global",
+    "make": "Triumph",
+    "model": "Tiger Sport 800",
+    "year": "2025–Present",
+    "region": "Global",
+    "model_group": "triumph-tiger-sport-800",
+    "category": "Sport Tourer",
+    "displacement": "798 cc",
+    "summary": "A new middleweight sport-tourer with a larger triple, more power and long-distance comfort.",
+    "tags": [
+      "triumph",
+      "tiger-sport-800",
+      "sport-tourer",
+      "triple"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "798 cc liquid-cooled DOHC inline-three, 12 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "798 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "113 hp (84 kW) @ 10,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "84 Nm (62 lb-ft) @ 8,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted Showa fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "255 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "835 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "214 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "18.6 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 118 links"
+          }
+        ]
+      }
+    }
+  }
+}

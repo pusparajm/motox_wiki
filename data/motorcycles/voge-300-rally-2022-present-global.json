@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "voge-300-rally-2022-present-global",
+    "make": "Voge",
+    "model": "300 Rally",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "voge-300-rally",
+    "category": "Dual Sport",
+    "displacement": "292 cc",
+    "summary": "A lightweight rally-styled dual-sport with long-travel suspension and a large fuel tank.",
+    "tags": [
+      "voge",
+      "300-rally",
+      "dual-sport",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "292 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "292 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "29 hp (21 kW) @ 9,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "25 Nm (18 lb-ft) @ 7,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork, 200 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, 200 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "280 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 140/80-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "850 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "158 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.5 L (1.6 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 108 links"
+          }
+        ]
+      }
+    }
+  }
+}

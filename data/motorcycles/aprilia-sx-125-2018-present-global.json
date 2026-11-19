@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "aprilia-sx-125-2018-present-global",
+    "make": "Aprilia",
+    "model": "SX 125",
+    "year": "2018–Present",
+    "region": "Global",
+    "model_group": "aprilia-sx-125",
+    "category": "Supermoto",
+    "displacement": "125 cc",
+    "summary": "A learner-legal supermoto with long-travel suspension, wide bars and a 17-inch front wheel.",
+    "tags": [
+      "aprilia",
+      "sx-125",
+      "supermoto",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124.2 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "125 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "15 hp (11 kW) @ 10,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "11.2 Nm (8 lb-ft) @ 8,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork, 240 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, 220 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm disc, radial 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "218 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-17 front, 130/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "880 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "134 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "7.5 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.2 L (1.3 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 5W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 110 links"
+          }
+        ]
+      }
+    }
+  }
+}

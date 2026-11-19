@@ -1,0 +1,101 @@
+{
+  "motorcycle": {
+    "id": "bajaj-chetak-2020-present-india",
+    "make": "Bajaj",
+    "model": "Chetak",
+    "year": "2020–Present",
+    "region": "India",
+    "model_group": "bajaj-chetak",
+    "category": "Scooter",
+    "displacement": "—",
+    "summary": "The electric revival of the Chetak name, with a retro-modern body and practical city range.",
+    "tags": [
+      "bajaj",
+      "chetak",
+      "scooter"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "BLDC electric motor, 3.5 kWh battery"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "—"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "5.4 hp (4 kW)"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "20 Nm (15 lb-ft)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Single-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "30 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "200 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "130 mm drum"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Combined braking system"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-12 front, 100/80-12 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "780 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "132 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "3.5 kWh battery"
+          },
+          {
+            "key": "top_speed",
+            "label": "Top Speed",
+            "value": "73 km/h"
+          }
+        ]
+      }
+    }
+  }
+}

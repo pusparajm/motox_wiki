@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "kawasaki-ninja-zx-25r-2020-present-global",
+    "make": "Kawasaki",
+    "model": "Ninja ZX-25R",
+    "year": "2020–Present",
+    "region": "Global",
+    "model_group": "kawasaki-ninja-zx-25r",
+    "category": "Supersport",
+    "displacement": "249 cc",
+    "summary": "A rare 250 cc inline-four supersport, revving to 17,000 rpm in a lightweight chassis.",
+    "tags": [
+      "kawasaki",
+      "ninja-zx-25r",
+      "supersport",
+      "inline-4"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "249 cc liquid-cooled DOHC inline-four, 16 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "249 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "50 hp (37 kW) @ 15,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "22.9 Nm (17 lb-ft) @ 14,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "37 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Link-type single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm disc, radial 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70-17 front, 150/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "785 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "183 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "15 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.4 L (2.5 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 110 links"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "ktm-390-smc-r-2025-present-global",
+    "make": "KTM",
+    "model": "390 SMC R",
+    "year": "2025–Present",
+    "region": "Global",
+    "model_group": "ktm-390-smc-r",
+    "category": "Supermoto",
+    "displacement": "399 cc",
+    "summary": "A lightweight supermoto with the 390 engine, 17-inch wheels and aggressive WP suspension.",
+    "tags": [
+      "ktm",
+      "390-smc-r",
+      "supermoto",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "399 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "399 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "44.5 hp (33 kW) @ 8,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "39 Nm (29 lb-ft) @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted WP fork, 230 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP single shock, 220 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm disc, radial 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 160/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "890 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "154 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "9 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.7 L (1.8 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-50, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 118 links"
+          }
+        ]
+      }
+    }
+  }
+}

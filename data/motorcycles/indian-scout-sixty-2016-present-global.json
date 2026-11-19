@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "indian-scout-sixty-2016-present-global",
+    "make": "Indian",
+    "model": "Scout Sixty",
+    "year": "2016–Present",
+    "region": "Global",
+    "model_group": "indian-scout-sixty",
+    "category": "Cruiser",
+    "displacement": "999 cc",
+    "summary": "A smaller, more accessible Scout with a 999 cc V-twin and the same low-slung, sporty character.",
+    "tags": [
+      "indian",
+      "scout-sixty",
+      "cruiser",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "999 cc liquid-cooled DOHC V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "999 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "78 hp (58 kW) @ 7,300 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "88 Nm (65 lb-ft) @ 5,800 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "298 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "298 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-16 front, 150/80-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "649 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "249 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12.5 L"
+          }
+        ]
+      }
+    }
+  }
+}

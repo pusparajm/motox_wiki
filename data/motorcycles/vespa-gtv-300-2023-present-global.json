@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "vespa-gtv-300-2023-present-global",
+    "make": "Vespa",
+    "model": "GTV 300",
+    "year": "2023–Present",
+    "region": "Global",
+    "model_group": "vespa-gtv-300",
+    "category": "Scooter",
+    "displacement": "278 cc",
+    "summary": "A sporty, retro-styled Vespa with the GTS 300 engine and distinctive café-racer details.",
+    "tags": [
+      "vespa",
+      "gtv-300",
+      "scooter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "278 cc liquid-cooled SOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "278 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "24 hp (18 kW) @ 8,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "26 Nm (19 lb-ft) @ 5,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "32 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-12 front, 130/70-12 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "790 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "175 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "8.5 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.0 L (1.05 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 5W-40, JASO MB"
+          }
+        ]
+      }
+    }
+  }
+}

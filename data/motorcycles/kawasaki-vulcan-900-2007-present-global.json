@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "kawasaki-vulcan-900-2007-present-global",
+    "make": "Kawasaki",
+    "model": "Vulcan 900",
+    "year": "2007–Present",
+    "region": "Global",
+    "model_group": "kawasaki-vulcan-900",
+    "category": "Cruiser",
+    "displacement": "903 cc",
+    "summary": "A classic middleweight cruiser with a torquey V-twin, belt drive and relaxed ergonomics.",
+    "tags": [
+      "kawasaki",
+      "vulcan-900",
+      "cruiser",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "903 cc liquid-cooled SOHC V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "903 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "50 hp (37 kW) @ 5,700 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "78 Nm (58 lb-ft) @ 3,700 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "300 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-16 front, 180/70-15 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "680 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "277 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "20 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.7 L (3.9 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

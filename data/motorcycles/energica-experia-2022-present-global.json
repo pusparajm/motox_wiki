@@ -1,0 +1,101 @@
+{
+  "motorcycle": {
+    "id": "energica-experia-2022-present-global",
+    "make": "Energica",
+    "model": "Experia",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "energica-experia",
+    "category": "Adventure",
+    "displacement": "—",
+    "summary": "An electric adventure-sport tourer with a 22.5 kWh battery, fast charging and long-range capability.",
+    "tags": [
+      "energica",
+      "experia",
+      "adventure"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "Permanent-magnet electric motor, 22.5 kWh battery"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "—"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "102 hp (75 kW)"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "115 Nm (85 lb-ft)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Single-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted fork, 150 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, 150 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "330 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "245 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-19 front, 170/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "810 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "260 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "22.5 kWh battery"
+          },
+          {
+            "key": "top_speed",
+            "label": "Top Speed",
+            "value": "180 km/h"
+          }
+        ]
+      }
+    }
+  }
+}

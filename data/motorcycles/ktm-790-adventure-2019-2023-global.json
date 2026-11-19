@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "ktm-790-adventure-2019-2023-global",
+    "make": "KTM",
+    "model": "790 Adventure",
+    "year": "2019–2023",
+    "region": "Global",
+    "model_group": "ktm-790-adventure",
+    "category": "Adventure",
+    "displacement": "799 cc",
+    "summary": "A middleweight adventure twin with a low-slung tank, long travel and genuine off-road ability.",
+    "tags": [
+      "ktm",
+      "790-adventure",
+      "adventure",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "799 cc liquid-cooled DOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "799 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "95 hp (70 kW) @ 8,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "88 Nm (65 lb-ft) @ 6,600 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted WP fork, 200 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP single shock, 200 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "260 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 150/70-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "830/850 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "189 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "20 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-50, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 116 links"
+          }
+        ]
+      }
+    }
+  }
+}

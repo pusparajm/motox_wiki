@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "cfmoto-250sr-2020-present-global",
+    "make": "CFMOTO",
+    "model": "250SR",
+    "year": "2020–Present",
+    "region": "Global",
+    "model_group": "cfmoto-250sr",
+    "category": "Supersport",
+    "displacement": "249 cc",
+    "summary": "A lightweight, value-focused 250 cc sportbike with sharp styling and a rev-happy single.",
+    "tags": [
+      "cfmoto",
+      "250sr",
+      "supersport",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "249 cc liquid-cooled DOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "249 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "27.5 hp (20.5 kW) @ 9,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "22 Nm (16 lb-ft) @ 7,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "37 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "292 mm disc, 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "220 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70-17 front, 150/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "780 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "165 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.5 L (1.6 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 108 links"
+          }
+        ]
+      }
+    }
+  }
+}

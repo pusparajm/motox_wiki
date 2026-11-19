@@ -1,0 +1,101 @@
+{
+  "motorcycle": {
+    "id": "bmw-ce-04-2022-present-global",
+    "make": "BMW",
+    "model": "CE 04",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "bmw-ce-04",
+    "category": "Scooter",
+    "displacement": "—",
+    "summary": "BMW's futuristic electric maxi-scooter, with a 10.25-inch display and 130 km of range.",
+    "tags": [
+      "bmw",
+      "ce-04",
+      "scooter"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "Permanent-magnet electric motor, 8.9 kWh battery"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "—"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "42 hp (31 kW)"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "62 Nm (46 lb-ft)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Single-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "35 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "265 mm dual discs"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "265 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-15 front, 160/60-15 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "780 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "231 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "8.9 kWh battery"
+          },
+          {
+            "key": "top_speed",
+            "label": "Top Speed",
+            "value": "120 km/h"
+          }
+        ]
+      }
+    }
+  }
+}

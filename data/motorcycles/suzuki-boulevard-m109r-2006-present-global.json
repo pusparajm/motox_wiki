@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "suzuki-boulevard-m109r-2006-present-global",
+    "make": "Suzuki",
+    "model": "Boulevard M109R",
+    "year": "2006–Present",
+    "region": "Global",
+    "model_group": "suzuki-boulevard-m109r",
+    "category": "Cruiser",
+    "displacement": "1,783 cc",
+    "summary": "A massive power cruiser with a 1,783 cc V-twin, muscular styling and a surprisingly capable chassis.",
+    "tags": [
+      "suzuki",
+      "boulevard-m109r",
+      "cruiser",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,783 cc liquid-cooled DOHC V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,783 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "123 hp (92 kW) @ 6,200 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "160 Nm (118 lb-ft) @ 3,200 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, shaft final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "46 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Link-type single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "310 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "275 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/70-18 front, 240/40-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "705 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "347 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "19.5 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.5 L (4.8 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

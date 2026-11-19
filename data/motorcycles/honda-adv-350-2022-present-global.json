@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "honda-adv-350-2022-present-global",
+    "make": "Honda",
+    "model": "ADV 350",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "honda-adv-350",
+    "category": "Scooter",
+    "displacement": "330 cc",
+    "summary": "The larger ADV scooter, with the Forza 350 engine and a more rugged, adventure-ready stance.",
+    "tags": [
+      "honda",
+      "adv-350",
+      "scooter",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "330 cc liquid-cooled SOHC eSP+ single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "330 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "29 hp (21 kW) @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "31.5 Nm (23 lb-ft) @ 5,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "CVT, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "37 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "256 mm disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-15 front, 150/70-14 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "795 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "186 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11.7 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.5 L (1.6 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MB"
+          }
+        ]
+      }
+    }
+  }
+}

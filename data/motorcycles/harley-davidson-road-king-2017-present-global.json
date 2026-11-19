@@ -1,0 +1,97 @@
+{
+  "motorcycle": {
+    "id": "harley-davidson-road-king-2017-present-global",
+    "make": "Harley-Davidson",
+    "model": "Road King",
+    "year": "2017–Present",
+    "region": "Global",
+    "model_group": "harley-davidson-road-king",
+    "category": "Touring",
+    "displacement": "1,868 cc",
+    "summary": "A stripped-down touring Harley with a detachable screen, hard bags and the Milwaukee-Eight 114.",
+    "tags": [
+      "harley-davidson",
+      "road-king",
+      "touring",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,868 cc air/oil-cooled Milwaukee-Eight 114 V-twin"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,868 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "93 hp (69 kW) @ 5,020 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "158 Nm (117 lb-ft) @ 3,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "49 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "300 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "292 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/60-19 front, 180/55-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "715 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "379 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "22.7 L"
+          }
+        ]
+      }
+    }
+  }
+}

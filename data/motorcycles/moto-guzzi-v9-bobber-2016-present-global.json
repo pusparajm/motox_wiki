@@ -1,0 +1,112 @@
+{
+  "motorcycle": {
+    "id": "moto-guzzi-v9-bobber-2016-present-global",
+    "make": "Moto Guzzi",
+    "model": "V9 Bobber",
+    "year": "2016–Present",
+    "region": "Global",
+    "model_group": "moto-guzzi-v9-bobber",
+    "category": "Cruiser",
+    "displacement": "853 cc",
+    "summary": "A minimalist bobber with Moto Guzzi's transverse V-twin, shaft drive and fat tyres.",
+    "tags": [
+      "moto-guzzi",
+      "v9-bobber",
+      "cruiser",
+      "v-twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "853 cc air-cooled OHV V-twin, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "853 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "65 hp (48 kW) @ 6,800 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "73 Nm (54 lb-ft) @ 5,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, shaft final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "40 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm disc, 4-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "260 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-16 front, 150/80-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "785 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "199 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "15 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.0 L (2.1 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-60, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

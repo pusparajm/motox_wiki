@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "qjmotor-srt-550-2022-present-global",
+    "make": "QJMotor",
+    "model": "SRT 550",
+    "year": "2022–Present",
+    "region": "Global",
+    "model_group": "qjmotor-srt-550",
+    "category": "Adventure",
+    "displacement": "554 cc",
+    "summary": "A middleweight adventure twin with a tall stance, long-travel suspension and touring equipment.",
+    "tags": [
+      "qjmotor",
+      "srt-550",
+      "adventure",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "554 cc liquid-cooled DOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "554 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "55 hp (41 kW) @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "55 Nm (41 lb-ft) @ 5,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted fork, 150 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, 150 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "240 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-19 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "830 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "210 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "20 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.5 L (2.6 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 118 links"
+          }
+        ]
+      }
+    }
+  }
+}

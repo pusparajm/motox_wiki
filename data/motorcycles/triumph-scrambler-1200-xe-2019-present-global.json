@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "triumph-scrambler-1200-xe-2019-present-global",
+    "make": "Triumph",
+    "model": "Scrambler 1200 XE",
+    "year": "2019–Present",
+    "region": "Global",
+    "model_group": "triumph-scrambler-1200-xe",
+    "category": "Scrambler",
+    "displacement": "1,200 cc",
+    "summary": "The off-road-focused Scrambler 1200, with long-travel Öhlins suspension and a 21-inch front wheel.",
+    "tags": [
+      "triumph",
+      "scrambler-1200-xe",
+      "scrambler",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,200 cc liquid-cooled SOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,200 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "89 hp (66 kW) @ 7,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "110 Nm (81 lb-ft) @ 4,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "45 mm inverted Showa fork, 250 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Öhlins twin shocks, 250 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "255 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS (off-road mode)"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "870 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "230 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "16 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.0 L (4.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 O-ring, 118 links"
+          }
+        ]
+      }
+    }
+  }
+}

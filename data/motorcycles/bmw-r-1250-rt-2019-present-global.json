@@ -1,0 +1,111 @@
+{
+  "motorcycle": {
+    "id": "bmw-r-1250-rt-2019-present-global",
+    "make": "BMW",
+    "model": "R 1250 RT",
+    "year": "2019–Present",
+    "region": "Global",
+    "model_group": "bmw-r-1250-rt",
+    "category": "Touring",
+    "displacement": "1,254 cc",
+    "summary": "BMW's luxury sport-tourer, with the ShiftCam boxer, a large fairing and long-distance comfort.",
+    "tags": [
+      "bmw",
+      "r-1250-rt",
+      "touring"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,254 cc air/liquid-cooled DOHC boxer twin, 8 valves, ShiftCam"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,254 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "136 hp (100 kW) @ 7,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "143 Nm (105 lb-ft) @ 6,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, shaft final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telelever, 120 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Paralever, 136 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "276 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "805/825 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "279 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "25 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.0 L (4.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 5W-40, JASO MA2"
+          }
+        ]
+      }
+    }
+  }
+}

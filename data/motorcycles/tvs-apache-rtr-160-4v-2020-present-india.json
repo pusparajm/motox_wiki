@@ -1,0 +1,117 @@
+{
+  "motorcycle": {
+    "id": "tvs-apache-rtr-160-4v-2020-present-india",
+    "make": "TVS",
+    "model": "Apache RTR 160 4V",
+    "year": "2020–Present",
+    "region": "India",
+    "model_group": "tvs-apache-rtr-160-4v",
+    "category": "Naked",
+    "displacement": "160 cc",
+    "summary": "A sharp-handling 160 cc naked with a four-valve engine, ride modes and a digital dash.",
+    "tags": [
+      "tvs",
+      "apache-rtr-160-4v",
+      "naked",
+      "single"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "159.7 cc air/oil-cooled SOHC single, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "160 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "17.55 hp (13 kW) @ 9,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "14.73 Nm (11 lb-ft) @ 7,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "37 mm telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "270 mm disc, 2-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "200 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Single-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-17 front, 130/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "800 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "144 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.2 L (1.3 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA2"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 O-ring, 110 links"
+          }
+        ]
+      }
+    }
+  }
+}
