@@ -537,7 +537,7 @@ def build_brake_crossref(bikes):
 
       <h2>Why one shape fits several models</h2>
       <p>Brake calipers are often shared across a model family or even across manufacturers. A pad shape is defined by the backing-plate outline, hole spacing, thickness and locating tabs. Once a caliper is used on several bikes, the same shape appears under many model names. The friction compound is separate: a commuter may use an organic or semi-sintered pad, while a sport or race model uses a sintered or race compound in the same shape.</p>
-      <p>That is why a cross-reference list can show several models from one brand against one code, and why buying by model name alone is safer than buying by shape alone when the compound matters. Check the compound suffix and the intended use before mixing a touring pad into a track application or vice versa.</p>
+      <p>That is why a cross-reference list can show several models from one brand against one code. Within BMW, the F 750 GS and F 850 GS share the SBS 674HS front / 675LS rear pair. Within Honda, the CB500F and CBR500R share the EBC FA760 / SBS 994HS front shape. The compound can still differ by model or model year, so check the suffix and the intended use before mixing a touring pad into a track application or vice versa.</p>
 
       <h2>Related pages</h2>
       <ul>
