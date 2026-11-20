@@ -113,44 +113,44 @@
           {
             "key": "note",
             "label": "Source / verification",
-            "value": "A verified model-specific torque table is not yet available for this model. The ranges below are general motorcycle fastener references — always use the workshop manual for exact values and sequences."
+            "value": "A verified model-specific torque table is not yet available for this model. The values below are single typical reference figures for common motorcycle fasteners — always confirm against the workshop manual before use."
           }
         ],
         "table": [
           {
             "component": "Oil drain plug",
-            "torque": "20–30 Nm",
-            "notes": "Use a new crush washer"
+            "torque": "25 Nm",
+            "notes": "Typical value; use a new crush washer"
           },
           {
             "component": "Front axle nut",
-            "torque": "60–110 Nm",
-            "notes": "Varies with axle and fork design"
+            "torque": "65 Nm",
+            "notes": "Typical value; varies with axle design"
           },
           {
             "component": "Rear axle nut",
-            "torque": "80–130 Nm",
-            "notes": "Check cotter pin / locking method"
+            "torque": "100 Nm",
+            "notes": "Typical value; check locking method"
           },
           {
             "component": "Front brake caliper bolts",
-            "torque": "25–40 Nm",
-            "notes": "Use threadlocker if specified"
+            "torque": "35 Nm",
+            "notes": "Typical value; use threadlocker if specified"
           },
           {
             "component": "Spark plugs",
-            "torque": "12–18 Nm",
-            "notes": "Aluminium cylinder heads — do not overtighten"
+            "torque": "14 Nm",
+            "notes": "Typical value; aluminium heads — do not overtighten"
           },
           {
             "component": "Handlebar clamp bolts",
-            "torque": "20–25 Nm",
-            "notes": "Tighten evenly"
+            "torque": "22 Nm",
+            "notes": "Typical value; tighten evenly"
           },
           {
             "component": "Rear sprocket nuts",
-            "torque": "50–60 Nm",
-            "notes": "Tighten in a star pattern"
+            "torque": "55 Nm",
+            "notes": "Typical value; tighten in a star pattern"
           }
         ]
       }

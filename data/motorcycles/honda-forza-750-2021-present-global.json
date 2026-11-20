@@ -118,44 +118,44 @@
           {
             "key": "note",
             "label": "Source / verification",
-            "value": "A verified model-specific torque table is not yet available for this model. The ranges below are general motorcycle fastener references — always use the workshop manual for exact values and sequences."
+            "value": "A verified model-specific torque table is not yet available for this model. The values below are single typical reference figures for common motorcycle fasteners — always confirm against the workshop manual before use."
           }
         ],
         "table": [
           {
             "component": "Oil drain plug",
-            "torque": "20–30 Nm",
-            "notes": "Use a new crush washer"
+            "torque": "25 Nm",
+            "notes": "Typical value; use a new crush washer"
           },
           {
             "component": "Front axle nut",
-            "torque": "50–90 Nm",
-            "notes": "Varies with fork and axle design"
+            "torque": "65 Nm",
+            "notes": "Typical value; varies with axle design"
           },
           {
             "component": "Rear axle nut",
-            "torque": "80–130 Nm",
-            "notes": "Check cotter pin / locking method"
+            "torque": "100 Nm",
+            "notes": "Typical value; check locking method"
           },
           {
             "component": "Front brake caliper bolts",
-            "torque": "25–40 Nm",
-            "notes": "Use threadlocker if specified"
+            "torque": "30 Nm",
+            "notes": "Typical value; use threadlocker if specified"
           },
           {
             "component": "Spark plugs",
-            "torque": "12–18 Nm",
-            "notes": "Do not overtighten"
+            "torque": "14 Nm",
+            "notes": "Typical value; do not overtighten"
           },
           {
             "component": "CVT cover bolts",
-            "torque": "8–12 Nm",
-            "notes": "Tighten evenly, do not distort the cover"
+            "torque": "10 Nm",
+            "notes": "Typical value; tighten evenly"
           },
           {
             "component": "Exhaust mounting bolts",
-            "torque": "20–25 Nm",
-            "notes": "Check for stress-free alignment"
+            "torque": "22 Nm",
+            "notes": "Typical value; check alignment"
           }
         ]
       }

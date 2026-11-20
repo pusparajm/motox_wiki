@@ -27,7 +27,7 @@ Bikes use a flexible section model:
 
 - `general_specs` — key-value fields (engine, power, torque, chassis, dimensions, weight, fuel)
 - `service` — key-value fields (oil capacity/grade, chain, spark plug, fork oil/seal)
-- `torque_specs` — table rows (`component`, `torque`, `notes`). Every bike has one; verified family tables are used where available, otherwise the page shows a clearly labelled general fastener reference.
+- `torque_specs` — table rows (`component`, `torque`, `notes`). Every bike has one; verified family tables are used where available, otherwise the page shows a clearly labelled single-value general fastener reference.
 - Any additional `fields` or `table` section is rendered automatically
 - `custom_sections` — free-form HTML blocks
 
