@@ -178,7 +178,6 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
         <a class="brand" href="../index.html"><span class="brand-icon">⚙</span><span>MotoX Wiki</span></a>
       </div>
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="../index.html">Browse</a>
         <a href="index.html" class="active">Guides</a>
         <a href="oil-capacity-chart.html">Oil Charts</a>
         <a href="../pages.html">Reference</a>
@@ -264,7 +263,6 @@ def reference_page(slug, page_title, description, h1, subtitle, content, breadcr
         <a class="brand" href="../index.html"><span class="brand-icon">⚙</span><span>MotoX Wiki</span></a>
       </div>
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="../index.html">Browse</a>
         <a href="../guides/index.html">Guides</a>
         <a href="../guides/oil-capacity-chart.html">Oil Charts</a>
         <a href="../pages.html" class="active">Reference</a>
@@ -1017,7 +1015,6 @@ def model_page(bike, related, guide_links):
     <div class="container">
       <div class="header-row"><a class="brand" href="../index.html"><span class="brand-icon">⚙</span><span>MotoX Wiki</span></a></div>
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="../index.html">Browse</a>
         <a href="../guides/index.html">Guides</a>
         <a href="../guides/oil-capacity-chart.html">Oil Charts</a>
         <a href="../pages.html">Reference</a>

@@ -618,7 +618,7 @@ The site is responsive across screen sizes:
 
 ### Mobile navigation
 
-On phones, tap the **☰ menu button** (top right) to open Home / Browse / Reference links.
+On phones, tap the **☰ menu button** (top right) to open Guides / Reference links.
 
 ### Touch-friendly
 

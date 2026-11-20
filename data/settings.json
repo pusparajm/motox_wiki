@@ -10,14 +10,6 @@
   },
   "navigation": [
     {
-      "label": "Home",
-      "href": "index.html"
-    },
-    {
-      "label": "Browse",
-      "href": "index.html#browse"
-    },
-    {
       "label": "Guides",
       "href": "guides/index.html"
     },
