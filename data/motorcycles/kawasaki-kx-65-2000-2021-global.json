@@ -136,6 +136,31 @@
             "key": "note",
             "label": "Note",
             "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "125 mm — K-Tech 2003, 2021"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "33.00 × 46.00 × 11.00 mm (SHOWA, NOK) — K-Tech 2003, 2021"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "33.00 × 46.00 × 5.60/13.00 mm — K-Tech 2003, 2021"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "Showa (33/12.5) Mono Tube Piggyback — K-Tech 2003, 2021"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2003, 2021). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

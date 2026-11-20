@@ -134,6 +134,36 @@
             "key": "parts_note",
             "label": "Parts & Fitment Note",
             "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 2012, 2014"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "135 mm — K-Tech 2012, 2014"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "50.00 × 63.00 × 11.00 mm (MARZOCCHI, NOK) — K-Tech 2012, 2014"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "50.00 × 63.40 × 4.60/14.00 mm (MARZOCCHI, NOK) — K-Tech 2012, 2014"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "Sachs (40/14) Mono Tube Piggyback — K-Tech 2012, 2014"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2012, 2014). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

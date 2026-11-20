@@ -119,6 +119,41 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "EBC FA208"
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "2.5W — K-Tech 2025–2026"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "120 mm — K-Tech 2025–2026"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "48.00 × 57.90 × 9.50 mm (WP, NOK) — K-Tech 2025–2026"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "48.00 × 58.50/62.00 × 6.00/11.50 mm (WP, NOK) — K-Tech 2025–2026"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "48.70 × 20.00 × 1.00 mm — K-Tech 2025–2026"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "WP (46/18) Mono Tube XPLOR 5746 Piggyback — K-Tech 2025–2026"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2025–2026). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

@@ -55,6 +55,41 @@
             "key": "note",
             "label": "Note",
             "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 2001, 2007"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "125 mm — K-Tech 2001, 2007"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "46.00 × 58.10 × 9.50/11.50 mm (KYB, NOK) — K-Tech 2001, 2007"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "46.70 × 20.00 × 1.00 mm — K-Tech 2001, 2007"
+          },
+          {
+            "key": "fork_seal_circlip",
+            "label": "Fork Seal Circlip",
+            "value": "46.00/48.00 mm — K-Tech 2001, 2007"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "KYB (44/16) Mono Tube Piggyback — K-Tech 2001, 2007"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2001, 2007). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

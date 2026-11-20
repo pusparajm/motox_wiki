@@ -139,6 +139,36 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "SBS 675"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "155 mm — K-Tech 2023"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "41.00 × 54.00 × 11.00 mm (SHOWA, NOK) — K-Tech 2023"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "41.00 × 54.40 × 4.60/14.00 mm (SHOWA, NOK) — K-Tech 2023"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "41.70 × 20.00 × 1.00 mm — K-Tech 2023"
+          },
+          {
+            "key": "fork_seal_circlip",
+            "label": "Fork Seal Circlip",
+            "value": "41.00/43.00 mm — K-Tech 2023"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2023). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

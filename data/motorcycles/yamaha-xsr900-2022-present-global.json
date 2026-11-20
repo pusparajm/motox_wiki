@@ -126,6 +126,41 @@
             "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           },
           {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "10W — K-Tech 2025"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "100 mm — K-Tech 2025"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "41.00 × 53.00 × 8.00/10.50 mm (KYB, NOK) — K-Tech 2025"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "41.00 × 53.50 × 4.80/14.00 mm (KYB, NOK) — K-Tech 2025"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "41.70 × 20.00 × 1.00 mm — K-Tech 2025"
+          },
+          {
+            "key": "fork_seal_circlip",
+            "label": "Fork Seal Circlip",
+            "value": "41.00/43.00 mm — K-Tech 2025"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "KYB (40/14) Mono Tube (Emulsion) — K-Tech 2025"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "SBS 634HS"
@@ -134,6 +169,11 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "EBC SFA176 · SBS 657LS"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2025). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

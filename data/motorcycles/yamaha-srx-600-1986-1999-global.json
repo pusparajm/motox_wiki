@@ -55,6 +55,31 @@
             "key": "note",
             "label": "Note",
             "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 1996–1997"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "36.00 × 48.00 × 8.00/9.50 mm (KYB) — K-Tech 1996–1997"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "36.00 × 48.50 × 4.70/14.00 mm (KYB, NOK) — K-Tech 1996–1997"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "36.70 × 20.00 × 1.00 mm — K-Tech 1996–1997"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (1996–1997). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

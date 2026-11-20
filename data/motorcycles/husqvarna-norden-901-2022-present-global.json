@@ -144,6 +144,41 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "EBC FA181 · SBS 671LS"
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 2026"
+          },
+          {
+            "key": "fork_oil_volume",
+            "label": "Fork Oil Quantity",
+            "value": "475 cc — K-Tech 2026"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "43.00 × 52.90 × 9.50/10.50 mm (WP, NOK) — K-Tech 2026"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "43.00 × 53.40 × 6.00/13.00 mm (WP) — K-Tech 2026"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "43.70 × 20.00 × 1.00 mm — K-Tech 2026"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "WP (46/14) Mono Tube APEX 3146 Piggyback — K-Tech 2026"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2026). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

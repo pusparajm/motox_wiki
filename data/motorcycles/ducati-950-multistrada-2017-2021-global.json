@@ -146,6 +146,46 @@
             "key": "note",
             "label": "Note",
             "value": "Specifications are from the MotoSpecVault 2021 record. Confirm variant-specific equipment and service limits against the owner's manual."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 2021"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "170 mm — K-Tech 2021"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "48.00 × 60.00 × 9.50/10.50 mm (SACHS) — K-Tech 2021"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "48.00 × 60.00/64.70 × 5.00/14.00 mm (SACHS) — K-Tech 2021"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "48.70 × 20.00 × 1.00 mm — K-Tech 2021"
+          },
+          {
+            "key": "fork_seal_circlip",
+            "label": "Fork Seal Circlip",
+            "value": "46.00/48.00 mm — K-Tech 2021"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "Sachs (46/14) Mono Tube Piggyback — K-Tech 2021"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2021). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

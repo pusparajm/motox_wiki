@@ -55,6 +55,21 @@
             "key": "note",
             "label": "Note",
             "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "39.00 × 52.00 × 11.00 mm (SHOWA) — K-Tech 1986"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "39.00 × 53.00 × 5.60/15.00 mm (SHOWA) — K-Tech 1986"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (1986). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

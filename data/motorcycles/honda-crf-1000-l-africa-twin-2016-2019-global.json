@@ -55,6 +55,41 @@
             "key": "note",
             "label": "Note",
             "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "10W — K-Tech 2019"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "95 mm — K-Tech 2019"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "45.00 × 57.00 × 11.00 mm (SHOWA, NOK) — K-Tech 2019"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "45.00 × 57.30 × 6.00/13.00 mm (SHOWA, NOK) — K-Tech 2019"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "46.70 × 20.00 × 1.50 mm — K-Tech 2019"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "Showa (46/14) Mono Tube Piggyback — K-Tech 2019"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2019). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

@@ -55,6 +55,51 @@
             "key": "note",
             "label": "Note",
             "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 1990, 2007"
+          },
+          {
+            "key": "fork_oil_volume",
+            "label": "Fork Oil Quantity",
+            "value": "394 cc — K-Tech 2007"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "115 mm — K-Tech 1990"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "45.00 × 57.00 × 11.00 mm (SHOWA, NOK) — K-Tech 1990; 47.00 × 58.00 × 10.00 mm (SHOWA, NOK) — K-Tech 2007"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "45.00 × 57.30 × 6.00/13.00 mm (SHOWA, NOK) — K-Tech 1990; 47.00 × 59.00/62.00 × 8.00/10.30 mm (SHOWA, NOK) — K-Tech 2007"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "46.70 × 20.00 × 1.50 mm — K-Tech 1990; 47.70 × 20.00 × 1.00 mm — K-Tech 2007"
+          },
+          {
+            "key": "fork_seal_circlip",
+            "label": "Fork Seal Circlip",
+            "value": "46.00/48.00 mm — K-Tech 2007"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "Showa (44/14) Mono Tube Piggyback — K-Tech 1990; Showa (50/16) Mono Tube Piggyback — K-Tech 2007"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (1990, 2007). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

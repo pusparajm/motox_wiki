@@ -55,6 +55,51 @@
             "key": "note",
             "label": "Note",
             "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 2009–2010, 2018, 2022, 2026"
+          },
+          {
+            "key": "fork_oil_volume",
+            "label": "Fork Oil Quantity",
+            "value": "295 cc — K-Tech 2022 (latest listed)"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "280 mm — K-Tech 2026"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "48.00 × 58.10 × 8.50/10.50 mm (KYB, NOK) — K-Tech 2009–2010, 2018, 2022, 2026"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "48.00 × 58.50 × 4.70/11.60 mm (KYB, SHOWA, NOK) — K-Tech 2009–2010, 2018, 2022, 2026"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "48.70 × 20.00 × 1.00 mm — K-Tech 2009–2010, 2018, 2022, 2026"
+          },
+          {
+            "key": "fork_seal_circlip",
+            "label": "Fork Seal Circlip",
+            "value": "46.00/48.00 mm — K-Tech 2009–2010, 2018, 2022, 2026"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "KYB (50/16) Mono Tube Piggyback — K-Tech 2026 (latest listed)"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2009–2010, 2018, 2022, 2026). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

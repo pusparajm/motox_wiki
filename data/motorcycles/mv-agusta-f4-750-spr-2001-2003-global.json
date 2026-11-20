@@ -55,6 +55,36 @@
             "key": "note",
             "label": "Note",
             "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "7.5W — K-Tech 2003"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "50.00 × 63.00 × 11.00 mm (MARZOCCHI, NOK) — K-Tech 2003"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "50.00 × 63.40 × 4.60/14.00 mm (MARZOCCHI, NOK) — K-Tech 2003"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "50.70 × 20.00 × 1.00 mm — K-Tech 2003"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "Sachs (46/14) Mono Tube Piggyback — K-Tech 2003"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2003). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

@@ -55,6 +55,41 @@
             "key": "note",
             "label": "Note",
             "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 2010"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "115 mm — K-Tech 2010"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "43.00 × 55.10 × 9.50/10.50 mm (KYB, NOK) — K-Tech 2010"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "43.00 × 55.50 × 4.70/14.00 mm (KYB, NOK) — K-Tech 2010"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "43.70 × 20.00 × 1.00 mm — K-Tech 2010"
+          },
+          {
+            "key": "fork_seal_circlip",
+            "label": "Fork Seal Circlip",
+            "value": "41.00/43.00 mm — K-Tech 2010"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2010). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

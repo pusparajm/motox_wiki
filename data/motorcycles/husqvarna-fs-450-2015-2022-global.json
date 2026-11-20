@@ -146,6 +146,36 @@
             "key": "note",
             "label": "Note",
             "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+          },
+          {
+            "key": "fork_oil_volume",
+            "label": "Fork Oil Quantity",
+            "value": "200 cc — K-Tech 2022"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "48.00 × 57.90 × 9.50 mm (WP, NOK) — K-Tech 2022"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "48.00 × 58.50/62.00 × 6.00/11.50 mm (WP, NOK) — K-Tech 2022"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "48.70 × 20.00 × 1.00 mm — K-Tech 2022"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "WP (50/18) Mono Tube XACT 5057 Piggyback — K-Tech 2022"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2022). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

@@ -50,6 +50,31 @@
             "key": "note",
             "label": "Note",
             "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 2026"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "35.00 × 46.00 × 8.00/11.00 mm (WP) — K-Tech 2026"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "35.70 × 15.00 × 1.00 mm — K-Tech 2026"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "WP (36/14) Mono Tube XACT 5735 Piggyback — K-Tech 2026"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2026). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

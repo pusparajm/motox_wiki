@@ -129,6 +129,46 @@
             "key": "parts_note",
             "label": "Parts & Fitment Note",
             "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 2024"
+          },
+          {
+            "key": "fork_air_gap",
+            "label": "Fork Air Gap",
+            "value": "98 mm — K-Tech 2024"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "43.00 × 54.00 × 11.00 mm (SHOWA, NOK) — K-Tech 2024"
+          },
+          {
+            "key": "fork_dust_seal",
+            "label": "Fork Dust Seal Size",
+            "value": "43.00 × 54.20/59.80 × 6.00/11.00 mm (SHOWA, NOK) — K-Tech 2024"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "44.70 × 20.00 × 1.50 mm — K-Tech 2024"
+          },
+          {
+            "key": "fork_seal_circlip",
+            "label": "Fork Seal Circlip",
+            "value": "41.00/43.00 mm — K-Tech 2024"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "Sachs (40/14) Mono Tube (Dividing Piston) — K-Tech 2024"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2024). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

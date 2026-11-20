@@ -146,6 +146,26 @@
             "key": "note",
             "label": "Note",
             "value": "Tiger 900 GT Pro wet weight. Seat height is adjustable between 810 and 830 mm. Confirm equipment against the owner's manual."
+          },
+          {
+            "key": "fork_oil_grade",
+            "label": "Fork Oil Grade",
+            "value": "5W — K-Tech 2021, 2026"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "45.00 × 58.00 × 11.00 mm (MARZOCCHI, NOK) — K-Tech 2021, 2026"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "46.70 × 20.00 × 1.50 mm — K-Tech 2021, 2026"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2021, 2026). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

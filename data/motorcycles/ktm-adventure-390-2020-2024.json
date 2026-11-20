@@ -124,6 +124,26 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 118 links"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "43.00 × 52.90 × 9.50/10.50 mm (WP, NOK) — K-Tech 2024"
+          },
+          {
+            "key": "fork_slide_bushes",
+            "label": "Fork Slide Bushes",
+            "value": "43.70 × 20.00 × 1.00 mm — K-Tech 2024"
+          },
+          {
+            "key": "rear_shock",
+            "label": "Rear Shock Absorber",
+            "value": "WP (46/14) OEM INDIA — K-Tech 2024"
+          },
+          {
+            "key": "suspension_source",
+            "label": "Suspension Source",
+            "value": "K-Tech Part Finder (2024). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },
