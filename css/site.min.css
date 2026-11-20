@@ -14,7 +14,7 @@
   --motox-radius: 0.35rem;
   --motox-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   --motox-header-h: 2.875rem;
-  --motox-ad-bar-h: 6.25rem;
+  --motox-ad-bar-h: 5rem;
   --motox-page-padding-x: clamp(0.75rem, 3vw, 1rem);
 }
 
@@ -352,35 +352,28 @@ main.container {
   opacity: 0.85;
 }
 
-/* Full-width ad bar under header */
-.site-ad-bar {
+/* Full-width ad bar under header. The shell owns the reserved height so
+   AdSense cannot resize the slot and shift the page while it loads. */
+.site-ad-shell {
   position: relative;
-  display: flex;
   width: 100%;
+  height: var(--motox-ad-bar-h);
+  flex: 0 0 auto;
+  overflow: hidden;
   background: var(--pico-card-sectioning-background-color);
   border-bottom: 1px solid var(--motox-border);
-  text-align: center;
-  padding: 0.2rem 0.5rem;
-  min-height: var(--motox-ad-bar-h);
-  box-sizing: border-box;
 }
 
-.site-ad-bar::before {
-  content: "Advertisement — 728×90 Leaderboard";
+.site-ad-bar {
   position: absolute;
   inset: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.35rem 0.5rem;
-  color: var(--pico-muted-color);
-  font-size: 0.72rem;
-  line-height: 1.2;
-  pointer-events: none;
-}
-
-.site-ad-bar:has(ins.adsbygoogle[data-ad-status="filled"])::before {
-  display: none;
+  width: 100%;
+  background: var(--pico-card-sectioning-background-color);
+  text-align: center;
+  padding: 0.2rem 0.5rem;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .site-ad-bar.has-ad {
@@ -1414,10 +1407,6 @@ footer.site-footer {
   animation: mx-wheel-spin 0.95s linear infinite;
 }
 
-.show-more-bike-road {
-  animation: mx-road-run 0.55s linear infinite;
-}
-
 .show-more-bike:hover .show-more-bike-wheel,
 .show-more-bike:focus-visible .show-more-bike-wheel {
   animation-duration: 0.45s;
@@ -1441,14 +1430,9 @@ footer.site-footer {
   to { transform: translateY(-1.6px); }
 }
 
-@keyframes mx-road-run {
-  to { stroke-dashoffset: -20; }
-}
-
 @media (prefers-reduced-motion: reduce) {
   .show-more-bike-icon,
-  .show-more-bike-wheel,
-  .show-more-bike-road {
+  .show-more-bike-wheel {
     animation: none;
   }
 }

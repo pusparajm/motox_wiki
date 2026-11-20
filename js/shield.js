@@ -17,7 +17,7 @@ const MotoXShield = (() => {
     'nav-toggle-bar', 'oil-cap', 'oil-sep', 'oil-type', 'open', 'page-content', 'page-item',
     'page-layout', 'page-list', 'related-grid', 'related-section', 'related-title', 'result-meta',
     'result-title', 'search-dropdown', 'search-no-results', 'search-result-item', 'search-suggestion', 'search-suggestions', 'search-tip', 'shell',
-    'sidebar-ad', 'site-ad-bar', 'site-footer', 'site-footer-ad', 'site-footer-inner', 'site-header',
+    'sidebar-ad', 'site-ad-bar', 'site-ad-shell', 'site-footer', 'site-footer-ad', 'site-footer-inner', 'site-header',
     'site-nav', 'site-top', 'sort-bar', 'sort-select', 'spec-body', 'spec-field', 'spec-fields',
     'spec-section', 'spec-section-compact', 'spec-section-grid', 'spec-note', 'spec-quick-row', 'spec-table', 'spec-table-wrap',
     'service-pending', 'show-more-bike', 'show-more-bike-icon', 'show-more-bike-label',

@@ -283,10 +283,13 @@ const MotoX = (() => {
 
     let bar = ref('site-ad-bar');
     if (!bar) {
+      const shell = document.createElement('div');
+      shell.className = mx('site-ad-shell');
       bar = document.createElement('div');
       bar.setAttribute('data-mx-ref', 'site-ad-bar');
       bar.className = mx('site-ad-bar');
-      wrapper.appendChild(bar);
+      shell.appendChild(bar);
+      wrapper.appendChild(shell);
       if (typeof MotoXShield !== 'undefined') bar.id = MotoXShield.idFor('site-ad-bar');
     }
 
@@ -294,7 +297,8 @@ const MotoX = (() => {
     const fallback = content.includes('adsbygoogle')
       ? '<div data-mx-ad-fallback style="position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;font-size:.72rem;color:var(--pico-muted-color);pointer-events:none">Advertisement — 728×90 Leaderboard</div>'
       : '';
-    bar.style.position = 'relative';
+    bar.style.position = 'absolute';
+    bar.style.inset = '0';
     bar.innerHTML = fallback + content;
     bar.classList.toggle(mx('has-ad'), !!content);
     if (content) initAdsense(bar);
