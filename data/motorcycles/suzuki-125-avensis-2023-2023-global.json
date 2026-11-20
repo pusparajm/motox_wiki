@@ -8,7 +8,7 @@
     "model_group": "suzuki-125-avensis",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Suzuki 125 Avensis (2023). 124 cc, 8.7 hp, 10 Nm, 780 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Suzuki 125 Avensis (2023). 124 cc, 8.7 hp, 10 Nm, 107 kg, 780 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "suzuki",
       "125-avensis",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -88,9 +88,9 @@
             "value": "2023"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "107 kg"
           }
         ]
       },
@@ -115,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+            "value": "Suzuki Avenis 125 data from the manufacturer; the SBS catalogue spells the model 'Avensis'. Confirm equipment against the owner's manual."
           }
         ]
       },

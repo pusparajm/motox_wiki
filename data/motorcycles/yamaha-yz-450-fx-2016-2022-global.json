@@ -8,7 +8,7 @@
     "model_group": "yamaha-yz-450-fx",
     "category": "Motocross",
     "displacement": "450 cc",
-    "summary": "Yamaha YZ 450 FX (2016–2022). 449.7 cc, 115.2 kg, 955 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha YZ 450 FX (2016–2022). 449.7 cc, 115.2 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
     "tags": [
       "yamaha",
       "yz-450-fx",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+            "value": "Yamaha YZ450FX wet weight and seat height. Yamaha does not publish a peak power figure for this competition model. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

@@ -8,7 +8,7 @@
     "model_group": "kymco-300-x-town-ct",
     "category": "Scooter",
     "displacement": "300 cc",
-    "summary": "Kymco 300 X-Town CT (2020). 25 Nm, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Kymco 300 X-Town CT (2020). 22.9 hp, 24 Nm, 198 kg, 815 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "kymco",
       "300-x-town-ct",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,7 +25,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "25 Nm @ 6,250 rpm"
+            "value": "24 Nm @ 6,500 rpm"
           },
           {
             "key": "transmission",
@@ -60,7 +60,7 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "800 mm"
+            "value": "815 mm"
           },
           {
             "key": "fuel_capacity",
@@ -73,9 +73,14 @@
             "value": "2020"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
+            "key": "power",
+            "label": "Max Power",
+            "value": "22.9 hp @ 7,500 rpm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "198 kg"
           }
         ]
       },
@@ -125,7 +130,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
+            "value": "Kymco X-Town CT 300 data from the manufacturer. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

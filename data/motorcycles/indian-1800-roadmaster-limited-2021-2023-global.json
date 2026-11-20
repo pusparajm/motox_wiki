@@ -8,15 +8,16 @@
     "model_group": "indian-1800-roadmaster-limited",
     "category": "Cruiser",
     "displacement": "1800 cc",
-    "summary": "Indian 1800 Roadmaster Limited brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Indian 1800 Roadmaster Limited (2021–Present). 1800 cc, 92 hp, 168 Nm, 403 kg, 673 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "indian",
       "1800-roadmaster-limited",
       "cruiser",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -32,9 +33,24 @@
             "value": "2021–Present"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "key": "power",
+            "label": "Max Power",
+            "value": "92 hp"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "168 Nm @ 2,900 rpm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "403 kg"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "673 mm"
           }
         ]
       },
@@ -54,7 +70,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Indian Roadmaster Limited wet weight, seat height and engine output from the manufacturer. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

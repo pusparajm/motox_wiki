@@ -8,15 +8,16 @@
     "model_group": "indian-1800-roadmaster-dark-horse",
     "category": "Cruiser",
     "displacement": "1800 cc",
-    "summary": "Indian 1800 Roadmaster Dark Horse brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Indian 1800 Roadmaster Dark Horse (2020–Present). 1800 cc, 92 hp, 168 Nm, 403 kg, 673 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "indian",
       "1800-roadmaster-dark-horse",
       "cruiser",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -32,9 +33,24 @@
             "value": "2020–Present"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "key": "power",
+            "label": "Max Power",
+            "value": "92 hp"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "168 Nm @ 2,900 rpm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "403 kg"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "673 mm"
           }
         ]
       },
@@ -54,7 +70,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Indian Roadmaster Dark Horse data shared with the Roadmaster Limited. The Dark Horse trim deletes some touring equipment; confirm exact wet weight against the owner's manual."
           }
         ]
       },

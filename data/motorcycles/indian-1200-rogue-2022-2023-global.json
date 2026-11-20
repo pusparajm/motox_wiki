@@ -8,15 +8,16 @@
     "model_group": "indian-1200-rogue",
     "category": "Naked",
     "displacement": "1200 cc",
-    "summary": "Indian 1200 Rogue brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Indian 1200 Rogue (2022–Present). 1200 cc, 100 hp, 97 Nm, 247 kg, 649 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "indian",
       "1200-rogue",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -32,9 +33,24 @@
             "value": "2022–Present"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "key": "power",
+            "label": "Max Power",
+            "value": "100 hp @ 8,100 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "97 Nm @ 5,900 rpm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "247 kg"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "649 mm"
           }
         ]
       },
@@ -54,7 +70,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Indian Scout Rogue wet weight, seat height and engine output from the manufacturer. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

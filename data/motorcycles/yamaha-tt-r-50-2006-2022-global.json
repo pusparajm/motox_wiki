@@ -8,7 +8,7 @@
     "model_group": "yamaha-tt-r-50",
     "category": "Naked",
     "displacement": "50 cc",
-    "summary": "Yamaha TT-R 50 (2006–2022). 49 cc, 58.1 kg, 555 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha TT-R 50 (2006–2022). 49 cc, 58 kg, 555 mm seat. Partial specifications compiled from manufacturer data.",
     "tags": [
       "yamaha",
       "tt-r-50",
@@ -70,7 +70,7 @@
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "58.1 kg"
+            "value": "58 kg"
           },
           {
             "key": "fuel_capacity",
@@ -130,7 +130,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+            "value": "Yamaha TT-R50E wet weight and seat height. Yamaha does not publish a peak power figure. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

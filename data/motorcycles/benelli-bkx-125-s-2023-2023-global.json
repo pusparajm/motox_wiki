@@ -8,12 +8,13 @@
     "model_group": "benelli-bkx-125-s",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "Benelli BKX 125 S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Benelli BKX 125 S (2023). 125 cc, 15 hp, 12.1 Nm, 860 mm seat. Partial specifications compiled from manufacturer data.",
     "tags": [
       "benelli",
       "bkx-125-s",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -32,9 +33,69 @@
             "value": "2023"
           },
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "125 cc liquid-cooled single-cylinder four-stroke"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "15 hp @ 9,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "12.1 Nm @ 7,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm USD fork, fully adjustable"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Steel swingarm with progressive linkage, preload and rebound adjustable"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single 280 mm disc, four-piston caliper, ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single 240 mm disc, single-piston caliper"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-19 front, 120/90-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "860 mm"
+          },
+          {
+            "key": "dry_weight",
+            "label": "Dry Weight",
+            "value": "144 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12 L"
+          },
+          {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -54,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Benelli BKX 125 data from the manufacturer. Dry weight is quoted; wet weight is not published. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

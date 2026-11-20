@@ -72805,7 +72805,7 @@
       "model_group": "aprilia-sr-50-motard",
       "category": "Scooter",
       "displacement": "50 cc",
-      "summary": "Aprilia SR 50 Motard (2018–2022). 49.9 cc, 4.6 hp, 3.8 Nm, 820 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Aprilia SR 50 Motard (2018–2022). 49.9 cc, 4.6 hp, 3.8 Nm, 108 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "aprilia",
         "sr-50-motard",
@@ -72814,7 +72814,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -72885,9 +72885,9 @@
               "value": "2018–2022"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "108 kg"
             }
           ]
         },
@@ -72922,7 +72922,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
+              "value": "Aprilia SR 50 Motard wet weight from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -74413,7 +74413,7 @@
       "model_group": "aprilia-sr-200-gt",
       "category": "Scooter",
       "displacement": "200 cc",
-      "summary": "Aprilia SR 200 GT (2021–Present). 16.5 Nm, 116 kg, 799 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Aprilia SR 200 GT (2021–Present). 17.4 hp, 16.5 Nm, 148 kg, 799 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "aprilia",
         "sr-200-gt",
@@ -74422,7 +74422,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -74470,7 +74470,7 @@
             {
               "key": "weight",
               "label": "Kerb Weight",
-              "value": "116 kg"
+              "value": "148 kg"
             },
             {
               "key": "fuel_capacity",
@@ -74483,9 +74483,9 @@
               "value": "2021–Present"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "17.4 hp @ 8,500 rpm"
             }
           ]
         },
@@ -74540,7 +74540,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+              "value": "Aprilia SR 200 GT engine output from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -80656,12 +80656,13 @@
       "model_group": "benelli-bkx-125",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "Benelli BKX 125 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Benelli BKX 125 (2023). 125 cc, 15 hp, 12.1 Nm, 860 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "benelli",
         "bkx-125",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -80680,9 +80681,69 @@
               "value": "2023"
             },
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "125 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp @ 9,500 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "12.1 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm USD fork, fully adjustable"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Steel swingarm with progressive linkage, preload and rebound adjustable"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 280 mm disc, four-piston caliper, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, single-piston caliper"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-19 front, 120/90-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "860 mm"
+            },
+            {
+              "key": "dry_weight",
+              "label": "Dry Weight",
+              "value": "144 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
+            },
+            {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -80702,7 +80763,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Benelli BKX 125 data from the manufacturer. Dry weight is quoted; wet weight is not published. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -80727,12 +80788,13 @@
       "model_group": "benelli-bkx-125-s",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "Benelli BKX 125 S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Benelli BKX 125 S (2023). 125 cc, 15 hp, 12.1 Nm, 860 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "benelli",
         "bkx-125-s",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -80751,9 +80813,69 @@
               "value": "2023"
             },
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "125 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp @ 9,500 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "12.1 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm USD fork, fully adjustable"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Steel swingarm with progressive linkage, preload and rebound adjustable"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 280 mm disc, four-piston caliper, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, single-piston caliper"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-19 front, 120/90-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "860 mm"
+            },
+            {
+              "key": "dry_weight",
+              "label": "Dry Weight",
+              "value": "144 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
+            },
+            {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -80773,7 +80895,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Benelli BKX 125 data from the manufacturer. Dry weight is quoted; wet weight is not published. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -81970,7 +82092,7 @@
       "model_group": "benelli-t-600-tornado-naked",
       "category": "Naked",
       "displacement": "600 cc",
-      "summary": "Benelli T 600 Tornado Naked (2020). 599.6 cc, 67.1 hp, 48 Nm, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Benelli T 600 Tornado Naked (2020). 599.6 cc, 67.1 hp, 48 Nm, 231 kg, 800 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "benelli",
         "t-600-tornado-naked",
@@ -81979,7 +82101,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -82050,9 +82172,9 @@
               "value": "2020"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "231 kg"
             }
           ]
         },
@@ -82077,7 +82199,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
+              "value": "Benelli TNT 600 Tornado Naked wet weight from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -181324,7 +181446,7 @@
       "model_group": "honda-nsc-110-vision",
       "category": "Naked",
       "displacement": "110 cc",
-      "summary": "Honda NSC 110 Vision (2010–2020). 8.7 Nm. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Honda NSC 110 Vision (2010–2020). 108 cc, 8.3 hp, 8.7 Nm, 102 kg, 770 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "honda",
         "nsc-110-vision",
@@ -181333,7 +181455,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -181346,7 +181468,7 @@
             {
               "key": "transmission",
               "label": "Transmission",
-              "value": "Automatic, Belt"
+              "value": "Automatic, belt"
             },
             {
               "key": "front_suspension",
@@ -181384,9 +181506,29 @@
               "value": "2010–2020"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "engine",
+              "label": "Engine",
+              "value": "108 cc air-cooled single-cylinder four-stroke"
+            },
+            {
+              "key": "displacement",
+              "label": "Displacement",
+              "value": "108 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "8.3 hp @ 8,000 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "102 kg"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "770 mm"
             }
           ]
         },
@@ -181431,7 +181573,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2013 record; remaining specifications are still being compiled."
+              "value": "Honda NSC110 Vision data from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -184808,7 +184950,7 @@
       "model_group": "honda-pcx-150",
       "category": "Scooter",
       "displacement": "150 cc",
-      "summary": "Honda PCX 150 (2012–2020). 149 cc, 131.1 kg, 765 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Honda PCX 150 (2012–2020). 149 cc, 15 hp, 14 Nm, 130 kg, 764 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "honda",
         "pcx-150",
@@ -184817,7 +184959,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -184865,12 +185007,12 @@
             {
               "key": "seat_height",
               "label": "Seat Height",
-              "value": "765 mm"
+              "value": "764 mm"
             },
             {
               "key": "weight",
               "label": "Kerb Weight",
-              "value": "131.1 kg"
+              "value": "130 kg"
             },
             {
               "key": "fuel_capacity",
@@ -184883,9 +185025,14 @@
               "value": "2012–2020"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp @ 8,500 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "14 Nm @ 6,500 rpm"
             }
           ]
         },
@@ -184935,7 +185082,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
+              "value": "Honda PCX150 data from the manufacturer for the 2018-generation model. Confirm the exact model year against the owner's manual."
             }
           ]
         },
@@ -227195,15 +227342,16 @@
       "model_group": "indian-1200-rogue",
       "category": "Naked",
       "displacement": "1200 cc",
-      "summary": "Indian 1200 Rogue brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Indian 1200 Rogue (2022–Present). 1200 cc, 100 hp, 97 Nm, 247 kg, 649 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "indian",
         "1200-rogue",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -227219,9 +227367,24 @@
               "value": "2022–Present"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "power",
+              "label": "Max Power",
+              "value": "100 hp @ 8,100 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "97 Nm @ 5,900 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "247 kg"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "649 mm"
             }
           ]
         },
@@ -227241,7 +227404,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Indian Scout Rogue wet weight, seat height and engine output from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -227540,15 +227703,16 @@
       "model_group": "indian-ftr-1200-s-rr",
       "category": "Naked",
       "displacement": "1200 cc",
-      "summary": "Indian FTR 1200 S RR brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Indian FTR 1200 S RR (2020–Present). 1200 cc, 120 hp, 118 Nm, 233 kg, 780 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "indian",
         "ftr-1200-s-rr",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -227564,9 +227728,24 @@
               "value": "2020–Present"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "power",
+              "label": "Max Power",
+              "value": "120 hp @ 8,250 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "118 Nm @ 6,000 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "233 kg"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "780 mm"
             }
           ]
         },
@@ -227586,7 +227765,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Indian FTR 1200 S RR data shared with the FTR S. The RR is a race-replica trim; confirm its exact equipment and weight against the owner's manual."
             }
           ]
         },
@@ -229740,15 +229919,16 @@
       "model_group": "indian-1800-roadmaster-dark-horse",
       "category": "Cruiser",
       "displacement": "1800 cc",
-      "summary": "Indian 1800 Roadmaster Dark Horse brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Indian 1800 Roadmaster Dark Horse (2020–Present). 1800 cc, 92 hp, 168 Nm, 403 kg, 673 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "indian",
         "1800-roadmaster-dark-horse",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -229764,9 +229944,24 @@
               "value": "2020–Present"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "power",
+              "label": "Max Power",
+              "value": "92 hp"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "168 Nm @ 2,900 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "403 kg"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "673 mm"
             }
           ]
         },
@@ -229786,7 +229981,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Indian Roadmaster Dark Horse data shared with the Roadmaster Limited. The Dark Horse trim deletes some touring equipment; confirm exact wet weight against the owner's manual."
             }
           ]
         },
@@ -229882,15 +230077,16 @@
       "model_group": "indian-1800-roadmaster-limited",
       "category": "Cruiser",
       "displacement": "1800 cc",
-      "summary": "Indian 1800 Roadmaster Limited brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Indian 1800 Roadmaster Limited (2021–Present). 1800 cc, 92 hp, 168 Nm, 403 kg, 673 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "indian",
         "1800-roadmaster-limited",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -229906,9 +230102,24 @@
               "value": "2021–Present"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "power",
+              "label": "Max Power",
+              "value": "92 hp"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "168 Nm @ 2,900 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "403 kg"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "673 mm"
             }
           ]
         },
@@ -229928,7 +230139,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Indian Roadmaster Limited wet weight, seat height and engine output from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -272960,7 +273171,7 @@
       "model_group": "kymco-125-x-town-ct",
       "category": "Scooter",
       "displacement": "125 cc",
-      "summary": "Kymco 125 X-Town CT (2020). 11.6 Nm, 765 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Kymco 125 X-Town CT (2020). 12.7 hp, 11 Nm, 179 kg, 765 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "kymco",
         "125-x-town-ct",
@@ -272969,7 +273180,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -272977,7 +273188,7 @@
             {
               "key": "torque",
               "label": "Max Torque",
-              "value": "11.6 Nm @ 7,000 rpm"
+              "value": "11 Nm @ 6,500 rpm"
             },
             {
               "key": "front_suspension",
@@ -273020,9 +273231,14 @@
               "value": "2020"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "12.7 hp @ 9,000 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "179 kg"
             }
           ]
         },
@@ -273042,7 +273258,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
+              "value": "Kymco X-Town CT 125 data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -274041,7 +274257,7 @@
       "model_group": "kymco-300-agility",
       "category": "Scooter",
       "displacement": "300 cc",
-      "summary": "Kymco 300 Agility+ (2020–2022). 22.5 Nm, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Kymco 300 Agility+ (2020–2022). 23 hp, 22.5 Nm, 191 kg, 795 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "kymco",
         "300-agility",
@@ -274050,7 +274266,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -274088,7 +274304,7 @@
             {
               "key": "seat_height",
               "label": "Seat Height",
-              "value": "810 mm"
+              "value": "795 mm"
             },
             {
               "key": "fuel_capacity",
@@ -274101,9 +274317,14 @@
               "value": "2020–2022"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "23 hp @ 7,500 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "191 kg"
             }
           ]
         },
@@ -274118,7 +274339,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
+              "value": "Kymco Agility 300i data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -274285,7 +274506,7 @@
       "model_group": "kymco-300-people-s",
       "category": "Scooter",
       "displacement": "300 cc",
-      "summary": "Kymco 300 People S (2020). 26.5 Nm, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Kymco 300 People S (2020). 27 hp, 27.8 Nm, 188 kg, 805 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "kymco",
         "300-people-s",
@@ -274294,7 +274515,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -274302,7 +274523,7 @@
             {
               "key": "torque",
               "label": "Max Torque",
-              "value": "26.5 Nm @ 6,500 rpm"
+              "value": "27.8 Nm @ 6,500 rpm"
             },
             {
               "key": "front_suspension",
@@ -274332,7 +274553,7 @@
             {
               "key": "seat_height",
               "label": "Seat Height",
-              "value": "810 mm"
+              "value": "805 mm"
             },
             {
               "key": "fuel_capacity",
@@ -274345,9 +274566,14 @@
               "value": "2020"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "27 hp @ 8,000 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "188 kg"
             }
           ]
         },
@@ -274387,7 +274613,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
+              "value": "Kymco People S 300 data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -274483,7 +274709,7 @@
       "model_group": "kymco-300-x-town-ct",
       "category": "Scooter",
       "displacement": "300 cc",
-      "summary": "Kymco 300 X-Town CT (2020). 25 Nm, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Kymco 300 X-Town CT (2020). 22.9 hp, 24 Nm, 198 kg, 815 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "kymco",
         "300-x-town-ct",
@@ -274492,7 +274718,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -274500,7 +274726,7 @@
             {
               "key": "torque",
               "label": "Max Torque",
-              "value": "25 Nm @ 6,250 rpm"
+              "value": "24 Nm @ 6,500 rpm"
             },
             {
               "key": "transmission",
@@ -274535,7 +274761,7 @@
             {
               "key": "seat_height",
               "label": "Seat Height",
-              "value": "800 mm"
+              "value": "815 mm"
             },
             {
               "key": "fuel_capacity",
@@ -274548,9 +274774,14 @@
               "value": "2020"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "22.9 hp @ 7,500 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "198 kg"
             }
           ]
         },
@@ -274600,7 +274831,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
+              "value": "Kymco X-Town CT 300 data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -314970,7 +315201,7 @@
       "model_group": "suzuki-dr-z-70",
       "category": "Dual Sport",
       "displacement": "70 cc",
-      "summary": "Suzuki DR-Z 70 (2008–2020). 67 cc, 55 kg, 560 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Suzuki DR-Z 70 (2008–2020). 67 cc, 4.4 hp, 54 kg, 560 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "suzuki",
         "dr-z-70",
@@ -314979,7 +315210,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -315032,7 +315263,7 @@
             {
               "key": "weight",
               "label": "Kerb Weight",
-              "value": "55 kg"
+              "value": "54 kg"
             },
             {
               "key": "fuel_capacity",
@@ -315045,9 +315276,9 @@
               "value": "2008–2020"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "4.4 hp"
             }
           ]
         },
@@ -315087,7 +315318,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2018 record; remaining specifications are still being compiled."
+              "value": "Suzuki DR-Z70 data from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -316218,7 +316449,7 @@
       "model_group": "suzuki-125-address",
       "category": "Scooter",
       "displacement": "125 cc",
-      "summary": "Suzuki 125 Address (2023). 124 cc, 10 Nm, 105 kg, 770 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Suzuki 125 Address (2023). 124 cc, 8.7 hp, 10 Nm, 105 kg, 770 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "suzuki",
         "125-address",
@@ -316227,7 +316458,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -316298,9 +316529,9 @@
               "value": "2023"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "8.7 hp @ 6,750 rpm"
             }
           ]
         },
@@ -316350,7 +316581,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+              "value": "Suzuki Address 125 data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -316375,7 +316606,7 @@
       "model_group": "suzuki-125-avensis",
       "category": "Scooter",
       "displacement": "125 cc",
-      "summary": "Suzuki 125 Avensis (2023). 124 cc, 8.7 hp, 10 Nm, 780 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Suzuki 125 Avensis (2023). 124 cc, 8.7 hp, 10 Nm, 107 kg, 780 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "suzuki",
         "125-avensis",
@@ -316384,7 +316615,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -316455,9 +316686,9 @@
               "value": "2023"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "107 kg"
             }
           ]
         },
@@ -316482,7 +316713,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+              "value": "Suzuki Avenis 125 data from the manufacturer; the SBS catalogue spells the model 'Avensis'. Confirm equipment against the owner's manual."
             }
           ]
         },
@@ -341661,7 +341892,7 @@
       "model_group": "sym-300-joyride",
       "category": "Naked",
       "displacement": "300 cc",
-      "summary": "SYM 300 Joyride (2022). 26 Nm, 151 kg, 770 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "SYM 300 Joyride (2022). 25 hp, 26 Nm, 186 kg, 770 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "sym",
         "300-joyride",
@@ -341670,7 +341901,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -341718,7 +341949,7 @@
             {
               "key": "weight",
               "label": "Kerb Weight",
-              "value": "151 kg"
+              "value": "186 kg"
             },
             {
               "key": "fuel_capacity",
@@ -341731,9 +341962,9 @@
               "value": "2022"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "25 hp @ 8,000 rpm"
             }
           ]
         },
@@ -341753,7 +341984,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+              "value": "SYM Joyride 300 data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -342341,7 +342572,7 @@
       "model_group": "sym-465-maxsym-tl",
       "category": "Scooter",
       "displacement": "465 cc",
-      "summary": "SYM 465 Maxsym TL (2020). 465 cc, 40.2 hp, 42.5 Nm, 795 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "SYM 465 Maxsym TL (2020). 465 cc, 40.2 hp, 42.5 Nm, 223 kg, 795 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "sym",
         "465-maxsym-tl",
@@ -342350,7 +342581,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -342421,9 +342652,9 @@
               "value": "2020"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "223 kg"
             }
           ]
         },
@@ -342448,7 +342679,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
+              "value": "SYM Maxsym TL 465 wet weight from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -368821,7 +369052,7 @@
       "model_group": "yamaha-tt-r-50",
       "category": "Naked",
       "displacement": "50 cc",
-      "summary": "Yamaha TT-R 50 (2006–2022). 49 cc, 58.1 kg, 555 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Yamaha TT-R 50 (2006–2022). 49 cc, 58 kg, 555 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "yamaha",
         "tt-r-50",
@@ -368883,7 +369114,7 @@
             {
               "key": "weight",
               "label": "Kerb Weight",
-              "value": "58.1 kg"
+              "value": "58 kg"
             },
             {
               "key": "fuel_capacity",
@@ -368943,7 +369174,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+              "value": "Yamaha TT-R50E wet weight and seat height. Yamaha does not publish a peak power figure. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -370825,7 +371056,7 @@
       "model_group": "yamaha-tt-r-110",
       "category": "Naked",
       "displacement": "110 cc",
-      "summary": "Yamaha TT-R 110 (2008–2021). 72 kg, 670 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Yamaha TT-R 110 (2008–2021). 72 kg, 670 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "yamaha",
         "tt-r-110",
@@ -370942,7 +371173,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
+              "value": "Yamaha TT-R110E wet weight and seat height. Yamaha does not publish a peak power figure. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -376069,7 +376300,7 @@
       "model_group": "yamaha-tt-r-230",
       "category": "Naked",
       "displacement": "230 cc",
-      "summary": "Yamaha TT-R 230 (2005–2022). 223 cc, 18.6 Nm, 114 kg, 870 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Yamaha TT-R 230 (2005–2022). 223 cc, 18.6 Nm, 114 kg, 870 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "yamaha",
         "tt-r-230",
@@ -376201,7 +376432,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2021 record; remaining specifications are still being compiled."
+              "value": "Yamaha TT-R230 wet weight from the manufacturer. Yamaha does not publish a peak power figure. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -378112,7 +378343,7 @@
       "model_group": "yamaha-xt-250",
       "category": "Naked",
       "displacement": "250 cc",
-      "summary": "Yamaha XT 250 (1980–2022). 249 cc, 17 hp, 125 kg. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Yamaha XT 250 (1980–2022). 249 cc, 17 hp, 125 kg, 810 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "yamaha",
         "xt-250",
@@ -378121,7 +378352,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -378177,9 +378408,9 @@
               "value": "1980–2022"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "810 mm"
             }
           ]
         },
@@ -378214,7 +378445,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 1990 record; remaining specifications are still being compiled."
+              "value": "Yamaha XT250 seat height from the manufacturer specification. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -378452,7 +378683,7 @@
       "model_group": "yamaha-xvs-250-v-star",
       "category": "Cruiser",
       "displacement": "250 cc",
-      "summary": "Yamaha XVS 250 V-Star (2008–2022). 249 cc, 147 kg, 686 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Yamaha XVS 250 V-Star (2008–2022). 249 cc, 21 hp, 21 Nm, 147 kg, 685 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "yamaha",
         "xvs-250-v-star",
@@ -378461,7 +378692,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -378509,7 +378740,7 @@
             {
               "key": "seat_height",
               "label": "Seat Height",
-              "value": "686 mm"
+              "value": "685 mm"
             },
             {
               "key": "weight",
@@ -378527,9 +378758,14 @@
               "value": "2008–2022"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "21 hp @ 8,000 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "21 Nm @ 6,000 rpm"
             }
           ]
         },
@@ -378564,7 +378800,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+              "value": "Yamaha XVS 250 V-Star data from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -379502,7 +379738,7 @@
       "model_group": "yamaha-yz-250-fx",
       "category": "Motocross",
       "displacement": "250 cc",
-      "summary": "Yamaha YZ 250 FX (2015–2021). 250 cc, 112.9 kg, 965 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Yamaha YZ 250 FX (2015–2021). 250 cc, 111 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "yamaha",
         "yz-250-fx",
@@ -379559,12 +379795,12 @@
             {
               "key": "seat_height",
               "label": "Seat Height",
-              "value": "965 mm"
+              "value": "955 mm"
             },
             {
               "key": "weight",
               "label": "Kerb Weight",
-              "value": "112.9 kg"
+              "value": "111 kg"
             },
             {
               "key": "fuel_capacity",
@@ -379619,7 +379855,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
+              "value": "Yamaha YZ250FX wet weight and seat height. Yamaha does not publish a peak power figure for this competition model. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -379715,7 +379951,7 @@
       "model_group": "yamaha-yz-250-x",
       "category": "Motocross",
       "displacement": "250 cc",
-      "summary": "Yamaha YZ 250 X (2016–2022). 249 cc, 103.9 kg, 970 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Yamaha YZ 250 X (2016–2022). 249 cc, 104 kg, 970 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "yamaha",
         "yz-250-x",
@@ -379777,7 +380013,7 @@
             {
               "key": "weight",
               "label": "Kerb Weight",
-              "value": "103.9 kg"
+              "value": "104 kg"
             },
             {
               "key": "fuel_capacity",
@@ -379822,7 +380058,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+              "value": "Yamaha YZ250X wet weight and seat height. Yamaha does not publish a peak power figure for this competition model. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -381830,7 +382066,7 @@
       "model_group": "yamaha-wr-450-f-efi",
       "category": "Enduro",
       "displacement": "450 cc",
-      "summary": "Yamaha WR 450 F Efi (2016–2021). 450 cc, 49 Nm, 118.8 kg, 955 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Yamaha WR 450 F Efi (2016–2021). 450 cc, 48.9 hp, 49 Nm, 119 kg, 955 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "yamaha",
         "wr-450-f-efi",
@@ -381839,7 +382075,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -381897,7 +382133,7 @@
             {
               "key": "weight",
               "label": "Kerb Weight",
-              "value": "118.8 kg"
+              "value": "119 kg"
             },
             {
               "key": "fuel_capacity",
@@ -381910,9 +382146,9 @@
               "value": "2016–2021"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "48.9 hp @ 9,000 rpm"
             }
           ]
         },
@@ -381977,7 +382213,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2021 record; remaining specifications are still being compiled."
+              "value": "Yamaha WR450F wet weight and measured rear-wheel power. Yamaha does not publish a crankshaft power figure. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -382073,7 +382309,7 @@
       "model_group": "yamaha-yz-450-fx",
       "category": "Motocross",
       "displacement": "450 cc",
-      "summary": "Yamaha YZ 450 FX (2016–2022). 449.7 cc, 115.2 kg, 955 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Yamaha YZ 450 FX (2016–2022). 449.7 cc, 115.2 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "yamaha",
         "yz-450-fx",
@@ -382185,7 +382421,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+              "value": "Yamaha YZ450FX wet weight and seat height. Yamaha does not publish a peak power figure for this competition model. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -392189,7 +392425,7 @@
       "model_group": "yamaha-xv-950-bolt-r-spec",
       "category": "Naked",
       "displacement": "950 cc",
-      "summary": "Yamaha XV 950 Bolt R-Spec (2014–2022). 942 cc, 80.4 Nm, 248 kg, 690 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Yamaha XV 950 Bolt R-Spec (2014–2022). 942 cc, 54 hp, 80.4 Nm, 246 kg, 690 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "yamaha",
         "xv-950-bolt-r-spec",
@@ -392198,7 +392434,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -392256,7 +392492,7 @@
             {
               "key": "weight",
               "label": "Kerb Weight",
-              "value": "248 kg"
+              "value": "246 kg"
             },
             {
               "key": "fuel_capacity",
@@ -392269,9 +392505,9 @@
               "value": "2014–2022"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "54 hp @ 5,500 rpm"
             }
           ]
         },
@@ -392301,7 +392537,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2021 record; remaining specifications are still being compiled."
+              "value": "Yamaha Bolt R-Spec wet weight, seat height and engine output. Confirm model-year equipment against the owner's manual."
             }
           ]
         },

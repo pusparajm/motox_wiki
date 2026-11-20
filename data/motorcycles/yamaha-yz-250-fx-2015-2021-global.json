@@ -8,7 +8,7 @@
     "model_group": "yamaha-yz-250-fx",
     "category": "Motocross",
     "displacement": "250 cc",
-    "summary": "Yamaha YZ 250 FX (2015–2021). 250 cc, 112.9 kg, 965 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha YZ 250 FX (2015–2021). 250 cc, 111 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
     "tags": [
       "yamaha",
       "yz-250-fx",
@@ -65,12 +65,12 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "965 mm"
+            "value": "955 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "112.9 kg"
+            "value": "111 kg"
           },
           {
             "key": "fuel_capacity",
@@ -125,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
+            "value": "Yamaha YZ250FX wet weight and seat height. Yamaha does not publish a peak power figure for this competition model. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

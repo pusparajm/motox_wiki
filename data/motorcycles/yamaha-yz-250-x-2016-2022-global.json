@@ -8,7 +8,7 @@
     "model_group": "yamaha-yz-250-x",
     "category": "Motocross",
     "displacement": "250 cc",
-    "summary": "Yamaha YZ 250 X (2016–2022). 249 cc, 103.9 kg, 970 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha YZ 250 X (2016–2022). 249 cc, 104 kg, 970 mm seat. Partial specifications compiled from manufacturer data.",
     "tags": [
       "yamaha",
       "yz-250-x",
@@ -70,7 +70,7 @@
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "103.9 kg"
+            "value": "104 kg"
           },
           {
             "key": "fuel_capacity",
@@ -115,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+            "value": "Yamaha YZ250X wet weight and seat height. Yamaha does not publish a peak power figure for this competition model. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

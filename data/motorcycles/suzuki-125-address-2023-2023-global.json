@@ -8,7 +8,7 @@
     "model_group": "suzuki-125-address",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Suzuki 125 Address (2023). 124 cc, 10 Nm, 105 kg, 770 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Suzuki 125 Address (2023). 124 cc, 8.7 hp, 10 Nm, 105 kg, 770 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "suzuki",
       "125-address",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -88,9 +88,9 @@
             "value": "2023"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
+            "key": "power",
+            "label": "Max Power",
+            "value": "8.7 hp @ 6,750 rpm"
           }
         ]
       },
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+            "value": "Suzuki Address 125 data from the manufacturer. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
