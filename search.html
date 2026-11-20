@@ -7,7 +7,7 @@
   <title>Search — MotoX Wiki</title>
   <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=15" id="mx-main-css">
+  <link rel="stylesheet" href="css/main.css?v=17" id="mx-main-css">
 </head>
 <body>
   <header data-mx-ref="site-header" class="site-header"></header>
@@ -20,9 +20,9 @@
 
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script src="js/dist/shield.js?v=5"></script>
-  <script src="js/dist/core.js?v=20"></script>
-  <script src="js/dist/search.js?v=9"></script>
+  <script src="js/dist/shield.js?v=6"></script>
+  <script src="js/dist/core.js?v=21"></script>
+  <script src="js/dist/search.js?v=10"></script>
   <script>
     async function init() {
       const settings = await MotoX.initLayout('search.html');
@@ -39,7 +39,10 @@
 
       if (!q) {
         MotoX.setContainerHtml(container,
-          `<div class="${m('empty-state')}"><p>Try searching for a motorcycle model, torque spec, or oil capacity.</p></div>`
+          `<div class="${m('empty-state')}">
+            <p>Search by model name, nickname or engine size — for example “CBR 600”, “Fireblade”, “Busa” or “MT-07”.</p>
+            <div class="${m('search-suggestions')}">${MotoXSearch.suggestions(8).map(s => `<a class="${m('search-suggestion')}" href="search.html?q=${encodeURIComponent(s)}">${MotoX.escapeHtml(s)}</a>`).join('')}</div>
+          </div>`
         );
         return;
       }
@@ -48,7 +51,11 @@
       const results = MotoXSearch.search(q, settings.search?.maxResults || 50);
 
       if (!results.length) {
-        MotoX.setContainerHtml(container, `<div class="${m('empty-state')}"><p>No results found. Try different keywords.</p></div>`);
+        MotoX.setContainerHtml(container, `<div class="${m('empty-state')}">
+          <p><strong>No results for “${MotoX.escapeHtml(q)}”</strong></p>
+          <p class="${m('search-tip')}">Try a model name, nickname or engine size. For example “CBR 600”, “Fireblade”, “Busa” or “MT-07”.</p>
+          <div class="${m('search-suggestions')}">${MotoXSearch.suggestions(8).map(s => `<a class="${m('search-suggestion')}" href="search.html?q=${encodeURIComponent(s)}">${MotoX.escapeHtml(s)}</a>`).join('')}</div>
+        </div>`);
         return;
       }
 

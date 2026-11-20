@@ -25,7 +25,7 @@ Manufacturers covered include Aprilia, Ather, Bajaj, Benelli, BMW, BSA, CFMOTO, 
 
 - **Lightweight** — vanilla HTML/CSS/JS with [Pico CSS](https://picocss.com/). No React, Vue, or runtime framework.
 - **Complete catalogue** — browse all 409 models with make, category, text, and sort filters.
-- **Instant search** — client-side search across models, engines, specs and wiki pages.
+- **Smart search** — tokenized multi-word matching, common nicknames and aliases (Fireblade, Busa, Gixxer), typo tolerance, and suggested searches when nothing matches.
 - **Expandable specs** — JSON-driven sections for key-value fields, tables and custom HTML blocks.
 - **Related models** — each detail page links to other variants and models in the same family.
 - **Advertisements** — configurable ad slots (placeholder, custom HTML, Google AdSense).

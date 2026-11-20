@@ -579,8 +579,13 @@ Configured in `data/settings.json` under `ads`:
 Client-side search — no server or external library.
 
 - Searches motorcycles and wiki pages
-- Header search bar with instant dropdown results
+- Tokenized matching handles joined model names: `CBR600RR` is searchable as `CBR 600`, `cbr600`, `600rr`, etc.
+- Common nicknames and family aliases are included: `Fireblade`, `Busa`, `Gixxer`, `Goldwing`, `V-Strom`, `ZX10R`
+- Typo tolerance for close spellings such as `fireblad` or `himalyan`
+- Header search bar with instant dropdown results and keyboard navigation
+- Suggested searches appear when there are no results
 - Full results page at `search.html?q=...`
+- Alias data lives in `scripts/search_aliases.py`; add new rules there and run `npm run build:data`
 - Config in `data/settings.json`:
 
 ```json

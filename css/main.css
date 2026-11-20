@@ -259,6 +259,52 @@ main.container {
   font-size: 0.78rem;
 }
 
+.search-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.35rem;
+}
+
+.search-suggestion {
+  width: auto;
+  margin: 0;
+  padding: 0.18rem 0.55rem;
+  border: 1px solid var(--motox-border);
+  border-radius: 2rem;
+  background: transparent;
+  color: #1f2933;
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.4;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.search-suggestion:hover {
+  border-color: var(--motox-accent);
+  color: #111827;
+  background: var(--pico-card-sectioning-background-color);
+}
+
+.search-tip {
+  margin: 0.25rem 0 0.35rem;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--pico-muted-color);
+}
+
+.search-result-item.is-active,
+.search-result-item.is-active:hover {
+  background: var(--pico-primary-background);
+  color: var(--pico-primary-inverse);
+}
+
+.search-result-item.is-active .result-meta {
+  color: inherit;
+  opacity: 0.85;
+}
+
 /* Full-width ad bar under header */
 .site-ad-bar {
   display: none;

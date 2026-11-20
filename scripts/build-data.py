@@ -17,6 +17,8 @@ import re
 from html import unescape
 from typing import Any
 
+from search_aliases import aliases_for, SUGGESTIONS
+
 SUMMARY_KEYS = (
     "id", "make", "model", "year", "region", "category", "displacement",
     "tags", "summary", "published", "model_group", "engine", "power",
@@ -107,6 +109,22 @@ def write_json(path: str, payload: Any) -> None:
         handle.write("\n")
 
 
+def normalize_search_text(value: Any) -> str:
+    text = str(value or "").lower()
+    text = text.replace("&", " and ")
+    text = re.sub(r"([a-z])([0-9])", r"\1 \2", text)
+    text = re.sub(r"([0-9])([a-z])", r"\1 \2", text)
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    words = re.sub(r"\s+", " ", text).strip().split()
+    seen = set()
+    unique = []
+    for word in words:
+        if word not in seen:
+            seen.add(word)
+            unique.append(word)
+    return " ".join(unique)
+
+
 def build_from_data_dir(data_dir: str) -> None:
     data_dir = os.path.realpath(data_dir)
     with open(os.path.join(data_dir, "motorcycles.json"), encoding="utf-8") as handle:
@@ -153,15 +171,23 @@ def build_from_data_dir(data_dir: str) -> None:
         variant = ", ".join(part for part in [values.get("year"), values.get("region")] if part)
         if variant:
             title = f"{title} ({variant})"
+        aliases = aliases_for(bike.get("make", ""), bike.get("model", ""))
+        search_text = flatten_bike_search(bike)
+        if aliases:
+            search_text = f"{search_text} {' '.join(aliases)}"
         search_items.append({
             "type": "motorcycle",
             "id": bike.get("id"),
             "title": title,
+            "make": bike.get("make", ""),
+            "model": bike.get("model", ""),
+            "model_group": bike.get("model_group", ""),
+            "aliases": aliases,
             "meta": meta,
             "power": values.get("power", ""),
             "weight": values.get("weight", ""),
             "url": f"motorcycle.html?id={bike.get('id')}",
-            "searchText": flatten_bike_search(bike),
+            "searchText": normalize_search_text(search_text),
         })
     for page in published_pages:
         slug = page.get("slug") or page.get("id")
@@ -171,7 +197,8 @@ def build_from_data_dir(data_dir: str) -> None:
             "title": page.get("title"),
             "meta": page.get("summary") or "Wiki page",
             "url": f"pages.html?slug={slug}",
-            "searchText": f"{page.get('title', '')} {page.get('summary', '')} {strip_html(page.get('content') or '')}".lower(),
+            "searchText": normalize_search_text(f"{page.get('title', '')} {page.get('summary', '')} {strip_html(page.get('content') or '')}"),
+            "aliases": [],
         })
     write_json(os.path.join(data_dir, "search-index.json"), {"items": search_items})
 
