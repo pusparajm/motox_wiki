@@ -796,6 +796,9 @@ def property_table(rows):
 def bike_faq(bike):
     full = name(bike)
     faq = []
+
+    def usable(value):
+        return bool(value and str(value).strip().lower() not in {"none", "-", "n/a", "na"})
     power = field(bike, "power")
     torque = field(bike, "torque")
     seat_height = field(bike, "seat_height")
@@ -804,23 +807,98 @@ def bike_faq(bike):
     oil_grade = service(bike, "oil_grade")
     top = field(bike, "top_speed")
     fuel = field(bike, "fuel_capacity")
+    disp = bike.get("displacement") or field(bike, "displacement")
+    tyres = field(bike, "tyres")
+    abs_value = field(bike, "abs")
+    front_susp = field(bike, "front_suspension")
+    rear_susp = field(bike, "rear_suspension")
+    front_brake = field(bike, "front_brake")
+    rear_brake = field(bike, "rear_brake")
+    interval = service(bike, "service_interval")
+
     if power:
         faq.append((f"How much power does the {full} make?", f"The {full} is rated at {power}."))
     if torque:
         faq.append((f"What is the torque of the {full}?", f"Manufacturer-claimed peak torque is {torque}."))
+    if top:
+        faq.append((f"What is the top speed of the {full}?", f"The listed top speed is {top}."))
+    if disp:
+        faq.append((f"What is the engine displacement of the {full}?", f"The {full} is listed with a {disp} engine."))
     if seat_height:
         faq.append((f"What is the seat height of the {full}?", f"The seat height is listed as {seat_height}. Seat width and suspension sag also affect reach."))
     if kerb:
         faq.append((f"How much does the {full} weigh?", f"The kerb weight is listed as {kerb}."))
-    if oil:
-        faq.append((f"What engine oil does the {full} take?", f"Engine oil capacity is {oil}{f' and the recommended grade is {oil_grade}' if oil_grade else ''}. Confirm the exact fill procedure in the owner's or workshop manual."))
-    elif oil_grade:
-        faq.append((f"What engine oil grade does the {full} use?", f"The recommended grade is {oil_grade}. Confirm the exact fill procedure in the owner's or workshop manual."))
-    if top:
-        faq.append((f"What is the top speed of the {full}?", f"The listed top speed is {top}."))
+
+    hp_value = hp(bike)
+    kg_value = weight(bike)
+    if hp_value and kg_value:
+        per_tonne = round(hp_value * 1000 / kg_value)
+        kw_per_kg = round(hp_value * 0.7457 / kg_value, 2)
+        power_for_ratio = re.sub(r"\s*@.*$", "", power).strip() or power
+        faq.append((
+            f"What is the power-to-weight ratio of the {full}?",
+            f"Using the listed {power_for_ratio} and {kerb}, the calculated ratio is about {per_tonne:,} hp per tonne ({kw_per_kg:.2f} kW/kg)."
+        ))
+
     if fuel:
         faq.append((f"What is the fuel capacity of the {full}?", f"Fuel capacity is listed as {fuel}."))
-    return faq[:6]
+    if usable(tyres):
+        faq.append((f"What tyres does the {full} use?", f"Tyre sizes are listed as {tyres}."))
+    if usable(abs_value):
+        abs_lower = abs_value.lower()
+        if abs_value.strip().lower() in ("yes", "no"):
+            faq.append((f"Does the {full} have ABS?", f"ABS: {abs_value.strip()}."))
+        elif "abs" in abs_lower:
+            faq.append((f"Does the {full} have ABS?", f"The {full} is listed with {abs_value}."))
+        elif "combined" in abs_lower or "cbs" in abs_lower:
+            faq.append((f"What braking system does the {full} have?", f"The {full} is listed with {abs_value}."))
+    if usable(front_susp) or usable(rear_susp):
+        answer = " ".join(part for part in [
+            f"Front: {front_susp}." if usable(front_susp) else "",
+            f"Rear: {rear_susp}." if usable(rear_susp) else "",
+        ] if part)
+        faq.append((f"What suspension does the {full} use?", answer))
+    if usable(front_brake) or usable(rear_brake):
+        answer = " ".join(part for part in [
+            f"Front: {front_brake}." if usable(front_brake) else "",
+            f"Rear: {rear_brake}." if usable(rear_brake) else "",
+        ] if part)
+        faq.append((f"What brakes does the {full} use?", answer))
+    if usable(interval):
+        faq.append((f"What is the service interval for the {full}?", f"The listed service interval is {interval}. Confirm the schedule for your market and model year."))
+
+    if oil:
+        answer = f"Engine oil capacity is {oil}"
+        if oil_grade:
+            answer += f" and the recommended grade is {oil_grade}"
+        answer += ". Confirm the exact fill procedure in the owner's or workshop manual."
+        faq.append((f"What engine oil does the {full} take?", answer))
+    elif oil_grade:
+        faq.append((f"What engine oil grade does the {full} use?", f"The recommended grade is {oil_grade}. Confirm the exact fill procedure in the owner's or workshop manual."))
+
+    legacy_fork_oil = service(bike, "fork_oil")
+    fork_grade = service(bike, "fork_oil_grade")
+    fork_volume = service(bike, "fork_oil_volume")
+    fork_air = service(bike, "fork_air_gap")
+    fork_seal = service(bike, "fork_seal")
+    rear_shock = service(bike, "rear_shock")
+    if usable(legacy_fork_oil):
+        faq.append((f"What fork oil does the {full} use?", f"The listed fork oil specification is {legacy_fork_oil}. Confirm the fill procedure in the workshop manual."))
+    elif usable(fork_grade) or usable(fork_volume) or usable(fork_air):
+        parts = []
+        if usable(fork_grade):
+            parts.append(f"grade {fork_grade}")
+        if usable(fork_volume):
+            parts.append(f"quantity {fork_volume}")
+        if usable(fork_air):
+            parts.append(f"air gap {fork_air}")
+        faq.append((f"What fork oil does the {full} use?", "Listed fork oil data: " + "; ".join(parts) + ". Confirm the fill procedure in the workshop manual."))
+    if usable(fork_seal):
+        faq.append((f"What fork seal size does the {full} use?", f"The listed fork oil seal is {fork_seal}."))
+    if usable(rear_shock):
+        faq.append((f"What rear shock does the {full} use?", f"The listed rear shock is {rear_shock}."))
+
+    return faq[:17]
 
 
 ALIAS_NICKNAMES = {
