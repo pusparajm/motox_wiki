@@ -32,12 +32,26 @@ const OBF_OPTIONS = {
   target: 'browser'
 };
 
+const LIGHT_OBF_OPTIONS = {
+  compact: true,
+  controlFlowFlattening: false,
+  deadCodeInjection: false,
+  identifierNamesGenerator: 'hexadecimal',
+  renameGlobals: false,
+  selfDefending: false,
+  stringArray: false,
+  transformObjectKeys: false,
+  unicodeEscapeSequence: false,
+  target: 'browser'
+};
+
 if (!fs.existsSync(distDir)) fs.mkdirSync(distDir, { recursive: true });
 
 for (const file of FILES) {
   const src = path.join(jsDir, file);
   const code = fs.readFileSync(src, 'utf8');
-  const result = JavaScriptObfuscator.obfuscate(code, OBF_OPTIONS);
+  const options = file === 'shield.js' ? OBF_OPTIONS : LIGHT_OBF_OPTIONS;
+  const result = JavaScriptObfuscator.obfuscate(code, options);
   fs.writeFileSync(path.join(distDir, file), result.getObfuscatedCode());
   console.log(`Obfuscated ${file} → js/dist/${file}`);
 }

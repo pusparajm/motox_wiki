@@ -13,25 +13,28 @@
   <meta property="og:url" content="https://motoxref.com/pages.html">
   <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#c2410c">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>Motorcycle Reference Guides — MotoX Wiki</title>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465"
-     crossorigin="anonymous"></script>
-  <style>html.mx-lock body{visibility:hidden}</style>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=23" id="mx-main-css">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+  <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
+  <link rel="stylesheet" href="css/pico.min.css?v=2">
+  <link rel="stylesheet" href="css/main.css?v=30" id="mx-main-css" fetchpriority="high">
 </head>
 <body>
-  <header data-mx-ref="site-header" class="site-header"></header>
+  <div class="site-top">
+    <header data-mx-ref="site-header" class="site-header"></header>
+    <div class="site-ad-bar" data-mx-ref="site-ad-bar"></div>
+  </div>
 
-  <main class="container" data-mx-ref="main-content">
+  <main class="container" data-mx-ref="main-content" data-mx-shield="light">
     <div class="loading">Loading…</div>
   </main>
 
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script src="js/dist/shield.js?v=10"></script>
-  <script src="js/dist/core.js?v=27"></script>
-  <script src="js/dist/search.js?v=11"></script>
+  <script defer src="js/dist/shield.js?v=14"></script>
+  <script defer src="js/dist/core.js?v=29"></script>
+  <script defer src="js/dist/search.js?v=12"></script>
   <script>
     async function init() {
       const settings = await MotoX.initLayout('pages.html');
@@ -100,7 +103,27 @@
       `);
     }
 
-    MotoXShield.bootstrap().then(() => init());
+    document.addEventListener('DOMContentLoaded', () => {
+      MotoXShield.bootstrap().then(() => init());
+    });
+  </script>
+  <script>
+    (function () {
+      var loaded = false;
+      function loadAdsense() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.crossOrigin = 'anonymous';
+        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465';
+        document.head.appendChild(s);
+      }
+      ['scroll', 'click', 'touchstart', 'keydown'].forEach(function (ev) {
+        window.addEventListener(ev, loadAdsense, { once: true, passive: true });
+      });
+      setTimeout(loadAdsense, 8000);
+    })();
   </script>
 </body>
 </html>

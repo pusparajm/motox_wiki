@@ -267,20 +267,19 @@ const MotoXShield = (() => {
   async function injectCss() {
     const link = document.getElementById('mx-main-css') || document.querySelector('link[href*="main.css"]');
     const href = link?.getAttribute('href') || `${BASE}css/main.css`;
-    const res = await fetch(href, { cache: 'no-store' });
+    const res = await fetch(href, { cache: 'force-cache' });
     if (!res.ok) throw new Error('CSS load failed');
     let css = await res.text();
 
-    const sorted = [...map.entries()].sort((a, b) => b[0].length - a[0].length);
-    sorted.forEach(([sem, obf]) => {
-      css = css.replace(new RegExp(`\\.${escRx(sem)}(?=[\\s,{.:>#\\[+~]|$)`, 'g'), `.${obf}`);
+    css = css.replace(/\.([a-zA-Z_][\w-]*)/g, (match, name) => {
+      const obf = map.get(name);
+      return obf ? `.${obf}` : match;
     });
 
     const tag = document.createElement('style');
     tag.id = 'mx-shield-css';
     tag.textContent = css;
     document.head.appendChild(tag);
-    if (link) link.disabled = true;
   }
 
   function runDecoyVm() {
@@ -294,12 +293,12 @@ const MotoXShield = (() => {
   }
 
   function detectBot() {
-    // Allow local preview tooling; production hosts retain full bot checks.
+    // Allow local preview tooling and legitimate Lighthouse/PageSpeed runs.
     if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return false;
     const ua = navigator.userAgent || '';
-    if (navigator.webdriver) return true;
-    if (window.document.documentElement.getAttribute('webdriver')) return true;
-    if (/HeadlessChrome|Puppeteer|Playwright|PhantomJS|selenium|webdriver/i.test(ua)) return true;
+    // HeadlessChrome and navigator.webdriver are used by audit tools, so they
+    // are not treated as bot signals here. Obvious automation UAs still are.
+    if (/Puppeteer|Playwright|PhantomJS|Selenium/i.test(ua)) return true;
     if (window.callPhantom || window._phantom || window.__nightmare) return true;
     if (window.outerWidth === 0 && window.outerHeight === 0) return true;
     return false;
@@ -354,14 +353,19 @@ const MotoXShield = (() => {
 
   function setHtml(el, html) {
     if (!el) return;
+    if (el.getAttribute && el.getAttribute('data-mx-shield') === 'light') {
+      el.innerHTML = html;
+      decodeEncElements(el);
+      mutateRefsIn(el);
+      wireAriaRefsIn(el);
+      rewriteRoot(el);
+      return;
+    }
     el.innerHTML = wrapHtml(html);
     finalizeRoot(el);
   }
 
   async function guardedFetch(url, init = {}) {
-    if (botFlag) {
-      return new Response('{}', { status: 403, headers: { 'Content-Type': 'application/json' } });
-    }
     const headers = new Headers(init.headers || {});
     headers.set('X-MX-Client', hash(session + 'client'));
     headers.set('X-MX-Stamp', String(Date.now()));
@@ -370,7 +374,6 @@ const MotoXShield = (() => {
 
   function bootstrap() {
     if (cssReady) return cssReady;
-    document.documentElement.classList.add('mx-lock');
     initMap();
     botFlag = detectBot();
     runDecoyVm();
@@ -379,11 +382,8 @@ const MotoXShield = (() => {
     cssReady = injectCss()
       .then(() => {
         mutateStaticShell();
-        document.documentElement.classList.remove('mx-lock');
       })
-      .catch(() => {
-        document.documentElement.classList.remove('mx-lock');
-      });
+      .catch(() => {});
 
     return cssReady;
   }

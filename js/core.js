@@ -31,6 +31,21 @@ const MotoX = (() => {
 
   const cache = {};
 
+  const DEFAULT_SETTINGS = {
+    site: {
+      title: 'MotoX Wiki',
+      footer: '© 2026 MotoX Wiki. Community-maintained motorcycle technical reference.'
+    },
+    navigation: [
+      { label: 'Home', href: 'index.html' },
+      { label: 'Browse', href: 'index.html#browse' },
+      { label: 'Guides', href: 'guides/index.html' },
+      { label: 'Pages', href: 'pages.html' }
+    ],
+    ads: { enabled: false, slots: [] },
+    popular_models: { enabled: false, ids: [], page_size: 24 }
+  };
+
   async function fetchJSON(file) {
     if (cache[file]) return structuredClone(cache[file]);
     const url = `${BASE}data/${file}`;
@@ -43,7 +58,11 @@ const MotoX = (() => {
   }
 
   async function loadSettings() {
-    return fetchJSON('settings.json');
+    try {
+      return await fetchJSON('settings.json');
+    } catch {
+      return structuredClone(DEFAULT_SETTINGS);
+    }
   }
 
   async function loadMotorcycleIndex() {

@@ -8,8 +8,8 @@
   --motox-border: var(--pico-muted-border-color);
   --motox-radius: 0.35rem;
   --motox-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --motox-header-h: 2.25rem;
-  --motox-ad-bar-h: 2.5rem;
+  --motox-header-h: 2.875rem;
+  --motox-ad-bar-h: 2.75rem;
   --motox-page-padding-x: clamp(0.75rem, 3vw, 1rem);
 }
 
@@ -76,6 +76,7 @@ main.container {
 
 /* Compact header */
 .site-header {
+  min-height: 7.75rem;
   background: var(--pico-background-color);
   border-bottom: 1px solid var(--motox-border);
 }
@@ -307,7 +308,7 @@ main.container {
 
 /* Full-width ad bar under header */
 .site-ad-bar {
-  display: none;
+  display: flex;
   width: 100%;
   background: var(--pico-card-sectioning-background-color);
   border-bottom: 1px solid var(--motox-border);
@@ -318,7 +319,6 @@ main.container {
 }
 
 .site-ad-bar.has-ad {
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -485,6 +485,7 @@ main.container {
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem;
+  min-height: 4.5rem;
   margin-bottom: 0.55rem;
 }
 
@@ -1021,6 +1022,14 @@ h2 {
 }
 
 @media (min-width: 768px) {
+  .site-header {
+    min-height: var(--motox-header-h);
+  }
+
+  .bike-grid[data-mx-ref="bike-grid"] {
+    min-height: 27rem;
+  }
+
   .site-header .container {
     display: flex;
     flex-wrap: wrap;
@@ -1097,6 +1106,10 @@ h2 {
 }
 
 @media (max-width: 767px) {
+  .category-chips {
+    min-height: 9.75rem;
+  }
+
   .nav-toggle {
     display: inline-flex;
   }
@@ -1180,6 +1193,7 @@ h2 {
 }
 
 .site-footer {
+  min-height: 2.625rem;
   border-top: 1px solid var(--motox-border);
   padding: 0.25rem 0;
   margin-top: 0.5rem;

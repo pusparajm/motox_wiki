@@ -25,6 +25,26 @@ MODELS = os.path.join(ROOT, "motorcycle")
 SITE = "https://motoxref.com"
 LAST_MOD = "2026-11-20"
 
+ADS_LOADER = """  <script>
+    (function () {
+      var loaded = false;
+      function loadAdsense() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.crossOrigin = 'anonymous';
+        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465';
+        document.head.appendChild(s);
+      }
+      ['scroll', 'click', 'touchstart', 'keydown'].forEach(function (ev) {
+        window.addEventListener(ev, loadAdsense, { once: true, passive: true });
+      });
+      setTimeout(loadAdsense, 8000);
+    })();
+  </script>"""
+
+
 
 def esc(value):
     return html.escape(str(value or ""), quote=True)
@@ -161,9 +181,11 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
   <meta name="twitter:title" content="{esc(page_title)} | MotoX Wiki">
   <meta name="twitter:description" content="{esc(description)}">
   <meta name="theme-color" content="#c2410c">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="../css/main.css?v=23">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465" crossorigin="anonymous"></script>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+  <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
+  <link rel="stylesheet" href="../css/pico.min.css?v=2">
+  <link rel="stylesheet" href="../css/main.css?v=30" fetchpriority="high">
   <script type="application/ld+json">{json.dumps(graph, ensure_ascii=False)}</script>
 </head>
 <body>
@@ -198,6 +220,7 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
       <span class="footer-text">© 2026 MotoX Wiki. Community-maintained motorcycle technical reference.</span>
     </div>
   </footer>
+  {ADS_LOADER}
 </body>
 </html>
 """
@@ -777,9 +800,11 @@ def model_page(bike, related, guide_links):
   <meta property="og:url" content="{url}">
   <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#c2410c">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="../css/main.css?v=23">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465" crossorigin="anonymous"></script>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+  <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
+  <link rel="stylesheet" href="../css/pico.min.css?v=2">
+  <link rel="stylesheet" href="../css/main.css?v=30" fetchpriority="high">
   <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)}</script>
 </head>
 <body>
@@ -813,6 +838,7 @@ def model_page(bike, related, guide_links):
     </article>
   </main>
   <footer class="site-footer"><div class="container site-footer-inner"><span class="footer-text">© 2026 MotoX Wiki. Community-maintained motorcycle technical reference.</span></div></footer>
+  {ADS_LOADER}
 </body>
 </html>
 """
