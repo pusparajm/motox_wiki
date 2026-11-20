@@ -227,6 +227,11 @@ const MotoX = (() => {
             return `<a href="${BASE}${item.href.replace(/^\.\//, '')}" ${isActive ? `class="${mx('active')}"` : ''}>${shieldEnc(item.label)}</a>`;
           }).join('')}
         </nav>
+        ${activePage === 'index.html' ? `
+          <div class="${mx('header-intro')}">
+            <span class="${mx('header-intro-title')}">Motorcycle Specifications Database</span>
+            <span ${mxRef('header-meta')} class="${mx('header-intro-meta')}">409 models · 36 manufacturers · specs &amp; service data</span>
+          </div>` : ''}
         <div class="${mx('header-search')}">
           <label data-mx-for="global-search" class="${mx('sr-only')}">Search motorcycles and pages</label>
           <input type="search" ${mxRef('global-search')} placeholder="Search specs, models…" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" data-mx-controls="search-dropdown" enterkeyhint="search">

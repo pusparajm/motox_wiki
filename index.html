@@ -18,7 +18,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>Motorcycle Specifications Database — 409 Models | MotoX Wiki</title>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"MotoX Wiki","url":"https://motoxref.com/","description":"Motorcycle specifications, service data, torque specs and buying guides for 409 mass-produced models.","potentialAction":{"@type":"SearchAction","target":"https://motoxref.com/search.html?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
-  <link rel="stylesheet" href="css/site.min.css?v=1" id="mx-main-css" data-mx-shield-css="css/main.css?v=30" fetchpriority="high">
+  <link rel="stylesheet" href="css/site.min.css?v=3" id="mx-main-css" data-mx-shield-css="css/main.css?v=32" fetchpriority="high">
 </head>
 <body>
   <div class="site-top">
@@ -28,12 +28,8 @@
 
   <main class="container">
     <section data-mx-ref="browse">
-      <div class="browse-toolbar">
-        <div>
-          <h1>Motorcycle Specifications Database</h1>
-          <p class="toolbar-count" data-mx-ref="browse-total">Loading the catalogue…</p>
-          <p class="home-lead">Compare power, torque, kerb weight, seat height, fuel capacity, oil capacity and torque values for 409 mass-produced motorcycles from 36 manufacturers.</p>
-        </div>
+      <h1 class="sr-only">Motorcycle Specifications Database</h1>
+      <div class="browse-toolbar browse-toolbar-sort">
         <label class="sort-select">Sort by
           <select data-mx-ref="sort-mode">
             <option value="make">Make (A–Z)</option>
@@ -82,8 +78,8 @@
 
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script defer src="js/dist/shield.js?v=15"></script>
-  <script defer src="js/dist/core.js?v=29"></script>
+  <script defer src="js/dist/shield.js?v=16"></script>
+  <script defer src="js/dist/core.js?v=31"></script>
   <script defer src="js/dist/search.js?v=12"></script>
   <script>
     let allBikes = [];
@@ -271,11 +267,11 @@
     }
 
     function updateTotal() {
-      const total = MotoX.ref('browse-total');
+      const total = MotoX.ref('header-meta');
       if (!total) return;
       const makes = new Set(allBikes.map(b => b.make)).size;
       if (activeList.length === allBikes.length) {
-        total.textContent = `${allBikes.length} models · ${makes} manufacturers · specifications, performance and service data`;
+        total.textContent = `${allBikes.length} models · ${makes} manufacturers · specs & service data`;
       } else {
         total.textContent = `${activeList.length} of ${allBikes.length} models match`;
       }
