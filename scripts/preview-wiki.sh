@@ -20,8 +20,8 @@ if [ ! -d node_modules ]; then
   npm install --no-fund --no-audit
 fi
 
-echo "Building obfuscated JS (js/dist/)…"
-npm run build:web
+echo "Building data, SEO pages and obfuscated JS…"
+npm run build
 
 echo "Watching js/shield.js, js/core.js, js/search.js for changes…"
 npm run watch:web &
