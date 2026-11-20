@@ -18,7 +18,7 @@ const MotoXShield = (() => {
     'result-title', 'search-dropdown', 'search-no-results', 'search-result-item', 'search-suggestion', 'search-suggestions', 'search-tip', 'shell',
     'sidebar-ad', 'site-ad-bar', 'site-footer', 'site-footer-ad', 'site-footer-inner', 'site-header',
     'site-nav', 'site-top', 'sort-bar', 'sort-select', 'spec-body', 'spec-field', 'spec-fields',
-    'spec-section', 'spec-section-compact', 'spec-quick-row', 'spec-table', 'spec-table-wrap',
+    'spec-section', 'spec-section-compact', 'spec-section-grid', 'spec-note', 'spec-quick-row', 'spec-table', 'spec-table-wrap',
     'service-pending', 'spec-source', 'sr-only', 'tag', 'toolbar', 'toolbar-count'
   ];
 

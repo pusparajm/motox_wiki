@@ -319,7 +319,7 @@ const MotoX = (() => {
       </table></div>`;
     }
 
-    const openAttr = (options.defaultOpen ?? (key === 'general_specs' || key === 'overview')) ? 'open' : '';
+    const openAttr = (options.defaultOpen ?? (key === 'general_specs' || key === 'overview' || key === 'service')) ? 'open' : '';
     const compactClass = options.compact ? ` ${mx('spec-section-compact')}` : '';
     const syncName = options.syncGroup ? ` name="${options.syncGroup}"` : '';
 
@@ -390,26 +390,9 @@ const MotoX = (() => {
   }
 
   function renderAllSpecSections(sections) {
-    const quickKeys = quickSpecKeys(sections);
-    let quickRowRendered = false;
-    const html = [];
-
-    for (const [key, section] of Object.entries(sections)) {
-      if (isQuickSpecKey(key)) {
-        if (!quickRowRendered && quickKeys.length) {
-          html.push(renderQuickSpecRow(sections, quickKeys));
-          quickRowRendered = true;
-        }
-        continue;
-      }
-      html.push(renderSpecSection(key, section));
-    }
-
-    if (!quickRowRendered && quickKeys.length) {
-      html.unshift(renderQuickSpecRow(sections, quickKeys));
-    }
-
-    return html.join('');
+    return `<div class="${mx('spec-section-grid')}">${Object.entries(sections)
+      .map(([key, section]) => renderSpecSection(key, section))
+      .join('')}</div>`;
   }
 
   function shieldWrap(html) {

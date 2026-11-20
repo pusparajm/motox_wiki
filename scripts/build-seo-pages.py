@@ -162,7 +162,7 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
   <meta name="twitter:description" content="{esc(description)}">
   <meta name="theme-color" content="#c2410c">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="../css/main.css?v=21">
+  <link rel="stylesheet" href="../css/main.css?v=23">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465" crossorigin="anonymous"></script>
   <script type="application/ld+json">{json.dumps(graph, ensure_ascii=False)}</script>
 </head>
@@ -480,8 +480,11 @@ def comparison(slug, page_title, description, h1, subtitle, a, b, verdict):
 
 
 def property_table(rows):
-    body = "".join(f"<tr><th>{esc(label)}</th><td>{esc(value)}</td></tr>" for label, value in rows if value)
-    return f'<div class="spec-table-wrap"><table class="spec-table"><tbody>{body}</tbody></table></div>'
+    body = "".join(
+        f'<div class="spec-field"><span class="field-label">{esc(label)}</span><span class="field-value">{esc(value)}</span></div>'
+        for label, value in rows if value
+    )
+    return f'<div class="spec-fields">{body}</div>'
 
 
 def bike_faq(bike):
@@ -561,6 +564,42 @@ def display_aliases(bike, aliases):
         scored.append((score, alias))
     scored.sort(key=lambda item: (-item[0], item[1]))
     return [alias_label(alias) for _, alias in scored[:5]]
+
+
+def static_sections_html(bike):
+    parts = []
+    for key, section in (bike.get("sections") or {}).items():
+        label = section.get("label") or key
+        body = ""
+        note = next((f.get("value", "") for f in section.get("fields") or [] if f.get("key") == "note"), "")
+        if note:
+            body += f'<p class="spec-note">{esc(note)}</p>'
+        field_rows = [
+            (f.get("label", ""), f.get("value", ""))
+            for f in section.get("fields") or []
+            if f.get("key") != "note"
+        ]
+        if field_rows:
+            body += property_table(field_rows)
+        if section.get("table"):
+            rows = section["table"]
+            headers = list(rows[0].keys())
+            labels = {
+                "component": "Component", "torque": "Torque", "notes": "Notes",
+                "name": "Name", "thread": "Thread", "length": "Length", "head": "Head"
+            }
+            body += table(
+                [labels.get(h, h.replace("_", " ").title()) for h in headers],
+                [[esc(row.get(h, "")) for h in headers] for row in rows]
+            )
+        if not body:
+            continue
+        is_open = key in ("general_specs", "service")
+        parts.append(
+            f'<details class="spec-section"{" open" if is_open else ""}>'
+            f'<summary>{esc(label)}</summary><div class="spec-body">{body}</div></details>'
+        )
+    return f'<div class="spec-section-grid">{"".join(parts)}</div>'
 
 
 def model_page(bike, related, guide_links):
@@ -656,7 +695,7 @@ def model_page(bike, related, guide_links):
   <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#c2410c">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="../css/main.css?v=21">
+  <link rel="stylesheet" href="../css/main.css?v=23">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465" crossorigin="anonymous"></script>
   <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)}</script>
 </head>
@@ -681,11 +720,9 @@ def model_page(bike, related, guide_links):
       {alias_html}
       <div class="hero-stats">{hero}</div>
     </div>
-    <article class="page-content">
+    <article class="model-content">
       <h2 class="section-heading">Specifications</h2>
-      {property_table(general_rows)}
-      {f'<h2 class="section-heading">Service Data</h2>{property_table(service_rows)}' if service_rows else ''}
-      {f'<h2 class="section-heading">Torque Specifications</h2><p>{esc(torque_note)}</p>{table(["Component", "Torque", "Notes"], [[esc(r.get("component", "")), esc(r.get("torque", "")), esc(r.get("notes", ""))] for r in torque_rows])}' if torque_rows else ''}
+      {static_sections_html(bike)}
       {f'<section class="faq-section"><h2 class="section-heading">Frequently Asked Questions</h2>{faq_html}</section>' if faq_html else ''}
       {f'<section class="related-section"><h2 class="related-title">Related Models</h2><div class="bike-grid related-grid">{related_html}</div></section>' if related_html else ''}
       <section class="related-section"><h2 class="related-title">Related Guides</h2><p class="home-guide-links">{guides_html}</p></section>

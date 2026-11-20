@@ -752,6 +752,42 @@ h2 {
   --bike-card-min: 170px;
 }
 
+.model-content {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+
+.spec-section-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  align-items: start;
+  margin-bottom: 0.5rem;
+}
+
+.spec-section-grid > .spec-section {
+  margin-bottom: 0;
+}
+
+.spec-section-grid > .spec-section:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.spec-note {
+  margin: 0.35rem 0;
+  font-size: 0.74rem;
+  line-height: 1.45;
+  color: var(--pico-muted-color);
+}
+
+@media (max-width: 767px) {
+  .spec-section-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .spec-section {
   background: var(--motox-surface);
   border: 1px solid var(--motox-border);
