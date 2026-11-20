@@ -15,10 +15,7 @@
   <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-  <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
-  <link rel="stylesheet" href="../css/pico.min.css?v=2">
-  <link rel="stylesheet" href="../css/main.css?v=30" fetchpriority="high">
+  <link rel="stylesheet" href="../css/site.min.css?v=1" id="mx-main-css" data-mx-shield-css="../css/main.css?v=30" fetchpriority="high">
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Motorcycle", "name": "Honda Super Cub C125 (2018–Present)", "brand": {"@type": "Brand", "name": "Honda"}, "model": "Super Cub C125", "vehicleModelDate": "2018–Present", "description": "The modern Super Cub: iconic styling, a frugal 125 cc engine and everyday practicality.", "bodyType": "Commuter", "weight": {"@type": "QuantitativeValue", "value": 110.0, "unitCode": "KGM"}, "fuelCapacity": {"@type": "QuantitativeValue", "value": 3.7, "unitCode": "LTR"}, "vehicleEngine": {"@type": "EngineSpecification", "engineDisplacement": {"@type": "QuantitativeValue", "value": 124.0, "unitCode": "CMQ"}, "enginePower": {"@type": "QuantitativeValue", "value": 9.8, "unitCode": "BHP"}, "engineTorque": {"@type": "QuantitativeValue", "value": 10.4, "unitCode": "NU"}}, "url": "https://motoxref.com/motorcycle/honda-super-cub-c125-2018-present-global.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://motoxref.com/"}, {"@type": "ListItem", "position": 2, "name": "Browse", "item": "https://motoxref.com/#browse"}, {"@type": "ListItem", "position": 3, "name": "Honda Super Cub C125 (2018–Present)", "item": "https://motoxref.com/motorcycle/honda-super-cub-c125-2018-present-global.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much power does the Honda Super Cub C125 make?", "acceptedAnswer": {"@type": "Answer", "text": "The Honda Super Cub C125 is rated at 9.8 hp (7.3 kW) @ 7,500 rpm."}}, {"@type": "Question", "name": "What is the torque of the Honda Super Cub C125?", "acceptedAnswer": {"@type": "Answer", "text": "Manufacturer-claimed peak torque is 10.4 Nm (8 lb-ft) @ 6,000 rpm."}}, {"@type": "Question", "name": "What is the seat height of the Honda Super Cub C125?", "acceptedAnswer": {"@type": "Answer", "text": "The seat height is listed as 780 mm. Seat width and suspension sag also affect reach."}}, {"@type": "Question", "name": "How much does the Honda Super Cub C125 weigh?", "acceptedAnswer": {"@type": "Answer", "text": "The kerb weight is listed as 110 kg."}}, {"@type": "Question", "name": "What engine oil does the Honda Super Cub C125 take?", "acceptedAnswer": {"@type": "Answer", "text": "Engine oil capacity is 0.8 L (0.85 US qt) and the recommended grade is SAE 10W-30, JASO MA. Confirm the exact fill procedure in the owner's or workshop manual."}}, {"@type": "Question", "name": "What is the fuel capacity of the Honda Super Cub C125?", "acceptedAnswer": {"@type": "Answer", "text": "Fuel capacity is listed as 3.7 L."}}]}]}</script>
 </head>
 <body>
@@ -58,6 +55,13 @@
       function loadAdsense() {
         if (loaded) return;
         loaded = true;
+        ['https://pagead2.googlesyndication.com', 'https://googleads.g.doubleclick.net'].forEach(function (origin) {
+          var l = document.createElement('link');
+          l.rel = 'preconnect';
+          l.href = origin;
+          l.crossOrigin = 'anonymous';
+          document.head.appendChild(l);
+        });
         var s = document.createElement('script');
         s.async = true;
         s.crossOrigin = 'anonymous';

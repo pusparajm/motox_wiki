@@ -6,10 +6,7 @@
   <meta name="description" content="Search motorcycles and technical specifications on MotoX Wiki.">
   <meta name="robots" content="noindex,follow">
   <title>Search — MotoX Wiki</title>
-  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-  <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
-  <link rel="stylesheet" href="css/pico.min.css?v=2">
-  <link rel="stylesheet" href="css/main.css?v=30" id="mx-main-css" fetchpriority="high">
+  <link rel="stylesheet" href="css/site.min.css?v=1" id="mx-main-css" data-mx-shield-css="css/main.css?v=30" fetchpriority="high">
 </head>
 <body>
   <div class="site-top">
@@ -25,7 +22,7 @@
 
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script defer src="js/dist/shield.js?v=14"></script>
+  <script defer src="js/dist/shield.js?v=15"></script>
   <script defer src="js/dist/core.js?v=29"></script>
   <script defer src="js/dist/search.js?v=12"></script>
   <script>
@@ -86,6 +83,13 @@
       function loadAdsense() {
         if (loaded) return;
         loaded = true;
+        ['https://pagead2.googlesyndication.com', 'https://googleads.g.doubleclick.net'].forEach(function (origin) {
+          var l = document.createElement('link');
+          l.rel = 'preconnect';
+          l.href = origin;
+          l.crossOrigin = 'anonymous';
+          document.head.appendChild(l);
+        });
         var s = document.createElement('script');
         s.async = true;
         s.crossOrigin = 'anonymous';

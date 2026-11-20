@@ -266,7 +266,7 @@ const MotoXShield = (() => {
 
   async function injectCss() {
     const link = document.getElementById('mx-main-css') || document.querySelector('link[href*="main.css"]');
-    const href = link?.getAttribute('href') || `${BASE}css/main.css`;
+    const href = link?.getAttribute('data-mx-shield-css') || link?.getAttribute('href') || `${BASE}css/main.css`;
     const res = await fetch(href, { cache: 'force-cache' });
     if (!res.ok) throw new Error('CSS load failed');
     let css = await res.text();

@@ -31,6 +31,13 @@ ADS_LOADER = """  <script>
       function loadAdsense() {
         if (loaded) return;
         loaded = true;
+        ['https://pagead2.googlesyndication.com', 'https://googleads.g.doubleclick.net'].forEach(function (origin) {
+          var l = document.createElement('link');
+          l.rel = 'preconnect';
+          l.href = origin;
+          l.crossOrigin = 'anonymous';
+          document.head.appendChild(l);
+        });
         var s = document.createElement('script');
         s.async = true;
         s.crossOrigin = 'anonymous';
@@ -182,10 +189,7 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
   <meta name="twitter:description" content="{esc(description)}">
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-  <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
-  <link rel="stylesheet" href="../css/pico.min.css?v=2">
-  <link rel="stylesheet" href="../css/main.css?v=30" fetchpriority="high">
+  <link rel="stylesheet" href="../css/site.min.css?v=1" id="mx-main-css" data-mx-shield-css="../css/main.css?v=30" fetchpriority="high">
   <script type="application/ld+json">{json.dumps(graph, ensure_ascii=False)}</script>
 </head>
 <body>
@@ -801,10 +805,7 @@ def model_page(bike, related, guide_links):
   <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-  <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
-  <link rel="stylesheet" href="../css/pico.min.css?v=2">
-  <link rel="stylesheet" href="../css/main.css?v=30" fetchpriority="high">
+  <link rel="stylesheet" href="../css/site.min.css?v=1" id="mx-main-css" data-mx-shield-css="../css/main.css?v=30" fetchpriority="high">
   <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)}</script>
 </head>
 <body>
