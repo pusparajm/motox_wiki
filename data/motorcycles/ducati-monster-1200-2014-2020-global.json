@@ -146,9 +146,7 @@
       }
     },
     "aliases": [
-      "monster",
-      "r 12",
-      "r12"
+      "monster"
     ]
   }
 }

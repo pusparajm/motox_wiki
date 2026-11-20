@@ -189,7 +189,7 @@ def build_from_data_dir(data_dir: str) -> None:
             "meta": meta,
             "power": values.get("power", ""),
             "weight": values.get("weight", ""),
-            "url": f"motorcycle.html?id={bike.get('id')}",
+            "url": f"motorcycle/{bike.get('id')}.html",
             "searchText": normalize_search_text(search_text),
         })
     for page in published_pages:

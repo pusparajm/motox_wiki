@@ -28,7 +28,7 @@ Manufacturers covered include Aprilia, Ather, Bajaj, Benelli, BMW, BSA, CFMOTO, 
 - **Smart search** — tokenized multi-word matching, common nicknames and aliases (Fireblade, Busa, Gixxer), typo tolerance, and suggested searches when nothing matches.
 - **Expandable specs** — JSON-driven sections for key-value fields, tables and custom HTML blocks.
 - **Related models** — each detail page links to other variants and models in the same family.
-- **SEO guides** — static oil capacity, seat height, weight, horsepower, A2, beginner and comparison pages under `guides/`.
+- **SEO pages** — static model specification pages under `motorcycle/` and oil capacity, seat height, weight, horsepower, A2, beginner and comparison guides under `guides/`.
 - **Advertisements** — configurable ad slots (placeholder, custom HTML, Google AdSense).
 - **Responsive** — mobile-friendly layout with collapsible spec sections.
 - **SEO** — generated sitemap, per-model canonical URLs and Motorcycle structured data.
@@ -144,6 +144,7 @@ motox_wiki/              # This repo (public, GitHub Pages)
 ├── pages.html           # Wiki reference pages
 ├── search.html          # Full search results
 ├── guides/              # Static SEO charts, buying guides and comparisons
+├── motorcycle/          # Static, crawlable model specification pages
 ├── sitemap.xml
 ├── robots.txt
 ├── css/main.css

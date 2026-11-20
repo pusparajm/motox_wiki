@@ -32,7 +32,7 @@
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
   <script src="js/dist/shield.js?v=9"></script>
-  <script src="js/dist/core.js?v=25"></script>
+  <script src="js/dist/core.js?v=26"></script>
   <script src="js/dist/search.js?v=11"></script>
   <script>
     function setStructuredData(bike) {
@@ -44,7 +44,7 @@
         return Number.isFinite(num) ? { '@type': 'QuantitativeValue', value: num, unitCode } : (value || undefined);
       };
       const fuel = spec('fuel_capacity') || '';
-      const pageUrl = `https://motoxref.com/motorcycle.html?id=${encodeURIComponent(bike.id)}`;
+      const pageUrl = `https://motoxref.com/motorcycle/${encodeURIComponent(bike.id)}.html`;
       const faq = MotoX.getBikeFaq(bike).map(item => ({
         '@type': 'Question',
         name: item.q,

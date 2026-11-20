@@ -159,6 +159,14 @@ Examples:
 - Added **Related Guides** links based on category.
 - Added canonical, Open Graph and Twitter meta.
 
+### Static model pages
+
+Every motorcycle now has a static, crawlable page at:
+
+`https://motoxref.com/motorcycle/<id>.html`
+
+These pages contain the full specification table, service data, torque table, FAQ, related models and related guides in the initial HTML. They do not depend on JavaScript rendering. The old `motorcycle.html?id=...` URL remains as a working fallback and canonicalises to the static page.
+
 ### Guide pages
 
 22 static, indexable HTML pages were added under `guides/`. They contain real HTML content instead of client-rendered placeholders:
@@ -191,7 +199,7 @@ Each guide includes:
 
 ### Technical SEO
 
-- `sitemap.xml` now includes all models, reference pages, guides and the homepage.
+- `sitemap.xml` now includes all 409 static model pages, reference pages, 22 guides and the homepage.
 - `robots.txt` points to the sitemap.
 - `search.html` is `noindex,follow` to avoid indexing thin search-result pages.
 - Guide pages are static HTML so they do not depend on JavaScript rendering.
@@ -253,9 +261,9 @@ The six comparison pages should be expanded to the top 20–30 head-to-head quer
 
 Queries like `motorcycle chain slack`, `valve clearance` and `fork seal replacement` are informational. A guide explaining the procedure, tools and typical intervals would complement the model data.
 
-### 6. Static model pages
+### 6. Model-page enhancements
 
-Model pages are currently client-rendered. Google can render JavaScript, but static HTML would be more robust. If Search Console shows indexing or rendering problems, generate `motorcycle/<id>.html` pages from the same data and link to them as canonical.
+Static model pages are now generated. The next improvement is to add more verified attributes — especially top speed, price and fuel economy — with market and source context.
 
 ---
 

@@ -420,8 +420,46 @@ const MotoX = (() => {
     return String(value || '')
       .split(' ')
       .filter(Boolean)
-      .map(word => word.length <= 3 ? word.toUpperCase() : word.charAt(0).toUpperCase() + word.slice(1))
+      .map(word => {
+        if (/\d/.test(word)) return word.toUpperCase();
+        return word.length <= 3 ? word.toUpperCase() : word.charAt(0).toUpperCase() + word.slice(1);
+      })
       .join(' ');
+  }
+
+  const GENERIC_ALIASES = new Set([
+    'harley', 'hd', 'enfield', 'royal enfield', 'guzzi', 'cf moto', 'qj motor',
+    'qj', 'bmw motorrad', 'kawi', 'triumph motorcycles', 'indian motorcycle'
+  ]);
+
+  const ALIAS_NICKNAMES = new Set([
+    'fireblade', 'busa', 'hayabusa', 'gixxer', 'goldwing', 'vstrom', 'tenere',
+    'panigale', 'monster', 'multistrada', 'scrambler', 'bonneville', 'trident',
+    'tiger', 'rocket', 'sportster', 'scout', 'chief', 'challenger', 'himalayan',
+    'classic', 'hunter', 'meteor', 'interceptor', 'continental', 'cp2', 'cp3', 'gs', 'adv'
+  ]);
+
+  function aliasKey(value) {
+    return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  }
+
+  function displayAliases(bike) {
+    const modelKey = aliasKey(bike.model);
+    return (bike.aliases || [])
+      .filter(alias => !GENERIC_ALIASES.has(String(alias).toLowerCase()))
+      .filter(alias => aliasKey(alias) !== modelKey)
+      .map(alias => {
+        const key = aliasKey(alias);
+        let score = 0;
+        if (String(alias).includes(' ')) score += 3;
+        if (ALIAS_NICKNAMES.has(String(alias).toLowerCase())) score += 2;
+        if (String(alias).length > 5) score += 1;
+        if (key === modelKey) score -= 2;
+        return { alias, score };
+      })
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 5)
+      .map(item => aliasLabel(item.alias));
   }
 
   function getBikeFaq(bike) {
@@ -513,7 +551,7 @@ const MotoX = (() => {
             <h1 class="${mx('bike-title')}">${shieldEnc(formatBikeTitle(bike))}</h1>
             <p class="${mx('bike-subtitle')}">${shieldEnc(bike.category || '')}${bike.category && bike.displacement ? ' · ' : ''}${shieldEnc(bike.displacement || '')}</p>
             ${bike.summary ? `<p>${shieldEnc(bike.summary)}</p>` : ''}
-            ${(bike.aliases || []).length ? `<p class="${mx('bike-alias')}"><strong>Also known as:</strong> ${shieldEnc((bike.aliases || []).slice(0, 5).map(aliasLabel).join(', '))}</p>` : ''}
+            ${(bike.aliases || []).length ? `<p class="${mx('bike-alias')}"><strong>Also known as:</strong> ${shieldEnc(displayAliases(bike).join(', '))}</p>` : ''}
             ${renderHeroStats(bike)}
           </div>
           ${adTop ? `<div class="${mx('ad-slot')}">${adTop}</div>` : ''}
@@ -624,7 +662,7 @@ const MotoX = (() => {
       specs: specsHtml,
       oil: oilHtml
     };
-    const href = `${BASE}motorcycle.html?id=${encodeURIComponent(bike.id)}`;
+    const href = `${BASE}motorcycle/${encodeURIComponent(bike.id)}.html`;
 
     if (typeof MotoXShield !== 'undefined') {
       return MotoXShield.cardHtml(href, parts, bike.id);

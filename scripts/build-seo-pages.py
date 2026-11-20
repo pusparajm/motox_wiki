@@ -16,9 +16,12 @@ import os
 import re
 from urllib.parse import quote
 
+from search_aliases import aliases_for
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 GUIDES = os.path.join(ROOT, "guides")
+MODELS = os.path.join(ROOT, "motorcycle")
 SITE = "https://motoxref.com"
 LAST_MOD = "2026-11-20"
 
@@ -90,7 +93,7 @@ def title(bike):
 
 
 def bike_url(bike):
-    return f"../motorcycle.html?id={quote(bike['id'])}"
+    return f"../motorcycle/{quote(bike['id'])}.html"
 
 
 def bike_link(bike):
@@ -476,6 +479,283 @@ def comparison(slug, page_title, description, h1, subtitle, a, b, verdict):
     return guide_page(slug, page_title, description, h1, subtitle, content, h1)
 
 
+def property_table(rows):
+    body = "".join(f"<tr><th>{esc(label)}</th><td>{esc(value)}</td></tr>" for label, value in rows if value)
+    return f'<div class="spec-table-wrap"><table class="spec-table"><tbody>{body}</tbody></table></div>'
+
+
+def bike_faq(bike):
+    full = name(bike)
+    faq = []
+    power = field(bike, "power")
+    torque = field(bike, "torque")
+    seat_height = field(bike, "seat_height")
+    kerb = field(bike, "weight")
+    oil = service(bike, "oil_capacity")
+    oil_grade = service(bike, "oil_grade")
+    top = field(bike, "top_speed")
+    fuel = field(bike, "fuel_capacity")
+    if power:
+        faq.append((f"How much power does the {full} make?", f"The {full} is rated at {power}."))
+    if torque:
+        faq.append((f"What is the torque of the {full}?", f"Manufacturer-claimed peak torque is {torque}."))
+    if seat_height:
+        faq.append((f"What is the seat height of the {full}?", f"The seat height is listed as {seat_height}. Seat width and suspension sag also affect reach."))
+    if kerb:
+        faq.append((f"How much does the {full} weigh?", f"The kerb weight is listed as {kerb}."))
+    if oil:
+        faq.append((f"What engine oil does the {full} take?", f"Engine oil capacity is {oil}{f' and the recommended grade is {oil_grade}' if oil_grade else ''}. Confirm the exact fill procedure in the owner's or workshop manual."))
+    elif oil_grade:
+        faq.append((f"What engine oil grade does the {full} use?", f"The recommended grade is {oil_grade}. Confirm the exact fill procedure in the owner's or workshop manual."))
+    if top:
+        faq.append((f"What is the top speed of the {full}?", f"The listed top speed is {top}."))
+    if fuel:
+        faq.append((f"What is the fuel capacity of the {full}?", f"Fuel capacity is listed as {fuel}."))
+    return faq[:6]
+
+
+ALIAS_NICKNAMES = {
+    "fireblade", "busa", "hayabusa", "gixxer", "goldwing", "vstrom", "tenere",
+    "panigale", "monster", "multistrada", "scrambler", "bonneville", "trident",
+    "tiger", "rocket", "sportster", "scout", "chief", "challenger", "himalayan",
+    "classic", "hunter", "meteor", "interceptor", "continental", "cp2", "cp3", "gs", "adv"
+}
+
+
+def alias_label(value):
+    words = []
+    for word in str(value).split():
+        if any(ch.isdigit() for ch in word):
+            words.append(word.upper())
+        elif len(word) <= 3:
+            words.append(word.upper())
+        else:
+            words.append(word[:1].upper() + word[1:])
+    return " ".join(words)
+
+
+GENERIC_ALIASES = {
+    "harley", "hd", "enfield", "royal enfield", "guzzi", "cf moto", "qj motor",
+    "qj", "bmw motorrad", "kawi", "triumph motorcycles", "indian motorcycle"
+}
+
+
+def display_aliases(bike, aliases):
+    model_key = re.sub(r"[^a-z0-9]", "", str(bike.get("model", "")).lower())
+    scored = []
+    for alias in aliases:
+        if str(alias).lower() in GENERIC_ALIASES:
+            continue
+        key = re.sub(r"[^a-z0-9]", "", str(alias).lower())
+        if key == model_key:
+            continue
+        score = 0
+        if " " in str(alias):
+            score += 3
+        if str(alias).lower() in ALIAS_NICKNAMES:
+            score += 2
+        if len(str(alias)) > 5:
+            score += 1
+        if key == model_key:
+            score -= 2
+        scored.append((score, alias))
+    scored.sort(key=lambda item: (-item[0], item[1]))
+    return [alias_label(alias) for _, alias in scored[:5]]
+
+
+def model_page(bike, related, guide_links):
+    url = f"{SITE}/motorcycle/{quote(bike['id'])}.html"
+    seo_title = f"{name(bike)} ({bike.get('year', '')}) Specs & Torque"
+
+    def short(value):
+        return re.sub(r"\([^)]*\)", "", str(value or "").split("@")[0]).strip()
+
+    bits = []
+    if field(bike, "power"):
+        bits.append(f"{short(field(bike, 'power'))} power")
+    if field(bike, "torque"):
+        bits.append(f"{short(field(bike, 'torque'))} torque")
+    if field(bike, "weight"):
+        bits.append(field(bike, "weight"))
+    if field(bike, "seat_height"):
+        bits.append(f"{field(bike, 'seat_height')} seat")
+    description = f"{name(bike)} specs: {', '.join(bits)}. Torque values, service data and dimensions."
+    faq = bike_faq(bike)
+
+    def qty(value, unit):
+        number = numeric(value)
+        return {"@type": "QuantitativeValue", "value": number, "unitCode": unit} if number else value
+
+    fuel = field(bike, "fuel_capacity") or ""
+    graph = [{
+        "@type": "Motorcycle",
+        "name": title(bike),
+        "brand": {"@type": "Brand", "name": bike.get("make", "")},
+        "model": bike.get("model", ""),
+        "vehicleModelDate": bike.get("year", ""),
+        "description": bike.get("summary", ""),
+        "bodyType": bike.get("category", ""),
+        "weight": qty(field(bike, "weight"), "KGM"),
+        "fuelCapacity": qty(fuel, "KWH" if "kwh" in fuel.lower() else "LTR"),
+        "vehicleEngine": {
+            "@type": "EngineSpecification",
+            "engineDisplacement": qty(bike.get("displacement", ""), "CMQ"),
+            "enginePower": qty(field(bike, "power"), "BHP"),
+            "engineTorque": qty(field(bike, "torque"), "NU")
+        },
+        "url": url
+    }, {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
+            {"@type": "ListItem", "position": 2, "name": "Browse", "item": SITE + "/#browse"},
+            {"@type": "ListItem", "position": 3, "name": title(bike), "item": url}
+        ]
+    }]
+    if faq:
+        graph.append({"@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in faq
+        ]})
+    hero = "".join(f'<div class="hero-stat"><span class="hero-label">{esc(label)}</span><span class="hero-value">{esc(value)}</span></div>' for label, value in [
+        ("Power", field(bike, "power")), ("Torque", field(bike, "torque")),
+        ("Kerb Weight", field(bike, "weight")), ("Seat Height", field(bike, "seat_height"))
+    ] if value)
+    aliases = bike.get("aliases") or aliases_for(bike.get("make", ""), bike.get("model", ""))
+    alias_labels = display_aliases(bike, aliases)
+    alias_html = f'<p class="bike-alias"><strong>Also known as:</strong> {esc(", ".join(alias_labels))}</p>' if alias_labels else ""
+    general_rows = []
+    for item in ((bike.get("sections") or {}).get("general_specs") or {}).get("fields") or []:
+        general_rows.append((item.get("label", ""), item.get("value", "")))
+    service_rows = []
+    for item in ((bike.get("sections") or {}).get("service") or {}).get("fields") or []:
+        service_rows.append((item.get("label", ""), item.get("value", "")))
+    torque_section = (bike.get("sections") or {}).get("torque_specs") or {}
+    torque_note = next((f.get("value", "") for f in torque_section.get("fields") or [] if f.get("key") == "note"), "")
+    torque_rows = torque_section.get("table") or []
+    faq_html = "".join(f'<div class="faq-item"><h3 class="faq-question">{esc(q)}</h3><p class="faq-answer">{esc(a)}</p></div>' for q, a in faq)
+    related_html = "".join(
+        f'<a class="bike-card" href="{quote(other["id"])}.html"><span class="bike-make">{esc(other.get("make", ""))}</span><h3 class="bike-model">{esc(other.get("model", ""))}</h3><span class="bike-meta">{esc(other.get("year", ""))} · {esc(other.get("displacement", ""))}</span></a>'
+        for other in related
+    )
+    guides_html = "".join(f'<a href="../guides/{href}">{esc(label)}</a>' for href, label in guide_links)
+    template = f"""<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>{esc(seo_title)} | MotoX Wiki</title>
+  <meta name="description" content="{esc(description)}">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="{url}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="MotoX Wiki">
+  <meta property="og:title" content="{esc(seo_title)} | MotoX Wiki">
+  <meta property="og:description" content="{esc(description)}">
+  <meta property="og:url" content="{url}">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#c2410c">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="../css/main.css?v=21">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465" crossorigin="anonymous"></script>
+  <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)}</script>
+</head>
+<body>
+  <header class="site-header static-header">
+    <div class="container">
+      <div class="header-row"><a class="brand" href="../index.html"><span class="brand-icon">⚙</span><span>MotoX Wiki</span></a></div>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="../index.html">Browse</a>
+        <a href="../guides/index.html">Guides</a>
+        <a href="../guides/oil-capacity-chart.html">Oil Charts</a>
+        <a href="../pages.html">Reference</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="bike-header">
+      <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#browse">Browse</a> / {esc(name(bike))}</div>
+      <h1>{esc(title(bike))}</h1>
+      <p class="bike-subtitle">{esc(bike.get('category', ''))}{' · ' if bike.get('category') and bike.get('displacement') else ''}{esc(bike.get('displacement', ''))}</p>
+      <p>{esc(bike.get('summary', ''))}</p>
+      {alias_html}
+      <div class="hero-stats">{hero}</div>
+    </div>
+    <article class="page-content">
+      <h2 class="section-heading">Specifications</h2>
+      {property_table(general_rows)}
+      {f'<h2 class="section-heading">Service Data</h2>{property_table(service_rows)}' if service_rows else ''}
+      {f'<h2 class="section-heading">Torque Specifications</h2><p>{esc(torque_note)}</p>{table(["Component", "Torque", "Notes"], [[esc(r.get("component", "")), esc(r.get("torque", "")), esc(r.get("notes", ""))] for r in torque_rows])}' if torque_rows else ''}
+      {f'<section class="faq-section"><h2 class="section-heading">Frequently Asked Questions</h2>{faq_html}</section>' if faq_html else ''}
+      {f'<section class="related-section"><h2 class="related-title">Related Models</h2><div class="bike-grid related-grid">{related_html}</div></section>' if related_html else ''}
+      <section class="related-section"><h2 class="related-title">Related Guides</h2><p class="home-guide-links">{guides_html}</p></section>
+      <p class="data-note">Specifications are manufacturer-claimed and can vary by model year and market. Confirm service limits and torque values against the owner's or workshop manual. Data updated {LAST_MOD}.</p>
+    </article>
+  </main>
+  <footer class="site-footer"><div class="container site-footer-inner"><span class="footer-text">© 2026 MotoX Wiki. Community-maintained motorcycle technical reference.</span></div></footer>
+</body>
+</html>
+"""
+    path = os.path.join(MODELS, f"{quote(bike['id'])}.html")
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(template)
+
+
+COMPARISON_LINKS = {
+    "honda-cbr600rr-2013": ("cbr600rr-vs-cbr650r.html", "CBR600RR vs CBR650R"),
+    "honda-cbr650r-2024-present-global": ("cbr600rr-vs-cbr650r.html", "CBR600RR vs CBR650R"),
+    "yamaha-mt-07-2018": ("mt-07-vs-mt-09.html", "MT-07 vs MT-09"),
+    "yamaha-mt-09-2015-2018-global": ("mt-07-vs-mt-09.html", "MT-07 vs MT-09"),
+    "kawasaki-ninja-400-2018-present": ("ninja-400-vs-ninja-500.html", "Ninja 400 vs Ninja 500"),
+    "kawasaki-ninja-500-2024-present": ("ninja-400-vs-ninja-500.html", "Ninja 400 vs Ninja 500"),
+    "royal-enfield-classic-350-2021-present-global": ("classic-350-vs-hunter-350.html", "Classic 350 vs Hunter 350"),
+    "royal-enfield-hunter-350-2022-present-global": ("classic-350-vs-hunter-350.html", "Classic 350 vs Hunter 350"),
+    "royal-enfield-himalayan-450": ("himalayan-450-vs-411.html", "Himalayan 450 vs 411"),
+    "royal-enfield-himalayan-411-2015-2023-global": ("himalayan-450-vs-411.html", "Himalayan 450 vs 411"),
+    "royal-enfield-interceptor-650-2018-present-global": ("interceptor-650-vs-continental-gt-650.html", "Interceptor 650 vs Continental GT 650"),
+    "royal-enfield-continental-gt-650-2019-present-global": ("interceptor-650-vs-continental-gt-650.html", "Interceptor 650 vs Continental GT 650"),
+}
+
+
+def build_model_pages(bikes):
+    os.makedirs(MODELS, exist_ok=True)
+    for entry in os.listdir(MODELS):
+        if entry.endswith(".html"):
+            os.remove(os.path.join(MODELS, entry))
+    by_group = {}
+    for bike in bikes:
+        group = bike.get("model_group") or ""
+        if group:
+            by_group.setdefault(group, []).append(bike)
+    for bike in bikes:
+        related = [b for b in by_group.get(bike.get("model_group") or "", []) if b["id"] != bike["id"]][:6]
+        if not related:
+            related = [b for b in bikes if b["id"] != bike["id"] and b.get("make") == bike.get("make") and b.get("category") == bike.get("category")][:6]
+        category = (bike.get("category") or "").lower()
+        guides = [
+            ("oil-capacity-chart.html", "Motorcycle oil capacity chart"),
+            ("seat-height-chart.html", "Motorcycle seat height chart"),
+            ("a2-motorcycles.html", "A2 motorcycles"),
+            ("best-beginner-motorcycles.html", "Best beginner motorcycles"),
+            ("torque-specs.html", "Motorcycle torque specs")
+        ]
+        comparison = COMPARISON_LINKS.get(bike["id"])
+        if comparison:
+            guides.insert(0, comparison)
+        if category == "scooter":
+            guides.insert(0, ("best-scooters.html", "Best scooters"))
+        elif category in ("adventure", "dual sport"):
+            guides.insert(0, ("best-adventure-motorcycles.html", "Best adventure motorcycles"))
+        elif category == "cruiser":
+            guides.insert(0, ("best-cruiser-motorcycles.html", "Best cruiser motorcycles"))
+        elif category == "commuter":
+            guides.insert(0, ("best-commuter-motorcycles.html", "Best commuter motorcycles"))
+        elif category in ("retro", "scrambler"):
+            guides.insert(0, ("best-retro-motorcycles.html", "Best retro motorcycles"))
+        model_page(bike, related, guides[:7])
+    return len(bikes)
+
+
 def main():
     global bikes
     bikes, pages = load()
@@ -484,6 +764,7 @@ def main():
         if entry.endswith(".html"):
             os.remove(os.path.join(GUIDES, entry))
 
+    model_count = build_model_pages(bikes)
     urls = []
     urls.append(build_index(bikes))
     urls.append(build_oil_chart(bikes))
@@ -573,7 +854,7 @@ def main():
         urls.append(comparison(slug, h1, desc, h1, f"{name(a)} vs {name(b)}", a, b, verdict))
 
     # Sitemap
-    model_urls = [f"{SITE}/motorcycle.html?id={quote(b['id'])}" for b in bikes]
+    model_urls = [f"{SITE}/motorcycle/{quote(b['id'])}.html" for b in bikes]
     page_urls = [f"{SITE}/pages.html?slug={quote(p.get('slug') or p['id'])}" for p in pages]
     urls = [f"{SITE}/", f"{SITE}/pages.html"] + page_urls + [f"{SITE}/guides/"] + urls + model_urls
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as fh:
@@ -582,7 +863,7 @@ def main():
             priority = "1.0" if url == f"{SITE}/" else "0.7" if "/motorcycle.html" in url else "0.6"
             fh.write(f"  <url><loc>{url}</loc><lastmod>{LAST_MOD}</lastmod><priority>{priority}</priority></url>\n")
         fh.write("</urlset>\n")
-    print(f"Generated {len(urls)} sitemap URLs and {len(os.listdir(GUIDES))} guide files")
+    print(f"Generated {len(urls)} sitemap URLs, {len(os.listdir(GUIDES))} guide files and {model_count} model pages")
 
 
 if __name__ == "__main__":

@@ -75,6 +75,7 @@ Two folders live side by side on your computer:
 │   ├── build-data.py            # Regenerate derived data from motorcycles.json
 │   └── build-seo-pages.py       # Generate static guides and sitemap
 ├── guides/                      # Static SEO charts, buying guides and comparisons
+├── motorcycle/                  # Static, crawlable model specification pages
 ├── sitemap.xml
 ├── robots.txt
 ├── docs/

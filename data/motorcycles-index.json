@@ -1231,9 +1231,7 @@
       "oil_capacity": "4.0 L (4.2 US qt)",
       "oil_type": "SAE 5W-40, JASO MA2",
       "aliases": [
-        "bmw motorrad",
-        "r 12",
-        "r12"
+        "bmw motorrad"
       ]
     },
     {
@@ -1261,9 +1259,7 @@
       "oil_capacity": "4.0 L (4.2 US qt)",
       "oil_type": "SAE 5W-40, JASO MA2",
       "aliases": [
-        "bmw motorrad",
-        "r 12",
-        "r12"
+        "bmw motorrad"
       ]
     },
     {
@@ -1293,9 +1289,7 @@
       "aliases": [
         "bmw motorrad",
         "gs",
-        "r 12",
         "r 1250 gs",
-        "r12",
         "r1250gs"
       ]
     },
@@ -1324,9 +1318,7 @@
       "oil_capacity": "4.0 L (4.2 US qt)",
       "oil_type": "SAE 5W-40, JASO MA2",
       "aliases": [
-        "bmw motorrad",
-        "r 12",
-        "r12"
+        "bmw motorrad"
       ]
     },
     {
@@ -1385,9 +1377,7 @@
       "oil_capacity": "4.5 L (4.8 US qt)",
       "oil_type": "SAE 5W-40, JASO MA2",
       "aliases": [
-        "bmw motorrad",
-        "r 18",
-        "r18"
+        "bmw motorrad"
       ]
     },
     {
@@ -2172,9 +2162,7 @@
       "oil_capacity": "3.8 L (4.0 US qt)",
       "oil_type": "SAE 15W-50, JASO MA2",
       "aliases": [
-        "monster",
-        "r 12",
-        "r12"
+        "monster"
       ]
     },
     {
@@ -5530,9 +5518,7 @@
       "oil_type": "",
       "aliases": [
         "ftr",
-        "indian motorcycle",
-        "r 12",
-        "r12"
+        "indian motorcycle"
       ]
     },
     {
@@ -10388,8 +10374,6 @@
       "oil_capacity": "4.0 L (4.2 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
-        "r 12",
-        "r12",
         "scram",
         "scrambler",
         "triumph motorcycles"
@@ -10633,8 +10617,6 @@
       "oil_capacity": "4.0 L (4.2 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
-        "r 12",
-        "r12",
         "tiger",
         "triumph motorcycles"
       ]
@@ -10929,9 +10911,7 @@
       "oil_capacity": "0.8 L (0.85 US qt)",
       "oil_type": "SAE 10W-30, JASO MB",
       "aliases": [
-        "jupiter",
-        "r 12",
-        "r12"
+        "jupiter"
       ]
     },
     {
@@ -10989,8 +10969,6 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "r 12",
-        "r12",
         "raider"
       ]
     },

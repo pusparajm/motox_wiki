@@ -132,7 +132,7 @@ const MotoXSearch = (() => {
         meta,
         power: MotoX.getGeneralField(bike, 'power'),
         weight: MotoX.getGeneralField(bike, 'weight'),
-        url: `motorcycle.html?id=${encodeURIComponent(bike.id)}`,
+        url: `motorcycle/${encodeURIComponent(bike.id)}.html`,
         searchText: flattenBike(bike)
       });
     });
