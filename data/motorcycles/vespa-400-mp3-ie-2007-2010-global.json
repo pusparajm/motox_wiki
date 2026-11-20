@@ -1,0 +1,76 @@
+{
+  "motorcycle": {
+    "id": "vespa-400-mp3-ie-2007-2010-global",
+    "make": "Vespa",
+    "model": "400 MP3 iE",
+    "year": "2007–2010",
+    "region": "Global",
+    "model_group": "vespa-400-mp3-ie",
+    "category": "Scooter",
+    "displacement": "400 cc",
+    "summary": "Vespa 400 MP3 iE brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "vespa",
+      "400-mp3-ie",
+      "scooter",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "400 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2007–2010"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 202MS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 177MS"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "mp3"
+    ]
+  }
+}

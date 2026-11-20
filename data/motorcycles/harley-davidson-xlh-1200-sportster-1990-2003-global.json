@@ -1,0 +1,78 @@
+{
+  "motorcycle": {
+    "id": "harley-davidson-xlh-1200-sportster-1990-2003-global",
+    "make": "Harley-Davidson",
+    "model": "XLH 1200 Sportster",
+    "year": "1990–2003",
+    "region": "Global",
+    "model_group": "harley-davidson-xlh-1200-sportster",
+    "category": "Cruiser",
+    "displacement": "1200 cc",
+    "summary": "Harley-Davidson XLH 1200 Sportster brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "harley-davidson",
+      "xlh-1200-sportster",
+      "cruiser",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1200 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1990–2003"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 579"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 669"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "harley",
+      "hd",
+      "sportster"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "motorcycle": {
+    "id": "harley-davidson-fltrxst-1917-road-glide-special-st-2022-2022-global",
+    "make": "Harley-Davidson",
+    "model": "FLTRXST 1917 Road Glide Special ST",
+    "year": "2022",
+    "region": "Global",
+    "model_group": "harley-davidson-fltrxst-1917-road-glide-special-st",
+    "category": "Cruiser",
+    "displacement": "1917 cc",
+    "summary": "Harley-Davidson FLTRXST 1917 Road Glide Special ST brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "harley-davidson",
+      "fltrxst-1917-road-glide-special-st",
+      "cruiser",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1917 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2022"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 830"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "harley",
+      "hd",
+      "road glide"
+    ]
+  }
+}

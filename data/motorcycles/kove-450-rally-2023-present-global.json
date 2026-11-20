@@ -124,6 +124,16 @@
             "key": "note",
             "label": "Note",
             "value": "Later Kove owner manuals list SAE 10W-40; confirm the grade for your model year."
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 694SI"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 777SI"
           }
         ]
       },

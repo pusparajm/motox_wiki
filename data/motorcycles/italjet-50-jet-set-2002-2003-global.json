@@ -1,0 +1,69 @@
+{
+  "motorcycle": {
+    "id": "italjet-50-jet-set-2002-2003-global",
+    "make": "Italjet",
+    "model": "50 Jet-Set",
+    "year": "2002–2003",
+    "region": "Global",
+    "model_group": "italjet-50-jet-set",
+    "category": "Scooter",
+    "displacement": "50 cc",
+    "summary": "Italjet 50 Jet-Set brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "italjet",
+      "50-jet-set",
+      "scooter",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "50 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2002–2003"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 167HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

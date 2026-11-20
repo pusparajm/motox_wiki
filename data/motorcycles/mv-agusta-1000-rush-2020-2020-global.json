@@ -1,0 +1,69 @@
+{
+  "motorcycle": {
+    "id": "mv-agusta-1000-rush-2020-2020-global",
+    "make": "MV Agusta",
+    "model": "1000 Rush",
+    "year": "2020",
+    "region": "Global",
+    "model_group": "mv-agusta-1000-rush",
+    "category": "Naked",
+    "displacement": "1000 cc",
+    "summary": "MV Agusta 1000 Rush brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "mv-agusta",
+      "1000-rush",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1000 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2020"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 841HS"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

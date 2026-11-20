@@ -1,0 +1,69 @@
+{
+  "motorcycle": {
+    "id": "adly-100-thunderbike-2001-2004-global",
+    "make": "ADLY",
+    "model": "100 Thunderbike",
+    "year": "2001–2004",
+    "region": "Global",
+    "model_group": "adly-100-thunderbike",
+    "category": "Naked",
+    "displacement": "100 cc",
+    "summary": "ADLY 100 Thunderbike brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "adly",
+      "100-thunderbike",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "100 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2001–2004"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 102HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

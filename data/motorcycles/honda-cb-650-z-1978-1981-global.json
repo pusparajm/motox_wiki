@@ -1,0 +1,74 @@
+{
+  "motorcycle": {
+    "id": "honda-cb-650-z-1978-1981-global",
+    "make": "Honda",
+    "model": "CB 650 Z",
+    "year": "1978–1981",
+    "region": "Global",
+    "model_group": "honda-cb-650-z",
+    "category": "Naked",
+    "displacement": "650 cc",
+    "summary": "Honda CB 650 Z brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "honda",
+      "cb-650-z",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "650 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1978–1981"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 526HF"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 2027"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

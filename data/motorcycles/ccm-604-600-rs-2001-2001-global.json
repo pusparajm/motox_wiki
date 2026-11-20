@@ -1,0 +1,74 @@
+{
+  "motorcycle": {
+    "id": "ccm-604-600-rs-2001-2001-global",
+    "make": "Ccm",
+    "model": "604 600 RS",
+    "year": "2001",
+    "region": "Global",
+    "model_group": "ccm-604-600-rs",
+    "category": "Naked",
+    "displacement": "604 cc",
+    "summary": "Ccm 604 600 RS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "ccm",
+      "604-600-rs",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "604 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2001"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 671HF"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 675HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

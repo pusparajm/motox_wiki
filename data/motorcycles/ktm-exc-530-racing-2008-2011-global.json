@@ -1,0 +1,76 @@
+{
+  "motorcycle": {
+    "id": "ktm-exc-530-racing-2008-2011-global",
+    "make": "KTM",
+    "model": "EXC 530 Racing",
+    "year": "2008–2011",
+    "region": "Global",
+    "model_group": "ktm-exc-530-racing",
+    "category": "Enduro",
+    "displacement": "530 cc",
+    "summary": "KTM EXC 530 Racing brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "ktm",
+      "exc-530-racing",
+      "enduro",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "530 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2008–2011"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 671SI"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 791SI"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "exc"
+    ]
+  }
+}

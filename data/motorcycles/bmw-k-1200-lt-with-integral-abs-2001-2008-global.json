@@ -1,0 +1,76 @@
+{
+  "motorcycle": {
+    "id": "bmw-k-1200-lt-with-integral-abs-2001-2008-global",
+    "make": "BMW",
+    "model": "K 1200 LT With Integral ABS",
+    "year": "2001–2008",
+    "region": "Global",
+    "model_group": "bmw-k-1200-lt-with-integral-abs",
+    "category": "Naked",
+    "displacement": "1200 cc",
+    "summary": "BMW K 1200 LT With Integral ABS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "bmw",
+      "k-1200-lt-with-integral-abs",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1200 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2001–2008"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 778HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 746HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "bmw motorrad"
+    ]
+  }
+}

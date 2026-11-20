@@ -1,0 +1,78 @@
+{
+  "motorcycle": {
+    "id": "yamaha-xt-660-z-tenere-abs-2011-2015-global",
+    "make": "Yamaha",
+    "model": "XT 660 Z Tenere ABS",
+    "year": "2011–2015",
+    "region": "Global",
+    "model_group": "yamaha-xt-660-z-tenere-abs",
+    "category": "Dual Sport",
+    "displacement": "660 cc",
+    "summary": "Yamaha XT 660 Z Tenere ABS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "yamaha",
+      "xt-660-z-tenere-abs",
+      "dual sport",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "660 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2011–2015"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 671HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 675LS"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "t7",
+      "tenere",
+      "tenere 700"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "motorcycle": {
+    "id": "italjet-125-jupiter-2002-2003-global",
+    "make": "Italjet",
+    "model": "125 Jupiter",
+    "year": "2002–2003",
+    "region": "Global",
+    "model_group": "italjet-125-jupiter",
+    "category": "Scooter",
+    "displacement": "125 cc",
+    "summary": "Italjet 125 Jupiter brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "italjet",
+      "125-jupiter",
+      "scooter",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "125 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2002–2003"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 128CT"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 105CT"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "jupiter"
+    ]
+  }
+}

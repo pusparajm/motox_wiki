@@ -1,0 +1,74 @@
+{
+  "motorcycle": {
+    "id": "honda-nrx-1800-valkyrie-rune-2004-2005-global",
+    "make": "Honda",
+    "model": "NRX 1800 Valkyrie Rune",
+    "year": "2004–2005",
+    "region": "Global",
+    "model_group": "honda-nrx-1800-valkyrie-rune",
+    "category": "Naked",
+    "displacement": "1800 cc",
+    "summary": "Honda NRX 1800 Valkyrie Rune brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "honda",
+      "nrx-1800-valkyrie-rune",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1800 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2004–2005"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 735HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 736LS"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

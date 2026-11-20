@@ -1,0 +1,69 @@
+{
+  "motorcycle": {
+    "id": "honda-xl-100-all-models-1978-1985-global",
+    "make": "Honda",
+    "model": "XL 100 all models",
+    "year": "1978–1985",
+    "region": "Global",
+    "model_group": "honda-xl-100-all-models",
+    "category": "Naked",
+    "displacement": "100 cc",
+    "summary": "Honda XL 100 all models brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "honda",
+      "xl-100-all-models",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "100 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1978–1985"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 2013"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "motorcycle": {
+    "id": "cfmoto-700-cl-x-heritage-2022-2022-global",
+    "make": "CFMOTO",
+    "model": "700 CL-X Heritage",
+    "year": "2022",
+    "region": "Global",
+    "model_group": "cfmoto-700-cl-x-heritage",
+    "category": "Cruiser",
+    "displacement": "700 cc",
+    "summary": "CFMOTO 700 CL-X Heritage brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "cfmoto",
+      "700-cl-x-heritage",
+      "cruiser",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "700 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2022"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 706HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 671LS"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "cf moto",
+      "heritage"
+    ]
+  }
+}

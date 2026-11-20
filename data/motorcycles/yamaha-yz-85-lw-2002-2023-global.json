@@ -1,0 +1,74 @@
+{
+  "motorcycle": {
+    "id": "yamaha-yz-85-lw-2002-2023-global",
+    "make": "Yamaha",
+    "model": "YZ 85 , LW",
+    "year": "2002–Present",
+    "region": "Global",
+    "model_group": "yamaha-yz-85-lw",
+    "category": "Motocross",
+    "displacement": "85 cc",
+    "summary": "Yamaha YZ 85 , LW brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "yamaha",
+      "yz-85-lw",
+      "motocross",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "85 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2002–Present"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 589RSI"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 592RSI"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

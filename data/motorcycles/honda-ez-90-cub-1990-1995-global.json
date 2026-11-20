@@ -1,0 +1,69 @@
+{
+  "motorcycle": {
+    "id": "honda-ez-90-cub-1990-1995-global",
+    "make": "Honda",
+    "model": "EZ 90 Cub",
+    "year": "1990–1995",
+    "region": "Global",
+    "model_group": "honda-ez-90-cub",
+    "category": "Naked",
+    "displacement": "90 cc",
+    "summary": "Honda EZ 90 Cub brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "honda",
+      "ez-90-cub",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "90 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1990–1995"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 2012"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

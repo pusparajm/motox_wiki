@@ -1,0 +1,76 @@
+{
+  "motorcycle": {
+    "id": "ducati-803-monster-s2r-abs-2005-2007-global",
+    "make": "Ducati",
+    "model": "803 Monster S2R ABS",
+    "year": "2005–2007",
+    "region": "Global",
+    "model_group": "ducati-803-monster-s2r-abs",
+    "category": "Retro",
+    "displacement": "803 cc",
+    "summary": "Ducati 803 Monster S2R ABS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "ducati",
+      "803-monster-s2r-abs",
+      "retro",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "803 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2005–2007"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 671HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 519LS"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "monster"
+    ]
+  }
+}

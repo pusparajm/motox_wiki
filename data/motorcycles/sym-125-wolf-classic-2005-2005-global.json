@@ -1,0 +1,71 @@
+{
+  "motorcycle": {
+    "id": "sym-125-wolf-classic-2005-2005-global",
+    "make": "SYM",
+    "model": "125 Wolf Classic",
+    "year": "2005",
+    "region": "Global",
+    "model_group": "sym-125-wolf-classic",
+    "category": "Cruiser",
+    "displacement": "125 cc",
+    "summary": "SYM 125 Wolf Classic brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "sym",
+      "125-wolf-classic",
+      "cruiser",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "125 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2005"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 551HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "classic"
+    ]
+  }
+}

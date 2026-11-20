@@ -1,0 +1,76 @@
+{
+  "motorcycle": {
+    "id": "vespa-250-mp3-efi-2008-2009-global",
+    "make": "Vespa",
+    "model": "250 MP3 Efi",
+    "year": "2008–2009",
+    "region": "Global",
+    "model_group": "vespa-250-mp3-efi",
+    "category": "Scooter",
+    "displacement": "250 cc",
+    "summary": "Vespa 250 MP3 Efi brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "vespa",
+      "250-mp3-efi",
+      "scooter",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "250 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2008–2009"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 202MS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 187MS"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "mp3"
+    ]
+  }
+}

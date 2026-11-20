@@ -1,0 +1,77 @@
+{
+  "motorcycle": {
+    "id": "harley-davidson-fxcw-1584-rocker-2008-2009-global",
+    "make": "Harley-Davidson",
+    "model": "FXCW 1584 Rocker",
+    "year": "2008–2009",
+    "region": "Global",
+    "model_group": "harley-davidson-fxcw-1584-rocker",
+    "category": "Naked",
+    "displacement": "1584 cc",
+    "summary": "Harley-Davidson FXCW 1584 Rocker brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "harley-davidson",
+      "fxcw-1584-rocker",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1584 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2008–2009"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 853"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 854"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "harley",
+      "hd"
+    ]
+  }
+}

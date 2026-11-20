@@ -1,0 +1,74 @@
+{
+  "motorcycle": {
+    "id": "yamaha-xz-550-rj-rk-1982-1983-global",
+    "make": "Yamaha",
+    "model": "XZ 550 RJ, RK",
+    "year": "1982–1983",
+    "region": "Global",
+    "model_group": "yamaha-xz-550-rj-rk",
+    "category": "Naked",
+    "displacement": "550 cc",
+    "summary": "Yamaha XZ 550 RJ, RK brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "yamaha",
+      "xz-550-rj-rk",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "550 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1982–1983"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 550HF"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 2063"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

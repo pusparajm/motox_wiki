@@ -1,0 +1,74 @@
+{
+  "motorcycle": {
+    "id": "ktm-xc-300-tpi-2019-2023-global",
+    "make": "KTM",
+    "model": "XC 300 TPI",
+    "year": "2019–Present",
+    "region": "Global",
+    "model_group": "ktm-xc-300-tpi",
+    "category": "Enduro",
+    "displacement": "300 cc",
+    "summary": "KTM XC 300 TPI brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "ktm",
+      "xc-300-tpi",
+      "enduro",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "300 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2019–Present"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 671RSI"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 791RSI"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

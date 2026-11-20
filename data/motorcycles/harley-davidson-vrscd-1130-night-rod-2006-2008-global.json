@@ -1,0 +1,72 @@
+{
+  "motorcycle": {
+    "id": "harley-davidson-vrscd-1130-night-rod-2006-2008-global",
+    "make": "Harley-Davidson",
+    "model": "VRSCD 1130 Night Rod",
+    "year": "2006–2008",
+    "region": "Global",
+    "model_group": "harley-davidson-vrscd-1130-night-rod",
+    "category": "Naked",
+    "displacement": "1130 cc",
+    "summary": "Harley-Davidson VRSCD 1130 Night Rod brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "harley-davidson",
+      "vrscd-1130-night-rod",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1130 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2006–2008"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 830"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "harley",
+      "hd"
+    ]
+  }
+}

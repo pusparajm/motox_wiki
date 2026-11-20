@@ -1,0 +1,71 @@
+{
+  "motorcycle": {
+    "id": "kawasaki-zn-1100-ltd-1984-1984-global",
+    "make": "Kawasaki",
+    "model": "ZN 1100 LTD",
+    "year": "1984",
+    "region": "Global",
+    "model_group": "kawasaki-zn-1100-ltd",
+    "category": "Naked",
+    "displacement": "1100 cc",
+    "summary": "Kawasaki ZN 1100 LTD brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "kawasaki",
+      "zn-1100-ltd",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1100 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1984"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 557HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "kawi"
+    ]
+  }
+}

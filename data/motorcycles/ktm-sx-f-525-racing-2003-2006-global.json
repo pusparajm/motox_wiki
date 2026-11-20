@@ -1,0 +1,77 @@
+{
+  "motorcycle": {
+    "id": "ktm-sx-f-525-racing-2003-2006-global",
+    "make": "KTM",
+    "model": "SX-F 525 Racing",
+    "year": "2003–2006",
+    "region": "Global",
+    "model_group": "ktm-sx-f-525-racing",
+    "category": "Motocross",
+    "displacement": "525 cc",
+    "summary": "KTM SX-F 525 Racing brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "ktm",
+      "sx-f-525-racing",
+      "motocross",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "525 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2003–2006"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 671RSI"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 675RSI"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "sx f",
+      "sxf"
+    ]
+  }
+}

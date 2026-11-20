@@ -1,0 +1,74 @@
+{
+  "motorcycle": {
+    "id": "ducati-999-rs-slipper-clutch-2004-2005-global",
+    "make": "Ducati",
+    "model": "999 RS (slipper clutch)",
+    "year": "2004–2005",
+    "region": "Global",
+    "model_group": "ducati-999-rs-slipper-clutch",
+    "category": "Naked",
+    "displacement": "999 cc",
+    "summary": "Ducati 999 RS (slipper clutch) brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "ducati",
+      "999-rs-slipper-clutch",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "999 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2004–2005"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 762HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 730LS"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "motorcycle": {
+    "id": "harley-davidson-fxdf-1584-fat-bob-2008-2011-global",
+    "make": "Harley-Davidson",
+    "model": "FXDF 1584 Fat Bob",
+    "year": "2008–2011",
+    "region": "Global",
+    "model_group": "harley-davidson-fxdf-1584-fat-bob",
+    "category": "Naked",
+    "displacement": "1584 cc",
+    "summary": "Harley-Davidson FXDF 1584 Fat Bob brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "harley-davidson",
+      "fxdf-1584-fat-bob",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1584 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2008–2011"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 853"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 854"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "harley",
+      "hd"
+    ]
+  }
+}

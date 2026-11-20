@@ -1,0 +1,74 @@
+{
+  "motorcycle": {
+    "id": "suzuki-ah-80-scooter-1992-1994-global",
+    "make": "Suzuki",
+    "model": "AH 80 Scooter",
+    "year": "1992–1994",
+    "region": "Global",
+    "model_group": "suzuki-ah-80-scooter",
+    "category": "Scooter",
+    "displacement": "80 cc",
+    "summary": "Suzuki AH 80 Scooter brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "suzuki",
+      "ah-80-scooter",
+      "scooter",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "80 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1992–1994"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 102HF"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 2181"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

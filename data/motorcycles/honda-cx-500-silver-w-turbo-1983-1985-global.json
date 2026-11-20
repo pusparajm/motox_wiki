@@ -1,0 +1,69 @@
+{
+  "motorcycle": {
+    "id": "honda-cx-500-silver-w-turbo-1983-1985-global",
+    "make": "Honda",
+    "model": "CX 500 Silver W.,Turbo",
+    "year": "1983–1985",
+    "region": "Global",
+    "model_group": "honda-cx-500-silver-w-turbo",
+    "category": "Naked",
+    "displacement": "500 cc",
+    "summary": "Honda CX 500 Silver W.,Turbo brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "honda",
+      "cx-500-silver-w-turbo",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "500 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1983–1985"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 542HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

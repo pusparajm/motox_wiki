@@ -1,0 +1,78 @@
+{
+  "motorcycle": {
+    "id": "harley-davidson-fxlrs-1917-low-rider-s-2022-2022-global",
+    "make": "Harley-Davidson",
+    "model": "FXLRS 1917 Low Rider S",
+    "year": "2022",
+    "region": "Global",
+    "model_group": "harley-davidson-fxlrs-1917-low-rider-s",
+    "category": "Naked",
+    "displacement": "1917 cc",
+    "summary": "Harley-Davidson FXLRS 1917 Low Rider S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "harley-davidson",
+      "fxlrs-1917-low-rider-s",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1917 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2022"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 860"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 949"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "harley",
+      "hd",
+      "low rider"
+    ]
+  }
+}

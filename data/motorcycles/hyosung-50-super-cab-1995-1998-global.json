@@ -1,0 +1,69 @@
+{
+  "motorcycle": {
+    "id": "hyosung-50-super-cab-1995-1998-global",
+    "make": "Hyosung",
+    "model": "50 Super Cab",
+    "year": "1995–1998",
+    "region": "Global",
+    "model_group": "hyosung-50-super-cab",
+    "category": "Naked",
+    "displacement": "50 cc",
+    "summary": "Hyosung 50 Super Cab brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "hyosung",
+      "50-super-cab",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "50 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1995–1998"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 101HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

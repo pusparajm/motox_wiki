@@ -1,0 +1,77 @@
+{
+  "motorcycle": {
+    "id": "suzuki-dr-z-400-s-e-2000-2023-global",
+    "make": "Suzuki",
+    "model": "DR-Z 400 S /E",
+    "year": "2000–Present",
+    "region": "Global",
+    "model_group": "suzuki-dr-z-400-s-e",
+    "category": "Dual Sport",
+    "displacement": "400 cc",
+    "summary": "Suzuki DR-Z 400 S /E brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "suzuki",
+      "dr-z-400-s-e",
+      "dual sport",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "400 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2000–Present"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 694HF"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 604HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "dr z",
+      "drz"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "motorcycle": {
+    "id": "moto-guzzi-1400-california-touring-se-2016-2017-global",
+    "make": "Moto Guzzi",
+    "model": "1400 California Touring SE",
+    "year": "2016–2017",
+    "region": "Global",
+    "model_group": "moto-guzzi-1400-california-touring-se",
+    "category": "Cruiser",
+    "displacement": "1400 cc",
+    "summary": "Moto Guzzi 1400 California Touring SE brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "moto-guzzi",
+      "1400-california-touring-se",
+      "cruiser",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1400 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2016–2017"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 706HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 674LS"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "guzzi"
+    ]
+  }
+}

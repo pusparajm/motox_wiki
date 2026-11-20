@@ -1,0 +1,78 @@
+{
+  "motorcycle": {
+    "id": "kawasaki-vn-900-vulcan-classic-se-2011-2016-global",
+    "make": "Kawasaki",
+    "model": "VN 900 Vulcan Classic SE",
+    "year": "2011–2016",
+    "region": "Global",
+    "model_group": "kawasaki-vn-900-vulcan-classic-se",
+    "category": "Cruiser",
+    "displacement": "900 cc",
+    "summary": "Kawasaki VN 900 Vulcan Classic SE brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "kawasaki",
+      "vn-900-vulcan-classic-se",
+      "cruiser",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "900 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2011–2016"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 705HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 886LS"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "classic",
+      "kawi",
+      "vulcan"
+    ]
+  }
+}

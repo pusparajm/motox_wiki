@@ -237,7 +237,7 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
 def build_index(bikes):
     cards = [
         ("oil-capacity-chart", "Motorcycle Oil Capacity Chart", "Engine oil capacity and oil grade for every model with verified service data."),
-        ("seat-height-chart", "Motorcycle Seat Height Chart", f"Seat heights for {len(bikes)} motorcycles, including a low-seat section for shorter riders."),
+        ("seat-height-chart", "Motorcycle Seat Height Chart", "Seat heights across the catalogue, including a low-seat section for shorter riders."),
         ("weight-chart", "Motorcycle Weight Chart", "Kerb weights across every model, useful for A2, garage and touring decisions."),
         ("horsepower-chart", "Motorcycle Horsepower Chart", "Power and torque figures sorted from highest to lowest."),
         ("torque-specs", "Motorcycle Torque Specifications", "Fastener torque tables and links to model-specific torque data."),
@@ -390,6 +390,8 @@ def build_parts_fitment(bikes):
     brake_rows = []
     bearing_rows = []
     for bike in sorted(bikes, key=name):
+        if bike.get("fitment_only"):
+            continue
         spark = service(bike, "spark_plug")
         front = service(bike, "front_brake_pads")
         rear = service(bike, "rear_brake_pads")
@@ -493,7 +495,7 @@ def build_brake_crossref(bikes):
     model_rows = []
     for mid, pads in crossref.items():
         bike = by_id.get(mid)
-        if not bike:
+        if not bike or bike.get("fitment_only"):
             continue
         front = pads.get("front_brake_pads", "") or service(bike, "front_brake_pads")
         rear = pads.get("rear_brake_pads", "") or service(bike, "rear_brake_pads")
@@ -528,7 +530,7 @@ def build_brake_crossref(bikes):
       <p><strong>Sources:</strong> EBC UK Motorcycle Pad Buyers Guide 203, SBS US Brake Pads Catalogue 2023–2024, and the Transcan/EBC pad and shoe interchange list. The Transcan list also covers older and ATV/UTV shapes, so some rows below will not apply to a road motorcycle.</p>
 
       <h2 id="model-fitments">Model fitments in the MotoX catalogue</h2>
-      <p>{len(model_rows)} models currently have a verified front or rear pad entry. Multiple rows can share the same shape: for example, the same EBC FA630 / SBS 900 front shape appears on several Aprilia, Benelli and BMW models. That does not mean the pads are identical in compound or price.</p>
+      <p>{len(model_rows)} models currently have a verified multi-brand front or rear pad entry. Multiple rows can share the same shape: for example, the same EBC FA630 / SBS 900 front shape appears on several Aprilia, Benelli and BMW models. That does not mean the pads are identical in compound or price. The wider set of SBS-only fitment entries is shown on the individual model pages.</p>
       {table(["Model", "Front brake pads", "Rear brake pads"], model_rows)}
 
       <h2 id="shape-cross-reference">Pad shape cross-reference</h2>
@@ -592,7 +594,7 @@ def build_a2(bikes):
 
 
 def build_125(bikes):
-    candidates = [b for b in bikes if displacement(b) and displacement(b) <= 155]
+    candidates = [b for b in bikes if not b.get("fitment_only") and displacement(b) and displacement(b) <= 155]
     return list_page(
         "best-125cc-motorcycles", "Best 125cc Motorcycles",
         "125–155 cc commuters, sportbikes, mini-bikes and scooters with specifications and links.",
@@ -606,7 +608,7 @@ def build_125(bikes):
 
 
 def category_page(slug, page_title, description, h1, subtitle, intro, category, breadcrumb):
-    candidates = [b for b in bikes if (b.get("category") or "").lower() == category.lower()]
+    candidates = [b for b in bikes if not b.get("fitment_only") and (b.get("category") or "").lower() == category.lower()]
     return list_page(
         slug, page_title, description, h1, subtitle, intro, candidates,
         lambda b: (-hp(b), name(b)),
@@ -1024,8 +1026,10 @@ def main():
     ))
     electric = [
         b for b in bikes
-        if str(b.get("displacement", "")).strip() in ("—", "-", "")
-        or "electric" in (field(b, "engine") or "").lower()
+        if not b.get("fitment_only") and (
+            str(b.get("displacement", "")).strip() in ("—", "-", "")
+            or "electric" in (field(b, "engine") or "").lower()
+        )
     ]
     urls.append(list_page(
         "best-electric-motorcycles", "Best Electric Motorcycles",

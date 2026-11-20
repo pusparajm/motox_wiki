@@ -1,0 +1,69 @@
+{
+  "motorcycle": {
+    "id": "tomos-mc-50-senior-pro-2004-2006-global",
+    "make": "Tomos",
+    "model": "MC 50 Senior Pro",
+    "year": "2004–2006",
+    "region": "Global",
+    "model_group": "tomos-mc-50-senior-pro",
+    "category": "Naked",
+    "displacement": "50 cc",
+    "summary": "Tomos MC 50 Senior Pro brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "tomos",
+      "mc-50-senior-pro",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "50 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2004–2006"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 667HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

@@ -109,6 +109,16 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 120 links"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 674HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 675LS"
           }
         ]
       },

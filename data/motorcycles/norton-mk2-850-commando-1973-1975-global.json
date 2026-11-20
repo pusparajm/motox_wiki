@@ -1,0 +1,69 @@
+{
+  "motorcycle": {
+    "id": "norton-mk2-850-commando-1973-1975-global",
+    "make": "Norton",
+    "model": "MK2 850 Commando",
+    "year": "1973–1975",
+    "region": "Global",
+    "model_group": "norton-mk2-850-commando",
+    "category": "Naked",
+    "displacement": "850 cc",
+    "summary": "Norton MK2 850 Commando brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "norton",
+      "mk2-850-commando",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "850 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1973–1975"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 505HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "motorcycle": {
+    "id": "cfmoto-450-g-force-l-2016-2017-global",
+    "make": "CFMOTO",
+    "model": "450 G-Force L",
+    "year": "2016–2017",
+    "region": "Global",
+    "model_group": "cfmoto-450-g-force-l",
+    "category": "Naked",
+    "displacement": "450 cc",
+    "summary": "CFMOTO 450 G-Force L brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "cfmoto",
+      "450-g-force-l",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "450 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2016–2017"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 914SI"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 799SI"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "cf moto"
+    ]
+  }
+}

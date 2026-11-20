@@ -1,0 +1,77 @@
+{
+  "motorcycle": {
+    "id": "kawasaki-zl-600-b2-eliminator-1995-1998-global",
+    "make": "Kawasaki",
+    "model": "ZL 600 B2 Eliminator",
+    "year": "1995–1998",
+    "region": "Global",
+    "model_group": "kawasaki-zl-600-b2-eliminator",
+    "category": "Naked",
+    "displacement": "600 cc",
+    "summary": "Kawasaki ZL 600 B2 Eliminator brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "kawasaki",
+      "zl-600-b2-eliminator",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "600 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1995–1998"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 597HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 2060"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "eliminator",
+      "kawi"
+    ]
+  }
+}

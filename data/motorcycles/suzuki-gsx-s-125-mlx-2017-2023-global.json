@@ -1,0 +1,77 @@
+{
+  "motorcycle": {
+    "id": "suzuki-gsx-s-125-mlx-2017-2023-global",
+    "make": "Suzuki",
+    "model": "GSX-S 125 MLX",
+    "year": "2017–Present",
+    "region": "Global",
+    "model_group": "suzuki-gsx-s-125-mlx",
+    "category": "Naked",
+    "displacement": "125 cc",
+    "summary": "Suzuki GSX-S 125 MLX brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "suzuki",
+      "gsx-s-125-mlx",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "125 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2017–Present"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 951HF"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 915HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "gsx s",
+      "gsxs"
+    ]
+  }
+}

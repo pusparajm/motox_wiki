@@ -1,0 +1,77 @@
+{
+  "motorcycle": {
+    "id": "kawasaki-klx-150-l-2014-2015-global",
+    "make": "Kawasaki",
+    "model": "KLX 150 L",
+    "year": "2014–2015",
+    "region": "Global",
+    "model_group": "kawasaki-klx-150-l",
+    "category": "Naked",
+    "displacement": "150 cc",
+    "summary": "Kawasaki KLX 150 L brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "kawasaki",
+      "klx-150-l",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "150 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2014–2015"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 611HF"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 536HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "kawi",
+      "klx"
+    ]
+  }
+}

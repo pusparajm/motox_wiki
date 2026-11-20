@@ -1,0 +1,71 @@
+{
+  "motorcycle": {
+    "id": "triumph-tsx-750-1983-1983-global",
+    "make": "Triumph",
+    "model": "TSX 750",
+    "year": "1983",
+    "region": "Global",
+    "model_group": "triumph-tsx-750",
+    "category": "Naked",
+    "displacement": "750 cc",
+    "summary": "Triumph TSX 750 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "tags": [
+      "triumph",
+      "tsx-750",
+      "naked",
+      "sbs"
+    ],
+    "published": true,
+    "fitment_only": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "750 cc"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "1983"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Fitment entry — full specifications pending"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 523HF"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "triumph motorcycles"
+    ]
+  }
+}
