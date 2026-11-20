@@ -161,7 +161,7 @@ const MotoX = (() => {
     if (!slot) return '';
     if (slot.type === 'adsense' && slot.client) {
       const slotAttr = slot.slotId ? ` data-ad-slot="${escapeHtml(slot.slotId)}"` : '';
-      return `<ins class="adsbygoogle" style="display:block" data-ad-client="${escapeHtml(slot.client)}"${slotAttr} data-ad-format="auto" data-full-width-responsive="true"></ins>`;
+      return `<div style="position:relative;z-index:1;width:100%;height:90px;overflow:hidden;display:flex;align-items:center;justify-content:center"><ins class="adsbygoogle" style="display:block;width:100%;height:90px" data-ad-client="${escapeHtml(slot.client)}"${slotAttr} data-ad-format="horizontal" data-full-width-responsive="true"></ins></div>`;
     }
     return slot.content || '';
   }
@@ -291,9 +291,29 @@ const MotoX = (() => {
     }
 
     const content = settings.ads ? renderAdSlot(settings.ads, 'header-banner') : '';
-    bar.innerHTML = content;
+    const fallback = content.includes('adsbygoogle')
+      ? '<div data-mx-ad-fallback style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:.72rem;color:var(--pico-muted-color);pointer-events:none">Advertisement — 728×90 Leaderboard</div>'
+      : '';
+    bar.style.position = 'relative';
+    bar.innerHTML = fallback + content;
     bar.classList.toggle(mx('has-ad'), !!content);
     if (content) initAdsense(bar);
+
+    const fallbackEl = bar.querySelector('[data-mx-ad-fallback]');
+    if (fallbackEl) {
+      const syncFallback = () => {
+        const ad = bar.querySelector('ins.adsbygoogle');
+        if (ad && ad.getAttribute('data-ad-status') === 'filled') fallbackEl.style.display = 'none';
+      };
+      syncFallback();
+      if (typeof MutationObserver !== 'undefined') {
+        new MutationObserver(syncFallback).observe(bar, {
+          subtree: true,
+          attributes: true,
+          attributeFilter: ['data-ad-status']
+        });
+      }
+    }
   }
 
   function renderFooter(container, settings) {

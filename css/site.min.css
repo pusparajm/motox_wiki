@@ -354,6 +354,7 @@ main.container {
 
 /* Full-width ad bar under header */
 .site-ad-bar {
+  position: relative;
   display: flex;
   width: 100%;
   background: var(--pico-card-sectioning-background-color);
@@ -364,6 +365,24 @@ main.container {
   box-sizing: border-box;
 }
 
+.site-ad-bar::before {
+  content: "Advertisement — 728×90 Leaderboard";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.5rem;
+  color: var(--pico-muted-color);
+  font-size: 0.72rem;
+  line-height: 1.2;
+  pointer-events: none;
+}
+
+.site-ad-bar:has(ins.adsbygoogle[data-ad-status="filled"])::before {
+  display: none;
+}
+
 .site-ad-bar.has-ad {
   align-items: center;
   justify-content: center;
@@ -371,8 +390,10 @@ main.container {
 
 .site-ad-bar ins.adsbygoogle {
   display: block;
+  position: relative;
+  z-index: 1;
   width: 100%;
-  min-height: 90px;
+  background: var(--pico-card-sectioning-background-color);
 }
 
 .site-ad-bar .ad-placeholder {
