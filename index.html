@@ -25,7 +25,13 @@
 <body>
   <div class="site-top">
     <header data-mx-ref="site-header" class="site-header"></header>
-    <div class="site-ad-bar" data-mx-ref="site-ad-bar"></div>
+    <div class="site-ad-bar" data-mx-ref="site-ad-bar">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-3716738858398465"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+    </div>
   </div>
 
   <main class="container">
@@ -44,7 +50,6 @@
       </div>
 
       <div class="filter-bar">
-        <input type="search" data-mx-ref="filter-search" placeholder="Filter by name, nickname or spec…" aria-label="Filter motorcycles">
         <select data-mx-ref="filter-make" aria-label="Filter by make">
           <option value="">All Makes</option>
         </select>
@@ -106,7 +111,6 @@
       updateTotal();
       renderGrid();
 
-      MotoX.ref('filter-search').addEventListener('input', applyFilters);
       MotoX.ref('filter-make').addEventListener('change', applyFilters);
       MotoX.ref('filter-category').addEventListener('change', () => {
         activeCategory = MotoX.ref('filter-category').value;
@@ -245,21 +249,14 @@
     }
 
     function applyFilters() {
-      const q = MotoX.ref('filter-search').value.trim().toLowerCase();
       const make = MotoX.ref('filter-make').value;
       const category = MotoX.ref('filter-category').value;
       activeCategory = category;
 
       const filtered = allBikes.filter(b => {
-        const haystack = [
-          b.make, b.model, b.year, b.region, b.category, b.displacement,
-          b.engine, b.power, b.torque, b.weight, b.seat_height,
-          ...(b.tags || []), ...(b.aliases || [])
-        ].filter(Boolean).join(' ');
-        const matchQ = !q || MotoXSearch.matches(q, haystack);
         const matchMake = !make || b.make === make;
         const matchCat = !category || b.category === category;
-        return matchQ && matchMake && matchCat;
+        return matchMake && matchCat;
       });
 
       activeList = sortList(filtered);
@@ -280,13 +277,11 @@
     }
 
     function clearFilters() {
-      MotoX.ref('filter-search').value = '';
       MotoX.ref('filter-make').value = '';
       MotoX.ref('filter-category').value = '';
       activeCategory = '';
       renderChips(allBikes);
       applyFilters();
-      MotoX.ref('filter-search').focus();
     }
 
     function loadMore() {

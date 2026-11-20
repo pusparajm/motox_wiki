@@ -159,8 +159,9 @@ const MotoX = (() => {
     if (!slots || !slots.enabled) return '';
     const slot = (slots.slots || []).find(s => s.id === slotId && s.enabled);
     if (!slot) return '';
-    if (slot.type === 'adsense' && slot.client && slot.slotId) {
-      return `<ins class="adsbygoogle" style="display:block" data-ad-client="${escapeHtml(slot.client)}" data-ad-slot="${escapeHtml(slot.slotId)}" data-ad-format="auto" data-full-width-responsive="true"></ins>`;
+    if (slot.type === 'adsense' && slot.client) {
+      const slotAttr = slot.slotId ? ` data-ad-slot="${escapeHtml(slot.slotId)}"` : '';
+      return `<ins class="adsbygoogle" style="display:block" data-ad-client="${escapeHtml(slot.client)}"${slotAttr} data-ad-format="auto" data-full-width-responsive="true"></ins>`;
     }
     return slot.content || '';
   }
@@ -292,6 +293,7 @@ const MotoX = (() => {
     const content = settings.ads ? renderAdSlot(settings.ads, 'header-banner') : '';
     bar.innerHTML = content;
     bar.classList.toggle(mx('has-ad'), !!content);
+    if (content) initAdsense(bar);
   }
 
   function renderFooter(container, settings) {

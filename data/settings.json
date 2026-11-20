@@ -33,9 +33,9 @@
         "id": "header-banner",
         "label": "Header Banner",
         "enabled": true,
-        "type": "placeholder",
-        "content": "<div class=\"ad-placeholder\">Advertisement — 728×90 Leaderboard</div>",
-        "client": "",
+        "type": "adsense",
+        "content": "",
+        "client": "ca-pub-3716738858398465",
         "slotId": ""
       },
       {
