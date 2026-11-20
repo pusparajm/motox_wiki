@@ -27,6 +27,6 @@ echo "Watching js/shield.js, js/core.js, js/search.js for changes…"
 npm run watch:web &
 WATCH_PID=$!
 
-echo "Wiki preview: http://localhost:${PORT}"
+echo "Wiki preview: http://localhost:${PORT} (cache disabled)"
 echo "Press Ctrl+C to stop."
-python3 -m http.server "$PORT"
+WIKI_PREVIEW_PORT="$PORT" python3 scripts/preview-server.py
