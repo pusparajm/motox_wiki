@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-800-brutale-dragster-rr-pirelli",
     "category": "Sport",
     "displacement": "800 cc",
-    "summary": "MV Agusta 800 Brutale Dragster RR Pirelli (2018–2020). 798 cc, 140 hp, 87 Nm, 845 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "MV Agusta 800 Brutale Dragster RR Pirelli (2018–2020). 87 Nm, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "mv-agusta",
       "800-brutale-dragster-rr-pirelli",
@@ -23,24 +23,9 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "engine",
-            "label": "Engine",
-            "value": "798 cc oil & air-cooled In-line three, four-stroke"
-          },
-          {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "798 cc"
-          },
-          {
-            "key": "power",
-            "label": "Max Power",
-            "value": "140 hp @ 12,300 rpm"
-          },
-          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "87 Nm @ 10,250 rpm"
+            "value": "87 Nm @ 10,100 rpm"
           },
           {
             "key": "transmission",
@@ -50,22 +35,22 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "43 mm Marzocchi, 125 mm (4.9 inches)"
+            "value": "Marzocchi UPSIDE DOWN telescopic hydraulic fork with rebound-compression damping and spring preload external and separate adjustment, 125 mm (4.9 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Progressive Sachs, single shock absorber with rebound and compression damping and spring preload adjustment, 130 mm (5.1 inches)"
+            "value": "Progressive Sachs, single shock absorber with rebound and compression damping and spring preload adjustment, 120 mm (4.7 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. ABS. Brembo radial-type, 4-piston"
+            "value": "Double disc. ABS. Floating disc, 4-piston. Bremo."
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. ABS. Brembo. 2-piston"
+            "value": "Single disc. ABS. 4-piston. Bremo."
           },
           {
             "key": "tyres",
@@ -75,7 +60,7 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "845 mm"
+            "value": "830 mm"
           },
           {
             "key": "fuel_capacity",
@@ -98,29 +83,9 @@
         "label": "Service Data",
         "fields": [
           {
-            "key": "oil_capacity",
-            "label": "Engine Oil (with filter)",
-            "value": "0.25 L"
-          },
-          {
-            "key": "oil_grade",
-            "label": "Oil Grade",
-            "value": "5W-40"
-          },
-          {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "Cassette style, constant mesh"
-          },
-          {
-            "key": "brake_fluid",
-            "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 24,000 km (14,900 miles) or 24 months"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 15,000 km (9,300 miles) or 12 months"
+            "value": "Chain"
           },
           {
             "key": "front_brake_pads",
@@ -135,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
           }
         ]
       },

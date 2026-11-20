@@ -8,7 +8,7 @@
     "model_group": "moto-guzzi-v85-850-tt-travel",
     "category": "Adventure",
     "displacement": "850 cc",
-    "summary": "Moto Guzzi V85 850 TT Travel (2020–Present). Based on the Moto Guzzi V85 TT; 853 cc, 76 hp (56 kW), 82 Nm (60 lb-ft), 830 mm seat, 229 kg. Variant-specific equipment may differ.",
+    "summary": "Moto Guzzi V85 850 TT Travel (2020–Present). 853 cc, 76 hp (56 kW), 82 Nm, 229 kg, 830 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "moto-guzzi",
       "v85-850-tt-travel",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "82 Nm (60 lb-ft) @ 5,000 rpm"
+            "value": "82 Nm @ 5,000 rpm"
           },
           {
             "key": "transmission",

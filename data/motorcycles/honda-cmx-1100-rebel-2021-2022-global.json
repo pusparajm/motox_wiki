@@ -8,7 +8,7 @@
     "model_group": "honda-cmx-1100-rebel",
     "category": "Cruiser",
     "displacement": "1100 cc",
-    "summary": "Honda CMX 1100 Rebel (2021–2022). Based on the Honda Rebel 1100; 1,084 cc, 86 hp (64 kW), 98 Nm (72 lb-ft), 700 mm seat, 223 kg. Variant-specific equipment may differ.",
+    "summary": "Honda CMX 1100 Rebel (2021–2022). 1,084 cc, 86 hp (64 kW), 98 Nm, 223 kg, 700 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "cmx-1100-rebel",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "98 Nm (72 lb-ft) @ 4,750 rpm"
+            "value": "98 Nm @ 4,750 rpm"
           },
           {
             "key": "transmission",

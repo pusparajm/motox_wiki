@@ -8,7 +8,7 @@
     "model_group": "honda-ct-125-trail",
     "category": "Mini",
     "displacement": "125 cc",
-    "summary": "Honda CT 125 Trail (2021). Based on the Honda Trail 125; 124 cc, 8.7 hp (6.5 kW), 11 Nm (8 lb-ft), 800 mm seat, 118 kg. Variant-specific equipment may differ.",
+    "summary": "Honda CT 125 Trail (2021). 124 cc, 8.7 hp (6.5 kW), 11 Nm, 118 kg, 800 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "ct-125-trail",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "11 Nm (8 lb-ft) @ 4,750 rpm"
+            "value": "11 Nm @ 4,750 rpm"
           },
           {
             "key": "transmission",

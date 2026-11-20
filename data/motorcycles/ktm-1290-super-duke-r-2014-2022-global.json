@@ -8,7 +8,7 @@
     "model_group": "ktm-1290-super-duke-r",
     "category": "Naked",
     "displacement": "1290 cc",
-    "summary": "KTM 1290 Super Duke R (2014–2022). 1301 cc, 177.0 hp (129.2 kW)), 140.0 Nm (14.3 kgf-m or 103.3 ft.lbs), 835 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM 1290 Super Duke R (2014–2022). 1301 cc, 173.3 hp (129.2 kW), 140 Nm, 835 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "1290-super-duke-r",
@@ -25,7 +25,7 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "1301 cc water cooling, permanent circulation of coolant by water pump-cooled V2, four-stroke"
+            "value": "1301 cc liquid-cooled V2, four-stroke"
           },
           {
             "key": "displacement",
@@ -35,42 +35,42 @@
           {
             "key": "power",
             "label": "Max Power",
-            "value": "177.0 hp (129.2 kW))"
+            "value": "173.3 hp (129.2 kW)"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "140.0 Nm (14.3 kgf-m or 103.3 ft.lbs)"
+            "value": "140 Nm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-gear transmission, claw shifted, Chain drive"
+            "value": "6-speed, Chain"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "WP USD Ø 48 mm, 125 mm (4.9 inches)"
+            "value": "WP APEX 48, 125 mm (4.9 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "WP Monoshock, 140 mm (5.5 inches)"
+            "value": "WP APEX - Monoshock, 140 mm (5.5 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc brake with radially mounted four-piston brake calipers, floating brake discs"
+            "value": "Double disc. ABS. Radially mounted four-piston brake calipers"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc brake with dual-piston brake caliper, fixed brake disc"
+            "value": "Single disc. ABS. Two-piston brake caliper. fixed brake disc"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70 ZR 17 M/C (58W) TL front, 200/55 ZR 17 M/C (78W) TL rear"
+            "value": "120/70-17 front, 200/55-17 rear"
           },
           {
             "key": "seat_height",
@@ -105,17 +105,12 @@
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "SAE 10W/50"
+            "value": "5W-40"
           },
           {
             "key": "oil_filter",
             "label": "Oil Filter",
-            "value": "6 N·m (4.4 lb·ft)"
-          },
-          {
-            "key": "spark_plug",
-            "label": "Spark Plug",
-            "value": "11 N·m (8.1 lb·ft)"
+            "value": "HF650"
           },
           {
             "key": "coolant",
@@ -130,12 +125,12 @@
           {
             "key": "fork_oil",
             "label": "Fork Oil",
-            "value": "SAE 4, 680 ml (22.99 fl. oz.) per leg"
+            "value": "SAE 5W, 0.60-0.63 litres (0.63-0.67 US quarts) per leg"
           },
           {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4 / DOT 5.1"
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
           },
           {
             "key": "service_interval",
@@ -155,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
           }
         ]
       },

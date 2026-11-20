@@ -25,7 +25,7 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "449.3 cc water cooling, permanent circulation of coolant by water pump-cooled Single cylinder, four-stroke"
+            "value": "449.3 cc liquid-cooled Single cylinder, four-stroke"
           },
           {
             "key": "displacement",
@@ -35,7 +35,7 @@
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-speed, Chain drive"
+            "value": "6-speed, Chain"
           },
           {
             "key": "front_suspension",
@@ -95,17 +95,17 @@
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "SAE 10W/50"
+            "value": "10W-50"
           },
           {
             "key": "oil_filter",
             "label": "Oil Filter",
-            "value": "10 N·m (7.4 lb·ft)"
+            "value": "HF650"
           },
           {
             "key": "spark_plug",
             "label": "Spark Plug",
-            "value": "NGK LMAR9AI-8"
+            "value": "NGK LMAR9AI-10"
           },
           {
             "key": "coolant",
@@ -125,7 +125,7 @@
           {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4 / DOT 5.1"
+            "value": "DOT 4 or DOT 5.1, changed every 12 months"
           },
           {
             "key": "service_interval",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
           }
         ]
       },

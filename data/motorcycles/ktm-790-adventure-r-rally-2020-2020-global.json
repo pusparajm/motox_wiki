@@ -8,7 +8,7 @@
     "model_group": "ktm-790-adventure-r-rally",
     "category": "Adventure",
     "displacement": "790 cc",
-    "summary": "KTM 790 Adventure R Rally (2020). Based on the KTM 790 Adventure; 799 cc, 95 hp (70 kW), 88 Nm (65 lb-ft), 830/850 mm seat, 189 kg. Variant-specific equipment may differ.",
+    "summary": "KTM 790 Adventure R Rally (2020). 799 cc, 95 hp (70 kW), 88 Nm, 189 kg, 830/850 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "790-adventure-r-rally",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "88 Nm (65 lb-ft) @ 6,600 rpm"
+            "value": "88 Nm @ 6,600 rpm"
           },
           {
             "key": "transmission",

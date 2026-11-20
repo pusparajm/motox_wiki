@@ -8,7 +8,7 @@
     "model_group": "ktm-rc-390-upgrade-ds",
     "category": "Sport",
     "displacement": "390 cc",
-    "summary": "KTM RC 390 Upgrade DS (2014–2022). 125 cc, 824 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM RC 390 Upgrade DS (2014–2022). 373.2 cc, 43.0 hp (32.1 kW), 37 Nm, 820 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "rc-390-upgrade-ds",
@@ -25,52 +25,62 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "125 cc water cooling, permanent circulation of coolant by water pump-cooled"
+            "value": "373.2 cc liquid-cooled Single cylinder, four-stroke"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "125 cc"
+            "value": "373.2 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "43.0 hp (32.1 kW)"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "37 Nm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-gear transmission, claw shifted, Chain drive"
+            "value": "6-speed, Chain"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "WP upside-down Ø 43 mm, 120 mm (4.7 inches)"
+            "value": "WP upside-down Ø 43 mm, 125 mm (4.9 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "150 mm (5.9 inches)"
+            "value": "WP Monoshock, 150 mm (5.9 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Disc brake with 4-piston brake caliper"
+            "value": "Single disc. ABS. Four-piston calipers."
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Disc brake with single-pot brake caliper, floating"
+            "value": "Single disc. ABS. Floating disc. Single-piston caliper."
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "110/70 ZR 17 M/C 54W TL front, 150/60 ZR 17 M/C 66W TL rear"
+            "value": "95/75-R17 front, 115/75-R17 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "824 mm"
+            "value": "820 mm"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "13.7 L"
+            "value": "10 L"
           },
           {
             "key": "model_years",
@@ -90,12 +100,12 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "1.5 L"
+            "value": "1.6 L"
           },
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "SAE 15W/50"
+            "value": "10W-40"
           },
           {
             "key": "oil_filter",
@@ -105,12 +115,17 @@
           {
             "key": "spark_plug",
             "label": "Spark Plug",
-            "value": "BOSCH VR6NEU"
+            "value": "NGK LKAR8A-9"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.1 L"
           },
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "520 pitch, 118 links"
+            "value": "520 pitch, 112 links"
           },
           {
             "key": "fork_oil",
@@ -120,7 +135,7 @@
           {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4 / DOT 5.1"
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
           },
           {
             "key": "service_interval",
@@ -140,7 +155,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
           }
         ]
       },

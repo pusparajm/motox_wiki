@@ -8,7 +8,7 @@
     "model_group": "suzuki-dl-1050-v-strom-xt",
     "category": "Adventure",
     "displacement": "1050 cc",
-    "summary": "Suzuki DL 1050 V-Strom XT (2020–Present). Based on the Suzuki V-Strom 1050; 1,037 cc, 107 hp (79 kW), 100 Nm (74 lb-ft), 850 mm seat, 236 kg. Variant-specific equipment may differ.",
+    "summary": "Suzuki DL 1050 V-Strom XT (2020–Present). 1,037 cc, 107 hp (79 kW), 100 Nm, 236 kg, 850 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "suzuki",
       "dl-1050-v-strom-xt",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "100 Nm (74 lb-ft) @ 6,000 rpm"
+            "value": "100 Nm @ 6,000 rpm"
           },
           {
             "key": "transmission",

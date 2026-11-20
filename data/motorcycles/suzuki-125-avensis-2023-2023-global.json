@@ -8,12 +8,13 @@
     "model_group": "suzuki-125-avensis",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Suzuki 125 Avensis brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Suzuki 125 Avensis (2023). 124 cc, 8.7 hp, 10 Nm, 780 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "suzuki",
       "125-avensis",
       "scooter",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,64 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124 cc air-cooled Single cylinder, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "125 cc"
+            "value": "124 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "8.7 hp @ 6,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "10 Nm @ 5,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Automatic, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic, coil spring, oil damped"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Swingarm type, coil spring, oil damped"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Expanding brake (drum brake)"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-12 front, 90/100-10 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "780 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "5.2 L"
           },
           {
             "key": "model_years",
@@ -34,13 +90,23 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -49,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
           }
         ]
       },

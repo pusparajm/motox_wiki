@@ -8,7 +8,7 @@
     "model_group": "indian-ftr-1200-r-carbon",
     "category": "Naked",
     "displacement": "1200 cc",
-    "summary": "Indian FTR 1200 R carbon (2021–Present). Based on the Indian FTR 1200; 1,203 cc, 120 hp (89 kW), 112 Nm (83 lb-ft), 815 mm seat, 235 kg. Variant-specific equipment may differ.",
+    "summary": "Indian FTR 1200 R carbon (2021–Present). 1,203 cc, 120 hp (89 kW), 112 Nm, 235 kg, 815 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "indian",
       "ftr-1200-r-carbon",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "112 Nm (83 lb-ft) @ 6,000 rpm"
+            "value": "112 Nm @ 6,000 rpm"
           },
           {
             "key": "transmission",

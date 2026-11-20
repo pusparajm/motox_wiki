@@ -8,7 +8,7 @@
     "model_group": "zero-dsr-x-zf17-3",
     "category": "Adventure",
     "displacement": "—",
-    "summary": "Zero DSR/X ZF17.3 (2023). Based on the Zero DSR/X; —, 100 hp (75 kW), 225 Nm (166 lb-ft), 828 mm seat, 247 kg. Variant-specific equipment may differ.",
+    "summary": "Zero DSR/X ZF17.3 (2023). —, 100 hp (75 kW), 225 Nm, 247 kg, 828 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "zero",
       "dsr-x-zf17-3",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "225 Nm (166 lb-ft)"
+            "value": "225 Nm"
           },
           {
             "key": "transmission",
@@ -93,14 +93,14 @@
             "value": "17.3 kWh battery"
           },
           {
-            "key": "top_speed",
-            "label": "Top Speed",
-            "value": "180 km/h"
-          },
-          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2023"
+          },
+          {
+            "key": "top_speed",
+            "label": "Top Speed",
+            "value": "180 km/h"
           }
         ]
       },

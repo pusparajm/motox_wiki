@@ -38,7 +38,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "55.7 Nm (41 lb-ft) @ 5,250 rpm"
+            "value": "55.7 Nm @ 5,250 rpm"
           },
           {
             "key": "transmission",

@@ -8,39 +8,125 @@
     "model_group": "yamaha-115-d-elight",
     "category": "Naked",
     "displacement": "115 cc",
-    "summary": "Yamaha 115 D'elight brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Yamaha 115 D'elight (2014–2020). 125 cc, 8.3 hp, 9.8 Nm, 99 kg, 800 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "115-d-elight",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "125 cc air-cooled Single cylinder, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "115 cc"
+            "value": "125 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "8.3 hp @ 6,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "9.8 Nm @ 5,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Automatic, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic fork, 81 mm (3.2 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Unit Swing, monoshock, 68 mm (2.7 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Hydraulic"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Expanding brake (drum brake)"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-12 front, 100/90-10 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "800 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "99 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "5.5 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2014–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.8 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "10W-40"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CR6HSA"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 3 or DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 3,000 km (1,900 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -49,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the MotoSpecVault 2020 record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

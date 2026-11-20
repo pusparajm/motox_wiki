@@ -38,7 +38,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "155 Nm (114 lb-ft) @ 7,200 rpm"
+            "value": "155 Nm @ 7,200 rpm"
           },
           {
             "key": "transmission",

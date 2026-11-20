@@ -8,7 +8,7 @@
     "model_group": "gasgas-mc-e-5",
     "category": "Naked",
     "displacement": "—",
-    "summary": "GasGas MC E 5 (2021–Present). 2.7 hp, 13.8 Nm (1.4 kgf-m or 10.2 ft.lbs), 665 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "GasGas MC E 5 (2021–Present). 2.7 hp, 13.8 Nm, 665 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "gasgas",
       "mc-e-5",
@@ -30,7 +30,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "13.8 Nm (1.4 kgf-m or 10.2 ft.lbs)"
+            "value": "13.8 Nm"
           },
           {
             "key": "transmission",
@@ -100,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
           }
         ]
       },

@@ -8,7 +8,7 @@
     "model_group": "honda-nsc-110-vision",
     "category": "Naked",
     "displacement": "110 cc",
-    "summary": "Honda NSC 110 Vision (2010–2020). 108 cc, 8.3 hp, 8.7 Nm, 778 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Honda NSC 110 Vision (2010–2020). 8.7 Nm. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "nsc-110-vision",
@@ -22,21 +22,6 @@
       "general_specs": {
         "label": "General Specifications",
         "fields": [
-          {
-            "key": "engine",
-            "label": "Engine",
-            "value": "108 cc air-cooled Single cylinder, four-stroke"
-          },
-          {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "108 cc"
-          },
-          {
-            "key": "power",
-            "label": "Max Power",
-            "value": "8.3 hp @ 8,000 rpm"
-          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -73,11 +58,6 @@
             "value": "80/90-14 front, 90/90-14 rear"
           },
           {
-            "key": "seat_height",
-            "label": "Seat Height",
-            "value": "778 mm"
-          },
-          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "5.5 L"
@@ -110,12 +90,7 @@
           {
             "key": "spark_plug",
             "label": "Spark Plug",
-            "value": "NGK CR7HSA-9"
-          },
-          {
-            "key": "coolant",
-            "label": "Coolant",
-            "value": "0.48 L"
+            "value": "NGK CPR8EA-9"
           },
           {
             "key": "chain",
@@ -126,11 +101,6 @@
             "key": "brake_fluid",
             "label": "Brake Fluid",
             "value": "DOT 3 or DOT 4 or DOT 5.1, changed every 24 months"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 6,000 km (3,700 miles) or 12 months"
           },
           {
             "key": "front_brake_pads",
@@ -145,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2013 record; remaining specifications are still being compiled."
           }
         ]
       },

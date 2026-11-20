@@ -8,7 +8,7 @@
     "model_group": "indian-1800-challenger-dark-horse",
     "category": "Touring",
     "displacement": "1800 cc",
-    "summary": "Indian 1800 Challenger Dark Horse (2020–Present). Based on the Indian Challenger; 1,769 cc, 122 hp (91 kW), 178 Nm (131 lb-ft), 690 mm seat, 365 kg. Variant-specific equipment may differ.",
+    "summary": "Indian 1800 Challenger Dark Horse (2020–Present). 1,769 cc, 122 hp (91 kW), 178 Nm, 365 kg, 690 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "indian",
       "1800-challenger-dark-horse",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "178 Nm (131 lb-ft) @ 3,800 rpm"
+            "value": "178 Nm @ 3,800 rpm"
           },
           {
             "key": "transmission",

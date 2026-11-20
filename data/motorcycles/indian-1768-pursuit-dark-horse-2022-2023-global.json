@@ -8,7 +8,7 @@
     "model_group": "indian-1768-pursuit-dark-horse",
     "category": "Touring",
     "displacement": "1768 cc",
-    "summary": "Indian 1768 Pursuit Dark Horse (2022–Present). Based on the Indian Pursuit; 1,769 cc, 122 hp (91 kW), 178 Nm (131 lb-ft), 700 mm seat, 400 kg. Variant-specific equipment may differ.",
+    "summary": "Indian 1768 Pursuit Dark Horse (2022–Present). 1,769 cc, 122 hp (91 kW), 178 Nm, 400 kg, 700 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "indian",
       "1768-pursuit-dark-horse",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "178 Nm (131 lb-ft) @ 3,800 rpm"
+            "value": "178 Nm @ 3,800 rpm"
           },
           {
             "key": "transmission",

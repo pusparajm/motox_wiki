@@ -8,7 +8,7 @@
     "model_group": "energica-eva-ribelle",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Energica Eva Ribelle (2015–2021). 215.0 Nm (21.9 kgf-m or 158.6 ft.lbs), 260 kg, 790 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Energica Eva Ribelle (2015–2021). 144.4 hp (107.7 kW), 215 Nm, 260 kg, 790 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "energica",
       "eva-ribelle",
@@ -17,15 +17,20 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "power",
+            "label": "Max Power",
+            "value": "144.4 hp (107.7 kW)"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "215.0 Nm (21.9 kgf-m or 158.6 ft.lbs)"
+            "value": "215 Nm"
           },
           {
             "key": "transmission",
@@ -71,11 +76,6 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2015–2021"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -100,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are from the MotoSpecVault 2022 record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

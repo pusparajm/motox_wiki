@@ -8,12 +8,13 @@
     "model_group": "royal-enfield-500-bullet-trials",
     "category": "Cruiser",
     "displacement": "500 cc",
-    "summary": "Royal Enfield 500 Bullet Trials brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Royal Enfield 500 Bullet Trials (2020). 41.3 Nm, 192 kg, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "royal-enfield",
       "500-bullet-trials",
       "cruiser",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,49 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "500 cc"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "41.3 Nm @ 4,000 rpm"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin gas charged shock absorbers with 5-step adjustable preload"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-19 front, 110/80-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "800 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "192 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13.5 L"
           },
           {
             "key": "model_years",
@@ -34,7 +75,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -54,7 +95,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
           }
         ]
       },

@@ -8,12 +8,13 @@
     "model_group": "yamaha-xvs-250-v-star",
     "category": "Cruiser",
     "displacement": "250 cc",
-    "summary": "Yamaha XVS 250 V-Star brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Yamaha XVS 250 V-Star (2008–2022). 249 cc, 147 kg, 686 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "xvs-250-v-star",
       "cruiser",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,59 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "249 cc air-cooled V2, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "250 cc"
+            "value": "249 cc"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "33mm fork, 140 mm (5.5 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Dual shocks, adjustable preload, 99 mm (3.9 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Hydraulic."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Expanding brake (drum brake)"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "3.00-18 front, 130/90-15 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "686 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "147 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "9.46 L"
           },
           {
             "key": "model_years",
@@ -34,13 +85,28 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF145"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CR6HSA"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 pitch, 114 links"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
           }
         ]
       },

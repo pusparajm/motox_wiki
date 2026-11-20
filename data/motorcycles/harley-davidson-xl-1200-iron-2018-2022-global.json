@@ -8,12 +8,13 @@
     "model_group": "harley-davidson-xl-1200-iron",
     "category": "Naked",
     "displacement": "1200 cc",
-    "summary": "Harley-Davidson XL 1200 Iron brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Harley-Davidson XL 1200 Iron (2018–2022). 1202 cc, 99 Nm, 255.8 kg, 653 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "xl-1200-iron",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,64 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1202 cc air-cooled V2, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1200 cc"
+            "value": "1202 cc"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "99 Nm @ 3,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Dual-piston. Optional ABS."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Dual-piston. Optional ABS."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-B19 front, 150/80-B16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "653 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "255.8 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12.5 L"
           },
           {
             "key": "model_years",
@@ -34,13 +90,48 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.6 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "20W-50"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF170"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 15W"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 8,000 km (5,000 miles)"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
           }
         ]
       },

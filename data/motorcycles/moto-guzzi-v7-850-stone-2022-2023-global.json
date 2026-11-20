@@ -8,7 +8,7 @@
     "model_group": "moto-guzzi-v7-850-stone",
     "category": "Retro",
     "displacement": "850 cc",
-    "summary": "Moto Guzzi V7 850 Stone (2022–Present). Based on the Moto Guzzi V7 850; 853 cc, 65 hp (48 kW), 73 Nm (54 lb-ft), 780 mm seat, 218 kg. Variant-specific equipment may differ.",
+    "summary": "Moto Guzzi V7 850 Stone (2022–Present). 853 cc, 65 hp (48 kW), 73 Nm, 218 kg, 780 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "moto-guzzi",
       "v7-850-stone",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "73 Nm (54 lb-ft) @ 5,000 rpm"
+            "value": "73 Nm @ 5,000 rpm"
           },
           {
             "key": "transmission",

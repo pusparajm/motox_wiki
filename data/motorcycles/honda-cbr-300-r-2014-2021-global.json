@@ -8,7 +8,7 @@
     "model_group": "honda-cbr-300-r",
     "category": "Sport",
     "displacement": "300 cc",
-    "summary": "Honda CBR 300 R (2014–2021). 286 cc, 34.9 hp, 22.9 Nm (2.3 kgf-m or 16.9 ft.lbs), 160.6 kg, 780 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda CBR 300 R (2014–2021). 286 cc, 34.9 hp, 22.9 Nm, 160.6 kg, 780 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "cbr-300-r",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "22.9 Nm (2.3 kgf-m or 16.9 ft.lbs)"
+            "value": "22.9 Nm"
           },
           {
             "key": "transmission",

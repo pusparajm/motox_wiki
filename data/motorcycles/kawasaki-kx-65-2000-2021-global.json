@@ -8,7 +8,7 @@
     "model_group": "kawasaki-kx-65",
     "category": "Motocross",
     "displacement": "65 cc",
-    "summary": "Kawasaki KX 65 (2000–2021). 64.7 cc, 12.3 hp (9.0 kW)), 9.7 Nm (1.0 kgf-m or 7.2 ft.lbs), 60 kg, 759 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Kawasaki KX 65 (2000–2021). 64.7 cc, 12.3 hp (9.0 kW)), 9.7 Nm, 60 kg, 759 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "kawasaki",
       "kx-65",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "9.7 Nm (1.0 kgf-m or 7.2 ft.lbs)"
+            "value": "9.7 Nm"
           },
           {
             "key": "transmission",

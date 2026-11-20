@@ -80,7 +80,7 @@
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "8.14 L"
+            "value": "8.33 L"
           },
           {
             "key": "model_years",
@@ -155,7 +155,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2021 record; remaining specifications are still being compiled."
           }
         ]
       },

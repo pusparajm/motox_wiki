@@ -8,7 +8,7 @@
     "model_group": "triumph-1200-tiger-rally-explorer",
     "category": "Adventure",
     "displacement": "1200 cc",
-    "summary": "Triumph 1200 Tiger Rally Explorer (2022). Based on the Triumph Tiger 1200; 1,160 cc, 148 hp (110 kW), 130 Nm (96 lb-ft), 850/870 mm seat, 245 kg. Variant-specific equipment may differ.",
+    "summary": "Triumph 1200 Tiger Rally Explorer (2022). 1,160 cc, 148 hp (110 kW), 130 Nm, 245 kg, 850/870 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "triumph",
       "1200-tiger-rally-explorer",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "130 Nm (96 lb-ft) @ 7,000 rpm"
+            "value": "130 Nm @ 7,000 rpm"
           },
           {
             "key": "transmission",

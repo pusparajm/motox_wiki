@@ -8,12 +8,13 @@
     "model_group": "sym-300-joyride",
     "category": "Naked",
     "displacement": "300 cc",
-    "summary": "SYM 300 Joyride brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "SYM 300 Joyride (2022). 26 Nm, 151 kg, 770 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "sym",
       "300-joyride",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,54 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "300 cc"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "26 Nm @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Automatic, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescope fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Dual Shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. ABS."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-15 front, 140/70-14 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "770 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "151 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11.5 L"
           },
           {
             "key": "model_years",
@@ -34,13 +80,18 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -49,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
           }
         ]
       },

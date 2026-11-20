@@ -8,12 +8,13 @@
     "model_group": "kymco-s-400-xciting-i-tcs",
     "category": "Scooter",
     "displacement": "400 cc",
-    "summary": "Kymco S 400 Xciting i TCS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Kymco S 400 Xciting i TCS (2022–Present). 400 cc, 35.5 hp, 37 Nm, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "kymco",
       "s-400-xciting-i-tcs",
       "scooter",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,64 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "400 cc liquid-cooled Single cylinder, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
             "value": "400 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "35.5 hp @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "37 Nm @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Automatic, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic forks"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Adjustable hydraulic shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. Optional ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Optional ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-15 front, 150/70-14 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "810 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12.5 L"
           },
           {
             "key": "model_years",
@@ -34,13 +90,23 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF568"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
           }
         ]
       },

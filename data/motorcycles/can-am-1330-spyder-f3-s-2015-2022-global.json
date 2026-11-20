@@ -8,7 +8,7 @@
     "model_group": "can-am-1330-spyder-f3-s",
     "category": "Sport",
     "displacement": "1330 cc",
-    "summary": "Can-Am 1330 Spyder F3-S (2015–2022). 998 cc, 106 hp, 104.3 Nm, 737 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Can-Am 1330 Spyder F3-S (2015–2022). 1330 cc, 115 hp, 130.1 Nm, 675 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "can-am",
       "1330-spyder-f3-s",
@@ -25,62 +25,62 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "998 cc liquid-cooled V2, four-stroke"
+            "value": "1330 cc liquid-cooled In-line three, four-stroke"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "998 cc"
+            "value": "1330 cc"
           },
           {
             "key": "power",
             "label": "Max Power",
-            "value": "106 hp @ 8,500 rpm"
+            "value": "115 hp @ 7,250 rpm"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "104.3 Nm @ 6,250 rpm"
+            "value": "130.1 Nm @ 5,000 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "5-speed, Belt"
+            "value": "6-speed, Belt"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Independent double A-arm, 145 mm (5.7 inches)"
+            "value": "Double A-Arm with anti-roll bar. Gas-charged, KYB shocks., 129 mm (5.1 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swing Arm with monoshock, 145 mm (5.7 inches)"
+            "value": "Swing arm with SACHS monoshock., 132 mm (5.2 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc"
+            "value": "Double disc. ABS. Brembo 4-piston"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc"
+            "value": "Single disc. ABS. 1-piston floating caliper with integrated parking brake"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "165/65-R14 front, 225/50-R15 rear"
+            "value": "165/55-R15 front, 225/50-R15 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "737 mm"
+            "value": "675 mm"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "26.98 L"
+            "value": "27 L"
           },
           {
             "key": "model_years",
@@ -100,7 +100,7 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "4.5 L"
+            "value": "3.9 L"
           },
           {
             "key": "chain",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
           }
         ]
       },

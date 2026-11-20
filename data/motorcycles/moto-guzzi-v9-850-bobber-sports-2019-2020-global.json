@@ -8,7 +8,7 @@
     "model_group": "moto-guzzi-v9-850-bobber-sports",
     "category": "Cruiser",
     "displacement": "850 cc",
-    "summary": "Moto Guzzi V9 850 Bobber Sports (2019–2020). Based on the Moto Guzzi V9 Bobber; 853 cc, 65 hp (48 kW), 73 Nm (54 lb-ft), 785 mm seat, 199 kg. Variant-specific equipment may differ.",
+    "summary": "Moto Guzzi V9 850 Bobber Sports (2019–2020). 853 cc, 65 hp (48 kW), 73 Nm, 199 kg, 785 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "moto-guzzi",
       "v9-850-bobber-sports",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "73 Nm (54 lb-ft) @ 5,000 rpm"
+            "value": "73 Nm @ 5,000 rpm"
           },
           {
             "key": "transmission",

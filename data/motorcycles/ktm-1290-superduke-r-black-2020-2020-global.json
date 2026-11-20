@@ -8,7 +8,7 @@
     "model_group": "ktm-1290-superduke-r-black",
     "category": "Naked",
     "displacement": "1290 cc",
-    "summary": "KTM 1290 Superduke R Black (2020). 125 cc, 172.6 hp (126.0 kW)), 141.0 Nm (14.4 kgf-m or 104.0 ft.lbs), 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM 1290 Superduke R Black (2020). 1301 cc, 173.3 hp (129.2 kW), 140 Nm, 835 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "1290-superduke-r-black",
@@ -25,62 +25,62 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "125 cc water cooling, permanent circulation of coolant by water pump-cooled V2, four-stroke"
+            "value": "1301 cc liquid-cooled V2, four-stroke"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "125 cc"
+            "value": "1301 cc"
           },
           {
             "key": "power",
             "label": "Max Power",
-            "value": "172.6 hp (126.0 kW))"
+            "value": "173.3 hp (129.2 kW)"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "141.0 Nm (14.4 kgf-m or 104.0 ft.lbs)"
+            "value": "140 Nm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-gear transmission, claw shifted, Chain drive"
+            "value": "6-speed, Chain"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "WP Semi-active suspension USD Ø 48 mm, 125 mm (4.9 inches)"
+            "value": "WP USD Ø 48 mm, 125 mm (4.9 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "WP Semi-active suspension monoshock, 156 mm (6.1 inches)"
+            "value": "WP Monoshock, 156 mm (6.1 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Disc brake with 4-piston brake caliper"
+            "value": "Double disc. ABS. Radially mounted four-piston brake calipers"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Disc brake with single-pot brake caliper, floating"
+            "value": "Single disc. ABS. Two-piston brake caliper. fixed brake disc"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "110/70 ZR 17 M/C 54H TL front, 150/60 ZR 17 M/C 66H TL rear"
+            "value": "120/70-17 front, 200/55-17 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "810 mm"
+            "value": "835 mm"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "11 L"
+            "value": "18 L"
           },
           {
             "key": "model_years",
@@ -100,47 +100,42 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "1.5 L"
+            "value": "3.5 L"
           },
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "SAE 15W/50"
+            "value": "5W-40"
           },
           {
             "key": "oil_filter",
             "label": "Oil Filter",
-            "value": "9 N·m (6.6 lb·ft)"
-          },
-          {
-            "key": "spark_plug",
-            "label": "Spark Plug",
-            "value": "20 N·m (14.8 lb·ft)"
+            "value": "HF650"
           },
           {
             "key": "coolant",
             "label": "Coolant",
-            "value": "1 L"
+            "value": "3.2 L"
           },
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "520 pitch, 118 links"
+            "value": "525 pitch, 112 links"
           },
           {
             "key": "fork_oil",
             "label": "Fork Oil",
-            "value": "SAE 5, 470 ml (15.89 fl. oz.) per leg"
+            "value": "SAE 5W, 0.66 litres (0.70 US quarts) per leg"
           },
           {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4 / DOT 5.1"
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
           },
           {
             "key": "service_interval",
             "label": "Service Interval",
-            "value": "Every 7,500 km (4,700 miles) or 12 months"
+            "value": "Every 15,000 km (9,300 miles) or 12 months"
           },
           {
             "key": "front_brake_pads",
@@ -155,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are from the MotoSpecVault 2019 record. Black colour variant of the 1290 Super Duke R. Specifications are shared. Confirm against the owner's manual."
           }
         ]
       },

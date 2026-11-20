@@ -8,7 +8,7 @@
     "model_group": "bmw-f-800-gt",
     "category": "Naked",
     "displacement": "800 cc",
-    "summary": "BMW F 800 GT (2013–2020). 798 cc, 66 kW, 86 Nm, 214 kg, 800 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "BMW F 800 GT (2013–2020). 798 cc, 88.5 hp (66 kW), 86 Nm, 214 kg, 800 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "bmw",
       "f-800-gt",
@@ -35,7 +35,7 @@
           {
             "key": "power",
             "label": "Max Power",
-            "value": "66 kW @ 8000 rpm"
+            "value": "88.5 hp (66 kW) @ 8,000 rpm"
           },
           {
             "key": "torque",

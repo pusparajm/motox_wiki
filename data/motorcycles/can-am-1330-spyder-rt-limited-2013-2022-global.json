@@ -8,7 +8,7 @@
     "model_group": "can-am-1330-spyder-rt-limited",
     "category": "Naked",
     "displacement": "1330 cc",
-    "summary": "Can-Am 1330 Spyder RT Limited (2013–2022). 998 cc, 106 hp, 104.3 Nm, 737 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Can-Am 1330 Spyder RT Limited (2013–2022). 130 Nm, 772 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "can-am",
       "1330-spyder-rt-limited",
@@ -23,24 +23,9 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "engine",
-            "label": "Engine",
-            "value": "998 cc liquid-cooled V2, four-stroke"
-          },
-          {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "998 cc"
-          },
-          {
-            "key": "power",
-            "label": "Max Power",
-            "value": "106 hp @ 8,500 rpm"
-          },
-          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "104.3 Nm @ 6,250 rpm"
+            "value": "130 Nm @ 5,000 rpm"
           },
           {
             "key": "transmission",
@@ -50,37 +35,37 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Independent double A-arm, 145 mm (5.7 inches)"
+            "value": "Double A-Arm with anti-roll bar., 130 mm (5.1 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swing Arm with monoshock, 145 mm (5.7 inches)"
+            "value": "Swing arm, 132 mm (5.2 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc"
+            "value": "Double disc. Brembo. ABS."
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc"
+            "value": "Single disc. Brembo. ABS"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "165/65-R14 front, 225/50-R15 rear"
+            "value": "165/65-R15 front, 225/50-R15 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "737 mm"
+            "value": "772 mm"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "26.98 L"
+            "value": "27 L"
           },
           {
             "key": "model_years",
@@ -100,7 +85,7 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "4.5 L"
+            "value": "3.9 L"
           },
           {
             "key": "chain",
@@ -120,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2016 record; remaining specifications are still being compiled."
           }
         ]
       },

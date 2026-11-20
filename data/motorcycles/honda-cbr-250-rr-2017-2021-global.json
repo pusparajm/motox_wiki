@@ -8,7 +8,7 @@
     "model_group": "honda-cbr-250-rr",
     "category": "Sport",
     "displacement": "250 cc",
-    "summary": "Honda CBR 250 RR (2017–2021). 249.6 cc, 34.9 hp, 22.9 Nm (2.3 kgf-m or 16.9 ft.lbs), 165 kg, 775 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda CBR 250 RR (2017–2021). 249.6 cc, 34.9 hp, 22.9 Nm, 165 kg, 775 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "cbr-250-rr",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "22.9 Nm (2.3 kgf-m or 16.9 ft.lbs)"
+            "value": "22.9 Nm"
           },
           {
             "key": "transmission",

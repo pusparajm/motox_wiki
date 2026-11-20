@@ -8,7 +8,7 @@
     "model_group": "triumph-900-tiger-gt-low",
     "category": "Adventure",
     "displacement": "900 cc",
-    "summary": "Triumph 900 Tiger GT Low (2020–Present). Based on the Triumph Tiger 900; 888 cc, 107 hp (79 kW), 90 Nm (66 lb-ft), 810/830 mm seat, 223 kg. Variant-specific equipment may differ.",
+    "summary": "Triumph 900 Tiger GT Low (2020–Present). 888 cc, 107 hp (79 kW), 90 Nm, 223 kg, 810/830 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "triumph",
       "900-tiger-gt-low",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "90 Nm (66 lb-ft) @ 7,250 rpm"
+            "value": "90 Nm @ 7,250 rpm"
           },
           {
             "key": "transmission",

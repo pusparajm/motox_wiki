@@ -8,7 +8,7 @@
     "model_group": "yamaha-yz-250-fx",
     "category": "Motocross",
     "displacement": "250 cc",
-    "summary": "Yamaha YZ 250 FX (2015–2021). 250 cc, 111.1 kg, 955 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha YZ 250 FX (2015–2021). 250 cc, 112.9 kg, 965 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "yz-250-fx",
@@ -60,22 +60,22 @@
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "80/90-21 front, 110/100-18 rear"
+            "value": "90/90-21 front, 110/100-18 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "955 mm"
+            "value": "965 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "111.1 kg"
+            "value": "112.9 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "8.33 L"
+            "value": "7.57 L"
           },
           {
             "key": "model_years",
@@ -100,12 +100,12 @@
           {
             "key": "oil_filter",
             "label": "Oil Filter",
-            "value": "10 N·m (7.4 lb·ft)"
+            "value": "HF140"
           },
           {
             "key": "spark_plug",
             "label": "Spark Plug",
-            "value": "13 N·m (9.6 lb·ft)"
+            "value": "13 N·m (9.4 lb·ft)"
           },
           {
             "key": "chain",
@@ -125,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
           }
         ]
       },

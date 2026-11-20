@@ -8,12 +8,13 @@
     "model_group": "mv-agusta-800-turismo-veloce-rc",
     "category": "Naked",
     "displacement": "800 cc",
-    "summary": "MV Agusta 800 Turismo Veloce RC brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "MV Agusta 800 Turismo Veloce RC (2017–2020). 798 cc, 110 hp, 80 Nm, 850 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "mv-agusta",
       "800-turismo-veloce-rc",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,59 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "798 cc oil & air-cooled In-line three, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "800 cc"
+            "value": "798 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "110 hp @ 10,150 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "80 Nm @ 8,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Marzocchi, 160 mm (6.3 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Progressive Sachs, single shock absorber with rebound and compression damping and spring preload adjustment, 160 mm (6.3 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Bremo."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Bremo."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 190/55-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "850 mm"
           },
           {
             "key": "model_years",
@@ -34,13 +85,43 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.5 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "5W-40"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Chain"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 15,000 km (9,300 miles)"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2017 record; remaining specifications are still being compiled."
           }
         ]
       },

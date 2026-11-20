@@ -8,7 +8,7 @@
     "model_group": "ktm-1290-super-adventure-r",
     "category": "Adventure",
     "displacement": "1290 cc",
-    "summary": "KTM 1290 Super Adventure R (2017–2020). 1301 cc, 160.0 hp (116.8 kW)), 140.0 Nm (14.3 kgf-m or 103.3 ft.lbs), 860 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM 1290 Super Adventure R (2017–2020). 1301 cc, 154.9 hp (115.5 kW), 140 Nm, 890 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "1290-super-adventure-r",
@@ -25,7 +25,7 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "1301 cc water cooling, permanent circulation of coolant by water pump-cooled V2, four-stroke"
+            "value": "1301 cc liquid-cooled V2, four-stroke"
           },
           {
             "key": "displacement",
@@ -35,27 +35,27 @@
           {
             "key": "power",
             "label": "Max Power",
-            "value": "160.0 hp (116.8 kW))"
+            "value": "154.9 hp (115.5 kW)"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "140.0 Nm (14.3 kgf-m or 103.3 ft.lbs)"
+            "value": "140 Nm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-speed, Chain drive"
+            "value": "6-speed, Chain"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "WP Semi-active suspension USD Ø 48 mm, 200 mm (7.9 inches)"
+            "value": "WP USD Ø 48 mm, 220 mm (8.7 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "WP Semi-active suspension monoshock, 200 mm (7.9 inches)"
+            "value": "WP Xplor PDS shock absorber, 220 mm (8.7 inches)"
           },
           {
             "key": "front_brake",
@@ -70,17 +70,17 @@
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70 ZR 19 M/C 60W TL front, 170/60 ZR 17 M/C 72W TL rear"
+            "value": "90/90-21 front, 150/70-18 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "860 mm"
+            "value": "890 mm"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "30 L"
+            "value": "23 L"
           },
           {
             "key": "model_years",
@@ -100,22 +100,17 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "3.6 L"
+            "value": "3.5 L"
           },
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "SAE 10W/50"
+            "value": "5W-40"
           },
           {
             "key": "oil_filter",
             "label": "Oil Filter",
             "value": "HF650"
-          },
-          {
-            "key": "spark_plug",
-            "label": "Spark Plug",
-            "value": "11 N·m (8.1 lb·ft)"
           },
           {
             "key": "coolant",
@@ -130,12 +125,12 @@
           {
             "key": "fork_oil",
             "label": "Fork Oil",
-            "value": "SAE 5W, 0.43 litres (0.45 US quarts) per leg"
+            "value": "SAE 5W, 0.71 litres (0.76 US quarts) per leg"
           },
           {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4 / DOT 5.1"
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
           },
           {
             "key": "service_interval",
@@ -155,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
           }
         ]
       },

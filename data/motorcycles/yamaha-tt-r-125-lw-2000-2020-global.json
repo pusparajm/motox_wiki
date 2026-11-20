@@ -8,7 +8,7 @@
     "model_group": "yamaha-tt-r-125-lw",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "Yamaha TT-R 125 LW (2000–2020). 124 cc, 9.7 hp, 9.9 Nm (1.0 kgf-m or 7.3 ft.lbs), 90 kg, 805 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha TT-R 125 LW (2000–2020). 124 cc, 9.7 hp, 9.9 Nm, 90 kg, 805 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "tt-r-125-lw",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "9.9 Nm (1.0 kgf-m or 7.3 ft.lbs)"
+            "value": "9.9 Nm"
           },
           {
             "key": "transmission",

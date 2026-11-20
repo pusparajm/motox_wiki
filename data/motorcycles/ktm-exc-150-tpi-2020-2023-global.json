@@ -8,12 +8,13 @@
     "model_group": "ktm-exc-150-tpi",
     "category": "Enduro",
     "displacement": "150 cc",
-    "summary": "KTM EXC 150 TPI brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "KTM EXC 150 TPI (2020–Present). 950 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "exc-150-tpi",
       "enduro",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,44 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "150 cc"
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "WP XPlor 48 upside-down fork, 300 mm (11.8 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP Xplor PDS shock absorber, 310 mm (12.2 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Brembo twin-piston floating calliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Brembo single-piston floating calliper"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "1.60-21 front, 2.15-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "950 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "9 L"
           },
           {
             "key": "model_years",
@@ -34,13 +70,38 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK GR8DI-12"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.2 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 pitch, 118 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.60-0.62 litres (0.63-0.66 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
           }
         ]
       },

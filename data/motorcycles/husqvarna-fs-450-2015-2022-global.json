@@ -8,7 +8,7 @@
     "model_group": "husqvarna-fs-450",
     "category": "Naked",
     "displacement": "450 cc",
-    "summary": "Husqvarna FS 450 (2015–2022). 449.9 cc, 63.0 hp (46.0 kW)), 898 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Husqvarna FS 450 (2015–2022). 449.9 cc, 61.7 hp (46 kW), 890 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "husqvarna",
       "fs-450",
@@ -35,7 +35,7 @@
           {
             "key": "power",
             "label": "Max Power",
-            "value": "63.0 hp (46.0 kW))"
+            "value": "61.7 hp (46 kW)"
           },
           {
             "key": "transmission",
@@ -45,12 +45,12 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "WP XACT-USD, Ø 48 mm, 285 mm (11.2 inches)"
+            "value": "WP XPLOR-USD, Ø 48 mm, 285 mm (11.2 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "WP XACT Monoshock with linkage, 285 mm (11.2 inches)"
+            "value": "WP XACT Monoshock with linkage, 266 mm (10.5 inches)"
           },
           {
             "key": "front_brake",
@@ -70,12 +70,12 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "898 mm"
+            "value": "890 mm"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "7.2 L"
+            "value": "7 L"
           },
           {
             "key": "model_years",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
           }
         ]
       },

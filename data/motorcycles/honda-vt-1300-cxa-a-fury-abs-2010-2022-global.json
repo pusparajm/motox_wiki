@@ -8,39 +8,125 @@
     "model_group": "honda-vt-1300-cxa-a-fury-abs",
     "category": "Naked",
     "displacement": "1300 cc",
-    "summary": "Honda VT 1300 CXA A Fury ABS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Honda VT 1300 CXA A Fury ABS (2010–2022). 1312 cc, 57 hp, 107 Nm, 309 kg, 685 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "vt-1300-cxa-a-fury-abs",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1312 cc liquid-cooled V2, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1300 cc"
+            "value": "1312 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "57 hp @ 4,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "107 Nm @ 2,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, Shaft drive (cardan)"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "45mm telescopic fork with 130mm stroke and 102.4mm axle travel, 102 mm (4.0 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Monoshock with adjustable rebound damping and 35-position spring preload adjustability, 95mm axle travel, 95 mm (3.7 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Twin-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-R21 front, 200/50-R18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "685 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "309 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12.8 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2010–2022"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.3 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "10W-40"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Shaft drive (cardan)"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 18,000 km (11,200 miles) or 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 12,000 km (7,500 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the MotoSpecVault 2019 record. ABS variant of the VT1300CX Fury. Specifications are shared; ABS equipment differs. Confirm against the owner's manual."
           }
         ]
       },

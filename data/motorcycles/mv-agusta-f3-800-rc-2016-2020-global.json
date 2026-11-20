@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-f3-800-rc",
     "category": "Sport",
     "displacement": "800 cc",
-    "summary": "MV Agusta F3 800 RC (2016–2020). 675 cc, 126 hp, 71 Nm, 812 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "MV Agusta F3 800 RC (2016–2020). 798 cc, 148 hp, 88 Nm, 805 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "mv-agusta",
       "f3-800-rc",
@@ -25,22 +25,22 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "675 cc liquid-cooled In-line three, four-stroke"
+            "value": "798 cc liquid-cooled In-line three, four-stroke"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "675 cc"
+            "value": "798 cc"
           },
           {
             "key": "power",
             "label": "Max Power",
-            "value": "126 hp @ 14,400 rpm"
+            "value": "148 hp @ 13,000 rpm"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "71 Nm @ 10,600 rpm"
+            "value": "88 Nm @ 10,600 rpm"
           },
           {
             "key": "transmission",
@@ -60,12 +60,12 @@
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc"
+            "value": "Double disc. Brembo radial-type monobloc, with 4 piston. Optional ABS.."
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc"
+            "value": "Single disc. Brembo with 2 pistons. Optional ABS."
           },
           {
             "key": "tyres",
@@ -75,7 +75,7 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "812 mm"
+            "value": "805 mm"
           },
           {
             "key": "fuel_capacity",
@@ -98,49 +98,19 @@
         "label": "Service Data",
         "fields": [
           {
-            "key": "oil_capacity",
-            "label": "Engine Oil (with filter)",
-            "value": "2.5 L"
-          },
-          {
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "5W-40"
           },
           {
-            "key": "oil_filter",
-            "label": "Oil Filter",
-            "value": "HF569"
-          },
-          {
-            "key": "spark_plug",
-            "label": "Spark Plug",
-            "value": "NGK CR9EKB"
-          },
-          {
-            "key": "coolant",
-            "label": "Coolant",
-            "value": "2 L"
-          },
-          {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "Cassette style; six speed, constant mesh"
-          },
-          {
-            "key": "fork_oil",
-            "label": "Fork Oil",
-            "value": "SAE 5W, 0.46 litres (0.49 US quarts) per leg"
+            "value": "Chain"
           },
           {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 24,000 km (14,900 miles) or 24 months"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 6,000 km (3,700 miles) or 12 months"
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
           },
           {
             "key": "front_brake_pads",
@@ -155,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2017 record; remaining specifications are still being compiled."
           }
         ]
       },

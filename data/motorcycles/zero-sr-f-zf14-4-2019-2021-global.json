@@ -8,7 +8,7 @@
     "model_group": "zero-sr-f-zf14-4",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Zero SR/F ZF14.4 (2019–2021). Based on the Zero SR/F; —, 110 hp (82 kW), 190 Nm (140 lb-ft), 787 mm seat, 223 kg. Variant-specific equipment may differ.",
+    "summary": "Zero SR/F ZF14.4 (2019–2021). —, 110 hp (82 kW), 190 Nm, 223 kg, 787 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "zero",
       "sr-f-zf14-4",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "190 Nm (140 lb-ft)"
+            "value": "190 Nm"
           },
           {
             "key": "transmission",
@@ -93,14 +93,14 @@
             "value": "14.4 kWh battery"
           },
           {
-            "key": "top_speed",
-            "label": "Top Speed",
-            "value": "200 km/h"
-          },
-          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2019–2021"
+          },
+          {
+            "key": "top_speed",
+            "label": "Top Speed",
+            "value": "200 km/h"
           }
         ]
       },

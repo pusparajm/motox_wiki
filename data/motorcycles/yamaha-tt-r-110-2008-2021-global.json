@@ -8,7 +8,7 @@
     "model_group": "yamaha-tt-r-110",
     "category": "Naked",
     "displacement": "110 cc",
-    "summary": "Yamaha TT-R 110 (2008–2021). 110 cc, 72.1 kg, 671 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha TT-R 110 (2008–2021). 72 kg, 670 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "tt-r-110",
@@ -23,16 +23,6 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "engine",
-            "label": "Engine",
-            "value": "110 cc air-cooled Single cylinder, four-stroke"
-          },
-          {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "110 cc"
-          },
-          {
             "key": "transmission",
             "label": "Transmission",
             "value": "4-speed, Chain"
@@ -40,12 +30,12 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "31mm Telescopic fork, coil spring/oil damper, 114 mm (4.5 inches)"
+            "value": "Telescopic, 114 mm (4.5 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swingarm (Monocross ), coil spring/gas-oil damper, 109 mm (4.3 inches)"
+            "value": "Swingarm, 109 mm (4.3 inches)"
           },
           {
             "key": "front_brake",
@@ -65,17 +55,17 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "671 mm"
+            "value": "670 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "72.1 kg"
+            "value": "72 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "3.79 L"
+            "value": "4 L"
           },
           {
             "key": "model_years",
@@ -103,9 +93,19 @@
             "value": "10W-40"
           },
           {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CR6HSA"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "420 pitch, 90 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 15W"
           },
           {
             "key": "service_interval",
@@ -125,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
           }
         ]
       },

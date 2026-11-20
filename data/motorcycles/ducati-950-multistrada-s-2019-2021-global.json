@@ -8,7 +8,7 @@
     "model_group": "ducati-950-multistrada-s",
     "category": "Adventure",
     "displacement": "950 cc",
-    "summary": "Ducati 950 Multistrada S (2019–2021). 84 Nm, 200 kg, 850 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 950 Multistrada S (2019–2021). 937 cc, 113 hp, 96.2 Nm, 230 kg, 840 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "ducati",
       "950-multistrada-s",
@@ -17,15 +17,30 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "937 cc liquid-cooled V2, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "937 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "113 hp @ 9,000 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "84 Nm @ 5,000 rpm"
+            "value": "96.2 Nm @ 7,750 rpm"
           },
           {
             "key": "transmission",
@@ -35,37 +50,37 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Showa 43 mm upside-down fully adjustable fork, 165 mm (6.5 inches)"
+            "value": "KYB 48 mm fully adjustable USD fork, 170 mm (6.7 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Progressive linkage with fully adjustable Showa monoshock; hydraulic remote pre-load control. Single-sided aluminium swingarm, 141 mm (5.6 inches)"
+            "value": "Fully adjustable monoshock, Remote spring preload adjustment, Aluminium double-sided swingarm., 170 mm (6.7 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc"
+            "value": "Double disc. ABS. Floating discs. Four-piston calipers. Radially mounted Brembo, Bosch Cornering ABS"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc"
+            "value": "Single disc. ABS. Floating disc.Brembo Two-piston calipers."
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70-ZR17 front, 180/55-ZR17 rear"
+            "value": "120/70-ZR19 front, 170/60-ZR17 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "850 mm"
+            "value": "840 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "200 kg"
+            "value": "230 kg"
           },
           {
             "key": "fuel_capacity",
@@ -76,11 +91,6 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2019–2021"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -90,7 +100,7 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "3.9 L"
+            "value": "3.4 L"
           },
           {
             "key": "oil_filter",
@@ -98,29 +108,19 @@
             "value": "HF153"
           },
           {
-            "key": "spark_plug",
-            "label": "Spark Plug",
-            "value": "NGK DCPR8E"
-          },
-          {
             "key": "coolant",
             "label": "Coolant",
-            "value": "2.3 L"
+            "value": "2.4 L"
           },
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "525 pitch, 102 links"
-          },
-          {
-            "key": "fork_oil",
-            "label": "Fork Oil",
-            "value": "SAE 5W, 0.70 litres (0.74 US quarts) per leg"
+            "value": "525 pitch, 114 links"
           },
           {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1"
+            "value": "DOT 4 or DOT 5.1, changed every 36 months"
           },
           {
             "key": "service_interval",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are from the MotoSpecVault 2021 record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

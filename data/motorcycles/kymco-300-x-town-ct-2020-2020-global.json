@@ -40,17 +40,17 @@
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Twin Shocks with 5-Step Preload Adjustment, 99 mm (3.9 inches)"
+            "value": "Double Swingarm, 99 mm (3.9 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Single disc. ABS"
+            "value": "ABS"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Two-piston calipers."
+            "value": "ABS"
           },
           {
             "key": "tyres",
@@ -65,7 +65,7 @@
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "12.5 L"
+            "value": "13 L"
           },
           {
             "key": "model_years",
@@ -85,7 +85,7 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "1 L"
+            "value": "0.9 L"
           },
           {
             "key": "oil_grade",
@@ -93,9 +93,9 @@
             "value": "10W-40"
           },
           {
-            "key": "oil_filter",
-            "label": "Oil Filter",
-            "value": "HF566"
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "DPR6EA"
           },
           {
             "key": "chain",
@@ -125,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
           }
         ]
       },

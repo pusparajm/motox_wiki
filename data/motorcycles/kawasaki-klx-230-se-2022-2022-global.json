@@ -8,7 +8,7 @@
     "model_group": "kawasaki-klx-230-se",
     "category": "Dual Sport",
     "displacement": "230 cc",
-    "summary": "Kawasaki KLX 230 SE (2022). Based on the Kawasaki KLX 230; 233 cc, 19 hp (14 kW), 19.5 Nm (14 lb-ft), 880 mm seat, 134 kg. Variant-specific equipment may differ.",
+    "summary": "Kawasaki KLX 230 SE (2022). 233 cc, 19 hp (14 kW), 19.5 Nm, 134 kg, 880 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "kawasaki",
       "klx-230-se",
@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "19.5 Nm (14 lb-ft) @ 6,400 rpm"
+            "value": "19.5 Nm @ 6,400 rpm"
           },
           {
             "key": "transmission",

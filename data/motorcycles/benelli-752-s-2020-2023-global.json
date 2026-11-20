@@ -8,7 +8,7 @@
     "model_group": "benelli-752-s",
     "category": "Naked",
     "displacement": "752 cc",
-    "summary": "Benelli 752 S (2020–Present). 67 Nm, 228 kg, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Benelli 752 S (2020–Present). 754 cc, 76.8 hp, 67 Nm, 228 kg, 810 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "benelli",
       "752-s",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "754 cc liquid-cooled Twin, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "754 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "76.8 hp @ 8,500 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -40,7 +55,7 @@
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Rear swing arm with central shock absorber spring preload adjustable, 55 mm (2.2 inches)"
+            "value": "Rear swing arm with central shock absorber spring preload adjustable, 45 mm (1.8 inches)"
           },
           {
             "key": "front_brake",
@@ -76,11 +91,6 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2020–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -135,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are from the MotoSpecVault 2020 record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

@@ -8,7 +8,7 @@
     "model_group": "husqvarna-tc-50-mini",
     "category": "Motocross",
     "displacement": "50 cc",
-    "summary": "Husqvarna TC 50 Mini (2022–Present). 49 cc, 665 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Husqvarna TC 50 Mini (2022–Present). 49 cc, 558 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "husqvarna",
       "tc-50-mini",
@@ -40,27 +40,27 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "XACT 35 WP Upside-Down fork, Ø 35 mm, 205 mm (8.1 inches)"
+            "value": "XACT 35 WP Upside-Down fork, Ø 35 mm, 100 mm (3.9 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "XACT WP PDS mono shock, 185 mm (7.3 inches)"
+            "value": "XACT WP PDS mono shock, 147 mm (5.8 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Single disc. Hydraulic, wave disk"
+            "value": "Single disc"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Hydraulic, wave disk"
+            "value": "Single disc"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "665 mm"
+            "value": "558 mm"
           },
           {
             "key": "fuel_capacity",
@@ -95,12 +95,12 @@
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "Single-speed automatic. 1/2 x 3/16´ cahin."
+            "value": "1/2 x 3/16´ chain"
           },
           {
             "key": "fork_oil",
             "label": "Fork Oil",
-            "value": "SAE 5W, 0.23-0.24 litres (0.24-0.25 US quarts) per leg"
+            "value": "SAE 5W, 0.22-0.25 litres (0.23-0.26 US quarts) per leg"
           },
           {
             "key": "brake_fluid",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
           }
         ]
       },

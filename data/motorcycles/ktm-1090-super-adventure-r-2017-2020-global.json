@@ -8,7 +8,7 @@
     "model_group": "ktm-1090-super-adventure-r",
     "category": "Adventure",
     "displacement": "1090 cc",
-    "summary": "KTM 1090 Super Adventure R (2017–2020). 1301 cc, 160.0 hp (116.8 kW)), 140.0 Nm (14.3 kgf-m or 103.3 ft.lbs), 860 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM 1090 Super Adventure R (2017–2020). 1050 cc, 122.3 hp (91.2 kW), 890 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "1090-super-adventure-r",
@@ -25,22 +25,17 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "1301 cc water cooling, permanent circulation of coolant by water pump-cooled V2, four-stroke"
+            "value": "1050 cc water cooling, permanent circulation of coolant by water pump-cooled Twin, four-stroke"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1301 cc"
+            "value": "1050 cc"
           },
           {
             "key": "power",
             "label": "Max Power",
-            "value": "160.0 hp (116.8 kW))"
-          },
-          {
-            "key": "torque",
-            "label": "Max Torque",
-            "value": "140.0 Nm (14.3 kgf-m or 103.3 ft.lbs)"
+            "value": "122.3 hp (91.2 kW)"
           },
           {
             "key": "transmission",
@@ -50,37 +45,37 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "WP Semi-active suspension USD Ø 48 mm, 200 mm (7.9 inches)"
+            "value": "WP upside-down Ø 43 mm, 220 mm (8.7 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "WP Semi-active suspension monoshock, 200 mm (7.9 inches)"
+            "value": "WP PSD monoshock, 220 mm (8.7 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. ABS. Four-piston calipers. Radially mounted."
+            "value": "Double disc brake with radially mounted, four-pot brake calipers, floating brake discs"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. ABS. Two-piston calipers."
+            "value": "Single disc brake with dual-piston brake caliper, floating brake disc"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70 ZR 19 M/C 60W TL front, 170/60 ZR 17 M/C 72W TL rear"
+            "value": "90/90-21 front, 150/70-18 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "860 mm"
+            "value": "890 mm"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "30 L"
+            "value": "23 L"
           },
           {
             "key": "model_years",
@@ -130,7 +125,7 @@
           {
             "key": "fork_oil",
             "label": "Fork Oil",
-            "value": "SAE 5W, 0.43 litres (0.45 US quarts) per leg"
+            "value": "SAE 4, 715 ml (24.17 fl. oz.) per leg"
           },
           {
             "key": "brake_fluid",
@@ -155,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2018 record; remaining specifications are still being compiled."
           }
         ]
       },

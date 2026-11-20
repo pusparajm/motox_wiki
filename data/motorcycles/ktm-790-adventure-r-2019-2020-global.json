@@ -8,7 +8,7 @@
     "model_group": "ktm-790-adventure-r",
     "category": "Adventure",
     "displacement": "790 cc",
-    "summary": "KTM 790 Adventure R (2019–2020). 609 cc, 50 hp, 50 Nm, 920 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM 790 Adventure R (2019–2020). 799 cc, 88 Nm, 910 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "790-adventure-r",
@@ -25,47 +25,52 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "609 cc liquid-cooled Single cylinder, four-stroke"
+            "value": "799 cc liquid-cooled"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "609 cc"
-          },
-          {
-            "key": "power",
-            "label": "Max Power",
-            "value": "50 hp @ 7,250 rpm"
+            "value": "799 cc"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "50 Nm @ 5,750 rpm"
+            "value": "88 Nm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "5-speed, Chain"
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "48mm WP upside-down, 270 mm (10.6 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP shock absorber with Pro-Lever linkage, 270 mm (10.6 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Single disc"
+            "value": "Double disc. 2x radially mounted 4 piston caliper"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc"
+            "value": "Single disc. Bosch 9.1 MP (incl. Cornering-ABS and offroad mode, disengageable)"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "920 mm"
+            "value": "910 mm"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "14.5 L"
+            "value": "20 L"
           },
           {
             "key": "model_years",
@@ -85,27 +90,27 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "1.7 L"
+            "value": "2.8 L"
           },
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "SAE 15W/50"
+            "value": "10W-50"
           },
           {
             "key": "oil_filter",
             "label": "Oil Filter",
-            "value": "12 N·m (8.9 lb·ft)"
+            "value": "HF650"
           },
           {
             "key": "spark_plug",
             "label": "Spark Plug",
-            "value": "NGK DR8EA"
+            "value": "NGK LMAR9AI-10"
           },
           {
             "key": "coolant",
             "label": "Coolant",
-            "value": "1.2 L"
+            "value": "1.6 L"
           },
           {
             "key": "chain",
@@ -115,17 +120,17 @@
           {
             "key": "fork_oil",
             "label": "Fork Oil",
-            "value": "SAE 5W, 0.45-0.46 litres (0.48-0.49 US quarts) per leg"
+            "value": "SAE 5W, 0.63 litres (0.67 US quarts) per leg"
           },
           {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4 / DOT 5.1"
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
           },
           {
             "key": "service_interval",
             "label": "Service Interval",
-            "value": "Every 7,500 km (4,700 miles) or 12 months"
+            "value": "Every 15,000 km (9,300 miles) or 12 months"
           },
           {
             "key": "front_brake_pads",
@@ -140,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
           }
         ]
       },

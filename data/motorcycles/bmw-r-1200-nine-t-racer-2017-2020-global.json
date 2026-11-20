@@ -8,39 +8,130 @@
     "model_group": "bmw-r-1200-nine-t-racer",
     "category": "Naked",
     "displacement": "1200 cc",
-    "summary": "BMW R 1200 Nine-T Racer brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "BMW R 1200 Nine-T Racer (2017–2020). 1170 cc, 110 hp, 116 Nm, 219 kg, 805 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "bmw",
       "r-1200-nine-t-racer",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1170 cc oil & air-cooled Two cylinder boxer, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1200 cc"
+            "value": "1170 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "110 hp @ 7,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "116 Nm @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Shaft drive (cardan)"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic forks with 43 mm fixed-tube diameter, 125 mm (4.9 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Cast aluminium single swinging arm with BMW Motorrad Paralever, 120 mm (4.7 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Four-piston calipers."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Floating disc. Two-piston calipers."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 180/55-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "805 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "219 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2017–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4 L"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF164"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK MAR8B-JDS"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Shaft drive (cardan)"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 10W, 0.53-0.54 litres (0.56-0.57 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 10,000 km (6,200 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the MotoSpecVault 2019 record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

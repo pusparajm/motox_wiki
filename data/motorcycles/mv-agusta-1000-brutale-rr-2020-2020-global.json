@@ -60,12 +60,12 @@
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Brembo. 4 pistons. ABS."
+            "value": "Double disc. Brembo. ABS."
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Brembo. 2 pistons. ABS."
+            "value": "Single disc. Brembo. ABS."
           },
           {
             "key": "tyres",
@@ -105,7 +105,7 @@
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "Cassette style, constant mesh"
+            "value": "Constant mesh"
           },
           {
             "key": "brake_fluid",
@@ -130,7 +130,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
           }
         ]
       },

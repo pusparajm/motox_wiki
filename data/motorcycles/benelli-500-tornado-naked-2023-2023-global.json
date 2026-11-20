@@ -8,39 +8,100 @@
     "model_group": "benelli-500-tornado-naked",
     "category": "Naked",
     "displacement": "500 cc",
-    "summary": "Benelli 500 Tornado Naked brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Benelli 500 Tornado Naked (2023). 499.6 cc, 47.6 hp, 46 Nm, 199 kg, 784 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "benelli",
       "500-tornado-naked",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "499.6 cc liquid-cooled Twin, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "500 cc"
+            "value": "499.6 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "47.6 hp @ 8,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "46 Nm @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Upside-down forks Ø 50 mm with rebound brake adjustable, 125 mm (4.9 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Swing arm with lateral shock absorber with spring preload adjustment and hydraulic rebound brake adjustable, 131 mm (5.2 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 160/60-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "784 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "199 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "14 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2023"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Chain"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the MotoSpecVault 2023 record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

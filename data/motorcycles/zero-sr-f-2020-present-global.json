@@ -37,7 +37,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "190 Nm (140 lb-ft)"
+            "value": "190 Nm"
           },
           {
             "key": "transmission",

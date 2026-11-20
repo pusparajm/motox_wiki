@@ -8,7 +8,7 @@
     "model_group": "ducati-1100-scrambler-tribute-pro",
     "category": "Retro",
     "displacement": "1100 cc",
-    "summary": "Ducati 1100 Scrambler Tribute Pro (2022–Present). 436 cc, 27 hp, 65.2 Nm, 770 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 1100 Scrambler Tribute Pro (2022–Present). 1079 cc, 86 hp, 88 Nm, 211 kg, 810 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "ducati",
       "1100-scrambler-tribute-pro",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,22 +25,22 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "436 cc air-cooled Single cylinder, four-stroke"
+            "value": "1079 cc air-cooled V2, four-stroke"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "436 cc"
+            "value": "1079 cc"
           },
           {
             "key": "power",
             "label": "Max Power",
-            "value": "27 hp @ 6,500 rpm"
+            "value": "86 hp @ 7,500 rpm"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "65.2 Nm @ 7,000 rpm"
+            "value": "88 Nm @ 4,750 rpm"
           },
           {
             "key": "transmission",
@@ -50,47 +50,47 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Front hydraulic telescopic forks, 150 mm (5.9 inches)"
+            "value": "Marzocchi fully adjustable 45 mm USD fork, 150 mm (5.9 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swinging arm with adjustable shocks, 150 mm (5.9 inches)"
+            "value": "Kayaba monoshock, pre-load and rebound adjustable, 150 mm (5.9 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Expanding brake (drum brake)"
+            "value": "Double disc. ABS. Brembo. Floating discs. Four-piston calipers. Radially mounted."
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Expanding brake (drum brake)"
+            "value": "Single disc. ABS. Brembo. Floating disc. Single-piston caliper."
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "3.50-19 front, 4.00-18 rear"
+            "value": "120/70-ZR18 front, 180/55-ZR17 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "770 mm"
+            "value": "810 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "211 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "11.4 L"
+            "value": "15 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2022–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -98,34 +98,9 @@
         "label": "Service Data",
         "fields": [
           {
-            "key": "oil_capacity",
-            "label": "Engine Oil (with filter)",
-            "value": "3.4 L"
-          },
-          {
-            "key": "oil_filter",
-            "label": "Oil Filter",
-            "value": "HF153"
-          },
-          {
-            "key": "spark_plug",
-            "label": "Spark Plug",
-            "value": "NGK KR8C-G"
-          },
-          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 pitch, 104 links"
-          },
-          {
-            "key": "brake_fluid",
-            "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 24 months"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 12,000 km (7,500 miles) or 24 months"
           },
           {
             "key": "front_brake_pads",
@@ -140,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are from the MotoSpecVault 2022 record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

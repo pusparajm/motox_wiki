@@ -40,7 +40,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "87 Nm @ 10,250 rpm"
+            "value": "87 Nm @ 10,100 rpm"
           },
           {
             "key": "transmission",
@@ -50,22 +50,22 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Marzocchi upside down telescopic hydraulic fork, 43 mm, 125 mm (4.9 inches)"
+            "value": "Marzocchi upside down telescopic hydraulic fork, 125 mm (4.9 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Progressive Sachs, single shock absorber with rebound and compression damping and spring preload adjustment, 130 mm (5.1 inches)"
+            "value": "Progressive linkage with Sachs monoshock, 124 mm (4.9 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Brembo radial-type, with 4 pistons. ABS."
+            "value": "Double disc. Brembo radial-type, with 4 pistons"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Brembo with 2 pistons.ABS."
+            "value": "Single disc. Brembo with 2 pistons"
           },
           {
             "key": "tyres",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
           }
         ]
       },

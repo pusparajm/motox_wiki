@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-livewire",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Harley-Davidson Livewire (2019–2021). 105.0 hp (76.6 kW)), 116.6 Nm (11.9 kgf-m or 86.0 ft.lbs), 249 kg, 762 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson Livewire (2019–2021). 105.0 hp (76.6 kW)), 116.6 Nm, 249 kg, 762 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "livewire",
@@ -30,7 +30,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "116.6 Nm (11.9 kgf-m or 86.0 ft.lbs)"
+            "value": "116.6 Nm"
           },
           {
             "key": "front_suspension",

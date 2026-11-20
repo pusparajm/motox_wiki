@@ -37,7 +37,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "938 Nm (692 lb-ft) at the rear wheel"
+            "value": "938 Nm"
           },
           {
             "key": "transmission",

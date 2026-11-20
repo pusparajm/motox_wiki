@@ -8,39 +8,105 @@
     "model_group": "suzuki-an-650-a-burgman-executive",
     "category": "Scooter",
     "displacement": "650 cc",
-    "summary": "Suzuki AN 650 A Burgman Executive brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Suzuki AN 650 A Burgman Executive (2004–2020). 638 cc, 56 hp, 62 Nm, 277 kg, 760 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "suzuki",
       "an-650-a-burgman-executive",
       "scooter",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "638 cc liquid-cooled Twin, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "650 cc"
+            "value": "638 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "56 hp @ 7,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "62 Nm @ 5,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Automatic, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic, coil spring, oil damped, 110 mm (4.3 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Swingarm type, coil spring, oil damped, 100 mm (3.9 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-R15 front, 160/60-R14 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "760 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "277 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "15 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2004–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF138"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the MotoSpecVault 2020 record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

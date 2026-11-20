@@ -8,7 +8,7 @@
     "model_group": "ktm-rc8-890-c",
     "category": "Sport",
     "displacement": "890 cc",
-    "summary": "KTM RC8 890 C (2022). 125 cc, 824 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM RC8 890 C (2022). 889 cc, 126.1 hp, 101 Nm, 820 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "rc8-890-c",
@@ -25,52 +25,62 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "125 cc water cooling, permanent circulation of coolant by water pump-cooled"
+            "value": "889 cc liquid-cooled Twin, four-stroke"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "125 cc"
+            "value": "889 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "126.1 hp @ 9,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "101 Nm @ 8,000 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-gear transmission, claw shifted, Chain drive"
+            "value": "6-speed, Chain"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "WP upside-down Ø 43 mm, 120 mm (4.7 inches)"
+            "value": "WP XACT PRO 7543, 120 mm (4.7 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "150 mm (5.9 inches)"
+            "value": "WP APEX PRO 7746, 120 mm (4.7 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Disc brake with 4-piston brake caliper"
+            "value": "Double disc. 2 x Brembo Stylema Monobloc four piston, radially mounted caliper"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Disc brake with single-pot brake caliper, floating"
+            "value": "Single disc. Brembo twin-piston floating calliper, brake disc"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "110/70 ZR 17 M/C 54W TL front, 150/60 ZR 17 M/C 66W TL rear"
+            "value": "120/70-ZR17 front, 180/55-ZR17 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "824 mm"
+            "value": "820 mm"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "13.7 L"
+            "value": "16 L"
           },
           {
             "key": "model_years",
@@ -90,42 +100,12 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "1.5 L"
-          },
-          {
-            "key": "oil_grade",
-            "label": "Oil Grade",
-            "value": "SAE 15W/50"
-          },
-          {
-            "key": "oil_filter",
-            "label": "Oil Filter",
-            "value": "HF155"
-          },
-          {
-            "key": "spark_plug",
-            "label": "Spark Plug",
-            "value": "BOSCH VR6NEU"
+            "value": "2.8 L"
           },
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "520 pitch, 118 links"
-          },
-          {
-            "key": "fork_oil",
-            "label": "Fork Oil",
-            "value": "SAE 5W, 0.46 litres (0.49 US quarts) per leg"
-          },
-          {
-            "key": "brake_fluid",
-            "label": "Brake Fluid",
-            "value": "DOT 4 / DOT 5.1"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 7,500 km (4,700 miles) or 12 months"
+            "value": "520 chain"
           },
           {
             "key": "front_brake_pads",
@@ -140,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
           }
         ]
       },
