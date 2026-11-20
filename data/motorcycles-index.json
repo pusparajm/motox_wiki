@@ -72045,11 +72045,18 @@
         "kymco",
         "dt-125-x360",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kymco DT 125 X360 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kymco DT 125 X360 (2022–Present). 124 cc, 13 hp, 11 Nm, 179 kg, 805 mm seat. Specifications compiled from manufacturer data.",
       "published": true,
       "model_group": "kymco-dt-125-x360",
+      "engine": "124 cc liquid-cooled single-cylinder four-stroke OHC",
+      "power": "13 hp @ 9,000 rpm",
+      "torque": "11 Nm @ 7,000 rpm",
+      "weight": "179 kg",
+      "seat_height": "805 mm",
+      "fuel_capacity": "12.5 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -72508,11 +72515,18 @@
         "kymco",
         "dt-350-x360",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kymco DT 350 X360 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kymco DT 350 X360 (2023). 321 cc, 28.6 hp, 30.8 Nm, 194 kg, 800 mm seat. Specifications compiled from manufacturer data.",
       "published": true,
       "model_group": "kymco-dt-350-x360",
+      "engine": "321 cc liquid-cooled single-cylinder four-stroke OHC",
+      "power": "28.6 hp @ 7,500 rpm",
+      "torque": "30.8 Nm @ 6,000 rpm",
+      "weight": "194 kg",
+      "seat_height": "800 mm",
+      "fuel_capacity": "12.5 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -78895,11 +78909,18 @@
         "moto-morini",
         "1200-corsaro-zt",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Morini 1200 Corsaro ZT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Morini 1200 Corsaro ZT (2020). 1,187 cc, 136.7 hp, 112 Nm, 191 kg, 860 mm seat. Specifications compiled from manufacturer data.",
       "published": true,
       "model_group": "moto-morini-1200-corsaro-zt",
+      "engine": "1,187 cc liquid-cooled 87-degree V-twin four-stroke",
+      "power": "136.7 hp @ 8,500 rpm",
+      "torque": "112 Nm @ 6,750 rpm",
+      "weight": "191 kg",
+      "seat_height": "860 mm",
+      "fuel_capacity": "21 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -78916,11 +78937,18 @@
         "moto-morini",
         "1200-corsaro-zz",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Morini 1200 Corsaro ZZ brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Morini 1200 Corsaro ZZ (2018–2020). 1,187 cc, 139 hp, 112 Nm, 192 kg, 860 mm seat. Specifications compiled from manufacturer data.",
       "published": true,
       "model_group": "moto-morini-1200-corsaro-zz",
+      "engine": "1,187 cc liquid-cooled 87-degree V-twin four-stroke",
+      "power": "139 hp @ 8,500 rpm",
+      "torque": "112 Nm @ 6,750 rpm",
+      "weight": "192 kg",
+      "seat_height": "860 mm",
+      "fuel_capacity": "21 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -79066,11 +79094,17 @@
         "moto-morini",
         "1200-super-scrambler",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Morini 1200 Super Scrambler brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Morini 1200 Super Scrambler (2020). 1,187 cc, 116 hp, 108 Nm, 830 mm seat. Partial specifications compiled from manufacturer data.",
       "published": true,
       "model_group": "moto-morini-1200-super-scrambler",
+      "engine": "1,187 cc liquid-cooled 87-degree V-twin four-stroke",
+      "power": "116 hp @ 8,000 rpm",
+      "torque": "108 Nm @ 7,000 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "21 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -108967,11 +109001,17 @@
         "zero",
         "dsrbf-zf14-4",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Zero DSRBF ZF14.4 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Zero DSRBF ZF14.4 (2019–2021). 14.4 kWh, 70 hp, 146 Nm, 222 kg, 843 mm seat. Specifications compiled from manufacturer data.",
       "published": true,
       "model_group": "zero-dsrbf-zf14-4",
+      "engine": "Z-Force 75-7R air-cooled permanent-magnet electric motor, 14.4 kWh pack",
+      "power": "70 hp @ 3,850 rpm",
+      "torque": "146 Nm",
+      "weight": "222 kg",
+      "seat_height": "843 mm",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -109418,11 +109458,17 @@
         "zero",
         "sr-s-zf14-4",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Zero SR/S ZF14.4 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Zero SR/S ZF14.4 (2019–2022). 14.4 kWh, 110 hp, 190 Nm, 235 kg, 787 mm seat. Specifications compiled from manufacturer data.",
       "published": true,
       "model_group": "zero-sr-s-zf14-4",
+      "engine": "Z-Force 75-10 air-cooled permanent-magnet electric motor, 14.4 kWh pack",
+      "power": "110 hp @ 5,000 rpm",
+      "torque": "190 Nm",
+      "weight": "235 kg",
+      "seat_height": "787 mm",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []

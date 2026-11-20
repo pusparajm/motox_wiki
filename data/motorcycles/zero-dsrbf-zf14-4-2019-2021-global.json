@@ -8,28 +8,84 @@
     "model_group": "zero-dsrbf-zf14-4",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Zero DSRBF ZF14.4 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Zero DSRBF ZF14.4 (2019–2021). 14.4 kWh, 70 hp, 146 Nm, 222 kg, 843 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "zero",
       "dsrbf-zf14-4",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "Z-Force 75-7R air-cooled permanent-magnet electric motor, 14.4 kWh pack"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "14.4 kWh"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "70 hp @ 3,850 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "146 Nm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Clutchless direct drive, belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Showa 41 mm inverted fork, 178 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Showa piggyback monoshock, 179 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single 320 mm disc, J.Juan, ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single 240 mm disc, J.Juan, ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-19 front, 130/80-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "843 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "222 kg"
+          },
+          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2019–2021"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
@@ -49,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Zero DSR Black Forest Edition data from the manufacturer. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

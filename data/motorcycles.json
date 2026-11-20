@@ -273568,33 +273568,89 @@
       "model_group": "kymco-dt-125-x360",
       "category": "Naked",
       "displacement": "360 cc",
-      "summary": "Kymco DT 125 X360 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kymco DT 125 X360 (2022–Present). 124 cc, 13 hp, 11 Nm, 179 kg, 805 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "kymco",
         "dt-125-x360",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "124 cc liquid-cooled single-cylinder four-stroke OHC"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "360 cc"
+              "value": "124 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "13 hp @ 9,000 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "11 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "CVT, belt"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "37 mm telescopic fork, 110 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Twin shocks, preload adjustable, 110 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 260 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/80-14 front, 150/70-13 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "805 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "179 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12.5 L"
             },
             {
               "key": "model_years",
               "label": "Model Years",
               "value": "2022–Present"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
             }
           ]
         },
@@ -273614,7 +273670,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Kymco DT X360 125 data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -275212,33 +275268,89 @@
       "model_group": "kymco-dt-350-x360",
       "category": "Naked",
       "displacement": "360 cc",
-      "summary": "Kymco DT 350 X360 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kymco DT 350 X360 (2023). 321 cc, 28.6 hp, 30.8 Nm, 194 kg, 800 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "kymco",
         "dt-350-x360",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "321 cc liquid-cooled single-cylinder four-stroke OHC"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "360 cc"
+              "value": "321 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "28.6 hp @ 7,500 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "30.8 Nm @ 6,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "CVT, belt"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "37 mm telescopic fork, 110 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Twin shocks, preload adjustable, 108 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 260 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/80-14 front, 150/70-13 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "800 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "194 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12.5 L"
             },
             {
               "key": "model_years",
               "label": "Model Years",
               "value": "2023"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
             }
           ]
         },
@@ -275258,7 +275370,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Kymco DT X360 350 data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -295927,33 +296039,89 @@
       "model_group": "moto-morini-1200-corsaro-zt",
       "category": "Naked",
       "displacement": "1200 cc",
-      "summary": "Moto Morini 1200 Corsaro ZT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Morini 1200 Corsaro ZT (2020). 1,187 cc, 136.7 hp, 112 Nm, 191 kg, 860 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "moto-morini",
         "1200-corsaro-zt",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "1,187 cc liquid-cooled 87-degree V-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "1200 cc"
+              "value": "1,187 cc"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "46 mm USD fork, 135 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Monoshock, 120 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 320 mm discs, Brembo, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 220 mm disc, Brembo"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-17 front, 190/55-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "860 mm"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "21 L"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "136.7 hp @ 8,500 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "112 Nm @ 6,750 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "191 kg"
             },
             {
               "key": "model_years",
               "label": "Model Years",
               "value": "2020"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
             }
           ]
         },
@@ -295973,7 +296141,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Moto Morini Corsaro 1200 ZT data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -295998,33 +296166,89 @@
       "model_group": "moto-morini-1200-corsaro-zz",
       "category": "Naked",
       "displacement": "1200 cc",
-      "summary": "Moto Morini 1200 Corsaro ZZ brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Morini 1200 Corsaro ZZ (2018–2020). 1,187 cc, 139 hp, 112 Nm, 192 kg, 860 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "moto-morini",
         "1200-corsaro-zz",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "1,187 cc liquid-cooled 87-degree V-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "1200 cc"
+              "value": "1,187 cc"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "46 mm USD fork, 135 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Monoshock, 120 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 320 mm discs, Brembo, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 220 mm disc, Brembo"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-17 front, 190/55-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "860 mm"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "21 L"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "139 hp @ 8,500 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "112 Nm @ 6,750 rpm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "192 kg"
             },
             {
               "key": "model_years",
               "label": "Model Years",
               "value": "2018–2020"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
             }
           ]
         },
@@ -296044,7 +296268,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Moto Morini Corsaro 1200 ZZ data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -296495,12 +296719,13 @@
       "model_group": "moto-morini-1200-super-scrambler",
       "category": "Retro",
       "displacement": "1200 cc",
-      "summary": "Moto Morini 1200 Super Scrambler brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Morini 1200 Super Scrambler (2020). 1,187 cc, 116 hp, 108 Nm, 830 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "moto-morini",
         "1200-super-scrambler",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -296509,9 +296734,69 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "1,187 cc liquid-cooled 87-degree V-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "1200 cc"
+              "value": "1,187 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "116 hp @ 8,000 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "108 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "46 mm USD fork, 120 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Monoshock with progressive linkage, 110 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 320 mm discs, Brembo, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 270 mm disc, Brembo, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-17 front, 180/55-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "830 mm"
+            },
+            {
+              "key": "dry_weight",
+              "label": "Dry Weight",
+              "value": "202 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "21 L"
             },
             {
               "key": "model_years",
@@ -296521,7 +296806,7 @@
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -296541,7 +296826,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Moto Morini Super Scrambler data from the manufacturer. Dry weight is quoted; wet weight is not published."
             }
           ]
         },
@@ -399350,28 +399635,84 @@
       "model_group": "zero-dsrbf-zf14-4",
       "category": "Naked",
       "displacement": "—",
-      "summary": "Zero DSRBF ZF14.4 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Zero DSRBF ZF14.4 (2019–2021). 14.4 kWh, 70 hp, 146 Nm, 222 kg, 843 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "zero",
         "dsrbf-zf14-4",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "Z-Force 75-7R air-cooled permanent-magnet electric motor, 14.4 kWh pack"
+            },
+            {
+              "key": "displacement",
+              "label": "Displacement",
+              "value": "14.4 kWh"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "70 hp @ 3,850 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "146 Nm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "Clutchless direct drive, belt"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "Showa 41 mm inverted fork, 178 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Showa piggyback monoshock, 179 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, J.Juan, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, J.Juan, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "100/90-19 front, 130/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "843 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "222 kg"
+            },
+            {
               "key": "model_years",
               "label": "Model Years",
               "value": "2019–2021"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
             }
           ]
         },
@@ -399391,7 +399732,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Zero DSR Black Forest Edition data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -400832,28 +401173,84 @@
       "model_group": "zero-sr-s-zf14-4",
       "category": "Naked",
       "displacement": "—",
-      "summary": "Zero SR/S ZF14.4 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Zero SR/S ZF14.4 (2019–2022). 14.4 kWh, 110 hp, 190 Nm, 235 kg, 787 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "zero",
         "sr-s-zf14-4",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "Z-Force 75-10 air-cooled permanent-magnet electric motor, 14.4 kWh pack"
+            },
+            {
+              "key": "displacement",
+              "label": "Displacement",
+              "value": "14.4 kWh"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "110 hp @ 5,000 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "190 Nm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "Clutchless direct drive, belt"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "Showa 43 mm inverted fork, 120 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Showa piggyback monoshock, 140 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 320 mm discs, J.Juan radial calipers, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, J.Juan, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-17 front, 180/55-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "787 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "235 kg"
+            },
+            {
               "key": "model_years",
               "label": "Model Years",
               "value": "2019–2022"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
             }
           ]
         },
@@ -400873,7 +401270,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Zero SR/S ZF14.4 data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
