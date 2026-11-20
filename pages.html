@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="Motorcycle reference guides: torque conversion, oil grades, metric fastener torque and how to contribute to MotoX Wiki.">
+  <meta name="description" content="Motorcycle reference tables: brake pad fitment, pad shape cross-reference, torque conversion, oil grades and fastener torque.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://motoxref.com/pages.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="MotoX Wiki">
-  <meta property="og:title" content="Motorcycle Reference Guides — MotoX Wiki">
-  <meta property="og:description" content="Torque conversion, oil grades, fastener torque and other motorcycle reference guides.">
+  <meta property="og:title" content="Motorcycle Reference — MotoX Wiki">
+  <meta property="og:description" content="Brake pad fitment, pad shape cross-reference, torque conversion, oil grades and other motorcycle reference tables.">
   <meta property="og:url" content="https://motoxref.com/pages.html">
   <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <title>Motorcycle Reference Guides — MotoX Wiki</title>
+  <title>Motorcycle Reference — MotoX Wiki</title>
   <link rel="stylesheet" href="css/site.min.css?v=10" id="mx-main-css" data-mx-shield-css="css/main.css?v=39" fetchpriority="high">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465"
      crossorigin="anonymous"></script>
@@ -59,7 +59,7 @@
         const page = await MotoX.loadPage(slug);
         if (!page) {
           MotoX.setContainerHtml(main, `
-            <div class="${m('empty-state')}"><p>Page not found.</p><p><a href="pages.html">View all pages</a></p></div>
+            <div class="${m('empty-state')}"><p>Page not found.</p><p><a href="pages.html">View all reference pages</a></p></div>
           `);
           return;
         }
@@ -84,7 +84,7 @@
           <div class="${m('page-layout')} ${m('has-sidebar')}">
             <main>
               <div class="${m('bike-header')}">
-                <div class="${m('breadcrumb')}"><a href="index.html">Home</a> / <a href="pages.html">Pages</a> / ${MotoX.shieldEnc(page.title)}</div>
+                <div class="${m('breadcrumb')}"><a href="index.html">Home</a> / <a href="pages.html">Reference</a> / ${MotoX.shieldEnc(page.title)}</div>
                 <h1>${MotoX.shieldEnc(page.title)}</h1>
                 ${page.summary ? `<p class="${m('bike-subtitle')}">${MotoX.shieldEnc(page.summary)}</p>` : ''}
               </div>
@@ -99,9 +99,18 @@
       }
 
       const pages = await MotoX.loadPagesIndex();
+      const brakePages = [
+        ['reference/brake-pad-fitment.html', 'Motorcycle Brake Pad Fitment Table', 'Front and rear brake pad codes for individual models.'],
+        ['reference/pad-shape-cross-reference.html', 'Brake Pad Shape Cross-Reference', 'EBC, SBS, Ferodo, Dunlopad, Emgo and Vesrah shape equivalents.']
+      ];
       MotoX.setContainerHtml(main, `
-        <h1>Wiki Pages</h1>
-        <p>Reference guides and general motorcycle technical information.</p>
+        <h1>Reference</h1>
+        <p>Reference tables, conversion charts and general motorcycle technical information.</p>
+        <h2>Parts and brake tables</h2>
+        <div class="${m('page-list')}">
+          ${brakePages.map(([href, title, summary], index) => MotoX.renderPageItem(href, title, summary, `reference-${index}`)).join('')}
+        </div>
+        <h2>General reference</h2>
         <div class="${m('page-list')}">
           ${pages.map(p => MotoX.renderPageItem(
             `pages.html?slug=${encodeURIComponent(p.slug || p.id)}`,

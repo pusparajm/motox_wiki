@@ -141,7 +141,7 @@ Export JSON from the admin dashboard, copy into `motox_wiki/data/`, then rebuild
 motox_wiki/              # This repo (public, GitHub Pages)
 ├── index.html           # Browse all models
 ├── motorcycle.html      # Model detail page
-├── pages.html           # Wiki reference pages
+├── pages.html           # Reference section
 ├── search.html          # Full search results
 ├── guides/              # Static SEO charts, buying guides and comparisons
 ├── motorcycle/          # Static, crawlable model specification pages

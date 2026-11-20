@@ -58,7 +58,7 @@ Two folders live side by side on your computer:
 ~/motox_wiki/              ← PUBLIC — commit & push to GitHub
 ├── index.html             # Homepage (browse motorcycles)
 ├── motorcycle.html        # Motorcycle detail page
-├── pages.html             # Wiki reference pages
+├── pages.html             # Reference section
 ├── search.html            # Full search results
 ├── css/main.css           # Site styles
 ├── js/
@@ -190,7 +190,7 @@ Change the password in **Admin → Site Settings → Admin Password**. The new p
 |---------|-----------------|
 | **Dashboard** | Stats, quick actions, recent motorcycles |
 | **Motorcycles** | Add, edit, delete bikes and spec sections |
-| **Wiki Pages** | Manage reference articles |
+| **Reference** | Manage reference articles |
 | **Advertisements** | Configure ad slots |
 | **Site Settings** | Title, tagline, footer, password |
 | **Export / Import** | Download/upload JSON files |
@@ -618,7 +618,7 @@ The site is responsive across screen sizes:
 
 ### Mobile navigation
 
-On phones, tap the **☰ menu button** (top right) to open Home / Browse / Pages links.
+On phones, tap the **☰ menu button** (top right) to open Home / Browse / Reference links.
 
 ### Touch-friendly
 
