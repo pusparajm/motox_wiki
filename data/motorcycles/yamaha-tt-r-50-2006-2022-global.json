@@ -8,12 +8,13 @@
     "model_group": "yamaha-tt-r-50",
     "category": "Naked",
     "displacement": "50 cc",
-    "summary": "Yamaha TT-R 50 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Yamaha TT-R 50 (2006–2022). 58 kg. Some specifications are still being compiled.",
     "tags": [
       "yamaha",
       "tt-r-50",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,39 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "50 cc"
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Swingarm"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Mechanical leading trailing drum brake"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Mechanical leading trailing drum brake"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "555 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "58 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "3.1 L"
           },
           {
             "key": "model_years",
@@ -34,13 +65,38 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.8 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "13 N·m (9.6 lb·ft)"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "420 pitch, 80 links"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 3,000 km (1,900 miles) or 6 months or 90 hours"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -49,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

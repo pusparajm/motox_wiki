@@ -8,12 +8,13 @@
     "model_group": "ktm-rc-390-upgrade-ds",
     "category": "Sport",
     "displacement": "390 cc",
-    "summary": "KTM RC 390 Upgrade DS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "KTM RC 390 Upgrade DS (2014–2022). 125 cc. Some specifications are still being compiled.",
     "tags": [
       "ktm",
       "rc-390-upgrade-ds",
       "sport",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,44 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "125 cc water cooling, permanent circulation of coolant by water pump-cooled"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "390 cc"
+            "value": "125 cc"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-gear transmission, claw shifted, Chain drive"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Disc brake with 4-piston brake caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Disc brake with single-pot brake caliper, floating"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70 ZR 17 M/C 54W TL front, 150/60 ZR 17 M/C 66W TL rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "824 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13.7 L"
           },
           {
             "key": "model_years",
@@ -34,13 +70,53 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.5 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 15W/50"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF155"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "BOSCH VR6NEU"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 pitch, 118 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.46 litres (0.49 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 / DOT 5.1"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 7,500 km (4,700 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +130,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

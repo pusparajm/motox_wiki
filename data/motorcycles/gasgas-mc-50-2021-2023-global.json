@@ -8,12 +8,13 @@
     "model_group": "gasgas-mc-50",
     "category": "Naked",
     "displacement": "50 cc",
-    "summary": "GasGas MC 50 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "GasGas MC 50 (2021–Present). 49 cc. Some specifications are still being compiled.",
     "tags": [
       "gasgas",
       "mc-50",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,54 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "49 cc liquid-cooled Single cylinder, two-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "50 cc"
+            "value": "49 cc"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Automatic, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "XACT 35 WP Upside-Down fork, Ø 35 mm, 205 mm (8.1 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "XACT WP mono shock, 185 mm (7.3 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "60/100-14 front, 80/100-12 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "665 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "2.3 L"
           },
           {
             "key": "model_years",
@@ -34,13 +80,18 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "1/2 x 3/16´ chain"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

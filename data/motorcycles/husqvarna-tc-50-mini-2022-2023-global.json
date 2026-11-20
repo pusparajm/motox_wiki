@@ -8,12 +8,13 @@
     "model_group": "husqvarna-tc-50-mini",
     "category": "Motocross",
     "displacement": "50 cc",
-    "summary": "Husqvarna TC 50 Mini brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Husqvarna TC 50 Mini (2022–Present). 49 cc. Some specifications are still being compiled.",
     "tags": [
       "husqvarna",
       "tc-50-mini",
       "motocross",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,49 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "49 cc liquid-cooled Single cylinder, two-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "50 cc"
+            "value": "49 cc"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Automatic, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "XACT 35 WP Upside-Down fork, Ø 35 mm, 205 mm (8.1 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "XACT WP PDS mono shock, 185 mm (7.3 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Hydraulic, wave disk"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Hydraulic, wave disk"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "665 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "2.3 L"
           },
           {
             "key": "model_years",
@@ -34,13 +75,38 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.9 L"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "0.7 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Single-speed automatic. 1/2 x 3/16´ cahin."
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.23-0.24 litres (0.24-0.25 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

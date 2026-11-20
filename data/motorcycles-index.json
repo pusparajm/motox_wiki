@@ -13143,11 +13143,17 @@
         "aprilia",
         "sr-50-motard",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Aprilia SR 50 Motard brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Aprilia SR 50 Motard (2018–2022). 49.9 cc, 4.6 hp, 3.8 Nm, 820 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "aprilia-sr-50-motard",
+      "engine": "49.9 cc air-cooled Single cylinder, four-stroke",
+      "power": "4.6 hp @ 9,500 rpm",
+      "torque": "3.8 Nm @ 8,000 rpm",
+      "seat_height": "820 mm",
+      "fuel_capacity": "7 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -13311,11 +13317,18 @@
         "aprilia",
         "sxr-50",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Aprilia SXR 50 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Aprilia SXR 50 (2021–Present). 49 cc, 3.2 hp, 3.3 Nm, 108 kg, 775 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "aprilia-sxr-50",
+      "engine": "49 cc Single cylinder, four-stroke",
+      "power": "3.2 hp @ 7,000 rpm",
+      "torque": "3.3 Nm @ 6,250 rpm",
+      "weight": "108 kg",
+      "seat_height": "775 mm",
+      "fuel_capacity": "7 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -13416,13 +13429,18 @@
         "aprilia",
         "sr-125-gt",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Aprilia SR 125 GT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Aprilia SR 125 GT (2021–Present). 12 Nm, 115 kg, 799 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "aprilia-sr-125-gt",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "12 Nm @ 6,500 rpm",
+      "weight": "115 kg",
+      "seat_height": "799 mm",
+      "fuel_capacity": "9 L",
+      "oil_capacity": "1.3 L",
+      "oil_type": "0W-30",
       "aliases": []
     },
     {
@@ -13500,11 +13518,16 @@
         "aprilia",
         "sxr-160",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Aprilia SXR 160 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Aprilia SXR 160 (2021–Present). 11.6 Nm, 129 kg, 775 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "aprilia-sxr-160",
+      "torque": "11.6 Nm @ 6,000 rpm",
+      "weight": "129 kg",
+      "seat_height": "775 mm",
+      "fuel_capacity": "7 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -13542,13 +13565,18 @@
         "aprilia",
         "sr-200-gt",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Aprilia SR 200 GT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Aprilia SR 200 GT (2021–Present). 16.5 Nm, 116 kg, 799 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "aprilia-sr-200-gt",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "16.5 Nm @ 7,000 rpm",
+      "weight": "116 kg",
+      "seat_height": "799 mm",
+      "fuel_capacity": "9 L",
+      "oil_capacity": "1.3 L",
+      "oil_type": "0W-30",
       "aliases": []
     },
     {
@@ -14405,11 +14433,18 @@
         "aprilia",
         "rsv4-rf-1000",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Aprilia RSV4-RF 1000 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Aprilia RSV4-RF 1000 (2015–2020). 1099 cc, 217 hp, 125 Nm, 202 kg, 845 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "aprilia-rsv4-rf-1000",
+      "engine": "1099 cc liquid-cooled V4, four-stroke",
+      "power": "217 hp @ 13,000 rpm",
+      "torque": "125 Nm @ 10,500 rpm",
+      "weight": "202 kg",
+      "seat_height": "845 mm",
+      "fuel_capacity": "18.5 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -14429,11 +14464,18 @@
         "aprilia",
         "rsv4-rr-1000",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Aprilia RSV4-RR 1000 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Aprilia RSV4-RR 1000 (2015–2020). 1099 cc, 217 hp, 125 Nm, 202 kg, 845 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "aprilia-rsv4-rr-1000",
+      "engine": "1099 cc liquid-cooled V4, four-stroke",
+      "power": "217 hp @ 13,000 rpm",
+      "torque": "125 Nm @ 10,500 rpm",
+      "weight": "202 kg",
+      "seat_height": "845 mm",
+      "fuel_capacity": "18.5 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -15392,11 +15434,18 @@
         "benelli",
         "bkx-250",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Benelli BKX 250 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Benelli BKX 250 (2023). 249.2 cc, 25.5 hp, 21.1 Nm, 165 kg, 835 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "benelli-bkx-250",
+      "engine": "249.2 cc liquid-cooled Single cylinder, four-stroke",
+      "power": "25.5 hp @ 9,250 rpm",
+      "torque": "21.1 Nm @ 8,000 rpm",
+      "weight": "165 kg",
+      "seat_height": "835 mm",
+      "fuel_capacity": "13.5 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -15415,11 +15464,18 @@
         "benelli",
         "bkx-250-s",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Benelli BKX 250 S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Benelli BKX 250 S (2023). 249.2 cc, 25.5 hp, 21.1 Nm, 165 kg, 835 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "benelli-bkx-250-s",
+      "engine": "249.2 cc liquid-cooled Single cylinder, four-stroke",
+      "power": "25.5 hp @ 9,250 rpm",
+      "torque": "21.1 Nm @ 8,000 rpm",
+      "weight": "165 kg",
+      "seat_height": "835 mm",
+      "fuel_capacity": "13.5 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -15650,11 +15706,17 @@
         "benelli",
         "t-600-tornado-naked",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Benelli T 600 Tornado Naked brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Benelli T 600 Tornado Naked (2020). 599.6 cc, 67.1 hp, 48 Nm, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "benelli-t-600-tornado-naked",
+      "engine": "599.6 cc liquid-cooled In-line four, four-stroke",
+      "power": "67.1 hp @ 11,000 rpm",
+      "torque": "48 Nm @ 9,000 rpm",
+      "seat_height": "800 mm",
+      "fuel_capacity": "15 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -15713,13 +15775,17 @@
         "benelli",
         "752-s",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Benelli 752 S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Benelli 752 S (2020–Present). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "benelli-752-s",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "67 Nm @ 6500 rpm",
+      "seat_height": "810 mm",
+      "fuel_capacity": "14.5 L",
+      "oil_capacity": "2.5 L",
+      "oil_type": "10W-50",
       "aliases": []
     },
     {
@@ -16576,13 +16642,17 @@
         "beta",
         "alp-200-4-stroke",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Beta ALP 200 4-stroke brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Beta ALP 200 4-stroke (2000–2020). 199 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "beta-alp-200-4-stroke",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "199 cc air-cooled Single cylinder, four-stroke",
+      "seat_height": "830 mm",
+      "fuel_capacity": "6 L",
+      "oil_capacity": "0.95 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -17416,11 +17486,16 @@
         "bimota",
         "bx-450",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Bimota BX 450 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Bimota BX 450 (2023). 449 cc, 105 hp, 110.2 kg. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "bimota-bx-450",
+      "engine": "449 cc liquid-cooled Single cylinder, four-stroke",
+      "power": "105 hp @ 9,300 rpm",
+      "weight": "110.2 kg",
+      "fuel_capacity": "10.7 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -17878,12 +17953,16 @@
         "bimota",
         "kb4-1000",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Bimota KB4 1000 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Bimota KB4 1000 (2023). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "bimota-kb4-1000",
-      "oil_capacity": "",
+      "torque": "111 Nm @ 8000 rpm",
+      "seat_height": "810 mm",
+      "fuel_capacity": "19.5 L",
+      "oil_capacity": "3.8 L",
       "oil_type": "",
       "aliases": []
     },
@@ -17899,12 +17978,16 @@
         "bimota",
         "kb4-1000-rc",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Bimota KB4 1000 RC brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Bimota KB4 1000 RC (2023). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "bimota-kb4-1000-rc",
-      "oil_capacity": "",
+      "torque": "111 Nm @ 8000 rpm",
+      "seat_height": "810 mm",
+      "fuel_capacity": "19.5 L",
+      "oil_capacity": "3.8 L",
       "oil_type": "",
       "aliases": []
     },
@@ -19189,13 +19272,19 @@
         "bmw",
         "f-800-gt",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "BMW F 800 GT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "BMW F 800 GT (2013–2020). 798 cc, 66 kW, 86 Nm, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "bmw-f-800-gt",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "798 cc liquid-cooled",
+      "power": "66 kW @ 8,000 rpm",
+      "torque": "86 Nm @ 5,800 rpm",
+      "seat_height": "800 mm",
+      "fuel_capacity": "15 L",
+      "oil_capacity": "3 L",
+      "oil_type": "SAE 15W-50, API SJ / JASO MA2",
       "aliases": [
         "bmw motorrad",
         "f 800",
@@ -20121,13 +20210,20 @@
         "bmw",
         "s-1000-rr-hayes-cal",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "BMW S 1000 RR (Hayes cal.) brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "BMW S 1000 RR (Hayes cal.) (2019–2021). 999 cc, 205 hp, 112.6 Nm, 196.9 kg, 833 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "bmw-s-1000-rr-hayes-cal",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "999 cc liquid-cooled In-line four, four-stroke",
+      "power": "205 hp @ 13,000 rpm",
+      "torque": "112.6 Nm @ 11,000 rpm",
+      "weight": "196.9 kg",
+      "seat_height": "833 mm",
+      "fuel_capacity": "17 L",
+      "oil_capacity": "4 L",
+      "oil_type": "SAE 5W-40, API SJ",
       "aliases": [
         "bmw motorrad",
         "double r",
@@ -21344,13 +21440,18 @@
         "bmw",
         "r-1250-rt-sport",
         "commuter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "BMW R 1250 RT Sport brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "BMW R 1250 RT Sport (2019–2020). 1254 cc, 143 Nm, 805 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "bmw-r-1250-rt-sport",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1254 cc liquid-cooled",
+      "torque": "143 Nm @ 6,250 rpm",
+      "seat_height": "805 mm",
+      "fuel_capacity": "25 L",
+      "oil_capacity": "4 L",
+      "oil_type": "SAE 5W-40, API SL",
       "aliases": [
         "bmw motorrad"
       ]
@@ -23844,13 +23945,19 @@
         "cfmoto",
         "700-cl-x-heritage",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "CFMOTO 700 CL-X Heritage brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "CFMOTO 700 CL-X Heritage (2022). 693 cc, 70.1 hp, 60.9 Nm, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "cfmoto-700-cl-x-heritage",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "693 cc liquid-cooled Twin, four-stroke",
+      "power": "70.1 hp @ 8,750 rpm",
+      "torque": "60.9 Nm @ 6,500 rpm",
+      "seat_height": "800 mm",
+      "fuel_capacity": "13 L",
+      "oil_capacity": "2.2 L",
+      "oil_type": "10W-40",
       "aliases": [
         "cf moto",
         "heritage"
@@ -23868,13 +23975,19 @@
         "cfmoto",
         "700-cl-x-sport",
         "commuter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "CFMOTO 700 CL-X Sport brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "CFMOTO 700 CL-X Sport (2022). 693 cc, 70.1 hp, 60.9 Nm, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "cfmoto-700-cl-x-sport",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "693 cc liquid-cooled Twin, four-stroke",
+      "power": "70.1 hp @ 8,750 rpm",
+      "torque": "60.9 Nm @ 6,500 rpm",
+      "seat_height": "800 mm",
+      "fuel_capacity": "13 L",
+      "oil_capacity": "2.2 L",
+      "oil_type": "10W-40",
       "aliases": [
         "cf moto"
       ]
@@ -23891,11 +24004,16 @@
         "cfmoto",
         "800-mt-sport",
         "commuter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "CFMOTO 800 MT Sport brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "CFMOTO 800 MT Sport (2022). 75 Nm, 231 kg, 825 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "cfmoto-800-mt-sport",
+      "torque": "75 Nm @ 8,000 rpm",
+      "weight": "231 kg",
+      "seat_height": "825 mm",
+      "fuel_capacity": "19 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -23914,11 +24032,18 @@
         "cfmoto",
         "800-mt-touring",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "CFMOTO 800 MT Touring brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "CFMOTO 800 MT Touring (2022). 799 cc, 89.9 hp, 75 Nm, 231 kg, 825 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "cfmoto-800-mt-touring",
+      "engine": "799 cc liquid-cooled Twin, four-stroke",
+      "power": "89.9 hp @ 9,250 rpm",
+      "torque": "75 Nm @ 8,000 rpm",
+      "weight": "231 kg",
+      "seat_height": "825 mm",
+      "fuel_capacity": "19 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -27430,12 +27555,17 @@
         "ducati",
         "797-monster",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 797 Monster brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 797 Monster (2017–2021). 93 Nm, 188 kg, 775 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ducati-797-monster",
-      "oil_capacity": "",
+      "torque": "93 Nm @ 6,500 rpm",
+      "weight": "188 kg",
+      "seat_height": "775 mm",
+      "fuel_capacity": "14 L",
+      "oil_capacity": "3.1 L",
       "oil_type": "",
       "aliases": [
         "monster"
@@ -28016,12 +28146,17 @@
         "ducati",
         "821-monster-stealth",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 821 Monster Stealth brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 821 Monster Stealth (2019–2021). 93 Nm, 188 kg, 775 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ducati-821-monster-stealth",
-      "oil_capacity": "",
+      "torque": "93 Nm @ 6,500 rpm",
+      "weight": "188 kg",
+      "seat_height": "775 mm",
+      "fuel_capacity": "14 L",
+      "oil_capacity": "3.1 L",
       "oil_type": "",
       "aliases": [
         "monster"
@@ -28889,12 +29024,16 @@
         "ducati",
         "939-supersport",
         "supersport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 939 SuperSport brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 939 SuperSport (2017–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "ducati-939-supersport",
-      "oil_capacity": "",
+      "torque": "93 Nm @ 6500 rpm",
+      "seat_height": "810 mm",
+      "fuel_capacity": "16 L",
+      "oil_capacity": "3.2 L",
       "oil_type": "",
       "aliases": [
         "supersport"
@@ -28912,12 +29051,16 @@
         "ducati",
         "939-supersport-s",
         "supersport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 939 SuperSport S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 939 SuperSport S (2017–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "ducati-939-supersport-s",
-      "oil_capacity": "",
+      "torque": "93 Nm @ 6500 rpm",
+      "seat_height": "810 mm",
+      "fuel_capacity": "16 L",
+      "oil_capacity": "3.2 L",
       "oil_type": "",
       "aliases": [
         "supersport"
@@ -29119,12 +29262,18 @@
         "ducati",
         "959-panigale-corse",
         "supersport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 959 Panigale Corse brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 959 Panigale Corse (2018–2020). 955 cc, 150 hp, 102 Nm, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ducati-959-panigale-corse",
-      "oil_capacity": "",
+      "engine": "955 cc liquid-cooled V2, four-stroke",
+      "power": "150 hp @ 10,500 rpm",
+      "torque": "102 Nm @ 9,000 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "17 L",
+      "oil_capacity": "3.8 L",
       "oil_type": "",
       "aliases": [
         "panigale"
@@ -29461,11 +29610,18 @@
         "ducati",
         "998-superleggera-v4",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 998 Superleggera V4 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 998 Superleggera V4 (2020–Present). 998 cc, 224 hp, 116 Nm, 167 kg, 835 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ducati-998-superleggera-v4",
+      "engine": "998 cc liquid-cooled V4, four-stroke",
+      "power": "224 hp @ 15,250 rpm",
+      "torque": "116 Nm @ 11,750 rpm",
+      "weight": "167 kg",
+      "seat_height": "835 mm",
+      "fuel_capacity": "16 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -30597,12 +30753,19 @@
         "ducati",
         "1103-panigale-v4-sp",
         "supersport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 1103 Panigale V4 SP brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 1103 Panigale V4 SP (2021). 1103 cc, 215.5 hp, 123.6 Nm, 198.5 kg, 850 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ducati-1103-panigale-v4-sp",
-      "oil_capacity": "",
+      "engine": "1103 cc liquid-cooled V4, four-stroke",
+      "power": "215.5 hp @ 13,000 rpm",
+      "torque": "123.6 Nm @ 9,500 rpm",
+      "weight": "198.5 kg",
+      "seat_height": "850 mm",
+      "fuel_capacity": "17 L",
+      "oil_capacity": "3.4 L",
       "oil_type": "",
       "aliases": [
         "panigale"
@@ -31102,12 +31265,17 @@
         "ducati",
         "1200-monster-s",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 1200 Monster S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 1200 Monster S (2014–2021). 93 Nm, 188 kg, 775 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ducati-1200-monster-s",
-      "oil_capacity": "",
+      "torque": "93 Nm @ 6,500 rpm",
+      "weight": "188 kg",
+      "seat_height": "775 mm",
+      "fuel_capacity": "14 L",
+      "oil_capacity": "3.1 L",
       "oil_type": "",
       "aliases": [
         "monster"
@@ -31366,12 +31534,17 @@
         "ducati",
         "1260-diavel",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 1260 Diavel brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 1260 Diavel (2019–2022). 129.5 Nm, 249 kg, 780 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ducati-1260-diavel",
-      "oil_capacity": "",
+      "torque": "129.5 Nm @ 7,500 rpm",
+      "weight": "249 kg",
+      "seat_height": "780 mm",
+      "fuel_capacity": "17 L",
+      "oil_capacity": "4.2 L",
       "oil_type": "",
       "aliases": [
         "diavel"
@@ -31389,12 +31562,19 @@
         "ducati",
         "1260-diavel-s",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 1260 Diavel S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 1260 Diavel S (2019–2022). 1262 cc, 162 hp, 129 Nm, 247 kg, 780 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ducati-1260-diavel-s",
-      "oil_capacity": "",
+      "engine": "1262 cc liquid-cooled V2, four-stroke",
+      "power": "162 hp @ 9,500 rpm",
+      "torque": "129 Nm @ 7,500 rpm",
+      "weight": "247 kg",
+      "seat_height": "780 mm",
+      "fuel_capacity": "17 L",
+      "oil_capacity": "4.2 L",
       "oil_type": "",
       "aliases": [
         "diavel"
@@ -31556,13 +31736,18 @@
         "ducati",
         "1262-xdiavel-dark",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 1262 Xdiavel Dark brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 1262 Xdiavel Dark (2022–Present). 1262 cc, 152 hp, 126 Nm, 755 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ducati-1262-xdiavel-dark",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1262 cc V2, four-stroke",
+      "power": "152 hp @ 9,500 rpm",
+      "torque": "126 Nm @ 5,000 rpm",
+      "seat_height": "755 mm",
+      "oil_capacity": "4.4 L",
+      "oil_type": "15W-50",
       "aliases": [
         "diavel",
         "x diavel",
@@ -31652,11 +31837,18 @@
         "ducati",
         "1299-panigale-r-final-edition",
         "supersport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Ducati 1299 Panigale R Final Edition brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Ducati 1299 Panigale R Final Edition (2017–2020). 1285 cc, 209 hp, 142 Nm, 190 kg, 830 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ducati-1299-panigale-r-final-edition",
+      "engine": "1285 cc liquid-cooled V2, four-stroke",
+      "power": "209 hp @ 11,000 rpm",
+      "torque": "142 Nm @ 9,000 rpm",
+      "weight": "190 kg",
+      "seat_height": "830 mm",
+      "fuel_capacity": "17 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -31805,11 +31997,16 @@
         "energica",
         "ego",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Energica Ego brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Energica Ego (2015–2021). 147.0 hp (107.3 kW)), 222 Nm, 259.9 kg, 810 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "energica-ego",
+      "power": "147.0 hp (107.3 kW))",
+      "torque": "222 Nm @ 8,211 rpm",
+      "weight": "259.9 kg",
+      "seat_height": "810 mm",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -32826,11 +33023,15 @@
         "gasgas",
         "mc-e-5",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "GasGas MC E 5 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "GasGas MC E 5 (2021–Present). 2.7 hp @ 3200 rpm. Some specifications are still being compiled.",
       "published": true,
       "model_group": "gasgas-mc-e-5",
+      "power": "2.7 hp @ 3200 rpm",
+      "torque": "13.8 Nm (1.4 kgf-m or 10.2 ft.lbs)",
+      "seat_height": "665 mm",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -32868,11 +33069,15 @@
         "gasgas",
         "mc-50",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "GasGas MC 50 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "GasGas MC 50 (2021–Present). 49 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "gasgas-mc-50",
+      "engine": "49 cc liquid-cooled Single cylinder, two-stroke",
+      "seat_height": "665 mm",
+      "fuel_capacity": "2.3 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -33561,11 +33766,15 @@
         "gasgas",
         "ec-250-f",
         "enduro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "GasGas EC 250 F brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "GasGas EC 250 F (2021–Present). 249.9 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "gasgas-ec-250-f",
+      "engine": "249.9 cc liquid-cooled Single cylinder, four-stroke",
+      "seat_height": "960 mm",
+      "fuel_capacity": "8.5 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -34338,11 +34547,15 @@
         "gasgas",
         "mc-350-f",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "GasGas MC 350 F brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "GasGas MC 350 F (2022–Present). 349.7 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "gasgas-mc-350-f",
+      "engine": "349.7 cc liquid-cooled Single cylinder, four-stroke",
+      "seat_height": "950 mm",
+      "fuel_capacity": "7 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -35605,11 +35818,16 @@
         "harley-davidson",
         "livewire",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson Livewire brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson Livewire (2019–2021). 105.0 hp (76.6 kW)), 116.6 Nm (11.9 kgf-m or 86.0 ft.lbs), 249 kg, 762 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-livewire",
+      "power": "105.0 hp (76.6 kW))",
+      "torque": "116.6 Nm (11.9 kgf-m or 86.0 ft.lbs)",
+      "weight": "249 kg",
+      "seat_height": "762 mm",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -35797,12 +36015,16 @@
         "harley-davidson",
         "xg-750-street-rod",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson XG 750 Street Rod brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson XG 750 Street Rod (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "harley-davidson-xg-750-street-rod",
-      "oil_capacity": "",
+      "torque": "65 Nm @ 4000 rpm",
+      "seat_height": "765 mm",
+      "fuel_capacity": "13.25 L",
+      "oil_capacity": "3.1 L",
       "oil_type": "",
       "aliases": [
         "harley",
@@ -35895,12 +36117,17 @@
         "harley-davidson",
         "xl-883-n-iron",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson XL 883 N Iron brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson XL 883 N Iron (2013–2022). 75 Nm, 256.3 kg, 653 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-xl-883-n-iron",
-      "oil_capacity": "",
+      "torque": "75 Nm @ 3,500 rpm",
+      "weight": "256.3 kg",
+      "seat_height": "653 mm",
+      "fuel_capacity": "12.49 L",
+      "oil_capacity": "2.8 L",
       "oil_type": "",
       "aliases": [
         "harley",
@@ -36118,11 +36345,15 @@
         "harley-davidson",
         "975-bronx",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson 975 Bronx brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson 975 Bronx (2020–2021). 975 cc, 115.0 hp (83.9 kW)). Some specifications are still being compiled.",
       "published": true,
       "model_group": "harley-davidson-975-bronx",
+      "engine": "975 cc liquid-cooled V2, four-stroke",
+      "power": "115.0 hp (83.9 kW))",
+      "torque": "96.3 Nm (9.8 kgf-m or 71.0 ft.lbs)",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -36897,12 +37128,18 @@
         "harley-davidson",
         "xl-1200-roadster",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson XL 1200 Roadster brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson XL 1200 Roadster (2018–2020). 1202 cc, 67 hp, 103.1 Nm, 785 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-xl-1200-roadster",
-      "oil_capacity": "",
+      "engine": "1202 cc air-cooled V2, four-stroke",
+      "power": "67 hp @ 6,000 rpm",
+      "torque": "103.1 Nm @ 3,750 rpm",
+      "seat_height": "785 mm",
+      "fuel_capacity": "12.5 L",
+      "oil_capacity": "2.6 L",
       "oil_type": "",
       "aliases": [
         "harley",
@@ -37019,13 +37256,20 @@
         "harley-davidson",
         "xl-1200-x-forty-eight",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson XL 1200 X Forty-Eight brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson XL 1200 X Forty-Eight (2011–2022). 1202 cc, 65 hp, 99 Nm, 252 kg, 665 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-xl-1200-x-forty-eight",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1202 cc air-cooled V2, four-stroke",
+      "power": "65 hp @ 6,000 rpm",
+      "torque": "99 Nm @ 3,500 rpm",
+      "weight": "252 kg",
+      "seat_height": "665 mm",
+      "fuel_capacity": "7.9 L",
+      "oil_capacity": "3.8 L",
+      "oil_type": "20W-50",
       "aliases": [
         "48",
         "forty eight",
@@ -37045,13 +37289,20 @@
         "harley-davidson",
         "xl-1200-x-forty-eight-spec",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson XL 1200 X Forty-Eight Spec. brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson XL 1200 X Forty-Eight Spec. (2019–2020). 1202 cc, 65 hp, 99 Nm, 252 kg, 665 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-xl-1200-x-forty-eight-spec",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1202 cc air-cooled V2, four-stroke",
+      "power": "65 hp @ 6,000 rpm",
+      "torque": "99 Nm @ 3,500 rpm",
+      "weight": "252 kg",
+      "seat_height": "665 mm",
+      "fuel_capacity": "7.9 L",
+      "oil_capacity": "3.8 L",
+      "oil_type": "20W-50",
       "aliases": [
         "48",
         "forty eight",
@@ -41102,13 +41353,18 @@
         "harley-davidson",
         "flfb-1750-fat-boy",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson FLFB 1750 Fat Boy brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson FLFB 1750 Fat Boy (2018–2020). 161.4 Nm, 317.1 kg, 658 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-flfb-1750-fat-boy",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "161.4 Nm @ 3,000 rpm",
+      "weight": "317.1 kg",
+      "seat_height": "658 mm",
+      "fuel_capacity": "18.93 L",
+      "oil_capacity": "4.7 L",
+      "oil_type": "20W-50",
       "aliases": [
         "fat boy",
         "fatboy",
@@ -41154,13 +41410,18 @@
         "harley-davidson",
         "flhr-1750-road-king",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson FLHR 1750 Road King brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson FLHR 1750 Road King (2017–2022). 150.5 Nm, 375.6 kg, 668 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-flhr-1750-road-king",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "150.5 Nm @ 3,250 rpm",
+      "weight": "375.6 kg",
+      "seat_height": "668 mm",
+      "fuel_capacity": "22.71 L",
+      "oil_capacity": "4.9 L",
+      "oil_type": "20W-50",
       "aliases": [
         "harley",
         "hd",
@@ -41230,13 +41491,20 @@
         "harley-davidson",
         "flht-1750-electra-glide-standard",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson FLHT 1750 Electra Glide Standard brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson FLHT 1750 Electra Glide Standard (2019–2022). 1746 cc, 90 hp, 150.5 Nm, 372 kg, 663 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-flht-1750-electra-glide-standard",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1746 cc oil & air-cooled V2, four-stroke",
+      "power": "90 hp @ 5,450 rpm",
+      "torque": "150.5 Nm @ 3,250 rpm",
+      "weight": "372 kg",
+      "seat_height": "663 mm",
+      "fuel_capacity": "22.71 L",
+      "oil_capacity": "4.9 L",
+      "oil_type": "20W-50",
       "aliases": [
         "harley",
         "hd"
@@ -41450,13 +41718,17 @@
         "harley-davidson",
         "flsb-1750-sport-glide",
         "commuter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson FLSB 1750 Sport Glide brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson FLSB 1750 Sport Glide (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "harley-davidson-flsb-1750-sport-glide",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "146.5 Nm @ 2750 rpm",
+      "seat_height": "653 mm",
+      "fuel_capacity": "18.93 L",
+      "oil_capacity": "4.7 L",
+      "oil_type": "20W-50",
       "aliases": [
         "harley",
         "hd"
@@ -41474,13 +41746,18 @@
         "harley-davidson",
         "flsl-1750-softail-slim",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson FLSL 1750 Softail Slim brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson FLSL 1750 Softail Slim (2018–2020). 149.2 Nm, 304.4 kg, 648 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-flsl-1750-softail-slim",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "149.2 Nm @ 3,000 rpm",
+      "weight": "304.4 kg",
+      "seat_height": "648 mm",
+      "fuel_capacity": "18.9 L",
+      "oil_capacity": "4.7 L",
+      "oil_type": "20W-50",
       "aliases": [
         "harley",
         "hd"
@@ -41623,13 +41900,20 @@
         "harley-davidson",
         "fxfb-1750-fat-bob",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson FXFB 1750 Fat Bob brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson FXFB 1750 Fat Bob (2018–2020). 1868 cc, 94 hp, 160 Nm, 306.6 kg, 704 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-fxfb-1750-fat-bob",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1868 cc air-cooled V2, four-stroke",
+      "power": "94 hp @ 5,020 rpm",
+      "torque": "160 Nm @ 3,500 rpm",
+      "weight": "306.6 kg",
+      "seat_height": "704 mm",
+      "fuel_capacity": "13.6 L",
+      "oil_capacity": "4.7 L",
+      "oil_type": "20W-50",
       "aliases": [
         "harley",
         "hd"
@@ -41647,13 +41931,19 @@
         "harley-davidson",
         "fxlr-1750-low-rider",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson FXLR 1750 Low Rider brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson FXLR 1750 Low Rider (2018–2020). 1868.2 cc, 161.4 Nm, 308 kg, 673 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-fxlr-1750-low-rider",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1868.2 cc air-cooled V2, four-stroke",
+      "torque": "161.4 Nm @ 3,000 rpm",
+      "weight": "308 kg",
+      "seat_height": "673 mm",
+      "fuel_capacity": "18.9 L",
+      "oil_capacity": "4.7 L",
+      "oil_type": "20W-50",
       "aliases": [
         "harley",
         "hd",
@@ -42094,13 +42384,20 @@
         "harley-davidson",
         "fxbrs-1870-breakout",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson FXBRS 1870 Breakout brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson FXBRS 1870 Breakout (2018–2020). 1868 cc, 93 hp, 155 Nm, 305 kg, 665 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-fxbrs-1870-breakout",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1868 cc air-cooled V2, four-stroke",
+      "power": "93 hp @ 5,020 rpm",
+      "torque": "155 Nm @ 3,250 rpm",
+      "weight": "305 kg",
+      "seat_height": "665 mm",
+      "fuel_capacity": "13.2 L",
+      "oil_capacity": "3.3 L",
+      "oil_type": "20W-50",
       "aliases": [
         "breakout",
         "harley",
@@ -42143,13 +42440,19 @@
         "harley-davidson",
         "fxfbs-1870-fat-bob",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson FXFBS 1870 Fat Bob brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson FXFBS 1870 Fat Bob (2018–2022). 1868 cc, 94 hp, 160 Nm, 704 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "harley-davidson-fxfbs-1870-fat-bob",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1868 cc air-cooled V2, four-stroke",
+      "power": "94 hp @ 5,020 rpm",
+      "torque": "160 Nm @ 3,500 rpm",
+      "seat_height": "704 mm",
+      "fuel_capacity": "13.6 L",
+      "oil_capacity": "4.7 L",
+      "oil_type": "20W-50",
       "aliases": [
         "harley",
         "hd"
@@ -42167,13 +42470,17 @@
         "harley-davidson",
         "flhtcutgse-1917-cvo-tri-glide",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Harley-Davidson FLHTCUTGSE 1917 CVO Tri Glide brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Harley-Davidson FLHTCUTGSE 1917 CVO Tri Glide (2020–2022). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "harley-davidson-flhtcutgse-1917-cvo-tri-glide",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "169.5 Nm @ 3750 rpm",
+      "seat_height": "658 mm",
+      "fuel_capacity": "22.71 L",
+      "oil_capacity": "4.7 L",
+      "oil_type": "20W-50",
       "aliases": [
         "harley",
         "hd"
@@ -44010,13 +44317,19 @@
         "honda",
         "nsc-110-vision",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda NSC 110 Vision brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda NSC 110 Vision (2010–2020). 108 cc, 8.3 hp, 8.7 Nm, 778 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-nsc-110-vision",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "108 cc air-cooled Single cylinder, four-stroke",
+      "power": "8.3 hp @ 8,000 rpm",
+      "torque": "8.7 Nm @ 6,500 rpm",
+      "seat_height": "778 mm",
+      "fuel_capacity": "5.5 L",
+      "oil_capacity": "0.8 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -44346,11 +44659,15 @@
         "honda",
         "ct-125-trail",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CT 125 Trail brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CT 125 Trail (2021). 120 kg. Some specifications are still being compiled.",
       "published": true,
       "model_group": "honda-ct-125-trail",
+      "weight": "120 kg",
+      "seat_height": "800 mm",
+      "fuel_capacity": "5.3 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -44606,13 +44923,18 @@
         "honda",
         "sh-125",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda SH 125 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda SH 125 (2002–2020). 12 Nm, 133.9 kg, 799 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-sh-125",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "12 Nm @ 6,500 rpm",
+      "weight": "133.9 kg",
+      "seat_height": "799 mm",
+      "fuel_capacity": "7 L",
+      "oil_capacity": "1 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -44648,13 +44970,20 @@
         "honda",
         "sh-125-mode",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda SH 125 Mode brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda SH 125 Mode (2014–2020). 125 cc, 11.3 hp, 12 Nm, 116 kg, 765 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-sh-125-mode",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "125 cc liquid-cooled Single cylinder, four-stroke",
+      "power": "11.3 hp @ 8,750 rpm",
+      "torque": "12 Nm @ 5,000 rpm",
+      "weight": "116 kg",
+      "seat_height": "765 mm",
+      "fuel_capacity": "5.5 L",
+      "oil_capacity": "0.9 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -44944,13 +45273,17 @@
         "honda",
         "pcx-150",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda PCX 150 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda PCX 150 (2012–2020). 149 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "honda-pcx-150",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "149 cc liquid-cooled Single cylinder, four-stroke",
+      "seat_height": "765 mm",
+      "fuel_capacity": "7.95 L",
+      "oil_capacity": "0.8 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -45744,13 +46077,18 @@
         "honda",
         "cbr-250-rr",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CBR 250 RR brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CBR 250 RR (2017–2021). 22.9 Nm (2.3 kgf-m or 16.9 ft.lbs), 165 kg, 775 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-cbr-250-rr",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "22.9 Nm (2.3 kgf-m or 16.9 ft.lbs)",
+      "weight": "165 kg",
+      "seat_height": "775 mm",
+      "fuel_capacity": "13 L",
+      "oil_capacity": "2.1 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -46063,13 +46401,17 @@
         "honda",
         "crf-250-l-abs",
         "enduro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CRF 250 L ABS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CRF 250 L ABS (2017–2021). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "honda-crf-250-l-abs",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "22 Nm @ 7000 rpm",
+      "seat_height": "874 mm",
+      "fuel_capacity": "7.95 L",
+      "oil_capacity": "1.8 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -46672,11 +47014,18 @@
         "honda",
         "cbr-300-r",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CBR 300 R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CBR 300 R (2014–2021). 286 cc, 34.9 hp, 22.9 Nm (2.3 kgf-m or 16.9 ft.lbs), 160.6 kg, 780 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-cbr-300-r",
+      "engine": "286 cc liquid-cooled Single cylinder, four-stroke",
+      "power": "34.9 hp @ 10,500 rpm",
+      "torque": "22.9 Nm (2.3 kgf-m or 16.9 ft.lbs)",
+      "weight": "160.6 kg",
+      "seat_height": "780 mm",
+      "fuel_capacity": "12.87 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -46779,11 +47128,15 @@
         "honda",
         "cota-301-rr",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda Cota 301 RR brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda Cota 301 RR (2020–Present). 298 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "honda-cota-301-rr",
+      "engine": "298 cc liquid-cooled Single cylinder, four-stroke",
+      "seat_height": "678 mm",
+      "fuel_capacity": "1.89 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -46926,13 +47279,20 @@
         "honda",
         "sh-350",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda SH 350 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda SH 350 (2021–2022). 329.2 cc, 29 hp, 32 Nm, 172 kg, 805 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-sh-350",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "329.2 cc liquid-cooled Single cylinder, four-stroke",
+      "power": "29 hp @ 7,500 rpm",
+      "torque": "32 Nm @ 5,250 rpm",
+      "weight": "172 kg",
+      "seat_height": "805 mm",
+      "fuel_capacity": "9.1 L",
+      "oil_capacity": "1.9 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -47537,13 +47897,20 @@
         "honda",
         "crf-450-l",
         "enduro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CRF 450 L brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CRF 450 L (2019–2021). 449 cc, 53 hp, 48 Nm, 131.1 kg, 942 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-crf-450-l",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "449 cc liquid-cooled Single cylinder, four-stroke",
+      "power": "53 hp @ 9,000 rpm",
+      "torque": "48 Nm @ 7,000 rpm",
+      "weight": "131.1 kg",
+      "seat_height": "942 mm",
+      "fuel_capacity": "7.57 L",
+      "oil_capacity": "1.15 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -47705,13 +48072,20 @@
         "honda",
         "cmx-500-rebel",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CMX 500 Rebel brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CMX 500 Rebel (2017–2022). 471 cc, 45.6 hp, 43.3 Nm, 191 kg, 690 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-cmx-500-rebel",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "471 cc liquid-cooled Twin, four-stroke",
+      "power": "45.6 hp @ 8,500 rpm",
+      "torque": "43.3 Nm @ 6,000 rpm",
+      "weight": "191 kg",
+      "seat_height": "690 mm",
+      "fuel_capacity": "11.2 L",
+      "oil_capacity": "2.7 L",
+      "oil_type": "10W-40",
       "aliases": [
         "rebel"
       ]
@@ -47728,13 +48102,20 @@
         "honda",
         "cmx-500-rebel-s",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CMX 500 Rebel S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CMX 500 Rebel S (2020). 471 cc, 45.6 hp, 43.3 Nm, 191 kg, 690 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-cmx-500-rebel-s",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "471 cc liquid-cooled Twin, four-stroke",
+      "power": "45.6 hp @ 8,500 rpm",
+      "torque": "43.3 Nm @ 6,000 rpm",
+      "weight": "191 kg",
+      "seat_height": "690 mm",
+      "fuel_capacity": "11.2 L",
+      "oil_capacity": "2.7 L",
+      "oil_type": "10W-40",
       "aliases": [
         "rebel"
       ]
@@ -48654,13 +49035,20 @@
         "honda",
         "cb-650-r-neo-sports-cafe",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CB 650 R Neo Sports Cafe brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CB 650 R Neo Sports Cafe (2019–2021). 649 cc, 93.9 hp, 63 Nm, 202.5 kg, 810 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-cb-650-r-neo-sports-cafe",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "649 cc liquid-cooled In-line four, four-stroke",
+      "power": "93.9 hp @ 12,000 rpm",
+      "torque": "63 Nm @ 9,500 rpm",
+      "weight": "202.5 kg",
+      "seat_height": "810 mm",
+      "fuel_capacity": "15.4 L",
+      "oil_capacity": "2.4 L",
+      "oil_type": "SAE 10W-30, JASO T 903",
       "aliases": []
     },
     {
@@ -49434,13 +49822,20 @@
         "honda",
         "750-hornet",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda 750 Hornet brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda 750 Hornet (2023). 755 cc, 89.9 hp, 74 Nm, 190 kg, 795 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-750-hornet",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "755 cc liquid-cooled Twin, four-stroke",
+      "power": "89.9 hp @ 9,500 rpm",
+      "torque": "74 Nm @ 7,000 rpm",
+      "weight": "190 kg",
+      "seat_height": "795 mm",
+      "fuel_capacity": "15.2 L",
+      "oil_capacity": "2.7 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -49833,13 +50228,18 @@
         "honda",
         "nc-750-s-w-dct",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda NC 750 S w/DCT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda NC 750 S w/DCT (2014–2021). 68 Nm, 217 kg, 790 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-nc-750-s-w-dct",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "68 Nm @ 4,750 rpm",
+      "weight": "217 kg",
+      "seat_height": "790 mm",
+      "fuel_capacity": "14.1 L",
+      "oil_capacity": "3.7 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -50851,11 +51251,18 @@
         "honda",
         "sports",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda Sports brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda Sports (2018–2021). 109.5 cc, 7.7 hp, 9 Nm, 105 kg, 650 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-sports",
+      "engine": "109.5 cc air-cooled Single cylinder, four-stroke",
+      "power": "7.7 hp @ 8,000 rpm",
+      "torque": "9 Nm @ 4,750 rpm",
+      "weight": "105 kg",
+      "seat_height": "650 mm",
+      "fuel_capacity": "5.3 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -51094,13 +51501,18 @@
         "honda",
         "cb-1100",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CB 1100 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CB 1100 (2013–2021). 91 Nm, 252 kg, 795 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-cb-1100",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "91 Nm @ 5,500 rpm",
+      "weight": "252 kg",
+      "seat_height": "795 mm",
+      "fuel_capacity": "16.8 L",
+      "oil_capacity": "4.9 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -51115,13 +51527,18 @@
         "honda",
         "cb-1100-ex",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CB 1100 EX brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CB 1100 EX (2014–2021). 91.3 Nm, 255 kg, 792 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-cb-1100-ex",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "91.3 Nm @ 5,500 rpm",
+      "weight": "255 kg",
+      "seat_height": "792 mm",
+      "fuel_capacity": "16.8 L",
+      "oil_capacity": "4.9 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -51157,13 +51574,18 @@
         "honda",
         "cb-1100-rs-abs",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CB 1100 RS ABS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CB 1100 RS ABS (2017–2021). 91 Nm, 252 kg, 795 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-cb-1100-rs-abs",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "91 Nm @ 5,500 rpm",
+      "weight": "252 kg",
+      "seat_height": "795 mm",
+      "fuel_capacity": "16.8 L",
+      "oil_capacity": "4.9 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -51220,13 +51642,18 @@
         "honda",
         "cmx-1100-rebel",
         "cruiser",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda CMX 1100 Rebel brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda CMX 1100 Rebel (2021–2022). 98 Nm, 223 kg, 700 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-cmx-1100-rebel",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "98 Nm @ 4,750 rpm",
+      "weight": "223 kg",
+      "seat_height": "700 mm",
+      "fuel_capacity": "13.6 L",
+      "oil_capacity": "4.8 L",
+      "oil_type": "10W-40",
       "aliases": [
         "rebel"
       ]
@@ -51315,13 +51742,18 @@
         "honda",
         "nt-1100",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Honda NT 1100 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Honda NT 1100 (2022). 104 Nm, 238.1 kg, 820 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "honda-nt-1100",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "104 Nm @ 6,250 rpm",
+      "weight": "238.1 kg",
+      "seat_height": "820 mm",
+      "fuel_capacity": "20.4 L",
+      "oil_capacity": "4.8 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -53079,12 +53511,16 @@
         "husqvarna",
         "tc-50-mini",
         "motocross",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Husqvarna TC 50 Mini brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Husqvarna TC 50 Mini (2022–Present). 49 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "husqvarna-tc-50-mini",
-      "oil_capacity": "",
+      "engine": "49 cc liquid-cooled Single cylinder, two-stroke",
+      "seat_height": "665 mm",
+      "fuel_capacity": "2.3 L",
+      "oil_capacity": "0.9 L",
       "oil_type": "",
       "aliases": []
     },
@@ -53499,11 +53935,15 @@
         "husqvarna",
         "te-150-i",
         "enduro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Husqvarna TE 150 i brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Husqvarna TE 150 i (2020–Present). 144 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "husqvarna-te-150-i",
+      "engine": "144 cc liquid-cooled Single cylinder, two-stroke",
+      "seat_height": "950 mm",
+      "fuel_capacity": "9 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -54446,13 +54886,18 @@
         "husqvarna",
         "fs-450",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Husqvarna FS 450 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Husqvarna FS 450 (2015–2022). 449.9 cc, 63.0 hp (46.0 kW)), 898 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "husqvarna-fs-450",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "449.9 cc liquid-cooled Single cylinder, four-stroke",
+      "power": "63.0 hp (46.0 kW))",
+      "seat_height": "898 mm",
+      "fuel_capacity": "7.2 L",
+      "oil_capacity": "1.2 L",
+      "oil_type": "10W-50",
       "aliases": []
     },
     {
@@ -55265,13 +55710,17 @@
         "husqvarna",
         "701-vitpilen",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Husqvarna 701 Vitpilen brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Husqvarna 701 Vitpilen (2018–2020). 373 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "husqvarna-701-vitpilen",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "373 cc water cooling, permanent circulation of coolant by water pump-cooled",
+      "seat_height": "835 mm",
+      "fuel_capacity": "9.5 L",
+      "oil_capacity": "1.7 L",
+      "oil_type": "SAE 15W/50",
       "aliases": []
     },
     {
@@ -55286,13 +55735,17 @@
         "husqvarna",
         "fe-701-enduro",
         "enduro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Husqvarna FE 701 Enduro brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Husqvarna FE 701 Enduro (2017–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "husqvarna-fe-701-enduro",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "73.5 Nm @ 6500 rpm",
+      "seat_height": "920 mm",
+      "fuel_capacity": "13 L",
+      "oil_capacity": "1.7 L",
+      "oil_type": "10W-50",
       "aliases": []
     },
     {
@@ -55307,13 +55760,19 @@
         "husqvarna",
         "sm-701-supermoto",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Husqvarna SM 701 Supermoto brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Husqvarna SM 701 Supermoto (2015–2020). 692.7 cc, 73.8 hp, 74 Nm, 890 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "husqvarna-sm-701-supermoto",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "692.7 cc water cooling, permanent circulation of coolant by water pump-cooled Single cylinder, four-stroke",
+      "power": "73.8 hp @ 8,000 rpm",
+      "torque": "74 Nm @ 6,000 rpm",
+      "seat_height": "890 mm",
+      "fuel_capacity": "13 L",
+      "oil_capacity": "1.7 L",
+      "oil_type": "SAE 10W/50",
       "aliases": []
     },
     {
@@ -58809,11 +59268,15 @@
         "kawasaki",
         "kx-65",
         "motocross",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kawasaki KX 65 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kawasaki KX 65 (2000–2021). 60 kg. Some specifications are still being compiled.",
       "published": true,
       "model_group": "kawasaki-kx-65",
+      "weight": "60 kg",
+      "seat_height": "759 mm",
+      "fuel_capacity": "3.79 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -58997,11 +59460,16 @@
         "kawasaki",
         "kx-100",
         "motocross",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kawasaki KX 100 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kawasaki KX 100 (1988–2021). 99 cc, 77 kg, 871 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "kawasaki-kx-100",
+      "engine": "99 cc liquid-cooled Single cylinder, two-stroke",
+      "weight": "77 kg",
+      "seat_height": "871 mm",
+      "fuel_capacity": "5 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -63090,13 +63558,18 @@
         "kawasaki",
         "z-900-rs-cafe",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kawasaki Z 900 RS Cafe brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kawasaki Z 900 RS Cafe (2018–2021). 98 Nm, 215.1 kg, 836 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "kawasaki-z-900-rs-cafe",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "98 Nm @ 6,500 rpm",
+      "weight": "215.1 kg",
+      "seat_height": "836 mm",
+      "fuel_capacity": "17.03 L",
+      "oil_capacity": "3.8 L",
+      "oil_type": "10W-40",
       "aliases": [
         "kawi"
       ]
@@ -63625,11 +64098,18 @@
         "kawasaki",
         "z-1000-h2-se",
         "supersport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kawasaki Z 1000 H2 SE brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kawasaki Z 1000 H2 SE (2021–Present). 1043 cc, 140.1 hp, 111 Nm, 221 kg, 815 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "kawasaki-z-1000-h2-se",
+      "engine": "1043 cc liquid-cooled In-line four, four-stroke",
+      "power": "140.1 hp @ 10,000 rpm",
+      "torque": "111 Nm @ 7,300 rpm",
+      "weight": "221 kg",
+      "seat_height": "815 mm",
+      "fuel_capacity": "17 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -66751,13 +67231,17 @@
         "ktm",
         "rc4r-250",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "KTM RC4R 250 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "KTM RC4R 250 (2020). 125 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "ktm-rc4r-250",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "125 cc water cooling, permanent circulation of coolant by water pump-cooled",
+      "seat_height": "824 mm",
+      "fuel_capacity": "13.7 L",
+      "oil_capacity": "1.5 L",
+      "oil_type": "SAE 15W/50",
       "aliases": []
     },
     {
@@ -66965,11 +67449,15 @@
         "ktm",
         "sx-300",
         "motocross",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "KTM SX 300 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "KTM SX 300 (2023). 293.2 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "ktm-sx-300",
+      "engine": "293.2 cc liquid-cooled Single cylinder, two-stroke",
+      "seat_height": "958 mm",
+      "fuel_capacity": "7.2 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -67801,13 +68289,17 @@
         "ktm",
         "450-rally",
         "enduro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "KTM 450 Rally brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "KTM 450 Rally (2011–2022). 449.3 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "ktm-450-rally",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "449.3 cc water cooling, permanent circulation of coolant by water pump-cooled Single cylinder, four-stroke",
+      "seat_height": "960 mm",
+      "fuel_capacity": "8.5 L",
+      "oil_capacity": "1.4 L",
+      "oil_type": "SAE 10W/50",
       "aliases": [
         "450 rally"
       ]
@@ -69220,13 +69712,17 @@
         "ktm",
         "790-adventure-r",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "KTM 790 Adventure R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "KTM 790 Adventure R (2019–2020). 249 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "ktm-790-adventure-r",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "249 cc water cooling, permanent circulation of coolant by water pump-cooled",
+      "seat_height": "855 mm",
+      "fuel_capacity": "14.5 L",
+      "oil_capacity": "1.7 L",
+      "oil_type": "SAE 15W/50",
       "aliases": [
         "adv",
         "adventure"
@@ -69268,13 +69764,17 @@
         "ktm",
         "rc8-890-c",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "KTM RC8 890 C brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "KTM RC8 890 C (2022). 125 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "ktm-rc8-890-c",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "125 cc water cooling, permanent circulation of coolant by water pump-cooled",
+      "seat_height": "824 mm",
+      "fuel_capacity": "13.7 L",
+      "oil_capacity": "1.5 L",
+      "oil_type": "SAE 15W/50",
       "aliases": []
     },
     {
@@ -69814,13 +70314,19 @@
         "ktm",
         "1290-superduke-r-black",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "KTM 1290 Superduke R Black brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "KTM 1290 Superduke R Black (2020). 125 cc, 172.6 hp (126.0 kW)), 141.0 Nm (14.4 kgf-m or 104.0 ft.lbs), 810 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "ktm-1290-superduke-r-black",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "125 cc water cooling, permanent circulation of coolant by water pump-cooled V2, four-stroke",
+      "power": "172.6 hp (126.0 kW))",
+      "torque": "141.0 Nm (14.4 kgf-m or 104.0 ft.lbs)",
+      "seat_height": "810 mm",
+      "fuel_capacity": "11 L",
+      "oil_capacity": "1.5 L",
+      "oil_type": "SAE 15W/50",
       "aliases": [
         "duke"
       ]
@@ -70404,13 +70910,17 @@
         "kymco",
         "125-x-town-ct",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kymco 125 X-Town CT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kymco 125 X-Town CT (2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "kymco-125-x-town-ct",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "25 Nm @ 6250 rpm",
+      "seat_height": "800 mm",
+      "fuel_capacity": "12.5 L",
+      "oil_capacity": "1 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -70721,13 +71231,17 @@
         "kymco",
         "300-agility",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kymco 300 Agility+ brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kymco 300 Agility+ (2020–2022). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "kymco-300-agility",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "3.3 Nm @ 7000 rpm",
+      "seat_height": "737 mm",
+      "fuel_capacity": "1.3 L",
+      "oil_capacity": "0.95 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -70784,13 +71298,19 @@
         "kymco",
         "300-people-s",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kymco 300 People S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kymco 300 People S (2020). 149.8 cc, 13.5 hp, 12.3 Nm, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "kymco-300-people-s",
+      "engine": "149.8 cc air-cooled Single cylinder, four-stroke",
+      "power": "13.5 hp @ 8,500 rpm",
+      "torque": "12.3 Nm @ 7,000 rpm",
+      "seat_height": "800 mm",
+      "fuel_capacity": "9 L",
       "oil_capacity": "",
-      "oil_type": "",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -70828,13 +71348,17 @@
         "kymco",
         "300-x-town-ct",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kymco 300 X-Town CT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kymco 300 X-Town CT (2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "kymco-300-x-town-ct",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "25 Nm @ 6250 rpm",
+      "seat_height": "800 mm",
+      "fuel_capacity": "12.5 L",
+      "oil_capacity": "1 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -71006,13 +71530,17 @@
         "kymco",
         "ak-550-st",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Kymco AK 550 ST brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kymco AK 550 ST (2022–Present). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "kymco-ak-550-st",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "55.1 Nm @ 5500 rpm",
+      "seat_height": "785 mm",
+      "fuel_capacity": "15 L",
+      "oil_capacity": "3 L",
+      "oil_type": "10W-40",
       "aliases": [
         "ak 550",
         "ak550"
@@ -74604,13 +75132,17 @@
         "moto-guzzi",
         "v7-iii-750-milano",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Guzzi V7 III 750 Milano brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Guzzi V7 III 750 Milano (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "moto-guzzi-v7-iii-750-milano",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "73 Nm @ 5000 rpm",
+      "seat_height": "770 mm",
+      "fuel_capacity": "21 L",
+      "oil_capacity": "1.75 L",
+      "oil_type": "10W-60",
       "aliases": [
         "guzzi",
         "v7"
@@ -74628,13 +75160,17 @@
         "moto-guzzi",
         "v7-iii-750-racer",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Guzzi V7 III 750 Racer brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Guzzi V7 III 750 Racer (2017–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "moto-guzzi-v7-iii-750-racer",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "73 Nm @ 5000 rpm",
+      "seat_height": "770 mm",
+      "fuel_capacity": "21 L",
+      "oil_capacity": "1.75 L",
+      "oil_type": "10W-60",
       "aliases": [
         "guzzi",
         "v7"
@@ -74652,13 +75188,17 @@
         "moto-guzzi",
         "v7-iii-750-rough",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Guzzi V7 III 750 Rough brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Guzzi V7 III 750 Rough (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "moto-guzzi-v7-iii-750-rough",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "73 Nm @ 5000 rpm",
+      "seat_height": "770 mm",
+      "fuel_capacity": "21 L",
+      "oil_capacity": "1.75 L",
+      "oil_type": "10W-60",
       "aliases": [
         "guzzi",
         "v7"
@@ -74700,13 +75240,17 @@
         "moto-guzzi",
         "v7-iii-750-stone",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Guzzi V7 III 750 Stone brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Guzzi V7 III 750 Stone (2017–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "moto-guzzi-v7-iii-750-stone",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "73 Nm @ 5000 rpm",
+      "seat_height": "770 mm",
+      "fuel_capacity": "21 L",
+      "oil_capacity": "1.75 L",
+      "oil_type": "10W-60",
       "aliases": [
         "guzzi",
         "v7"
@@ -74957,13 +75501,17 @@
         "moto-guzzi",
         "v7-850-stone",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Guzzi V7 850 Stone brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Guzzi V7 850 Stone (2022–Present). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "moto-guzzi-v7-850-stone",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "73 Nm @ 5000 rpm",
+      "seat_height": "770 mm",
+      "fuel_capacity": "21 L",
+      "oil_capacity": "1.75 L",
+      "oil_type": "10W-60",
       "aliases": [
         "guzzi",
         "v7"
@@ -74981,13 +75529,17 @@
         "moto-guzzi",
         "v7-850-stone-fast-endurance",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Guzzi V7 850 Stone Fast Endurance brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Guzzi V7 850 Stone Fast Endurance (2022). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "moto-guzzi-v7-850-stone-fast-endurance",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "73 Nm @ 5000 rpm",
+      "seat_height": "770 mm",
+      "fuel_capacity": "21 L",
+      "oil_capacity": "1.75 L",
+      "oil_type": "10W-60",
       "aliases": [
         "guzzi",
         "v7"
@@ -75005,13 +75557,17 @@
         "moto-guzzi",
         "v7-850-stone-special-edition",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Guzzi V7 850 Stone Special Edition brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Guzzi V7 850 Stone Special Edition (2023). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "moto-guzzi-v7-850-stone-special-edition",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "73 Nm @ 5000 rpm",
+      "seat_height": "770 mm",
+      "fuel_capacity": "21 L",
+      "oil_capacity": "1.75 L",
+      "oil_type": "10W-60",
       "aliases": [
         "guzzi",
         "v7"
@@ -75029,11 +75585,16 @@
         "moto-guzzi",
         "v85-850-tt-evocative-graphics",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Guzzi V85 850 TT Evocative Graphics brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Guzzi V85 850 TT Evocative Graphics (2023). 82 Nm, 230 kg, 803 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "moto-guzzi-v85-850-tt-evocative-graphics",
+      "torque": "82 Nm @ 5,000 rpm",
+      "weight": "230 kg",
+      "seat_height": "803 mm",
+      "fuel_capacity": "21 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -75053,12 +75614,19 @@
         "moto-guzzi",
         "v85-850-tt-guardia-donore",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Moto Guzzi V85 850 TT Guardia d’Onore brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Guzzi V85 850 TT Guardia d’Onore (2022–Present). 853 cc, 76 hp, 82 Nm, 240 kg, 830 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "moto-guzzi-v85-850-tt-guardia-donore",
-      "oil_capacity": "",
+      "engine": "853 cc air-cooled V2, four-stroke",
+      "power": "76 hp @ 7,500 rpm",
+      "torque": "82 Nm @ 5,000 rpm",
+      "weight": "240 kg",
+      "seat_height": "830 mm",
+      "fuel_capacity": "23 L",
+      "oil_capacity": "1.8 L",
       "oil_type": "",
       "aliases": [
         "guzzi",
@@ -77391,13 +77959,17 @@
         "mv-agusta",
         "f3-675",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta F3 675 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta F3 675 (2011–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-f3-675",
+      "torque": "88 Nm @ 10600 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "16.5 L",
       "oil_capacity": "",
-      "oil_type": "",
+      "oil_type": "5W-40",
       "aliases": []
     },
     {
@@ -77412,13 +77984,17 @@
         "mv-agusta",
         "f3-675-rc",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta F3 675 RC brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta F3 675 RC (2016–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-f3-675-rc",
+      "torque": "88 Nm @ 10600 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "16.5 L",
       "oil_capacity": "",
-      "oil_type": "",
+      "oil_type": "5W-40",
       "aliases": []
     },
     {
@@ -77496,13 +78072,19 @@
         "mv-agusta",
         "800-brutale",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta 800 Brutale brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta 800 Brutale (2013–2020). 798 cc, 108.6 hp, 83 Nm, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "mv-agusta-800-brutale",
+      "engine": "798 cc oil & air-cooled In-line three, four-stroke",
+      "power": "108.6 hp @ 11,500 rpm",
+      "torque": "83 Nm @ 7,600 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "14.5 L",
       "oil_capacity": "",
-      "oil_type": "",
+      "oil_type": "5W-40",
       "aliases": []
     },
     {
@@ -77580,13 +78162,17 @@
         "mv-agusta",
         "800-brutale-dragster-rr-lh44",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta 800 Brutale Dragster RR LH44 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta 800 Brutale Dragster RR LH44 (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-800-brutale-dragster-rr-lh44",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "87 Nm @ 10250 rpm",
+      "seat_height": "845 mm",
+      "fuel_capacity": "16.5 L",
+      "oil_capacity": "0.25 L",
+      "oil_type": "5W-40",
       "aliases": []
     },
     {
@@ -77601,13 +78187,17 @@
         "mv-agusta",
         "800-brutale-dragster-rr-pirelli",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta 800 Brutale Dragster RR Pirelli brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta 800 Brutale Dragster RR Pirelli (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-800-brutale-dragster-rr-pirelli",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "87 Nm @ 10250 rpm",
+      "seat_height": "845 mm",
+      "fuel_capacity": "16.5 L",
+      "oil_capacity": "0.25 L",
+      "oil_type": "5W-40",
       "aliases": []
     },
     {
@@ -77622,11 +78212,16 @@
         "mv-agusta",
         "800-brutale-rc",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta 800 Brutale RC brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta 800 Brutale RC (2018–2020). 87 Nm, 175 kg, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "mv-agusta-800-brutale-rc",
+      "torque": "87 Nm @ 10,100 rpm",
+      "weight": "175 kg",
+      "seat_height": "830 mm",
+      "fuel_capacity": "16.5 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -77643,13 +78238,19 @@
         "mv-agusta",
         "800-brutale-rr",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta 800 Brutale RR brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta 800 Brutale RR (2016–2020). 798 cc, 140 hp, 87 Nm, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "mv-agusta-800-brutale-rr",
+      "engine": "798 cc oil & air-cooled In-line three, four-stroke",
+      "power": "140 hp @ 12,300 rpm",
+      "torque": "87 Nm @ 10,250 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "16.5 L",
       "oil_capacity": "",
-      "oil_type": "",
+      "oil_type": "5W-40",
       "aliases": []
     },
     {
@@ -77685,11 +78286,15 @@
         "mv-agusta",
         "800-rvs-1",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta 800 RVS#1 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta 800 RVS#1 (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-800-rvs-1",
+      "torque": "87 Nm @ 10100 rpm",
+      "seat_height": "795 mm",
+      "fuel_capacity": "16.6 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -77727,13 +78332,17 @@
         "mv-agusta",
         "800-superveloce",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta 800 Superveloce brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta 800 Superveloce (2019–2022). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-800-superveloce",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "88 Nm @ 10100 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "16.5 L",
+      "oil_capacity": "2.5 L",
+      "oil_type": "5W-40",
       "aliases": []
     },
     {
@@ -77811,13 +78420,17 @@
         "mv-agusta",
         "f3-800",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta F3 800 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta F3 800 (2014–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-f3-800",
+      "torque": "88 Nm @ 10600 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "16.5 L",
       "oil_capacity": "",
-      "oil_type": "",
+      "oil_type": "5W-40",
       "aliases": []
     },
     {
@@ -77832,13 +78445,17 @@
         "mv-agusta",
         "f3-800-rc",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta F3 800 RC brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta F3 800 RC (2016–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-f3-800-rc",
+      "torque": "88 Nm @ 10600 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "16.5 L",
       "oil_capacity": "",
-      "oil_type": "",
+      "oil_type": "5W-40",
       "aliases": []
     },
     {
@@ -77853,13 +78470,17 @@
         "mv-agusta",
         "f3-800-rr",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta F3 800 RR brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta F3 800 RR (2021–2022). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-f3-800-rr",
+      "torque": "88 Nm @ 10600 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "16.5 L",
       "oil_capacity": "",
-      "oil_type": "",
+      "oil_type": "5W-40",
       "aliases": []
     },
     {
@@ -78000,12 +78621,16 @@
         "mv-agusta",
         "1000-brutale-rr",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta 1000 Brutale RR brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta 1000 Brutale RR (2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-1000-brutale-rr",
-      "oil_capacity": "",
+      "torque": "116.5 Nm @ 11000 rpm",
+      "seat_height": "845 mm",
+      "fuel_capacity": "16 L",
+      "oil_capacity": "3 L",
       "oil_type": "",
       "aliases": []
     },
@@ -78021,12 +78646,19 @@
         "mv-agusta",
         "1000-rush",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta 1000 Rush brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta 1000 Rush (2020). 998 cc, 208 hp, 116.5 Nm, 210 kg, 845 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "mv-agusta-1000-rush",
-      "oil_capacity": "",
+      "engine": "998 cc oil & air-cooled In-line four, four-stroke",
+      "power": "208 hp @ 13,000 rpm",
+      "torque": "116.5 Nm @ 11,000 rpm",
+      "weight": "210 kg",
+      "seat_height": "845 mm",
+      "fuel_capacity": "16 L",
+      "oil_capacity": "3 L",
       "oil_type": "",
       "aliases": []
     },
@@ -78042,11 +78674,15 @@
         "mv-agusta",
         "f4-1000-lh44",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta F4 1000 LH44 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta F4 1000 LH44 (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-f4-1000-lh44",
+      "torque": "115 Nm @ 9300 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "17 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -78105,11 +78741,15 @@
         "mv-agusta",
         "f4-1000-rc",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta F4 1000 RC brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta F4 1000 RC (2015–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-f4-1000-rc",
+      "torque": "115 Nm @ 9300 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "17 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -78126,11 +78766,15 @@
         "mv-agusta",
         "f4-1000-rr",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "MV Agusta F4 1000 RR brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MV Agusta F4 1000 RR (2012–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "mv-agusta-f4-1000-rr",
+      "torque": "115 Nm @ 9300 rpm",
+      "seat_height": "830 mm",
+      "fuel_capacity": "17 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -82653,13 +83297,18 @@
         "suzuki",
         "dr-z-70",
         "dual sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Suzuki DR-Z 70 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Suzuki DR-Z 70 (2008–2020). 67 cc, 55 kg, 560 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "suzuki-dr-z-70",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "67 cc air-cooled Single cylinder, four-stroke",
+      "weight": "55 kg",
+      "seat_height": "560 mm",
+      "fuel_capacity": "3 L",
+      "oil_capacity": "0.7 L",
+      "oil_type": "10W-40",
       "aliases": [
         "dr z",
         "drz"
@@ -83016,13 +83665,18 @@
         "suzuki",
         "125-address",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Suzuki 125 Address brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Suzuki 125 Address (2023). 10 Nm, 105 kg, 770 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "suzuki-125-address",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "10 Nm @ 5,500 rpm",
+      "weight": "105 kg",
+      "seat_height": "770 mm",
+      "fuel_capacity": "5 L",
+      "oil_capacity": "0.65 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -83058,13 +83712,19 @@
         "suzuki",
         "125-burgman-street-ex",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Suzuki 125 Burgman Street EX brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Suzuki 125 Burgman Street EX (2023). 124 cc, 8.5 hp, 10 Nm, 780 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "suzuki-125-burgman-street-ex",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "124 cc liquid-cooled Single cylinder, four-stroke",
+      "power": "8.5 hp @ 6,500 rpm",
+      "torque": "10 Nm @ 5,500 rpm",
+      "seat_height": "780 mm",
+      "fuel_capacity": "5.5 L",
+      "oil_capacity": "0.65 L",
+      "oil_type": "10W-40",
       "aliases": [
         "burgman"
       ]
@@ -93285,12 +93945,18 @@
         "triumph",
         "765-daytona-moto2",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 765 Daytona Moto2 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 765 Daytona Moto2 (2020–2022). 765 cc, 128 hp, 80 Nm, 822 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-765-daytona-moto2",
-      "oil_capacity": "",
+      "engine": "765 cc liquid-cooled In-line three, four-stroke",
+      "power": "128 hp @ 12,500 rpm",
+      "torque": "80 Nm @ 9,750 rpm",
+      "seat_height": "822 mm",
+      "fuel_capacity": "17.4 L",
+      "oil_capacity": "3.6 L",
       "oil_type": "",
       "aliases": [
         "daytona",
@@ -93648,13 +94314,19 @@
         "triumph",
         "800-tiger-xcx",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 800 Tiger XCX brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 800 Tiger XCX (2018–2020). 800 cc, 95 hp, 79 Nm, 760 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-800-tiger-xcx",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "800 cc liquid-cooled In-line three, four-stroke",
+      "power": "95 hp @ 9,500 rpm",
+      "torque": "79 Nm @ 8,050 rpm",
+      "seat_height": "760 mm",
+      "fuel_capacity": "19 L",
+      "oil_capacity": "3.7 L",
+      "oil_type": "10W-40",
       "aliases": [
         "tiger",
         "triumph motorcycles"
@@ -93744,12 +94416,18 @@
         "triumph",
         "800-tiger-xrx-low",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 800 Tiger XRX Low brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 800 Tiger XRX Low (2018–2020). 800 cc, 95 hp, 79 Nm, 760 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-800-tiger-xrx-low",
-      "oil_capacity": "",
+      "engine": "800 cc liquid-cooled In-line three, four-stroke",
+      "power": "95 hp @ 9,500 rpm",
+      "torque": "79 Nm @ 8,050 rpm",
+      "seat_height": "760 mm",
+      "fuel_capacity": "19 L",
+      "oil_capacity": "3.7 L",
       "oil_type": "",
       "aliases": [
         "tiger",
@@ -93965,13 +94643,20 @@
         "triumph",
         "900-bonneville-t100-black",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 900 Bonneville T100 Black brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 900 Bonneville T100 Black (2016–2020). 900 cc, 64.1 hp, 80 Nm, 228.2 kg, 790 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-900-bonneville-t100-black",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "900 cc liquid-cooled Twin, four-stroke",
+      "power": "64.1 hp @ 7,400 rpm",
+      "torque": "80 Nm @ 3,750 rpm",
+      "weight": "228.2 kg",
+      "seat_height": "790 mm",
+      "fuel_capacity": "14.5 L",
+      "oil_capacity": "4.5 L",
+      "oil_type": "10W-40",
       "aliases": [
         "bonneville",
         "bonny",
@@ -94110,13 +94795,19 @@
         "triumph",
         "900-rally-pro",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 900 Rally Pro brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 900 Rally Pro (2020–Present). 888 cc, 93.9 hp, 87 Nm, 860 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-900-rally-pro",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "888 cc liquid-cooled In-line three, four-stroke",
+      "power": "93.9 hp @ 8,750 rpm",
+      "torque": "87 Nm @ 7,250 rpm",
+      "seat_height": "860 mm",
+      "fuel_capacity": "20 L",
+      "oil_capacity": "3.15 L",
+      "oil_type": "10W-40",
       "aliases": [
         "triumph motorcycles"
       ]
@@ -94204,12 +94895,18 @@
         "triumph",
         "900-street-cup",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 900 Street Cup brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 900 Street Cup (2017–2020). 900 cc, 55 hp, 80 Nm, 749 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-900-street-cup",
-      "oil_capacity": "",
+      "engine": "900 cc liquid-cooled Twin, four-stroke",
+      "power": "55 hp @ 5,900 rpm",
+      "torque": "80 Nm @ 3,230 rpm",
+      "seat_height": "749 mm",
+      "fuel_capacity": "12.11 L",
+      "oil_capacity": "3.8 L",
       "oil_type": "",
       "aliases": [
         "triumph motorcycles"
@@ -94227,12 +94924,19 @@
         "triumph",
         "900-street-scrambler",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 900 Street Scrambler brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 900 Street Scrambler (2017–2022). 900 cc, 65 hp, 80 Nm, 223 kg, 790 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-900-street-scrambler",
-      "oil_capacity": "",
+      "engine": "900 cc liquid-cooled Twin, four-stroke",
+      "power": "65 hp @ 7,250 rpm",
+      "torque": "80 Nm @ 3,250 rpm",
+      "weight": "223 kg",
+      "seat_height": "790 mm",
+      "fuel_capacity": "12 L",
+      "oil_capacity": "4.1 L",
       "oil_type": "",
       "aliases": [
         "scram",
@@ -94252,13 +94956,20 @@
         "triumph",
         "900-street-twin",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 900 Street Twin brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 900 Street Twin (2016–2022). 900 cc, 64.1 hp, 80 Nm, 215.9 kg, 765 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-900-street-twin",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "900 cc liquid-cooled Twin, four-stroke",
+      "power": "64.1 hp @ 7,500 rpm",
+      "torque": "80 Nm @ 3,800 rpm",
+      "weight": "215.9 kg",
+      "seat_height": "765 mm",
+      "fuel_capacity": "12.11 L",
+      "oil_capacity": "3.4 L",
+      "oil_type": "10W-40",
       "aliases": [
         "triumph motorcycles"
       ]
@@ -94416,11 +95127,15 @@
         "triumph",
         "900-tiger-gt-low",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 900 Tiger GT Low brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 900 Tiger GT Low (2020–Present). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "triumph-900-tiger-gt-low",
+      "torque": "87 Nm @ 7250 rpm",
+      "seat_height": "770 mm",
+      "fuel_capacity": "20 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -94440,13 +95155,19 @@
         "triumph",
         "900-tiger-gt-pro",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 900 Tiger GT Pro brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 900 Tiger GT Pro (2020–Present). 888 cc, 93.9 hp, 87 Nm, 820 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-900-tiger-gt-pro",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "888 cc liquid-cooled In-line three, four-stroke",
+      "power": "93.9 hp @ 8,750 rpm",
+      "torque": "87 Nm @ 7,250 rpm",
+      "seat_height": "820 mm",
+      "fuel_capacity": "20 L",
+      "oil_capacity": "3.15 L",
+      "oil_type": "10W-40",
       "aliases": [
         "tiger",
         "triumph motorcycles"
@@ -94890,13 +95611,19 @@
         "triumph",
         "1050-speed-triple-rs",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1050 Speed Triple RS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1050 Speed Triple RS (2016–2020). 1050 cc, 148 hp, 116.6 Nm, 825 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-1050-speed-triple-rs",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1050 cc liquid-cooled In-line three, four-stroke",
+      "power": "148 hp @ 10,500 rpm",
+      "torque": "116.6 Nm @ 7,150 rpm",
+      "seat_height": "825 mm",
+      "fuel_capacity": "15.52 L",
+      "oil_capacity": "3.2 L",
+      "oil_type": "10W-40",
       "aliases": [
         "speed triple",
         "triumph motorcycles"
@@ -94914,13 +95641,17 @@
         "triumph",
         "1050-speed-triple-s",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1050 Speed Triple S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1050 Speed Triple S (2016–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "triumph-1050-speed-triple-s",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "116.6 Nm @ 7150 rpm",
+      "seat_height": "825 mm",
+      "fuel_capacity": "15.52 L",
+      "oil_capacity": "3.2 L",
+      "oil_type": "10W-40",
       "aliases": [
         "speed triple",
         "triumph motorcycles"
@@ -95105,13 +95836,20 @@
         "triumph",
         "1200-bonneville-t120-ace",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Bonneville T120 Ace brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Bonneville T120 Ace (2019–2020). 1200 cc, 79.1 hp, 105 Nm, 235.9 kg, 790 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-1200-bonneville-t120-ace",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1200 cc liquid-cooled Twin, four-stroke",
+      "power": "79.1 hp @ 6,550 rpm",
+      "torque": "105 Nm @ 3,500 rpm",
+      "weight": "235.9 kg",
+      "seat_height": "790 mm",
+      "fuel_capacity": "14.5 L",
+      "oil_capacity": "4.5 L",
+      "oil_type": "10W-40",
       "aliases": [
         "bonneville",
         "bonny",
@@ -95155,12 +95893,16 @@
         "triumph",
         "diamond-ed",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph Diamond Ed. brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph Diamond Ed. (2019–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "triumph-diamond-ed",
-      "oil_capacity": "",
+      "torque": "105 Nm @ 3100 rpm",
+      "seat_height": "790 mm",
+      "fuel_capacity": "14.5 L",
+      "oil_capacity": "4.5 L",
       "oil_type": "",
       "aliases": [
         "triumph motorcycles"
@@ -95298,13 +96040,17 @@
         "triumph",
         "1200-thruxton-rs",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Thruxton RS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Thruxton RS (2020–Present). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "triumph-1200-thruxton-rs",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "112.6 Nm @ 4250 rpm",
+      "seat_height": "810 mm",
+      "fuel_capacity": "14.5 L",
+      "oil_capacity": "4.5 L",
+      "oil_type": "10W-40",
       "aliases": [
         "thruxton",
         "triumph motorcycles"
@@ -95370,12 +96116,19 @@
         "triumph",
         "1200-tiger-gt-explorer",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Tiger GT Explorer brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Tiger GT Explorer (2022). 1160 cc, 150 hp, 130 Nm, 254.9 kg, 850 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-1200-tiger-gt-explorer",
-      "oil_capacity": "",
+      "engine": "1160 cc liquid-cooled In-line three, four-stroke",
+      "power": "150 hp @ 9,000 rpm",
+      "torque": "130 Nm @ 7,000 rpm",
+      "weight": "254.9 kg",
+      "seat_height": "850 mm",
+      "fuel_capacity": "29.9 L",
+      "oil_capacity": "4 L",
       "oil_type": "",
       "aliases": [
         "tiger",
@@ -95394,12 +96147,17 @@
         "triumph",
         "1200-tiger-gt-pro",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Tiger GT Pro brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Tiger GT Pro (2022). 130 Nm, 244.9 kg, 850 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-1200-tiger-gt-pro",
-      "oil_capacity": "",
+      "torque": "130 Nm @ 7,000 rpm",
+      "weight": "244.9 kg",
+      "seat_height": "850 mm",
+      "fuel_capacity": "20 L",
+      "oil_capacity": "4 L",
       "oil_type": "",
       "aliases": [
         "tiger",
@@ -95418,12 +96176,18 @@
         "triumph",
         "1200-tiger-rally-explorer",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Tiger Rally Explorer brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Tiger Rally Explorer (2022). 1160 cc, 150 hp, 130 Nm, 875 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-1200-tiger-rally-explorer",
-      "oil_capacity": "",
+      "engine": "1160 cc liquid-cooled In-line three, four-stroke",
+      "power": "150 hp @ 9,000 rpm",
+      "torque": "130 Nm @ 7,000 rpm",
+      "seat_height": "875 mm",
+      "fuel_capacity": "29.98 L",
+      "oil_capacity": "4 L",
       "oil_type": "",
       "aliases": [
         "tiger",
@@ -95442,12 +96206,16 @@
         "triumph",
         "1200-tiger-rally-pro",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Tiger Rally Pro brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Tiger Rally Pro (2022). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "triumph-1200-tiger-rally-pro",
-      "oil_capacity": "",
+      "torque": "130 Nm @ 7000 rpm",
+      "seat_height": "875 mm",
+      "fuel_capacity": "20 L",
+      "oil_capacity": "4 L",
       "oil_type": "",
       "aliases": [
         "tiger",
@@ -95466,12 +96234,16 @@
         "triumph",
         "1200-tiger-xca",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Tiger XCA brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Tiger XCA (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "triumph-1200-tiger-xca",
-      "oil_capacity": "",
+      "torque": "122 Nm @ 7600 rpm",
+      "seat_height": "835 mm",
+      "fuel_capacity": "20 L",
+      "oil_capacity": "4 L",
       "oil_type": "",
       "aliases": [
         "tiger",
@@ -95490,13 +96262,19 @@
         "triumph",
         "1200-tiger-xcx",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Tiger XCX brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Tiger XCX (2018–2020). 1215 cc, 141 hp, 122 Nm, 835 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-1200-tiger-xcx",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "1215 cc liquid-cooled In-line three, four-stroke",
+      "power": "141 hp @ 9,350 rpm",
+      "torque": "122 Nm @ 7,600 rpm",
+      "seat_height": "835 mm",
+      "fuel_capacity": "20 L",
+      "oil_capacity": "4 L",
+      "oil_type": "10W-40",
       "aliases": [
         "tiger",
         "triumph motorcycles"
@@ -95538,12 +96316,16 @@
         "triumph",
         "1200-tiger-xrt",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Tiger XRT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Tiger XRT (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "triumph-1200-tiger-xrt",
-      "oil_capacity": "",
+      "torque": "122 Nm @ 7600 rpm",
+      "seat_height": "835 mm",
+      "fuel_capacity": "20 L",
+      "oil_capacity": "4 L",
       "oil_type": "",
       "aliases": [
         "tiger",
@@ -95562,13 +96344,17 @@
         "triumph",
         "1200-tiger-xrx",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Tiger XRX brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Tiger XRX (2018–2020). . Some specifications are still being compiled.",
       "published": true,
       "model_group": "triumph-1200-tiger-xrx",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "122 Nm @ 7600 rpm",
+      "seat_height": "790 mm",
+      "fuel_capacity": "20 L",
+      "oil_capacity": "4 L",
+      "oil_type": "10W-40",
       "aliases": [
         "tiger",
         "triumph motorcycles"
@@ -95586,12 +96372,18 @@
         "triumph",
         "1200-tiger-xrx-low",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Triumph 1200 Tiger XRX Low brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Triumph 1200 Tiger XRX Low (2018–2020). 1215 cc, 141 hp, 122 Nm, 790 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "triumph-1200-tiger-xrx-low",
-      "oil_capacity": "",
+      "engine": "1215 cc liquid-cooled In-line three, four-stroke",
+      "power": "141 hp @ 9,350 rpm",
+      "torque": "122 Nm @ 7,600 rpm",
+      "seat_height": "790 mm",
+      "fuel_capacity": "20 L",
+      "oil_capacity": "4 L",
       "oil_type": "",
       "aliases": [
         "tiger",
@@ -98108,13 +98900,17 @@
         "yamaha",
         "tt-r-50",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha TT-R 50 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha TT-R 50 (2006–2022). 58 kg. Some specifications are still being compiled.",
       "published": true,
       "model_group": "yamaha-tt-r-50",
-      "oil_capacity": "",
-      "oil_type": "",
+      "weight": "58 kg",
+      "seat_height": "555 mm",
+      "fuel_capacity": "3.1 L",
+      "oil_capacity": "0.8 L",
+      "oil_type": "SAE 10W-40",
       "aliases": []
     },
     {
@@ -98698,13 +99494,17 @@
         "yamaha",
         "tt-r-110",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha TT-R 110 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha TT-R 110 (2008–2021). 72.1 kg. Some specifications are still being compiled.",
       "published": true,
       "model_group": "yamaha-tt-r-110",
-      "oil_capacity": "",
-      "oil_type": "",
+      "weight": "72.1 kg",
+      "seat_height": "671 mm",
+      "fuel_capacity": "3.79 L",
+      "oil_capacity": "0.8 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -98887,13 +99687,17 @@
         "yamaha",
         "tt-r-125-lw",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha TT-R 125 LW brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha TT-R 125 LW (2000–2020). 124 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "yamaha-tt-r-125-lw",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "124 cc air-cooled Single cylinder, four-stroke",
+      "seat_height": "805 mm",
+      "fuel_capacity": "6 L",
+      "oil_capacity": "1.2 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -99905,13 +100709,18 @@
         "yamaha",
         "tw-200",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha TW 200 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha TW 200 (1987–2022). 196 cc, 126 kg, 790 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-tw-200",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "196 cc",
+      "weight": "126 kg",
+      "seat_height": "790 mm",
+      "fuel_capacity": "7 L",
+      "oil_capacity": "1.1 L",
+      "oil_type": "SAE 10W-40",
       "aliases": []
     },
     {
@@ -100178,13 +100987,17 @@
         "yamaha",
         "tt-r-230",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha TT-R 230 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha TT-R 230 (2005–2022). 114 kg. Some specifications are still being compiled.",
       "published": true,
       "model_group": "yamaha-tt-r-230",
-      "oil_capacity": "",
-      "oil_type": "",
+      "weight": "114 kg",
+      "seat_height": "870 mm",
+      "fuel_capacity": "8 L",
+      "oil_capacity": "1.1 L",
+      "oil_type": "SAE 10W-40",
       "aliases": []
     },
     {
@@ -100539,13 +101352,17 @@
         "yamaha",
         "wr-250-f-efi",
         "enduro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha WR 250 F Efi brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha WR 250 F Efi (2015–2021). 115.2 kg. Some specifications are still being compiled.",
       "published": true,
       "model_group": "yamaha-wr-250-f-efi",
-      "oil_capacity": "",
-      "oil_type": "",
+      "weight": "115.2 kg",
+      "seat_height": "955 mm",
+      "fuel_capacity": "8.14 L",
+      "oil_capacity": "1.1 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -100581,13 +101398,18 @@
         "yamaha",
         "wr-250-r",
         "enduro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha WR 250 R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha WR 250 R (2008–2020). 23.7 Nm, 133.8 kg, 930 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-wr-250-r",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "23.7 Nm @ 8,000 rpm",
+      "weight": "133.8 kg",
+      "seat_height": "930 mm",
+      "fuel_capacity": "7.57 L",
+      "oil_capacity": "1.4 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -100707,13 +101529,18 @@
         "yamaha",
         "xt-250",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha XT 250 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha XT 250 (1980–2022). 249 cc, 132 kg, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-xt-250",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "249 cc",
+      "weight": "132 kg",
+      "seat_height": "830 mm",
+      "fuel_capacity": "8.2 L",
+      "oil_capacity": "1.3 L",
+      "oil_type": "SAE 10W-40",
       "aliases": []
     },
     {
@@ -101087,12 +101914,17 @@
         "yamaha",
         "yz-250-fx",
         "motocross",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha YZ 250 FX brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha YZ 250 FX (2015–2021). 250 cc, 111.1 kg, 955 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-yz-250-fx",
-      "oil_capacity": "",
+      "engine": "250 cc liquid-cooled Single cylinder, four-stroke",
+      "weight": "111.1 kg",
+      "seat_height": "955 mm",
+      "fuel_capacity": "8.33 L",
+      "oil_capacity": "1.5 L",
       "oil_type": "",
       "aliases": []
     },
@@ -101150,11 +101982,18 @@
         "yamaha",
         "300-tricity",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha 300 Tricity brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha 300 Tricity (2020). 292 cc, 27.6 hp, 29 Nm, 239 kg, 795 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-300-tricity",
+      "engine": "292 cc liquid-cooled Single cylinder, four-stroke",
+      "power": "27.6 hp @ 7,250 rpm",
+      "torque": "29 Nm @ 5,750 rpm",
+      "weight": "239 kg",
+      "seat_height": "795 mm",
+      "fuel_capacity": "13 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -101723,13 +102562,17 @@
         "yamaha",
         "wr-450-f-efi",
         "enduro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha WR 450 F Efi brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha WR 450 F Efi (2016–2021). 118.8 kg. Some specifications are still being compiled.",
       "published": true,
       "model_group": "yamaha-wr-450-f-efi",
-      "oil_capacity": "",
-      "oil_type": "",
+      "weight": "118.8 kg",
+      "seat_height": "955 mm",
+      "fuel_capacity": "8.14 L",
+      "oil_capacity": "0.8 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -102387,11 +103230,18 @@
         "yamaha",
         "560-tmax-tech-max",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha 560 TMAX Tech Max brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha 560 TMAX Tech Max (2020). 562 cc, 46.9 hp, 55.7 Nm, 220 kg, 800 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-560-tmax-tech-max",
+      "engine": "562 cc liquid-cooled Twin, four-stroke",
+      "power": "46.9 hp @ 7,500 rpm",
+      "torque": "55.7 Nm @ 5,250 rpm",
+      "weight": "220 kg",
+      "seat_height": "800 mm",
+      "fuel_capacity": "15 L",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
@@ -103337,13 +104187,18 @@
         "yamaha",
         "mt-07-700-tracer",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha MT-07 700 Tracer brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha MT-07 700 Tracer (2016–2020). 68 Nm, 184 kg, 805 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-mt-07-700-tracer",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "68 Nm @ 6,500 rpm",
+      "weight": "184 kg",
+      "seat_height": "805 mm",
+      "fuel_capacity": "14 L",
+      "oil_capacity": "2.6 L",
+      "oil_type": "SAE 10W-40",
       "aliases": [
         "cp2",
         "tracer",
@@ -103429,13 +104284,17 @@
         "yamaha",
         "xsr-700-xtribute",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha XSR 700 XTribute brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha XSR 700 XTribute (2019–2022). 188 kg. Some specifications are still being compiled.",
       "published": true,
       "model_group": "yamaha-xsr-700-xtribute",
-      "oil_capacity": "",
-      "oil_type": "",
+      "weight": "188 kg",
+      "seat_height": "835 mm",
+      "fuel_capacity": "14 L",
+      "oil_capacity": "2.6 L",
+      "oil_type": "SAE 10W-40",
       "aliases": [
         "xsr"
       ]
@@ -104176,13 +105035,19 @@
         "yamaha",
         "mxt-850-niken",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha MXT 850 Niken brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha MXT 850 Niken (2018–2022). 847 cc, 115 hp, 61.5 Nm, 263.1 kg. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-mxt-850-niken",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "847 cc liquid-cooled In-line three, four-stroke",
+      "power": "115 hp @ 10,120 rpm",
+      "torque": "61.5 Nm @ 8,480 rpm",
+      "weight": "263.1 kg",
+      "fuel_capacity": "18.17 L",
+      "oil_capacity": "2.7 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -104197,13 +105062,18 @@
         "yamaha",
         "mxt-850-niken-gt",
         "scooter",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha MXT 850 Niken GT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha MXT 850 Niken GT (2019–2022). 90.7 Nm, 270 kg, 825 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-mxt-850-niken-gt",
-      "oil_capacity": "",
-      "oil_type": "",
+      "torque": "90.7 Nm @ 7,000 rpm",
+      "weight": "270 kg",
+      "seat_height": "825 mm",
+      "fuel_capacity": "18 L",
+      "oil_capacity": "3.6 L",
+      "oil_type": "10W-40",
       "aliases": []
     },
     {
@@ -104260,13 +105130,18 @@
         "yamaha",
         "mt-09-900-sp",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha MT-09 900 SP brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha MT-09 900 SP (2018–2020). 890 cc, 189 kg, 825 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-mt-09-900-sp",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "890 cc liquid-cooled In-line three, four-stroke",
+      "weight": "189 kg",
+      "seat_height": "825 mm",
+      "fuel_capacity": "14 L",
+      "oil_capacity": "3.2 L",
+      "oil_type": "SAE 10W-40",
       "aliases": [
         "cp3"
       ]
@@ -104329,13 +105204,18 @@
         "yamaha",
         "mt-09-900-tracer",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha MT-09 900 Tracer brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha MT-09 900 Tracer (2015–2020). 890 cc, 189 kg, 825 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-mt-09-900-tracer",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "890 cc liquid-cooled In-line three, four-stroke",
+      "weight": "189 kg",
+      "seat_height": "825 mm",
+      "fuel_capacity": "14 L",
+      "oil_capacity": "3.2 L",
+      "oil_type": "SAE 10W-40",
       "aliases": [
         "cp3",
         "tracer",
@@ -104354,13 +105234,17 @@
         "yamaha",
         "mt-09-900-tracer-gt",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha MT-09 900 Tracer GT brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha MT-09 900 Tracer GT (2018–2022). 193 kg. Some specifications are still being compiled.",
       "published": true,
       "model_group": "yamaha-mt-09-900-tracer-gt",
-      "oil_capacity": "",
-      "oil_type": "",
+      "weight": "193 kg",
+      "seat_height": "825 mm",
+      "fuel_capacity": "14 L",
+      "oil_capacity": "3.2 L",
+      "oil_type": "SAE 10W-40",
       "aliases": [
         "cp3",
         "tracer",
@@ -104400,13 +105284,18 @@
         "yamaha",
         "xsr-900-abarth",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha XSR 900 Abarth brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha XSR 900 Abarth (2017–2022). 890 cc, 193 kg, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-xsr-900-abarth",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "890 cc",
+      "weight": "193 kg",
+      "seat_height": "810 mm",
+      "fuel_capacity": "14 L",
+      "oil_capacity": "3.2 L",
+      "oil_type": "SAE 10W-40",
       "aliases": [
         "xsr"
       ]
@@ -104573,13 +105462,17 @@
         "yamaha",
         "xv-950-bolt-r-spec",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha XV 950 Bolt R-Spec brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha XV 950 Bolt R-Spec (2014–2022). 246 kg. Some specifications are still being compiled.",
       "published": true,
       "model_group": "yamaha-xv-950-bolt-r-spec",
-      "oil_capacity": "",
-      "oil_type": "",
+      "weight": "246 kg",
+      "seat_height": "690 mm",
+      "fuel_capacity": "13 L",
+      "oil_capacity": "4 L",
+      "oil_type": "SAE 10W-40",
       "aliases": []
     },
     {
@@ -104892,12 +105785,17 @@
         "yamaha",
         "yzf-1000-r1m",
         "supersport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha YZF 1000 R1M brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha YZF 1000 R1M (2015–2022). 112 Nm, 204.1 kg, 861 mm seat. Partial specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-yzf-1000-r1m",
-      "oil_capacity": "",
+      "torque": "112 Nm @ 11,500 rpm",
+      "weight": "204.1 kg",
+      "seat_height": "861 mm",
+      "fuel_capacity": "17.03 L",
+      "oil_capacity": "4.9 L",
       "oil_type": "",
       "aliases": []
     },
@@ -105443,12 +106341,19 @@
         "yamaha",
         "fjr-1300-a",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "Yamaha FJR 1300 A brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Yamaha FJR 1300 A (2013–2020). 998 cc, 197.3 hp, 113.3 Nm, 201 kg, 855 mm seat. Specifications compiled from MotoSpecVault.",
       "published": true,
       "model_group": "yamaha-fjr-1300-a",
-      "oil_capacity": "",
+      "engine": "998 cc liquid-cooled In-line four, four-stroke",
+      "power": "197.3 hp @ 13,500 rpm",
+      "torque": "113.3 Nm @ 11,500 rpm",
+      "weight": "201 kg",
+      "seat_height": "855 mm",
+      "fuel_capacity": "17 L",
+      "oil_capacity": "4.9 L",
       "oil_type": "",
       "aliases": []
     },
@@ -106998,13 +107903,17 @@
         "ktm",
         "rc-390-upgrade-ds",
         "sport",
-        "sbs"
+        "sbs",
+        "specs"
       ],
-      "summary": "KTM RC 390 Upgrade DS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "KTM RC 390 Upgrade DS (2014–2022). 125 cc. Some specifications are still being compiled.",
       "published": true,
       "model_group": "ktm-rc-390-upgrade-ds",
-      "oil_capacity": "",
-      "oil_type": "",
+      "engine": "125 cc water cooling, permanent circulation of coolant by water pump-cooled",
+      "seat_height": "824 mm",
+      "fuel_capacity": "13.7 L",
+      "oil_capacity": "1.5 L",
+      "oil_type": "SAE 15W/50",
       "aliases": []
     },
     {

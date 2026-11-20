@@ -8,39 +8,100 @@
     "model_group": "ducati-1299-panigale-r-final-edition",
     "category": "Supersport",
     "displacement": "1299 cc",
-    "summary": "Ducati 1299 Panigale R Final Edition brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Ducati 1299 Panigale R Final Edition (2017–2020). 1285 cc, 209 hp, 142 Nm, 190 kg, 830 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "ducati",
       "1299-panigale-r-final-edition",
       "supersport",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1285 cc liquid-cooled V2, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1299 cc"
+            "value": "1285 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "209 hp @ 11,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "142 Nm @ 9,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Öhlins NIX30 43mm fully adjustable USD fork with TiN treatment. Electronic compression and rebound damping adjustment with semi-active mode, 120 mm (4.7 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Fully adjustable Ohlins TTX36 unit. Electronic compression and rebound damping adjustment with semi-active mode. Adjustable linkage: Progressive/flat. Aluminium single-sided swingarm, 130 mm (5.1 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Floating discs. Four-piston calipers. Radially mounted."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Two-piston calipers."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 200/55-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "830 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "190 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2017–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Chain 525; Front sprocket 15; Rear sprocket 39. Primary drive: Straight cut gears, Ratio 1.77."
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

@@ -8,12 +8,13 @@
     "model_group": "triumph-1200-tiger-rally-pro",
     "category": "Adventure",
     "displacement": "1200 cc",
-    "summary": "Triumph 1200 Tiger Rally Pro brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Triumph 1200 Tiger Rally Pro (2022). . Some specifications are still being compiled.",
     "tags": [
       "triumph",
       "1200-tiger-rally-pro",
       "adventure",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,49 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "1200 cc"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "130 Nm @ 7000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Shaft drive (cardan)"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Showa 49mm, semi-active damping USD forks, 220 mm (8.7 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Showa semi-active damping monoshock, with automatic electronic preload adjustment., 220 mm (8.7 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. Brembo M4.30 Stylema monoblock radial calipers, OC-ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Brembo single piston caliper, OC-ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 150/70-R18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "875 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "20 L"
           },
           {
             "key": "model_years",
@@ -34,13 +75,28 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4 L"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Shaft drive (cardan)"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

@@ -8,12 +8,13 @@
     "model_group": "benelli-t-600-tornado-naked",
     "category": "Naked",
     "displacement": "600 cc",
-    "summary": "Benelli T 600 Tornado Naked brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Benelli T 600 Tornado Naked (2020). 599.6 cc, 67.1 hp, 48 Nm, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "benelli",
       "t-600-tornado-naked",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,25 +23,85 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "599.6 cc liquid-cooled In-line four, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "600 cc"
+            "value": "599.6 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "67.1 hp @ 11,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "48 Nm @ 9,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "50 mm Telescopic Inverted Forks, 112 mm (4.4 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Spring Pre-load and Rebound Adjustable Shock, 129 mm (5.1 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 180/55-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "800 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "15 L"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Chain"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

@@ -8,12 +8,13 @@
     "model_group": "ducati-959-panigale-corse",
     "category": "Supersport",
     "displacement": "959 cc",
-    "summary": "Ducati 959 Panigale Corse brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Ducati 959 Panigale Corse (2018–2020). 955 cc, 150 hp, 102 Nm, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ducati",
       "959-panigale-corse",
       "supersport",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,25 +23,105 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "955 cc liquid-cooled V2, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "959 cc"
+            "value": "955 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "150 hp @ 10,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "102 Nm @ 9,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Fully adjustable Öhlins TTX36unit, 120 mm (4.7 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Fully adjustable Ohlins TTX36 unit. Electronic compression and rebound damping adjustment with semi-active mode. Adjustable linkage: Progressive/flat. Aluminium single-sided swingarm, 130 mm (5.1 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Floating discs. Four-piston calipers. Radially mounted."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Two-piston calipers."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 180/60-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "830 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2018–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.3 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 pitch, 106 links"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 12,000 km (7,500 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

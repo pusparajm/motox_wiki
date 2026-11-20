@@ -8,39 +8,130 @@
     "model_group": "honda-cmx-500-rebel-s",
     "category": "Cruiser",
     "displacement": "500 cc",
-    "summary": "Honda CMX 500 Rebel S brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Honda CMX 500 Rebel S (2020). 471 cc, 45.6 hp, 43.3 Nm, 191 kg, 690 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "cmx-500-rebel-s",
       "cruiser",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "471 cc liquid-cooled Twin, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "500 cc"
+            "value": "471 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "45.6 hp @ 8,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "43.3 Nm @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41mm telescopic fork, 109 mm (4.3 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin Showa nitrogen-charged shocks, 5 step adjustable, 119 mm (4.7 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Twin piston"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Single piston"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-16 front, 150/80-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "690 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "191 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "11.2 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.7 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "10W-40"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.62 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 pitch, 112 links"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 12,000 km (7,500 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

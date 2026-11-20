@@ -8,39 +8,130 @@
     "model_group": "honda-sh-125-mode",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Honda SH 125 Mode brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Honda SH 125 Mode (2014–2020). 125 cc, 11.3 hp, 12 Nm, 116 kg, 765 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "sh-125-mode",
       "scooter",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "125 cc liquid-cooled Single cylinder, four-stroke"
+          },
           {
             "key": "displacement",
             "label": "Displacement",
             "value": "125 cc"
           },
           {
+            "key": "power",
+            "label": "Max Power",
+            "value": "11.3 hp @ 8,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "12 Nm @ 5,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Automatic, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic forks with hydraulic damping 31mm, 89 mm (3.5 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Unit swingarm, 75 mm (3.0 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Hydraulic."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Expanding brake (drum brake)"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "80/90-16 front, 100/90-14 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "765 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "116 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "5.5 L"
+          },
+          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2014–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.9 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "10W-40"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK MR7G-9E"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "0.51 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 4,000 km (2,500 miles) or 6 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -49,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

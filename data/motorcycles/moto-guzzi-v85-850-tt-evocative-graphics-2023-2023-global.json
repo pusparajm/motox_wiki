@@ -8,12 +8,13 @@
     "model_group": "moto-guzzi-v85-850-tt-evocative-graphics",
     "category": "Adventure",
     "displacement": "850 cc",
-    "summary": "Moto Guzzi V85 850 TT Evocative Graphics brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Moto Guzzi V85 850 TT Evocative Graphics (2023). 82 Nm, 230 kg, 803 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "moto-guzzi",
       "v85-850-tt-evocative-graphics",
       "adventure",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,25 +23,75 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "850 cc"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "82 Nm @ 5,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Upside down hydraulic telescopic fork Ø 41 mm, with adjustable extension and spring preload."
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Swingarm Twin-sided with lateral mono shock absorber, adjustable extension and spring preload."
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. Radial Brembo calipers with 4 opposed pistons. ABS."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Floating 2 pistons caliper. ABS."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-19 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "803 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "230 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "21 L"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2023"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Chain"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

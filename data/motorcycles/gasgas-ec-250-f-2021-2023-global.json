@@ -8,12 +8,13 @@
     "model_group": "gasgas-ec-250-f",
     "category": "Enduro",
     "displacement": "250 cc",
-    "summary": "GasGas EC 250 F brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "GasGas EC 250 F (2021–Present). 249.9 cc. Some specifications are still being compiled.",
     "tags": [
       "gasgas",
       "ec-250-f",
       "enduro",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,54 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "249.9 cc liquid-cooled Single cylinder, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "250 cc"
+            "value": "249.9 cc"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "WP XPLOR-USD, Ø 48 mm, 300 mm (11.8 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP XACT Monoshock with linkage, 300 mm (11.8 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Two-piston calipers."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Single-piston caliper."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 140/80-19 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "960 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "8.5 L"
           },
           {
             "key": "model_years",
@@ -34,13 +80,18 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "X-Ring 5/8 x 1/4´ chain"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

@@ -8,39 +8,125 @@
     "model_group": "aprilia-rsv4-rf-1000",
     "category": "Naked",
     "displacement": "1000 cc",
-    "summary": "Aprilia RSV4-RF 1000 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Aprilia RSV4-RF 1000 (2015–2020). 1099 cc, 217 hp, 125 Nm, 202 kg, 845 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "aprilia",
       "rsv4-rf-1000",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1099 cc liquid-cooled V4, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1000 cc"
+            "value": "1099 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "217 hp @ 13,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "125 Nm @ 10,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Sachs fork 43mm stanchions, adjustable compression and rebound, 127 mm (5.0 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "ON Sachs monoshock adjustable in: hydraulic compression and rebound damping and spring pre-load, 130 mm (5.1 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Ø 330 mm floating double disc with aluminium flange Brembo STYLEMA® 4-piston mono-block radial calipers Radial pump and metal braid brake pipe-"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Brembo Ø 32 mm 2 isolated piston caliper pump with integrated tank and metal braid pipp"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 200/55-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "845 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "202 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "18.5 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2015–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF138"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CR9EKB"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.7 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 110 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 10W"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

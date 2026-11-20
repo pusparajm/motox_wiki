@@ -8,39 +8,105 @@
     "model_group": "honda-cbr-300-r",
     "category": "Sport",
     "displacement": "300 cc",
-    "summary": "Honda CBR 300 R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Honda CBR 300 R (2014–2021). 286 cc, 34.9 hp, 22.9 Nm (2.3 kgf-m or 16.9 ft.lbs), 160.6 kg, 780 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "cbr-300-r",
       "sport",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "286 cc liquid-cooled Single cylinder, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "300 cc"
+            "value": "286 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "34.9 hp @ 10,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "22.9 Nm (2.3 kgf-m or 16.9 ft.lbs)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "37mm fork, 118 mm (4.7 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Pro-Link single shock with five positions of spring preload adjustability, 103 mm (4.1 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Optional ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Optional ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70-17 front, 140/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "780 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "160.6 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12.87 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2014–2021"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK SIMR8A9"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "#520 Chain; 14T/36T final drive"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

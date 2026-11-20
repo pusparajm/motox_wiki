@@ -8,39 +8,130 @@
     "model_group": "harley-davidson-xl-1200-x-forty-eight",
     "category": "Naked",
     "displacement": "1200 cc",
-    "summary": "Harley-Davidson XL 1200 X Forty-Eight brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Harley-Davidson XL 1200 X Forty-Eight (2011–2022). 1202 cc, 65 hp, 99 Nm, 252 kg, 665 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "xl-1200-x-forty-eight",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1202 cc air-cooled V2, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1200 cc"
+            "value": "1202 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "65 hp @ 6,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "99 Nm @ 3,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "49 mm fork set, free valve right hand and cartridge style left hand"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Variable rate spring over 36mm piston nitrogen gas-charged emulsion style shock with thread style preload adjustment"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Dual-piston. Optional ABS."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Dual-piston. Optional ABS."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-B16 front, 150/80-B16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "665 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "252 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "7.9 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2011–2022"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "20W-50"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK DCPR7E"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 15W"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 8,000 km (5,000 miles)"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

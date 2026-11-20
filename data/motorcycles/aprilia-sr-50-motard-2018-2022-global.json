@@ -8,12 +8,13 @@
     "model_group": "aprilia-sr-50-motard",
     "category": "Scooter",
     "displacement": "50 cc",
-    "summary": "Aprilia SR 50 Motard brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Aprilia SR 50 Motard (2018–2022). 49.9 cc, 4.6 hp, 3.8 Nm, 820 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "aprilia",
       "sr-50-motard",
       "scooter",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,25 +23,100 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "49.9 cc air-cooled Single cylinder, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "50 cc"
+            "value": "49.9 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "4.6 hp @ 9,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "3.8 Nm @ 8,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Automatic, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Hydraulic telescopic fork with straight stanchions"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single arm with engine crankcase as swinging element, served by a single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Two-piston floating caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-14 front, 120/70-14 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "820 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "7 L"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2018–2022"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK BR9ES"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -49,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

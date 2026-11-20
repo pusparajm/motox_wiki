@@ -8,12 +8,13 @@
     "model_group": "triumph-1200-tiger-xca",
     "category": "Adventure",
     "displacement": "1200 cc",
-    "summary": "Triumph 1200 Tiger XCA brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Triumph 1200 Tiger XCA (2018–2020). . Some specifications are still being compiled.",
     "tags": [
       "triumph",
       "1200-tiger-xca",
       "adventure",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,49 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "1200 cc"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "122 Nm @ 7600 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Shaft drive (cardan)"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "WP 48 mm upside down forks, electronically adjustable damping,, 190 mm (7.5 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP monoshock, electronically adjustable semi active damping,, 193 mm (7.6 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. Floating discs, radially mounted monobloc Brembo calipers, 4-piston, switchable ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Nissin 2-piston sliding caliper, Switchable ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-R19 front, 170/60-R17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "835 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "20 L"
           },
           {
             "key": "model_years",
@@ -34,13 +75,28 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4 L"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Shaft drive (cardan)"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

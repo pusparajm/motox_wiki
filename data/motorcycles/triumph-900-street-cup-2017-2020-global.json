@@ -8,12 +8,13 @@
     "model_group": "triumph-900-street-cup",
     "category": "Naked",
     "displacement": "900 cc",
-    "summary": "Triumph 900 Street Cup brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Triumph 900 Street Cup (2017–2020). 900 cc, 55 hp, 80 Nm, 749 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "triumph",
       "900-street-cup",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,25 +23,90 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "900 cc liquid-cooled Twin, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
             "value": "900 cc"
           },
           {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2017–2020"
+            "key": "power",
+            "label": "Max Power",
+            "value": "55 hp @ 5,900 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "80 Nm @ 3,230 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Kayaba 41mm forks., 120 mm (4.7 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "KYB twin shocks with adjustable preload., 120 mm (4.7 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. ABS. Floating discs. Nissin two-piston calipers."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Floating disc. Nissin two-piston calipers."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-18 front, 150/70-R17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "749 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12.11 L"
           },
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — power, weight or seat data still being compiled"
+          },
+          {
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2017–2020"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "X ring chain"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

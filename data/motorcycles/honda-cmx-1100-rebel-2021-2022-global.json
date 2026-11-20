@@ -8,12 +8,13 @@
     "model_group": "honda-cmx-1100-rebel",
     "category": "Cruiser",
     "displacement": "1100 cc",
-    "summary": "Honda CMX 1100 Rebel brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Honda CMX 1100 Rebel (2021–2022). 98 Nm, 223 kg, 700 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "cmx-1100-rebel",
       "cruiser",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,25 +23,105 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "1100 cc"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "98 Nm @ 4,750 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Preload adjustable 43mm cartridge style"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Preload Adjustable Piggyback shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Radial mounted monoblock four-piston brake caliper."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Single piston caliper."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/70-18 front, 180/65-B16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "700 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "223 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13.6 L"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2021–2022"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.8 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "10W-40"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.74 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 114 links"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 12,000 km (7,500 miles)"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

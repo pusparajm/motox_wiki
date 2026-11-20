@@ -8,12 +8,13 @@
     "model_group": "moto-guzzi-v7-iii-750-stone",
     "category": "Naked",
     "displacement": "750 cc",
-    "summary": "Moto Guzzi V7 III 750 Stone brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Moto Guzzi V7 III 750 Stone (2017–2020). . Some specifications are still being compiled.",
     "tags": [
       "moto-guzzi",
       "v7-iii-750-stone",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,39 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "750 cc"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "73 Nm @ 5000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Shaft drive (cardan)"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Hydraulic telescopic fork Ø 40 mm"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Swingarm Twin-sided with two spring preload adjustable shock absorbers"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-18 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "770 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "21 L"
           },
           {
             "key": "model_years",
@@ -34,13 +65,48 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.75 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "10W-60"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CPR8EB-9"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Shaft drive (cardan)"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 20,000 km (12,400 miles) or 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 10,000 km (6,200 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

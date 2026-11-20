@@ -8,12 +8,13 @@
     "model_group": "harley-davidson-975-bronx",
     "category": "Naked",
     "displacement": "975 cc",
-    "summary": "Harley-Davidson 975 Bronx brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Harley-Davidson 975 Bronx (2020–2021). 975 cc, 115.0 hp (83.9 kW)). Some specifications are still being compiled.",
     "tags": [
       "harley-davidson",
       "975-bronx",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,49 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "975 cc liquid-cooled V2, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
             "value": "975 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "115.0 hp (83.9 kW))"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "96.3 Nm (9.8 kgf-m or 71.0 ft.lbs)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Dual shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. Brembo"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Brembo"
           },
           {
             "key": "model_years",
@@ -34,13 +75,18 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Chain"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

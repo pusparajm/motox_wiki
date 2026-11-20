@@ -8,12 +8,13 @@
     "model_group": "bmw-r-1250-rt-sport",
     "category": "Commuter",
     "displacement": "1250 cc",
-    "summary": "BMW R 1250 RT Sport brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "BMW R 1250 RT Sport (2019–2020). 1254 cc, 143 Nm, 805 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "bmw",
       "r-1250-rt-sport",
       "commuter",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,25 +23,120 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1254 cc liquid-cooled"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1250 cc"
+            "value": "1254 cc"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "143 Nm @ 6,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Shaft drive with bevel gears"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "BMW Telelever, with anti-dive top fork bridge, trailing arm pivot-mounted on engine and telescopic forks, central spring, 120 mm"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Cast aluminium single swinging arm featuring BMW Motorrad Paralever, 136 mm (5.4 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Hydraulically operated twin disc brake with 4-piston radial brake calipers and floating brake discs"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Hydraulically actuated disc brake with 2-piston floating caliper and fixed disc"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 180/55-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "805 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "25 L"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2019–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 5W-40, API SL"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF160"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK LMAR8AI-10"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.5 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Shaft drive with bevel gears"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 15W, 0.55 litres (0.58 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 10,000 km (6,200 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

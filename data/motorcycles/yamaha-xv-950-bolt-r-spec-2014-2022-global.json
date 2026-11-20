@@ -8,12 +8,13 @@
     "model_group": "yamaha-xv-950-bolt-r-spec",
     "category": "Naked",
     "displacement": "950 cc",
-    "summary": "Yamaha XV 950 Bolt R-Spec brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Yamaha XV 950 Bolt R-Spec (2014–2022). 246 kg. Some specifications are still being compiled.",
     "tags": [
       "yamaha",
       "xv-950-bolt-r-spec",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,44 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "950 cc"
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Swingarm"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Hydraulic single disc brake"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Hydraulic single disc brake"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "150/80B16M/C 71H front, 150/80B16M/C 71H rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "690 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "246 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13 L"
           },
           {
             "key": "model_years",
@@ -34,13 +70,38 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "17 N·m (13 lb·ft)"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "13 N·m (9.6 lb·ft)"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

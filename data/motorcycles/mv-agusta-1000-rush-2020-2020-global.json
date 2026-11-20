@@ -8,39 +8,115 @@
     "model_group": "mv-agusta-1000-rush",
     "category": "Naked",
     "displacement": "1000 cc",
-    "summary": "MV Agusta 1000 Rush brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "MV Agusta 1000 Rush (2020). 998 cc, 208 hp, 116.5 Nm, 210 kg, 845 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "mv-agusta",
       "1000-rush",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "998 cc oil & air-cooled In-line four, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1000 cc"
+            "value": "998 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "208 hp @ 13,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "116.5 Nm @ 11,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Öhlins Nix EC hydraulic"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Rogressive, single shock absorber Öhlins EC TTX completely adjustable with electronically controlled compression and rebound damping and spring preload, 120 mm (4.7 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Brembo"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 200/55-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "845 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "210 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "16 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Cassette style, six speed, constant mesh"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 6,000 km (3,700 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -49,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

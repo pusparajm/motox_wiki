@@ -8,12 +8,13 @@
     "model_group": "husqvarna-701-vitpilen",
     "category": "Naked",
     "displacement": "701 cc",
-    "summary": "Husqvarna 701 Vitpilen brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Husqvarna 701 Vitpilen (2018–2020). 373 cc. Some specifications are still being compiled.",
     "tags": [
       "husqvarna",
       "701-vitpilen",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,54 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "373 cc water cooling, permanent circulation of coolant by water pump-cooled"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "701 cc"
+            "value": "373 cc"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-gear transmission, claw shifted, Chain drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Monoshock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Disc brake with 4-piston brake caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Disc brake with single-pot brake caliper, floating"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/70 R 17 M/C 54H TL front, 150/60 R 17 M/C 66H TL rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "835 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "9.5 L"
           },
           {
             "key": "model_years",
@@ -34,13 +80,58 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.7 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 15W/50"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "10 N·m (7.4 lb·ft)"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "15 N·m (11.1 lb·ft)"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.2 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 pitch, 118 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.42-0.44 litres (0.44-0.46 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 / DOT 5.1"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 7,500 km (4,700 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

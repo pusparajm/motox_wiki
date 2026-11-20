@@ -8,12 +8,13 @@
     "model_group": "triumph-diamond-ed",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Triumph Diamond Ed. brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Triumph Diamond Ed. (2019–2020). . Some specifications are still being compiled.",
     "tags": [
       "triumph",
       "diamond-ed",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,6 +23,51 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "105 Nm @ 3100 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Kyb 41mm cartidge forks,, 120 mm (4.7 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Kyb twin shocks with adjustable preload,, 120 mm (4.7 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. ABS. Nissin 2-piston floating caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Nissin 2-piston floating caliper"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-18 front, 150/70-R17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "790 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "14.5 L"
+          },
+          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2019–2020"
@@ -29,13 +75,23 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.5 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "X ring chain. Primary drive: Gear."
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -49,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },

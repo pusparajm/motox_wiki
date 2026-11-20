@@ -8,12 +8,13 @@
     "model_group": "ktm-sx-300",
     "category": "Motocross",
     "displacement": "300 cc",
-    "summary": "KTM SX 300 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "KTM SX 300 (2023). 293.2 cc. Some specifications are still being compiled.",
     "tags": [
       "ktm",
       "sx-300",
       "motocross",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,54 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "293.2 cc liquid-cooled Single cylinder, two-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "300 cc"
+            "value": "293.2 cc"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "WP XACT-USD, Ø 48 mm, 300 mm (11.8 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP XACT Monoshock with linkage, 310 mm (12.2 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Brembo 2-piston floating caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Brembo single-piston floating calliper, brake disc"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "1.60-21 front, 2.15-19 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "958 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "7.2 L"
           },
           {
             "key": "model_years",
@@ -34,13 +80,33 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "0.95 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 pitch, 118 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.38 litres (0.40 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
           }
         ]
       },
