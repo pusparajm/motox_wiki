@@ -111,6 +111,11 @@
             "value": "HF138"
           },
           {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK MR9DI-7"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA630HH"
@@ -121,14 +126,34 @@
             "value": "EBC FA266"
           },
           {
+            "key": "front_wheel_bearings",
+            "label": "Front Wheel Bearings",
+            "value": "All Balls 25-1211"
+          },
+          {
+            "key": "rear_wheel_bearings",
+            "label": "Rear Wheel Bearings",
+            "value": "All Balls 25-1827"
+          },
+          {
+            "key": "steering_head_bearings",
+            "label": "Steering Head Bearings",
+            "value": "All Balls 22-1039"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "525 O-ring, 110 links"
+            "value": "520 O-ring, 110 links"
+          },
+          {
+            "key": "fork_seal",
+            "label": "Fork Seal Size",
+            "value": "41 × 53 × 8 mm (Kayaba)"
           },
           {
             "key": "parts_note",
             "label": "Parts & Fitment Note",
-            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            "value": "All Balls kits are listed for RS 660 2021–2025. OEM fork seal kit 2B004402; some RS 660 variants use Wuxi forks — verify before ordering."
           }
         ]
       },
