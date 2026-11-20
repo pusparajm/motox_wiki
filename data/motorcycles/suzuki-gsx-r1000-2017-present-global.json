@@ -138,42 +138,37 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2019–2020, 2023"
+            "value": "5W — 2019–2020, 2023"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "100 mm — K-Tech 2019–2020, 2023"
+            "value": "100 mm — 2019–2020, 2023"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "43.00 × 54.00 × 11.00 mm (SHOWA, NOK) — K-Tech 2019–2020, 2023"
+            "value": "43.00 × 54.00 × 11.00 mm (SHOWA, NOK) — 2019–2020, 2023"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "43.00 × 54.20/59.80 × 6.00/11.00 mm (SHOWA, NOK) — K-Tech 2019–2020, 2023"
+            "value": "43.00 × 54.20/59.80 × 6.00/11.00 mm (SHOWA, NOK) — 2019–2020, 2023"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "44.70 × 20.00 × 1.50 mm — K-Tech 2019–2020, 2023"
+            "value": "44.70 × 20.00 × 1.50 mm — 2019–2020, 2023"
           },
           {
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
-            "value": "41.00/43.00 mm — K-Tech 2019–2020, 2023"
+            "value": "41.00/43.00 mm — 2019–2020, 2023"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Showa (40/14) Mono Tube Piggyback — K-Tech 2019–2020, 2023"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2019–2020, 2023). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Showa (40/14) Mono Tube Piggyback — 2019–2020, 2023"
           }
         ]
       },

@@ -59,27 +59,22 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 1985–1986"
+            "value": "5W — 1985–1986"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "37.00 × 50.00 × 11.00 mm (SHOWA, NOK) — K-Tech 1985–1986"
+            "value": "37.00 × 50.00 × 11.00 mm (SHOWA, NOK) — 1985–1986"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "37.00 × 50.50 × 5.60/12.80 mm (SHOWA, NOK) — K-Tech 1985–1986"
+            "value": "37.00 × 50.50 × 5.60/12.80 mm (SHOWA, NOK) — 1985–1986"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "37.70 × 20.00 × 1.00 mm — K-Tech 1985–1986"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (1985–1986). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "37.70 × 20.00 × 1.00 mm — 1985–1986"
           }
         ]
       },

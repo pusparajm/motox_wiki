@@ -59,22 +59,17 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2012"
+            "value": "5W — 2012"
           },
           {
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
-            "value": "41.00/43.00 mm — K-Tech 2012"
+            "value": "41.00/43.00 mm — 2012"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Showa (46/14) Mono Tube (Dividing Piston) — K-Tech 2012"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2012). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Showa (46/14) Mono Tube (Dividing Piston) — 2012"
           }
         ]
       },

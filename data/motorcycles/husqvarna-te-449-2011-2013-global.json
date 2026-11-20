@@ -59,37 +59,32 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2013"
+            "value": "5W — 2013"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "48.00 × 58.10 × 8.50/10.50 mm (KYB, NOK) — K-Tech 2013"
+            "value": "48.00 × 58.10 × 8.50/10.50 mm (KYB, NOK) — 2013"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "48.00 × 58.50 × 4.70/11.60 mm (KYB, SHOWA, NOK) — K-Tech 2013"
+            "value": "48.00 × 58.50 × 4.70/11.60 mm (KYB, SHOWA, NOK) — 2013"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "48.70 × 20.00 × 1.00 mm — K-Tech 2013"
+            "value": "48.70 × 20.00 × 1.00 mm — 2013"
           },
           {
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
-            "value": "46.00/48.00 mm — K-Tech 2013"
+            "value": "46.00/48.00 mm — 2013"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Sachs (50/16) Mono Tube Piggyback — K-Tech 2013"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2013). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Sachs (50/16) Mono Tube Piggyback — 2013"
           }
         ]
       },

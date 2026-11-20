@@ -150,32 +150,27 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2020"
+            "value": "5W — 2020"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "95 mm — K-Tech 2020"
+            "value": "95 mm — 2020"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "43.00 × 55.00 × 11.00/14.00 mm (OHLINS, NOK) — K-Tech 2020"
+            "value": "43.00 × 55.00 × 11.00/14.00 mm (OHLINS, NOK) — 2020"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "43.00 × 55.50 × 4.70/14.00 mm (OHLINS) — K-Tech 2020"
+            "value": "43.00 × 55.50 × 4.70/14.00 mm (OHLINS) — 2020"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Ohlins (36/14) Twin Tube Piggyback TTX — K-Tech 2020"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2020). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Ohlins (36/14) Twin Tube Piggyback TTX — 2020"
           }
         ]
       },

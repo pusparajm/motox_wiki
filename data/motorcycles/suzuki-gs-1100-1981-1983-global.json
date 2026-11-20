@@ -59,17 +59,12 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "15W — K-Tech 1983"
+            "value": "15W — 1983"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "170 mm — K-Tech 1983"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (1983). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "170 mm — 1983"
           }
         ]
       },

@@ -59,32 +59,27 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2016"
+            "value": "5W — 2016"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "50 mm — K-Tech 2016"
+            "value": "50 mm — 2016"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "43.00 × 52.90 × 9.50/10.50 mm (WP, NOK) — K-Tech 2016"
+            "value": "43.00 × 52.90 × 9.50/10.50 mm (WP, NOK) — 2016"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "43.70 × 20.00 × 1.00 mm — K-Tech 2016"
+            "value": "43.70 × 20.00 × 1.00 mm — 2016"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "WP (46/18) Mono Tube (Emulsion) — K-Tech 2016"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2016). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "WP (46/18) Mono Tube (Emulsion) — 2016"
           }
         ]
       },

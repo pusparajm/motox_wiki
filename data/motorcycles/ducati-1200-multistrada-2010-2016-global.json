@@ -59,37 +59,32 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "7.5W — K-Tech 2016"
+            "value": "7.5W — 2016"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "95 mm — K-Tech 2016"
+            "value": "95 mm — 2016"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "50.00 × 63.00 × 11.00 mm (MARZOCCHI, NOK) — K-Tech 2016"
+            "value": "50.00 × 63.00 × 11.00 mm (MARZOCCHI, NOK) — 2016"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "50.00 × 63.40 × 4.60/14.00 mm (MARZOCCHI, NOK) — K-Tech 2016"
+            "value": "50.00 × 63.40 × 4.60/14.00 mm (MARZOCCHI, NOK) — 2016"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "50.70 × 20.00 × 1.00 mm — K-Tech 2016"
+            "value": "50.70 × 20.00 × 1.00 mm — 2016"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Sachs (46/14) Mono Tube (Dividing Piston) — K-Tech 2016"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2016). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Sachs (46/14) Mono Tube (Dividing Piston) — 2016"
           }
         ]
       },

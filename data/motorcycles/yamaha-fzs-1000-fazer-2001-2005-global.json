@@ -59,42 +59,37 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2004–2005"
+            "value": "5W — 2004–2005"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "140 mm — K-Tech 2004–2005"
+            "value": "140 mm — 2004–2005"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "43.00 × 55.00 × 11.00 mm (OHLINS, NOK) — K-Tech 2004–2005"
+            "value": "43.00 × 55.00 × 11.00 mm (OHLINS, NOK) — 2004–2005"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "43.00 × 55.50 × 4.70/14.00 mm (KYB, NOK) — K-Tech 2004–2005"
+            "value": "43.00 × 55.50 × 4.70/14.00 mm (KYB, NOK) — 2004–2005"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "43.70 × 20.00 × 1.00 mm — K-Tech 2004–2005"
+            "value": "43.70 × 20.00 × 1.00 mm — 2004–2005"
           },
           {
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
-            "value": "41.00/43.00 mm — K-Tech 2004–2005"
+            "value": "41.00/43.00 mm — 2004–2005"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Soqi (46/16) Mono Tube Piggyback — K-Tech 2004–2005"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2004–2005). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Soqi (46/16) Mono Tube Piggyback — 2004–2005"
           }
         ]
       },

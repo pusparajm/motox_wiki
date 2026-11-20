@@ -59,32 +59,27 @@
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "42 mm — K-Tech 2007"
+            "value": "42 mm — 2007"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "41.00 × 54.00 × 11.00 mm (SHOWA, NOK) — K-Tech 2007"
+            "value": "41.00 × 54.00 × 11.00 mm (SHOWA, NOK) — 2007"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "41.00 × 54.40 × 4.60/14.00 mm (SHOWA, NOK) — K-Tech 2007"
+            "value": "41.00 × 54.40 × 4.60/14.00 mm (SHOWA, NOK) — 2007"
           },
           {
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
-            "value": "41.00/43.00 mm — K-Tech 2007"
+            "value": "41.00/43.00 mm — 2007"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Ohlins (46/16) Mono Tube Piggyback — K-Tech 2007"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2007). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Ohlins (46/16) Mono Tube Piggyback — 2007"
           }
         ]
       },

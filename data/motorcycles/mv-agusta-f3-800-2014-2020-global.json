@@ -140,22 +140,17 @@
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "43.00 × 54.00 × 9.50/10.50 mm (SHOWA, NOK) — K-Tech 2020"
+            "value": "43.00 × 54.00 × 9.50/10.50 mm (SHOWA, NOK) — 2020"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "43.00 × 54.20/59.80 × 6.00/11.00 mm (SHOWA, NOK) — K-Tech 2020"
+            "value": "43.00 × 54.20/59.80 × 6.00/11.00 mm (SHOWA, NOK) — 2020"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Sachs (46/14) Mono Tube Piggyback — K-Tech 2020"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2020). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Sachs (46/14) Mono Tube Piggyback — 2020"
           }
         ]
       },

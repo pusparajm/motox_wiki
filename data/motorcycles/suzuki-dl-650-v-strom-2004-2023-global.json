@@ -59,32 +59,27 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2009, 2011"
+            "value": "5W — 2009, 2011"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "43.00 × 54.00 × 11.00 mm (SHOWA, NOK) — K-Tech 2009, 2011"
+            "value": "43.00 × 54.00 × 11.00 mm (SHOWA, NOK) — 2009, 2011"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "43.00 × 54.20/59.80 × 6.00/11.00 mm (SHOWA, NOK) — K-Tech 2009, 2011"
+            "value": "43.00 × 54.20/59.80 × 6.00/11.00 mm (SHOWA, NOK) — 2009, 2011"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "43.70 × 15.00 × 1.00 mm — K-Tech 2009, 2011"
+            "value": "43.70 × 15.00 × 1.00 mm — 2009, 2011"
           },
           {
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
-            "value": "41.00/43.00 mm — K-Tech 2009, 2011"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2009, 2011). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "41.00/43.00 mm — 2009, 2011"
           }
         ]
       },

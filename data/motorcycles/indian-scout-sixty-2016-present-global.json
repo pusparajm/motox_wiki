@@ -143,17 +143,12 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2019"
+            "value": "5W — 2019"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "130 mm — K-Tech 2019"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2019). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "130 mm — 2019"
           }
         ]
       },

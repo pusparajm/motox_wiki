@@ -133,17 +133,12 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "10W — K-Tech 2026"
+            "value": "10W — 2026"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "45.00 × 58.00 × 11.00 mm (MARZOCCHI, NOK) — K-Tech 2026"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2026). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "45.00 × 58.00 × 11.00 mm (MARZOCCHI, NOK) — 2026"
           }
         ]
       },

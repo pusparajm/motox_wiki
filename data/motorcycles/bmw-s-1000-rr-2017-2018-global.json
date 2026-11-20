@@ -138,37 +138,32 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2018"
+            "value": "5W — 2018"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "110 mm — K-Tech 2018"
+            "value": "110 mm — 2018"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "46.00 × 58.00 × 8.50/11.50 mm (SACHS) — K-Tech 2018"
+            "value": "46.00 × 58.00 × 8.50/11.50 mm (SACHS) — 2018"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "46.00 × 58.50 × 4.70/11.60 mm (KYB, NOK) — K-Tech 2018"
+            "value": "46.00 × 58.50 × 4.70/11.60 mm (KYB, NOK) — 2018"
           },
           {
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
-            "value": "46.00/48.00 mm — K-Tech 2018"
+            "value": "46.00/48.00 mm — 2018"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Sachs (40/15) Mono Tube (DDC) — K-Tech 2018"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2018). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Sachs (40/15) Mono Tube (DDC) — 2018"
           }
         ]
       },

@@ -128,37 +128,32 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2024, 2026"
+            "value": "5W — 2024, 2026"
           },
           {
             "key": "fork_oil_volume",
             "label": "Fork Oil Quantity",
-            "value": "640 cc — K-Tech 2024; 620 cc — K-Tech 2026"
+            "value": "640 cc — 2024; 620 cc — 2026"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "48.00 × 57.90 × 9.50 mm (WP, NOK) — K-Tech 2024, 2026"
+            "value": "48.00 × 57.90 × 9.50 mm (WP, NOK) — 2024, 2026"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "48.00 × 58.50/62.00 × 6.00/11.50 mm (WP, NOK) — K-Tech 2024, 2026"
+            "value": "48.00 × 58.50/62.00 × 6.00/11.50 mm (WP, NOK) — 2024, 2026"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "48.70 × 20.00 × 1.00 mm — K-Tech 2024, 2026"
+            "value": "48.70 × 20.00 × 1.00 mm — 2024, 2026"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "WP (46/18) Mono Tube XPLOR 5746 Piggyback — K-Tech 2024, 2026"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2024, 2026). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "WP (46/18) Mono Tube XPLOR 5746 Piggyback — 2024, 2026"
           }
         ]
       },

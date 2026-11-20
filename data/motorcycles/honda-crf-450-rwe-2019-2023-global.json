@@ -59,37 +59,32 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2026"
+            "value": "5W — 2026"
           },
           {
             "key": "fork_oil_volume",
             "label": "Fork Oil Quantity",
-            "value": "388 cc — K-Tech 2026"
+            "value": "388 cc — 2026"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "49.00 × 60.00 × 10.00 mm (SHOWA, NOK) — K-Tech 2026"
+            "value": "49.00 × 60.00 × 10.00 mm (SHOWA, NOK) — 2026"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "49.00 × 60.50/64.00 × 6.00/13.50 mm (SHOWA, NOK) — K-Tech 2026"
+            "value": "49.00 × 60.50/64.00 × 6.00/13.50 mm (SHOWA, NOK) — 2026"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "49.70 × 20.00 × 1.00 mm — K-Tech 2026"
+            "value": "49.70 × 20.00 × 1.00 mm — 2026"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Showa (50/18) Mono Tube Piggyback — K-Tech 2026"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2026). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Showa (50/18) Mono Tube Piggyback — 2026"
           }
         ]
       },

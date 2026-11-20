@@ -85,11 +85,6 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "Ohlins (46/16) Mono Tube Piggyback"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2001). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

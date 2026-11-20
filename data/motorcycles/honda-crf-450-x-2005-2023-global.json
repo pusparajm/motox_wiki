@@ -59,42 +59,37 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2011, 2020"
+            "value": "5W — 2011, 2020"
           },
           {
             "key": "fork_oil_volume",
             "label": "Fork Oil Quantity",
-            "value": "379 cc — K-Tech 2011; 361 cc — K-Tech 2020"
+            "value": "379 cc — 2011; 361 cc — 2020"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "47.00 × 58.00 × 10.00 mm (SHOWA, NOK) — K-Tech 2011; 49.00 × 60.00 × 10.00 mm (SHOWA, NOK) — K-Tech 2020"
+            "value": "47.00 × 58.00 × 10.00 mm (SHOWA, NOK) — 2011; 49.00 × 60.00 × 10.00 mm (SHOWA, NOK) — 2020"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "47.00 × 59.00/62.00 × 8.00/10.30 mm (SHOWA, NOK) — K-Tech 2011; 49.00 × 60.50/64.00 × 6.00/13.50 mm (SHOWA, NOK) — K-Tech 2020"
+            "value": "47.00 × 59.00/62.00 × 8.00/10.30 mm (SHOWA, NOK) — 2011; 49.00 × 60.50/64.00 × 6.00/13.50 mm (SHOWA, NOK) — 2020"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "47.70 × 20.00 × 1.00 mm — K-Tech 2011; 49.70 × 20.00 × 1.00 mm — K-Tech 2020"
+            "value": "47.70 × 20.00 × 1.00 mm — 2011; 49.70 × 20.00 × 1.00 mm — 2020"
           },
           {
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
-            "value": "46.00/48.00 mm — K-Tech 2011"
+            "value": "46.00/48.00 mm — 2011"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Showa (50/16) Mono Tube Piggyback — K-Tech 2011, 2020"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2011, 2020). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Showa (50/16) Mono Tube Piggyback — 2011, 2020"
           }
         ]
       },

@@ -64,7 +64,7 @@
           {
             "key": "fork_oil_volume",
             "label": "Fork Oil Quantity",
-            "value": "365 cc — K-Tech 2011–2012"
+            "value": "365 cc — 2011–2012"
           },
           {
             "key": "fork_seal",
@@ -85,11 +85,6 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "WP (50/18) Mono Tube PDS Piggyback"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2011–2013). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

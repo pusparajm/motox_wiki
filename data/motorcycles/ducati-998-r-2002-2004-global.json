@@ -59,37 +59,32 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2003"
+            "value": "5W — 2003"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "125 mm — K-Tech 2003"
+            "value": "125 mm — 2003"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "43.00 × 55.00 × 11.00 mm (OHLINS, NOK) — K-Tech 2003"
+            "value": "43.00 × 55.00 × 11.00 mm (OHLINS, NOK) — 2003"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "43.00 × 55.50 × 4.70/14.00 mm (KYB, NOK) — K-Tech 2003"
+            "value": "43.00 × 55.50 × 4.70/14.00 mm (KYB, NOK) — 2003"
           },
           {
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
-            "value": "41.00/43.00 mm — K-Tech 2003"
+            "value": "41.00/43.00 mm — 2003"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Ohlins (46/16) Mono Tube Piggyback — K-Tech 2003"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2003). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Ohlins (46/16) Mono Tube Piggyback — 2003"
           }
         ]
       },

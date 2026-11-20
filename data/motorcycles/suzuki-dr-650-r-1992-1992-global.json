@@ -80,11 +80,6 @@
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
             "value": "41.00/43.00 mm"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (1992). Confirm fork variant, per-leg oil fill and model-year before ordering."
           }
         ]
       },

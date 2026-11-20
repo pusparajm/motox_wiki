@@ -138,37 +138,32 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 2012, 2021–2022, 2024"
+            "value": "5W — 2012, 2021–2022, 2024"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "390 mm — K-Tech 2024 (latest listed)"
+            "value": "390 mm — 2024 (latest)"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "48.00 × 57.90 × 9.50 mm (WP, NOK) — K-Tech 2012, 2021–2022, 2024"
+            "value": "48.00 × 57.90 × 9.50 mm (WP, NOK) — 2012, 2021–2022, 2024"
           },
           {
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
-            "value": "48.00 × 58.50/62.00 × 6.00/11.50 mm (WP, NOK) — K-Tech 2012, 2021–2022, 2024"
+            "value": "48.00 × 58.50/62.00 × 6.00/11.50 mm (WP, NOK) — 2012, 2021–2022, 2024"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "48.70 × 20.00 × 1.00 mm — K-Tech 2012, 2021–2022, 2024"
+            "value": "48.70 × 20.00 × 1.00 mm — 2012, 2021–2022, 2024"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "WP (50/18) Mono Tube PDS Piggyback — K-Tech 2012; WP (46/18) Mono Tube XPLOR Piggyback — K-Tech 2021–2022; WP (46/18) Mono Tube XACT PDS Piggyback — K-Tech 2024"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2012, 2021–2022, 2024). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "WP (50/18) Mono Tube PDS Piggyback — 2012; WP (46/18) Mono Tube XPLOR Piggyback — 2021–2022; WP (46/18) Mono Tube XACT PDS Piggyback — 2024"
           }
         ]
       },

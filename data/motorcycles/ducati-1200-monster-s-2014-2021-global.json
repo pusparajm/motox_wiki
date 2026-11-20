@@ -155,22 +155,17 @@
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "150 mm — K-Tech 2017"
+            "value": "150 mm — 2017"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "48.00 × 61.00 × 11.00 mm (OHLINS, NOK) — K-Tech 2017"
+            "value": "48.00 × 61.00 × 11.00 mm (OHLINS, NOK) — 2017"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Ohlins (46/16) Mono Tube (Dividing Piston) — K-Tech 2017"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2017). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Ohlins (46/16) Mono Tube (Dividing Piston) — 2017"
           }
         ]
       },

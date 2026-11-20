@@ -59,32 +59,27 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "7.5W — K-Tech 2013"
+            "value": "7.5W — 2013"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "125 mm — K-Tech 2013"
+            "value": "125 mm — 2013"
           },
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "45.00 × 58.00 × 11.00 mm (MARZOCCHI, NOK) — K-Tech 2013"
+            "value": "45.00 × 58.00 × 11.00 mm (MARZOCCHI, NOK) — 2013"
           },
           {
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
-            "value": "46.70 × 20.00 × 1.50 mm — K-Tech 2013"
+            "value": "46.70 × 20.00 × 1.50 mm — 2013"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "KYB (46/16) Mono Tube Piggyback — K-Tech 2013"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2013). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "KYB (46/16) Mono Tube Piggyback — 2013"
           }
         ]
       },

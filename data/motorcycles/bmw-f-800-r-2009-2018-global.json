@@ -59,12 +59,7 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "7.5W — K-Tech 2009, 2014"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (2009, 2014). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "7.5W — 2009, 2014"
           }
         ]
       },

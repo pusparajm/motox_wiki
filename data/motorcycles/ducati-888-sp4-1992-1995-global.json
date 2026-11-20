@@ -59,22 +59,17 @@
           {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
-            "value": "5W — K-Tech 1992"
+            "value": "5W — 1992"
           },
           {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
-            "value": "160 mm — K-Tech 1992"
+            "value": "160 mm — 1992"
           },
           {
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
-            "value": "Ohlins (46/16) Mono Tube (Hose Reservoir) — K-Tech 1992"
-          },
-          {
-            "key": "suspension_source",
-            "label": "Suspension Source",
-            "value": "K-Tech Part Finder (1992). Confirm fork variant, per-leg oil fill and model-year before ordering."
+            "value": "Ohlins (46/16) Mono Tube (Hose Reservoir) — 1992"
           }
         ]
       },
