@@ -96,6 +96,16 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Regina 15/44 525 O-Ring Chain"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

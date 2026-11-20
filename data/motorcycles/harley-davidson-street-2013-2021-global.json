@@ -92,6 +92,31 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CR8E"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "EBC FA209/2"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "EBC FA181X"
+          },
+          {
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

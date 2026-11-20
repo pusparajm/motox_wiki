@@ -484,6 +484,7 @@ const MotoX = (() => {
   function renderRelatedGuides(bike) {
     const category = (bike.category || '').toLowerCase();
     const links = [
+      ['guides/parts-fitment-codes.html', 'Parts and fitment codes'],
       ['guides/oil-capacity-chart.html', 'Motorcycle oil capacity chart'],
       ['guides/seat-height-chart.html', 'Motorcycle seat height chart'],
       ['guides/a2-motorcycles.html', 'A2 motorcycles'],

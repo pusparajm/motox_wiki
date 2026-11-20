@@ -106,9 +106,39 @@
             "value": "SAE 10W-40, JASO MA2"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
             "key": "spark_plug",
             "label": "Spark Plug",
-            "value": "NGK CR8E"
+            "value": "NGK LMAR8A-9"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "EBC FA252 · SBS 634 · Brembo 07YA23"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "EBC FA174 · SBS 657"
+          },
+          {
+            "key": "front_wheel_bearings",
+            "label": "Front Wheel Bearings",
+            "value": "All Balls 25-1659"
+          },
+          {
+            "key": "rear_wheel_bearings",
+            "label": "Rear Wheel Bearings",
+            "value": "All Balls 25-1703"
+          },
+          {
+            "key": "steering_head_bearings",
+            "label": "Steering Head Bearings",
+            "value": "All Balls 22-1004"
           },
           {
             "key": "chain",
@@ -123,7 +153,7 @@
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "41 mm × 53 mm × 11 mm"
+            "value": "41 × 53 × 8/10.5 mm"
           }
         ]
       },
@@ -153,7 +183,7 @@
           {
             "component": "Spark plugs",
             "torque": "13 Nm (10 lb-ft)",
-            "notes": "NGK CR8E"
+            "notes": "NGK LMAR8A-9"
           }
         ],
         "fields": [

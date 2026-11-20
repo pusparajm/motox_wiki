@@ -1,0 +1,2720 @@
+{
+  "aprilia-rs-457-2023-present-global": {
+    "year": 2026,
+    "url": "https://motospecvault.com/moto/aprilia/rs-457/2026/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "aprilia-rs-125-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/aprilia/rs-125/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF563",
+    "chain": "428 pitch, 136 links"
+  },
+  "aprilia-rs-660-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/aprilia/rs-660/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF138",
+    "chain": "520 pitch, 110 links"
+  },
+  "aprilia-rsv4-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/aprilia/rsv4/2022/base/us",
+    "spark_plug": "NGK CR9EKB",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF138",
+    "chain": "525 pitch, 110 links"
+  },
+  "aprilia-sx-125-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/aprilia/sx-125/2019/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF563",
+    "chain": "428 pitch, 138 links"
+  },
+  "aprilia-sr-160-2021-present-india": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/aprilia/sr-160/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "aprilia-tuareg-660-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/aprilia/tuareg-660/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF565",
+    "chain": "520 pitch, 120 links"
+  },
+  "aprilia-tuono-125-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/aprilia/tuono-125/2018/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF563",
+    "chain": "428 pitch, 136 links"
+  },
+  "aprilia-tuono-v4-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/aprilia/tuono-v4/2022/base/us",
+    "spark_plug": "NGK CR9EKB",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF138",
+    "chain": "525 pitch, 110 links"
+  },
+  "benelli-502c-2021-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/benelli/502c/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "525 pitch, 116 links"
+  },
+  "aprilia-tuono-660-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/aprilia/tuono-660/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF138",
+    "chain": "520 pitch, 110 links"
+  },
+  "benelli-imperiale-400-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/benelli/imperiale-400/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "525 pitch, 120 links"
+  },
+  "benelli-leoncino-500-2021-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/benelli/leoncino-500/2021/base/us",
+    "spark_plug": "NGK CR8E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF191",
+    "chain": "525 pitch, 116 links"
+  },
+  "benelli-leoncino-800-2021-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/benelli/leoncino-800/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF191",
+    "chain": "525 pitch, 112 links"
+  },
+  "benelli-trk-502-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/benelli/trk-502/2018/base/us",
+    "spark_plug": "NGK CR8E",
+    "front_brake_pads": "EBC FA322/4HH",
+    "rear_brake_pads": "EBC FA698",
+    "oil_filter": "HF191",
+    "chain": "525 pitch, 114 links"
+  },
+  "benelli-trk-702-2023-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/benelli/trk-702/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF682",
+    "chain": "\u2014"
+  },
+  "benelli-trk-800-2021-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/benelli/trk-800/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "bmw-c-400-gt-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/bmw/c-400-gt/2019/base/us",
+    "spark_plug": "NGK LMAR8J-9E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF164",
+    "chain": ""
+  },
+  "bmw-f-800-gs-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/bmw/f-800-gs/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "bmw-f-900-gs-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/bmw/f-900-gs/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "bmw-f-900-r-2020-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/bmw/f-900-r/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF160",
+    "chain": "525 pitch, 122 links"
+  },
+  "bmw-g-310-gs-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/bmw/g-310-gs/2019/base/us",
+    "spark_plug": "NGK LMAR9D-J",
+    "front_brake_pads": "EBC FA606",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "\u2014",
+    "chain": "520 pitch, 112 links"
+  },
+  "bmw-g310r-2015-2025-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/bmw/g-310-r/2025/base/us",
+    "spark_plug": "NGK LMAR9D-J",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "bmw-m-1000-r-2021-present-global": {
+    "year": 2026,
+    "url": "https://motospecvault.com/moto/bmw/m-1000-r/2026/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "bmw-r-12-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/bmw/r-12/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "bmw-m-1000-rr-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/bmw/m-1000-rr/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA757HH",
+    "rear_brake_pads": "EBC FA254HH",
+    "oil_filter": "HF160",
+    "chain": "525 pitch, 122 links"
+  },
+  "bmw-r-1250-gs-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/bmw/r-1250-gs/2020/base/us",
+    "spark_plug": "NGK LMAR8AI-10",
+    "front_brake_pads": "EBC FA724HH",
+    "rear_brake_pads": "EBC FA209/2",
+    "oil_filter": "HF160",
+    "chain": ""
+  },
+  "bmw-r-12-ninet-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/bmw/r-12-ninet/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "bmw-r-1250-rt-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/bmw/r-1250-rt/2020/base/us",
+    "spark_plug": "NGK LMAR8AI-10",
+    "front_brake_pads": "EBC FA724HH",
+    "rear_brake_pads": "EBC FA209/2",
+    "oil_filter": "HF160",
+    "chain": ""
+  },
+  "bmw-r-1300-gs-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/bmw/r-1300-gs/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "bmw-r-18-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/bmw/r-18/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA748HH",
+    "rear_brake_pads": "EBC FA749HH",
+    "oil_filter": "HF164",
+    "chain": ""
+  },
+  "bmw-s-1000-r-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/bmw/s-1000-r/2022/base/us",
+    "spark_plug": "NGK LMAR9D-J",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF160",
+    "chain": "525 pitch, 120 links"
+  },
+  "bmw-s-1000-rr-2008-2016-global": {
+    "year": 2016,
+    "url": "https://motospecvault.com/moto/bmw/s-1000-rr/2016/base/us",
+    "spark_plug": "NGK LMAR9D-J",
+    "front_brake_pads": "EBC FA604/4HH",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF160",
+    "chain": "525 pitch, 120 links"
+  },
+  "bmw-s-1000-rr-2017-2018-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/bmw/s-1000-rr/2018/base/us",
+    "spark_plug": "NGK LMAR9D-J",
+    "front_brake_pads": "EBC FA604/4HH",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF160",
+    "chain": "525 pitch, 120 links"
+  },
+  "bmw-s-1000-xr-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/bmw/s-1000-xr/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA724HH",
+    "rear_brake_pads": "EBC FA363",
+    "oil_filter": "HF160",
+    "chain": "525 pitch, 128 links"
+  },
+  "bmw-s-1000-rr-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/bmw/s-1000-rr/2020/base/us",
+    "spark_plug": "NGK LMAR9FI-10G",
+    "front_brake_pads": "EBC FA724HH",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF160",
+    "chain": "525 pitch, 120 links"
+  },
+  "cfmoto-650nk-2015-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/cfmoto/650nk/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "cfmoto-700cl-x-2021-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/cfmoto/700cl-x/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "cfmoto-800nk-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/cfmoto/800nk/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "ducati-1199-panigale-2012-2014-global": {
+    "year": 2014,
+    "url": "https://motospecvault.com/moto/ducati/1199-panigale/2014/base/us",
+    "spark_plug": "NGK MAR9A-J",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF159",
+    "chain": "525 pitch, 104 links"
+  },
+  "ducati-848-2008-2013": {
+    "year": 2010,
+    "url": "https://motospecvault.com/moto/ducati/848/2010/base/us",
+    "spark_plug": "NGK MAR10A-J",
+    "front_brake_pads": "EBC FA244",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF153",
+    "chain": "525 pitch, 98 links"
+  },
+  "ducati-749-2003-2007": {
+    "year": 2006,
+    "url": "https://motospecvault.com/moto/ducati/749/2006/base/us",
+    "spark_plug": "NGK CR9E",
+    "front_brake_pads": "EBC FA322/4HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF153",
+    "chain": "525 pitch, 98 links"
+  },
+  "ducati-959-panigale-2016-2019": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/ducati/959-panigale/2018/base/us",
+    "spark_plug": "NGK MAR9A-J",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF159",
+    "chain": "520 pitch, 106 links"
+  },
+  "ducati-899-panigale-2013-2016": {
+    "year": 2015,
+    "url": "https://motospecvault.com/moto/ducati/899-panigale/2015/base/us",
+    "spark_plug": "NGK MAR9A-J",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF159",
+    "chain": "520 pitch, 106 links"
+  },
+  "bmw-ce-04-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/bmw/ce-04/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "ducati-diavel-v4-2023-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ducati/diavel-v4/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "Chain"
+  },
+  "ducati-desertx-2022-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/ducati/desertx/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "525 pitch, 114 links"
+  },
+  "ducati-hypermotard-950-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/ducati/hypermotard-950/2020/base/us",
+    "spark_plug": "NGK MAR9A-J",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA266V",
+    "oil_filter": "HF153",
+    "chain": "520 pitch, 106 links"
+  },
+  "bmw-f-900-xr-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/bmw/f-900-xr/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF160",
+    "chain": "525 pitch, 122 links"
+  },
+  "ducati-monster-821-2014-2020-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/ducati/monster-821/2020/base/us",
+    "spark_plug": "NGK MAR9A-J",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA266V",
+    "oil_filter": "HF153",
+    "chain": "520 pitch, 108 links"
+  },
+  "ducati-monster-1200-2014-2020-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/ducati/monster-1200/2019/base/us",
+    "spark_plug": "NGK MAR9A-J",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF153",
+    "chain": "525 pitch, 108 links"
+  },
+  "ducati-multistrada-v2-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ducati/multistrada-v2/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "525 pitch, 114 links"
+  },
+  "ducati-multistrada-v4-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/ducati/multistrada-v4/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF159",
+    "chain": "525 pitch, 124 links"
+  },
+  "ducati-panigale-v4-2018-2019": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/ducati/panigale-v4/2019/base/us",
+    "spark_plug": "NGK LMDR10A-JS",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF159",
+    "chain": "525 pitch, 114 links"
+  },
+  "ducati-panigale-v2-2025-present": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/ducati/panigale-v2/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "ducati-panigale-v2-2020-2024": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ducati/panigale-v2/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "520 pitch, 106 links"
+  },
+  "ducati-panigale-v4-2020-2022": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/ducati/panigale-v4/2021/base/us",
+    "spark_plug": "NGK LMDR10A-JS",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF159",
+    "chain": "525 pitch, 114 links"
+  },
+  "ducati-panigale-v4-2022-2023": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ducati/panigale-v4/2023/base/us",
+    "spark_plug": "NGK LMDR10A-JS",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "525 pitch, 114 links"
+  },
+  "ducati-panigale-v4-2024-2024": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/ducati/panigale-v4/2025/base/us",
+    "spark_plug": "NGK LMDR10A-JS",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "ducati-panigale-v4-r-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/ducati/panigale-v4-r/2020/base/us",
+    "spark_plug": "NGK LMDR10A-JS",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF159",
+    "chain": "520 pitch, 114 links"
+  },
+  "ducati-scrambler-full-throttle-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/ducati/scrambler-full-throttle/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF153",
+    "chain": "520 pitch, 104 links"
+  },
+  "ducati-scrambler-desert-sled-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/ducati/scrambler-desert-sled/2018/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF153",
+    "chain": "520 pitch, 108 links"
+  },
+  "ducati-panigale-v4-2025-present": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/ducati/panigale-v4/2025/base/us",
+    "spark_plug": "NGK LMDR10A-JS",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "ducati-scrambler-icon-2015-present-global": {
+    "year": 2015,
+    "url": "https://motospecvault.com/moto/ducati/scrambler-icon/2015/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF153",
+    "chain": "520 pitch, 104 links"
+  },
+  "ducati-streetfighter-v2-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ducati/streetfighter-v2/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "520 pitch, 110 links"
+  },
+  "ducati-streetfighter-v4-2020-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/ducati/streetfighter-v4/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF159",
+    "chain": "525 pitch, 116 links"
+  },
+  "ducati-supersport-950-2021-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/ducati/supersport-950/2021/base/us",
+    "spark_plug": "NGK MAR9A-J",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF153",
+    "chain": "Chain; Front sprocket 15; Rear sprocket 43. Primary drive: Straight cut gears; Ratio 1.84."
+  },
+  "ducati-xdiavel-2016-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/ducati/xdiavel/2017/base/us",
+    "spark_plug": "NGK MAR9A-J",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "EBC FA209/2V",
+    "oil_filter": "HF153",
+    "chain": ""
+  },
+  "harley-davidson-breakout-2013-present-global": {
+    "year": 2014,
+    "url": "https://motospecvault.com/moto/harley-davidson/breakout/2014/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA457V",
+    "rear_brake_pads": "EBC FA458V",
+    "oil_filter": "HF171",
+    "chain": ""
+  },
+  "energica-experia-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/energica/experia/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "Regina 15/44 525 O-Ring Chain"
+  },
+  "harley-davidson-fat-boy-2013-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/harley-davidson/fat-boy/2019/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA296HH",
+    "rear_brake_pads": "EBC FA710V",
+    "oil_filter": "HF171",
+    "chain": ""
+  },
+  "harley-davidson-forty-eight-2010-present-global": {
+    "year": 2011,
+    "url": "https://motospecvault.com/moto/harley-davidson/forty-eight/2011/base/us",
+    "spark_plug": "NGK DCPR7E",
+    "front_brake_pads": "EBC FA381",
+    "rear_brake_pads": "EBC FA387",
+    "oil_filter": "HF170",
+    "chain": ""
+  },
+  "harley-davidson-heritage-classic-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/harley-davidson/heritage-classic/2019/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA296HH",
+    "rear_brake_pads": "EBC FA710V",
+    "oil_filter": "HF171",
+    "chain": ""
+  },
+  "harley-davidson-iron-883-2009-2022-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/harley-davidson/iron-883/2022/base/us",
+    "spark_plug": "NGK DCPR7EA-9",
+    "front_brake_pads": "EBC FA640",
+    "rear_brake_pads": "EBC FA254",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "harley-davidson-low-rider-s-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/harley-davidson/low-rider-s/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA296HH",
+    "rear_brake_pads": "EBC FA710V",
+    "oil_filter": "HF171",
+    "chain": ""
+  },
+  "harley-davidson-nightster-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/harley-davidson/nightster/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF176B",
+    "chain": ""
+  },
+  "harley-davidson-pan-america-1250-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/harley-davidson/pan-america-1250/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF176B",
+    "chain": "\u2014"
+  },
+  "harley-davidson-road-glide-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/harley-davidson/road-glide/2018/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA409",
+    "rear_brake_pads": "EBC FA409",
+    "oil_filter": "HF171",
+    "chain": ""
+  },
+  "harley-davidson-road-king-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/harley-davidson/road-king/2018/base/us",
+    "spark_plug": "NGK DCPR7E",
+    "front_brake_pads": "EBC FA409",
+    "rear_brake_pads": "EBC FA409",
+    "oil_filter": "HF171",
+    "chain": ""
+  },
+  "harley-davidson-road-glide-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/harley-davidson/road-glide/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "harley-davidson-sportster-s-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/harley-davidson/sportster-s/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF176B",
+    "chain": ""
+  },
+  "harley-davidson-street-glide-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/harley-davidson/street-glide/2018/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA409",
+    "rear_brake_pads": "EBC FA409",
+    "oil_filter": "HF171",
+    "chain": ""
+  },
+  "harley-davidson-street-2013-2021-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/harley-davidson/street-750/2021/base/us",
+    "spark_plug": "NGK CR8E",
+    "front_brake_pads": "EBC FA209/2",
+    "rear_brake_pads": "EBC FA181X",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "harley-davidson-street-glide-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/harley-davidson/street-glide/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "harley-davidson-street-bob-2013-2016-global": {
+    "year": 2026,
+    "url": "https://motospecvault.com/moto/harley-davidson/street-bob/2026/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "harley-davidson-street-rod-2017-2021-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/harley-davidson/street-rod/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA209/2",
+    "rear_brake_pads": "EBC FA181X",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "honda-cb1000r-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/honda/cb1000r/2019/base/us",
+    "spark_plug": "NGK IMR9E-9HES",
+    "front_brake_pads": "EBC FA700HH",
+    "rear_brake_pads": "EBC FA488HH",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 116 links"
+  },
+  "honda-cb125f-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/cb125f/2022/base/us",
+    "spark_plug": "NGK CPR7EA-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "428 pitch, 118 links"
+  },
+  "honda-cb125r-2018-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/cb125r/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "honda-cb350rs-2021-present-india": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/cb350rs/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "honda-cb300r-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/honda/cb300r/2019/base/us",
+    "spark_plug": "NGK SIMR8A9",
+    "front_brake_pads": "EBC FA679HH",
+    "rear_brake_pads": "EBC FA629",
+    "oil_filter": "HF103",
+    "chain": "520 pitch, 108 links"
+  },
+  "honda-cb500f-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/honda/cb500f/2023/base/us",
+    "spark_plug": "CPR8EA-9 (NGK)",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 112 links"
+  },
+  "honda-cb350-2021-present-india": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/honda/cb350/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "honda-cb650f-2013-2016": {
+    "year": 2015,
+    "url": "https://motospecvault.com/moto/honda/cb650f/2015/base/us",
+    "spark_plug": "NGK CR9EH-9",
+    "front_brake_pads": "EBC FA142",
+    "rear_brake_pads": "EBC FA496",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 118 links"
+  },
+  "honda-cb650f-2017-2018": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/honda/cb650f/2018/base/us",
+    "spark_plug": "NGK CR9EH-9",
+    "front_brake_pads": "EBC FA142",
+    "rear_brake_pads": "EBC FA496",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 118 links"
+  },
+  "honda-cb650r-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/honda/cb650r/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA679HH",
+    "rear_brake_pads": "EBC FA496",
+    "oil_filter": "\u2014",
+    "chain": "525 pitch, 118 links"
+  },
+  "honda-cb750-hornet-2023-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/honda/cb750-hornet/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "\u2014"
+  },
+  "honda-cbr1000rr-2004-2005": {
+    "year": 2005,
+    "url": "https://motospecvault.com/moto/honda/cbr1000rr/2005/base/us",
+    "spark_plug": "NGK IMR9C-9HES",
+    "front_brake_pads": "EBC FA390HH",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF204",
+    "chain": "530 pitch, 114 links"
+  },
+  "honda-cbr1000rr-2006-2007": {
+    "year": 2007,
+    "url": "https://motospecvault.com/moto/honda/cbr1000rr/2007/base/us",
+    "spark_plug": "NGK IMR9C-9HES",
+    "front_brake_pads": "EBC FA390HH",
+    "rear_brake_pads": "EBC FA436",
+    "oil_filter": "HF204",
+    "chain": "530 pitch, 114 links"
+  },
+  "honda-cbr1000rr-2008-2011": {
+    "year": 2011,
+    "url": "https://motospecvault.com/moto/honda/cbr1000rr/2011/base/us",
+    "spark_plug": "NGK IMR9E-9HES",
+    "front_brake_pads": "EBC FA390HH",
+    "rear_brake_pads": "EBC FA436",
+    "oil_filter": "HF204",
+    "chain": "530 pitch, 116 links"
+  },
+  "honda-cbr1000rr-2012-2016": {
+    "year": 2016,
+    "url": "https://motospecvault.com/moto/honda/cbr1000rr/2016/base/us",
+    "spark_plug": "NGK IMR9E-9HES",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA436",
+    "oil_filter": "HF204",
+    "chain": "530 pitch, 116 links"
+  },
+  "honda-cbr1000rr-2017-2019": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/honda/cbr1000rr/2019/base/us",
+    "spark_plug": "VUH27ES (DENSO)",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 116 links"
+  },
+  "honda-cbr1000rr-2020-present": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/honda/cbr1000rr/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA757HH",
+    "rear_brake_pads": "EBC FA266HH",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 118 links"
+  },
+  "honda-cbr500r-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/honda/cbr500r/2023/base/us",
+    "spark_plug": "NGK CPR8EA-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 112 links"
+  },
+  "honda-cbr600rr-2013": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/honda/cbr600rr/2017/base/us",
+    "spark_plug": "NGK IMR9E-9HES",
+    "front_brake_pads": "EBC FA390HH",
+    "rear_brake_pads": "EBC FA436",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 112 links"
+  },
+  "honda-cbr650f-2013-2016-global": {
+    "year": 2016,
+    "url": "https://motospecvault.com/moto/honda/cbr650f/2016/base/us",
+    "spark_plug": "NGK CR9EH-9",
+    "front_brake_pads": "EBC FA142",
+    "rear_brake_pads": "EBC FA496",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 118 links"
+  },
+  "honda-cbr650f-2017-2018-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/honda/cbr650f/2018/base/us",
+    "spark_plug": "NGK CR9EH-9",
+    "front_brake_pads": "EBC FA142",
+    "rear_brake_pads": "EBC FA496",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 118 links"
+  },
+  "honda-cbr650r-2021-2023-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/honda/cbr650r/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "#525 O-ring chain"
+  },
+  "honda-cbr650r-2019-2020": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/honda/cbr650r/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA679HH",
+    "rear_brake_pads": "EBC FA496",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 118 links"
+  },
+  "honda-crf300-rally-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/crf300-rally/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA465X",
+    "rear_brake_pads": "EBC FA629X",
+    "oil_filter": "HF103",
+    "chain": "#520 Chain; 13T/51T"
+  },
+  "honda-cbr650r-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/honda/cbr650r/2025/base/us",
+    "spark_plug": "VUH27ES (DENSO)",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "honda-crf300l-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/crf300l/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA465X",
+    "rear_brake_pads": "EBC FA629X",
+    "oil_filter": "HF103",
+    "chain": "520 pitch, 106 links"
+  },
+  "honda-dax-125-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/honda/dax-125/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "honda-crf450r-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/crf450r/2022/base/us",
+    "spark_plug": "NGK SILMAR9A9S",
+    "front_brake_pads": "EBC FA185X",
+    "rear_brake_pads": "EBC FA346X",
+    "oil_filter": "HF116",
+    "chain": "520 pitch, 114 links"
+  },
+  "honda-forza-750-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/forza-750/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 118 links"
+  },
+  "honda-gold-wing-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/honda/gold-wing/2019/base/us",
+    "spark_plug": "NGK CR6HSB-9",
+    "front_brake_pads": "EBC FA717HH",
+    "rear_brake_pads": "EBC FA388/2HH",
+    "oil_filter": "HF204",
+    "chain": ""
+  },
+  "honda-grom-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/grom/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA375",
+    "rear_brake_pads": "EBC FA629",
+    "oil_filter": "HF117",
+    "chain": "420 pitch, 108 links"
+  },
+  "honda-monkey-125-2018-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/honda/monkey-125/2023/base/us",
+    "spark_plug": "NGK CPR6EA-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF117",
+    "chain": "\u2014"
+  },
+  "honda-nx500-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/honda/nx500/2024/base/us",
+    "spark_plug": "CPR8EA-9 (NGK)",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "520 pitch, 112 links"
+  },
+  "honda-nc750x-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/nc750x/2022/base/us",
+    "spark_plug": "NGK IFR6G-11K",
+    "front_brake_pads": "EBC FA196",
+    "rear_brake_pads": "EBC FA496",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 114 links"
+  },
+  "honda-rebel-300-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/honda/rebel-300/2018/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF103",
+    "chain": "520 pitch, 120 links"
+  },
+  "honda-rebel-1100-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/rebel-1100/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 114 links"
+  },
+  "honda-pcx125-2021-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/honda/pcx125/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC SFA693",
+    "rear_brake_pads": "EBC 352",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "honda-rebel-500-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/honda/rebel-500/2018/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA196",
+    "rear_brake_pads": "EBC FA496",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 112 links"
+  },
+  "honda-super-cub-c125-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/honda/super-cub-c125/2019/base/us",
+    "spark_plug": "NGK CPR6EA-9",
+    "front_brake_pads": "EBC FA691",
+    "rear_brake_pads": "EBC 352",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "husqvarna-701-supermoto-2016-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/husqvarna/701-supermoto/2017/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF651",
+    "chain": "520 pitch, 118 links"
+  },
+  "husqvarna-fe-450-2024-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/husqvarna/fe-450/2023/base/us",
+    "spark_plug": "NGK LKAR8AI-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF652",
+    "chain": "520 pitch, 118 links"
+  },
+  "husqvarna-fe-350-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/husqvarna/fe-350/2018/base/us",
+    "spark_plug": "NGK LMAR9AI-10",
+    "front_brake_pads": "EBC FA181X",
+    "rear_brake_pads": "EBC FA368X",
+    "oil_filter": "HF652",
+    "chain": "520 pitch, 118 links"
+  },
+  "husqvarna-norden-901-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/husqvarna/norden-901/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "520 pitch, 118 links"
+  },
+  "husqvarna-svartpilen-401-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/husqvarna/svartpilen-401/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA606",
+    "rear_brake_pads": "EBC FA208X",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 118 links"
+  },
+  "husqvarna-vitpilen-401-2020-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/husqvarna/vitpilen-401/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA606",
+    "rear_brake_pads": "EBC FA208X",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 118 links"
+  },
+  "kawasaki-klr650-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/kawasaki/klr650/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF123",
+    "chain": "Sealed chain"
+  },
+  "kawasaki-klx300-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/kawasaki/klx300/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA135X",
+    "rear_brake_pads": "EBC FA131X",
+    "oil_filter": "\u2014",
+    "chain": "520 pitch, 106 links"
+  },
+  "kawasaki-kx450-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/kawasaki/kx450/2025/base/us",
+    "spark_plug": "NGK CPR8EB-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "kawasaki-ninja-1000sx-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-1000sx/2021/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA379HH",
+    "rear_brake_pads": "EBC FA192",
+    "oil_filter": "HF303",
+    "chain": "525 pitch, 112 links"
+  },
+  "kawasaki-ninja-1100sx-2025-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-1100sx/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "husqvarna-svartpilen-801-2024-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/husqvarna/svartpilen-801/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "5/8 x 1/4\" (520) X-ring"
+  },
+  "kawasaki-ninja-125-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-125/2020/base/us",
+    "spark_plug": "NGK LMAR8G",
+    "front_brake_pads": "EBC FA197",
+    "rear_brake_pads": "EBC FA197",
+    "oil_filter": "HF112",
+    "chain": "428 pitch, 132 links"
+  },
+  "honda-forza-350-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/honda/forza-350/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": ""
+  },
+  "kawasaki-ninja-250-2018-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-250/2018/base/us",
+    "spark_plug": "NGK MR8CI-8",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "O-ring chain"
+  },
+  "kawasaki-ninja-300-2013-present": {
+    "year": 2014,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-300/2014/base/us",
+    "spark_plug": "NGK CR8E",
+    "front_brake_pads": "EBC FA197",
+    "rear_brake_pads": "EBC FA197",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 106 links"
+  },
+  "kawasaki-ninja-500-2024-present": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-500/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "kawasaki-ninja-400-2018-present": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-400/2019/base/us",
+    "spark_plug": "NGK LMAR9G",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 106 links"
+  },
+  "kawasaki-ninja-650-2017-2020": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-650/2020/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA226",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 114 links"
+  },
+  "kawasaki-ninja-h2-sx-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-h2-sx/2019/base/us",
+    "spark_plug": "NGK SILMAR9E9",
+    "front_brake_pads": "EBC FA379HH",
+    "rear_brake_pads": "EBC FA228",
+    "oil_filter": "HF124",
+    "chain": "Sealed chain"
+  },
+  "kawasaki-ninja-h2-2015-present-global": {
+    "year": 2016,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-h2/2016/base/us",
+    "spark_plug": "NGK SILMAR9B9",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF124",
+    "chain": "\u2014"
+  },
+  "kawasaki-ninja-650-2021-present": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-650/2022/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA226",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 114 links"
+  },
+  "kawasaki-ninja-zx-10r-2016-2020-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-zx-10r/2020/base/us",
+    "spark_plug": "NGK SILMAR9B9",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA436",
+    "oil_filter": "HF303",
+    "chain": "525 pitch, 114 links"
+  },
+  "kawasaki-ninja-zx-10r": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-zx-10r/2025/base/us",
+    "spark_plug": "NGK SILMAR9B9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "kawasaki-ninja-zx-10r-2026-present-global": {
+    "year": 2026,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-zx-10r/2026/base/us",
+    "spark_plug": "NGK SILMAR9B9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "kawasaki-ninja-zx-14r-2012-present-global": {
+    "year": 2013,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-zx-14r/2013/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "530 pitch, 118 links"
+  },
+  "kawasaki-ninja-zx-4r-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-zx-4r/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "kawasaki-ninja-zx-4rr-2023-present-global": {
+    "year": 2026,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-zx-4rr/2026/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "kawasaki-ninja-zx-6r-2009-2012": {
+    "year": 2012,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-zx-6r/2012/base/us",
+    "spark_plug": "NGK CR9E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 112 links"
+  },
+  "kawasaki-ninja-zx-6r-2013-2018": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-zx-6r/2018/base/us",
+    "spark_plug": "NGK CR9E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 112 links"
+  },
+  "kawasaki-ninja-zx-6r-2019-2023": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-zx-6r/2023/base/us",
+    "spark_plug": "NGK CR9E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 112 links"
+  },
+  "kawasaki-ninja-zx-6r": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/kawasaki/ninja-zx-6r/2025/base/us",
+    "spark_plug": "NGK CR9E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "kawasaki-versys-1000-2012-2015-global": {
+    "year": 2015,
+    "url": "https://motospecvault.com/moto/kawasaki/versys-1000/2015/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA158",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF303",
+    "chain": "525 pitch, 116 links"
+  },
+  "kawasaki-versys-1100-2025-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/kawasaki/versys-1100/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "kawasaki-versys-1000-2015-2018-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/kawasaki/versys-1000/2018/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA158",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF303",
+    "chain": "525 pitch, 116 links"
+  },
+  "kawasaki-versys-650-2006-2009-global": {
+    "year": 2009,
+    "url": "https://motospecvault.com/moto/kawasaki/versys-650/2009/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "EBC FA192",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 114 links"
+  },
+  "kawasaki-versys-1000-2019-2021-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/kawasaki/versys-1000/2021/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA158",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF303",
+    "chain": "525 pitch, 116 links"
+  },
+  "kawasaki-versys-650-2010-2014-global": {
+    "year": 2014,
+    "url": "https://motospecvault.com/moto/kawasaki/versys-650/2014/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "EBC FA192",
+    "oil_filter": "HF303",
+    "chain": "Sealed Chain"
+  },
+  "kawasaki-versys-650-2015-2021-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/kawasaki/versys-650/2021/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA142",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 114 links"
+  },
+  "kawasaki-versys-x-300-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/kawasaki/versys-x-300/2018/base/us",
+    "spark_plug": "NGK CR8E",
+    "front_brake_pads": "EBC FA142",
+    "rear_brake_pads": "EBC FA197",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 112 links"
+  },
+  "kawasaki-versys-650-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/kawasaki/versys-650/2023/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 114 links"
+  },
+  "kawasaki-vulcan-s-2015-present-global": {
+    "year": 2016,
+    "url": "https://motospecvault.com/moto/kawasaki/vulcan-s/2016/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 120 links"
+  },
+  "kawasaki-w800-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/kawasaki/w800/2020/base/us",
+    "spark_plug": "NGK CR8E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 104 links"
+  },
+  "kawasaki-vulcan-900-2007-present-global": {
+    "year": 2008,
+    "url": "https://motospecvault.com/moto/kawasaki/vulcan-900/2008/base/us",
+    "spark_plug": "NGK CPR7EA-9",
+    "front_brake_pads": "EBC FA229",
+    "rear_brake_pads": "EBC FA231/2V",
+    "oil_filter": "HF303",
+    "chain": ""
+  },
+  "kawasaki-z-h2-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/kawasaki/z-h2/2021/base/us",
+    "spark_plug": "NGK SILMAR9E9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "EBC FA266",
+    "oil_filter": "HF124",
+    "chain": "525 pitch, 118 links"
+  },
+  "kawasaki-z1000-2014-2016-global": {
+    "year": 2016,
+    "url": "https://motospecvault.com/moto/kawasaki/z1000/2016/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA379HH",
+    "rear_brake_pads": "EBC FA192",
+    "oil_filter": "HF303",
+    "chain": "525 pitch, 112 links"
+  },
+  "kawasaki-z400-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/kawasaki/z400/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 106 links"
+  },
+  "kawasaki-z125-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/kawasaki/z125/2020/base/us",
+    "spark_plug": "NGK LMAR8G",
+    "front_brake_pads": "EBC FA197",
+    "rear_brake_pads": "EBC FA197",
+    "oil_filter": "HF112",
+    "chain": "428 pitch, 132 links"
+  },
+  "kawasaki-z500-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/kawasaki/z500/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "kawasaki-z650-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/kawasaki/z650/2018/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA226",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 114 links"
+  },
+  "kawasaki-z650rs-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/kawasaki/z650rs/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 114 links"
+  },
+  "kawasaki-z800": {
+    "year": 2016,
+    "url": "https://motospecvault.com/moto/kawasaki/z800/2016/base/us",
+    "spark_plug": "NGK CR9EK",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF303",
+    "chain": "520 pitch, 114 links"
+  },
+  "kawasaki-z900": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/kawasaki/z900/2018/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA347HH",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF303",
+    "chain": "525 pitch, 114 links"
+  },
+  "kawasaki-z900rs-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/kawasaki/z900rs/2019/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA347HH",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF303",
+    "chain": "525 pitch, 114 links"
+  },
+  "ktm-1290-super-adventure-s-2021-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/ktm/1290-super-adventure-s/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA244",
+    "rear_brake_pads": "EBC FA181X",
+    "oil_filter": "HF650",
+    "chain": "525 pitch, 118 links"
+  },
+  "ktm-125-duke-2011-present-global": {
+    "year": 2012,
+    "url": "https://motospecvault.com/moto/ktm/125-duke/2012/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 112 links"
+  },
+  "ktm-1290-super-duke-gt-2016-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/ktm/1290-super-duke-gt/2017/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF650",
+    "chain": "525 pitch, 112 links"
+  },
+  "ktm-200-duke-2012-present-global": {
+    "year": 2013,
+    "url": "https://motospecvault.com/moto/ktm/200-duke/2013/base/us",
+    "spark_plug": "NGK LKAR8A-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 110 links"
+  },
+  "ktm-250-duke-2015-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/ktm/250-duke/2019/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "\u2014"
+  },
+  "ktm-250-sx-f-2013-present-global": {
+    "year": 2014,
+    "url": "https://motospecvault.com/moto/ktm/250-sx-f/2014/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA181X",
+    "rear_brake_pads": "EBC FA368X",
+    "oil_filter": "HF652",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-300-exc-2017-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/ktm/300-exc/2017/base/us",
+    "spark_plug": "NGK ZGR7GI-13G",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-350-exc-f-2012-present-global": {
+    "year": 2013,
+    "url": "https://motospecvault.com/moto/ktm/350-exc-f/2013/base/us",
+    "spark_plug": "NGK LMAR9AI-8",
+    "front_brake_pads": "EBC FA181X",
+    "rear_brake_pads": "EBC FA368X",
+    "oil_filter": "HF652",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-adventure-390-2020-2024": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/390-adventure/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-adventure-390-2025-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/390-adventure/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-adventure-390-2026-present-india": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/390-adventure/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-390-duke-2017-2023-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/390-duke/2023/base/us",
+    "spark_plug": "NGK LKAR8A-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-390-duke-2013-2016-global": {
+    "year": 2016,
+    "url": "https://motospecvault.com/moto/ktm/390-duke/2016/base/us",
+    "spark_plug": "BOSCH VR 5 NE",
+    "front_brake_pads": "EBC FA606",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 112 links"
+  },
+  "ktm-390-duke-2021": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/390-duke/2023/base/us",
+    "spark_plug": "NGK LKAR8A-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-450-sx-f-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/450-sx-f/2023/base/us",
+    "spark_plug": "NGK LMAR9AI-8",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF652",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-690-enduro-r-2008-present-global": {
+    "year": 2009,
+    "url": "https://motospecvault.com/moto/ktm/690-enduro-r/2009/base/us",
+    "spark_plug": "NGK LKAR8A-9",
+    "front_brake_pads": "EBC FA209/2",
+    "rear_brake_pads": "EBC FA208X",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-500-exc-f-2012-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/500-exc-f/2023/base/us",
+    "spark_plug": "NGK LZMAR8BI-10",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF652",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-790-adventure-2019-2023-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/790-adventure/2023/base/us",
+    "spark_plug": "NGK LMAR9AI-10",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF650",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-690-smc-r-2008-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/690-smc-r/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF651",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-890-adventure-r-2021-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/ktm/890-adventure-r/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA244",
+    "rear_brake_pads": "EBC FA181X",
+    "oil_filter": "HF650",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-790-duke-2018-2023-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/790-duke/2023/base/us",
+    "spark_plug": "NGK LMAR9AI-10",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF650",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-990-duke-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/ktm/990-duke/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "ktm-890-duke-r-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/ktm/890-duke-r/2021/base/us",
+    "spark_plug": "NGK LMAR9AI-10",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA213HH",
+    "oil_filter": "HF650",
+    "chain": "520 pitch, 118 links"
+  },
+  "ktm-rc-125-2014-present-global": {
+    "year": 2015,
+    "url": "https://motospecvault.com/moto/ktm/rc-125/2015/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 112 links"
+  },
+  "ktm-rc-200-2014-present-global": {
+    "year": 2015,
+    "url": "https://motospecvault.com/moto/ktm/rc-200/2015/base/us",
+    "spark_plug": "NGK LKAR8A-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 110 links"
+  },
+  "ktm-rc-390": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/ktm/rc-390/2023/base/us",
+    "spark_plug": "NGK LKAR8A-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF155",
+    "chain": "520 pitch, 118 links"
+  },
+  "kymco-ak-550-2017-present-global": {
+    "year": 2026,
+    "url": "https://motospecvault.com/moto/kymco/ak-550/2026/base/us",
+    "spark_plug": "NGK CR7E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "kymco-xciting-400-2018-present-global": {
+    "year": 2012,
+    "url": "https://motospecvault.com/moto/kymco/xciting-400/2012/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF568",
+    "chain": ""
+  },
+  "livewire-s2-del-mar-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/livewire/s2-del-mar/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "moto-guzzi-v100-mandello-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/moto-guzzi/v100-mandello/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "moto-guzzi-v85-tt-2019-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/moto-guzzi/v85-tt/2019/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA244",
+    "rear_brake_pads": "EBC FA256",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "piaggio-mp3-300-2023-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/piaggio/mp3-300/2023/base/us",
+    "spark_plug": "NGK CR8EKB",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "moto-guzzi-v9-bobber-2016-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/moto-guzzi/v9-bobber/2017/base/us",
+    "spark_plug": "NGK CPR8EB-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "royal-enfield-classic-350-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/royal-enfield/classic-350/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "royal-enfield-bullet-350-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/royal-enfield/bullet-350/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "royal-enfield-classic-650-2025-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/royal-enfield/classic-650/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "royal-enfield-guerrilla-450-2020-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/royal-enfield/guerrilla-450/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "royal-enfield-continental-gt-650-2019-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/royal-enfield/continental-gt-650/2019/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "royal-enfield-goan-classic-350-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/royal-enfield/goan-classic-350/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "royal-enfield-himalayan-411-2015-2023-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/royal-enfield/himalayan-411/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF510",
+    "chain": "\u2014"
+  },
+  "royal-enfield-hunter-350-2022-present-global": {
+    "year": 2026,
+    "url": "https://motospecvault.com/moto/royal-enfield/hunter-350/2026/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "royal-enfield-himalayan-450": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/royal-enfield/himalayan-450/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "royal-enfield-interceptor-650-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/royal-enfield/interceptor-650/2019/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA209/2",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF515",
+    "chain": "\u2014"
+  },
+  "royal-enfield-meteor-350-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/royal-enfield/meteor-350/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "Constant mesh"
+  },
+  "royal-enfield-scram-411-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/royal-enfield/scram-411/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF510",
+    "chain": "\u2014"
+  },
+  "royal-enfield-shotgun-650-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/royal-enfield/shotgun-650/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "royal-enfield-super-meteor-650-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/royal-enfield/super-meteor-650/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF515",
+    "chain": "\u2014"
+  },
+  "suzuki-access-125-2020-present-india": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/suzuki/access-125/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "suzuki-burgman-400-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/suzuki/burgman-400/2018/base/us",
+    "spark_plug": "NGK CR7EIA-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "EBC SFA412",
+    "oil_filter": "HF131",
+    "chain": ""
+  },
+  "suzuki-boulevard-m109r-2006-present-global": {
+    "year": 2007,
+    "url": "https://motospecvault.com/moto/suzuki/boulevard-m109r/2007/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF138",
+    "chain": ""
+  },
+  "suzuki-dr-z400sm-2000-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/suzuki/dr-z400sm/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "suzuki-gixxer-250-2019-present-india": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/suzuki/gixxer-250/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "suzuki-gixxer-sf-250-2019-present-india": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/suzuki/gixxer-sf-250/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "suzuki-gsx-8s-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-8s/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF138",
+    "chain": "525 pitch, 120 links"
+  },
+  "suzuki-gsx-r1000-2003-2004-global": {
+    "year": 2004,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-r1000/2004/base/us",
+    "spark_plug": "NGK CR9E",
+    "front_brake_pads": "EBC FA379HH",
+    "rear_brake_pads": "EBC FA254",
+    "oil_filter": "HF138",
+    "chain": "530 pitch, 110 links"
+  },
+  "suzuki-gsx-r1000-2001-2002-global": {
+    "year": 2002,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-r1000/2002/base/us",
+    "spark_plug": "NGK CR9E",
+    "front_brake_pads": "EBC FA188",
+    "rear_brake_pads": "EBC FA254",
+    "oil_filter": "HF138",
+    "chain": "530 pitch, 110 links"
+  },
+  "suzuki-gsx-r1000-2005-2006-global": {
+    "year": 2006,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-r1000/2006/base/us",
+    "spark_plug": "NGK CR9E",
+    "front_brake_pads": "EBC FA379HH",
+    "rear_brake_pads": "EBC FA254",
+    "oil_filter": "HF138",
+    "chain": "530 pitch, 110 links"
+  },
+  "suzuki-gsx-r1000-2009-2011-global": {
+    "year": 2011,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-r1000/2011/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA379HH",
+    "rear_brake_pads": "EBC FA436",
+    "oil_filter": "HF138",
+    "chain": "Chain, DID50VAZ, 114 links"
+  },
+  "suzuki-gsx-r1000-2012-2016-global": {
+    "year": 2016,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-r1000/2016/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA436",
+    "oil_filter": "HF138",
+    "chain": "Chain, DID50VAZ, 114 links"
+  },
+  "suzuki-gsx-r1000-2007-2008-global": {
+    "year": 2008,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-r1000/2008/base/us",
+    "spark_plug": "NGK CR9E",
+    "front_brake_pads": "EBC FA379HH",
+    "rear_brake_pads": "EBC FA419",
+    "oil_filter": "HF138",
+    "chain": "530 pitch, 112 links"
+  },
+  "suzuki-gsx-r1000-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-r1000/2018/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA436",
+    "oil_filter": "HF138",
+    "chain": "525 pitch, 120 links"
+  },
+  "suzuki-gsx-r125-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-r125/2018/base/us",
+    "spark_plug": "NGK MR8E-9",
+    "front_brake_pads": "EBC FA715",
+    "rear_brake_pads": "EBC FA629",
+    "oil_filter": "HF131",
+    "chain": "428 pitch, 122 links"
+  },
+  "suzuki-gsx-r600-2011-present-global": {
+    "year": 2012,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-r600/2012/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF138",
+    "chain": "RK525SMOZ8, 114 links"
+  },
+  "suzuki-gsx-r750-2011-present-global": {
+    "year": 2012,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-r750/2012/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF138",
+    "chain": "RK525ROZ5Y, 116 links chain"
+  },
+  "suzuki-gsx-s1000-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-s1000/2022/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF138",
+    "chain": "525 pitch, 116 links"
+  },
+  "suzuki-gsx-s1000gt-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-s1000gt/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF138",
+    "chain": "Constant mesh. Chain, RK525GSH, 525 x 116 links."
+  },
+  "suzuki-gsx-s750-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-s750/2018/base/us",
+    "spark_plug": "NGK CR9EIA-9",
+    "front_brake_pads": "EBC FA347HH",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF138",
+    "chain": "525 pitch, 114 links"
+  },
+  "suzuki-gsx250r-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/suzuki/gsx250r/2018/base/us",
+    "spark_plug": "NGK CPR7EA-9",
+    "front_brake_pads": "EBC FA226",
+    "rear_brake_pads": "EBC FA496",
+    "oil_filter": "HF138",
+    "chain": "520 pitch, 116 links"
+  },
+  "suzuki-katana-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/suzuki/katana/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA436",
+    "oil_filter": "HF138",
+    "chain": "525 pitch, 116 links"
+  },
+  "suzuki-sv650-2016-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/suzuki/sv650/2017/base/us",
+    "spark_plug": "NGK MR8E-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "EBC FA496",
+    "oil_filter": "HF138",
+    "chain": "520 pitch, 112 links"
+  },
+  "suzuki-v-strom-1050-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/suzuki/v-strom-1050/2021/base/us",
+    "spark_plug": "NGK LMAR8BI-9",
+    "front_brake_pads": "EBC FA379HH",
+    "rear_brake_pads": "EBC FA419",
+    "oil_filter": "HF138",
+    "chain": "525 pitch, 120 links"
+  },
+  "suzuki-v-strom-1050de-2023-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/suzuki/v-strom-1050de/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF138",
+    "chain": "525 pitch, 120 links"
+  },
+  "suzuki-v-strom-650-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/suzuki/v-strom-650/2018/base/us",
+    "spark_plug": "NGK MR8E-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF138",
+    "chain": "Chain, DID525V8, 118 links"
+  },
+  "suzuki-v-strom-800-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/suzuki/v-strom-800/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF138",
+    "chain": "525 pitch, 124 links"
+  },
+  "triumph-bonneville-bobber-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/triumph/bonneville-bobber/2018/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA142",
+    "rear_brake_pads": "EBC FA140",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 108 links"
+  },
+  "triumph-bonneville-t100-2016-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/triumph/bonneville-t100/2017/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA142",
+    "rear_brake_pads": "EBC FA214/2",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 102 links"
+  },
+  "triumph-bonneville-speedmaster-2018-present-global": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/triumph/bonneville-speedmaster/2019/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA181X",
+    "rear_brake_pads": "EBC FA140",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 108 links"
+  },
+  "triumph-bonneville-t120-2016-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/triumph/bonneville-t120/2017/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA142",
+    "rear_brake_pads": "EBC FA214",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 100 links"
+  },
+  "triumph-rocket-3-gt-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/triumph/rocket-3-gt/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA630HH",
+    "oil_filter": "HF204",
+    "chain": ""
+  },
+  "triumph-daytona-660-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/triumph/daytona-660/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "suzuki-gsx-8r-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/suzuki/gsx-8r/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "triumph-rocket-3-r-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/triumph/rocket-3-r/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA630HH",
+    "oil_filter": "HF204",
+    "chain": ""
+  },
+  "triumph-scrambler-1200-xe-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/triumph/scrambler-1200-xe/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA209/2",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 114 links"
+  },
+  "triumph-scrambler-900-2017-present-global": {
+    "year": 2026,
+    "url": "https://motospecvault.com/moto/triumph/scrambler-900/2026/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "triumph-speed-triple-1200-rr-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/triumph/speed-triple-1200-rr/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 118 links"
+  },
+  "triumph-speed-400-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/triumph/speed-400/2024/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "triumph-speed-triple-1200-rs-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/triumph/speed-triple-1200-rs/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA213HH",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 118 links"
+  },
+  "triumph-speed-twin-1200-2019-present-global": {
+    "year": 2026,
+    "url": "https://motospecvault.com/moto/triumph/speed-twin-1200/2026/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "triumph-tiger-900-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/triumph/tiger-900/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA447HH",
+    "rear_brake_pads": "EBC FA213",
+    "oil_filter": "HF204",
+    "chain": "O-ring chain"
+  },
+  "triumph-tiger-1200-2022-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/triumph/tiger-1200/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA630HH",
+    "rear_brake_pads": "EBC FA214/2",
+    "oil_filter": "HF204",
+    "chain": ""
+  },
+  "triumph-tiger-sport-800-2025-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/triumph/tiger-sport-800/2025/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "triumph-tiger-sport-660-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/triumph/tiger-sport-660/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 122 links"
+  },
+  "vespa-gts-300-2019-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/vespa/gts-300/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "triumph-trident-660-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/triumph/trident-660/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA226",
+    "rear_brake_pads": "EBC FA140",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 120 links"
+  },
+  "vespa-gtv-300-2023-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/vespa/gtv-300/2017/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "vespa-primavera-150-2014-present-global": {
+    "year": 2015,
+    "url": "https://motospecvault.com/moto/vespa/primavera-150/2015/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC SFA353",
+    "rear_brake_pads": "EBC 816",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "yamaha-aerox-155-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/yamaha/aerox-155/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "yamaha-mt-03-2006-2015": {
+    "year": 2013,
+    "url": "https://motospecvault.com/moto/yamaha/mt-03/2013/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "Constant mesh"
+  },
+  "yamaha-mt-03-2016": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/yamaha/mt-03/2017/base/us",
+    "spark_plug": "NGK CR8E",
+    "front_brake_pads": "EBC FA663",
+    "rear_brake_pads": "EBC FA662",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 112 links"
+  },
+  "yamaha-mt-07-2018": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/yamaha/mt-07/2019/base/us",
+    "spark_plug": "LMAR8A-9",
+    "front_brake_pads": "EBC FA252",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 108 links"
+  },
+  "yamaha-mt-09-2015-2018-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/yamaha/mt-09/2018/base/us",
+    "spark_plug": "NGK CPR9EA-9",
+    "front_brake_pads": "EBC FA252",
+    "rear_brake_pads": "EBC FA174",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 110 links"
+  },
+  "yamaha-mt-10-2016-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/yamaha/mt-10/2017/base/us",
+    "spark_plug": "NGK LMAR9E-J",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 114 links"
+  },
+  "yamaha-mt-125-2014-present-global": {
+    "year": 2015,
+    "url": "https://motospecvault.com/moto/yamaha/mt-125/2015/base/us",
+    "spark_plug": "NGK CR9E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF140",
+    "chain": "428 pitch, 132 links"
+  },
+  "yamaha-mt-15-2018-present-india": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/yamaha/mt-15/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "Constant mesh"
+  },
+  "yamaha-mt-25-2015-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/yamaha/mt-25/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "Constant mesh"
+  },
+  "yamaha-nmax-155-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/yamaha/nmax-155/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": ""
+  },
+  "yamaha-tmax-560-2020-present-global": {
+    "year": 2021,
+    "url": "https://motospecvault.com/moto/yamaha/tmax-560/2021/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": ""
+  },
+  "yamaha-tenere-700-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/yamaha/tenere-700/2020/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "EBC FA181X",
+    "rear_brake_pads": "EBC FA208X",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 122 links"
+  },
+  "yamaha-tracer-9-gt-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/yamaha/tracer-9-gt/2022/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 118 links"
+  },
+  "yamaha-xmax-300-2017-present-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/yamaha/xmax-300/2018/base/us",
+    "spark_plug": "LMAR8A-9",
+    "front_brake_pads": "EBC SFA705",
+    "rear_brake_pads": "EBC SFA706",
+    "oil_filter": "HF141",
+    "chain": ""
+  },
+  "yamaha-wr450f-2024-present-global": {
+    "year": 2025,
+    "url": "https://motospecvault.com/moto/yamaha/wr450f/2025/base/us",
+    "spark_plug": "NGK CR8E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "yamaha-xsr125-2021-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/yamaha/xsr125/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "428 pitch, 130 links"
+  },
+  "yamaha-xsr155-2019-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/yamaha/xsr155/2023/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "yamaha-xsr700-2016-present-global": {
+    "year": 2017,
+    "url": "https://motospecvault.com/moto/yamaha/xsr700/2017/base/us",
+    "spark_plug": "NGK LMAR8A-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 108 links"
+  },
+  "yamaha-xsr900-2022-present-global": {
+    "year": 2023,
+    "url": "https://motospecvault.com/moto/yamaha/xsr900/2023/base/us",
+    "spark_plug": "LMAR9A-9",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 110 links"
+  },
+  "yamaha-yz450f-2023-present-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/yamaha/yz450f/2024/base/us",
+    "spark_plug": "NGK CR8E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF140",
+    "chain": "520 pitch, 114 links"
+  },
+  "yamaha-yzf-r125-2008-present-global": {
+    "year": 2008,
+    "url": "https://motospecvault.com/moto/yamaha/yzf-r125/2008/base/us",
+    "spark_plug": "NGK CR8E",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF141",
+    "chain": "428 pitch, 132 links"
+  },
+  "yamaha-yzf-r25-2013-2019": {
+    "year": 2019,
+    "url": "https://motospecvault.com/moto/yamaha/yzf-r25/2019/base/us",
+    "spark_plug": "\u2014",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "\u2014",
+    "chain": "\u2014"
+  },
+  "yamaha-r3-2015-2018-global": {
+    "year": 2018,
+    "url": "https://motospecvault.com/moto/yamaha/yzf-r3/2018/base/us",
+    "spark_plug": "CR8E",
+    "front_brake_pads": "EBC FA663",
+    "rear_brake_pads": "EBC FA662",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 112 links"
+  },
+  "yamaha-r3-2019-present-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/yamaha/yzf-r3/2020/base/us",
+    "spark_plug": "CR8E",
+    "front_brake_pads": "EBC FA663",
+    "rear_brake_pads": "EBC FA662",
+    "oil_filter": "HF204",
+    "chain": "520 pitch, 112 links"
+  },
+  "yamaha-r1-2020-2024-global": {
+    "year": 2024,
+    "url": "https://motospecvault.com/moto/yamaha/yzf-r1/2024/base/us",
+    "spark_plug": "LMAR9E-J",
+    "front_brake_pads": "\u2014",
+    "rear_brake_pads": "\u2014",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 114 links"
+  },
+  "yamaha-yzf-r6-2017-2020-global": {
+    "year": 2020,
+    "url": "https://motospecvault.com/moto/yamaha/yzf-r6/2020/base/us",
+    "spark_plug": "CR10EK",
+    "front_brake_pads": "EBC FA380HH",
+    "rear_brake_pads": "EBC FA436",
+    "oil_filter": "HF204",
+    "chain": "O-ring chain"
+  },
+  "yamaha-yzf-r7-2021-present-global": {
+    "year": 2022,
+    "url": "https://motospecvault.com/moto/yamaha/yzf-r7/2022/base/us",
+    "spark_plug": "LMAR8A-9",
+    "front_brake_pads": "EBC FA252HH",
+    "rear_brake_pads": "EBC FA174HH",
+    "oil_filter": "HF204",
+    "chain": "525 pitch, 108 links"
+  }
+}

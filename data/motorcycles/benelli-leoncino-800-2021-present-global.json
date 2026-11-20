@@ -92,6 +92,21 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF191"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 112 links"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

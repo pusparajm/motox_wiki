@@ -92,6 +92,16 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 116 links"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

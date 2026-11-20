@@ -111,9 +111,19 @@
             "value": "SAE 10W-30, JASO MA"
           },
           {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CPR7EA-9"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "428 O-ring, 118 links"
+          },
+          {
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           }
         ]
       },

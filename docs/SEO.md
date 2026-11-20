@@ -116,6 +116,7 @@ Examples:
 | Weight | `motorcycle weight chart`, `ninja 400 weight` | `guides/weight-chart.html` |
 | Horsepower | `motorcycle horsepower chart`, `cbr600rr hp` | `guides/horsepower-chart.html` |
 | Torque | `motorcycle torque specs`, `zx10r torque specs` | `guides/torque-specs.html`, model pages |
+| Parts & fitment | `mt 07 spark plug`, `cbr600rr brake pads`, `mt 07 wheel bearing` | `guides/parts-fitment-codes.html`, model pages |
 | Beginner | `best beginner motorcycle` | `guides/best-beginner-motorcycles.html` |
 | A2 | `best a2 motorcycle`, `a2 compliant motorcycles` | `guides/a2-motorcycles.html` |
 | 125cc | `best 125cc motorcycle` | `guides/best-125cc-motorcycles.html` |

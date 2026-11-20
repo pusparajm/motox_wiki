@@ -92,6 +92,16 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF176B"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

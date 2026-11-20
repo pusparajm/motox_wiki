@@ -106,6 +106,46 @@
             "value": "SAE 10W-30, JASO MA"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK IMR9E-9HES"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "EBC FA390HH"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "EBC FA436"
+          },
+          {
+            "key": "front_wheel_bearings",
+            "label": "Front Wheel Bearings",
+            "value": "All Balls 25-1562"
+          },
+          {
+            "key": "rear_wheel_bearings",
+            "label": "Rear Wheel Bearings",
+            "value": "Pivot Works PWRWS-H68-000"
+          },
+          {
+            "key": "steering_head_bearings",
+            "label": "Steering Head Bearings",
+            "value": "All Balls 22-1020"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 112 links"
+          },
+          {
             "key": "fork_oil",
             "label": "Fork Oil",
             "value": "Honda SS-8, 460 ml per leg"
@@ -113,7 +153,12 @@
           {
             "key": "fork_seal",
             "label": "Fork Seal Size",
-            "value": "41 mm × 53 mm × 11 mm"
+            "value": "41 × 54 × 11 mm"
+          },
+          {
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           }
         ]
       },
@@ -143,7 +188,7 @@
           {
             "component": "Spark plugs",
             "torque": "18 Nm (13 lb-ft)",
-            "notes": "NGK IMR9C-9HES"
+            "notes": "NGK IMR9E-9HES"
           }
         ],
         "fields": [

@@ -106,9 +106,29 @@
             "value": "SAE 10W-40, JASO MA2"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "EBC FA142"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "EBC FA214"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 112 links"
+          },
+          {
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           }
         ]
       },

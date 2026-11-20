@@ -92,6 +92,31 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF191"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CR8E"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 116 links"
+          },
+          {
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

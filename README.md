@@ -15,7 +15,7 @@ The catalogue currently contains **409 mass-produced motorcycles from 36 manufac
 - Cruisers, baggers and touring bikes
 - Electric motorcycles
 
-Every entry has a **General Specifications** section (engine, power, torque, transmission, suspension, brakes, tyres, weight, seat height, fuel capacity and more) and a **Torque Specifications** section. Where reliable model-specific data is available, the torque table shows exact component values; otherwise the page shows a clearly labelled general fastener reference instead of inventing figures. Where reliable data is available, entries also include **Service Data** (oil capacity and grade, chain size, spark plug, fork oil and seal sizes).
+Every entry has a **General Specifications** section (engine, power, torque, transmission, suspension, brakes, tyres, weight, seat height, fuel capacity and more) and a **Torque Specifications** section. Where reliable model-specific data is available, the torque table shows exact component values; otherwise the page shows a clearly labelled general fastener reference instead of inventing figures. Where reliable data is available, entries also include **Service Data** (oil capacity and grade, chain size, spark plug, brake pad codes, wheel and steering bearing kits, fork oil and seal sizes).
 
 Manufacturers covered include Aprilia, Ather, Bajaj, Benelli, BMW, BSA, CFMOTO, Ducati, Energica, Harley-Davidson, Hero, Honda, Husqvarna, Indian, Jawa, Kawasaki, KTM, Kove, Kymco, LiveWire, Moto Guzzi, Ola, Piaggio, QJMotor, Royal Enfield, Stark, Suzuki, SYM, Triumph, TVS, Ultraviolette, Vespa, Voge, Yamaha, Zero and Zontes.
 
@@ -28,7 +28,7 @@ Manufacturers covered include Aprilia, Ather, Bajaj, Benelli, BMW, BSA, CFMOTO, 
 - **Smart search** — tokenized multi-word matching, common nicknames and aliases (Fireblade, Busa, Gixxer), typo tolerance, and suggested searches when nothing matches.
 - **Expandable specs** — JSON-driven sections for key-value fields, tables and custom HTML blocks.
 - **Related models** — each detail page links to other variants and models in the same family.
-- **SEO pages** — static model specification pages under `motorcycle/` and oil capacity, seat height, weight, horsepower, A2, beginner and comparison guides under `guides/`.
+- **SEO pages** — static model specification pages under `motorcycle/` and oil capacity, seat height, weight, horsepower, parts fitment, A2, beginner and comparison guides under `guides/`.
 - **Advertisements** — configurable ad slots (placeholder, custom HTML, Google AdSense).
 - **Responsive** — mobile-friendly layout with collapsible spec sections.
 - **SEO** — generated sitemap, per-model canonical URLs and Motorcycle structured data.

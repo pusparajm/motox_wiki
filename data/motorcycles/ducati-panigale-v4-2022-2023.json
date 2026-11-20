@@ -106,9 +106,19 @@
             "value": "SAE 15W-50, JASO MA2"
           },
           {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK LMDR10A-JS"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 116 links"
+          },
+          {
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           }
         ]
       },

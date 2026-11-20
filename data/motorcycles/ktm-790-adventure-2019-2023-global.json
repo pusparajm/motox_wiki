@@ -106,9 +106,24 @@
             "value": "SAE 10W-50, JASO MA2"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF650"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK LMAR9AI-10"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 116 links"
+          },
+          {
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           }
         ]
       },

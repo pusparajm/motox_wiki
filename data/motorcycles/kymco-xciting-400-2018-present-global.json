@@ -104,6 +104,11 @@
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "SAE 5W-40, JASO MB"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF568"
           }
         ]
       },
