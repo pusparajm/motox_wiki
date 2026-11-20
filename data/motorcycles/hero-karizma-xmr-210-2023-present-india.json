@@ -92,6 +92,31 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "1.25 L without filter; 1.35 L with filter"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA2"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "6,000 km"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Capacity is for the 210 cc Hero engine family; confirm the final level on the dipstick."
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

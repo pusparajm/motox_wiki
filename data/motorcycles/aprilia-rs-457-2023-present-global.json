@@ -92,6 +92,66 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.20 L (2.32 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-50, JASO MA2"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "Hiflofiltro HF138"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK MR9DI-7"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 X-ring, 15T front / 43T rear"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "EBC FA606HH; Brembo 07GR18"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "EBC FA213HH; Brembo 07BB02"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.50 L (1.59 US qt)"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "6,000 km / 12 months"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Oil capacity and grade are from LIQUI MOLY application data; Aprilia does not publish a single service-fill figure in the owner’s manual. Confirm the level on the dipstick after filling."
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

@@ -92,6 +92,41 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.1 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, SN or higher, JASO MA2"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "BN8RTI"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.70 L + 0.284 L reservoir"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Chain"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

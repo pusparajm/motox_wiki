@@ -92,6 +92,36 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "0.88 L at service; 0.93 L dry"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MB"
+          },
+          {
+            "key": "transmission_oil",
+            "label": "Transmission Oil",
+            "value": "120 ml at service; 130 ml dry"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 3 / DOT 4"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "6,000 km"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

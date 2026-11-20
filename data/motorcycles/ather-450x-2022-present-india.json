@@ -96,6 +96,26 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "engine_oil",
+            "label": "Engine Oil",
+            "value": "Not applicable — electric motor"
+          },
+          {
+            "key": "final_drive",
+            "label": "Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "No engine oil, spark plug, coolant or valve service. Ather's periodic service covers brake fluid, brake pads, tyres, wheel bearings and the drive belt."
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

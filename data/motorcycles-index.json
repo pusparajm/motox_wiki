@@ -50,8 +50,8 @@
       "weight": "175 kg",
       "seat_height": "800 mm",
       "fuel_capacity": "13 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.20 L (2.32 US qt)",
+      "oil_type": "SAE 10W-50, JASO MA2",
       "aliases": [
         "rs 457",
         "rs457"
@@ -345,8 +345,8 @@
       "weight": "163 kg",
       "seat_height": "737 mm",
       "fuel_capacity": "13 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.15 L at service; 1.30 L dry",
+      "oil_type": "SAE 20W-50, JASO MA2 (10W-50 synthetic optional)",
       "aliases": [
         "avenger"
       ]
@@ -402,8 +402,8 @@
       "weight": "193 kg",
       "seat_height": "800 mm",
       "fuel_capacity": "13 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.70 L at service; 1.95 L dry",
+      "oil_type": "SAE 10W-50, JASO MA2, API SL/SN fully synthetic",
       "aliases": [
         "dominar"
       ]
@@ -431,8 +431,8 @@
       "weight": "150 kg",
       "seat_height": "825 mm",
       "fuel_capacity": "2 kg CNG + 2 L petrol",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.0 L at service; 1.1 L dry",
+      "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "freedom"
       ]
@@ -460,8 +460,8 @@
       "weight": "119 kg",
       "seat_height": "805 mm",
       "fuel_capacity": "11 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.0 L at service; 1.1 L dry",
+      "oil_type": "SAE 10W-30, JASO MA2",
       "aliases": [
         "platina"
       ]
@@ -489,8 +489,8 @@
       "weight": "141 kg",
       "seat_height": "790 mm",
       "fuel_capacity": "14 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.25 L at service; 1.45 L dry",
+      "oil_type": "SAE 20W-50, JASO MA2, API SN",
       "aliases": [
         "pulsar"
       ]
@@ -547,8 +547,8 @@
       "weight": "158 kg",
       "seat_height": "805 mm",
       "fuel_capacity": "12 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.2 L at service; 1.4 L dry",
+      "oil_type": "SAE 20W-50, JASO MA2, API SN (10W-50 synthetic optional)",
       "aliases": [
         "pulsar"
       ]
@@ -576,8 +576,8 @@
       "weight": "174 kg",
       "seat_height": "807 mm",
       "fuel_capacity": "12 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.70 L at service; 1.95 L dry",
+      "oil_type": "SAE 10W-50, JASO MA2, API SN fully synthetic",
       "aliases": [
         "pulsar"
       ]
@@ -746,8 +746,8 @@
       "weight": "231 kg",
       "seat_height": "800 mm",
       "fuel_capacity": "15 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.8 L",
+      "oil_type": "Fully synthetic, API SF or higher",
       "aliases": []
     },
     {
@@ -1565,8 +1565,8 @@
       "weight": "198 kg",
       "seat_height": "780 mm",
       "fuel_capacity": "12 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.30 L (2.43 US qt)",
+      "oil_type": "SAE 10W-40",
       "aliases": []
     },
     {
@@ -1652,8 +1652,8 @@
       "weight": "195 kg",
       "seat_height": "820 mm",
       "fuel_capacity": "17.5 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.5 L",
+      "oil_type": "SAE 10W-40, SJ, JASO MA2",
       "aliases": [
         "450 mt",
         "450mt",
@@ -1745,8 +1745,8 @@
       "weight": "194 kg",
       "seat_height": "810 mm",
       "fuel_capacity": "15 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "3.1 L",
+      "oil_type": "SAE 10W-40, SN or higher, JASO MA2",
       "aliases": [
         "675 sr",
         "675sr",
@@ -1807,8 +1807,8 @@
       "weight": "231 kg",
       "seat_height": "825 mm",
       "fuel_capacity": "19 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.80 L (2.96 US qt)",
+      "oil_type": "SAE 10W-50",
       "aliases": [
         "800 mt",
         "800mt",
@@ -1838,8 +1838,8 @@
       "weight": "186 kg",
       "seat_height": "795 mm",
       "fuel_capacity": "15 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.80 L (2.96 US qt)",
+      "oil_type": "SAE 10W-40",
       "aliases": [
         "800 nk",
         "800nk",
@@ -2069,8 +2069,8 @@
       "weight": "151 kg",
       "seat_height": "880 mm",
       "fuel_capacity": "12 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.3 L",
+      "oil_type": "SAE 15W-50, API SN / JASO MA2",
       "aliases": [
         "hyper",
         "hypermotard"
@@ -3058,8 +3058,8 @@
       "weight": "368 kg",
       "seat_height": "715 mm",
       "fuel_capacity": "22.7 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "4.7 L (5 US qt) with filter",
+      "oil_type": "SAE 20W-50",
       "aliases": [
         "harley",
         "hd",
@@ -3243,8 +3243,8 @@
       "weight": "363 kg",
       "seat_height": "715 mm",
       "fuel_capacity": "22.7 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "4.7 L (5 US qt) with filter",
+      "oil_type": "SAE 20W-50",
       "aliases": [
         "harley",
         "hd",
@@ -3304,8 +3304,8 @@
       "weight": "190 kg",
       "seat_height": "805 mm",
       "fuel_capacity": "13.5 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.25 L at draining; 2.60 L dry",
+      "oil_type": "SAE 15W-50 fully synthetic",
       "aliases": [
         "harley",
         "hd"
@@ -3363,8 +3363,8 @@
       "weight": "123 kg",
       "seat_height": "790 mm",
       "fuel_capacity": "10 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.0 L at oil change (2024+); 0.75 L on earlier models",
+      "oil_type": "SAE 10W-30 (or 5W-30 SN), JASO MA2",
       "aliases": [
         "glamour"
       ]
@@ -3392,8 +3392,8 @@
       "weight": "163 kg",
       "seat_height": "810 mm",
       "fuel_capacity": "11 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.25 L without filter; 1.35 L with filter",
+      "oil_type": "SAE 10W-30, JASO MA2",
       "aliases": [
         "karizma"
       ]
@@ -3421,8 +3421,8 @@
       "weight": "117 kg",
       "seat_height": "790 mm",
       "fuel_capacity": "10 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "0.75 L at oil change (2020–21 manual); 1.1 L on later 110 cc manuals",
+      "oil_type": "SAE 10W-30, JASO MA2",
       "aliases": [
         "passion"
       ]
@@ -3450,8 +3450,8 @@
       "weight": "112 kg",
       "seat_height": "785 mm",
       "fuel_capacity": "9.8 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "0.85 L at oil change; 1.0 L dry (1.0 L at oil change on 2023+ XTEC)",
+      "oil_type": "SAE 10W-30, JASO MA2",
       "aliases": [
         "splendor"
       ]
@@ -3508,8 +3508,8 @@
       "weight": "154 kg",
       "seat_height": "823 mm",
       "fuel_capacity": "13 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.2 L at oil change; 1.36 L dry",
+      "oil_type": "SAE 10W-30, JASO MA2",
       "aliases": [
         "xpulse"
       ]
@@ -3537,8 +3537,8 @@
       "weight": "158 kg",
       "seat_height": "823 mm",
       "fuel_capacity": "13 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.2 L at oil change; 1.40 L dry",
+      "oil_type": "SAE 10W-30, JASO MA2",
       "aliases": [
         "xpulse"
       ]
@@ -3566,8 +3566,8 @@
       "weight": "160 kg",
       "seat_height": "835 mm",
       "fuel_capacity": "13 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.25 L without filter; 1.35 L with filter; 1.65 L dry",
+      "oil_type": "SAE 10W-30, JASO MA2",
       "aliases": [
         "xpulse"
       ]
@@ -3595,8 +3595,8 @@
       "weight": "140 kg",
       "seat_height": "790 mm",
       "fuel_capacity": "12 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.0 L at oil change; 1.2 L dry",
+      "oil_type": "SAE 10W-30, JASO MA2",
       "aliases": [
         "xtreme"
       ]
@@ -3624,8 +3624,8 @@
       "weight": "140 kg",
       "seat_height": "795 mm",
       "fuel_capacity": "12 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.15 L at oil change; 1.35 L dry",
+      "oil_type": "SAE 10W-30, JASO MA2",
       "aliases": [
         "xtreme"
       ]
@@ -5453,8 +5453,8 @@
       "weight": "304 kg",
       "seat_height": "665 mm",
       "fuel_capacity": "15.1 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "5.68 L (6 US qt)",
+      "oil_type": "SAE 20W-40",
       "aliases": [
         "chief",
         "indian motorcycle"
@@ -5544,8 +5544,8 @@
       "weight": "400 kg",
       "seat_height": "700 mm",
       "fuel_capacity": "22.7 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "4.73 L (5 US qt)",
+      "oil_type": "SAE 15W-60",
       "aliases": [
         "indian motorcycle",
         "pursuit"
@@ -5574,8 +5574,8 @@
       "weight": "242 kg",
       "seat_height": "649 mm",
       "fuel_capacity": "12.5 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.84 L (3 US qt)",
+      "oil_type": "SAE 15W-60",
       "aliases": [
         "indian motorcycle",
         "scout"
@@ -5604,8 +5604,8 @@
       "weight": "251 kg",
       "seat_height": "649 mm",
       "fuel_capacity": "12.5 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.84 L (3 US qt)",
+      "oil_type": "SAE 15W-60",
       "aliases": [
         "bobber",
         "indian motorcycle",
@@ -5635,8 +5635,8 @@
       "weight": "249 kg",
       "seat_height": "649 mm",
       "fuel_capacity": "12.5 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.84 L (3 US qt)",
+      "oil_type": "SAE 15W-60",
       "aliases": [
         "indian motorcycle",
         "scout"
@@ -5665,8 +5665,8 @@
       "weight": "172 kg",
       "seat_height": "790 mm",
       "fuel_capacity": "13.2 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.25 L",
+      "oil_type": "SAE 10W-50, JASO MA2",
       "aliases": []
     },
     {
@@ -7254,8 +7254,8 @@
       "weight": "145 kg",
       "seat_height": "920 mm",
       "fuel_capacity": "30 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.4 L without filter; 1.6 L with filter; 1.8 L dry",
+      "oil_type": "SAE 10W-50, API SG or higher, JASO MA",
       "aliases": [
         "450 rally"
       ]
@@ -7372,8 +7372,8 @@
       "weight": "200 kg",
       "seat_height": "834 mm",
       "fuel_capacity": "16 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "3.50 L (3.70 US qt)",
+      "oil_type": "SAE 5W-40",
       "aliases": [
         "duke",
         "super duke"
@@ -8326,8 +8326,8 @@
       "weight": "218 kg",
       "seat_height": "780 mm",
       "fuel_capacity": "21 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.75 L (1.85 US qt)",
+      "oil_type": "SAE 10W-60",
       "aliases": [
         "guzzi",
         "v7"
@@ -8535,8 +8535,8 @@
       "weight": "230 kg",
       "seat_height": "830 mm",
       "fuel_capacity": "19 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.0 L without filter; 2.3 L with filter; 2.7 L dry",
+      "oil_type": "SAE 10W-40, API SP / JASO MA2",
       "aliases": [
         "qj",
         "qj motor",
@@ -8754,8 +8754,8 @@
       "weight": "185 kg",
       "seat_height": "780 mm",
       "fuel_capacity": "11 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.80 L (1.9 US qt)",
+      "oil_type": "SAE 15W-50",
       "aliases": [
         "enfield",
         "guerrilla",
@@ -8817,8 +8817,8 @@
       "weight": "196 kg",
       "seat_height": "825/845 mm",
       "fuel_capacity": "17 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.80 L (1.9 US qt)",
+      "oil_type": "SAE 10W-40",
       "aliases": [
         "enfield",
         "himalayan",
@@ -10124,8 +10124,8 @@
       "weight": "213 kg",
       "seat_height": "800 mm",
       "fuel_capacity": "13 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.8 L at service; 1.9 L with filter; 2.0 L dry",
+      "oil_type": "SAE 10W-40, API SL or higher",
       "aliases": [
         "maxsym"
       ]
@@ -10764,8 +10764,8 @@
       "weight": "174 kg",
       "seat_height": "810 mm",
       "fuel_capacity": "11 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.70 L",
+      "oil_type": "SAE 15W-50, JASO MA2 fully synthetic",
       "aliases": [
         "apache"
       ]
@@ -10822,8 +10822,8 @@
       "weight": "152 kg",
       "seat_height": "800 mm",
       "fuel_capacity": "12 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.2 L at service; 1.4 L dry",
+      "oil_type": "SAE 10W-30, JASO MA2 fully synthetic",
       "aliases": [
         "apache"
       ]
@@ -10879,8 +10879,8 @@
       "weight": "107 kg",
       "seat_height": "765 mm",
       "fuel_capacity": "5 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "0.70 L (current 113 cc); 0.75–0.80 L on earlier 109.7 cc models",
+      "oil_type": "SAE 10W-30, JASO MB",
       "aliases": [
         "jupiter"
       ]
@@ -10937,8 +10937,8 @@
       "weight": "118 kg",
       "seat_height": "770 mm",
       "fuel_capacity": "5.8 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "0.88 L at service; 0.93 L dry",
+      "oil_type": "SAE 10W-30, JASO MB",
       "aliases": [
         "ntorq"
       ]
@@ -10966,8 +10966,8 @@
       "weight": "123 kg",
       "seat_height": "780 mm",
       "fuel_capacity": "10.5 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.0 L",
+      "oil_type": "SAE 10W-30, JASO MA2",
       "aliases": [
         "raider"
       ]
@@ -10995,8 +10995,8 @@
       "weight": "160 kg",
       "seat_height": "795 mm",
       "fuel_capacity": "14 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.3 L at service; 1.5 L dry",
+      "oil_type": "SAE 10W-30, JASO MA2 fully synthetic",
       "aliases": [
         "ronin"
       ]
@@ -11052,8 +11052,8 @@
       "weight": "165 kg",
       "seat_height": "790 mm",
       "fuel_capacity": "8.5 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.3 L",
+      "oil_type": "SAE 5W-40, API SL, JASO MA/MA2",
       "aliases": [
         "gts"
       ]
@@ -11168,8 +11168,8 @@
       "weight": "235 kg",
       "seat_height": "825 mm",
       "fuel_capacity": "20 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "2.8 L without filter; 3.0 L with filter; 3.2 L dry",
+      "oil_type": "SAE 5W-40, API SN or higher (10W-40 / 20W-50 in hot climates)",
       "aliases": [
         "900 dsx",
         "900dsx"
@@ -11256,8 +11256,8 @@
       "weight": "136 kg",
       "seat_height": "790 mm",
       "fuel_capacity": "13 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.0 L",
+      "oil_type": "SAE 10W-40, API SL, JASO MA",
       "aliases": [
         "fz"
       ]
@@ -11773,8 +11773,8 @@
       "weight": "134 kg",
       "seat_height": "810 mm",
       "fuel_capacity": "10 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "1.0 L",
+      "oil_type": "SAE 10W-40, API SL, JASO MA",
       "aliases": [
         "xsr"
       ]
@@ -12218,8 +12218,8 @@
       "weight": "226 kg",
       "seat_height": "830 mm",
       "fuel_capacity": "20 L",
-      "oil_capacity": "",
-      "oil_type": "",
+      "oil_capacity": "3.0 L without filter; 3.4 L with filter",
+      "oil_type": "SAE 10W-50, API SN or higher",
       "aliases": [
         "703 f",
         "703f"

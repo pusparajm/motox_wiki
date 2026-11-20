@@ -92,6 +92,36 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.50 L (3.70 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 5W-40"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "3.20 L (3.38 US qt)"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 X-ring"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "15,000 km / 12 months"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

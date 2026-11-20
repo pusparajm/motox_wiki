@@ -96,6 +96,26 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "engine_oil",
+            "label": "Engine Oil",
+            "value": "Not applicable — electric motor"
+          },
+          {
+            "key": "final_drive",
+            "label": "Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "No engine oil, spark plug, coolant or valve service. Follow Ola’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

@@ -92,6 +92,46 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.70 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 15W-50, JASO MA2 fully synthetic"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.0 L (50/50 with distilled water)"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "440 ml per leg (BTO); 480/484 ml (base)"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Chain"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "5,000 km / 6 months"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

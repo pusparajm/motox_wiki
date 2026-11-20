@@ -250,6 +250,66 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "2.20 L (2.32 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-50, JASO MA2"
+            },
+            {
+              "key": "oil_filter",
+              "label": "Oil Filter",
+              "value": "Hiflofiltro HF138"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "NGK MR9DI-7"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "520 X-ring, 15T front / 43T rear"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "EBC FA606HH; Brembo 07GR18"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "EBC FA213HH; Brembo 07BB02"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "1.50 L (1.59 US qt)"
+            },
+            {
+              "key": "fork_oil",
+              "label": "Fork Oil",
+              "value": "SAE 5W"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km / 12 months"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "Oil capacity and grade are from LIQUI MOLY application data; Aprilia does not publish a single service-fill figure in the owner’s manual. Confirm the level on the dipstick after filling."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -1737,6 +1797,26 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "No engine oil, spark plug, coolant or valve service. Ather's periodic service covers brake fluid, brake pads, tyres, wheel bearings and the drive belt."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -1871,6 +1951,26 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "13 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "1.15 L at service; 1.30 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 20W-50, JASO MA2 (10W-50 synthetic optional)"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Oil change every 10,000 km; top-up every 5,000 km"
             }
           ]
         },
@@ -2020,6 +2120,26 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "No engine oil or spark plug. Follow Bajaj’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -2154,6 +2274,26 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "13 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "1.70 L at service; 1.95 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-50, JASO MA2, API SL/SN fully synthetic"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Oil change every 10,000 km; top-up every 5,000 km"
             }
           ]
         },
@@ -2299,6 +2439,31 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.0 L at service; 1.1 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-40, JASO MA2"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Oil change every 5,000 km"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "CNG system inspection is required at every service interval."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -2441,6 +2606,26 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.0 L at service; 1.1 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Oil change every 10,000 km; top-up every 5,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -2580,6 +2765,31 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "14 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.25 L at service; 1.45 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 20W-50, JASO MA2, API SN"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Oil change every 10,000 km; top-up every 5,000 km"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "Early 2022 N160 manuals specified SAE 10W-40; later BS6 manuals specify 20W-50."
             }
           ]
         },
@@ -2887,6 +3097,26 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.2 L at service; 1.4 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 20W-50, JASO MA2, API SN (10W-50 synthetic optional)"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Oil change every 10,000 km; top-up every 5,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -3026,6 +3256,26 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "12 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.70 L at service; 1.95 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-50, JASO MA2, API SN fully synthetic"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Oil change every 10,000 km; top-up every 5,000 km"
             }
           ]
         },
@@ -3976,6 +4226,31 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "1.8 L"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "Fully synthetic, API SF or higher"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "NGK CR9E"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Oil change every 5,000 km (first at 500–1,000 km)"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -4775,6 +5050,36 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "10,000 km / 24 months"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "BMW also specifies transmission-oil changes every 10,000 km or 24 months. The battery and motor use a separate coolant circuit; check the level at each service."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -4904,6 +5209,16 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "14 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "Service data for this new model is still being compiled. Use the owner’s manual supplied with the bike for oil capacity, fluid grades and service intervals."
             }
           ]
         },
@@ -8353,6 +8668,41 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "2.30 L (2.43 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-40"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "1.50 L (1.6 US qt)"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Oil change every 10,000 km / 12 months"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Replace every 20,000 km"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -8819,6 +9169,46 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "2.5 L"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-40, SJ, JASO MA2"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "BN8RTI"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "1.30 L + 0.24 L reservoir"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "5,000 km / 6 months"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -9280,6 +9670,41 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "3.1 L"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-40, SN or higher, JASO MA2"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "BN8RTI"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "1.70 L + 0.284 L reservoir"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -9584,6 +10009,41 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "2.80 L (2.96 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-50"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "2.74 L (2.9 US qt)"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Oil change every 5,000 km; spark plugs every 20,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -9723,6 +10183,31 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "15 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "2.80 L (2.96 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-40"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "15,000 km / 12 months"
             }
           ]
         },
@@ -11074,6 +11559,41 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "12 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "2.3 L"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 15W-50, API SN / JASO MA2"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "NGK MAR9A-J"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain, 15T front / 45T rear"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "15,000 km / 12 months"
             }
           ]
         },
@@ -16482,6 +17002,56 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "4.7 L (5 US qt) with filter"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 20W-50"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "8,000 km / 12 months"
+            },
+            {
+              "key": "fork_oil",
+              "label": "Fork Oil",
+              "value": "SAE 15W, 0.71 L per leg"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "0.78 L (0.82 US qt)"
+            },
+            {
+              "key": "transmission_oil",
+              "label": "Transmission Oil",
+              "value": "0.95 L"
+            },
+            {
+              "key": "primary_oil",
+              "label": "Primary Chain Case Oil",
+              "value": "1.0 L"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -17379,6 +17949,56 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "4.7 L (5 US qt) with filter"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 20W-50"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "8,000 km / 12 months"
+            },
+            {
+              "key": "fork_oil",
+              "label": "Fork Oil",
+              "value": "SAE 15W, 0.71 L per leg"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "0.78 L (0.82 US qt)"
+            },
+            {
+              "key": "transmission_oil",
+              "label": "Transmission Oil",
+              "value": "0.95 L"
+            },
+            {
+              "key": "primary_oil",
+              "label": "Primary Chain Case Oil",
+              "value": "1.0 L"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -17660,6 +18280,41 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "13.5 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "2.25 L at draining; 2.60 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 15W-50 fully synthetic"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Federal Mogul REK6YC"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "10,000 km / 12 months"
             }
           ]
         },
@@ -17952,6 +18607,36 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.0 L at oil change (2024+); 0.75 L on earlier models"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30 (or 5W-30 SN), JASO MA2"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "NGK CPR6EA-9 / Federal Mogul RG8YC"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "Capacity changed with the 2024 OBD-2B update; check the owner’s manual for your model year."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -18091,6 +18776,31 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "11 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.25 L without filter; 1.35 L with filter"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "Capacity is for the 210 cc Hero engine family; confirm the final level on the dipstick."
             }
           ]
         },
@@ -18236,6 +18946,31 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "0.75 L at oil change (2020–21 manual); 1.1 L on later 110 cc manuals"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "Hero revised the 110 cc engine during this model run; check the manual for your model year."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -18375,6 +19110,31 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "9.8 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "0.85 L at oil change; 1.0 L dry (1.0 L at oil change on 2023+ XTEC)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "Earlier and XTEC editions use different sump capacities; confirm against the dipstick."
             }
           ]
         },
@@ -18677,6 +19437,31 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.2 L at oil change; 1.36 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Champion REK6YC"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -18816,6 +19601,31 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "13 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.2 L at oil change; 1.40 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Champion REK6YC"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km (12,000 km with Hero Xotic+)"
             }
           ]
         },
@@ -18961,6 +19771,31 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.25 L without filter; 1.35 L with filter; 1.65 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "BOSCH VR5NEU"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "12,000 km with Hero Xotic+"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -19103,6 +19938,31 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.0 L at oil change; 1.2 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Federal Mogul P-RG6HCC"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -19242,6 +20102,26 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "12 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.15 L at oil change; 1.35 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km (12,000 km with Hero Xotic+)"
             }
           ]
         },
@@ -29576,6 +30456,46 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "5.68 L (6 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 20W-40"
+            },
+            {
+              "key": "oil_filter",
+              "label": "Oil Filter",
+              "value": "Indian 2521421"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "8,000 km / 12 months"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Replace every 24,000 km"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -30002,6 +30922,46 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "4.73 L (5 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 15W-60"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "2.37 L (2.5 US qt)"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "8,000 km / 12 months"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Replace every 24,000 km"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -30131,6 +31091,46 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "12.5 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "2.84 L (3 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 15W-60"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "2.74 L (2.9 US qt)"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "16,000 km / 12 months"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Replace every 24,000 km"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
             }
           ]
         },
@@ -30266,6 +31266,46 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "2.84 L (3 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 15W-60"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "2.74 L (2.9 US qt)"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "16,000 km / 12 months"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Replace every 24,000 km"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -30398,6 +31438,46 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "2.84 L (3 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 15W-60"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "2.74 L (2.9 US qt)"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "16,000 km / 12 months"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Replace every 24,000 km"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -30527,6 +31607,26 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "13.2 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.25 L"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-50, JASO MA2"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km / 6 months"
             }
           ]
         },
@@ -39749,6 +40849,41 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.4 L without filter; 1.6 L with filter; 1.8 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-50, API SG or higher, JASO MA"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "NGK CR8E"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "1.2 L"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "2,000 km / 3 months (first changes at 500 km)"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "Later Kove owner manuals list SAE 10W-40; confirm the grade for your model year."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -40379,6 +41514,36 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "16 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "3.50 L (3.70 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 5W-40"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "3.20 L (3.38 US qt)"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "525 X-ring"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "15,000 km / 12 months"
             }
           ]
         },
@@ -45446,6 +46611,31 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Belt inspection every 8,000 km; brake fluid every 19,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -45874,6 +47064,36 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "21 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "1.75 L (1.85 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-60"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "NGK CPR8EB-9"
+            },
+            {
+              "key": "fork_oil",
+              "label": "Fork Oil",
+              "value": "SAE 5W"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "10,000 km / 12 months"
             }
           ]
         },
@@ -46322,6 +47542,26 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "No engine oil, spark plug, coolant or valve service. Follow Ola’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -46460,6 +47700,26 @@
               "key": "top_speed",
               "label": "Top Speed",
               "value": "90 km/h"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "No engine oil, spark plug, coolant or valve service. Follow Ola’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
             }
           ]
         },
@@ -46916,6 +48176,36 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "19 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "2.0 L without filter; 2.3 L with filter; 2.7 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-40, API SP / JASO MA2"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "QJMotor specifies a 1,000 km first service, then the intervals in the owner’s manual."
             }
           ]
         },
@@ -47993,6 +49283,46 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.80 L (1.9 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 15W-50"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "1.23 L (1.3 US qt)"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "10,000 km / 12 months"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Replace every 20,000 km"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -48289,6 +49619,46 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "17 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.80 L (1.9 US qt)"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-40"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "1.23 L (1.3 US qt)"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "10,000 km / 12 months"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "Replace every 20,000 km"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
             }
           ]
         },
@@ -49539,6 +50909,26 @@
               "key": "top_speed",
               "label": "Top Speed",
               "value": "120 km/h"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "No engine oil, spark plug, coolant or valve service. Follow Stark’s schedule for brake fluid, brake pads, bearings, suspension and the drive chain."
             }
           ]
         },
@@ -55602,6 +56992,46 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.8 L at service; 1.9 L with filter; 2.0 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-40, API SL or higher"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "NGK CPR8EA-9"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "1.7 L"
+            },
+            {
+              "key": "transmission_oil",
+              "label": "Transmission Oil",
+              "value": "300 ml SAE 85W-140"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "5,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -59009,6 +60439,46 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil (with filter)",
+              "value": "1.70 L"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 15W-50, JASO MA2 fully synthetic"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "1.0 L (50/50 with distilled water)"
+            },
+            {
+              "key": "fork_oil",
+              "label": "Fork Oil",
+              "value": "440 ml per leg (BTO); 480/484 ml (base)"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "5,000 km / 6 months"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -59313,6 +60783,41 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.2 L at service; 1.4 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2 fully synthetic"
+            },
+            {
+              "key": "fork_oil",
+              "label": "Fork Oil",
+              "value": "325–340 ml per leg"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 3 / DOT 4"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km / 6 months"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -59459,6 +60964,26 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "No engine oil, spark plug, coolant or valve service. Follow TVS’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -59593,6 +61118,41 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "5 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "0.70 L (current 113 cc); 0.75–0.80 L on earlier 109.7 cc models"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "transmission_oil",
+              "label": "Transmission Oil",
+              "value": "120 ml"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 3 / DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "Capacity depends on engine generation; check the owner’s manual for your model year."
             }
           ]
         },
@@ -59895,6 +61455,36 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "0.88 L at service; 0.93 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "transmission_oil",
+              "label": "Transmission Oil",
+              "value": "120 ml at service; 130 ml dry"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 3 / DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -60037,6 +61627,26 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.0 L"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -60176,6 +61786,41 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "14 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.3 L at service; 1.5 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-30, JASO MA2 fully synthetic"
+            },
+            {
+              "key": "fork_oil",
+              "label": "Fork Oil",
+              "value": "525 ml left / 500 ml right"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 3 / DOT 4"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "6,000 km / 6 months"
             }
           ]
         },
@@ -60325,6 +61970,26 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            },
+            {
+              "key": "note",
+              "label": "Note",
+              "value": "No engine oil, spark plug, coolant or valve service. Follow Ultraviolette’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -60459,6 +62124,46 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "8.5 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.3 L"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 5W-40, API SL, JASO MA/MA2"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "NGK MR7BI-8 (HPE)"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "1.42 L (HPE)"
+            },
+            {
+              "key": "transmission_oil",
+              "label": "Transmission Oil",
+              "value": "250 ml SAE 80W-90"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "10,000 km / 12 months"
             }
           ]
         },
@@ -61095,6 +62800,46 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "2.8 L without filter; 3.0 L with filter; 3.2 L dry"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 5W-40, API SN or higher (10W-40 / 20W-50 in hot climates)"
+            },
+            {
+              "key": "spark_plug",
+              "label": "Spark Plug",
+              "value": "NGK LMAR9J-9E"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "2.0 L"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "525UZI, 122 links"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "10,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -61548,6 +63293,31 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "13 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.0 L"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-40, API SL, JASO MA"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "3,000 km"
             }
           ]
         },
@@ -64587,6 +66357,31 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "1.0 L"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-40, API SL, JASO MA"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "4,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -66665,6 +68460,31 @@
             }
           ]
         },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Belt every 19,000 km; brake fluid every 19,000 km"
+            }
+          ]
+        },
         "torque_specs": {
           "label": "Torque Specifications",
           "fields": [
@@ -66803,6 +68623,36 @@
               "key": "top_speed",
               "label": "Top Speed",
               "value": "200 km/h"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "engine_oil",
+              "label": "Engine Oil",
+              "value": "Not applicable — electric motor"
+            },
+            {
+              "key": "final_drive",
+              "label": "Final Drive",
+              "value": "Belt"
+            },
+            {
+              "key": "coolant",
+              "label": "Coolant",
+              "value": "0.95 L (1 US qt) ethylene glycol 50/50"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "service_interval",
+              "label": "Service Interval",
+              "value": "Coolant every 39,000 km; belt and brake fluid every 19,000 km"
             }
           ]
         },
@@ -67097,6 +68947,36 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "20 L"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "oil_capacity",
+              "label": "Engine Oil",
+              "value": "3.0 L without filter; 3.4 L with filter"
+            },
+            {
+              "key": "oil_grade",
+              "label": "Oil Grade",
+              "value": "SAE 10W-50, API SN or higher"
+            },
+            {
+              "key": "fork_oil",
+              "label": "Fork Oil",
+              "value": "SAE 10W, 440 ml per leg"
+            },
+            {
+              "key": "brake_fluid",
+              "label": "Brake Fluid",
+              "value": "DOT 4"
+            },
+            {
+              "key": "chain",
+              "label": "Chain / Final Drive",
+              "value": "Chain"
             }
           ]
         },

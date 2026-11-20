@@ -92,6 +92,41 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "1.4 L without filter; 1.6 L with filter; 1.8 L dry"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-50, API SG or higher, JASO MA"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CR8E"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.2 L"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "2,000 km / 3 months (first changes at 500 km)"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Later Kove owner manuals list SAE 10W-40; confirm the grade for your model year."
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

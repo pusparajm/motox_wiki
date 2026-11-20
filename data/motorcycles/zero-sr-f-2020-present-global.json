@@ -96,6 +96,36 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "engine_oil",
+            "label": "Engine Oil",
+            "value": "Not applicable — electric motor"
+          },
+          {
+            "key": "final_drive",
+            "label": "Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "0.95 L (1 US qt) ethylene glycol 50/50"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Coolant every 39,000 km; belt and brake fluid every 19,000 km"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

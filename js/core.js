@@ -319,8 +319,14 @@ const MotoX = (() => {
     if (!section) return '';
 
     let body = '';
-    if (section.fields && section.fields.length) {
-      body = `<div class="${mx('spec-fields')}">${section.fields.map(f => `
+    const fields = section.fields || [];
+    const note = fields.find(f => f.key === 'note' && f.value);
+    if (note) {
+      body += `<p class="${mx('spec-note')}">${shieldEnc(note.value)}</p>`;
+    }
+    const rows = fields.filter(f => f.key !== 'note' && f.value);
+    if (rows.length) {
+      body += `<div class="${mx('spec-fields')}">${rows.map(f => `
         <div class="${mx('spec-field')}">
           <span class="${mx('field-label')}">${shieldEnc(f.label)}</span>
           <span class="${mx('field-value')}">${shieldEnc(f.value)}</span>

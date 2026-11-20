@@ -92,6 +92,41 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "0.70 L (current 113 cc); 0.75–0.80 L on earlier 109.7 cc models"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MB"
+          },
+          {
+            "key": "transmission_oil",
+            "label": "Transmission Oil",
+            "value": "120 ml"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 3 / DOT 4"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "6,000 km"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Capacity depends on engine generation; check the owner’s manual for your model year."
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

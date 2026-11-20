@@ -92,6 +92,26 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "1.0 L at service; 1.1 L dry"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MA2"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Oil change every 10,000 km; top-up every 5,000 km"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

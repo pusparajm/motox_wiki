@@ -92,6 +92,31 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "1.25 L at service; 1.45 L dry"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 20W-50, JASO MA2, API SN"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Oil change every 10,000 km; top-up every 5,000 km"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Early 2022 N160 manuals specified SAE 10W-40; later BS6 manuals specify 20W-50."
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

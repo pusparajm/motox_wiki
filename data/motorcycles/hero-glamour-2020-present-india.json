@@ -92,6 +92,36 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "1.0 L at oil change (2024+); 0.75 L on earlier models"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30 (or 5W-30 SN), JASO MA2"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CPR6EA-9 / Federal Mogul RG8YC"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "6,000 km"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "Capacity changed with the 2024 OBD-2B update; check the owner’s manual for your model year."
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

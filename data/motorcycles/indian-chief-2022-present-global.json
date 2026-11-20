@@ -92,6 +92,46 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "5.68 L (6 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 20W-40"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "Indian 2521421"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "8,000 km / 12 months"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "Replace every 24,000 km"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
+          {
+            "key": "final_drive",
+            "label": "Final Drive",
+            "value": "Belt"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

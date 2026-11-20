@@ -92,6 +92,46 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "2.84 L (3 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 15W-60"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.74 L (2.9 US qt)"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "16,000 km / 12 months"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "Replace every 24,000 km"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
+          {
+            "key": "final_drive",
+            "label": "Final Drive",
+            "value": "Belt"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [

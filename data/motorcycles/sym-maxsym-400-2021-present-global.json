@@ -92,6 +92,46 @@
           }
         ]
       },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "1.8 L at service; 1.9 L with filter; 2.0 L dry"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, API SL or higher"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CPR8EA-9"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.7 L"
+          },
+          {
+            "key": "transmission_oil",
+            "label": "Transmission Oil",
+            "value": "300 ml SAE 85W-140"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "5,000 km"
+          }
+        ]
+      },
       "torque_specs": {
         "label": "Torque Specifications",
         "fields": [
