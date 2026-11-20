@@ -247,6 +247,15 @@ const MotoXSearch = (() => {
     return scored.filter(item => item.score >= minimum).slice(0, maxResults);
   }
 
+  function matches(query, text) {
+    const q = normalize(query);
+    if (!q) return true;
+    const haystack = normalize(text).split(' ').filter(Boolean);
+    return q.split(' ').filter(Boolean).every(qt =>
+      haystack.some(token => token === qt || token.startsWith(qt))
+    );
+  }
+
   function suggestions(limit = 6) {
     return SUGGESTIONS.slice(0, limit);
   }
@@ -409,5 +418,5 @@ const MotoXSearch = (() => {
     });
   }
 
-  return { init, search, buildIndex, ensureIndex, suggestions, normalize };
+  return { init, search, matches, buildIndex, ensureIndex, suggestions, normalize };
 })();

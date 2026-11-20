@@ -583,6 +583,7 @@ Client-side search — no server or external library.
 - Common nicknames and family aliases are included: `Fireblade`, `Busa`, `Gixxer`, `Goldwing`, `V-Strom`, `ZX10R`
 - Typo tolerance for close spellings such as `fireblad` or `himalyan`
 - Header search bar with instant dropdown results and keyboard navigation
+- The homepage "Filter by name, nickname or spec" field uses the same token/alias matcher
 - Suggested searches appear when there are no results
 - Full results page at `search.html?q=...`
 - Alias data lives in `scripts/search_aliases.py`; add new rules there and run `npm run build:data`

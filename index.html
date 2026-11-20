@@ -7,7 +7,7 @@
   <title>Browse Motorcycles — MotoX Wiki</title>
   <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=17" id="mx-main-css">
+  <link rel="stylesheet" href="css/main.css?v=18" id="mx-main-css">
 </head>
 <body>
   <header data-mx-ref="site-header" class="site-header"></header>
@@ -31,7 +31,7 @@
       </div>
 
       <div class="filter-bar">
-        <input type="search" data-mx-ref="filter-search" placeholder="Search bikes…" aria-label="Filter motorcycles">
+        <input type="search" data-mx-ref="filter-search" placeholder="Filter by name, nickname or spec…" aria-label="Filter motorcycles">
         <select data-mx-ref="filter-make" aria-label="Filter by make">
           <option value="">All Makes</option>
         </select>
@@ -57,9 +57,9 @@
 
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script src="js/dist/shield.js?v=6"></script>
-  <script src="js/dist/core.js?v=21"></script>
-  <script src="js/dist/search.js?v=10"></script>
+  <script src="js/dist/shield.js?v=7"></script>
+  <script src="js/dist/core.js?v=22"></script>
+  <script src="js/dist/search.js?v=11"></script>
   <script>
     let allBikes = [];
     let activeList = [];
@@ -230,9 +230,10 @@
       const filtered = allBikes.filter(b => {
         const haystack = [
           b.make, b.model, b.year, b.region, b.category, b.displacement,
-          b.engine, b.power, b.torque, b.weight, b.seat_height, ...(b.tags || [])
-        ].filter(Boolean).join(' ').toLowerCase();
-        const matchQ = !q || haystack.includes(q);
+          b.engine, b.power, b.torque, b.weight, b.seat_height,
+          ...(b.tags || []), ...(b.aliases || [])
+        ].filter(Boolean).join(' ');
+        const matchQ = !q || MotoXSearch.matches(q, haystack);
         const matchMake = !make || b.make === make;
         const matchCat = !category || b.category === category;
         return matchQ && matchMake && matchCat;

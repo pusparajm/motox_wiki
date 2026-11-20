@@ -74,6 +74,7 @@ def motorcycle_summary(moto: dict[str, Any]) -> dict[str, Any]:
     summary = {key: values[key] for key in SUMMARY_KEYS if key in values}
     summary["oil_capacity"] = values.get("oil_capacity", "")
     summary["oil_type"] = values.get("oil_type", "")
+    summary["aliases"] = aliases_for(moto.get("make", ""), moto.get("model", ""))
     return summary
 
 

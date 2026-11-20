@@ -24,7 +24,12 @@
       "seat_height": "795 mm",
       "fuel_capacity": "15.2 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "cb 750",
+        "cb750",
+        "hornet"
+      ]
     },
     {
       "id": "yamaha-mt-07-2018",
@@ -50,7 +55,10 @@
       "seat_height": "805 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.6 L (2.7 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "mt"
+      ]
     },
     {
       "id": "kawasaki-z900",
@@ -76,7 +84,12 @@
       "seat_height": "795 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.6 L (3.8 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 900",
+        "z900"
+      ]
     },
     {
       "id": "suzuki-gsx-8s-2023-present-global",
@@ -102,7 +115,11 @@
       "seat_height": "810 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gsx 8",
+        "gsx8"
+      ]
     },
     {
       "id": "ktm-390-duke-2021",
@@ -128,7 +145,10 @@
       "seat_height": "820 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke"
+      ]
     },
     {
       "id": "royal-enfield-classic-350-2021-present-global",
@@ -154,7 +174,12 @@
       "seat_height": "805 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "classic",
+        "enfield",
+        "royal enfield"
+      ]
     },
     {
       "id": "bmw-r-1300-gs-2023-present-global",
@@ -179,7 +204,13 @@
       "seat_height": "850 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "gs",
+        "r 1300 gs",
+        "r1300gs"
+      ]
     },
     {
       "id": "ducati-panigale-v4-2025-present",
@@ -205,7 +236,10 @@
       "seat_height": "850 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "triumph-trident-660-2021-present-global",
@@ -231,7 +265,11 @@
       "seat_height": "805 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "trident",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "harley-davidson-sportster-s-2021-present-global",
@@ -257,7 +295,12 @@
       "seat_height": "755 mm",
       "fuel_capacity": "11.8 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "sportster"
+      ]
     },
     {
       "id": "honda-africa-twin-crf1100l-2020-present-global",
@@ -283,7 +326,12 @@
       "seat_height": "850/870 mm",
       "fuel_capacity": "18.8 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "africa twin",
+        "crf 1100",
+        "crf1100"
+      ]
     },
     {
       "id": "yamaha-tenere-700-2019-present-global",
@@ -309,7 +357,12 @@
       "seat_height": "875 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "2.6 L (2.7 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "t7",
+        "tenere",
+        "tenere 700"
+      ]
     }
   ]
 }

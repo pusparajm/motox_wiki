@@ -24,7 +24,8 @@
       "seat_height": "820 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "1.2 L (1.3 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": []
     },
     {
       "id": "aprilia-rs-457-2023-present-global",
@@ -50,7 +51,11 @@
       "seat_height": "800 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "rs 457",
+        "rs457"
+      ]
     },
     {
       "id": "aprilia-rs-660-2020-present-global",
@@ -76,7 +81,11 @@
       "seat_height": "820 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "2.8 L (3.0 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "rs 660",
+        "rs660"
+      ]
     },
     {
       "id": "aprilia-rsv4-2021-present-global",
@@ -102,7 +111,11 @@
       "seat_height": "845 mm",
       "fuel_capacity": "17.9 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "rsv 4",
+        "rsv4"
+      ]
     },
     {
       "id": "aprilia-sr-160-2021-present-india",
@@ -128,7 +141,11 @@
       "seat_height": "790 mm",
       "fuel_capacity": "6 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "sr 160",
+        "sr160"
+      ]
     },
     {
       "id": "aprilia-sx-125-2018-present-global",
@@ -154,7 +171,11 @@
       "seat_height": "880 mm",
       "fuel_capacity": "7.5 L",
       "oil_capacity": "1.2 L (1.3 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "sx 125",
+        "sx125"
+      ]
     },
     {
       "id": "aprilia-tuareg-660-2022-present-global",
@@ -180,7 +201,10 @@
       "seat_height": "860 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "2.8 L (3.0 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "tuareg"
+      ]
     },
     {
       "id": "aprilia-tuono-125-2017-present-global",
@@ -206,7 +230,10 @@
       "seat_height": "820 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "1.2 L (1.3 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "tuono"
+      ]
     },
     {
       "id": "aprilia-tuono-660-2021-present-global",
@@ -232,7 +259,10 @@
       "seat_height": "820 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "2.8 L (3.0 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "tuono"
+      ]
     },
     {
       "id": "aprilia-tuono-v4-2021-present-global",
@@ -258,7 +288,10 @@
       "seat_height": "845 mm",
       "fuel_capacity": "17.9 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "tuono"
+      ]
     },
     {
       "id": "ather-450x-2022-present-india",
@@ -283,7 +316,11 @@
       "seat_height": "780 mm",
       "fuel_capacity": "3.7 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "450 x",
+        "450x"
+      ]
     },
     {
       "id": "bajaj-avenger-220-cruise-2018-present-india",
@@ -309,7 +346,10 @@
       "seat_height": "737 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "avenger"
+      ]
     },
     {
       "id": "bajaj-chetak-2020-present-india",
@@ -334,7 +374,10 @@
       "seat_height": "780 mm",
       "fuel_capacity": "3.5 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "chetak"
+      ]
     },
     {
       "id": "bajaj-dominar-400-2019-present-india",
@@ -360,7 +403,10 @@
       "seat_height": "800 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "dominar"
+      ]
     },
     {
       "id": "bajaj-freedom-125-cng-2024-present-india",
@@ -386,7 +432,10 @@
       "seat_height": "825 mm",
       "fuel_capacity": "2 kg CNG + 2 L petrol",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "freedom"
+      ]
     },
     {
       "id": "bajaj-platina-110-2019-present-india",
@@ -412,7 +461,10 @@
       "seat_height": "805 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "platina"
+      ]
     },
     {
       "id": "bajaj-pulsar-n160-2022-present-india",
@@ -438,7 +490,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "pulsar"
+      ]
     },
     {
       "id": "bajaj-pulsar-n250-2021-present-india",
@@ -464,7 +519,10 @@
       "seat_height": "795 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "pulsar"
+      ]
     },
     {
       "id": "bajaj-pulsar-ns200-2023-present-india",
@@ -490,7 +548,10 @@
       "seat_height": "805 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "pulsar"
+      ]
     },
     {
       "id": "bajaj-pulsar-ns400z-2024-present-india",
@@ -516,7 +577,10 @@
       "seat_height": "807 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "pulsar"
+      ]
     },
     {
       "id": "benelli-302r-2015-2020-global",
@@ -542,7 +606,8 @@
       "seat_height": "785 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "benelli-502c-2021-present-global",
@@ -568,7 +633,8 @@
       "seat_height": "750 mm",
       "fuel_capacity": "21.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "benelli-imperiale-400-2019-present-global",
@@ -594,7 +660,10 @@
       "seat_height": "780 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "imperiale"
+      ]
     },
     {
       "id": "benelli-leoncino-500-2021-present-global",
@@ -620,7 +689,10 @@
       "seat_height": "815 mm",
       "fuel_capacity": "12.7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "leoncino"
+      ]
     },
     {
       "id": "benelli-leoncino-800-2021-present-global",
@@ -646,7 +718,10 @@
       "seat_height": "815 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "leoncino"
+      ]
     },
     {
       "id": "benelli-tnt-600i-2013-2020-global",
@@ -672,7 +747,8 @@
       "seat_height": "800 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "benelli-trk-502-2017-present-global",
@@ -698,7 +774,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "trk"
+      ]
     },
     {
       "id": "benelli-trk-702-2023-present-global",
@@ -724,7 +803,10 @@
       "seat_height": "825 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "trk"
+      ]
     },
     {
       "id": "benelli-trk-800-2021-present-global",
@@ -750,7 +832,10 @@
       "seat_height": "835 mm",
       "fuel_capacity": "22 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "trk"
+      ]
     },
     {
       "id": "bmw-c-400-gt-2018-present-global",
@@ -776,7 +861,12 @@
       "seat_height": "775 mm",
       "fuel_capacity": "12.8 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "c 400",
+        "c400"
+      ]
     },
     {
       "id": "bmw-ce-04-2022-present-global",
@@ -801,7 +891,12 @@
       "seat_height": "780 mm",
       "fuel_capacity": "8.9 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "bmw motorrad",
+        "ce 04",
+        "ce04"
+      ]
     },
     {
       "id": "bmw-f450gs-2026-present-global",
@@ -827,7 +922,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "bmw motorrad"
+      ]
     },
     {
       "id": "bmw-f-800-gs-2024-present-global",
@@ -853,7 +951,12 @@
       "seat_height": "815 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "3.5 L (3.7 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "f 800",
+        "f800"
+      ]
     },
     {
       "id": "bmw-f-900-gs-2024-present-global",
@@ -879,7 +982,12 @@
       "seat_height": "870 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "3.5 L (3.7 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "f 900",
+        "f900"
+      ]
     },
     {
       "id": "bmw-f-900-r-2020-present-global",
@@ -905,7 +1013,12 @@
       "seat_height": "815 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "3.5 L (3.7 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "f 900",
+        "f900"
+      ]
     },
     {
       "id": "bmw-f-900-xr-2020-present-global",
@@ -931,7 +1044,12 @@
       "seat_height": "825 mm",
       "fuel_capacity": "15.5 L",
       "oil_capacity": "3.5 L (3.7 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "f 900",
+        "f900"
+      ]
     },
     {
       "id": "bmw-g-310-gs-2018-present-global",
@@ -957,7 +1075,12 @@
       "seat_height": "835 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "g 310",
+        "g310"
+      ]
     },
     {
       "id": "bmw-g310r-2015-2025-global",
@@ -983,7 +1106,12 @@
       "seat_height": "785 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "g 310",
+        "g310"
+      ]
     },
     {
       "id": "bmw-g310rr-2015-2025",
@@ -1009,7 +1137,12 @@
       "seat_height": "811 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "g 310",
+        "g310"
+      ]
     },
     {
       "id": "bmw-m-1000-r-2021-present-global",
@@ -1035,7 +1168,12 @@
       "seat_height": "830 mm",
       "fuel_capacity": "16.5 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "m 1000",
+        "m1000"
+      ]
     },
     {
       "id": "bmw-m-1000-rr-2021-present-global",
@@ -1061,7 +1199,12 @@
       "seat_height": "832 mm",
       "fuel_capacity": "16.5 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "m 1000",
+        "m1000"
+      ]
     },
     {
       "id": "bmw-r-12-2024-present-global",
@@ -1086,7 +1229,12 @@
       "seat_height": "755 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "r 12",
+        "r12"
+      ]
     },
     {
       "id": "bmw-r-12-ninet-2024-present-global",
@@ -1111,7 +1259,12 @@
       "seat_height": "795 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "r 12",
+        "r12"
+      ]
     },
     {
       "id": "bmw-r-1250-gs-2019-present-global",
@@ -1136,7 +1289,15 @@
       "seat_height": "850/870 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "gs",
+        "r 12",
+        "r 1250 gs",
+        "r12",
+        "r1250gs"
+      ]
     },
     {
       "id": "bmw-r-1250-rt-2019-present-global",
@@ -1161,7 +1322,12 @@
       "seat_height": "805/825 mm",
       "fuel_capacity": "25 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "r 12",
+        "r12"
+      ]
     },
     {
       "id": "bmw-r-1300-gs-2023-present-global",
@@ -1186,7 +1352,13 @@
       "seat_height": "850 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "gs",
+        "r 1300 gs",
+        "r1300gs"
+      ]
     },
     {
       "id": "bmw-r-18-2020-present-global",
@@ -1211,7 +1383,12 @@
       "seat_height": "690 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "4.5 L (4.8 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "r 18",
+        "r18"
+      ]
     },
     {
       "id": "bmw-s-1000-r-2021-present-global",
@@ -1237,7 +1414,12 @@
       "seat_height": "830 mm",
       "fuel_capacity": "16.5 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "s 1000 r",
+        "s1000r"
+      ]
     },
     {
       "id": "bmw-s-1000-rr-2008-2016-global",
@@ -1263,7 +1445,15 @@
       "seat_height": "820 mm",
       "fuel_capacity": "17.5 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "double r",
+        "s 1000 r",
+        "s 1000 rr",
+        "s1000r",
+        "s1000rr"
+      ]
     },
     {
       "id": "bmw-s-1000-rr-2017-2018-global",
@@ -1289,7 +1479,15 @@
       "seat_height": "815 mm",
       "fuel_capacity": "17.5 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "double r",
+        "s 1000 r",
+        "s 1000 rr",
+        "s1000r",
+        "s1000rr"
+      ]
     },
     {
       "id": "bmw-s-1000-rr-2019-present-global",
@@ -1315,7 +1513,15 @@
       "seat_height": "824 mm",
       "fuel_capacity": "16.5 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad",
+        "double r",
+        "s 1000 r",
+        "s 1000 rr",
+        "s1000r",
+        "s1000rr"
+      ]
     },
     {
       "id": "bmw-s-1000-xr-2020-present-global",
@@ -1341,7 +1547,10 @@
       "seat_height": "840 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "bmw motorrad"
+      ]
     },
     {
       "id": "bsa-gold-star-650-2021-present-global",
@@ -1367,7 +1576,8 @@
       "seat_height": "780 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "cfmoto-250sr-2020-present-global",
@@ -1393,7 +1603,12 @@
       "seat_height": "780 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "250 sr",
+        "250sr",
+        "cf moto"
+      ]
     },
     {
       "id": "cfmoto-300sr-2020-present-global",
@@ -1419,7 +1634,10 @@
       "seat_height": "780 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "cf moto"
+      ]
     },
     {
       "id": "cfmoto-450mt-2024-present-global",
@@ -1445,7 +1663,12 @@
       "seat_height": "820 mm",
       "fuel_capacity": "17.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "450 mt",
+        "450mt",
+        "cf moto"
+      ]
     },
     {
       "id": "cfmoto-450sr-2022-present-global",
@@ -1471,7 +1694,12 @@
       "seat_height": "795 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "450 sr",
+        "450sr",
+        "cf moto"
+      ]
     },
     {
       "id": "cfmoto-650nk-2015-present-global",
@@ -1497,7 +1725,12 @@
       "seat_height": "780 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "2.5 L (2.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "650 nk",
+        "650nk",
+        "cf moto"
+      ]
     },
     {
       "id": "cfmoto-675sr-r-2024-present-global",
@@ -1523,7 +1756,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "675 sr",
+        "675sr",
+        "cf moto"
+      ]
     },
     {
       "id": "cfmoto-700cl-x-2021-present-global",
@@ -1549,7 +1787,12 @@
       "seat_height": "800 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "2.5 L (2.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "700 cl x",
+        "700clx",
+        "cf moto"
+      ]
     },
     {
       "id": "cfmoto-800mt-2021-present-global",
@@ -1575,7 +1818,12 @@
       "seat_height": "825 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "800 mt",
+        "800mt",
+        "cf moto"
+      ]
     },
     {
       "id": "cfmoto-800nk-2023-present-global",
@@ -1601,7 +1849,12 @@
       "seat_height": "795 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "800 nk",
+        "800nk",
+        "cf moto"
+      ]
     },
     {
       "id": "ducati-1199-panigale-2012-2014-global",
@@ -1627,7 +1880,10 @@
       "seat_height": "825 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-749-2003-2007",
@@ -1653,7 +1909,8 @@
       "seat_height": "780 mm",
       "fuel_capacity": "15.5 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": []
     },
     {
       "id": "ducati-848-2008-2013",
@@ -1679,7 +1936,8 @@
       "seat_height": "830 mm",
       "fuel_capacity": "15.5 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": []
     },
     {
       "id": "ducati-899-panigale-2013-2016",
@@ -1705,7 +1963,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-959-panigale-2016-2019",
@@ -1731,7 +1992,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-desertx-2022-present-global",
@@ -1757,7 +2021,11 @@
       "seat_height": "875 mm",
       "fuel_capacity": "21 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "desert x",
+        "desertx"
+      ]
     },
     {
       "id": "ducati-diavel-v4-2023-present-global",
@@ -1783,7 +2051,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "diavel"
+      ]
     },
     {
       "id": "ducati-hypermotard-698-mono-2024-present-global",
@@ -1809,7 +2080,11 @@
       "seat_height": "880 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "hyper",
+        "hypermotard"
+      ]
     },
     {
       "id": "ducati-hypermotard-821-2013-2016",
@@ -1835,7 +2110,11 @@
       "seat_height": "850 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "hyper",
+        "hypermotard"
+      ]
     },
     {
       "id": "ducati-hypermotard-950-2019-present-global",
@@ -1861,7 +2140,11 @@
       "seat_height": "870 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "hyper",
+        "hypermotard"
+      ]
     },
     {
       "id": "ducati-monster-1200-2014-2020-global",
@@ -1887,7 +2170,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "monster",
+        "r 12",
+        "r12"
+      ]
     },
     {
       "id": "ducati-monster-821-2014-2020-global",
@@ -1913,7 +2201,10 @@
       "seat_height": "810 mm",
       "fuel_capacity": "16.5 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "monster"
+      ]
     },
     {
       "id": "ducati-monster-937-2021-present-global",
@@ -1939,7 +2230,10 @@
       "seat_height": "820 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "monster"
+      ]
     },
     {
       "id": "ducati-multistrada-v2-2022-present-global",
@@ -1965,7 +2259,11 @@
       "seat_height": "830/850 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "multi",
+        "multistrada"
+      ]
     },
     {
       "id": "ducati-multistrada-v4-2021-present-global",
@@ -1991,7 +2289,11 @@
       "seat_height": "840/860 mm",
       "fuel_capacity": "22 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "multi",
+        "multistrada"
+      ]
     },
     {
       "id": "ducati-panigale-v2-2020-2024",
@@ -2017,7 +2319,10 @@
       "seat_height": "840 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-panigale-v2-2025-present",
@@ -2043,7 +2348,10 @@
       "seat_height": "838 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-panigale-v4-2018-2019",
@@ -2069,7 +2377,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-panigale-v4-2020-2022",
@@ -2095,7 +2406,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-panigale-v4-2022-2023",
@@ -2121,7 +2435,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-panigale-v4-2024-2024",
@@ -2147,7 +2464,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-panigale-v4-2025-present",
@@ -2173,7 +2493,10 @@
       "seat_height": "850 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-panigale-v4-r-2019-present-global",
@@ -2199,7 +2522,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "panigale"
+      ]
     },
     {
       "id": "ducati-scrambler-desert-sled-2017-present-global",
@@ -2225,7 +2551,11 @@
       "seat_height": "860 mm",
       "fuel_capacity": "13.5 L",
       "oil_capacity": "3.6 L (3.8 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "scram",
+        "scrambler"
+      ]
     },
     {
       "id": "ducati-scrambler-full-throttle-2019-present-global",
@@ -2251,7 +2581,11 @@
       "seat_height": "795 mm",
       "fuel_capacity": "13.5 L",
       "oil_capacity": "3.6 L (3.8 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "scram",
+        "scrambler"
+      ]
     },
     {
       "id": "ducati-scrambler-icon-2015-present-global",
@@ -2277,7 +2611,11 @@
       "seat_height": "798 mm",
       "fuel_capacity": "13.5 L",
       "oil_capacity": "3.6 L (3.8 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "scram",
+        "scrambler"
+      ]
     },
     {
       "id": "ducati-streetfighter-v2-2022-present-global",
@@ -2303,7 +2641,11 @@
       "seat_height": "845 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "sf",
+        "streetfighter"
+      ]
     },
     {
       "id": "ducati-streetfighter-v4-2020-present-global",
@@ -2329,7 +2671,11 @@
       "seat_height": "845 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "sf",
+        "streetfighter"
+      ]
     },
     {
       "id": "ducati-supersport-950-2021-present-global",
@@ -2355,7 +2701,10 @@
       "seat_height": "810 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "supersport"
+      ]
     },
     {
       "id": "ducati-xdiavel-2016-present-global",
@@ -2381,7 +2730,12 @@
       "seat_height": "755 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "diavel",
+        "x diavel",
+        "xdiavel"
+      ]
     },
     {
       "id": "energica-experia-2022-present-global",
@@ -2406,7 +2760,10 @@
       "seat_height": "810 mm",
       "fuel_capacity": "22.5 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "experia"
+      ]
     },
     {
       "id": "harley-davidson-breakout-2013-present-global",
@@ -2432,7 +2789,12 @@
       "seat_height": "675 mm",
       "fuel_capacity": "18.9 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "breakout",
+        "harley",
+        "hd"
+      ]
     },
     {
       "id": "harley-davidson-fat-boy-2013-present-global",
@@ -2458,7 +2820,13 @@
       "seat_height": "675 mm",
       "fuel_capacity": "18.9 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "fat boy",
+        "fatboy",
+        "harley",
+        "hd"
+      ]
     },
     {
       "id": "harley-davidson-forty-eight-2010-present-global",
@@ -2484,7 +2852,13 @@
       "seat_height": "710 mm",
       "fuel_capacity": "7.9 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "48",
+        "forty eight",
+        "harley",
+        "hd"
+      ]
     },
     {
       "id": "harley-davidson-heritage-classic-2018-present-global",
@@ -2510,7 +2884,13 @@
       "seat_height": "680 mm",
       "fuel_capacity": "18.9 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "classic",
+        "harley",
+        "hd",
+        "heritage"
+      ]
     },
     {
       "id": "harley-davidson-iron-883-2009-2022-global",
@@ -2536,7 +2916,12 @@
       "seat_height": "760 mm",
       "fuel_capacity": "12.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "iron"
+      ]
     },
     {
       "id": "harley-davidson-low-rider-s-2020-present-global",
@@ -2562,7 +2947,12 @@
       "seat_height": "720 mm",
       "fuel_capacity": "18.9 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "low rider"
+      ]
     },
     {
       "id": "harley-davidson-nightster-2022-present-global",
@@ -2588,7 +2978,12 @@
       "seat_height": "705 mm",
       "fuel_capacity": "11.7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "nightster"
+      ]
     },
     {
       "id": "harley-davidson-pan-america-1250-2021-present-global",
@@ -2614,7 +3009,12 @@
       "seat_height": "850 mm",
       "fuel_capacity": "21.2 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "pan america"
+      ]
     },
     {
       "id": "harley-davidson-road-glide-2017-present-global",
@@ -2640,7 +3040,12 @@
       "seat_height": "715 mm",
       "fuel_capacity": "22.7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "road glide"
+      ]
     },
     {
       "id": "harley-davidson-road-glide-2024-present-global",
@@ -2666,7 +3071,12 @@
       "seat_height": "715 mm",
       "fuel_capacity": "22.7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "road glide"
+      ]
     },
     {
       "id": "harley-davidson-road-king-2017-present-global",
@@ -2692,7 +3102,12 @@
       "seat_height": "715 mm",
       "fuel_capacity": "22.7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "road king"
+      ]
     },
     {
       "id": "harley-davidson-sportster-s-2021-present-global",
@@ -2718,7 +3133,12 @@
       "seat_height": "755 mm",
       "fuel_capacity": "11.8 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "sportster"
+      ]
     },
     {
       "id": "harley-davidson-street-2013-2021-global",
@@ -2744,7 +3164,11 @@
       "seat_height": "720 mm",
       "fuel_capacity": "13.2 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd"
+      ]
     },
     {
       "id": "harley-davidson-street-bob-2013-2016-global",
@@ -2770,7 +3194,12 @@
       "seat_height": "680 mm",
       "fuel_capacity": "17.3 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "street bob"
+      ]
     },
     {
       "id": "harley-davidson-street-glide-2017-present-global",
@@ -2796,7 +3225,12 @@
       "seat_height": "715 mm",
       "fuel_capacity": "22.7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "street glide"
+      ]
     },
     {
       "id": "harley-davidson-street-glide-2024-present-global",
@@ -2822,7 +3256,12 @@
       "seat_height": "715 mm",
       "fuel_capacity": "22.7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd",
+        "street glide"
+      ]
     },
     {
       "id": "harley-davidson-street-rod-2017-2021-global",
@@ -2848,7 +3287,11 @@
       "seat_height": "765 mm",
       "fuel_capacity": "13.2 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd"
+      ]
     },
     {
       "id": "harley-davidson-x440-t-2025-present-global",
@@ -2874,7 +3317,11 @@
       "seat_height": "805 mm",
       "fuel_capacity": "13.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "harley",
+        "hd"
+      ]
     },
     {
       "id": "hero-destini-125-2020-present-india",
@@ -2900,7 +3347,10 @@
       "seat_height": "780 mm",
       "fuel_capacity": "5 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "destini"
+      ]
     },
     {
       "id": "hero-glamour-2020-present-india",
@@ -2926,7 +3376,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "10 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "glamour"
+      ]
     },
     {
       "id": "hero-karizma-xmr-210-2023-present-india",
@@ -2952,7 +3405,10 @@
       "seat_height": "810 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "karizma"
+      ]
     },
     {
       "id": "hero-passion-pro-2020-present-india",
@@ -2978,7 +3434,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "10 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "passion"
+      ]
     },
     {
       "id": "hero-splendor-plus-2010-present-india",
@@ -3004,7 +3463,10 @@
       "seat_height": "785 mm",
       "fuel_capacity": "9.8 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "splendor"
+      ]
     },
     {
       "id": "hero-xoom-125-2023-present-india",
@@ -3030,7 +3492,10 @@
       "seat_height": "780 mm",
       "fuel_capacity": "5.2 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "xoom"
+      ]
     },
     {
       "id": "hero-xpulse-200-2v-2019-2021-global",
@@ -3056,7 +3521,10 @@
       "seat_height": "823 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "xpulse"
+      ]
     },
     {
       "id": "hero-xpulse-200-4v-2022-present-global",
@@ -3082,7 +3550,10 @@
       "seat_height": "823 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "xpulse"
+      ]
     },
     {
       "id": "hero-xpulse-210-2025-present-global",
@@ -3108,7 +3579,10 @@
       "seat_height": "835 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "xpulse"
+      ]
     },
     {
       "id": "hero-xtreme-125r-2024-present-india",
@@ -3134,7 +3608,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "xtreme"
+      ]
     },
     {
       "id": "hero-xtreme-160r-4v-2023-present-india",
@@ -3160,7 +3637,10 @@
       "seat_height": "795 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "xtreme"
+      ]
     },
     {
       "id": "hero-xtreme-250r-2025-present-india",
@@ -3186,7 +3666,10 @@
       "seat_height": "815 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "xtreme"
+      ]
     },
     {
       "id": "honda-activa-6g-2020-present-india",
@@ -3212,7 +3695,10 @@
       "seat_height": "765 mm",
       "fuel_capacity": "5.3 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "activa"
+      ]
     },
     {
       "id": "honda-adv-160-2022-present-global",
@@ -3238,7 +3724,10 @@
       "seat_height": "795 mm",
       "fuel_capacity": "8.1 L",
       "oil_capacity": "0.9 L (0.95 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "adv"
+      ]
     },
     {
       "id": "honda-adv-350-2022-present-global",
@@ -3264,7 +3753,10 @@
       "seat_height": "795 mm",
       "fuel_capacity": "11.7 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "adv"
+      ]
     },
     {
       "id": "honda-africa-twin-crf1100l-2020-present-global",
@@ -3290,7 +3782,12 @@
       "seat_height": "850/870 mm",
       "fuel_capacity": "18.8 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "africa twin",
+        "crf 1100",
+        "crf1100"
+      ]
     },
     {
       "id": "honda-cb1000r-2018-present-global",
@@ -3316,7 +3813,11 @@
       "seat_height": "830 mm",
       "fuel_capacity": "16.2 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "cb 1000",
+        "cb1000"
+      ]
     },
     {
       "id": "honda-cb125f-2021-present-global",
@@ -3342,7 +3843,11 @@
       "seat_height": "775 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "cb 125",
+        "cb125"
+      ]
     },
     {
       "id": "honda-cb125r-2018-present-global",
@@ -3368,7 +3873,11 @@
       "seat_height": "816 mm",
       "fuel_capacity": "10.1 L",
       "oil_capacity": "1.2 L (1.3 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "cb 125",
+        "cb125"
+      ]
     },
     {
       "id": "honda-cb300r-2018-present-global",
@@ -3394,7 +3903,11 @@
       "seat_height": "799 mm",
       "fuel_capacity": "10.1 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "cb 300",
+        "cb300"
+      ]
     },
     {
       "id": "honda-cb350-2021-present-india",
@@ -3420,7 +3933,12 @@
       "seat_height": "800 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "cb 350",
+        "cb350",
+        "highness"
+      ]
     },
     {
       "id": "honda-cb350rs-2021-present-india",
@@ -3446,7 +3964,12 @@
       "seat_height": "800 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "cb 350",
+        "cb350",
+        "highness"
+      ]
     },
     {
       "id": "honda-cb500f-2022-present-global",
@@ -3472,7 +3995,11 @@
       "seat_height": "785 mm",
       "fuel_capacity": "17.1 L",
       "oil_capacity": "3.2 L (3.4 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "cb 500",
+        "cb500"
+      ]
     },
     {
       "id": "honda-cb650f-2013-2016",
@@ -3498,7 +4025,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "17.3 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "650r",
+        "cb 650",
+        "cb650"
+      ]
     },
     {
       "id": "honda-cb650f-2017-2018",
@@ -3524,7 +4056,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "17.3 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "650r",
+        "cb 650",
+        "cb650"
+      ]
     },
     {
       "id": "honda-cb650r-2019-present-global",
@@ -3550,7 +4087,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "15.4 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "650r",
+        "cb 650",
+        "cb650"
+      ]
     },
     {
       "id": "honda-cb750-hornet-2023-present-global",
@@ -3576,7 +4118,12 @@
       "seat_height": "795 mm",
       "fuel_capacity": "15.2 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "cb 750",
+        "cb750",
+        "hornet"
+      ]
     },
     {
       "id": "honda-cbr1000rr-2004-2005",
@@ -3602,7 +4149,14 @@
       "seat_height": "820 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "1000rr",
+        "blade",
+        "cbr 1000",
+        "cbr1000",
+        "fireblade"
+      ]
     },
     {
       "id": "honda-cbr1000rr-2006-2007",
@@ -3628,7 +4182,14 @@
       "seat_height": "820 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "1000rr",
+        "blade",
+        "cbr 1000",
+        "cbr1000",
+        "fireblade"
+      ]
     },
     {
       "id": "honda-cbr1000rr-2008-2011",
@@ -3654,7 +4215,14 @@
       "seat_height": "820 mm",
       "fuel_capacity": "17.7 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "1000rr",
+        "blade",
+        "cbr 1000",
+        "cbr1000",
+        "fireblade"
+      ]
     },
     {
       "id": "honda-cbr1000rr-2012-2016",
@@ -3680,7 +4248,14 @@
       "seat_height": "820 mm",
       "fuel_capacity": "17.7 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "1000rr",
+        "blade",
+        "cbr 1000",
+        "cbr1000",
+        "fireblade"
+      ]
     },
     {
       "id": "honda-cbr1000rr-2017-2019",
@@ -3706,7 +4281,14 @@
       "seat_height": "820 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "1000rr",
+        "blade",
+        "cbr 1000",
+        "cbr1000",
+        "fireblade"
+      ]
     },
     {
       "id": "honda-cbr1000rr-2020-present",
@@ -3732,7 +4314,14 @@
       "seat_height": "820 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "1000rr",
+        "blade",
+        "cbr 1000",
+        "cbr1000",
+        "fireblade"
+      ]
     },
     {
       "id": "honda-cbr1000rr-r-2020-2023",
@@ -3758,7 +4347,14 @@
       "seat_height": "830 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "1000rr",
+        "blade",
+        "cbr 1000",
+        "cbr1000",
+        "fireblade"
+      ]
     },
     {
       "id": "honda-cbr1000rr-r-2024-present",
@@ -3784,7 +4380,14 @@
       "seat_height": "830 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "1000rr",
+        "blade",
+        "cbr 1000",
+        "cbr1000",
+        "fireblade"
+      ]
     },
     {
       "id": "honda-cbr500r-2022-present-global",
@@ -3810,7 +4413,11 @@
       "seat_height": "785 mm",
       "fuel_capacity": "17.1 L",
       "oil_capacity": "3.2 L (3.4 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "cbr 500",
+        "cbr500"
+      ]
     },
     {
       "id": "honda-cbr600rr-2013",
@@ -3836,7 +4443,15 @@
       "seat_height": "820 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "3.2 L (3.4 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "600rr",
+        "cbr 600",
+        "cbr 600 rr",
+        "cbr600",
+        "cbr600rr",
+        "fireblade"
+      ]
     },
     {
       "id": "honda-cbr650f-2013-2016-global",
@@ -3862,7 +4477,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "17.3 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "650r",
+        "cbr 650",
+        "cbr650"
+      ]
     },
     {
       "id": "honda-cbr650f-2017-2018-global",
@@ -3888,7 +4508,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "17.3 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "650r",
+        "cbr 650",
+        "cbr650"
+      ]
     },
     {
       "id": "honda-cbr650r-2019-2020",
@@ -3914,7 +4539,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "15.4 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "650r",
+        "cbr 650",
+        "cbr650"
+      ]
     },
     {
       "id": "honda-cbr650r-2021-2023-global",
@@ -3940,7 +4570,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "15.4 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "650r",
+        "cbr 650",
+        "cbr650"
+      ]
     },
     {
       "id": "honda-cbr650r-2024-present-global",
@@ -3966,7 +4601,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "15.4 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "650r",
+        "cbr 650",
+        "cbr650"
+      ]
     },
     {
       "id": "honda-crf300-rally-2021-present-global",
@@ -3992,7 +4632,12 @@
       "seat_height": "885 mm",
       "fuel_capacity": "12.8 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "300 rally",
+        "crf 300",
+        "crf300"
+      ]
     },
     {
       "id": "honda-crf300l-2021-present-global",
@@ -4018,7 +4663,11 @@
       "seat_height": "880 mm",
       "fuel_capacity": "7.8 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "crf 300",
+        "crf300"
+      ]
     },
     {
       "id": "honda-crf450r-2021-present-global",
@@ -4044,7 +4693,11 @@
       "seat_height": "960 mm",
       "fuel_capacity": "6.3 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "crf 450",
+        "crf450"
+      ]
     },
     {
       "id": "honda-dax-125-2022-present-global",
@@ -4070,7 +4723,10 @@
       "seat_height": "775 mm",
       "fuel_capacity": "3.8 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "dax"
+      ]
     },
     {
       "id": "honda-forza-350-2021-present-global",
@@ -4096,7 +4752,8 @@
       "seat_height": "780 mm",
       "fuel_capacity": "11.7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "honda-forza-750-2021-present-global",
@@ -4122,7 +4779,8 @@
       "seat_height": "790 mm",
       "fuel_capacity": "13.2 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": []
     },
     {
       "id": "honda-gold-wing-2018-present-global",
@@ -4147,7 +4805,11 @@
       "seat_height": "745 mm",
       "fuel_capacity": "21 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "gold wing",
+        "goldwing"
+      ]
     },
     {
       "id": "honda-grom-2021-present-global",
@@ -4173,7 +4835,11 @@
       "seat_height": "761 mm",
       "fuel_capacity": "6 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "grom",
+        "msx"
+      ]
     },
     {
       "id": "honda-monkey-125-2018-present-global",
@@ -4199,7 +4865,10 @@
       "seat_height": "776 mm",
       "fuel_capacity": "5.6 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "monkey"
+      ]
     },
     {
       "id": "honda-nc750x-2021-present-global",
@@ -4225,7 +4894,11 @@
       "seat_height": "800 mm",
       "fuel_capacity": "14.1 L",
       "oil_capacity": "3.6 L (3.8 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "nc 750",
+        "nc750"
+      ]
     },
     {
       "id": "honda-nx500-2023-present-global",
@@ -4251,7 +4924,12 @@
       "seat_height": "830 mm",
       "fuel_capacity": "17.5 L",
       "oil_capacity": "3.2 L (3.4 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "cb500x",
+        "nx 500",
+        "nx500"
+      ]
     },
     {
       "id": "honda-pcx125-2021-present-global",
@@ -4277,7 +4955,8 @@
       "seat_height": "764 mm",
       "fuel_capacity": "8.1 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": []
     },
     {
       "id": "honda-rebel-1100-2021-present-global",
@@ -4303,7 +4982,10 @@
       "seat_height": "700 mm",
       "fuel_capacity": "13.6 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "rebel"
+      ]
     },
     {
       "id": "honda-rebel-300-2017-present-global",
@@ -4329,7 +5011,10 @@
       "seat_height": "690 mm",
       "fuel_capacity": "11.2 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "rebel"
+      ]
     },
     {
       "id": "honda-rebel-500-2017-present-global",
@@ -4355,7 +5040,10 @@
       "seat_height": "690 mm",
       "fuel_capacity": "11.2 L",
       "oil_capacity": "3.2 L (3.4 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "rebel"
+      ]
     },
     {
       "id": "honda-shine-125-2018-present-india",
@@ -4381,7 +5069,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "10.5 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "shine"
+      ]
     },
     {
       "id": "honda-sp-125-2020-present-india",
@@ -4407,7 +5098,11 @@
       "seat_height": "790 mm",
       "fuel_capacity": "10.5 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "sp 125",
+        "sp125"
+      ]
     },
     {
       "id": "honda-super-cub-c125-2018-present-global",
@@ -4433,7 +5128,11 @@
       "seat_height": "780 mm",
       "fuel_capacity": "3.7 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "cub",
+        "super cub"
+      ]
     },
     {
       "id": "honda-trail-125-2020-present-global",
@@ -4459,7 +5158,12 @@
       "seat_height": "800 mm",
       "fuel_capacity": "5.3 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "ct125",
+        "hunter cub",
+        "trail 125"
+      ]
     },
     {
       "id": "honda-x-adv-750-2017-present-global",
@@ -4485,7 +5189,12 @@
       "seat_height": "820 mm",
       "fuel_capacity": "13.2 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA"
+      "oil_type": "SAE 10W-30, JASO MA",
+      "aliases": [
+        "adv",
+        "x adv",
+        "xadv"
+      ]
     },
     {
       "id": "husqvarna-701-supermoto-2016-present-global",
@@ -4511,7 +5220,8 @@
       "seat_height": "890 mm",
       "fuel_capacity": "13.5 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": []
     },
     {
       "id": "husqvarna-fe-350-2017-present-global",
@@ -4537,7 +5247,8 @@
       "seat_height": "950 mm",
       "fuel_capacity": "8.5 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": []
     },
     {
       "id": "husqvarna-fe-450-2024-present-global",
@@ -4563,7 +5274,8 @@
       "seat_height": "950 mm",
       "fuel_capacity": "8.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "husqvarna-norden-901-2022-present-global",
@@ -4589,7 +5301,8 @@
       "seat_height": "854 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "husqvarna-svartpilen-250-2020-present-global",
@@ -4615,7 +5328,8 @@
       "seat_height": "835 mm",
       "fuel_capacity": "9.5 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": []
     },
     {
       "id": "husqvarna-svartpilen-401-2020-present-global",
@@ -4641,7 +5355,8 @@
       "seat_height": "835 mm",
       "fuel_capacity": "9.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "husqvarna-svartpilen-801-2024-present-global",
@@ -4667,7 +5382,8 @@
       "seat_height": "820 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": []
     },
     {
       "id": "husqvarna-vitpilen-401-2020-present-global",
@@ -4693,7 +5409,8 @@
       "seat_height": "835 mm",
       "fuel_capacity": "9.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "indian-challenger-2020-present-global",
@@ -4719,7 +5436,11 @@
       "seat_height": "690 mm",
       "fuel_capacity": "22.7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "challenger",
+        "indian motorcycle"
+      ]
     },
     {
       "id": "indian-chief-2022-present-global",
@@ -4745,7 +5466,11 @@
       "seat_height": "665 mm",
       "fuel_capacity": "15.1 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "chief",
+        "indian motorcycle"
+      ]
     },
     {
       "id": "indian-chieftain-2014-present-global",
@@ -4771,7 +5496,12 @@
       "seat_height": "660 mm",
       "fuel_capacity": "20.8 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "chief",
+        "chieftain",
+        "indian motorcycle"
+      ]
     },
     {
       "id": "indian-ftr-1200-2019-present-global",
@@ -4797,7 +5527,13 @@
       "seat_height": "815 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "ftr",
+        "indian motorcycle",
+        "r 12",
+        "r12"
+      ]
     },
     {
       "id": "indian-pursuit-2022-present-global",
@@ -4823,7 +5559,11 @@
       "seat_height": "700 mm",
       "fuel_capacity": "22.7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "indian motorcycle",
+        "pursuit"
+      ]
     },
     {
       "id": "indian-scout-2015-present-global",
@@ -4849,7 +5589,11 @@
       "seat_height": "649 mm",
       "fuel_capacity": "12.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "indian motorcycle",
+        "scout"
+      ]
     },
     {
       "id": "indian-scout-bobber-2018-present-global",
@@ -4875,7 +5619,12 @@
       "seat_height": "649 mm",
       "fuel_capacity": "12.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "bobber",
+        "indian motorcycle",
+        "scout"
+      ]
     },
     {
       "id": "indian-scout-sixty-2016-present-global",
@@ -4901,7 +5650,11 @@
       "seat_height": "649 mm",
       "fuel_capacity": "12.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "indian motorcycle",
+        "scout"
+      ]
     },
     {
       "id": "jawa-42-2019-present-india",
@@ -4927,7 +5680,8 @@
       "seat_height": "790 mm",
       "fuel_capacity": "13.2 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "kawasaki-eliminator-500-2023-present-global",
@@ -4953,7 +5707,11 @@
       "seat_height": "735 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "eliminator",
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-klr650-2022-present-global",
@@ -4979,7 +5737,11 @@
       "seat_height": "870 mm",
       "fuel_capacity": "23 L",
       "oil_capacity": "2.3 L (2.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "klr"
+      ]
     },
     {
       "id": "kawasaki-klx-230-2024-present",
@@ -5005,7 +5767,11 @@
       "seat_height": "880 mm",
       "fuel_capacity": "7.5 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "klx"
+      ]
     },
     {
       "id": "kawasaki-klx-230-2026-present-india",
@@ -5031,7 +5797,11 @@
       "seat_height": "880 mm",
       "fuel_capacity": "7.5 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "klx"
+      ]
     },
     {
       "id": "kawasaki-klx300-2021-present-global",
@@ -5057,7 +5827,11 @@
       "seat_height": "900 mm",
       "fuel_capacity": "7.8 L",
       "oil_capacity": "1.3 L (1.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "klx"
+      ]
     },
     {
       "id": "kawasaki-kx450-2024-present-global",
@@ -5083,7 +5857,11 @@
       "seat_height": "960 mm",
       "fuel_capacity": "6.2 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "kawi",
+        "kx"
+      ]
     },
     {
       "id": "kawasaki-ninja-1000sx-2020-present-global",
@@ -5109,7 +5887,10 @@
       "seat_height": "820 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-ninja-1100sx-2025-present-global",
@@ -5135,7 +5916,10 @@
       "seat_height": "820 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-ninja-125-2019-present-global",
@@ -5161,7 +5945,10 @@
       "seat_height": "785 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "1.1 L (1.16 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-ninja-250-2018-present-global",
@@ -5187,7 +5974,10 @@
       "seat_height": "795 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-ninja-300-2013-present",
@@ -5213,7 +6003,10 @@
       "seat_height": "785 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "2.3 L (2.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-ninja-400-2018-present",
@@ -5239,7 +6032,10 @@
       "seat_height": "785 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-ninja-500-2024-present",
@@ -5265,7 +6061,10 @@
       "seat_height": "785 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-ninja-650-2017-2020",
@@ -5291,7 +6090,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-ninja-650-2021-present",
@@ -5317,7 +6119,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-ninja-h2-2015-present-global",
@@ -5343,7 +6148,12 @@
       "seat_height": "825 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "h2",
+        "kawi",
+        "ninja h2"
+      ]
     },
     {
       "id": "kawasaki-ninja-h2-sx-2018-present-global",
@@ -5369,7 +6179,12 @@
       "seat_height": "835 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "h2",
+        "kawi",
+        "ninja h2"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-10r-2016-2020-global",
@@ -5395,7 +6210,14 @@
       "seat_height": "835 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "zx 10",
+        "zx 10 r",
+        "zx10",
+        "zx10r"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-10r",
@@ -5421,7 +6243,14 @@
       "seat_height": "835 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "zx 10",
+        "zx 10 r",
+        "zx10",
+        "zx10r"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-10r-2026-present-global",
@@ -5447,7 +6276,14 @@
       "seat_height": "835 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "zx 10",
+        "zx 10 r",
+        "zx10",
+        "zx10r"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-14r-2012-present-global",
@@ -5473,7 +6309,13 @@
       "seat_height": "800 mm",
       "fuel_capacity": "22 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "kawi",
+        "zx 14",
+        "zx14",
+        "zx14r"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-25r-2020-present-global",
@@ -5499,7 +6341,13 @@
       "seat_height": "785 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "zx 25",
+        "zx25",
+        "zx25r"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-4r-2023-present-global",
@@ -5525,7 +6373,13 @@
       "seat_height": "800 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "kawi",
+        "zx 4",
+        "zx4",
+        "zx4r"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-4rr-2023-present-global",
@@ -5551,7 +6405,13 @@
       "seat_height": "800 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "2.8 L (3.0 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "zx 4",
+        "zx4",
+        "zx4r"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-6r-2009-2012",
@@ -5577,7 +6437,14 @@
       "seat_height": "815 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.3 L (3.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "zx 6",
+        "zx 6 r",
+        "zx6",
+        "zx6r"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-6r-2013-2018",
@@ -5603,7 +6470,14 @@
       "seat_height": "830 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.3 L (3.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "zx 6",
+        "zx 6 r",
+        "zx6",
+        "zx6r"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-6r-2019-2023",
@@ -5629,7 +6503,14 @@
       "seat_height": "830 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.3 L (3.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "zx 6",
+        "zx 6 r",
+        "zx6",
+        "zx6r"
+      ]
     },
     {
       "id": "kawasaki-ninja-zx-6r",
@@ -5655,7 +6536,14 @@
       "seat_height": "830 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.3 L (3.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "zx 6",
+        "zx 6 r",
+        "zx6",
+        "zx6r"
+      ]
     },
     {
       "id": "kawasaki-versys-1000-2012-2015-global",
@@ -5681,7 +6569,11 @@
       "seat_height": "845 mm",
       "fuel_capacity": "21 L",
       "oil_capacity": "4.2 L (4.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "versys"
+      ]
     },
     {
       "id": "kawasaki-versys-1000-2015-2018-global",
@@ -5707,7 +6599,11 @@
       "seat_height": "840 mm",
       "fuel_capacity": "21 L",
       "oil_capacity": "4.2 L (4.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "versys"
+      ]
     },
     {
       "id": "kawasaki-versys-1000-2019-2021-global",
@@ -5733,7 +6629,11 @@
       "seat_height": "840 mm",
       "fuel_capacity": "21 L",
       "oil_capacity": "4.2 L (4.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "versys"
+      ]
     },
     {
       "id": "kawasaki-versys-1100-2025-present-global",
@@ -5759,7 +6659,11 @@
       "seat_height": "840 mm",
       "fuel_capacity": "21 L",
       "oil_capacity": "4.2 L (4.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "versys"
+      ]
     },
     {
       "id": "kawasaki-versys-650-2006-2009-global",
@@ -5785,7 +6689,11 @@
       "seat_height": "840 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "versys"
+      ]
     },
     {
       "id": "kawasaki-versys-650-2010-2014-global",
@@ -5811,7 +6719,11 @@
       "seat_height": "845 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "versys"
+      ]
     },
     {
       "id": "kawasaki-versys-650-2015-2021-global",
@@ -5837,7 +6749,11 @@
       "seat_height": "845 mm",
       "fuel_capacity": "21 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "versys"
+      ]
     },
     {
       "id": "kawasaki-versys-650-2022-present-global",
@@ -5863,7 +6779,11 @@
       "seat_height": "845 mm",
       "fuel_capacity": "21 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "versys"
+      ]
     },
     {
       "id": "kawasaki-versys-x-300-2017-present-global",
@@ -5889,7 +6809,11 @@
       "seat_height": "845 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "kawi",
+        "versys"
+      ]
     },
     {
       "id": "kawasaki-vulcan-900-2007-present-global",
@@ -5915,7 +6839,11 @@
       "seat_height": "680 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "vulcan"
+      ]
     },
     {
       "id": "kawasaki-vulcan-s-2015-present-global",
@@ -5941,7 +6869,11 @@
       "seat_height": "705 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "vulcan"
+      ]
     },
     {
       "id": "kawasaki-w800-2019-present-global",
@@ -5967,7 +6899,12 @@
       "seat_height": "790 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "w 800",
+        "w800"
+      ]
     },
     {
       "id": "kawasaki-z-h2-2020-present-global",
@@ -5993,7 +6930,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "kawi"
+      ]
     },
     {
       "id": "kawasaki-z1000-2014-2016-global",
@@ -6019,7 +6959,12 @@
       "seat_height": "815 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 1000",
+        "z1000"
+      ]
     },
     {
       "id": "kawasaki-z1100",
@@ -6045,7 +6990,12 @@
       "seat_height": "815 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 1100",
+        "z1100"
+      ]
     },
     {
       "id": "kawasaki-z125-2019-present-global",
@@ -6071,7 +7021,12 @@
       "seat_height": "815 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "1.1 L (1.16 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 125",
+        "z125"
+      ]
     },
     {
       "id": "kawasaki-z400-2019-present-global",
@@ -6097,7 +7052,12 @@
       "seat_height": "785 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 400",
+        "z400"
+      ]
     },
     {
       "id": "kawasaki-z500-2024-present-global",
@@ -6123,7 +7083,12 @@
       "seat_height": "785 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 500",
+        "z500"
+      ]
     },
     {
       "id": "kawasaki-z650-2017-present-global",
@@ -6149,7 +7114,12 @@
       "seat_height": "790 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 650",
+        "z650"
+      ]
     },
     {
       "id": "kawasaki-z650rs-2022-present-global",
@@ -6175,7 +7145,12 @@
       "seat_height": "800 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 650",
+        "z650"
+      ]
     },
     {
       "id": "kawasaki-z800",
@@ -6201,7 +7176,12 @@
       "seat_height": "834 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 800",
+        "z800"
+      ]
     },
     {
       "id": "kawasaki-z900",
@@ -6227,7 +7207,12 @@
       "seat_height": "795 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.6 L (3.8 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 900",
+        "z900"
+      ]
     },
     {
       "id": "kawasaki-z900rs-2018-present-global",
@@ -6253,7 +7238,12 @@
       "seat_height": "800 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.6 L (3.8 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "kawi",
+        "z 900",
+        "z900"
+      ]
     },
     {
       "id": "kove-450-rally-2023-present-global",
@@ -6279,7 +7269,10 @@
       "seat_height": "920 mm",
       "fuel_capacity": "30 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "450 rally"
+      ]
     },
     {
       "id": "ktm-125-duke-2011-present-global",
@@ -6305,7 +7298,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "13.4 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke"
+      ]
     },
     {
       "id": "ktm-1290-super-adventure-s-2021-present-global",
@@ -6331,7 +7327,11 @@
       "seat_height": "849 mm",
       "fuel_capacity": "23 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "adv",
+        "adventure"
+      ]
     },
     {
       "id": "ktm-1290-super-duke-gt-2016-present-global",
@@ -6357,7 +7357,11 @@
       "seat_height": "835 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "3.6 L (3.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke",
+        "super duke"
+      ]
     },
     {
       "id": "ktm-1390-super-duke-r-2024-present-global",
@@ -6383,7 +7387,11 @@
       "seat_height": "834 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "duke",
+        "super duke"
+      ]
     },
     {
       "id": "ktm-200-duke-2012-present-global",
@@ -6409,7 +7417,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "13.4 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke"
+      ]
     },
     {
       "id": "ktm-250-adventure-2020-present-global",
@@ -6435,7 +7446,11 @@
       "seat_height": "830 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "adv",
+        "adventure"
+      ]
     },
     {
       "id": "ktm-250-duke-2015-present-global",
@@ -6461,7 +7476,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "13.4 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke"
+      ]
     },
     {
       "id": "ktm-250-sx-f-2013-present-global",
@@ -6487,7 +7505,11 @@
       "seat_height": "958 mm",
       "fuel_capacity": "7 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "sx f",
+        "sxf"
+      ]
     },
     {
       "id": "ktm-300-exc-2017-present-global",
@@ -6513,7 +7535,10 @@
       "seat_height": "960 mm",
       "fuel_capacity": "9 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "exc"
+      ]
     },
     {
       "id": "ktm-350-exc-f-2012-present-global",
@@ -6539,7 +7564,10 @@
       "seat_height": "960 mm",
       "fuel_capacity": "9 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "exc"
+      ]
     },
     {
       "id": "ktm-adventure-390-2020-2024",
@@ -6565,7 +7593,11 @@
       "seat_height": "855 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "adv",
+        "adventure"
+      ]
     },
     {
       "id": "ktm-adventure-390-2025-present-global",
@@ -6591,7 +7623,11 @@
       "seat_height": "825/855 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "adv",
+        "adventure"
+      ]
     },
     {
       "id": "ktm-adventure-390-2026-present-india",
@@ -6617,7 +7653,11 @@
       "seat_height": "825/855 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "adv",
+        "adventure"
+      ]
     },
     {
       "id": "ktm-390-duke-2013-2016-global",
@@ -6643,7 +7683,10 @@
       "seat_height": "800 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke"
+      ]
     },
     {
       "id": "ktm-390-duke-2017-2023-global",
@@ -6669,7 +7712,10 @@
       "seat_height": "830 mm",
       "fuel_capacity": "13.4 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke"
+      ]
     },
     {
       "id": "ktm-390-duke-2021",
@@ -6695,7 +7741,10 @@
       "seat_height": "820 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke"
+      ]
     },
     {
       "id": "ktm-390-enduro-r-2025-present-global",
@@ -6721,7 +7770,8 @@
       "seat_height": "890 mm",
       "fuel_capacity": "9 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": []
     },
     {
       "id": "ktm-390-smc-r-2025-present-global",
@@ -6747,7 +7797,8 @@
       "seat_height": "890 mm",
       "fuel_capacity": "9 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": []
     },
     {
       "id": "ktm-450-sx-f-2022-present-global",
@@ -6773,7 +7824,11 @@
       "seat_height": "958 mm",
       "fuel_capacity": "7 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "sx f",
+        "sxf"
+      ]
     },
     {
       "id": "ktm-500-exc-f-2012-present-global",
@@ -6799,7 +7854,10 @@
       "seat_height": "960 mm",
       "fuel_capacity": "9 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "exc"
+      ]
     },
     {
       "id": "ktm-690-enduro-r-2008-present-global",
@@ -6825,7 +7883,8 @@
       "seat_height": "910 mm",
       "fuel_capacity": "13.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "ktm-690-smc-r-2008-present-global",
@@ -6851,7 +7910,8 @@
       "seat_height": "890 mm",
       "fuel_capacity": "13.5 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": []
     },
     {
       "id": "ktm-790-adventure-2019-2023-global",
@@ -6877,7 +7937,11 @@
       "seat_height": "830/850 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "adv",
+        "adventure"
+      ]
     },
     {
       "id": "ktm-790-duke-2018-2023-global",
@@ -6903,7 +7967,10 @@
       "seat_height": "825 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke"
+      ]
     },
     {
       "id": "ktm-890-adventure-r-2021-present-global",
@@ -6929,7 +7996,11 @@
       "seat_height": "880 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "adv",
+        "adventure"
+      ]
     },
     {
       "id": "ktm-890-duke-r-2020-present-global",
@@ -6955,7 +8026,10 @@
       "seat_height": "834 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke"
+      ]
     },
     {
       "id": "ktm-890-smt-2023-present-global",
@@ -6981,7 +8055,8 @@
       "seat_height": "860 mm",
       "fuel_capacity": "15.5 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": []
     },
     {
       "id": "ktm-990-duke-2024-present-global",
@@ -7007,7 +8082,10 @@
       "seat_height": "825 mm",
       "fuel_capacity": "14.8 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "duke"
+      ]
     },
     {
       "id": "ktm-rc-125-2014-present-global",
@@ -7033,7 +8111,10 @@
       "seat_height": "820 mm",
       "fuel_capacity": "13.4 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "rc"
+      ]
     },
     {
       "id": "ktm-rc-200-2014-present-global",
@@ -7059,7 +8140,10 @@
       "seat_height": "820 mm",
       "fuel_capacity": "13.4 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "rc"
+      ]
     },
     {
       "id": "ktm-rc-390",
@@ -7085,7 +8169,10 @@
       "seat_height": "824 mm",
       "fuel_capacity": "13.4 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
-      "oil_type": "SAE 10W-50, JASO MA2"
+      "oil_type": "SAE 10W-50, JASO MA2",
+      "aliases": [
+        "rc"
+      ]
     },
     {
       "id": "kymco-ak-550-2017-present-global",
@@ -7111,7 +8198,11 @@
       "seat_height": "785 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "ak 550",
+        "ak550"
+      ]
     },
     {
       "id": "kymco-xciting-400-2018-present-global",
@@ -7137,7 +8228,10 @@
       "seat_height": "805 mm",
       "fuel_capacity": "12.5 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 5W-40, JASO MB"
+      "oil_type": "SAE 5W-40, JASO MB",
+      "aliases": [
+        "xciting"
+      ]
     },
     {
       "id": "livewire-s2-del-mar-2023-present-global",
@@ -7162,7 +8256,11 @@
       "seat_height": "780 mm",
       "fuel_capacity": "10.5 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "del mar",
+        "s2"
+      ]
     },
     {
       "id": "moto-guzzi-v100-mandello-2022-present-global",
@@ -7188,7 +8286,11 @@
       "seat_height": "815 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "guzzi",
+        "v100"
+      ]
     },
     {
       "id": "moto-guzzi-v100-stelvio-2024-present-global",
@@ -7214,7 +8316,12 @@
       "seat_height": "830 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.5 L (3.7 US qt)",
-      "oil_type": "SAE 5W-40, JASO MA2"
+      "oil_type": "SAE 5W-40, JASO MA2",
+      "aliases": [
+        "guzzi",
+        "stelvio",
+        "v100"
+      ]
     },
     {
       "id": "moto-guzzi-v7-850-2021-present-global",
@@ -7240,7 +8347,11 @@
       "seat_height": "780 mm",
       "fuel_capacity": "21 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "guzzi",
+        "v7"
+      ]
     },
     {
       "id": "moto-guzzi-v85-tt-2019-present-global",
@@ -7266,7 +8377,11 @@
       "seat_height": "830 mm",
       "fuel_capacity": "23 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "guzzi",
+        "v85"
+      ]
     },
     {
       "id": "moto-guzzi-v9-bobber-2016-present-global",
@@ -7292,7 +8407,12 @@
       "seat_height": "785 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "2.0 L (2.1 US qt)",
-      "oil_type": "SAE 10W-60, JASO MA2"
+      "oil_type": "SAE 10W-60, JASO MA2",
+      "aliases": [
+        "bobber",
+        "guzzi",
+        "v9"
+      ]
     },
     {
       "id": "ola-s1-pro-2021-present-india",
@@ -7317,7 +8437,11 @@
       "seat_height": "792 mm",
       "fuel_capacity": "4 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "s1",
+        "s1 pro"
+      ]
     },
     {
       "id": "ola-s1-x-2023-present-india",
@@ -7342,7 +8466,11 @@
       "seat_height": "792 mm",
       "fuel_capacity": "4 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "s1",
+        "s1 x"
+      ]
     },
     {
       "id": "piaggio-mp3-300-2023-present-global",
@@ -7368,7 +8496,10 @@
       "seat_height": "780 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "mp3"
+      ]
     },
     {
       "id": "qjmotor-srt-550-2022-present-global",
@@ -7394,7 +8525,12 @@
       "seat_height": "830 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "2.5 L (2.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "qj",
+        "qj motor",
+        "srt"
+      ]
     },
     {
       "id": "qjmotor-srt-700-2022-present-global",
@@ -7420,7 +8556,12 @@
       "seat_height": "830 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "qj",
+        "qj motor",
+        "srt"
+      ]
     },
     {
       "id": "royal-enfield-bear-650-2025-present-global",
@@ -7446,7 +8587,12 @@
       "seat_height": "830 mm",
       "fuel_capacity": "13.7 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "bear",
+        "enfield",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-bullet-350-2023-present-global",
@@ -7472,7 +8618,12 @@
       "seat_height": "805 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "bullet",
+        "enfield",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-classic-350-2021-present-global",
@@ -7498,7 +8649,12 @@
       "seat_height": "805 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "classic",
+        "enfield",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-classic-650-2025-present-global",
@@ -7524,7 +8680,12 @@
       "seat_height": "795 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "classic",
+        "enfield",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-continental-gt-650-2019-present-global",
@@ -7550,7 +8711,13 @@
       "seat_height": "804 mm",
       "fuel_capacity": "13.7 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "continental",
+        "enfield",
+        "gt 650",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-goan-classic-350-2024-present-global",
@@ -7576,7 +8743,13 @@
       "seat_height": "750 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "classic",
+        "enfield",
+        "goan",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-guerrilla-450-2020-present-global",
@@ -7602,7 +8775,12 @@
       "seat_height": "780 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "enfield",
+        "guerrilla",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-himalayan-411-2015-2023-global",
@@ -7628,7 +8806,13 @@
       "seat_height": "800 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "enfield",
+        "himalayan",
+        "himalyan",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-himalayan-450",
@@ -7654,7 +8838,13 @@
       "seat_height": "825/845 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "enfield",
+        "himalayan",
+        "himalyan",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-hunter-350-2022-present-global",
@@ -7680,7 +8870,12 @@
       "seat_height": "800 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "enfield",
+        "hunter",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-interceptor-650-2018-present-global",
@@ -7706,7 +8901,12 @@
       "seat_height": "804 mm",
       "fuel_capacity": "13.7 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "enfield",
+        "interceptor",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-meteor-350-2021-present-global",
@@ -7732,7 +8932,12 @@
       "seat_height": "765 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "enfield",
+        "meteor",
+        "royal enfield"
+      ]
     },
     {
       "id": "royal-enfield-scram-411-2022-present-global",
@@ -7758,7 +8963,12 @@
       "seat_height": "795 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "enfield",
+        "royal enfield",
+        "scram"
+      ]
     },
     {
       "id": "royal-enfield-scram-440-2025-present-global",
@@ -7784,7 +8994,12 @@
       "seat_height": "825 mm",
       "fuel_capacity": "13.5 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 15W-50, JASO MA2"
+      "oil_type": "SAE 15W-50, JASO MA2",
+      "aliases": [
+        "enfield",
+        "royal enfield",
+        "scram"
+      ]
     },
     {
       "id": "royal-enfield-shotgun-650-2024-present-global",
@@ -7810,7 +9025,12 @@
       "seat_height": "795 mm",
       "fuel_capacity": "13.8 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "enfield",
+        "royal enfield",
+        "shotgun"
+      ]
     },
     {
       "id": "royal-enfield-super-meteor-650-2023-present-global",
@@ -7836,7 +9056,13 @@
       "seat_height": "740 mm",
       "fuel_capacity": "15.7 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "enfield",
+        "meteor",
+        "royal enfield",
+        "super meteor"
+      ]
     },
     {
       "id": "stark-varg-2023-present-global",
@@ -7861,7 +9087,11 @@
       "seat_height": "950 mm",
       "fuel_capacity": "6 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "stark varg",
+        "varg"
+      ]
     },
     {
       "id": "suzuki-access-125-2020-present-india",
@@ -7887,7 +9117,8 @@
       "seat_height": "773 mm",
       "fuel_capacity": "5 L",
       "oil_capacity": "0.7 L (0.75 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": []
     },
     {
       "id": "suzuki-boulevard-m109r-2006-present-global",
@@ -7913,7 +9144,11 @@
       "seat_height": "705 mm",
       "fuel_capacity": "19.5 L",
       "oil_capacity": "4.5 L (4.8 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "boulevard",
+        "m109r"
+      ]
     },
     {
       "id": "suzuki-burgman-400-2017-present-global",
@@ -7939,7 +9174,10 @@
       "seat_height": "755 mm",
       "fuel_capacity": "13.5 L",
       "oil_capacity": "2.3 L (2.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "burgman"
+      ]
     },
     {
       "id": "suzuki-burgman-street-125-2018-present-india",
@@ -7965,7 +9203,10 @@
       "seat_height": "780 mm",
       "fuel_capacity": "5.3 L",
       "oil_capacity": "0.7 L (0.75 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "burgman"
+      ]
     },
     {
       "id": "suzuki-dr-z400sm-2000-present-global",
@@ -7991,7 +9232,13 @@
       "seat_height": "890 mm",
       "fuel_capacity": "10 L",
       "oil_capacity": "1.9 L (2.0 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "dr z",
+        "drz",
+        "z 400",
+        "z400"
+      ]
     },
     {
       "id": "suzuki-gixxer-250-2019-present-india",
@@ -8017,7 +9264,10 @@
       "seat_height": "795 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer"
+      ]
     },
     {
       "id": "suzuki-gixxer-sf-250-2019-present-india",
@@ -8043,7 +9293,10 @@
       "seat_height": "795 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer"
+      ]
     },
     {
       "id": "suzuki-gsx-8r-2024-present-global",
@@ -8069,7 +9322,11 @@
       "seat_height": "810 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gsx 8",
+        "gsx8"
+      ]
     },
     {
       "id": "suzuki-gsx-8s-2023-present-global",
@@ -8095,7 +9352,11 @@
       "seat_height": "810 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gsx 8",
+        "gsx8"
+      ]
     },
     {
       "id": "suzuki-gsx-r1000-2001-2002-global",
@@ -8121,7 +9382,12 @@
       "seat_height": "830 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer",
+        "gsx r",
+        "gsxr"
+      ]
     },
     {
       "id": "suzuki-gsx-r1000-2003-2004-global",
@@ -8147,7 +9413,12 @@
       "seat_height": "830 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer",
+        "gsx r",
+        "gsxr"
+      ]
     },
     {
       "id": "suzuki-gsx-r1000-2005-2006-global",
@@ -8173,7 +9444,12 @@
       "seat_height": "830 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer",
+        "gsx r",
+        "gsxr"
+      ]
     },
     {
       "id": "suzuki-gsx-r1000-2007-2008-global",
@@ -8199,7 +9475,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "17.5 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer",
+        "gsx r",
+        "gsxr"
+      ]
     },
     {
       "id": "suzuki-gsx-r1000-2009-2011-global",
@@ -8225,7 +9506,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "17.5 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer",
+        "gsx r",
+        "gsxr"
+      ]
     },
     {
       "id": "suzuki-gsx-r1000-2012-2016-global",
@@ -8251,7 +9537,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "17.5 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer",
+        "gsx r",
+        "gsxr"
+      ]
     },
     {
       "id": "suzuki-gsx-r1000-2017-present-global",
@@ -8277,7 +9568,12 @@
       "seat_height": "825 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer",
+        "gsx r",
+        "gsxr"
+      ]
     },
     {
       "id": "suzuki-gsx-r125-2017-present-global",
@@ -8303,7 +9599,12 @@
       "seat_height": "785 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "gixxer",
+        "gsx r",
+        "gsxr"
+      ]
     },
     {
       "id": "suzuki-gsx-r600-2011-present-global",
@@ -8329,7 +9630,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "2.9 L (3.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer",
+        "gsx r",
+        "gsxr"
+      ]
     },
     {
       "id": "suzuki-gsx-r750-2011-present-global",
@@ -8355,7 +9661,12 @@
       "seat_height": "810 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "2.9 L (3.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gixxer",
+        "gsx r",
+        "gsxr"
+      ]
     },
     {
       "id": "suzuki-gsx-s1000-2021-present-global",
@@ -8381,7 +9692,11 @@
       "seat_height": "810 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gsx s",
+        "gsxs"
+      ]
     },
     {
       "id": "suzuki-gsx-s1000gt-2022-present-global",
@@ -8407,7 +9722,11 @@
       "seat_height": "810 mm",
       "fuel_capacity": "19 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gsx s",
+        "gsxs"
+      ]
     },
     {
       "id": "suzuki-gsx-s750-2017-present-global",
@@ -8433,7 +9752,11 @@
       "seat_height": "820 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gsx s",
+        "gsxs"
+      ]
     },
     {
       "id": "suzuki-gsx1300r-1999-2007",
@@ -8459,7 +9782,11 @@
       "seat_height": "805 mm",
       "fuel_capacity": "22 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "busa",
+        "hayabusa"
+      ]
     },
     {
       "id": "suzuki-gsx1300r-2008-2020",
@@ -8485,7 +9812,11 @@
       "seat_height": "805 mm",
       "fuel_capacity": "21 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "busa",
+        "hayabusa"
+      ]
     },
     {
       "id": "suzuki-gsx1300r-2021-present",
@@ -8511,7 +9842,11 @@
       "seat_height": "800 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "busa",
+        "hayabusa"
+      ]
     },
     {
       "id": "suzuki-gsx250r-2017-present-global",
@@ -8537,7 +9872,11 @@
       "seat_height": "790 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "2.2 L (2.3 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "gsx 250",
+        "gsx250"
+      ]
     },
     {
       "id": "suzuki-katana-2019-present-global",
@@ -8563,7 +9902,10 @@
       "seat_height": "825 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "katana"
+      ]
     },
     {
       "id": "suzuki-sv650-2016-present-global",
@@ -8589,7 +9931,11 @@
       "seat_height": "785 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "2.9 L (3.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "sv 650",
+        "sv650"
+      ]
     },
     {
       "id": "suzuki-v-strom-1050-2020-present-global",
@@ -8615,7 +9961,12 @@
       "seat_height": "850 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "strom",
+        "v strom",
+        "vstrom"
+      ]
     },
     {
       "id": "suzuki-v-strom-1050de-2023-present-global",
@@ -8641,7 +9992,12 @@
       "seat_height": "880 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "3.7 L (3.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "strom",
+        "v strom",
+        "vstrom"
+      ]
     },
     {
       "id": "suzuki-v-strom-650-2017-present-global",
@@ -8667,7 +10023,12 @@
       "seat_height": "835 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "2.9 L (3.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "strom",
+        "v strom",
+        "vstrom"
+      ]
     },
     {
       "id": "suzuki-v-strom-800-2023-present-global",
@@ -8693,7 +10054,12 @@
       "seat_height": "825 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "strom",
+        "v strom",
+        "vstrom"
+      ]
     },
     {
       "id": "suzuki-v-strom-sx-250-2022-present-india",
@@ -8719,7 +10085,12 @@
       "seat_height": "835 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "strom",
+        "v strom",
+        "vstrom"
+      ]
     },
     {
       "id": "sym-adx-125-2022-present-global",
@@ -8745,7 +10116,10 @@
       "seat_height": "795 mm",
       "fuel_capacity": "7.5 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 5W-40, JASO MB"
+      "oil_type": "SAE 5W-40, JASO MB",
+      "aliases": [
+        "adx"
+      ]
     },
     {
       "id": "sym-maxsym-400-2021-present-global",
@@ -8771,7 +10145,10 @@
       "seat_height": "800 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "maxsym"
+      ]
     },
     {
       "id": "triumph-bonneville-bobber-2017-present-global",
@@ -8797,7 +10174,13 @@
       "seat_height": "690 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "bobber",
+        "bonneville",
+        "bonny",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-bonneville-speedmaster-2018-present-global",
@@ -8823,7 +10206,13 @@
       "seat_height": "705 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "bonneville",
+        "bonny",
+        "speedmaster",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-bonneville-t100-2016-present-global",
@@ -8849,7 +10238,12 @@
       "seat_height": "790 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "bonneville",
+        "bonny",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-bonneville-t120-2016-present-global",
@@ -8875,7 +10269,12 @@
       "seat_height": "790 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "bonneville",
+        "bonny",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-daytona-660-2024-present-global",
@@ -8901,7 +10300,11 @@
       "seat_height": "810 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "daytona",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-rocket-3-gt-2020-present-global",
@@ -8927,7 +10330,12 @@
       "seat_height": "750 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "5.5 L (5.8 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "rocket",
+        "rocket 3",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-rocket-3-r-2020-present-global",
@@ -8953,7 +10361,12 @@
       "seat_height": "773 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "rocket",
+        "rocket 3",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-scrambler-1200-xe-2019-present-global",
@@ -8979,7 +10392,14 @@
       "seat_height": "870 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "r 12",
+        "r12",
+        "scram",
+        "scrambler",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-scrambler-400x-2023-present-global",
@@ -9005,7 +10425,12 @@
       "seat_height": "835 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "scram",
+        "scrambler",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-scrambler-900-2017-present-global",
@@ -9031,7 +10456,12 @@
       "seat_height": "790 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "scram",
+        "scrambler",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-speed-400-2023-present-global",
@@ -9057,7 +10487,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "1.8 L (1.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-speed-triple-1200-rr-2022-present-global",
@@ -9083,7 +10516,11 @@
       "seat_height": "830 mm",
       "fuel_capacity": "15.5 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "speed triple",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-speed-triple-1200-rs-2021-present-global",
@@ -9109,7 +10546,11 @@
       "seat_height": "830 mm",
       "fuel_capacity": "15.5 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "speed triple",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-speed-twin-1200-2019-present-global",
@@ -9135,7 +10576,11 @@
       "seat_height": "807 mm",
       "fuel_capacity": "14.5 L",
       "oil_capacity": "3.8 L (4.0 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "speed twin",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-street-triple-765-2023-present-global",
@@ -9161,7 +10606,12 @@
       "seat_height": "826 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "3.2 L (3.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "street triple",
+        "street triple rs",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-tiger-1200-2022-present-global",
@@ -9187,7 +10637,13 @@
       "seat_height": "850/870 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "r 12",
+        "r12",
+        "tiger",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-tiger-900-2020-present-global",
@@ -9213,7 +10669,11 @@
       "seat_height": "810/830 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "tiger",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-tiger-sport-660-2022-present-global",
@@ -9239,7 +10699,11 @@
       "seat_height": "835 mm",
       "fuel_capacity": "17.2 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "tiger",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-tiger-sport-800-2025-present-global",
@@ -9265,7 +10729,11 @@
       "seat_height": "835 mm",
       "fuel_capacity": "18.6 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "tiger",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "triumph-trident-660-2021-present-global",
@@ -9291,7 +10759,11 @@
       "seat_height": "805 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "trident",
+        "triumph motorcycles"
+      ]
     },
     {
       "id": "tvs-apache-rr-310-2020-present-india",
@@ -9317,7 +10789,10 @@
       "seat_height": "810 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "apache"
+      ]
     },
     {
       "id": "tvs-apache-rtr-160-4v-2020-present-india",
@@ -9343,7 +10818,10 @@
       "seat_height": "800 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "1.2 L (1.3 US qt)",
-      "oil_type": "SAE 10W-30, JASO MA2"
+      "oil_type": "SAE 10W-30, JASO MA2",
+      "aliases": [
+        "apache"
+      ]
     },
     {
       "id": "tvs-apache-rtr-200-4v-2020-present-india",
@@ -9369,7 +10847,10 @@
       "seat_height": "800 mm",
       "fuel_capacity": "12 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "apache"
+      ]
     },
     {
       "id": "tvs-iqube-2022-present-india",
@@ -9394,7 +10875,10 @@
       "seat_height": "770 mm",
       "fuel_capacity": "5.3 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "iqube"
+      ]
     },
     {
       "id": "tvs-jupiter-110-2022-present-india",
@@ -9420,7 +10904,10 @@
       "seat_height": "765 mm",
       "fuel_capacity": "5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "jupiter"
+      ]
     },
     {
       "id": "tvs-jupiter-125-2021-present-india",
@@ -9446,7 +10933,12 @@
       "seat_height": "765 mm",
       "fuel_capacity": "5.1 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "jupiter",
+        "r 12",
+        "r12"
+      ]
     },
     {
       "id": "tvs-ntorq-125-2018-present-india",
@@ -9472,7 +10964,10 @@
       "seat_height": "770 mm",
       "fuel_capacity": "5.8 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "ntorq"
+      ]
     },
     {
       "id": "tvs-raider-125-2021-present-india",
@@ -9498,7 +10993,12 @@
       "seat_height": "780 mm",
       "fuel_capacity": "10.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "r 12",
+        "r12",
+        "raider"
+      ]
     },
     {
       "id": "tvs-ronin-225-2022-present-india",
@@ -9524,7 +11024,10 @@
       "seat_height": "795 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "ronin"
+      ]
     },
     {
       "id": "ultraviolette-f77-2024-present-india",
@@ -9549,7 +11052,10 @@
       "seat_height": "800 mm",
       "fuel_capacity": "10.3 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "f77"
+      ]
     },
     {
       "id": "vespa-gts-300-2019-present-global",
@@ -9575,7 +11081,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "8.5 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "gts"
+      ]
     },
     {
       "id": "vespa-gtv-300-2023-present-global",
@@ -9601,7 +11110,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "8.5 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 5W-40, JASO MB"
+      "oil_type": "SAE 5W-40, JASO MB",
+      "aliases": [
+        "gtv"
+      ]
     },
     {
       "id": "vespa-primavera-150-2014-present-global",
@@ -9627,7 +11139,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "8 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 5W-40, JASO MB"
+      "oil_type": "SAE 5W-40, JASO MB",
+      "aliases": [
+        "primavera"
+      ]
     },
     {
       "id": "voge-300-rally-2022-present-global",
@@ -9653,7 +11168,10 @@
       "seat_height": "850 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "300 rally"
+      ]
     },
     {
       "id": "voge-900dsx-2023-present-global",
@@ -9679,7 +11197,11 @@
       "seat_height": "825 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "900 dsx",
+        "900dsx"
+      ]
     },
     {
       "id": "yamaha-aerox-155-2021-present-global",
@@ -9705,7 +11227,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "5.5 L",
       "oil_capacity": "0.9 L (0.95 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "aerox"
+      ]
     },
     {
       "id": "yamaha-fascino-125-2020-present-india",
@@ -9731,7 +11256,10 @@
       "seat_height": "780 mm",
       "fuel_capacity": "5.2 L",
       "oil_capacity": "0.8 L (0.85 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "fascino"
+      ]
     },
     {
       "id": "yamaha-fz-s-fi-v4-2022-present-india",
@@ -9757,7 +11285,10 @@
       "seat_height": "790 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "fz"
+      ]
     },
     {
       "id": "yamaha-fz-x-150-2021-present-india",
@@ -9783,7 +11314,10 @@
       "seat_height": "810 mm",
       "fuel_capacity": "10 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "fz"
+      ]
     },
     {
       "id": "yamaha-mt-03-2006-2015",
@@ -9809,7 +11343,10 @@
       "seat_height": "805 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "mt"
+      ]
     },
     {
       "id": "yamaha-mt-03-2016",
@@ -9835,7 +11372,10 @@
       "seat_height": "780 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "mt"
+      ]
     },
     {
       "id": "yamaha-mt-07-2018",
@@ -9861,7 +11401,10 @@
       "seat_height": "805 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.6 L (2.7 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "mt"
+      ]
     },
     {
       "id": "yamaha-mt-09-2015-2018-global",
@@ -9887,7 +11430,10 @@
       "seat_height": "815 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.2 L (3.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "mt"
+      ]
     },
     {
       "id": "yamaha-mt-10-2016-present-global",
@@ -9913,7 +11459,10 @@
       "seat_height": "825 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.9 L (4.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "mt"
+      ]
     },
     {
       "id": "yamaha-mt-125-2014-present-global",
@@ -9939,7 +11488,10 @@
       "seat_height": "810 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "mt"
+      ]
     },
     {
       "id": "yamaha-mt-15-2018-present-india",
@@ -9965,7 +11517,10 @@
       "seat_height": "810 mm",
       "fuel_capacity": "10 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "mt"
+      ]
     },
     {
       "id": "yamaha-mt-25-2015-present-global",
@@ -9991,7 +11546,10 @@
       "seat_height": "780 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "mt"
+      ]
     },
     {
       "id": "yamaha-nmax-155-2020-present-global",
@@ -10017,7 +11575,10 @@
       "seat_height": "765 mm",
       "fuel_capacity": "7.1 L",
       "oil_capacity": "0.9 L (0.95 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "nmax"
+      ]
     },
     {
       "id": "yamaha-super-tenere-1200-2010-2020-global",
@@ -10043,7 +11604,14 @@
       "seat_height": "845/870 mm",
       "fuel_capacity": "23 L",
       "oil_capacity": "4.0 L (4.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "super tenere",
+        "t7",
+        "tenere",
+        "tenere 700",
+        "xt1200"
+      ]
     },
     {
       "id": "yamaha-tmax-560-2020-present-global",
@@ -10069,7 +11637,10 @@
       "seat_height": "800 mm",
       "fuel_capacity": "15 L",
       "oil_capacity": "2.7 L (2.9 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "tmax"
+      ]
     },
     {
       "id": "yamaha-tracer-9-gt-2021-present-global",
@@ -10095,7 +11666,11 @@
       "seat_height": "810/825 mm",
       "fuel_capacity": "18 L",
       "oil_capacity": "3.2 L (3.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "tracer",
+        "tracer 9"
+      ]
     },
     {
       "id": "yamaha-tenere-700-2019-present-global",
@@ -10121,7 +11696,12 @@
       "seat_height": "875 mm",
       "fuel_capacity": "16 L",
       "oil_capacity": "2.6 L (2.7 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "t7",
+        "tenere",
+        "tenere 700"
+      ]
     },
     {
       "id": "yamaha-wr450f-2024-present-global",
@@ -10147,7 +11727,8 @@
       "seat_height": "965 mm",
       "fuel_capacity": "7.9 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "yamaha-xmax-300-2017-present-global",
@@ -10173,7 +11754,10 @@
       "seat_height": "795 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-30, JASO MB"
+      "oil_type": "SAE 10W-30, JASO MB",
+      "aliases": [
+        "xmax"
+      ]
     },
     {
       "id": "yamaha-xsr125-2021-present-global",
@@ -10199,7 +11783,10 @@
       "seat_height": "815 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "xsr"
+      ]
     },
     {
       "id": "yamaha-xsr155-2019-present-global",
@@ -10225,7 +11812,10 @@
       "seat_height": "810 mm",
       "fuel_capacity": "10 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "xsr"
+      ]
     },
     {
       "id": "yamaha-xsr700-2016-present-global",
@@ -10251,7 +11841,10 @@
       "seat_height": "835 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.6 L (2.7 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "xsr"
+      ]
     },
     {
       "id": "yamaha-xsr900-2022-present-global",
@@ -10277,7 +11870,10 @@
       "seat_height": "810 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "3.2 L (3.4 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "xsr"
+      ]
     },
     {
       "id": "yamaha-yz450f-2023-present-global",
@@ -10303,7 +11899,8 @@
       "seat_height": "965 mm",
       "fuel_capacity": "6.2 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": []
     },
     {
       "id": "yamaha-r1-2020-2024-global",
@@ -10329,7 +11926,11 @@
       "seat_height": "860 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.9 L (4.1 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "r series",
+        "yzf"
+      ]
     },
     {
       "id": "yamaha-yzf-r125-2008-present-global",
@@ -10355,7 +11956,11 @@
       "seat_height": "825 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "r series",
+        "yzf"
+      ]
     },
     {
       "id": "yamaha-yzf-r15-v4-2021-present-global",
@@ -10381,7 +11986,11 @@
       "seat_height": "815 mm",
       "fuel_capacity": "11 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "r series",
+        "yzf"
+      ]
     },
     {
       "id": "yamaha-yzf-r25-2013-2019",
@@ -10407,7 +12016,11 @@
       "seat_height": "780 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "r series",
+        "yzf"
+      ]
     },
     {
       "id": "yamaha-r3-2015-2018-global",
@@ -10433,7 +12046,11 @@
       "seat_height": "780 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "r series",
+        "yzf"
+      ]
     },
     {
       "id": "yamaha-r3-2019-present-global",
@@ -10459,7 +12076,11 @@
       "seat_height": "780 mm",
       "fuel_capacity": "14 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "r series",
+        "yzf"
+      ]
     },
     {
       "id": "yamaha-yzf-r6-2017-2020-global",
@@ -10485,7 +12106,11 @@
       "seat_height": "850 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "3.0 L (3.2 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "r series",
+        "yzf"
+      ]
     },
     {
       "id": "yamaha-yzf-r7-2021-present-global",
@@ -10511,7 +12136,11 @@
       "seat_height": "835 mm",
       "fuel_capacity": "13 L",
       "oil_capacity": "2.6 L (2.7 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "r series",
+        "yzf"
+      ]
     },
     {
       "id": "zero-dsr-x-2022-present-global",
@@ -10536,7 +12165,11 @@
       "seat_height": "828 mm",
       "fuel_capacity": "17.3 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "dsr x",
+        "dsrx"
+      ]
     },
     {
       "id": "zero-sr-f-2020-present-global",
@@ -10561,7 +12194,11 @@
       "seat_height": "787 mm",
       "fuel_capacity": "14.4 kWh battery",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "sr f",
+        "srf"
+      ]
     },
     {
       "id": "zontes-368g-2024-present-global",
@@ -10587,7 +12224,11 @@
       "seat_height": "800 mm",
       "fuel_capacity": "17 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
-      "oil_type": "SAE 10W-40, JASO MA2"
+      "oil_type": "SAE 10W-40, JASO MA2",
+      "aliases": [
+        "368 g",
+        "368g"
+      ]
     },
     {
       "id": "zontes-703f-2024-present-global",
@@ -10613,7 +12254,11 @@
       "seat_height": "830 mm",
       "fuel_capacity": "20 L",
       "oil_capacity": "",
-      "oil_type": ""
+      "oil_type": "",
+      "aliases": [
+        "703 f",
+        "703f"
+      ]
     }
   ]
 }
