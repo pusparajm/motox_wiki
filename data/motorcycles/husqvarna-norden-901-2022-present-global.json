@@ -96,9 +96,44 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "2.8 L (2022–23); 2.9 L (2024+)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-50, JASO MA2"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "Hiflofiltro HF650"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK LMAR9AI-10"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.6 L"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 pitch, 118 links"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 / DOT 5.1"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "15,000 km / 12 months"
           }
         ]
       },

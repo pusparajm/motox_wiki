@@ -96,9 +96,49 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "1.3 L drain; 1.5 L with filter; 1.8 L dry"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-30, JASO MB"
+          },
+          {
             "key": "oil_filter",
             "label": "Oil Filter",
-            "value": "HF204"
+            "value": "Hiflofiltro HF204"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK LMAR8L-9"
+          },
+          {
+            "key": "transmission_oil",
+            "label": "Transmission Oil",
+            "value": "0.17 L"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.01 L"
+          },
+          {
+            "key": "final_drive",
+            "label": "Final Drive",
+            "value": "V-belt"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "12,000 km"
           }
         ]
       },

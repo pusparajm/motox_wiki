@@ -96,9 +96,39 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "3.8 L without filter; 4.2 L with filter; 4.6 L dry"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA/MA2"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CR9EIA-9"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "3.2 L"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "530 pitch, 118 links"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "12,000 km / 12 months"
           }
         ]
       },

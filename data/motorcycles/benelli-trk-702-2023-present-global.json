@@ -96,9 +96,39 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "2.2 L without filter; 2.4 L with filter"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-50, API SN"
+          },
+          {
             "key": "oil_filter",
             "label": "Oil Filter",
-            "value": "HF682"
+            "value": "Hiflofiltro HF682"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CR8E"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.0 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Chain"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
           }
         ]
       },

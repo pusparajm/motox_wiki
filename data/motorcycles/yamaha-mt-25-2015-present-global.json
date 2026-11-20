@@ -96,9 +96,34 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "1.8 L drain; 2.1 L with filter; 2.4 L dry"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK LMAR8A-9"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.07 L (0.82 L radiator + 0.25 L reservoir)"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "Constant mesh"
+            "value": "520 pitch"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
           }
         ]
       },

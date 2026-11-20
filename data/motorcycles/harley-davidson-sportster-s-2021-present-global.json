@@ -96,9 +96,39 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "oil_capacity",
+            "label": "Engine Oil",
+            "value": "3.8 L service fill; 4.5 L with filter"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 20W-50 full synthetic"
+          },
+          {
             "key": "oil_filter",
             "label": "Oil Filter",
-            "value": "HF176B"
+            "value": "Hiflofiltro HF176B"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.2 L"
+          },
+          {
+            "key": "final_drive",
+            "label": "Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "8,000 km / 12 months"
           }
         ]
       },

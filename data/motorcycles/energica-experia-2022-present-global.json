@@ -100,9 +100,24 @@
         "label": "Service Data",
         "fields": [
           {
-            "key": "chain",
-            "label": "Chain / Final Drive",
-            "value": "Regina 15/44 525 O-Ring Chain"
+            "key": "engine_oil",
+            "label": "Engine Oil",
+            "value": "Not applicable — electric motor"
+          },
+          {
+            "key": "final_drive",
+            "label": "Final Drive",
+            "value": "Regina 15/44 525 O-ring chain"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
+          {
+            "key": "note",
+            "label": "Note",
+            "value": "No engine oil, spark plug, coolant or valve service. Follow Energica’s schedule for brake fluid, tyres, bearings and the chain."
           }
         ]
       },
