@@ -50,12 +50,12 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Hydraulic telescopic fork with straight stanchions"
+            "value": "Hydraulic telescopic fork with straight stanchions, 110 mm (4.3 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Single arm with engine crankcase as swinging element, served by a single shock"
+            "value": "Single arm with engine crankcase as swinging element, served by a single shock, 122 mm (4.8 inches)"
           },
           {
             "key": "front_brake",
@@ -83,14 +83,14 @@
             "value": "7 L"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
-          },
-          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2018–2022"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -125,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

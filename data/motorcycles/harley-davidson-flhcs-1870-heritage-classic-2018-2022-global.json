@@ -8,39 +8,130 @@
     "model_group": "harley-davidson-flhcs-1870-heritage-classic",
     "category": "Cruiser",
     "displacement": "1870 cc",
-    "summary": "Harley-Davidson FLHCS 1870 Heritage Classic brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Harley-Davidson FLHCS 1870 Heritage Classic (2018–2022). 1746 cc, 86 hp, 147.8 Nm, 330.2 kg, 668 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "flhcs-1870-heritage-classic",
       "cruiser",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1746 cc air-cooled V2, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1870 cc"
+            "value": "1746 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "86 hp @ 5,020 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "147.8 Nm @ 3,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Telescopic fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Twin shocks"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. ABS. 4-piston"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. 2-piston floating."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/90-B16 front, 150/80-B16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "668 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "330.2 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "18.9 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2018–2022"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4.7 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "20W-50"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF171"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 15W"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 8,000 km (5,000 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

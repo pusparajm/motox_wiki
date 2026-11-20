@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-f4-1000-rc",
     "category": "Sport",
     "displacement": "1000 cc",
-    "summary": "MV Agusta F4 1000 RC (2015–2020). . Some specifications are still being compiled.",
+    "summary": "MV Agusta F4 1000 RC (2015–2020). 998 cc, 195 hp, 110.8 Nm, 210 kg, 830 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "mv-agusta",
       "f4-1000-rc",
@@ -17,15 +17,30 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "998 cc liquid-cooled In-line four, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "998 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "195 hp @ 13,400 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "115 Nm @ 9300 rpm"
+            "value": "110.8 Nm @ 9,600 rpm"
           },
           {
             "key": "transmission",
@@ -40,7 +55,7 @@
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "120 mm (4.7 inches)"
+            "value": "Adjustable monoshock with high and low speed compression settings, 120 mm (4.7 inches)"
           },
           {
             "key": "front_brake",
@@ -63,6 +78,11 @@
             "value": "830 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "210 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "17 L"
@@ -71,17 +91,27 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2015–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.5 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "10W-60"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF567"
+          },
           {
             "key": "spark_plug",
             "label": "Spark Plug",
@@ -91,6 +121,21 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "6-speed constant mesh"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.71 litres (0.76 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 6,000 km (3,700 miles) or 12 months"
           },
           {
             "key": "front_brake_pads",
@@ -105,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

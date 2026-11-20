@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-800-rvs-1",
     "category": "Naked",
     "displacement": "800 cc",
-    "summary": "MV Agusta 800 RVS#1 (2018–2020). . Some specifications are still being compiled.",
+    "summary": "MV Agusta 800 RVS#1 (2018–2020). 87 Nm, 795 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "mv-agusta",
       "800-rvs-1",
@@ -25,7 +25,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "87 Nm @ 10100 rpm"
+            "value": "87 Nm @ 10,100 rpm"
           },
           {
             "key": "transmission",
@@ -75,7 +75,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -100,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

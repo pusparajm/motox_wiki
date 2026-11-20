@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-800-brutale-rc",
     "category": "Sport",
     "displacement": "800 cc",
-    "summary": "MV Agusta 800 Brutale RC (2018–2020). 87 Nm, 175 kg, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "MV Agusta 800 Brutale RC (2018–2020). 798 cc, 140 hp, 86 Nm, 175 kg, 810 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "mv-agusta",
       "800-brutale-rc",
@@ -17,15 +17,30 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "798 cc oil & air-cooled In-line three, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "798 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "140 hp @ 13,100 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "87 Nm @ 10,100 rpm"
+            "value": "86 Nm @ 10,100 rpm"
           },
           {
             "key": "transmission",
@@ -35,7 +50,7 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Marzocchi"
+            "value": "Marzocchi, 125 mm (4.9 inches)"
           },
           {
             "key": "rear_suspension",
@@ -55,12 +70,12 @@
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70-ZR17 front, 200/55-ZR17 rear"
+            "value": "120/70-ZR17 front, 180/55-ZR17 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "830 mm"
+            "value": "810 mm"
           },
           {
             "key": "weight",
@@ -70,12 +85,7 @@
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "16.5 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
+            "value": "16.6 L"
           },
           {
             "key": "model_years",

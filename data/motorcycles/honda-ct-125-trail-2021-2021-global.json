@@ -8,7 +8,7 @@
     "model_group": "honda-ct-125-trail",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "Honda CT 125 Trail (2021). 120 kg. Some specifications are still being compiled.",
+    "summary": "Honda CT 125 Trail (2021). 120 kg, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "ct-125-trail",
@@ -75,7 +75,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -100,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

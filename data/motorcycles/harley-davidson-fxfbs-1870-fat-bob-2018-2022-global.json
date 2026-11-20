@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-fxfbs-1870-fat-bob",
     "category": "Naked",
     "displacement": "1870 cc",
-    "summary": "Harley-Davidson FXFBS 1870 Fat Bob (2018–2022). 1868 cc, 94 hp, 160 Nm, 704 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson FXFBS 1870 Fat Bob (2018–2022). 1868 cc, 94 hp, 160 Nm, 306.6 kg, 704 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "fxfbs-1870-fat-bob",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -78,14 +78,14 @@
             "value": "704 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "306.6 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "13.6 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
@@ -106,6 +106,16 @@
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "20W-50"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF171"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK DCPR7E"
           },
           {
             "key": "chain",

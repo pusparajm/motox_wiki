@@ -8,7 +8,7 @@
     "model_group": "yamaha-tt-r-110",
     "category": "Naked",
     "displacement": "110 cc",
-    "summary": "Yamaha TT-R 110 (2008–2021). 72.1 kg. Some specifications are still being compiled.",
+    "summary": "Yamaha TT-R 110 (2008–2021). 110 cc, 72.1 kg, 671 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "tt-r-110",
@@ -23,6 +23,16 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "110 cc air-cooled Single cylinder, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "110 cc"
+          },
+          {
             "key": "transmission",
             "label": "Transmission",
             "value": "4-speed, Chain"
@@ -30,12 +40,12 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "31mm telescopic fork, 114 mm (4.5 inches)"
+            "value": "31mm Telescopic fork, coil spring/oil damper, 114 mm (4.5 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Monocross® shock, 109 mm (4.3 inches)"
+            "value": "Swingarm (Monocross ), coil spring/gas-oil damper, 109 mm (4.3 inches)"
           },
           {
             "key": "front_brake",
@@ -75,7 +85,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -115,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

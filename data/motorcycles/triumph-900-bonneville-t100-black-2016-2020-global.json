@@ -113,6 +113,11 @@
             "value": "HF204"
           },
           {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK DPR8EA-9"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.52 L"
@@ -121,6 +126,11 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 pitch, 102 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 10W, 0.48 litres (0.51 US quarts) per leg"
           },
           {
             "key": "brake_fluid",

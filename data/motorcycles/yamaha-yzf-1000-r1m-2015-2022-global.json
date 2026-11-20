@@ -8,7 +8,7 @@
     "model_group": "yamaha-yzf-1000-r1m",
     "category": "Supersport",
     "displacement": "1000 cc",
-    "summary": "Yamaha YZF 1000 R1M (2015–2022). 112 Nm, 204.1 kg, 861 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha YZF 1000 R1M (2015–2022). 998 cc, 197.3 hp, 113.3 Nm, 202 kg, 860 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "yzf-1000-r1m",
@@ -17,15 +17,30 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "998 cc liquid-cooled In-line six, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "998 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "197.3 hp @ 13,500 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "112 Nm @ 11,500 rpm"
+            "value": "113.3 Nm @ 11,500 rpm"
           },
           {
             "key": "transmission",
@@ -35,47 +50,42 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "43mm Öhlins® Electronic Racing Suspension NPX fork, fully adjustable, 119 mm (4.7 inches)"
+            "value": "Telescopic fork, 120 mm (4.7 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Öhlins® Electronic Racing Suspension single shock, fully adjustable, 119 mm (4.7 inches)"
+            "value": "Swingarm, 120 mm (4.7 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. ABS. Hydraulic. Four-piston calipers."
+            "value": "Double disc. Hydraulic"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. ABS. Hydraulic."
+            "value": "Single disc. Hydraulic."
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70-ZR17 front, 200/55-ZR17 rear"
+            "value": "120/70-ZR17M/C front, 200/55-ZR17/C rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "861 mm"
+            "value": "860 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "204.1 kg"
+            "value": "202 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "17.03 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
+            "value": "17 L"
           },
           {
             "key": "model_years",
@@ -100,7 +110,7 @@
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "Chain"
+            "value": "Constant mesh"
           },
           {
             "key": "brake_fluid",

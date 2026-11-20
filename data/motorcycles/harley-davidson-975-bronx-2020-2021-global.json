@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-975-bronx",
     "category": "Naked",
     "displacement": "975 cc",
-    "summary": "Harley-Davidson 975 Bronx (2020–2021). 975 cc, 115.0 hp (83.9 kW)). Some specifications are still being compiled.",
+    "summary": "Harley-Davidson 975 Bronx (2020–2021). 975 cc, 115.0 hp (83.9 kW)), 96.3 Nm (9.8 kgf-m or 71.0 ft.lbs). Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "975-bronx",
@@ -75,7 +75,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -100,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

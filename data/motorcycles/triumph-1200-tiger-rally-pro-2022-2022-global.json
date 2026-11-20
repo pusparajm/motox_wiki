@@ -8,7 +8,7 @@
     "model_group": "triumph-1200-tiger-rally-pro",
     "category": "Adventure",
     "displacement": "1200 cc",
-    "summary": "Triumph 1200 Tiger Rally Pro (2022). . Some specifications are still being compiled.",
+    "summary": "Triumph 1200 Tiger Rally Pro (2022). 130 Nm, 875 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "triumph",
       "1200-tiger-rally-pro",
@@ -25,7 +25,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "130 Nm @ 7000 rpm"
+            "value": "130 Nm @ 7,000 rpm"
           },
           {
             "key": "transmission",
@@ -75,7 +75,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -110,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

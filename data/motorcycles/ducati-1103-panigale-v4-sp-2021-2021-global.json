@@ -103,6 +103,11 @@
             "value": "3.4 L"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF159"
+          },
+          {
             "key": "spark_plug",
             "label": "Spark Plug",
             "value": "NGK LMDR10A-JS"

@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-flsb-1750-sport-glide",
     "category": "Commuter",
     "displacement": "1750 cc",
-    "summary": "Harley-Davidson FLSB 1750 Sport Glide (2018–2020). . Some specifications are still being compiled.",
+    "summary": "Harley-Davidson FLSB 1750 Sport Glide (2018–2020). 1746 cc, 86 hp, 145 Nm, 317 kg, 653 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "flsb-1750-sport-glide",
@@ -17,15 +17,30 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1746 cc air-cooled V2, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1746 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "86 hp @ 5,020 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "146.5 Nm @ 2750 rpm"
+            "value": "145 Nm @ 3,000 rpm"
           },
           {
             "key": "transmission",
@@ -35,17 +50,17 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic fork"
+            "value": "Telescopic fork, 130 mm (5.1 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Twin shocks"
+            "value": "Twin shocks, 86 mm (3.4 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. 4-piston. ABS."
+            "value": "Single disc. 4-piston. ABS."
           },
           {
             "key": "rear_brake",
@@ -63,6 +78,11 @@
             "value": "653 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "317 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "18.93 L"
@@ -71,11 +91,6 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2018–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
@@ -130,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

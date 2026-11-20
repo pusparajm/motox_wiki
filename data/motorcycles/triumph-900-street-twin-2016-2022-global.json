@@ -108,6 +108,11 @@
             "value": "10W-40"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.52 L"
@@ -115,7 +120,7 @@
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "Chain"
+            "value": "520 pitch, 102 links"
           },
           {
             "key": "brake_fluid",

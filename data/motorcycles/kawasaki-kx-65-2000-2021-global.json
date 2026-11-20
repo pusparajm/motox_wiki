@@ -8,7 +8,7 @@
     "model_group": "kawasaki-kx-65",
     "category": "Motocross",
     "displacement": "65 cc",
-    "summary": "Kawasaki KX 65 (2000–2021). 60 kg. Some specifications are still being compiled.",
+    "summary": "Kawasaki KX 65 (2000–2021). 64.7 cc, 12.3 hp (9.0 kW)), 9.7 Nm (1.0 kgf-m or 7.2 ft.lbs), 60 kg, 759 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "kawasaki",
       "kx-65",
@@ -17,11 +17,31 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "64.7 cc liquid-cooled Single cylinder, two-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "64.7 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "12.3 hp (9.0 kW))"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "9.7 Nm (1.0 kgf-m or 7.2 ft.lbs)"
+          },
           {
             "key": "transmission",
             "label": "Transmission",
@@ -35,17 +55,17 @@
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Wheel TravelUni-Trak® single shock system with 4-way rebound damping and fully adjustable spring preload, 240 mm (9.4 inches)"
+            "value": "240 mm (9.4 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Single disc. Single-piston caliper"
+            "value": "Single disc"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Single-piston caliper"
+            "value": "Single disc"
           },
           {
             "key": "tyres",
@@ -71,17 +91,17 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2000–2021"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK BR10EG"
+          },
           {
             "key": "coolant",
             "label": "Coolant",
@@ -91,6 +111,11 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "Chain"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 10W, 0.25-0.25 litres (0.26-0.27 US quarts) per leg"
           },
           {
             "key": "brake_fluid",
@@ -110,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

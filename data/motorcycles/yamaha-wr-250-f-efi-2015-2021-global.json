@@ -8,7 +8,7 @@
     "model_group": "yamaha-wr-250-f-efi",
     "category": "Enduro",
     "displacement": "250 cc",
-    "summary": "Yamaha WR 250 F Efi (2015–2021). 115.2 kg. Some specifications are still being compiled.",
+    "summary": "Yamaha WR 250 F Efi (2015–2021). 250 cc, 15.2 hp, 21.6 Nm, 115.2 kg, 965 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "wr-250-f-efi",
@@ -17,11 +17,31 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "250 cc liquid-cooled Single cylinder, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "250 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "15.2 hp @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "21.6 Nm @ 6,000 rpm"
+          },
           {
             "key": "transmission",
             "label": "Transmission",
@@ -55,7 +75,7 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "955 mm"
+            "value": "965 mm"
           },
           {
             "key": "weight",
@@ -65,17 +85,12 @@
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "8.14 L"
+            "value": "8.33 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2015–2021"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
@@ -105,7 +120,7 @@
           {
             "key": "coolant",
             "label": "Coolant",
-            "value": "0.93 L"
+            "value": "1 L"
           },
           {
             "key": "chain",
@@ -135,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

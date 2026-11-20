@@ -8,12 +8,13 @@
     "model_group": "harley-davidson-rh-975-nightster",
     "category": "Naked",
     "displacement": "975 cc",
-    "summary": "Harley-Davidson RH 975 Nightster brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Harley-Davidson RH 975 Nightster (2022–Present). 1201.3 cc, 107.1 Nm, 254.9 kg, 653 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "rh-975-nightster",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,64 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1201.3 cc air-cooled V2, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "975 cc"
+            "value": "1201.3 cc"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "107.1 Nm @ 4,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, Belt"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "39 mm, 92 mm (3.6 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Mild steel, rectangular tube section, stamped junctions, MIG welded swing-arm. Coil-over; preload dual-adjustable shocks., 41 mm (1.6 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Dual-piston"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Single-piston"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "100/90-B19 front, 150/80-B16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "653 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "254.9 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12.49 L"
           },
           {
             "key": "model_years",
@@ -34,13 +90,58 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.6 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "20W-50"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF170"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK DCPR7E"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.1 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 15W, 0.40 litres (0.42 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 8,000 km (5,000 miles)"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +155,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

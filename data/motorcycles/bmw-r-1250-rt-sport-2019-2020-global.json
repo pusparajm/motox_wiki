@@ -8,7 +8,7 @@
     "model_group": "bmw-r-1250-rt-sport",
     "category": "Commuter",
     "displacement": "1250 cc",
-    "summary": "BMW R 1250 RT Sport (2019–2020). 1254 cc, 143 Nm, 805 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "BMW R 1250 RT Sport (2019–2020). 1254 cc, 136 hp, 143 Nm, 279 kg, 690 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "bmw",
       "r-1250-rt-sport",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,12 +25,17 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "1254 cc liquid-cooled"
+            "value": "1254 cc liquid-cooled Twin, four-stroke"
           },
           {
             "key": "displacement",
             "label": "Displacement",
             "value": "1254 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "136 hp @ 7,750 rpm"
           },
           {
             "key": "torque",
@@ -45,7 +50,7 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "BMW Telelever, with anti-dive top fork bridge, trailing arm pivot-mounted on engine and telescopic forks, central spring, 120 mm"
+            "value": "BMW Telelever, with anti-dive top fork bridge, leading link mounted on engine and telescopic forks, central spring strut supported by leading link and frame, 120 mm"
           },
           {
             "key": "rear_suspension",
@@ -70,17 +75,17 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "805 mm"
+            "value": "690 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "279 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "25 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
@@ -100,7 +105,7 @@
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "SAE 5W-40, API SL"
+            "value": "SAE 5W-40, API SL / JASO MA2"
           },
           {
             "key": "oil_filter",

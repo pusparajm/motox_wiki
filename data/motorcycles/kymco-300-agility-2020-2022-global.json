@@ -8,7 +8,7 @@
     "model_group": "kymco-300-agility",
     "category": "Scooter",
     "displacement": "300 cc",
-    "summary": "Kymco 300 Agility+ (2020–2022). . Some specifications are still being compiled.",
+    "summary": "Kymco 300 Agility+ (2020–2022). 125 cc, 9.4 hp, 3.5 Nm, 840 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "kymco",
       "300-agility",
@@ -23,14 +23,29 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "125 cc forced air (fan)-cooled Single cylinder, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "125 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "9.4 hp @ 7,500 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "3.3 Nm @ 7000 rpm"
+            "value": "3.5 Nm @ 7,000 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "5-speed, Shaft drive (cardan)"
+            "value": "Automatic, Shaft drive (cardan)"
           },
           {
             "key": "front_suspension",
@@ -60,7 +75,7 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "737 mm"
+            "value": "840 mm"
           },
           {
             "key": "fuel_capacity",
@@ -75,7 +90,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -120,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

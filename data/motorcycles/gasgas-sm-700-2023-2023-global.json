@@ -8,12 +8,13 @@
     "model_group": "gasgas-sm-700",
     "category": "Naked",
     "displacement": "700 cc",
-    "summary": "GasGas SM 700 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "GasGas SM 700 (2023). 73.5 Nm, 898 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "gasgas",
       "sm-700",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,49 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "700 cc"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "73.5 Nm @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-gear transmission, claw shifted, Chain drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "WP APEX 48, 215 mm (8.5 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP APEX with Pro-Lever linkage, 240 mm (9.4 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Disc brake with radially mounted four-piston brake caliper, floating brake disc"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Disc brake with single-piston brake caliper, floating"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70 ZR 17 M/C 58W TL front, 160/60 ZR 17 M/C 69W TL rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "898 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13.5 L"
           },
           {
             "key": "model_years",
@@ -34,13 +75,53 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "1.7 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W/50"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "6 N·m (4.4 lb·ft)"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.2 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "520 pitch, 118 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 / DOT 5.1"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 10,000 km (6,200 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

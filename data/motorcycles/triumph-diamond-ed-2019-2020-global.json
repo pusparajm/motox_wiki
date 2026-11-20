@@ -8,7 +8,7 @@
     "model_group": "triumph-diamond-ed",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Triumph Diamond Ed. (2019–2020). . Some specifications are still being compiled.",
+    "summary": "Triumph Diamond Ed. (2019–2020). 105 Nm, 790 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "triumph",
       "diamond-ed",
@@ -25,7 +25,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "105 Nm @ 3100 rpm"
+            "value": "105 Nm @ 3,100 rpm"
           },
           {
             "key": "transmission",
@@ -35,12 +35,12 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Kyb 41mm cartidge forks,, 120 mm (4.7 inches)"
+            "value": "Kyb 41mm cartidge forks, 120 mm (4.7 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Kyb twin shocks with adjustable preload,, 120 mm (4.7 inches)"
+            "value": "Kyb twin shocks with adjustable preload, 120 mm (4.7 inches)"
           },
           {
             "key": "front_brake",
@@ -75,7 +75,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

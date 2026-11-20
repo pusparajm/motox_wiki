@@ -113,6 +113,11 @@
             "value": "HF171"
           },
           {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK DCPR7E"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "Belt"

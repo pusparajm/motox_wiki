@@ -8,12 +8,13 @@
     "model_group": "energica-eva-ribelle",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Energica Eva Ribelle brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Energica Eva Ribelle (2015–2021). 215.0 Nm (21.9 kgf-m or 158.6 ft.lbs), 260 kg, 790 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "energica",
       "eva-ribelle",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,6 +23,51 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "215.0 Nm (21.9 kgf-m or 158.6 ft.lbs)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Marzocchi 43 mm, Adjustable Rebound and Compression Damping, Spring Preload"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Bitubo Mono Shock Adjustable Rebound, Spring Preload"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. Floating discs. Four-piston calipers. ABS."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Two-piston calipers. ABS."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 180/55-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "790 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "260 kg"
+          },
+          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2015–2021"
@@ -29,13 +75,18 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Regina (16/44) 525 O-Ring Chain"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -49,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

@@ -8,7 +8,7 @@
     "model_group": "honda-cb-1100-ex",
     "category": "Naked",
     "displacement": "1100 cc",
-    "summary": "Honda CB 1100 EX (2014–2021). 91.3 Nm, 255 kg, 792 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Honda CB 1100 EX (2014–2021). 1140 cc, 88.5 hp, 91 Nm, 260 kg, 795 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "cb-1100-ex",
@@ -17,15 +17,30 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1140 cc oil & air-cooled In-line four, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1140 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "88.5 hp @ 7,500 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "91.3 Nm @ 5,500 rpm"
+            "value": "91 Nm @ 5,000 rpm"
           },
           {
             "key": "transmission",
@@ -60,22 +75,17 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "792 mm"
+            "value": "795 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "255 kg"
+            "value": "260 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "16.8 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
+            "value": "17.5 L"
           },
           {
             "key": "model_years",

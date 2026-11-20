@@ -8,39 +8,130 @@
     "model_group": "ducati-1103-panigale-v4-sp2",
     "category": "Supersport",
     "displacement": "1103 cc",
-    "summary": "Ducati 1103 Panigale V4 SP2 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Ducati 1103 Panigale V4 SP2 (2022–Present). 1103 cc, 215.5 hp, 123.6 Nm, 198.5 kg, 850 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "ducati",
       "1103-panigale-v4-sp2",
       "supersport",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1103 cc liquid-cooled V4, four-stroke"
+          },
           {
             "key": "displacement",
             "label": "Displacement",
             "value": "1103 cc"
           },
           {
+            "key": "power",
+            "label": "Max Power",
+            "value": "215.5 hp @ 13,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "123.6 Nm @ 9,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Fully adjustable Showa BPF fork 43 mm chromed inner tubes, 120 mm (4.7 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Fully adjustable Sachs unit. Aluminium single-sided swingarm., 130 mm (5.1 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Brembo"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Brembo"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 200/60-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "850 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "198.5 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
+          },
+          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2022–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.4 L"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF159"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK LMDR10A-JS"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.05 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 114 links"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 12,000 km (7,500 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

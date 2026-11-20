@@ -8,7 +8,7 @@
     "model_group": "kymco-ak-550-st",
     "category": "Scooter",
     "displacement": "550 cc",
-    "summary": "Kymco AK 550 ST (2022–Present). . Some specifications are still being compiled.",
+    "summary": "Kymco AK 550 ST (2022–Present). 550.4 cc, 53 hp, 55.1 Nm, 226 kg, 785 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "kymco",
       "ak-550-st",
@@ -17,15 +17,30 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "550.4 cc liquid-cooled Twin, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "550.4 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "53 hp @ 7,500 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "55.1 Nm @ 5500 rpm"
+            "value": "55.1 Nm @ 5,500 rpm"
           },
           {
             "key": "front_suspension",
@@ -58,6 +73,11 @@
             "value": "785 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "226 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "15 L"
@@ -66,11 +86,6 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2022–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
@@ -86,6 +101,11 @@
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "10W-40"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF164"
           },
           {
             "key": "spark_plug",
@@ -115,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

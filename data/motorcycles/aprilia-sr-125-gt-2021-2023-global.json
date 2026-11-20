@@ -8,7 +8,7 @@
     "model_group": "aprilia-sr-125-gt",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Aprilia SR 125 GT (2021–Present). 12 Nm, 115 kg, 799 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Aprilia SR 125 GT (2021–Present). 124.5 cc, 14.8 hp, 12 Nm, 115 kg, 799 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "aprilia",
       "sr-125-gt",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124.5 cc air-cooled Single cylinder, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "124.5 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "14.8 hp @ 8,700 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -71,11 +86,6 @@
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "9 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",

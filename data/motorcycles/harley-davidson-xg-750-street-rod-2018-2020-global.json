@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-xg-750-street-rod",
     "category": "Naked",
     "displacement": "750 cc",
-    "summary": "Harley-Davidson XG 750 Street Rod (2018–2020). . Some specifications are still being compiled.",
+    "summary": "Harley-Davidson XG 750 Street Rod (2018–2020). 1130.8 cc, 108.5 Nm, 297.1 kg, 762 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "xg-750-street-rod",
@@ -23,14 +23,24 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1130.8 cc liquid-cooled V2, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1130.8 cc"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "65 Nm @ 4000 rpm"
+            "value": "108.5 Nm @ 7,000 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-speed, Belt"
+            "value": "5-speed, Belt"
           },
           {
             "key": "front_suspension",
@@ -45,27 +55,32 @@
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. 2-piston floated, optional ABS"
+            "value": "Double disc"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. 2-piston floated, optional ABS"
+            "value": "Single disc"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70-R17 front, 160/60-R17 rear"
+            "value": "120/70-ZR19 front, 180/55-ZR19 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "765 mm"
+            "value": "762 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "297.1 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "13.25 L"
+            "value": "18.92 L"
           },
           {
             "key": "model_years",
@@ -75,7 +90,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -85,12 +100,47 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "3.1 L"
+            "value": "4.3 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "20W-50"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF174C"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK DCPR8E"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.4 L"
           },
           {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "Belt"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 15W"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 8,000 km (5,000 miles)"
           },
           {
             "key": "front_brake_pads",
@@ -105,7 +155,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

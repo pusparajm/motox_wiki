@@ -8,7 +8,7 @@
     "model_group": "honda-cb-1100-rs-abs",
     "category": "Naked",
     "displacement": "1100 cc",
-    "summary": "Honda CB 1100 RS ABS (2017–2021). 91 Nm, 252 kg, 795 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Honda CB 1100 RS ABS (2017–2021). 1140 cc, 88.5 hp, 91 Nm, 252 kg, 795 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "cb-1100-rs-abs",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1140 cc oil & air-cooled In-line four, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1140 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "88.5 hp @ 7,500 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -35,12 +50,12 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "43mm conventional fork (SDBV) with adjustable spring preload"
+            "value": "43mm conventional fork (SDBV) with adjustable spring preload, 107 mm (4.2 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Twin shocks with spring preload adjustability"
+            "value": "Twin shocks with spring preload adjustability, 114 mm (4.5 inches)"
           },
           {
             "key": "front_brake",
@@ -71,11 +86,6 @@
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "16.8 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",

@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-flhtcutgse-1917-cvo-tri-glide",
     "category": "Naked",
     "displacement": "1917 cc",
-    "summary": "Harley-Davidson FLHTCUTGSE 1917 CVO Tri Glide (2020–2022). . Some specifications are still being compiled.",
+    "summary": "Harley-Davidson FLHTCUTGSE 1917 CVO Tri Glide (2020–2022). 169.5 Nm, 575.6 kg, 658 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "flhtcutgse-1917-cvo-tri-glide",
@@ -25,7 +25,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "169.5 Nm @ 3750 rpm"
+            "value": "169.5 Nm @ 3,750 rpm"
           },
           {
             "key": "transmission",
@@ -58,6 +58,11 @@
             "value": "658 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "575.6 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "22.71 L"
@@ -70,7 +75,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -130,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

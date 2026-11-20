@@ -8,7 +8,7 @@
     "model_group": "ktm-rc8-890-c",
     "category": "Sport",
     "displacement": "890 cc",
-    "summary": "KTM RC8 890 C (2022). 125 cc. Some specifications are still being compiled.",
+    "summary": "KTM RC8 890 C (2022). 125 cc, 824 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "rc8-890-c",
@@ -36,6 +36,16 @@
             "key": "transmission",
             "label": "Transmission",
             "value": "6-gear transmission, claw shifted, Chain drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "WP upside-down Ø 43 mm, 120 mm (4.7 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "150 mm (5.9 inches)"
           },
           {
             "key": "front_brake",
@@ -70,7 +80,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -130,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

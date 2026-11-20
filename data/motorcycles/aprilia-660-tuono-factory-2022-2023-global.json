@@ -8,12 +8,13 @@
     "model_group": "aprilia-660-tuono-factory",
     "category": "Sport",
     "displacement": "660 cc",
-    "summary": "Aprilia 660 Tuono Factory brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Aprilia 660 Tuono Factory (2022–Present). 999.6 cc, 167.3 hp, 111.5 Nm, 835 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "aprilia",
       "660-tuono-factory",
       "sport",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,64 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "999.6 cc liquid-cooled V4, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "660 cc"
+            "value": "999.6 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "167.3 hp @ 11,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "111.5 Nm @ 9,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Sachs upside down front fork with diam. 43 mm stanchions. Forged aluminium calliper mountings for radial callipers. Completely adjustable spring preload and hydraulic compression and rebound damping., 120 mm (4.7 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Sachs piggy back monoshock with completely adjustable: spring preload and hydraulic compression and rebound damping. APS progressive linkage, 130 mm (5.1 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Floating stainless steel discs with lightweight stainless steel rotor with 6 studs. Brembo radial callipers with 4 diam. horizontally opposed 32 mm pistons. Sintered pads. Axial pump master cylinder and metal braided brake hoses."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Brembo floating calliper with two and #61638;32 mm isolated pistons. Pump with integrated tank and metal braided hose."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 190/55-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "835 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
           },
           {
             "key": "model_years",
@@ -34,13 +90,58 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "4 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "5W-40"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF138"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK DCPR9E"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.6 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 108 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 10W"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 10,000 km (6,200 miles)"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +155,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

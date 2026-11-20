@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-800-superveloce",
     "category": "Naked",
     "displacement": "800 cc",
-    "summary": "MV Agusta 800 Superveloce (2019–2022). . Some specifications are still being compiled.",
+    "summary": "MV Agusta 800 Superveloce (2019–2022). 798 cc, 147 hp, 88 Nm, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "mv-agusta",
       "800-superveloce",
@@ -23,9 +23,24 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "798 cc oil & air-cooled In-line three, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "798 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "147 hp @ 13,000 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "88 Nm @ 10100 rpm"
+            "value": "88 Nm @ 10,100 rpm"
           },
           {
             "key": "transmission",
@@ -35,12 +50,12 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Marzocchi “UPSIDE DOWN” telescopic hydraulic fork with rebound-compression damping and spring preload external and separate adjustment, 125 mm (4.9 inches)"
+            "value": "Marzocchi, 125 mm (4.9 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Progressive Sachs, single shock absorber with rebound and compression damping and spring preload adjustment, 130 mm (5.1 inches)"
+            "value": "Progressive Sachs, single shock absorber with rebound and compression damping and spring preload adjustment, 123 mm (4.8 inches)"
           },
           {
             "key": "front_brake",
@@ -75,7 +90,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -120,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

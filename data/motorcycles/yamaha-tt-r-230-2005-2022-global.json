@@ -8,7 +8,7 @@
     "model_group": "yamaha-tt-r-230",
     "category": "Naked",
     "displacement": "230 cc",
-    "summary": "Yamaha TT-R 230 (2005–2022). 114 kg. Some specifications are still being compiled.",
+    "summary": "Yamaha TT-R 230 (2005–2022). 223 cc, 18.6 Nm, 114 kg, 870 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "tt-r-230",
@@ -23,14 +23,34 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "223 cc air-cooled Single cylinder, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "223 cc"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "18.6 Nm @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic fork"
+            "value": "Telescopic fork, 240 mm (9.4 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swingarm (link suspension)"
+            "value": "Swingarm (link suspension), 221 mm (8.7 inches)"
           },
           {
             "key": "front_brake",
@@ -70,7 +90,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -120,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

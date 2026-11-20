@@ -103,6 +103,11 @@
             "value": "4.2 L"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF153"
+          },
+          {
             "key": "spark_plug",
             "label": "Spark Plug",
             "value": "NGK MAR9A-J"

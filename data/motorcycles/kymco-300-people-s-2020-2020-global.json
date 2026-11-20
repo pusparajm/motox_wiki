@@ -43,14 +43,19 @@
             "value": "12.3 Nm @ 7,000 rpm"
           },
           {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Automatic, Belt"
+          },
+          {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic"
+            "value": "Telescopic, 97 mm (3.8 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Twin shocks"
+            "value": "Twin shocks, 75 mm (3.0 inches)"
           },
           {
             "key": "front_brake",
@@ -78,14 +83,14 @@
             "value": "9 L"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
-          },
-          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2020"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -93,9 +98,19 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "0.8 L"
+          },
+          {
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "10W-40"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF566"
           },
           {
             "key": "spark_plug",
@@ -106,6 +121,16 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "CVT"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 4,000 km (2,500 miles)"
           },
           {
             "key": "front_brake_pads",
@@ -120,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

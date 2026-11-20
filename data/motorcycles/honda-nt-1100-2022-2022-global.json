@@ -8,7 +8,7 @@
     "model_group": "honda-nt-1100",
     "category": "Naked",
     "displacement": "1100 cc",
-    "summary": "Honda NT 1100 (2022). 104 Nm, 238.1 kg, 820 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Honda NT 1100 (2022). 1084 cc, 100.6 hp, 104 Nm, 238.1 kg, 820 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "nt-1100",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1084 cc liquid-cooled Twin, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1084 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "100.6 hp @ 7,500 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -73,11 +88,6 @@
             "value": "20.4 L"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
-          },
-          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2022"
@@ -103,6 +113,11 @@
             "value": "HF204"
           },
           {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "SILMAR8A9S (NGK)"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.81 L"
@@ -110,7 +125,7 @@
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "Chain"
+            "value": "525 pitch, 122 links"
           },
           {
             "key": "brake_fluid",

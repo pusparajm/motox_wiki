@@ -8,7 +8,7 @@
     "model_group": "beta-alp-200-4-stroke",
     "category": "Naked",
     "displacement": "200 cc",
-    "summary": "Beta ALP 200 4-stroke (2000–2020). 199 cc. Some specifications are still being compiled.",
+    "summary": "Beta ALP 200 4-stroke (2000–2020). 199 cc, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "beta",
       "alp-200-4-stroke",
@@ -80,7 +80,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -101,6 +101,11 @@
             "key": "oil_filter",
             "label": "Oil Filter",
             "value": "HF132"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK DR8EA"
           },
           {
             "key": "chain",
@@ -135,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

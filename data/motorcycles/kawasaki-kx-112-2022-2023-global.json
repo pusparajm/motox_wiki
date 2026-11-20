@@ -8,12 +8,13 @@
     "model_group": "kawasaki-kx-112",
     "category": "Motocross",
     "displacement": "112 cc",
-    "summary": "Kawasaki KX 112 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Kawasaki KX 112 (2022–Present). 8.0 Nm (0.8 kgf-m or 5.9 ft.lbs), 76.7 kg, 871 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "kawasaki",
       "kx-112",
       "motocross",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,54 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "112 cc"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "8.0 Nm (0.8 kgf-m or 5.9 ft.lbs)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "36mm inverted telescopic cartridge fork with 20-way compression damping, 274 mm (10.8 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Uni-Trak® gas charged shock with piggyback reservoir with 24-way compression and 21-way rebound damping plus adjustable spring preload, 274 mm (10.8 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc. Double-piston caliper​."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. Single-piston caliper"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "70/100-19 front, 90/100-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "871 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "76.7 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "5 L"
           },
           {
             "key": "model_years",
@@ -34,13 +80,33 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "0.5 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "420 pitch, 124 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.29-0.33 litres (0.31-0.34 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

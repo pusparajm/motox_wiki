@@ -98,14 +98,49 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "10W-40"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF303"
+          },
+          {
             "key": "spark_plug",
             "label": "Spark Plug",
             "value": "NGK CR9EIA-9"
           },
           {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.9 L"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "Sealed chain"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 10W, 0.46 litres (0.48 US quarts) left leg, 0.43 litres (0.46 US quarts) right leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24,000 km (14,900 miles) or 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 12,000 km (7,500 miles) or 12 months"
           },
           {
             "key": "front_brake_pads",

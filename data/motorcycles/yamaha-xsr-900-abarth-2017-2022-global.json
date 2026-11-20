@@ -8,7 +8,7 @@
     "model_group": "yamaha-xsr-900-abarth",
     "category": "Retro",
     "displacement": "900 cc",
-    "summary": "Yamaha XSR 900 Abarth (2017–2022). 890 cc, 193 kg, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha XSR 900 Abarth (2017–2022). 890 cc, 119 hp, 93 Nm, 193 kg, 810 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "xsr-900-abarth",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,7 +25,7 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "890 cc"
+            "value": "890 cc liquid-cooled In-line three, four-stroke"
           },
           {
             "key": "displacement",
@@ -33,14 +33,29 @@
             "value": "890 cc"
           },
           {
+            "key": "power",
+            "label": "Max Power",
+            "value": "119 hp @ 10,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "93 Nm @ 7,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic fork"
+            "value": "Telescopic fork, 130 mm (5.1 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swingarm (link suspension)"
+            "value": "Swingarm (link suspension), 137 mm (5.4 inches)"
           },
           {
             "key": "front_brake",
@@ -71,11 +86,6 @@
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "14 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
@@ -111,6 +121,11 @@
             "key": "coolant",
             "label": "Coolant",
             "value": "1.72 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 110 links"
           },
           {
             "key": "brake_fluid",

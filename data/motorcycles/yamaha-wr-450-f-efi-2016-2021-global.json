@@ -8,7 +8,7 @@
     "model_group": "yamaha-wr-450-f-efi",
     "category": "Enduro",
     "displacement": "450 cc",
-    "summary": "Yamaha WR 450 F Efi (2016–2021). 118.8 kg. Some specifications are still being compiled.",
+    "summary": "Yamaha WR 450 F Efi (2016–2021). 450 cc, 49 Nm, 118.8 kg, 955 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "wr-450-f-efi",
@@ -22,6 +22,21 @@
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "450 cc liquid-cooled Single cylinder, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "450 cc"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "49 Nm @ 7,000 rpm"
+          },
           {
             "key": "transmission",
             "label": "Transmission",
@@ -75,7 +90,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -113,6 +128,11 @@
             "value": "520 pitch, 114 links"
           },
           {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.00 litres (0.00 US quarts) per leg"
+          },
+          {
             "key": "brake_fluid",
             "label": "Brake Fluid",
             "value": "DOT 4 or DOT 5.1, changed every 24 months"
@@ -135,7 +155,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

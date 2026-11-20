@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-flsl-1750-softail-slim",
     "category": "Cruiser",
     "displacement": "1750 cc",
-    "summary": "Harley-Davidson FLSL 1750 Softail Slim (2018–2020). 149.2 Nm, 304.4 kg, 648 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson FLSL 1750 Softail Slim (2018–2020). 1745 cc, 86 hp, 145 Nm, 304 kg, 660 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "flsl-1750-softail-slim",
@@ -17,15 +17,30 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1745 cc air-cooled V2, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1745 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "86 hp @ 5,020 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "149.2 Nm @ 3,000 rpm"
+            "value": "145 Nm @ 3,000 rpm"
           },
           {
             "key": "transmission",
@@ -60,22 +75,17 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "648 mm"
+            "value": "660 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "304.4 kg"
+            "value": "304 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "18.9 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
@@ -90,7 +100,7 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "4.7 L"
+            "value": "3.3 L"
           },
           {
             "key": "oil_grade",

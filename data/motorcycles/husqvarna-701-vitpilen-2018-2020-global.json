@@ -8,7 +8,7 @@
     "model_group": "husqvarna-701-vitpilen",
     "category": "Naked",
     "displacement": "701 cc",
-    "summary": "Husqvarna 701 Vitpilen (2018–2020). 373 cc. Some specifications are still being compiled.",
+    "summary": "Husqvarna 701 Vitpilen (2018–2020). 373 cc, 835 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "husqvarna",
       "701-vitpilen",
@@ -80,7 +80,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

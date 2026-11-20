@@ -8,7 +8,7 @@
     "model_group": "ducati-797-monster",
     "category": "Retro",
     "displacement": "797 cc",
-    "summary": "Ducati 797 Monster (2017–2021). 93 Nm, 188 kg, 775 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 797 Monster (2017–2021). 937 cc, 111 hp, 93 Nm, 188 kg, 775 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "ducati",
       "797-monster",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "937 cc air-cooled V2, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "937 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "111 hp @ 9,250 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -35,22 +50,22 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "43mm USD fork, 130 mm (5.1 inches)"
+            "value": "43mm USD, 130 mm (5.1 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Progressive linkage with preload and rebound adjustable monoshock, 140 mm (5.5 inches)"
+            "value": "Progressive with preload and rebound adjustable monoshock, 140 mm (5.5 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Semi floating, radially mounted Brembo M4 32 mono bloc with four piston calipersoc. ABS."
+            "value": "Double disc. Semi floating, radially mounted Brembo M4 32 mono bloc with four piston calipers"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Brembo 2-piston. ABS."
+            "value": "Single disc. Brembo 2-piston"
           },
           {
             "key": "tyres",
@@ -73,11 +88,6 @@
             "value": "14 L"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
-          },
-          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2017–2021"
@@ -93,6 +103,11 @@
             "value": "3.1 L"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF153"
+          },
+          {
             "key": "spark_plug",
             "label": "Spark Plug",
             "value": "NGK MAR9A-J"
@@ -106,6 +121,11 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 pitch, 106 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.40 litres (0.42 US quarts) per leg"
           },
           {
             "key": "brake_fluid",

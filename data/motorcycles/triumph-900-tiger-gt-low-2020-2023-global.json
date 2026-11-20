@@ -8,7 +8,7 @@
     "model_group": "triumph-900-tiger-gt-low",
     "category": "Adventure",
     "displacement": "900 cc",
-    "summary": "Triumph 900 Tiger GT Low (2020–Present). . Some specifications are still being compiled.",
+    "summary": "Triumph 900 Tiger GT Low (2020–Present). 888 cc, 93.9 hp, 87 Nm, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "triumph",
       "900-tiger-gt-low",
@@ -23,9 +23,24 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "888 cc liquid-cooled In-line three, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "888 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "93.9 hp @ 8,750 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "87 Nm @ 7250 rpm"
+            "value": "87 Nm @ 7,250 rpm"
           },
           {
             "key": "transmission",
@@ -35,22 +50,22 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Marzocchi 45 mm upside down forks, manual rebound and compression damping adjustment, 140 mm (5.5 inches)"
+            "value": "Marzocchi 45mm upside down forks, non-adjustable, 140 mm (5.5 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Marzocchi rear suspension unit, manual preload and rebound damping adjustment, 151 mm (5.9 inches)"
+            "value": "Marzocchi rear suspension unit, manual preload adjustment, 170mm rear, 151 mm (5.9 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Floating discs, Brembo Stylema 4-piston Monobloc calipers. Radial front master cylinder, Multi-mode ABS, Optimized Cornering ABS"
+            "value": "Double disc. Brembo radial-type monobloc, with 4 pistons"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Brembo single-piston sliding caliper, Multi-mode ABS, Optimized cornering ABS"
+            "value": "Single disc. Brembo with single pistons"
           },
           {
             "key": "tyres",
@@ -60,7 +75,7 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "770 mm"
+            "value": "810 mm"
           },
           {
             "key": "fuel_capacity",
@@ -75,7 +90,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -105,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

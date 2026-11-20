@@ -98,9 +98,34 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF159"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.05 L"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "Regina ORAW2 chain ; Front sprocket 15; Rear sprocket in Ergal 42."
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 12,000 km (7,500 miles) or 12 months"
           },
           {
             "key": "front_brake_pads",

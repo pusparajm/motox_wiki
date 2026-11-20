@@ -8,7 +8,7 @@
     "model_group": "yamaha-tt-r-125-lw",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "Yamaha TT-R 125 LW (2000–2020). 124 cc. Some specifications are still being compiled.",
+    "summary": "Yamaha TT-R 125 LW (2000–2020). 124 cc, 9.7 hp, 9.9 Nm (1.0 kgf-m or 7.3 ft.lbs), 90 kg, 805 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "tt-r-125-lw",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -33,6 +33,16 @@
             "value": "124 cc"
           },
           {
+            "key": "power",
+            "label": "Max Power",
+            "value": "9.7 hp @ 8,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "9.9 Nm (1.0 kgf-m or 7.3 ft.lbs)"
+          },
+          {
             "key": "transmission",
             "label": "Transmission",
             "value": "5-speed, Chain"
@@ -45,17 +55,17 @@
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swingarm, link suspension, 168 mm (6.6 inches)"
+            "value": "Swingarm (link suspension), 168 mm (6.6 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Single disc. Hydraulic."
+            "value": "Hydraulic single disc brake"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Expanding brake (drum brake)"
+            "value": "Mechanical leading trailing drum brake"
           },
           {
             "key": "tyres",
@@ -68,6 +78,11 @@
             "value": "805 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "90 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "6 L"
@@ -76,11 +91,6 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2000–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
@@ -90,17 +100,17 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "1.2 L"
+            "value": "1 L"
           },
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "10W-40"
+            "value": "SAE 10W-40"
           },
           {
             "key": "spark_plug",
             "label": "Spark Plug",
-            "value": "NGK CR7HSA"
+            "value": "13 N·m (9.6 lb·ft)"
           },
           {
             "key": "chain",
@@ -108,9 +118,14 @@
             "value": "428 pitch, 122 links"
           },
           {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 10W, 0.16 litres (0.17 US quarts) per leg"
+          },
+          {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 60,000 km (37,300 miles) or 48 months"
+            "value": "DOT 4"
           },
           {
             "key": "service_interval",
@@ -130,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

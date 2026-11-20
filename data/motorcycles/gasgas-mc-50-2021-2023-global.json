@@ -8,7 +8,7 @@
     "model_group": "gasgas-mc-50",
     "category": "Naked",
     "displacement": "50 cc",
-    "summary": "GasGas MC 50 (2021–Present). 49 cc. Some specifications are still being compiled.",
+    "summary": "GasGas MC 50 (2021–Present). 49 cc, 665 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "gasgas",
       "mc-50",
@@ -80,7 +80,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

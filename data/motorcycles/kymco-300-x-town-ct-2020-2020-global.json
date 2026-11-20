@@ -8,7 +8,7 @@
     "model_group": "kymco-300-x-town-ct",
     "category": "Scooter",
     "displacement": "300 cc",
-    "summary": "Kymco 300 X-Town CT (2020). . Some specifications are still being compiled.",
+    "summary": "Kymco 300 X-Town CT (2020). 25 Nm, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "kymco",
       "300-x-town-ct",
@@ -25,7 +25,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "25 Nm @ 6250 rpm"
+            "value": "25 Nm @ 6,250 rpm"
           },
           {
             "key": "transmission",
@@ -75,7 +75,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -125,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

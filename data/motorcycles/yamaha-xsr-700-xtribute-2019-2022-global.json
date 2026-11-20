@@ -8,7 +8,7 @@
     "model_group": "yamaha-xsr-700-xtribute",
     "category": "Retro",
     "displacement": "700 cc",
-    "summary": "Yamaha XSR 700 XTribute (2019–2022). 188 kg. Some specifications are still being compiled.",
+    "summary": "Yamaha XSR 700 XTribute (2019–2022). 689 cc, 73.8 hp, 68 Nm, 188 kg, 835 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "xsr-700-xtribute",
@@ -17,20 +17,45 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "689 cc liquid-cooled Twin, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "689 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "73.8 hp @ 9,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "68 Nm @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic fork"
+            "value": "Telescopic fork, 130 mm (5.1 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swingarm (link suspension)"
+            "value": "Swingarm (link suspension), 130 mm (5.1 inches)"
           },
           {
             "key": "front_brake",
@@ -66,11 +91,6 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2019–2022"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
           }
         ]
       },
@@ -130,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

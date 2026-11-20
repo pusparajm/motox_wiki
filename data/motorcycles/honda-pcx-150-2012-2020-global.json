@@ -8,7 +8,7 @@
     "model_group": "honda-pcx-150",
     "category": "Scooter",
     "displacement": "150 cc",
-    "summary": "Honda PCX 150 (2012–2020). 149 cc. Some specifications are still being compiled.",
+    "summary": "Honda PCX 150 (2012–2020). 149 cc, 131.1 kg, 765 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "pcx-150",
@@ -68,6 +68,11 @@
             "value": "765 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "131.1 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "7.95 L"
@@ -80,7 +85,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -130,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

@@ -8,12 +8,13 @@
     "model_group": "ktm-1290-super-duke-r",
     "category": "Naked",
     "displacement": "1290 cc",
-    "summary": "KTM 1290 Super Duke R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "KTM 1290 Super Duke R (2014–2022). 1301 cc, 177.0 hp (129.2 kW)), 140.0 Nm (14.3 kgf-m or 103.3 ft.lbs), 835 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "1290-super-duke-r",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,64 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1301 cc water cooling, permanent circulation of coolant by water pump-cooled V2, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1290 cc"
+            "value": "1301 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "177.0 hp (129.2 kW))"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "140.0 Nm (14.3 kgf-m or 103.3 ft.lbs)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-gear transmission, claw shifted, Chain drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "WP USD Ø 48 mm, 125 mm (4.9 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "WP Monoshock, 140 mm (5.5 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc brake with radially mounted four-piston brake calipers, floating brake discs"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc brake with dual-piston brake caliper, fixed brake disc"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70 ZR 17 M/C (58W) TL front, 200/55 ZR 17 M/C (78W) TL rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "835 mm"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "16 L"
           },
           {
             "key": "model_years",
@@ -34,13 +90,58 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.5 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W/50"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "6 N·m (4.4 lb·ft)"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "11 N·m (8.1 lb·ft)"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "3.2 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 112 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 4, 680 ml (22.99 fl. oz.) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 / DOT 5.1"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 15,000 km (9,300 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +155,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

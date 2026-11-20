@@ -8,7 +8,7 @@
     "model_group": "ktm-790-adventure-r",
     "category": "Adventure",
     "displacement": "790 cc",
-    "summary": "KTM 790 Adventure R (2019–2020). 249 cc. Some specifications are still being compiled.",
+    "summary": "KTM 790 Adventure R (2019–2020). 609 cc, 50 hp, 50 Nm, 920 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "790-adventure-r",
@@ -25,32 +25,42 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "249 cc water cooling, permanent circulation of coolant by water pump-cooled"
+            "value": "609 cc liquid-cooled Single cylinder, four-stroke"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "249 cc"
+            "value": "609 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "50 hp @ 7,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "50 Nm @ 5,750 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-gear transmission, claw shifted, Chain drive"
+            "value": "5-speed, Chain"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Disc brake with 4-piston brake caliper"
+            "value": "Single disc"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Disc brake with single-pot brake caliper, floating"
+            "value": "Single disc"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "855 mm"
+            "value": "920 mm"
           },
           {
             "key": "fuel_capacity",
@@ -65,7 +75,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -90,7 +100,7 @@
           {
             "key": "spark_plug",
             "label": "Spark Plug",
-            "value": "15 N·m (11.1 lb·ft)"
+            "value": "NGK DR8EA"
           },
           {
             "key": "coolant",
@@ -130,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

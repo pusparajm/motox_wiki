@@ -43,6 +43,11 @@
             "value": "116.6 Nm @ 7,150 rpm"
           },
           {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
             "key": "front_suspension",
             "label": "Front Suspension",
             "value": "Ohlins 43mm NIX30 upside down forks., 120 mm (4.7 inches)"
@@ -50,7 +55,7 @@
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Öhlins TTX36 twin tube monoshock with preload, rebound and compression damping"
+            "value": "Öhlins TTX36 twin tube monoshock with preload, rebound and compression damping, 130 mm (5.1 inches)"
           },
           {
             "key": "front_brake",
@@ -78,14 +83,14 @@
             "value": "15.52 L"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
-          },
-          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2016–2020"
+          },
+          {
+            "key": "data_status",
+            "label": "Data Status",
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -140,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

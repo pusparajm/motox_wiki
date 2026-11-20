@@ -8,39 +8,130 @@
     "model_group": "kawasaki-z-900-rs-se",
     "category": "Naked",
     "displacement": "900 cc",
-    "summary": "Kawasaki Z 900 RS SE brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Kawasaki Z 900 RS SE (2022–Present). 948 cc, 110 hp, 98 Nm, 215.1 kg, 836 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "kawasaki",
       "z-900-rs-se",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "948 cc liquid-cooled In-line four, four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "900 cc"
+            "value": "948 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "110 hp @ 8,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "98 Nm @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, Chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Inverted telescopic fork with (13-way) adjustable compression and rebound (11-way) damping, spring preload (15-turn, 119 mm (4.7 inches)"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Horizontal back-link swingarm with stepless adjustable rebound damping and spring preload, 140 mm (5.5 inches)"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc. ABS. Four-piston calipers."
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc. ABS. Single-piston caliper."
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-ZR17 front, 180/55-ZR17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "836 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "215.1 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17.03 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2022–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.8 L"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "10W-40"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF303"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2.4 L"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 114 links"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24,000 km (14,900 miles) or 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 12,000 km (7,500 miles) or 12 months"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },

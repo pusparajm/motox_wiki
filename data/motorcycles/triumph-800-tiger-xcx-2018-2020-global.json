@@ -8,7 +8,7 @@
     "model_group": "triumph-800-tiger-xcx",
     "category": "Adventure",
     "displacement": "800 cc",
-    "summary": "Triumph 800 Tiger XCX (2018–2020). 800 cc, 95 hp, 79 Nm, 760 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Triumph 800 Tiger XCX (2018–2020). 800 cc, 95 hp, 79 Nm, 220 kg, 760 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "triumph",
       "800-tiger-xcx",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -55,7 +55,7 @@
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "WP monoshock with remote oil reservoir, hydraulically adjustable preload, rebound damping adjustment"
+            "value": "WP monoshock with remote oil reservoir, hydraulically adjustable preload, rebound damping adjustment, 215 mm (8.5 inches)"
           },
           {
             "key": "front_brake",
@@ -78,14 +78,14 @@
             "value": "760 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "220 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "19 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",

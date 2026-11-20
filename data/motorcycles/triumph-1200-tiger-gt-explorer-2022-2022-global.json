@@ -103,6 +103,11 @@
             "value": "4 L"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "Shaft drive (cardan)"

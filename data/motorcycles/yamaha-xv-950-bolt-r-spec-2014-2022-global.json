@@ -8,7 +8,7 @@
     "model_group": "yamaha-xv-950-bolt-r-spec",
     "category": "Naked",
     "displacement": "950 cc",
-    "summary": "Yamaha XV 950 Bolt R-Spec (2014–2022). 246 kg. Some specifications are still being compiled.",
+    "summary": "Yamaha XV 950 Bolt R-Spec (2014–2022). 942 cc, 80.4 Nm, 246 kg, 690 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "xv-950-bolt-r-spec",
@@ -23,14 +23,34 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "942 cc air-cooled V2, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "942 cc"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "80.4 Nm @ 3,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, Belt"
+          },
+          {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic fork"
+            "value": "Telescopic fork, 120 mm (4.7 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swingarm"
+            "value": "Swingarm, 70 mm (2.8 inches)"
           },
           {
             "key": "front_brake",
@@ -70,7 +90,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -98,6 +118,11 @@
             "value": "13 N·m (9.6 lb·ft)"
           },
           {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "Belt"
+          },
+          {
             "key": "brake_fluid",
             "label": "Brake Fluid",
             "value": "DOT 4"
@@ -115,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

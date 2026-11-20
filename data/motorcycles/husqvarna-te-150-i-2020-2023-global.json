@@ -8,7 +8,7 @@
     "model_group": "husqvarna-te-150-i",
     "category": "Enduro",
     "displacement": "150 cc",
-    "summary": "Husqvarna TE 150 i (2020–Present). 144 cc. Some specifications are still being compiled.",
+    "summary": "Husqvarna TE 150 i (2020–Present). 144 cc, 950 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "husqvarna",
       "te-150-i",
@@ -80,7 +80,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -96,6 +96,11 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 pitch, 118 links"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.61 litres (0.64 US quarts) per leg"
           },
           {
             "key": "brake_fluid",
@@ -115,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

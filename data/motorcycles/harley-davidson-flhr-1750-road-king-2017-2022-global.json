@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-flhr-1750-road-king",
     "category": "Cruiser",
     "displacement": "1750 cc",
-    "summary": "Harley-Davidson FLHR 1750 Road King (2017–2022). 150.5 Nm, 375.6 kg, 668 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson FLHR 1750 Road King (2017–2022). 1746 cc, 89 hp, 150.5 Nm, 375.6 kg, 668 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "harley-davidson",
       "flhr-1750-road-king",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1746 cc air-cooled V2, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1746 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "89 hp @ 5,450 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -35,22 +50,22 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic fork, 49 mm dual bending valve"
+            "value": "Telescopic fork, 117 mm (4.6 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Twin shocks. Premium standard height hand-adjustable."
+            "value": "Twin shocks, 76 mm (3.0 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Optional ABS. 4-piston"
+            "value": "Double disc. ABS. 4-piston"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Optional ABS. 4-piston"
+            "value": "Single disc. ABS. 4-piston"
           },
           {
             "key": "tyres",
@@ -71,11 +86,6 @@
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "22.71 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
@@ -121,6 +131,11 @@
             "key": "brake_fluid",
             "label": "Brake Fluid",
             "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 8,000 km (5,000 miles)"
           },
           {
             "key": "front_brake_pads",

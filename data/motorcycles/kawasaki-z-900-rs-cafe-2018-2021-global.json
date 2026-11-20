@@ -8,7 +8,7 @@
     "model_group": "kawasaki-z-900-rs-cafe",
     "category": "Naked",
     "displacement": "900 cc",
-    "summary": "Kawasaki Z 900 RS Cafe (2018–2021). 98 Nm, 215.1 kg, 836 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Kawasaki Z 900 RS Cafe (2018–2021). 948 cc, 110 hp, 98 Nm, 215.1 kg, 836 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "kawasaki",
       "z-900-rs-cafe",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "948 cc liquid-cooled In-line four, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "948 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "110 hp @ 8,500 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -71,11 +86,6 @@
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "17.03 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",

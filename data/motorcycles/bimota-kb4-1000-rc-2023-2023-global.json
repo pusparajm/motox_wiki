@@ -8,7 +8,7 @@
     "model_group": "bimota-kb4-1000-rc",
     "category": "Naked",
     "displacement": "1000 cc",
-    "summary": "Bimota KB4 1000 RC (2023). . Some specifications are still being compiled.",
+    "summary": "Bimota KB4 1000 RC (2023). 111 Nm, 194 kg, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "bimota",
       "kb4-1000-rc",
@@ -25,7 +25,7 @@
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "111 Nm @ 8000 rpm"
+            "value": "111 Nm @ 8,000 rpm"
           },
           {
             "key": "transmission",
@@ -63,6 +63,11 @@
             "value": "810 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "194 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "19.5 L"
@@ -75,7 +80,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -105,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

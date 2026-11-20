@@ -8,7 +8,7 @@
     "model_group": "honda-cota-301-rr",
     "category": "Naked",
     "displacement": "301 cc",
-    "summary": "Honda Cota 301 RR (2020–Present). 298 cc. Some specifications are still being compiled.",
+    "summary": "Honda Cota 301 RR (2020–Present). 298 cc, 678 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "cota-301-rr",
@@ -80,7 +80,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

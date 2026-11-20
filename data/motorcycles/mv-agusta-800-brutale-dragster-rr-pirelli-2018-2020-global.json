@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-800-brutale-dragster-rr-pirelli",
     "category": "Sport",
     "displacement": "800 cc",
-    "summary": "MV Agusta 800 Brutale Dragster RR Pirelli (2018–2020). . Some specifications are still being compiled.",
+    "summary": "MV Agusta 800 Brutale Dragster RR Pirelli (2018–2020). 798 cc, 140 hp, 87 Nm, 845 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "mv-agusta",
       "800-brutale-dragster-rr-pirelli",
@@ -23,9 +23,24 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "798 cc oil & air-cooled In-line three, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "798 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "140 hp @ 12,300 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "87 Nm @ 10250 rpm"
+            "value": "87 Nm @ 10,250 rpm"
           },
           {
             "key": "transmission",
@@ -35,7 +50,7 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Marzocchi “UPSIDE DOWN” telescopic hydraulic fork with rebound-compression damping and spring preload external and separate adjustment, 125 mm (4.9 inches)"
+            "value": "43 mm Marzocchi, 125 mm (4.9 inches)"
           },
           {
             "key": "rear_suspension",
@@ -45,7 +60,7 @@
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. ABS. Brembo. Floating disc, 4-piston"
+            "value": "Double disc. ABS. Brembo radial-type, 4-piston"
           },
           {
             "key": "rear_brake",
@@ -75,7 +90,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -120,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

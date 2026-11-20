@@ -8,7 +8,7 @@
     "model_group": "ktm-450-rally",
     "category": "Enduro",
     "displacement": "450 cc",
-    "summary": "KTM 450 Rally (2011–2022). 449.3 cc. Some specifications are still being compiled.",
+    "summary": "KTM 450 Rally (2011–2022). 449.3 cc, 960 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "ktm",
       "450-rally",
@@ -80,7 +80,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

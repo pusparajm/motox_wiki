@@ -8,7 +8,7 @@
     "model_group": "yamaha-mt-07-700-tracer",
     "category": "Adventure",
     "displacement": "700 cc",
-    "summary": "Yamaha MT-07 700 Tracer (2016–2020). 68 Nm, 184 kg, 805 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha MT-07 700 Tracer (2016–2020). 689 cc, 73.4 hp, 67 Nm, 184 kg, 805 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "mt-07-700-tracer",
@@ -17,15 +17,30 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "689 cc liquid-cooled Twin, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "689 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "73.4 hp @ 8,750 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "68 Nm @ 6,500 rpm"
+            "value": "67 Nm @ 6,500 rpm"
           },
           {
             "key": "transmission",
@@ -71,11 +86,6 @@
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "14 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",

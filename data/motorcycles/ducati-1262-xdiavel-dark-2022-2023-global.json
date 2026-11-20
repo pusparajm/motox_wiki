@@ -8,7 +8,7 @@
     "model_group": "ducati-1262-xdiavel-dark",
     "category": "Naked",
     "displacement": "1262 cc",
-    "summary": "Ducati 1262 Xdiavel Dark (2022–Present). 1262 cc, 152 hp, 126 Nm, 755 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 1262 Xdiavel Dark (2022–Present). 1262 cc, 152 hp, 126 Nm, 247 kg, 755 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "ducati",
       "1262-xdiavel-dark",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,7 +25,7 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "1262 cc V2, four-stroke"
+            "value": "1262 cc liquid-cooled V2, four-stroke"
           },
           {
             "key": "displacement",
@@ -45,32 +45,32 @@
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "Belt"
+            "value": "6-speed, Belt"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Adustable 50mm fork"
+            "value": "Adjustable usd forks, 120 mm (4.7 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Single shock"
+            "value": "Single shock absorber, Adjustable preload and rebound, 110 mm (4.3 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Semifloating, Radial Brembo Monoblock 4-Piston ABS"
+            "value": "Double disc. ABS. Floating discs. Four-piston calipers. Radially mounted."
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. 2-Piston fioating caliper, Bosch ABS"
+            "value": "Single disc. ABS. Floating disc. Two-piston calipers."
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "front, 240/45-ZR17 rear"
+            "value": "120/70-ZR17 front, 240/45-ZR17 rear"
           },
           {
             "key": "seat_height",
@@ -78,9 +78,14 @@
             "value": "755 mm"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "247 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
           },
           {
             "key": "model_years",
@@ -95,12 +100,17 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "4.4 L"
+            "value": "4.2 L"
           },
           {
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "15W-50"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF153"
           },
           {
             "key": "spark_plug",
@@ -110,7 +120,7 @@
           {
             "key": "coolant",
             "label": "Coolant",
-            "value": "2.07 L"
+            "value": "2.5 L"
           },
           {
             "key": "chain",
@@ -120,12 +130,12 @@
           {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+            "value": "DOT 4 or DOT 5.1, changed every 36 months"
           },
           {
             "key": "service_interval",
             "label": "Service Interval",
-            "value": "Every 15,000 km (9,300 miles) or 24 months"
+            "value": "Every 15,000 km (9,300 miles) or 12 months"
           },
           {
             "key": "front_brake_pads",

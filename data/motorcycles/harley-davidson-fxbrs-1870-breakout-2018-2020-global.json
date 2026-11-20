@@ -50,12 +50,12 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic fork"
+            "value": "Telescopic fork, 143 mm (5.6 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Twin shocks"
+            "value": "Twin shocks, 91 mm (3.6 inches)"
           },
           {
             "key": "front_brake",

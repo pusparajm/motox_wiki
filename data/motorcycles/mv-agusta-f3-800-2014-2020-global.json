@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-f3-800",
     "category": "Sport",
     "displacement": "800 cc",
-    "summary": "MV Agusta F3 800 (2014–2020). . Some specifications are still being compiled.",
+    "summary": "MV Agusta F3 800 (2014–2020). 675 cc, 126 hp, 71 Nm, 812 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "mv-agusta",
       "f3-800",
@@ -23,9 +23,24 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "675 cc liquid-cooled In-line three, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "675 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "126 hp @ 14,400 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "88 Nm @ 10600 rpm"
+            "value": "71 Nm @ 10,600 rpm"
           },
           {
             "key": "transmission",
@@ -35,22 +50,22 @@
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Marzocchi “UPSIDE DOWN” telescopic hydraulic fork with rebound-compression damping and spring preload external and separate adjustment., 125 mm (4.9 inches)"
+            "value": "Marzocchi UPD Telescopic fork, 125 mm (4.9 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Progressive Sachs, single shock absorber with rebound and compression damping and spring preload adjustment., 123 mm (4.8 inches)"
+            "value": "Sachs adjustable monoshock, 123 mm (4.8 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Brembo radial-type monobloc, with 4 piston. ABS."
+            "value": "Double disc"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Brembo with 2 pistons. ABS."
+            "value": "Single disc"
           },
           {
             "key": "tyres",
@@ -60,7 +75,7 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "830 mm"
+            "value": "812 mm"
           },
           {
             "key": "fuel_capacity",
@@ -75,7 +90,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -83,14 +98,44 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "2.5 L"
+          },
+          {
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "5W-40"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF569"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK CR9EKB"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "2 L"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "Cassette style; six speed, constant mesh"
+          },
+          {
+            "key": "fork_oil",
+            "label": "Fork Oil",
+            "value": "SAE 5W, 0.46 litres (0.49 US quarts) per leg"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 or DOT 5.1, changed every 24,000 km (14,900 miles) or 24 months"
           },
           {
             "key": "service_interval",
@@ -110,7 +155,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

@@ -8,7 +8,7 @@
     "model_group": "triumph-1200-thruxton-rs",
     "category": "Retro",
     "displacement": "1200 cc",
-    "summary": "Triumph 1200 Thruxton RS (2020–Present). . Some specifications are still being compiled.",
+    "summary": "Triumph 1200 Thruxton RS (2020–Present). 1200 cc, 104 hp, 112.6 Nm, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
     "tags": [
       "triumph",
       "1200-thruxton-rs",
@@ -23,9 +23,24 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1200 cc liquid-cooled Twin, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1200 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "104 hp @ 7,500 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "112.6 Nm @ 4250 rpm"
+            "value": "112.6 Nm @ 4,250 rpm"
           },
           {
             "key": "transmission",
@@ -75,7 +90,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Partial specification — some details still being compiled"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -93,6 +108,11 @@
             "value": "10W-40"
           },
           {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "HF204"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.56 L"
@@ -100,7 +120,7 @@
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "O-ring chain"
+            "value": "525 pitch, 100 links"
           },
           {
             "key": "brake_fluid",
@@ -125,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the closest MotoSpecVault record; remaining service details are still being compiled."
+            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
           }
         ]
       },

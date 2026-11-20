@@ -8,7 +8,7 @@
     "model_group": "yamaha-tw-200",
     "category": "Naked",
     "displacement": "200 cc",
-    "summary": "Yamaha TW 200 (1987–2022). 196 cc, 126 kg, 790 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha TW 200 (1987–2022). 196 cc, 16 hp, 15 Nm, 126 kg, 790 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "yamaha",
       "tw-200",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,7 +25,7 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "196 cc"
+            "value": "196 cc air-cooled Single cylinder, four-stroke"
           },
           {
             "key": "displacement",
@@ -33,24 +33,44 @@
             "value": "196 cc"
           },
           {
+            "key": "power",
+            "label": "Max Power",
+            "value": "16 hp @ 8,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "15 Nm @ 7,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, Chain"
+          },
+          {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic fork"
+            "value": "Telescopic fork, 160 mm (6.3 inches)"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swingarm"
+            "value": "Swingarm, 150 mm (5.9 inches)"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Hydraulic single disc brake"
+            "value": "Single disc"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Mechanical leading trailing drum brake"
+            "value": "Expanding brake"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/80-18 66P front, 180/80-14 M/C 78P rear"
           },
           {
             "key": "seat_height",
@@ -66,11 +86,6 @@
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "7 L"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
           },
           {
             "key": "model_years",
@@ -90,22 +105,32 @@
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "SAE 10W-40"
+            "value": "10W-40"
           },
           {
             "key": "oil_filter",
             "label": "Oil Filter",
-            "value": "10 N·m (7.4 lb·ft)"
+            "value": "10 N·m (7.2 lb·ft)"
           },
           {
             "key": "spark_plug",
             "label": "Spark Plug",
-            "value": "18 N·m (13 lb·ft)"
+            "value": "NGK DR8EA"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "428 pitch, 120 links"
           },
           {
             "key": "brake_fluid",
             "label": "Brake Fluid",
-            "value": "DOT 4"
+            "value": "DOT 4 or DOT 5.1, changed every 24 months"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Every 6,000 km (3,700 miles) or 12 months"
           },
           {
             "key": "front_brake_pads",

@@ -8,7 +8,7 @@
     "model_group": "honda-sh-125",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Honda SH 125 (2002–2020). 12 Nm, 133.9 kg, 799 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Honda SH 125 (2002–2020). 124.9 cc, 12.9 hp, 12 Nm, 133.9 kg, 799 mm seat. Specifications compiled from MotoSpecVault.",
     "tags": [
       "honda",
       "sh-125",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124.9 cc liquid-cooled Single cylinder, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "124.9 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "12.9 hp @ 8,250 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -73,11 +88,6 @@
             "value": "7 L"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — power, weight or seat data still being compiled"
-          },
-          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2002–2020"
@@ -90,7 +100,7 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "1 L"
+            "value": "0.9 L"
           },
           {
             "key": "oil_grade",
