@@ -8,7 +8,7 @@
     "model_group": "bimota-1000-tesi-h2",
     "category": "Supersport",
     "displacement": "1000 cc",
-    "summary": "Bimota 1000 Tesi H2 (2021–Present). 141 Nm, 840 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Bimota 1000 Tesi H2 (2021–Present). 998 cc, 228 hp, 141 Nm, 214 kg, 840 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "bimota",
       "1000-tesi-h2",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "998 cc liquid-cooled supercharged inline-four four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "998 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "228 hp @ 11,500 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -30,32 +45,32 @@
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-speed, Chain"
+            "value": "6-speed, chain"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Billet aluminum alloy swingarm, 110 mm (4.3 inches)"
+            "value": "Hub-centre steering with billet swingarm, 110 mm travel"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Billet aluminum alloy swingarm, 130 mm (5.1 inches)"
+            "value": "Öhlins TTX36 monoshock, 130 mm travel"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. ABS. Brembo Stylema opposed 4-piston calipers."
+            "value": "Double 330 mm discs, Brembo Stylema, ABS"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. ABS"
+            "value": "Single 220 mm disc, ABS"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70-R17 front, 200/55-ZR17 rear"
+            "value": "120/70-17 front, 200/55-17 rear"
           },
           {
             "key": "seat_height",
@@ -63,50 +78,20 @@
             "value": "840 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "214 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "17 L"
-          },
-          {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2021–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
-          {
-            "key": "oil_capacity",
-            "label": "Engine Oil (with filter)",
-            "value": "5 L"
-          },
-          {
-            "key": "oil_grade",
-            "label": "Oil Grade",
-            "value": "10W-40"
-          },
-          {
-            "key": "chain",
-            "label": "Chain / Final Drive",
-            "value": "Constant mesh"
-          },
-          {
-            "key": "brake_fluid",
-            "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 36,000 km (22,400 miles) or 36 months"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 10,000 km (6,200 miles) or 12 months"
-          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -120,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Bimota Tesi H2 data from published specifications. Kerb weight is quoted at 214 kg; some sources quote 219 kg with a partial tank. Confirm equipment against the owner's manual."
           }
         ]
       },

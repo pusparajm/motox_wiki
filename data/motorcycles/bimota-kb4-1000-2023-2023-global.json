@@ -8,7 +8,7 @@
     "model_group": "bimota-kb4-1000",
     "category": "Naked",
     "displacement": "1000 cc",
-    "summary": "Bimota KB4 1000 (2023). 111 Nm, 194 kg, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Bimota KB4 1000 (2023). 1,043 cc, 140 hp, 111 Nm, 194 kg, 810 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "bimota",
       "kb4-1000",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,043 cc liquid-cooled inline-four four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,043 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "140 hp @ 10,000 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -30,32 +45,32 @@
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-speed, Chain"
+            "value": "6-speed, chain"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Öhlins front fork FG R and and T 43 NIX30, 130 mm (5.1 inches)"
+            "value": "Öhlins NIX30 43 mm USD fork, 130 mm travel"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Aluminum alloy Swingarm billet with Öhlins ttX 36, 122 mm (4.8 inches)"
+            "value": "Öhlins TTX36 monoshock, 122 mm travel"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc"
+            "value": "Double 320 mm discs, Brembo, cornering ABS"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc"
+            "value": "Single 220 mm disc, Brembo, cornering ABS"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70-Z17 front, 190/50-ZR17 rear"
+            "value": "120/70-17 front, 190/50-17 rear"
           },
           {
             "key": "seat_height",
@@ -71,32 +86,12 @@
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
             "value": "19.5 L"
-          },
-          {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2023"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
-          {
-            "key": "oil_capacity",
-            "label": "Engine Oil (with filter)",
-            "value": "3.8 L"
-          },
-          {
-            "key": "chain",
-            "label": "Chain / Final Drive",
-            "value": "Chain"
-          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -110,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Bimota KB4 data from the manufacturer and published specifications. Kerb weight is quoted with a partially filled tank; dry weight is 189 kg. Confirm equipment against the owner's manual."
           }
         ]
       },

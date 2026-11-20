@@ -88163,7 +88163,7 @@
       "model_group": "bimota-bx-450",
       "category": "Naked",
       "displacement": "450 cc",
-      "summary": "Bimota BX 450 (2023). 449 cc, 105 hp, 110.2 kg. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Bimota BX 450 (2023). 449 cc, 110.2 kg. Partial specifications compiled from manufacturer data.",
       "tags": [
         "bimota",
         "bx-450",
@@ -88180,7 +88180,7 @@
             {
               "key": "engine",
               "label": "Engine",
-              "value": "449 cc liquid-cooled Single cylinder, four-stroke"
+              "value": "449 cc liquid-cooled single-cylinder four-stroke"
             },
             {
               "key": "displacement",
@@ -88188,24 +88188,19 @@
               "value": "449 cc"
             },
             {
-              "key": "power",
-              "label": "Max Power",
-              "value": "105 hp @ 9,300 rpm"
-            },
-            {
               "key": "transmission",
               "label": "Transmission",
-              "value": "5-speed, Chain"
+              "value": "5-speed, chain"
             },
             {
               "key": "front_suspension",
               "label": "Front Suspension",
-              "value": "Upside down telescopic fork, 49mm, 305 mm (12.0 inches)"
+              "value": "49 mm USD fork, 305 mm travel"
             },
             {
               "key": "rear_suspension",
               "label": "Rear Suspension",
-              "value": "Uni-trak swingarm, 307 mm (12.1 inches)"
+              "value": "Uni-Trak monoshock, 307 mm travel"
             },
             {
               "key": "front_brake",
@@ -88220,7 +88215,7 @@
             {
               "key": "tyres",
               "label": "Tyres",
-              "value": "90/100-M21 front, 140/80-M18 rear"
+              "value": "90/100-21 front, 140/80-18 rear"
             },
             {
               "key": "weight",
@@ -88233,11 +88228,6 @@
               "value": "10.7 L"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
-            },
-            {
               "key": "data_status",
               "label": "Data Status",
               "value": "Partial specification — some core specifications still being compiled"
@@ -88247,11 +88237,6 @@
         "service": {
           "label": "Service Data",
           "fields": [
-            {
-              "key": "chain",
-              "label": "Chain / Final Drive",
-              "value": "Chain"
-            },
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
@@ -88265,7 +88250,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+              "value": "Bimota BX450 enduro data from published specifications. Power, torque and seat height remain to be verified."
             }
           ]
         },
@@ -89355,7 +89340,7 @@
       "model_group": "bimota-1000-tesi-h2",
       "category": "Supersport",
       "displacement": "1000 cc",
-      "summary": "Bimota 1000 Tesi H2 (2021–Present). 141 Nm, 840 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Bimota 1000 Tesi H2 (2021–Present). 998 cc, 228 hp, 141 Nm, 214 kg, 840 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "bimota",
         "1000-tesi-h2",
@@ -89364,11 +89349,26 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
+            {
+              "key": "engine",
+              "label": "Engine",
+              "value": "998 cc liquid-cooled supercharged inline-four four-stroke"
+            },
+            {
+              "key": "displacement",
+              "label": "Displacement",
+              "value": "998 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "228 hp @ 11,500 rpm"
+            },
             {
               "key": "torque",
               "label": "Max Torque",
@@ -89377,32 +89377,32 @@
             {
               "key": "transmission",
               "label": "Transmission",
-              "value": "6-speed, Chain"
+              "value": "6-speed, chain"
             },
             {
               "key": "front_suspension",
               "label": "Front Suspension",
-              "value": "Billet aluminum alloy swingarm, 110 mm (4.3 inches)"
+              "value": "Hub-centre steering with billet swingarm, 110 mm travel"
             },
             {
               "key": "rear_suspension",
               "label": "Rear Suspension",
-              "value": "Billet aluminum alloy swingarm, 130 mm (5.1 inches)"
+              "value": "Öhlins TTX36 monoshock, 130 mm travel"
             },
             {
               "key": "front_brake",
               "label": "Front Brake",
-              "value": "Double disc. ABS. Brembo Stylema opposed 4-piston calipers."
+              "value": "Double 330 mm discs, Brembo Stylema, ABS"
             },
             {
               "key": "rear_brake",
               "label": "Rear Brake",
-              "value": "Single disc. ABS"
+              "value": "Single 220 mm disc, ABS"
             },
             {
               "key": "tyres",
               "label": "Tyres",
-              "value": "120/70-R17 front, 200/55-ZR17 rear"
+              "value": "120/70-17 front, 200/55-17 rear"
             },
             {
               "key": "seat_height",
@@ -89410,50 +89410,20 @@
               "value": "840 mm"
             },
             {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "214 kg"
+            },
+            {
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "17 L"
-            },
-            {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2021–Present"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
         "service": {
           "label": "Service Data",
           "fields": [
-            {
-              "key": "oil_capacity",
-              "label": "Engine Oil (with filter)",
-              "value": "5 L"
-            },
-            {
-              "key": "oil_grade",
-              "label": "Oil Grade",
-              "value": "10W-40"
-            },
-            {
-              "key": "chain",
-              "label": "Chain / Final Drive",
-              "value": "Constant mesh"
-            },
-            {
-              "key": "brake_fluid",
-              "label": "Brake Fluid",
-              "value": "DOT 4 or DOT 5.1, changed every 36,000 km (22,400 miles) or 36 months"
-            },
-            {
-              "key": "service_interval",
-              "label": "Service Interval",
-              "value": "Every 10,000 km (6,200 miles) or 12 months"
-            },
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
@@ -89467,7 +89437,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+              "value": "Bimota Tesi H2 data from published specifications. Kerb weight is quoted at 214 kg; some sources quote 219 kg with a partial tank. Confirm equipment against the owner's manual."
             }
           ]
         },
@@ -89847,7 +89817,7 @@
       "model_group": "bimota-kb4-1000",
       "category": "Naked",
       "displacement": "1000 cc",
-      "summary": "Bimota KB4 1000 (2023). 111 Nm, 194 kg, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Bimota KB4 1000 (2023). 1,043 cc, 140 hp, 111 Nm, 194 kg, 810 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "bimota",
         "kb4-1000",
@@ -89856,11 +89826,26 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
+            {
+              "key": "engine",
+              "label": "Engine",
+              "value": "1,043 cc liquid-cooled inline-four four-stroke"
+            },
+            {
+              "key": "displacement",
+              "label": "Displacement",
+              "value": "1,043 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "140 hp @ 10,000 rpm"
+            },
             {
               "key": "torque",
               "label": "Max Torque",
@@ -89869,32 +89854,32 @@
             {
               "key": "transmission",
               "label": "Transmission",
-              "value": "6-speed, Chain"
+              "value": "6-speed, chain"
             },
             {
               "key": "front_suspension",
               "label": "Front Suspension",
-              "value": "Öhlins front fork FG R and and T 43 NIX30, 130 mm (5.1 inches)"
+              "value": "Öhlins NIX30 43 mm USD fork, 130 mm travel"
             },
             {
               "key": "rear_suspension",
               "label": "Rear Suspension",
-              "value": "Aluminum alloy Swingarm billet with Öhlins ttX 36, 122 mm (4.8 inches)"
+              "value": "Öhlins TTX36 monoshock, 122 mm travel"
             },
             {
               "key": "front_brake",
               "label": "Front Brake",
-              "value": "Double disc"
+              "value": "Double 320 mm discs, Brembo, cornering ABS"
             },
             {
               "key": "rear_brake",
               "label": "Rear Brake",
-              "value": "Single disc"
+              "value": "Single 220 mm disc, Brembo, cornering ABS"
             },
             {
               "key": "tyres",
               "label": "Tyres",
-              "value": "120/70-Z17 front, 190/50-ZR17 rear"
+              "value": "120/70-17 front, 190/50-17 rear"
             },
             {
               "key": "seat_height",
@@ -89910,32 +89895,12 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "19.5 L"
-            },
-            {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
         "service": {
           "label": "Service Data",
           "fields": [
-            {
-              "key": "oil_capacity",
-              "label": "Engine Oil (with filter)",
-              "value": "3.8 L"
-            },
-            {
-              "key": "chain",
-              "label": "Chain / Final Drive",
-              "value": "Chain"
-            },
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
@@ -89949,7 +89914,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+              "value": "Bimota KB4 data from the manufacturer and published specifications. Kerb weight is quoted with a partially filled tank; dry weight is 189 kg. Confirm equipment against the owner's manual."
             }
           ]
         },
@@ -89974,7 +89939,7 @@
       "model_group": "bimota-kb4-1000-rc",
       "category": "Naked",
       "displacement": "1000 cc",
-      "summary": "Bimota KB4 1000 RC (2023). 111 Nm, 194 kg, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Bimota KB4 1000 RC (2023). 1,043 cc, 140 hp, 111 Nm, 194 kg, 810 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "bimota",
         "kb4-1000-rc",
@@ -89983,11 +89948,26 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
+            {
+              "key": "engine",
+              "label": "Engine",
+              "value": "1,043 cc liquid-cooled inline-four four-stroke"
+            },
+            {
+              "key": "displacement",
+              "label": "Displacement",
+              "value": "1,043 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "140 hp @ 10,000 rpm"
+            },
             {
               "key": "torque",
               "label": "Max Torque",
@@ -89996,32 +89976,32 @@
             {
               "key": "transmission",
               "label": "Transmission",
-              "value": "6-speed, Chain"
+              "value": "6-speed, chain"
             },
             {
               "key": "front_suspension",
               "label": "Front Suspension",
-              "value": "Öhlins front fork FG R and and T 43 NIX30, 130 mm (5.1 inches)"
+              "value": "Öhlins NIX30 43 mm USD fork, 130 mm travel"
             },
             {
               "key": "rear_suspension",
               "label": "Rear Suspension",
-              "value": "Aluminum alloy Swingarm billet with Öhlins ttX 36, 122 mm (4.8 inches)"
+              "value": "Öhlins TTX36 monoshock, 122 mm travel"
             },
             {
               "key": "front_brake",
               "label": "Front Brake",
-              "value": "Double disc"
+              "value": "Double 320 mm discs, Brembo, cornering ABS"
             },
             {
               "key": "rear_brake",
               "label": "Rear Brake",
-              "value": "Single disc"
+              "value": "Single 220 mm disc, Brembo, cornering ABS"
             },
             {
               "key": "tyres",
               "label": "Tyres",
-              "value": "120/70-Z17 front, 190/50-ZR17 rear"
+              "value": "120/70-17 front, 190/50-17 rear"
             },
             {
               "key": "seat_height",
@@ -90037,32 +90017,12 @@
               "key": "fuel_capacity",
               "label": "Fuel Capacity",
               "value": "19.5 L"
-            },
-            {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
         "service": {
           "label": "Service Data",
           "fields": [
-            {
-              "key": "oil_capacity",
-              "label": "Engine Oil (with filter)",
-              "value": "3.8 L"
-            },
-            {
-              "key": "chain",
-              "label": "Chain / Final Drive",
-              "value": "Chain"
-            },
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
@@ -90076,7 +90036,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+              "value": "Bimota KB4 RC data shared with the KB4. The RC is a race-kit variant; confirm its exact equipment and weight against the owner's manual."
             }
           ]
         },
@@ -294740,33 +294700,84 @@
       "model_group": "moto-morini-649-x-cape",
       "category": "Naked",
       "displacement": "649 cc",
-      "summary": "Moto Morini 649 X-Cape brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Morini 649 X-Cape (2020–Present). 649 cc, 60 hp, 56 Nm, 227 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "moto-morini",
         "649-x-cape",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
+            {
+              "key": "engine",
+              "label": "Engine",
+              "value": "649 cc liquid-cooled parallel-twin four-stroke"
+            },
             {
               "key": "displacement",
               "label": "Displacement",
               "value": "649 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2020–Present"
+              "key": "power",
+              "label": "Max Power",
+              "value": "60 hp @ 8,250 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "56 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "50 mm Marzocchi USD fork, 175 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, 165 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 298 mm discs, Brembo, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 255 mm disc, Brembo, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 150/70-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "227 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "18 L"
             }
           ]
         },
@@ -294786,7 +294797,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Moto Morini X-Cape 650 data from the manufacturer. The seat is adjustable to 845 mm; dry weight is quoted as approximately 213 kg. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -294882,33 +294893,84 @@
       "model_group": "moto-morini-650-seiemmezzo",
       "category": "Naked",
       "displacement": "650 cc",
-      "summary": "Moto Morini 650 Seiemmezzo brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Moto Morini 650 Seiemmezzo (2020–Present). 649 cc, 60 hp, 56 Nm, 214 kg, 810 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "moto-morini",
         "650-seiemmezzo",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "649 cc liquid-cooled parallel-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "650 cc"
+              "value": "649 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2020–Present"
+              "key": "power",
+              "label": "Max Power",
+              "value": "60 hp @ 8,250 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "56 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "43 mm KYB USD fork, 120 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, 118 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 298 mm discs, Brembo, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 255 mm disc, Brembo, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-18 front, 160/60-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "810 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "214 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "16 L"
             }
           ]
         },
@@ -294928,7 +294990,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Moto Morini Seiemmezzo 650 data from published specifications. The STR and SCR share the engine and chassis but differ in wheels and tyres. Confirm the exact variant against the owner's manual."
             }
           ]
         },

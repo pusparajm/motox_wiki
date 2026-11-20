@@ -8,7 +8,7 @@
     "model_group": "bimota-bx-450",
     "category": "Naked",
     "displacement": "450 cc",
-    "summary": "Bimota BX 450 (2023). 449 cc, 105 hp, 110.2 kg. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Bimota BX 450 (2023). 449 cc, 110.2 kg. Partial specifications compiled from manufacturer data.",
     "tags": [
       "bimota",
       "bx-450",
@@ -25,7 +25,7 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "449 cc liquid-cooled Single cylinder, four-stroke"
+            "value": "449 cc liquid-cooled single-cylinder four-stroke"
           },
           {
             "key": "displacement",
@@ -33,24 +33,19 @@
             "value": "449 cc"
           },
           {
-            "key": "power",
-            "label": "Max Power",
-            "value": "105 hp @ 9,300 rpm"
-          },
-          {
             "key": "transmission",
             "label": "Transmission",
-            "value": "5-speed, Chain"
+            "value": "5-speed, chain"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Upside down telescopic fork, 49mm, 305 mm (12.0 inches)"
+            "value": "49 mm USD fork, 305 mm travel"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Uni-trak swingarm, 307 mm (12.1 inches)"
+            "value": "Uni-Trak monoshock, 307 mm travel"
           },
           {
             "key": "front_brake",
@@ -65,7 +60,7 @@
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "90/100-M21 front, 140/80-M18 rear"
+            "value": "90/100-21 front, 140/80-18 rear"
           },
           {
             "key": "weight",
@@ -78,11 +73,6 @@
             "value": "10.7 L"
           },
           {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2023"
-          },
-          {
             "key": "data_status",
             "label": "Data Status",
             "value": "Partial specification — some core specifications still being compiled"
@@ -92,11 +82,6 @@
       "service": {
         "label": "Service Data",
         "fields": [
-          {
-            "key": "chain",
-            "label": "Chain / Final Drive",
-            "value": "Chain"
-          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -110,7 +95,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Bimota BX450 enduro data from published specifications. Power, torque and seat height remain to be verified."
           }
         ]
       },

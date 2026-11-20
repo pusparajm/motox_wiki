@@ -8,33 +8,84 @@
     "model_group": "moto-morini-650-seiemmezzo",
     "category": "Naked",
     "displacement": "650 cc",
-    "summary": "Moto Morini 650 Seiemmezzo brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Moto Morini 650 Seiemmezzo (2020–Present). 649 cc, 60 hp, 56 Nm, 214 kg, 810 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "moto-morini",
       "650-seiemmezzo",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "649 cc liquid-cooled parallel-twin four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "650 cc"
+            "value": "649 cc"
           },
           {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2020–Present"
+            "key": "power",
+            "label": "Max Power",
+            "value": "60 hp @ 8,250 rpm"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "56 Nm @ 7,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm KYB USD fork, 120 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "KYB monoshock, 118 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double 298 mm discs, Brembo, ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single 255 mm disc, Brembo, ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-18 front, 160/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "810 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "214 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "16 L"
           }
         ]
       },
@@ -54,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Moto Morini Seiemmezzo 650 data from published specifications. The STR and SCR share the engine and chassis but differ in wheels and tyres. Confirm the exact variant against the owner's manual."
           }
         ]
       },
