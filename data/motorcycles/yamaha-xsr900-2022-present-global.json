@@ -124,6 +124,16 @@
             "key": "parts_note",
             "label": "Parts & Fitment Note",
             "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 634HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "EBC SFA176 · SBS 657LS"
           }
         ]
       },

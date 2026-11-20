@@ -12224,6 +12224,124 @@
         "703 f",
         "703f"
       ]
+    },
+    {
+      "id": "bmw-f-750-gs-2018-2023-global",
+      "make": "BMW",
+      "model": "F 750 GS",
+      "year": "2018–2023",
+      "region": "Global",
+      "category": "Adventure",
+      "displacement": "853 cc",
+      "tags": [
+        "bmw",
+        "f-750-gs",
+        "adventure",
+        "twin"
+      ],
+      "summary": "BMW's mid-weight adventure twin, with a low 815 mm seat, a 19-inch front wheel and a road-biased cast-alloy chassis.",
+      "published": true,
+      "model_group": "bmw-f-750-gs",
+      "engine": "853 cc liquid-cooled DOHC parallel twin, 8 valves",
+      "power": "77 hp (56.2 kW) @ 7,500 rpm",
+      "torque": "83 Nm (61 lb-ft) @ 6,000 rpm",
+      "weight": "224 kg",
+      "seat_height": "815 mm",
+      "fuel_capacity": "15 L",
+      "oil_capacity": "3.0 L (3.2 US qt)",
+      "oil_type": "SAE 5W-40, API SL",
+      "aliases": [
+        "bmw motorrad"
+      ]
+    },
+    {
+      "id": "bmw-f-850-gs-2018-2023-global",
+      "make": "BMW",
+      "model": "F 850 GS",
+      "year": "2018–2023",
+      "region": "Global",
+      "category": "Adventure",
+      "displacement": "853 cc",
+      "tags": [
+        "bmw",
+        "f-850-gs",
+        "adventure",
+        "twin"
+      ],
+      "summary": "The more off-road-focused 853 cc GS, with a 21-inch front wheel, longer suspension travel and 95 hp.",
+      "published": true,
+      "model_group": "bmw-f-850-gs",
+      "engine": "853 cc liquid-cooled DOHC parallel twin, 8 valves",
+      "power": "95 hp (69.3 kW) @ 8,250 rpm",
+      "torque": "92 Nm (68 lb-ft) @ 6,250 rpm",
+      "weight": "229 kg",
+      "seat_height": "860 mm",
+      "fuel_capacity": "15 L",
+      "oil_capacity": "3.0 L (3.2 US qt)",
+      "oil_type": "SAE 5W-40, API SL",
+      "aliases": [
+        "bmw motorrad"
+      ]
+    },
+    {
+      "id": "bmw-r-1250-rs-2019-present-global",
+      "make": "BMW",
+      "model": "R 1250 RS",
+      "year": "2019–Present",
+      "region": "Global",
+      "category": "Sport Tourer",
+      "displacement": "1,254 cc",
+      "tags": [
+        "bmw",
+        "r-1250-rs",
+        "sport-tourer",
+        "boxer"
+      ],
+      "summary": "BMW's ShiftCam boxer sport-tourer, combining 136 hp with a relaxed riding position and shaft drive.",
+      "published": true,
+      "model_group": "bmw-r-1250-rs",
+      "engine": "1,254 cc air/liquid-cooled DOHC boxer twin, 8 valves, ShiftCam",
+      "power": "136 hp (100 kW) @ 7,750 rpm",
+      "torque": "143 Nm (105 lb-ft) @ 6,250 rpm",
+      "weight": "243 kg",
+      "seat_height": "820 mm",
+      "fuel_capacity": "18 L",
+      "oil_capacity": "4.0 L (4.2 US qt)",
+      "oil_type": "SAE 5W-40, API SL",
+      "aliases": [
+        "bmw motorrad"
+      ]
+    },
+    {
+      "id": "bmw-c-400-x-2018-present-global",
+      "make": "BMW",
+      "model": "C 400 X",
+      "year": "2018–Present",
+      "region": "Global",
+      "category": "Scooter",
+      "displacement": "350 cc",
+      "tags": [
+        "bmw",
+        "c-400-x",
+        "scooter",
+        "single"
+      ],
+      "summary": "BMW's urban maxi-scooter, with a 350 cc single, 34 hp and a 775 mm seat height.",
+      "published": true,
+      "model_group": "bmw-c-400-x",
+      "engine": "350 cc liquid-cooled single, 4 valves",
+      "power": "34 hp (24.8 kW) @ 7,500 rpm",
+      "torque": "35 Nm (26 lb-ft) @ 6,000 rpm",
+      "weight": "204 kg",
+      "seat_height": "775 mm",
+      "fuel_capacity": "12.8 L",
+      "oil_capacity": "1.8 L (1.9 US qt)",
+      "oil_type": "SAE 5W-40, API SJ",
+      "aliases": [
+        "bmw motorrad",
+        "c 400",
+        "c400"
+      ]
     }
   ]
 }

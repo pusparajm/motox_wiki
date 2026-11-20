@@ -237,11 +237,12 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
 def build_index(bikes):
     cards = [
         ("oil-capacity-chart", "Motorcycle Oil Capacity Chart", "Engine oil capacity and oil grade for every model with verified service data."),
-        ("seat-height-chart", "Motorcycle Seat Height Chart", "Seat heights for 409 motorcycles, including a low-seat section for shorter riders."),
+        ("seat-height-chart", "Motorcycle Seat Height Chart", f"Seat heights for {len(bikes)} motorcycles, including a low-seat section for shorter riders."),
         ("weight-chart", "Motorcycle Weight Chart", "Kerb weights across every model, useful for A2, garage and touring decisions."),
         ("horsepower-chart", "Motorcycle Horsepower Chart", "Power and torque figures sorted from highest to lowest."),
         ("torque-specs", "Motorcycle Torque Specifications", "Fastener torque tables and links to model-specific torque data."),
         ("parts-fitment-codes", "Motorcycle Parts & Fitment Codes", "Spark plug, brake pad, wheel bearing, steering head bearing and fork seal codes by model."),
+        ("brake-pad-cross-reference", "Brake Pad Cross-Reference", "EBC, SBS, Ferodo, Dunlopad, Emgo and Vesrah shape equivalents plus model fitments."),
         ("best-beginner-motorcycles", "Best Beginner Motorcycles", "A data-driven shortlist based on power, seat height and weight."),
         ("a2-motorcycles", "A2 Motorcycles", "Motorcycles within the 35 kW / 0.2 kW-per-kg A2 envelope."),
         ("best-125cc-motorcycles", "Best 125cc Motorcycles", "125–155 cc commuters, sportbikes and mini-bikes."),
@@ -268,7 +269,7 @@ def build_index(bikes):
         "index", "Motorcycle Specs Guides, Charts & Comparisons",
         "Motorcycle oil capacity charts, seat height charts, weight and horsepower lists, A2 and beginner guides, and model comparisons.",
         "Motorcycle Guides, Charts & Comparisons",
-        "Data-driven guides built from 409 motorcycle specifications.",
+        f"Data-driven guides built from {len(bikes)} motorcycle specifications.",
         content, "All guides"
     )
 
@@ -406,6 +407,7 @@ def build_parts_fitment(bikes):
     content = f"""
       <p>Part numbers are not universal. A pad or bearing that fits one model year can miss the next, and ABS, market and mid-year running changes all matter. This page collects the spark plug, brake pad, wheel bearing, steering head bearing and fork seal codes we have been able to verify for individual models.</p>
       <p>Where a cell is blank, we have not confirmed a code for that model. A blank is deliberate: it is better than a plausible-looking guess.</p>
+      <p>For a pad-shape cross-reference across EBC, SBS, Ferodo, Dunlopad, Emgo and Vesrah, see the <a href="brake-pad-cross-reference.html">brake pad cross-reference</a>.</p>
       <h2>Brake pad and spark plug codes</h2>
       <p>The table lists the codes shown on each model page. EBC codes come from EBC catalogue listings recorded on MotoSpecVault model-year pages; spark plug codes come from the same model-year records. SBS and Vesrah equivalences come from Delta Braking's shape cross-reference tables. Brembo codes are added only where Brembo's application catalogue confirms the model and year.</p>
       <p>Where an SBS entry contains several numbers separated by slashes, those are shape references listed by Delta for the same EBC pad. Pick the compound for your riding and confirm the seller's application list for your exact model year.</p>
@@ -479,6 +481,79 @@ def list_page(slug, page_title, description, h1, subtitle, intro, bikes, sort_ke
       {related_guides(extra_links or [("best-beginner-motorcycles.html", "Best beginner motorcycles"), ("a2-motorcycles.html", "A2 motorcycles"), ("seat-height-chart.html", "Seat height chart")])}
     """
     return guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb)
+
+
+def build_brake_crossref(bikes):
+    with open(os.path.join(DATA, "brake-crossref.json"), encoding="utf-8") as fh:
+        crossref = json.load(fh)
+    with open(os.path.join(DATA, "brake-interchange.json"), encoding="utf-8") as fh:
+        interchange = json.load(fh)
+
+    by_id = {b["id"]: b for b in bikes}
+    model_rows = []
+    for mid, pads in crossref.items():
+        bike = by_id.get(mid)
+        if not bike:
+            continue
+        front = pads.get("front_brake_pads", "") or service(bike, "front_brake_pads")
+        rear = pads.get("rear_brake_pads", "") or service(bike, "rear_brake_pads")
+        if not front and not rear:
+            continue
+        model_rows.append([bike_link(bike), esc(front), esc(rear)])
+    model_rows.sort(key=lambda row: row[0].lower())
+
+    def ebc_key(item):
+        code = item[0]
+        m = re.match(r"^(FA|SFA|EPFA|GPFAX|MXS|SXR)(\d+)", code)
+        if not m:
+            return (99, 9999, code)
+        prefix_order = {"FA": 0, "SFA": 1, "EPFA": 2, "GPFAX": 3, "MXS": 4, "SXR": 5}
+        return (prefix_order.get(m.group(1), 9), int(m.group(2)), code)
+
+    shape_rows = []
+    for ebc, item in sorted(interchange.items(), key=ebc_key):
+        shape_rows.append([
+            esc(ebc),
+            esc(", ".join(item.get("sbs", []))),
+            esc(", ".join(item.get("ferodo", []))),
+            esc(", ".join(item.get("dunlopad", []))),
+            esc(", ".join(item.get("emgo_s", []))),
+            esc(", ".join(item.get("emgo_fm", []))),
+            esc(", ".join(item.get("vesrah", []))),
+        ])
+
+    content = f"""
+      <p>This page cross-references the brake-pad shapes used across the catalogue. The same backing plate can be sold in several friction compounds, and one shape can fit several models, model years and even several brands. The pad code identifies the shape; the suffix or compound code identifies the material.</p>
+      <p>Use the tables as a starting point, not as a substitute for the caliper and model-year check. ABS, twin-caliper, market and mid-year running changes can alter the pad. Confirm the seller's application list or the OEM parts fiche before ordering.</p>
+      <p><strong>Sources:</strong> EBC UK Motorcycle Pad Buyers Guide 203, SBS US Brake Pads Catalogue 2023–2024, and the Transcan/EBC pad and shoe interchange list. The Transcan list also covers older and ATV/UTV shapes, so some rows below will not apply to a road motorcycle.</p>
+
+      <h2 id="model-fitments">Model fitments in the MotoX catalogue</h2>
+      <p>{len(model_rows)} models currently have a verified front or rear pad entry. Multiple rows can share the same shape: for example, the same EBC FA630 / SBS 900 front shape appears on several Aprilia, Benelli and BMW models. That does not mean the pads are identical in compound or price.</p>
+      {table(["Model", "Front brake pads", "Rear brake pads"], model_rows)}
+
+      <h2 id="shape-cross-reference">Pad shape cross-reference</h2>
+      <p>The table below is the EBC/Transcan interchange list. A single EBC shape can list several SBS or Vesrah numbers when the same backing plate is offered in different thicknesses or compounds. Treat those as shape family references, not as “any of these will fit every model”.</p>
+      {table(["EBC", "SBS", "Ferodo", "Dunlopad", "Emgo sintered", "Emgo full metal", "Vesrah"], shape_rows)}
+
+      <h2>Why one shape fits several models</h2>
+      <p>Brake calipers are often shared across a model family or even across manufacturers. A pad shape is defined by the backing-plate outline, hole spacing, thickness and locating tabs. Once a caliper is used on several bikes, the same shape appears under many model names. The friction compound is separate: a commuter may use an organic or semi-sintered pad, while a sport or race model uses a sintered or race compound in the same shape.</p>
+      <p>That is why a cross-reference list can show several models from one brand against one code, and why buying by model name alone is safer than buying by shape alone when the compound matters. Check the compound suffix and the intended use before mixing a touring pad into a track application or vice versa.</p>
+
+      <h2>Related pages</h2>
+      <ul>
+        <li><a href="parts-fitment-codes.html">Parts and fitment codes by model</a></li>
+        <li><a href="oil-capacity-chart.html">Motorcycle oil capacity chart</a></li>
+        <li><a href="torque-specs.html">Motorcycle torque specifications</a></li>
+      </ul>
+    """
+    return guide_page(
+        "brake-pad-cross-reference",
+        "Motorcycle Brake Pad Cross-Reference — EBC, SBS, Ferodo, Vesrah",
+        "Cross-compatible motorcycle brake pad shapes from EBC, SBS, Ferodo, Dunlopad, Emgo and Vesrah, with model fitments.",
+        "Motorcycle Brake Pad Cross-Reference",
+        "EBC, SBS, Ferodo, Dunlopad, Emgo and Vesrah shape equivalents and model fitments.",
+        content, "Brake Pad Cross-Reference"
+    )
 
 
 def build_beginner(bikes):
@@ -881,6 +956,7 @@ def build_model_pages(bikes):
         category = (bike.get("category") or "").lower()
         guides = [
             ("parts-fitment-codes.html", "Parts and fitment codes"),
+            ("brake-pad-cross-reference.html", "Brake pad cross-reference"),
             ("oil-capacity-chart.html", "Motorcycle oil capacity chart"),
             ("seat-height-chart.html", "Motorcycle seat height chart"),
             ("a2-motorcycles.html", "A2 motorcycles"),
@@ -921,6 +997,7 @@ def main():
     urls.append(build_hp_chart(bikes))
     urls.append(build_torque_page(bikes))
     urls.append(build_parts_fitment(bikes))
+    urls.append(build_brake_crossref(bikes))
     urls.append(build_beginner(bikes))
     urls.append(build_a2(bikes))
     urls.append(build_125(bikes))

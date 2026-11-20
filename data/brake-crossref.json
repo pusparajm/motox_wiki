@@ -11,6 +11,10 @@
     "front_brake_pads": "Brembo 07BB03",
     "rear_brake_pads": "Brembo 07BB02"
   },
+  "aprilia-tuono-125-2017-present-global": {
+    "front_brake_pads": "SBS 821HS",
+    "rear_brake_pads": "EBC FA083/2 · SBS 544HF"
+  },
   "aprilia-tuono-660-2021-present-global": {
     "front_brake_pads": "EBC FA630HH · SBS 900 · Vesrah VD-9070",
     "rear_brake_pads": "EBC FA266 · SBS 157/730 · Vesrah VD-964"
@@ -27,9 +31,36 @@
     "front_brake_pads": "Brembo 07BB33",
     "rear_brake_pads": "Brembo 07BB20"
   },
+  "benelli-imperiale-400-2019-present-global": {
+    "front_brake_pads": "EBC FA196"
+  },
+  "benelli-leoncino-800-2021-present-global": {
+    "front_brake_pads": "EBC FA243 · SBS 900HS",
+    "rear_brake_pads": "SBS 730LS"
+  },
   "benelli-trk-502-2017-present-global": {
     "front_brake_pads": "EBC FA322/4HH · SBS 762/782 · Brembo 07BB33 · Vesrah VD-986",
     "rear_brake_pads": "EBC FA698 · SBS 832 · Brembo 07GR93 · Vesrah VD-173"
+  },
+  "benelli-trk-800-2021-present-global": {
+    "front_brake_pads": "SBS 900HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "bmw-c-400-gt-2018-present-global": {
+    "front_brake_pads": "SBS 231MS",
+    "rear_brake_pads": "EBC FA213 · SBS 175MS"
+  },
+  "bmw-c-400-x-2018-present-global": {
+    "front_brake_pads": "SBS 231MS",
+    "rear_brake_pads": "SBS 175MS"
+  },
+  "bmw-f-750-gs-2018-2023-global": {
+    "front_brake_pads": "SBS 674HS",
+    "rear_brake_pads": "SBS 675LS"
+  },
+  "bmw-f-850-gs-2018-2023-global": {
+    "front_brake_pads": "SBS 674HS",
+    "rear_brake_pads": "SBS 675LS"
   },
   "bmw-f-900-r-2020-present-global": {
     "front_brake_pads": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070",
@@ -59,6 +90,10 @@
     "front_brake_pads": "EBC FA724HH · SBS 960 · Brembo 07GR90 · Vesrah VD-9088",
     "rear_brake_pads": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958"
   },
+  "bmw-r-1250-rs-2019-present-global": {
+    "front_brake_pads": "SBS 900HS",
+    "rear_brake_pads": "SBS 674LS"
+  },
   "bmw-r-1250-rt-2019-present-global": {
     "front_brake_pads": "EBC FA724HH · SBS 960 · Brembo 07GR90 · Vesrah VD-9088",
     "rear_brake_pads": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958"
@@ -87,9 +122,19 @@
     "front_brake_pads": "EBC FA724HH · SBS 960 · Brembo 07GR90 · Vesrah VD-9088",
     "rear_brake_pads": "EBC FA363 · SBS 742 · Brembo 07BB28 · Vesrah VD-947/2"
   },
+  "cfmoto-250sr-2020-present-global": {
+    "front_brake_pads": "EBC FA181"
+  },
+  "cfmoto-300sr-2020-present-global": {
+    "front_brake_pads": "EBC FA181"
+  },
   "cfmoto-450sr-2022-present-global": {
     "front_brake_pads": "Brembo 07BB38",
     "rear_brake_pads": "Brembo 07HO61"
+  },
+  "cfmoto-650nk-2015-present-global": {
+    "front_brake_pads": "SBS 674HS",
+    "rear_brake_pads": "EBC FA192 · SBS 675LS"
   },
   "ducati-1199-panigale-2012-2014-global": {
     "front_brake_pads": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031",
@@ -194,6 +239,10 @@
   "ducati-xdiavel-2016-present-global": {
     "rear_brake_pads": "EBC FA209/2V · SBS 176/674/1005 · Vesrah VD-958"
   },
+  "energica-experia-2022-present-global": {
+    "front_brake_pads": "SBS 901HS",
+    "rear_brake_pads": "SBS 730LS"
+  },
   "harley-davidson-breakout-2013-present-global": {
     "front_brake_pads": "EBC FA457V · SBS 853 · Vesrah VD-9034",
     "rear_brake_pads": "EBC FA458V · SBS 854 · Vesrah VD-9035"
@@ -249,6 +298,14 @@
     "front_brake_pads": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958",
     "rear_brake_pads": "EBC FA181X · SBS 671/1003 · Brembo 07BB04 · Vesrah VD-947"
   },
+  "honda-adv-350-2022-present-global": {
+    "front_brake_pads": "EBC FA196 · SBS 183MS",
+    "rear_brake_pads": "SBS 193MS"
+  },
+  "honda-africa-twin-crf1100l-2020-present-global": {
+    "front_brake_pads": "SBS 940HS",
+    "rear_brake_pads": "SBS 657LS"
+  },
   "honda-cb1000r-2018-present-global": {
     "front_brake_pads": "EBC FA700HH · SBS 947 · Brembo 07HO63 · Vesrah VD-189",
     "rear_brake_pads": "EBC FA488HH · SBS 862 · Brembo 07HO13 · Vesrah VD-178"
@@ -260,6 +317,10 @@
   "honda-cb300r-2018-present-global": {
     "front_brake_pads": "EBC FA679HH · SBS 241/940 · Vesrah VD-187",
     "rear_brake_pads": "EBC FA629 · SBS 915 · Vesrah VD-182"
+  },
+  "honda-cb500f-2022-present-global": {
+    "front_brake_pads": "EBC FA760 · SBS 994HS",
+    "rear_brake_pads": "SBS 881LS"
   },
   "honda-cb650f-2013-2016": {
     "front_brake_pads": "EBC FA142 · SBS 183/242/627 · Brembo 07HO30 · Vesrah VD-156",
@@ -305,6 +366,10 @@
     "front_brake_pads": "Brembo 07GR99",
     "rear_brake_pads": "Brembo 07BB20"
   },
+  "honda-cbr500r-2022-present-global": {
+    "front_brake_pads": "EBC FA760 · SBS 994HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
   "honda-cbr600rr-2013": {
     "front_brake_pads": "EBC FA390HH · SBS 627HS · Brembo 07HO50 · Vesrah VD-170",
     "rear_brake_pads": "EBC FA436 · SBS 834LS · Brembo 07HO59 · Vesrah VD-174"
@@ -320,6 +385,10 @@
   "honda-cbr650r-2019-2020": {
     "front_brake_pads": "EBC FA679HH · SBS 241/940 · Brembo 07HO62 · Vesrah VD-187",
     "rear_brake_pads": "EBC FA496 · SBS 881 · Brembo 07HO53 · Vesrah VD-147/2"
+  },
+  "honda-cbr650r-2021-2023-global": {
+    "front_brake_pads": "SBS 940HS",
+    "rear_brake_pads": "EBC FA496 · SBS 881LS"
   },
   "honda-crf300-rally-2021-present-global": {
     "front_brake_pads": "EBC FA465X · SBS 859 · Vesrah VD-181",
@@ -365,9 +434,16 @@
     "front_brake_pads": "Brembo 07HO62",
     "rear_brake_pads": "Brembo 07HO53"
   },
+  "husqvarna-701-supermoto-2016-present-global": {
+    "rear_brake_pads": "EBC FA208"
+  },
   "husqvarna-fe-350-2017-present-global": {
     "front_brake_pads": "EBC FA181X · SBS 671/1003 · Brembo 07BB04 · Vesrah VD-947",
     "rear_brake_pads": "EBC FA368X · SBS 791 · Brembo 07BB27 · Vesrah VD-997"
+  },
+  "husqvarna-norden-901-2022-present-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA181 · SBS 671LS"
   },
   "husqvarna-svartpilen-401-2020-present-global": {
     "front_brake_pads": "EBC FA606 · SBS 231/877 · Vesrah VD-9068",
@@ -381,6 +457,10 @@
     "front_brake_pads": "Brembo 07BB38",
     "rear_brake_pads": "Brembo 07HO31"
   },
+  "indian-chief-2022-present-global": {
+    "front_brake_pads": "EBC FA347 · SBS 782",
+    "rear_brake_pads": "SBS 630"
+  },
   "indian-chieftain-2014-present-global": {
     "front_brake_pads": "Brembo 07KA23",
     "rear_brake_pads": "Brembo 07HO31"
@@ -388,6 +468,18 @@
   "indian-ftr-1200-2019-present-global": {
     "front_brake_pads": "Brembo 07BB38",
     "rear_brake_pads": "Brembo 07BB20"
+  },
+  "indian-scout-2015-present-global": {
+    "front_brake_pads": "SBS 929",
+    "rear_brake_pads": "EBC FA377 · SBS 930"
+  },
+  "indian-scout-bobber-2018-present-global": {
+    "front_brake_pads": "EBC FA209/2 · SBS 674",
+    "rear_brake_pads": "SBS 675"
+  },
+  "indian-scout-sixty-2016-present-global": {
+    "front_brake_pads": "SBS 929",
+    "rear_brake_pads": "EBC FA377 · SBS 930"
   },
   "kawasaki-klx300-2021-present-global": {
     "front_brake_pads": "EBC FA135X · Brembo 07SU12",
@@ -429,13 +521,13 @@
     "front_brake_pads": "EBC FA379HH · SBS 806 · Vesrah VD-355",
     "rear_brake_pads": "EBC FA228"
   },
-  "kawasaki-ninja-zx-10r-2016-2020-global": {
-    "front_brake_pads": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031",
-    "rear_brake_pads": "EBC FA436 · SBS 834/991 · Brembo 07HO59 · Vesrah VD-174"
-  },
   "kawasaki-ninja-zx-10r": {
     "front_brake_pads": "Brembo 07BB37",
     "rear_brake_pads": "Brembo 07HO59"
+  },
+  "kawasaki-ninja-zx-10r-2016-2020-global": {
+    "front_brake_pads": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031",
+    "rear_brake_pads": "EBC FA436 · SBS 834/991 · Brembo 07HO59 · Vesrah VD-174"
   },
   "kawasaki-ninja-zx-25r-2020-present-global": {
     "front_brake_pads": "Brembo 07SU27",
@@ -545,6 +637,18 @@
     "front_brake_pads": "EBC FA244 · SBS 706 · Vesrah VD-262",
     "rear_brake_pads": "EBC FA181X · SBS 671/1003 · Vesrah VD-947"
   },
+  "ktm-1290-super-duke-gt-2016-present-global": {
+    "front_brake_pads": "SBS 901HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "ktm-200-duke-2012-present-global": {
+    "front_brake_pads": "SBS 877HS",
+    "rear_brake_pads": "SBS 675LS"
+  },
+  "ktm-250-duke-2015-present-global": {
+    "front_brake_pads": "SBS 877HS",
+    "rear_brake_pads": "EBC FA213 · SBS 675LS"
+  },
   "ktm-250-sx-f-2013-present-global": {
     "front_brake_pads": "EBC FA181X · SBS 671/1003 · Brembo 07BB04 · Vesrah VD-947",
     "rear_brake_pads": "EBC FA368X · SBS 791 · Brembo 07BB27 · Vesrah VD-997"
@@ -556,10 +660,6 @@
   "ktm-350-exc-f-2012-present-global": {
     "front_brake_pads": "EBC FA181X · SBS 671/1003 · Brembo 07BB04 · Vesrah VD-947",
     "rear_brake_pads": "EBC FA368X · SBS 791 · Brembo 07BB27 · Vesrah VD-997"
-  },
-  "ktm-adventure-390-2020-2024": {
-    "front_brake_pads": "Brembo 07GR18",
-    "rear_brake_pads": "Brembo 07BB02"
   },
   "ktm-390-duke-2013-2016-global": {
     "front_brake_pads": "EBC FA606 · SBS 231/877 · Brembo 07GR18 · Vesrah VD-9068",
@@ -581,6 +681,14 @@
     "front_brake_pads": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958",
     "rear_brake_pads": "EBC FA208X · SBS 175/675 · Brembo 07BB02 · Vesrah VD-953"
   },
+  "ktm-690-smc-r-2008-present-global": {
+    "front_brake_pads": "SBS 762HS",
+    "rear_brake_pads": "SBS 675LS"
+  },
+  "ktm-790-adventure-2019-2023-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA181 · SBS 671LS"
+  },
   "ktm-790-duke-2018-2023-global": {
     "front_brake_pads": "Brembo 07BB19",
     "rear_brake_pads": "Brembo 07BB02"
@@ -592,6 +700,10 @@
   "ktm-890-duke-r-2020-present-global": {
     "front_brake_pads": "EBC FA447HH · SBS 841/901 · Vesrah VD-9031",
     "rear_brake_pads": "EBC FA213HH"
+  },
+  "ktm-adventure-390-2020-2024": {
+    "front_brake_pads": "Brembo 07GR18",
+    "rear_brake_pads": "Brembo 07BB02"
   },
   "ktm-rc-125-2014-present-global": {
     "front_brake_pads": "Brembo 07GR18",
@@ -613,9 +725,17 @@
     "front_brake_pads": "Brembo 07BB38",
     "rear_brake_pads": "Brembo 07BB04"
   },
+  "moto-guzzi-v7-850-2021-present-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "SBS 588HF"
+  },
   "moto-guzzi-v85-tt-2019-present-global": {
     "front_brake_pads": "EBC FA244 · SBS 706 · Brembo 07BB19 · Vesrah VD-262",
     "rear_brake_pads": "EBC FA256 · Brembo 07GR13"
+  },
+  "moto-guzzi-v9-bobber-2016-present-global": {
+    "front_brake_pads": "EBC FA244 · SBS 706HS",
+    "rear_brake_pads": "SBS 588HF"
   },
   "royal-enfield-classic-350-2021-present-global": {
     "front_brake_pads": "Brembo 07BB04",
@@ -768,9 +888,25 @@
     "front_brake_pads": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031",
     "rear_brake_pads": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958"
   },
+  "triumph-scrambler-900-2017-present-global": {
+    "front_brake_pads": "SBS 762HS",
+    "rear_brake_pads": "SBS 611LS"
+  },
+  "triumph-speed-triple-1200-rr-2022-present-global": {
+    "front_brake_pads": "SBS 901HS",
+    "rear_brake_pads": "SBS 730LS"
+  },
   "triumph-speed-triple-1200-rs-2021-present-global": {
     "front_brake_pads": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031",
     "rear_brake_pads": "EBC FA213HH · Brembo 07BB20"
+  },
+  "triumph-speed-twin-1200-2019-present-global": {
+    "front_brake_pads": "EBC FA447 · SBS 762HS",
+    "rear_brake_pads": "SBS 611LS"
+  },
+  "triumph-street-triple-765-2023-present-global": {
+    "front_brake_pads": "SBS 900HS",
+    "rear_brake_pads": "SBS 675LS"
   },
   "triumph-tiger-1200-2022-present-global": {
     "front_brake_pads": "EBC FA630HH · SBS 900 · Vesrah VD-9070",
@@ -812,17 +948,36 @@
     "front_brake_pads": "Brembo 07YA23",
     "rear_brake_pads": "Brembo 07HO36"
   },
+  "yamaha-mt-125-2014-present-global": {
+    "rear_brake_pads": "EBC FA377"
+  },
+  "yamaha-r1-2020-2024-global": {
+    "front_brake_pads": "Brembo 07YA23",
+    "rear_brake_pads": "Brembo 07HO59"
+  },
+  "yamaha-r3-2015-2018-global": {
+    "front_brake_pads": "EBC FA663 · SBS 931 · Brembo 07YA52 · Vesrah VD-289",
+    "rear_brake_pads": "EBC FA662 · SBS 932 · Brembo 07YA53 · Vesrah VD-290"
+  },
+  "yamaha-r3-2019-present-global": {
+    "front_brake_pads": "EBC FA663 · SBS 931 · Brembo 07YA52 · Vesrah VD-289",
+    "rear_brake_pads": "EBC FA662 · SBS 932 · Brembo 07YA53 · Vesrah VD-290"
+  },
   "yamaha-super-tenere-1200-2010-2020-global": {
     "front_brake_pads": "Brembo 07YA23",
     "rear_brake_pads": "Brembo 07YA39"
   },
-  "yamaha-tracer-9-gt-2021-present-global": {
-    "front_brake_pads": "Brembo 07YA23",
-    "rear_brake_pads": "Brembo 07HO36"
-  },
   "yamaha-tenere-700-2019-present-global": {
     "front_brake_pads": "EBC FA181X · SBS 671HS · Brembo 07BB04 · Vesrah VD-947",
     "rear_brake_pads": "EBC FA208X · SBS 675LS · Brembo 07BB02 · Vesrah VD-953"
+  },
+  "yamaha-tmax-560-2020-present-global": {
+    "front_brake_pads": "SBS 198MS",
+    "rear_brake_pads": "SBS 169MS"
+  },
+  "yamaha-tracer-9-gt-2021-present-global": {
+    "front_brake_pads": "Brembo 07YA23",
+    "rear_brake_pads": "Brembo 07HO36"
   },
   "yamaha-xmax-300-2017-present-global": {
     "front_brake_pads": "EBC SFA705 · Brembo 07YA52",
@@ -836,25 +991,17 @@
     "front_brake_pads": "Brembo 07YA23",
     "rear_brake_pads": "Brembo 07HO36"
   },
+  "yamaha-xsr900-2022-present-global": {
+    "front_brake_pads": "SBS 634HS",
+    "rear_brake_pads": "EBC SFA176 · SBS 657LS"
+  },
   "yamaha-yz450f-2023-present-global": {
     "front_brake_pads": "Brembo 07YA55",
     "rear_brake_pads": "Brembo 07YA41"
   },
-  "yamaha-r1-2020-2024-global": {
-    "front_brake_pads": "Brembo 07YA23",
-    "rear_brake_pads": "Brembo 07HO59"
-  },
   "yamaha-yzf-r25-2013-2019": {
     "front_brake_pads": "Brembo 07YA52",
     "rear_brake_pads": "Brembo 07YA53"
-  },
-  "yamaha-r3-2015-2018-global": {
-    "front_brake_pads": "EBC FA663 · SBS 931 · Brembo 07YA52 · Vesrah VD-289",
-    "rear_brake_pads": "EBC FA662 · SBS 932 · Brembo 07YA53 · Vesrah VD-290"
-  },
-  "yamaha-r3-2019-present-global": {
-    "front_brake_pads": "EBC FA663 · SBS 931 · Brembo 07YA52 · Vesrah VD-289",
-    "rear_brake_pads": "EBC FA662 · SBS 932 · Brembo 07YA53 · Vesrah VD-290"
   },
   "yamaha-yzf-r6-2017-2020-global": {
     "front_brake_pads": "EBC FA380HH · Brembo 07YA23",

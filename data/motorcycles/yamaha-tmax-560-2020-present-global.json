@@ -109,6 +109,16 @@
             "key": "oil_filter",
             "label": "Oil Filter",
             "value": "HF204"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 198MS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 169MS"
           }
         ]
       },

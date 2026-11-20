@@ -109,6 +109,11 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 110 links"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "EBC FA196"
           }
         ]
       },

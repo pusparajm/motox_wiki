@@ -1,0 +1,165 @@
+{
+  "motorcycle": {
+    "id": "bmw-f-850-gs-2018-2023-global",
+    "make": "BMW",
+    "model": "F 850 GS",
+    "year": "2018–2023",
+    "region": "Global",
+    "model_group": "bmw-f-850-gs",
+    "category": "Adventure",
+    "displacement": "853 cc",
+    "summary": "The more off-road-focused 853 cc GS, with a 21-inch front wheel, longer suspension travel and 95 hp.",
+    "tags": [
+      "bmw",
+      "f-850-gs",
+      "adventure",
+      "twin"
+    ],
+    "published": true,
+    "sections": {
+      "general_specs": {
+        "label": "General Specifications",
+        "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "853 cc liquid-cooled DOHC parallel twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "853 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "95 hp (69.3 kW) @ 8,250 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "92 Nm (68 lb-ft) @ 6,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm upside-down fork, 230 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Double-sided aluminium swingarm, 219 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "305 mm dual discs, 2-piston floating calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "265 mm disc, 1-piston floating caliper"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "860 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "229 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "15 L"
+          }
+        ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 5W-40, API SL"
+          },
+          {
+            "key": "oil_filter",
+            "label": "Oil Filter",
+            "value": "Hiflofiltro HF160"
+          },
+          {
+            "key": "spark_plug",
+            "label": "Spark Plug",
+            "value": "NGK LMAR8J-9E"
+          },
+          {
+            "key": "coolant",
+            "label": "Coolant",
+            "value": "1.90 L (2.01 US qt)"
+          },
+          {
+            "key": "chain",
+            "label": "Chain / Final Drive",
+            "value": "525 pitch, 122 links"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 674HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 675LS"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4 / DOT 5.1"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "10,000 km / 12 months"
+          }
+        ]
+      },
+      "torque_specs": {
+        "label": "Torque Specifications",
+        "fields": [
+          {
+            "key": "note",
+            "label": "Source / verification",
+            "value": "A verified model-specific torque table is not yet available for this model. Use the BMW workshop manual for fastener torque values."
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "bmw motorrad"
+    ]
+  }
+}

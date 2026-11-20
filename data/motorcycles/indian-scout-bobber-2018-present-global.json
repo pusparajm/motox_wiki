@@ -129,6 +129,16 @@
             "key": "final_drive",
             "label": "Final Drive",
             "value": "Belt"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "EBC FA209/2 · SBS 674"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 675"
           }
         ]
       },

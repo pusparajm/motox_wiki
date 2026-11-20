@@ -230,7 +230,7 @@ const MotoX = (() => {
         ${activePage === 'index.html' ? `
           <div class="${mx('header-intro')}">
             <span class="${mx('header-intro-title')}">Motorcycle Specifications Database</span>
-            <span ${mxRef('header-meta')} class="${mx('header-intro-meta')}">409 models · 36 manufacturers · specs &amp; service data</span>
+            <span ${mxRef('header-meta')} class="${mx('header-intro-meta')}">413 models · 36 manufacturers · specs &amp; service data</span>
           </div>` : ''}
         <div class="${mx('header-search')}">
           <label data-mx-for="global-search" class="${mx('sr-only')}">Search motorcycles and pages</label>

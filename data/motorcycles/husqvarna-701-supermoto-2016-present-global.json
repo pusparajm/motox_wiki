@@ -114,6 +114,11 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 118 links"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "EBC FA208"
           }
         ]
       },

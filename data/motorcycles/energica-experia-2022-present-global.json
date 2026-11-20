@@ -118,6 +118,16 @@
             "key": "note",
             "label": "Note",
             "value": "No engine oil, spark plug, coolant or valve service. Follow Energica’s schedule for brake fluid, tyres, bearings and the chain."
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 901HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 730LS"
           }
         ]
       },

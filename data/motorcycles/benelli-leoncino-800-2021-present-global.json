@@ -104,6 +104,16 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 pitch, 112 links"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "EBC FA243 · SBS 900HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 730LS"
           }
         ]
       },

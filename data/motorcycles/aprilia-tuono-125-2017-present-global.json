@@ -114,6 +114,16 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 110 links"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 821HS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "EBC FA083/2 · SBS 544HF"
           }
         ]
       },

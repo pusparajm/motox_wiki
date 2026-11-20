@@ -104,6 +104,16 @@
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "SAE 10W-30, JASO MB"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "EBC FA196 · SBS 183MS"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 193MS"
           }
         ]
       },
