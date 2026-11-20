@@ -8,7 +8,7 @@
     "model_group": "swm-125-varez",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "SWM 125 Varez (2020). 124.7 cc, 130 kg, 820 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "SWM 125 Varez (2020). 124.7 cc, 15 hp, 11 Nm, 130 kg, 820 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "swm",
       "125-varez",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -31,6 +31,16 @@
             "key": "displacement",
             "label": "Displacement",
             "value": "124.7 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "15 hp @ 10,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "11 Nm @ 8,500 rpm"
           },
           {
             "key": "transmission",
@@ -68,9 +78,9 @@
             "value": "16.5 L"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
+            "key": "model_years",
+            "label": "Model Years",
+            "value": "2020"
           }
         ]
       },
@@ -90,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "SWM Varez 125 data compiled from manufacturer sources. Power and torque figures remain to be verified."
+            "value": "SWM Varez 125 data from the manufacturer. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
