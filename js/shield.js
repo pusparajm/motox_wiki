@@ -20,7 +20,8 @@ const MotoXShield = (() => {
     'sidebar-ad', 'site-ad-bar', 'site-footer', 'site-footer-ad', 'site-footer-inner', 'site-header',
     'site-nav', 'site-top', 'sort-bar', 'sort-select', 'spec-body', 'spec-field', 'spec-fields',
     'spec-section', 'spec-section-compact', 'spec-section-grid', 'spec-note', 'spec-quick-row', 'spec-table', 'spec-table-wrap',
-    'service-pending', 'spec-source', 'sr-only', 'tag', 'toolbar', 'toolbar-count'
+    'service-pending', 'show-more-bike', 'show-more-bike-icon', 'show-more-bike-label',
+    'show-more-bike-road', 'show-more-bike-wheel', 'spec-source', 'sr-only', 'tag', 'toolbar', 'toolbar-count'
   ];
 
   const DEAD_SNIPPETS = [
@@ -326,20 +327,24 @@ const MotoXShield = (() => {
     return weaveDynamicStructure(html);
   }
 
-  function mutateStaticShell() {
-    document.querySelectorAll('[class]').forEach(el => {
+  function remapClasses(root) {
+    if (!root) return;
+    root.querySelectorAll('[class]').forEach(el => {
       if (el.id === 'mx-shield-css') return;
-      el.className = el.className.split(/\s+/).filter(Boolean).map(token => c(token)).join(' ');
+      const value = el.getAttribute('class') || '';
+      const mapped = value.split(/\s+/).filter(Boolean).map(token => c(token)).join(' ');
+      if (mapped && mapped !== value) el.setAttribute('class', mapped);
     });
+  }
+
+  function mutateStaticShell() {
+    remapClasses(document);
     mutateRefsIn(document);
     wireAriaRefsIn(document);
   }
 
   function rewriteRoot(root) {
-    if (!root) return;
-    root.querySelectorAll('[class]').forEach(el => {
-      el.className = el.className.split(/\s+/).filter(Boolean).map(token => c(token)).join(' ');
-    });
+    remapClasses(root);
   }
 
   function finalizeRoot(root) {

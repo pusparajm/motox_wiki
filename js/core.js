@@ -292,7 +292,7 @@ const MotoX = (() => {
 
     const content = settings.ads ? renderAdSlot(settings.ads, 'header-banner') : '';
     const fallback = content.includes('adsbygoogle')
-      ? '<div data-mx-ad-fallback style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:.72rem;color:var(--pico-muted-color);pointer-events:none">Advertisement — 728×90 Leaderboard</div>'
+      ? '<div data-mx-ad-fallback style="position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;font-size:.72rem;color:var(--pico-muted-color);pointer-events:none">Advertisement — 728×90 Leaderboard</div>'
       : '';
     bar.style.position = 'relative';
     bar.innerHTML = fallback + content;

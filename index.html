@@ -18,7 +18,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>Motorcycle Specifications Database — 4734 Models | MotoX Wiki</title>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"MotoX Wiki","url":"https://motoxref.com/","description":"Motorcycle specifications, service data, torque specs and buying guides for 4734 mass-produced models.","potentialAction":{"@type":"SearchAction","target":"https://motoxref.com/search.html?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
-  <link rel="stylesheet" href="css/site.min.css?v=5" id="mx-main-css" data-mx-shield-css="css/main.css?v=34" fetchpriority="high">
+  <link rel="stylesheet" href="css/site.min.css?v=8" id="mx-main-css" data-mx-shield-css="css/main.css?v=37" fetchpriority="high">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465"
      crossorigin="anonymous"></script>
 </head>
@@ -26,7 +26,7 @@
   <div class="site-top">
     <header data-mx-ref="site-header" class="site-header"></header>
     <div class="site-ad-bar" data-mx-ref="site-ad-bar" style="position:relative">
-      <div data-mx-ad-fallback style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:.72rem;color:var(--pico-muted-color);pointer-events:none">Advertisement — 728×90 Leaderboard</div>
+      <div data-mx-ad-fallback style="position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;font-size:.72rem;color:var(--pico-muted-color);pointer-events:none">Advertisement — 728×90 Leaderboard</div>
       <div style="position:relative;z-index:1;width:100%;height:90px;overflow:hidden;display:flex;align-items:center;justify-content:center">
         <ins class="adsbygoogle"
              style="display:block;width:100%;height:90px"
@@ -68,7 +68,27 @@
       </div>
 
       <div data-mx-ref="browse-pagination" class="browse-pagination" hidden>
-        <button type="button" data-mx-ref="browse-load-more" class="secondary outline">Load more</button>
+        <button type="button" data-mx-ref="browse-load-more" class="show-more-bike" aria-label="Show more motorcycles">
+          <span class="show-more-bike-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 36" width="56" height="31" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="show-more-bike-road" d="M4 34h56" stroke="currentColor" stroke-opacity=".22" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5"/>
+              <g class="show-more-bike-wheel">
+                <circle cx="15" cy="26" r="7" stroke="currentColor" stroke-width="2"/>
+                <path d="M15 20v12M9 26h12M10.8 21.8l8.4 8.4M19.2 21.8l-8.4 8.4" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+                <circle cx="15" cy="26" r="1.6" fill="currentColor"/>
+              </g>
+              <g class="show-more-bike-wheel">
+                <circle cx="49" cy="26" r="7" stroke="currentColor" stroke-width="2"/>
+                <path d="M49 20v12M43 26h12M44.8 21.8l8.4 8.4M53.2 21.8l-8.4 8.4" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+                <circle cx="49" cy="26" r="1.6" fill="currentColor"/>
+              </g>
+              <path d="M15 26l9-8h11l4-5h5M44 13l5 13M44 13h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M27 18l4-6h9l3 6z" fill="currentColor"/>
+              <path d="M22 18h5M15 26h9M34 24h9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="show-more-bike-label" data-mx-ref="browse-load-more-label">Show more</span>
+        </button>
         <p data-mx-ref="browse-showing-count" class="browse-showing-count" aria-live="polite"></p>
       </div>
     </section>
@@ -76,8 +96,8 @@
 
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script defer src="js/dist/shield.js?v=16"></script>
-  <script defer src="js/dist/core.js?v=33"></script>
+  <script defer src="js/dist/shield.js?v=17"></script>
+  <script defer src="js/dist/core.js?v=34"></script>
   <script defer src="js/dist/search.js?v=12"></script>
   <script>
     let allBikes = [];
@@ -87,6 +107,7 @@
     let layoutSyncNeeded = true;
     let resizeTimer = null;
     let activeCategory = '';
+    let lastRenderedCount = 0;
 
     async function init() {
       const settings = await MotoX.initLayout('index.html');
@@ -156,10 +177,21 @@
       return Math.max(1, Math.ceil(maxPerPage / cols));
     }
 
-    function initialRows(layout, total) {
-      const perBatch = batchRows(layout.cols);
+    function screenRows(grid, layout, total) {
       const totalRows = Math.ceil(total / layout.cols);
-      return Math.min(perBatch, totalRows);
+      if (totalRows <= 0) return 1;
+
+      const card = grid?.firstElementChild;
+      const measured = card && card.tagName === 'A' ? card.getBoundingClientRect().height : 0;
+      const cardHeight = measured > 40 ? measured + layout.gap : 112;
+      const gridTop = Math.max(0, grid?.getBoundingClientRect().top || 0);
+      const available = Math.max(window.innerHeight - gridTop, cardHeight * 2);
+      const rows = Math.ceil(available / cardHeight);
+      return Math.min(totalRows, Math.max(2, rows));
+    }
+
+    function initialRows(layout, total) {
+      return screenRows(getGrid(), layout, total);
     }
 
     function populateFilters(bikes) {
@@ -256,8 +288,10 @@
     }
 
     function loadMore() {
-      const layout = measureLayout(getGrid());
-      displayedRows += batchRows(layout.cols);
+      const grid = getGrid();
+      const layout = measureLayout(grid);
+      const totalRows = Math.ceil(activeList.length / layout.cols);
+      displayedRows = Math.min(displayedRows + batchRows(layout.cols), totalRows);
       renderGrid();
     }
 
@@ -268,47 +302,51 @@
         if (!grid || !activeList.length) return;
 
         const layout = measureLayout(grid);
-        const currentVisible = visibleCountForRows(displayedRows, layout, activeList.length);
-        const currentRows = Math.max(1, Math.ceil(currentVisible / layout.cols));
+        const atTop = window.scrollY < 4;
+        const screenCount = (layoutSyncNeeded || atTop)
+          ? screenRows(grid, layout, activeList.length) * layout.cols
+          : 0;
+        const floorCount = Math.max(lastRenderedCount, screenCount);
+        const rows = Math.max(1, Math.ceil(floorCount / layout.cols));
+        const nextVisible = visibleCountForRows(rows, layout, activeList.length);
+        if (nextVisible === lastRenderedCount && !layoutSyncNeeded) return;
 
-        if (layoutSyncNeeded) {
-          displayedRows = initialRows(layout, activeList.length);
-          layoutSyncNeeded = false;
-        } else {
-          displayedRows = Math.max(displayedRows, currentRows);
-        }
-
+        displayedRows = rows;
+        layoutSyncNeeded = false;
         renderGrid();
-      }, 120);
+      }, 140);
     }
 
     function updatePagination(visibleCount, layout) {
       const pagination = MotoX.ref('browse-pagination');
       const loadMoreBtn = MotoX.ref('browse-load-more');
+      const label = MotoX.ref('browse-load-more-label');
       const countEl = MotoX.ref('browse-showing-count');
       const total = activeList.length;
-      const firstBatchCount = visibleCountForRows(batchRows(layout.cols), layout, total);
       const hasMore = visibleCount < total;
 
-      if (total <= firstBatchCount) {
+      if (!hasMore) {
         pagination.hidden = true;
         return;
       }
 
       pagination.hidden = false;
-      loadMoreBtn.hidden = !hasMore;
+      loadMoreBtn.hidden = false;
 
-      if (hasMore) {
-        const nextCount = snapToCompleteRows(
-          visibleCount + batchRows(layout.cols) * layout.cols,
-          layout.cols,
-          total
-        );
-        const nextBatch = nextCount - visibleCount;
-        loadMoreBtn.textContent = `Load more (${nextBatch})`;
-      }
-
+      const nextCount = snapToCompleteRows(
+        Math.min(visibleCount + batchRows(layout.cols) * layout.cols, total),
+        layout.cols,
+        total
+      );
+      const nextBatch = Math.max(1, nextCount - visibleCount);
+      if (label) label.textContent = `Show ${nextBatch} more`;
+      loadMoreBtn.setAttribute('aria-label', `Show ${nextBatch} more motorcycles`);
       countEl.textContent = `Showing ${visibleCount} of ${total}`;
+    }
+
+    function renderVisible(count) {
+      const grid = getGrid();
+      MotoX.setContainerHtml(grid, activeList.slice(0, count).map(b => MotoX.renderBikeCard(b)).join(''));
     }
 
     function renderGrid(filtered = false) {
@@ -319,28 +357,44 @@
         const msg = filtered ? 'No motorcycles match your filters.' : 'No motorcycles to show yet.';
         MotoX.setContainerHtml(grid, `<div class="${MotoX.mx('empty-state')}"><p>${msg}</p><button type="button" class="${MotoX.mx('secondary')} ${MotoX.mx('outline')}" onclick="clearFilters()">Clear filters</button></div>`);
         pagination.hidden = true;
+        lastRenderedCount = 0;
         return;
       }
 
       let layout = measureLayout(grid);
-      if (layoutSyncNeeded) {
+      const fillScreen = layoutSyncNeeded;
+      if (fillScreen) {
         displayedRows = initialRows(layout, activeList.length);
         layoutSyncNeeded = false;
       }
 
       let visibleCount = visibleCountForRows(displayedRows, layout, activeList.length);
-      MotoX.setContainerHtml(grid, activeList.slice(0, visibleCount).map(b => MotoX.renderBikeCard(b)).join(''));
+      renderVisible(visibleCount);
 
       requestAnimationFrame(() => {
         layout = measureLayout(grid);
-        const refinedVisible = visibleCountForRows(displayedRows, layout, activeList.length);
 
-        if (refinedVisible !== visibleCount) {
-          visibleCount = refinedVisible;
-          MotoX.setContainerHtml(grid, activeList.slice(0, visibleCount).map(b => MotoX.renderBikeCard(b)).join(''));
-          layout = measureLayout(grid);
+        if (fillScreen) {
+          const rows = screenRows(grid, layout, activeList.length);
+          if (rows !== displayedRows) {
+            displayedRows = rows;
+            const nextVisible = visibleCountForRows(rows, layout, activeList.length);
+            if (nextVisible !== visibleCount) {
+              visibleCount = nextVisible;
+              renderVisible(visibleCount);
+              layout = measureLayout(grid);
+            }
+          }
+        } else {
+          const refinedVisible = visibleCountForRows(displayedRows, layout, activeList.length);
+          if (refinedVisible !== visibleCount) {
+            visibleCount = refinedVisible;
+            renderVisible(visibleCount);
+            layout = measureLayout(grid);
+          }
         }
 
+        lastRenderedCount = visibleCount;
         updatePagination(visibleCount, layout);
       });
     }
