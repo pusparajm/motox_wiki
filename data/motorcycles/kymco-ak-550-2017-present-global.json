@@ -101,6 +101,16 @@
             "value": "NGK CR7E"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07BB38"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07121"
+          },
+          {
             "key": "parts_note",
             "label": "Parts & Fitment Note",
             "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."

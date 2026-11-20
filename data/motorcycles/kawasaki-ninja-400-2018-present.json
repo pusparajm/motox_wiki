@@ -116,6 +116,16 @@
             "value": "NGK LMAR9G"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "SBS 955HS · Brembo 07KA31"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "SBS 638LS · Brembo 07YA22"
+          },
+          {
             "key": "front_wheel_bearings",
             "label": "Front Wheel Bearings",
             "value": "All Balls 25-1104"

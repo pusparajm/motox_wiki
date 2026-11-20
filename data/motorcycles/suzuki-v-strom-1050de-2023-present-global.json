@@ -111,6 +111,16 @@
             "value": "HF138"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07SU27"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07SU32"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 118 links"

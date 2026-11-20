@@ -99,6 +99,16 @@
             "key": "oil_filter",
             "label": "Oil Filter",
             "value": "HF204"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07HO72"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07HO52"
           }
         ]
       },

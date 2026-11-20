@@ -101,6 +101,16 @@
             "value": "NGK ZGR7GI-13G"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07BB04"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07BB27"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 pitch, 118 links"

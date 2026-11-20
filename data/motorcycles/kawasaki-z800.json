@@ -116,6 +116,16 @@
             "value": "NGK CR9EK"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07KA23"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07HO53"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 116 links"

@@ -116,9 +116,14 @@
             "value": "NGK CR7EIA-9"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07076"
+          },
+          {
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
-            "value": "EBC SFA412"
+            "value": "EBC SFA412 · Brembo 07058"
           },
           {
             "key": "parts_note",

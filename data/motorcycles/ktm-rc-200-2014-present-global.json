@@ -116,6 +116,16 @@
             "value": "NGK LKAR8A-9"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07GR18"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07BB02"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 118 links"

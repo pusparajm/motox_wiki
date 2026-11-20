@@ -380,7 +380,8 @@ def build_parts_fitment(bikes):
       <p>Part numbers are not universal. A pad or bearing that fits one model year can miss the next, and ABS, market and mid-year running changes all matter. This page collects the spark plug, brake pad, wheel bearing, steering head bearing and fork seal codes we have been able to verify for individual models.</p>
       <p>Where a cell is blank, we have not confirmed a code for that model. A blank is deliberate: it is better than a plausible-looking guess.</p>
       <h2>Brake pad and spark plug codes</h2>
-      <p>The table lists the codes shown on each model page. EBC codes come from EBC catalogue listings recorded on MotoSpecVault model-year pages; spark plug codes come from the same model-year records. Cross-brand pad references are added only where a second catalogue confirms the shape.</p>
+      <p>The table lists the codes shown on each model page. EBC codes come from EBC catalogue listings recorded on MotoSpecVault model-year pages; spark plug codes come from the same model-year records. SBS and Vesrah equivalences come from Delta Braking's shape cross-reference tables. Brembo codes are added only where Brembo's application catalogue confirms the model and year.</p>
+      <p>Where an SBS entry contains several numbers separated by slashes, those are shape references listed by Delta for the same EBC pad. Pick the compound for your riding and confirm the seller's application list for your exact model year.</p>
       {table(["Model", "Spark plug", "Front brake pads", "Rear brake pads"], brake_rows)}
       <h2>Wheel bearing, steering head and fork seal codes</h2>
       <p>All Balls kit numbers are shown where the manufacturer's application list covers the model. A kit number is not a bearing dimension: it identifies a set of bearings and seals. Fork seal sizes are oil-seal dimensions in millimetres (inner diameter × outer diameter × thickness).</p>
@@ -388,7 +389,8 @@ def build_parts_fitment(bikes):
       <h2>What the codes mean</h2>
       {table(["Code", "What it identifies", "Notes"], [
         ["EBC FA252 / FA252HH", "EBC brake pad shape", "The number identifies the backing-plate shape; letters such as HH denote the compound."],
-        ["SBS 634", "SBS brake pad shape", "SBS uses its own shape numbers. The compound is a separate suffix or product variant."],
+        ["SBS 634HS", "SBS brake pad shape", "The base number identifies the shape; HS/LS and similar suffixes identify the compound."],
+        ["Vesrah VD-274", "Vesrah brake pad shape", "Vesrah uses its own shape numbers; confirm the compound suffix for your application."],
         ["Brembo 07YA23", "Brembo brake pad code", "Brembo may add a compound suffix such as .SA or .LA. One blister normally does one caliper."],
         ["All Balls 25-1659", "Wheel bearing kit", "25-xxxx is a wheel bearing kit; confirm front or rear in the application list."],
         ["Pivot Works PWRWS-H68-000", "Wheel bearing kit", "Pivot Works is part of the All Balls Racing group; the PW prefix identifies a Pivot Works kit."],
@@ -397,10 +399,10 @@ def build_parts_fitment(bikes):
         ["41 × 54 × 11 mm", "Fork oil seal", "Inner diameter × outer diameter × thickness. Check the fork model, not just the bike model."],
       ])}
       <h2>Verified cross-reference example: Yamaha MT-07</h2>
-      <p>The MT-07 is the model where we have the strongest multi-brand brake cross-reference. The front caliper uses the same pad shape as EBC FA252, SBS 634 and Brembo 07YA23; the rear uses EBC FA174 and SBS 657. These are shape equivalences, not identical friction compounds. Pick the compound for your riding and confirm the seller's application list for your exact year.</p>
-      {table(["Position", "EBC", "SBS", "Brembo", "Verification"], [
-        ["Front", "FA252", "634", "07YA23", "EBC catalogue via MotoSpecVault; EBC/SBS shape match via Delta Braking; Brembo fitment listings for MT-07."],
-        ["Rear", "FA174", "657", "—", "EBC catalogue via MotoSpecVault; SBS 657 listings state FA174 equivalence."],
+      <p>The MT-07 is the model where we have the strongest multi-brand brake cross-reference. The front caliper uses EBC FA252, SBS 634HS, Brembo 07YA23 and Vesrah VD-274; the rear uses EBC FA174, SBS 657LS, Brembo 07HO36 and Vesrah VD-163. These are shape equivalences, not identical friction compounds. Pick the compound for your riding and confirm the seller's application list for your exact year.</p>
+      {table(["Position", "EBC", "SBS", "Brembo", "Vesrah", "Verification"], [
+        ["Front", "FA252", "634HS", "07YA23", "VD-274", "EBC catalogue via MotoSpecVault; EBC/SBS shape match via Delta Braking; Brembo application catalogue."],
+        ["Rear", "FA174", "657LS", "07HO36", "VD-163", "EBC catalogue via MotoSpecVault; SBS 657/FA174 equivalence; Brembo application catalogue; Vesrah via Delta Braking."],
       ])}
       <p>Bearing and seal examples: the MT-07 uses All Balls 25-1659 front, 25-1703 rear and 22-1004 steering head kits, with a 41 × 53 × 8/10.5 mm fork oil seal. The CBR600RR uses All Balls 25-1562 front, Pivot Works PWRWS-H68-000 rear and All Balls 22-1020 steering head kits, with a 41 × 54 × 11 mm fork oil seal. The Ninja 400 uses All Balls 25-1104 front and 25-1780 rear kits.</p>
       <h2>Why some models have no bearing or seal code</h2>
@@ -421,10 +423,10 @@ def build_parts_fitment(bikes):
         <li><a href="https://www.allballsracing.com/" rel="noopener">All Balls Racing</a> — wheel bearing and steering bearing kit application lists.</li>
         <li><a href="https://ebcbrakes.com/" rel="noopener">EBC Brakes</a> — motorcycle brake pad catalogue and compound information.</li>
         <li><a href="https://www.sbs.dk/" rel="noopener">SBS Friction</a> — motorcycle brake pad catalogue.</li>
-        <li><a href="https://www.brembo.com/en/motorcycle" rel="noopener">Brembo</a> — motorcycle brake pad and fitment information.</li>
+        <li><a href="https://www.bremboparts.com/" rel="noopener">BremboParts</a> — Brembo's official parts catalogue; Brembo pad codes are cross-checked against its 2024 motorcycle brake pad application list.</li>
         <li><a href="https://galferusa.com/" rel="noopener">Galfer</a> — motorcycle brake pad catalogue.</li>
         <li><a href="https://www.vesrah.com/" rel="noopener">Vesrah</a> — motorcycle brake pad catalogue.</li>
-        <li><a href="https://www.delta-braking.com/htm/crefEbc.php" rel="noopener">Delta Braking cross-reference</a> — EBC and SBS shape cross-reference used for the MT-07 example.</li>
+        <li><a href="https://www.delta-braking.com/htm/crefEbc.php" rel="noopener">Delta Braking cross-reference</a> — EBC, SBS and Vesrah shape cross-reference used for the equivalent codes.</li>
       </ul>
       <p>Codes can change when a manufacturer revises a compound or kit. Treat this page as a starting point and confirm the part against your exact machine before ordering.</p>
       {related_guides([("oil-capacity-chart.html", "Motorcycle oil capacity chart"), ("torque-specs.html", "Motorcycle torque specifications"), ("seat-height-chart.html", "Motorcycle seat height chart"), ("best-beginner-motorcycles.html", "Best beginner motorcycles")])}

@@ -143,6 +143,21 @@
             "notes": "Star pattern"
           }
         ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07SU27"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07HO36"
+          }
+        ]
       }
     },
     "aliases": [

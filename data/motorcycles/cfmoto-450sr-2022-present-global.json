@@ -138,6 +138,21 @@
             "notes": "Typical value; tighten in a star pattern"
           }
         ]
+      },
+      "service": {
+        "label": "Service Data",
+        "fields": [
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07BB38"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07HO61"
+          }
+        ]
       }
     },
     "aliases": [

@@ -118,7 +118,12 @@
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
-            "value": "EBC FA604/4HH"
+            "value": "EBC FA604/4HH · SBS 870 · Brembo 07BB33 · Vesrah VD-9053"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07BB02"
           },
           {
             "key": "chain",

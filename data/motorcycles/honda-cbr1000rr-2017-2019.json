@@ -116,6 +116,16 @@
             "value": "VUH27ES (DENSO)"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07HO63"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07HO59"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "530 O-ring, 116 links"

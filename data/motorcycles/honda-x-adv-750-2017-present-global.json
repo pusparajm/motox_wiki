@@ -106,6 +106,16 @@
             "value": "SAE 10W-30, JASO MA"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07HO62"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07HO53"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 114 links"

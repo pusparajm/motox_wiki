@@ -104,6 +104,16 @@
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "SAE 15W-50, JASO MA2"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07BB38"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07BB20"
           }
         ]
       },

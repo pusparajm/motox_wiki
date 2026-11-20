@@ -106,6 +106,16 @@
             "value": "NGK CR8E"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07YA55"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07YA41"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 pitch, 114 links"

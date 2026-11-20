@@ -96,6 +96,16 @@
         "label": "Service Data",
         "fields": [
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07BB33"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07BB20"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 pitch, 116 links"

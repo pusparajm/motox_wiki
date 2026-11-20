@@ -99,6 +99,11 @@
             "key": "oil_filter",
             "label": "Oil Filter",
             "value": "HF176B"
+          },
+          {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07HD17"
           }
         ]
       },

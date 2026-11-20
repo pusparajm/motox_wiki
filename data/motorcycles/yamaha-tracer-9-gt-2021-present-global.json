@@ -111,6 +111,16 @@
             "value": "HF204"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07YA23"
+          },
+          {
+            "key": "rear_brake_pads",
+            "label": "Rear Brake Pads",
+            "value": "Brembo 07HO36"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 110 links"

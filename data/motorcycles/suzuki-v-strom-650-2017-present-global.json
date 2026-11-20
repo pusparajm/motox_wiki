@@ -116,9 +116,14 @@
             "value": "NGK MR8E-9"
           },
           {
+            "key": "front_brake_pads",
+            "label": "Front Brake Pads",
+            "value": "Brembo 07KA19"
+          },
+          {
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
-            "value": "EBC FA174"
+            "value": "EBC FA174 · SBS 657 · Brembo 07HO36 · Vesrah VD-163"
           },
           {
             "key": "chain",

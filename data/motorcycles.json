@@ -408,12 +408,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900HS · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 730LS · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "front_wheel_bearings",
@@ -912,6 +912,16 @@
               "value": "HF563"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07SU12"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07KA07"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 110 links"
@@ -1077,6 +1087,16 @@
               "key": "oil_filter",
               "label": "Oil Filter",
               "value": "HF565"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB03"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -1395,12 +1415,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -1562,12 +1582,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -3197,6 +3217,21 @@
               "notes": "Typical value; tighten in a star pattern"
             }
           ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07GR83"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07GR93"
+            }
+          ]
         }
       }
     },
@@ -3296,6 +3331,16 @@
         "service": {
           "label": "Service Data",
           "fields": [
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB33"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB20"
+            },
             {
               "key": "chain",
               "label": "Chain / Final Drive",
@@ -4089,12 +4134,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA322/4HH"
+              "value": "EBC FA322/4HH · SBS 762/782 · Brembo 07BB33 · Vesrah VD-986"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA698"
+              "value": "EBC FA698 · SBS 832 · Brembo 07GR93 · Vesrah VD-173"
             },
             {
               "key": "chain",
@@ -5329,12 +5374,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -5501,12 +5546,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -5673,12 +5718,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA606"
+              "value": "EBC FA606 · SBS 231/877 · Brembo 07GR18 · Vesrah VD-9068"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -5841,6 +5886,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR9D-J"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07GR18"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -6152,6 +6207,16 @@
               "value": "SAE 5W-40, JASO MA2"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07GR99"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07KS06"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 120 links"
@@ -6311,12 +6376,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA757HH"
+              "value": "EBC FA757HH · SBS 985 · Brembo 07GR99 · Vesrah VD-192"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA254HH"
+              "value": "EBC FA254HH · SBS 715/765/984 · Brembo 07KS06 · Vesrah VD-436"
             },
             {
               "key": "chain",
@@ -6779,12 +6844,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA724HH"
+              "value": "EBC FA724HH · SBS 960 · Brembo 07GR90 · Vesrah VD-9088"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA209/2"
+              "value": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958"
             },
             {
               "key": "parts_note",
@@ -6950,12 +7015,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA724HH"
+              "value": "EBC FA724HH · SBS 960 · Brembo 07GR90 · Vesrah VD-9088"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA209/2"
+              "value": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958"
             },
             {
               "key": "parts_note",
@@ -7262,12 +7327,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA748HH"
+              "value": "EBC FA748HH · SBS 995 · Brembo 07BB40"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA749HH"
+              "value": "EBC FA749HH · SBS 995 · Brembo 07BB41"
             },
             {
               "key": "parts_note",
@@ -7434,12 +7499,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07GR90 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -7611,12 +7676,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA604/4HH"
+              "value": "EBC FA604/4HH · SBS 870 · Brembo 07BB33 · Vesrah VD-9053"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -7788,7 +7853,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA604/4HH"
+              "value": "EBC FA604/4HH · SBS 870 · Brembo 07BB33 · Vesrah VD-9053"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -7960,7 +8030,7 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA724HH"
+              "value": "EBC FA724HH · SBS 960 · Vesrah VD-9088"
             },
             {
               "key": "rear_brake_pads",
@@ -8132,12 +8202,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA724HH"
+              "value": "EBC FA724HH · SBS 960 · Brembo 07GR90 · Vesrah VD-9088"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA363"
+              "value": "EBC FA363 · SBS 742 · Brembo 07BB28 · Vesrah VD-947/2"
             },
             {
               "key": "chain",
@@ -8935,6 +9005,21 @@
               "component": "Rear sprocket nuts",
               "torque": "55 Nm",
               "notes": "Typical value; tighten in a star pattern"
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO61"
             }
           ]
         }
@@ -9809,12 +9894,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -9986,12 +10071,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA322/4HH"
+              "value": "EBC FA322/4HH · SBS 762/782 · Vesrah VD-986"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -10163,12 +10248,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA244"
+              "value": "EBC FA244 · SBS 706 · Vesrah VD-262"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -10340,12 +10425,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -10517,12 +10602,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -10682,6 +10767,16 @@
               "value": "SAE 15W-50, JASO MA2"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB37"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB04"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 116 links"
@@ -10832,6 +10927,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB37"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB03"
             },
             {
               "key": "chain",
@@ -11116,6 +11221,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB20"
             }
           ]
         },
@@ -11277,12 +11392,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266V"
+              "value": "EBC FA266V · SBS 157/730 · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -11454,12 +11569,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -11631,12 +11746,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266V"
+              "value": "EBC FA266V · SBS 157/730 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -11796,6 +11911,16 @@
               "value": "SAE 15W-50, JASO MA2"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB20"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 116 links"
@@ -11946,6 +12071,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB04"
             },
             {
               "key": "chain",
@@ -12105,6 +12240,16 @@
               "value": "HF159"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB04"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 116 links"
@@ -12255,6 +12400,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB20"
             },
             {
               "key": "chain",
@@ -12573,12 +12728,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -12750,12 +12905,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -12918,6 +13073,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMDR10A-JS"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB37"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB20"
             },
             {
               "key": "chain",
@@ -13411,6 +13576,16 @@
               "value": "NGK LMDR10A-JS"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB37"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB20"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 116 links"
@@ -13575,12 +13750,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -13747,12 +13922,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -13919,12 +14094,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -14082,6 +14257,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB20"
             },
             {
               "key": "chain",
@@ -14243,12 +14428,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -14420,12 +14605,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -14597,7 +14782,7 @@
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA209/2V"
+              "value": "EBC FA209/2V · SBS 176/674/1005 · Vesrah VD-958"
             },
             {
               "key": "parts_note",
@@ -14900,12 +15085,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA457V"
+              "value": "EBC FA457V · SBS 853 · Vesrah VD-9034"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA458V"
+              "value": "EBC FA458V · SBS 854 · Vesrah VD-9035"
             },
             {
               "key": "parts_note",
@@ -15057,12 +15242,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA296HH"
+              "value": "EBC FA296HH · Brembo 07HD20"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA710V"
+              "value": "EBC FA710V · SBS 949 · Brembo 07HD23 · Vesrah VD-9086"
             },
             {
               "key": "parts_note",
@@ -15219,12 +15404,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA381"
+              "value": "EBC FA381 · SBS 807 · Brembo 07HD22 · Vesrah VD-9009"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA387"
+              "value": "EBC FA387 · SBS 808 · Brembo 07KA21 · Vesrah VD-9010"
             },
             {
               "key": "parts_note",
@@ -15376,12 +15561,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA296HH"
+              "value": "EBC FA296HH · Brembo 07HD20"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA710V"
+              "value": "EBC FA710V · SBS 949 · Brembo 07HD23 · Vesrah VD-9086"
             },
             {
               "key": "parts_note",
@@ -15533,12 +15718,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA640"
+              "value": "EBC FA640 · SBS 934 · Brembo 07HD22 · Vesrah VD-9082"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA254"
+              "value": "EBC FA254 · SBS 715/765/984 · Brembo 07KA21 · Vesrah VD-436"
             },
             {
               "key": "parts_note",
@@ -15695,7 +15880,7 @@
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA710V"
+              "value": "EBC FA710V · SBS 949 · Vesrah VD-9086"
             },
             {
               "key": "parts_note",
@@ -15843,6 +16028,11 @@
               "key": "oil_filter",
               "label": "Oil Filter",
               "value": "HF176B"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HD17"
             }
           ]
         },
@@ -15989,7 +16179,7 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
@@ -16146,12 +16336,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA409"
+              "value": "EBC FA409 · SBS 830 · Vesrah VD-9025"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA409"
+              "value": "EBC FA409 · SBS 830 · Vesrah VD-9025"
             },
             {
               "key": "parts_note",
@@ -16440,12 +16630,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA409"
+              "value": "EBC FA409 · SBS 830 · Vesrah VD-9025"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA409"
+              "value": "EBC FA409 · SBS 830 · Vesrah VD-9025"
             },
             {
               "key": "parts_note",
@@ -16739,12 +16929,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA209/2"
+              "value": "EBC FA209/2 · SBS 176/674/1005 · Vesrah VD-958"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA181X"
+              "value": "EBC FA181X · SBS 671/1003 · Vesrah VD-947"
             },
             {
               "key": "parts_note",
@@ -16921,6 +17111,21 @@
               "notes": ""
             }
           ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HD15"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HD07"
+            }
+          ]
         }
       }
     },
@@ -17028,12 +17233,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA409"
+              "value": "EBC FA409 · SBS 830 · Vesrah VD-9025"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA409"
+              "value": "EBC FA409 · SBS 830 · Vesrah VD-9025"
             },
             {
               "key": "parts_note",
@@ -17312,12 +17517,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA209/2"
+              "value": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA181X"
+              "value": "EBC FA181X · SBS 671/1003 · Brembo 07BB04 · Vesrah VD-947"
             },
             {
               "key": "parts_note",
@@ -19998,12 +20203,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA700HH"
+              "value": "EBC FA700HH · SBS 947 · Brembo 07HO63 · Vesrah VD-189"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA488HH"
+              "value": "EBC FA488HH · SBS 862 · Brembo 07HO13 · Vesrah VD-178"
             },
             {
               "key": "chain",
@@ -20345,6 +20550,16 @@
               "value": "SAE 10W-30, JASO MA"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HO62"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO61"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "428 O-ring, 118 links"
@@ -20519,12 +20734,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA679HH"
+              "value": "EBC FA679HH · SBS 241/940 · Vesrah VD-187"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA629"
+              "value": "EBC FA629 · SBS 915 · Vesrah VD-182"
             },
             {
               "key": "chain",
@@ -21202,12 +21417,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA142"
+              "value": "EBC FA142 · SBS 183/242/627 · Brembo 07HO30 · Vesrah VD-156"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA496"
+              "value": "EBC FA496 · SBS 881 · Brembo 07HO53 · Vesrah VD-147/2"
             },
             {
               "key": "chain",
@@ -21384,12 +21599,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA142"
+              "value": "EBC FA142 · SBS 183/242/627 · Brembo 07HO30 · Vesrah VD-156"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA496"
+              "value": "EBC FA496 · SBS 881 · Brembo 07HO53 · Vesrah VD-147/2"
             },
             {
               "key": "chain",
@@ -21556,12 +21771,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA679HH"
+              "value": "EBC FA679HH · SBS 241/940 · Vesrah VD-187"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA496"
+              "value": "EBC FA496 · SBS 881 · Vesrah VD-147/2"
             },
             {
               "key": "chain",
@@ -21719,6 +21934,16 @@
               "key": "oil_filter",
               "label": "Oil Filter",
               "value": "HF204"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HO72"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO52"
             }
           ]
         },
@@ -21890,12 +22115,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA390HH"
+              "value": "EBC FA390HH · SBS 809 · Brembo 07HO50 · Vesrah VD-170"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Brembo 07HO36 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -22072,12 +22297,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA390HH"
+              "value": "EBC FA390HH · SBS 809 · Brembo 07HO50 · Vesrah VD-170"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA436"
+              "value": "EBC FA436 · SBS 834/991 · Brembo 07HO59 · Vesrah VD-174"
             },
             {
               "key": "chain",
@@ -22254,12 +22479,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA390HH"
+              "value": "EBC FA390HH · SBS 809 · Brembo 07HO50 · Vesrah VD-170"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA436"
+              "value": "EBC FA436 · SBS 834/991 · Brembo 07HO59 · Vesrah VD-174"
             },
             {
               "key": "chain",
@@ -22436,12 +22661,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07HO50 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA436"
+              "value": "EBC FA436 · SBS 834/991 · Brembo 07HO59 · Vesrah VD-174"
             },
             {
               "key": "chain",
@@ -22616,6 +22841,16 @@
               "value": "VUH27ES (DENSO)"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HO63"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO59"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "530 O-ring, 116 links"
@@ -22785,12 +23020,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA757HH"
+              "value": "EBC FA757HH · SBS 985 · Vesrah VD-192"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266HH"
+              "value": "EBC FA266HH · SBS 157/730 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -22953,6 +23188,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MA"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07GR99"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB20"
             },
             {
               "key": "chain",
@@ -23453,12 +23698,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA390HH"
+              "value": "EBC FA390HH · SBS 627HS · Brembo 07HO50 · Vesrah VD-170"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA436"
+              "value": "EBC FA436 · SBS 834LS · Brembo 07HO59 · Vesrah VD-174"
             },
             {
               "key": "front_wheel_bearings",
@@ -23655,12 +23900,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA142"
+              "value": "EBC FA142 · SBS 183/242/627 · Brembo 07HO30 · Vesrah VD-156"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA496"
+              "value": "EBC FA496 · SBS 881 · Brembo 07HO53 · Vesrah VD-147/2"
             },
             {
               "key": "chain",
@@ -23837,12 +24082,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA142"
+              "value": "EBC FA142 · SBS 183/242/627 · Brembo 07HO30 · Vesrah VD-156"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA496"
+              "value": "EBC FA496 · SBS 881 · Brembo 07HO53 · Vesrah VD-147/2"
             },
             {
               "key": "chain",
@@ -24014,12 +24259,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA679HH"
+              "value": "EBC FA679HH · SBS 241/940 · Brembo 07HO62 · Vesrah VD-187"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA496"
+              "value": "EBC FA496 · SBS 881 · Brembo 07HO53 · Vesrah VD-147/2"
             },
             {
               "key": "chain",
@@ -24520,12 +24765,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA465X"
+              "value": "EBC FA465X · SBS 859 · Vesrah VD-181"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA629X"
+              "value": "EBC FA629X · SBS 915 · Vesrah VD-182"
             },
             {
               "key": "chain",
@@ -24702,12 +24947,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA465X"
+              "value": "EBC FA465X · SBS 859 · Vesrah VD-181"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA629X"
+              "value": "EBC FA629X · SBS 915 · Vesrah VD-182"
             },
             {
               "key": "chain",
@@ -24879,12 +25124,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA185X"
+              "value": "EBC FA185X · SBS 694/807 · Brembo 07KA17 · Vesrah VD-161/VD-181"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA346X"
+              "value": "EBC FA346X · SBS 777 · Brembo 07HO48 · Vesrah VD-168"
             },
             {
               "key": "chain",
@@ -25531,12 +25776,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA717HH"
+              "value": "EBC FA717HH · SBS 952"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA388/2HH"
+              "value": "EBC FA388/2HH · SBS 953 · Vesrah VD-172"
             },
             {
               "key": "parts_note",
@@ -25708,12 +25953,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA375"
+              "value": "EBC FA375 · SBS 797 · Vesrah VD-177"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA629"
+              "value": "EBC FA629 · SBS 915 · Vesrah VD-182"
             },
             {
               "key": "chain",
@@ -25893,6 +26138,16 @@
               "value": "NGK CPR6EA-9"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HO56"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO49"
+            },
+            {
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
@@ -26067,12 +26322,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA196"
+              "value": "EBC FA196 · SBS 654/700 · Vesrah VD-156/2"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA496"
+              "value": "EBC FA496 · SBS 881 · Vesrah VD-147/2"
             },
             {
               "key": "chain",
@@ -26917,12 +27172,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA196"
+              "value": "EBC FA196 · SBS 654/700 · Vesrah VD-156/2"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA496"
+              "value": "EBC FA496 · SBS 881 · Vesrah VD-147/2"
             },
             {
               "key": "chain",
@@ -27418,7 +27673,7 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA691"
+              "value": "EBC FA691 · SBS 925 · Vesrah VD-186"
             },
             {
               "key": "rear_brake_pads",
@@ -27743,6 +27998,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MA"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HO62"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO53"
             },
             {
               "key": "chain",
@@ -28076,12 +28341,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA181X"
+              "value": "EBC FA181X · SBS 671/1003 · Brembo 07BB04 · Vesrah VD-947"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA368X"
+              "value": "EBC FA368X · SBS 791 · Brembo 07BB27 · Vesrah VD-997"
             },
             {
               "key": "chain",
@@ -28699,12 +28964,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA606"
+              "value": "EBC FA606 · SBS 231/877 · Vesrah VD-9068"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA208X"
+              "value": "EBC FA208X · SBS 175/675 · Vesrah VD-953"
             },
             {
               "key": "chain",
@@ -29013,12 +29278,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA606"
+              "value": "EBC FA606 · SBS 231/877 · Vesrah VD-9068"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA208X"
+              "value": "EBC FA208X · SBS 175/675 · Vesrah VD-953"
             },
             {
               "key": "chain",
@@ -29198,6 +29463,21 @@
               "component": "Spark plugs",
               "torque": "18 Nm (13 lb-ft)",
               "notes": ""
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO31"
             }
           ]
         }
@@ -29464,6 +29744,21 @@
               "notes": ""
             }
           ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA23"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO31"
+            }
+          ]
         }
       }
     },
@@ -29594,6 +29889,21 @@
               "component": "Spark plugs",
               "torque": "18 Nm (13 lb-ft)",
               "notes": ""
+            }
+          ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB20"
             }
           ]
         }
@@ -31036,12 +31346,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA135X"
+              "value": "EBC FA135X · Brembo 07SU12"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA131X"
+              "value": "EBC FA131X · SBS 604 · Brembo 07HO26 · Vesrah VD-144"
             },
             {
               "key": "chain",
@@ -31204,6 +31514,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CPR8EB-9"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB04"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07YA41"
             },
             {
               "key": "parts_note",
@@ -31380,12 +31700,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA379HH"
+              "value": "EBC FA379HH · SBS 806 · Brembo 07SU27 · Vesrah VD-355"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA192"
+              "value": "EBC FA192 · SBS 687 · Brembo 07KA16 · Vesrah VD-434"
             },
             {
               "key": "chain",
@@ -31729,12 +32049,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA197"
+              "value": "EBC FA197 · Brembo 07YA22"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA197"
+              "value": "EBC FA197 · Brembo 07YA22"
             },
             {
               "key": "chain",
@@ -32278,6 +32598,16 @@
               "value": "NGK LMAR9G"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "SBS 955HS · Brembo 07KA31"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "SBS 638LS · Brembo 07YA22"
+            },
+            {
               "key": "front_wheel_bearings",
               "label": "Front Wheel Bearings",
               "value": "All Balls 25-1104"
@@ -32644,7 +32974,7 @@
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -32836,7 +33166,7 @@
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -33013,12 +33343,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Brembo 07BB20 · Vesrah VD-964"
             },
             {
               "key": "parts_note",
@@ -33185,7 +33515,7 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA379HH"
+              "value": "EBC FA379HH · SBS 806 · Vesrah VD-355"
             },
             {
               "key": "rear_brake_pads",
@@ -33372,12 +33702,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA436"
+              "value": "EBC FA436 · SBS 834/991 · Brembo 07HO59 · Vesrah VD-174"
             },
             {
               "key": "chain",
@@ -33545,6 +33875,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK SILMAR9B9"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB37"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO59"
             },
             {
               "key": "chain",
@@ -34028,6 +34368,16 @@
               "value": "SAE 10W-40, JASO MA2"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07SU27"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 110 links"
@@ -34227,6 +34577,21 @@
               "notes": "Star pattern"
             }
           ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07SU27"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
+            }
+          ]
         }
       }
     },
@@ -34335,6 +34700,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-40, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07SU27"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
             },
             {
               "key": "chain",
@@ -34514,6 +34889,16 @@
               "value": "NGK CR9E"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA28"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07KA16"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 110 links"
@@ -34684,6 +35069,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9E"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA28"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07KA16"
             },
             {
               "key": "chain",
@@ -35199,12 +35594,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA158"
+              "value": "EBC FA158 · SBS 631 · Brembo 07KA13 · Vesrah VD-343"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Brembo 07HO36 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -35386,12 +35781,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA158"
+              "value": "EBC FA158 · SBS 631 · Brembo 07KA13 · Vesrah VD-343"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Brembo 07HO36 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -35573,12 +35968,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA158"
+              "value": "EBC FA158 · SBS 631 · Brembo 07SU27 · Vesrah VD-343"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Brembo 07HO36 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -35920,9 +36315,14 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA19"
+            },
+            {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA192"
+              "value": "EBC FA192 · SBS 687 · Brembo 07KA16 · Vesrah VD-434"
             },
             {
               "key": "chain",
@@ -36107,9 +36507,14 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA19"
+            },
+            {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA192"
+              "value": "EBC FA192 · SBS 687 · Brembo 07KA16 · Vesrah VD-434"
             },
             {
               "key": "chain",
@@ -36296,12 +36701,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA142"
+              "value": "EBC FA142 · SBS 183/242/627 · Brembo 07HO30 · Vesrah VD-156"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Brembo 07HO36 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -36486,6 +36891,16 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HO30"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 112 links"
@@ -36660,12 +37075,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA142"
+              "value": "EBC FA142 · SBS 183/242/627 · Brembo 07HO30 · Vesrah VD-156"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA197"
+              "value": "EBC FA197 · Brembo 07YA22"
             },
             {
               "key": "chain",
@@ -36847,12 +37262,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA229"
+              "value": "EBC FA229 · SBS 705 · Vesrah VD-352"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA231/2V"
+              "value": "EBC FA231/2V · SBS 886/920 · Vesrah VD-435/2"
             },
             {
               "key": "parts_note",
@@ -37025,6 +37440,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HO42"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
             },
             {
               "key": "chain",
@@ -37209,6 +37634,16 @@
               "value": "NGK CR8E"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA18"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07YA22"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 110 links"
@@ -37376,9 +37811,14 @@
               "value": "NGK SILMAR9E9"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA266"
+              "value": "EBC FA266 · SBS 157/730 · Brembo 07HO36 · Vesrah VD-964"
             },
             {
               "key": "chain",
@@ -37560,12 +38000,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA379HH"
+              "value": "EBC FA379HH · SBS 806 · Brembo 07SU27 · Vesrah VD-355"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA192"
+              "value": "EBC FA192 · SBS 687 · Brembo 07KA16 · Vesrah VD-434"
             },
             {
               "key": "chain",
@@ -37889,12 +38329,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA197"
+              "value": "EBC FA197 · Brembo 07YA22"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA197"
+              "value": "EBC FA197 · Brembo 07YA22"
             },
             {
               "key": "chain",
@@ -38067,6 +38507,16 @@
               "key": "oil_filter",
               "label": "Oil Filter",
               "value": "HF303"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA31"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07YA22"
             },
             {
               "key": "chain",
@@ -38420,7 +38870,7 @@
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -38600,6 +39050,16 @@
               "value": "HF303"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HO30"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 112 links"
@@ -38777,6 +39237,16 @@
               "value": "NGK CR9EK"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA23"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO53"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 116 links"
@@ -38946,12 +39416,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA347HH"
+              "value": "EBC FA347HH · SBS 782 · Brembo 07KA23 · Vesrah VD-443"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Brembo 07HO53 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -39123,12 +39593,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA347HH"
+              "value": "EBC FA347HH · SBS 782 · Vesrah VD-443"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -39440,6 +39910,16 @@
               "value": "HF155"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07GR18"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 118 links"
@@ -39594,12 +40074,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA244"
+              "value": "EBC FA244 · SBS 706 · Vesrah VD-262"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA181X"
+              "value": "EBC FA181X · SBS 671/1003 · Vesrah VD-947"
             },
             {
               "key": "chain",
@@ -40546,12 +41026,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA181X"
+              "value": "EBC FA181X · SBS 671/1003 · Brembo 07BB04 · Vesrah VD-947"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA368X"
+              "value": "EBC FA368X · SBS 791 · Brembo 07BB27 · Vesrah VD-997"
             },
             {
               "key": "chain",
@@ -40714,6 +41194,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK ZGR7GI-13G"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB04"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB27"
             },
             {
               "key": "chain",
@@ -40895,12 +41385,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA181X"
+              "value": "EBC FA181X · SBS 671/1003 · Brembo 07BB04 · Vesrah VD-947"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA368X"
+              "value": "EBC FA368X · SBS 791 · Brembo 07BB27 · Vesrah VD-997"
             },
             {
               "key": "chain",
@@ -41073,6 +41563,16 @@
               "key": "oil_filter",
               "label": "Oil Filter",
               "value": "HF155"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07GR18"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -41568,12 +42068,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA606"
+              "value": "EBC FA606 · SBS 231/877 · Brembo 07GR18 · Vesrah VD-9068"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -41746,6 +42246,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LKAR8A-9"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07GR18"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -42396,6 +42906,16 @@
               "value": "NGK LMAR9AI-8"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB04"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB27"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 pitch, 118 links"
@@ -42573,6 +43093,16 @@
               "value": "NGK LZMAR8BI-10"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB04"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB27"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 pitch, 118 links"
@@ -42742,12 +43272,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA209/2"
+              "value": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA208X"
+              "value": "EBC FA208X · SBS 175/675 · Brembo 07BB02 · Vesrah VD-953"
             },
             {
               "key": "chain",
@@ -43241,6 +43771,16 @@
               "value": "NGK LMAR9AI-10"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB19"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 116 links"
@@ -43405,12 +43945,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA244"
+              "value": "EBC FA244 · SBS 706 · Brembo 07BB19 · Vesrah VD-262"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA181X"
+              "value": "EBC FA181X · SBS 671/1003 · Brembo 07BB04 · Vesrah VD-947"
             },
             {
               "key": "chain",
@@ -43582,7 +44122,7 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
@@ -44056,6 +44596,16 @@
               "value": "HF155"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07GR18"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 118 links"
@@ -44221,6 +44771,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LKAR8A-9"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07GR18"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -44395,6 +44955,16 @@
               "value": "NGK LKAR8A-9"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07GR18"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 118 links"
@@ -44550,6 +45120,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR7E"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07121"
             },
             {
               "key": "parts_note",
@@ -45039,6 +45619,21 @@
               "notes": ""
             }
           ]
+        },
+        "service": {
+          "label": "Service Data",
+          "fields": [
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB38"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB04"
+            }
+          ]
         }
       }
     },
@@ -45420,12 +46015,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA244"
+              "value": "EBC FA244 · SBS 706 · Brembo 07BB19 · Vesrah VD-262"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA256"
+              "value": "EBC FA256 · Brembo 07GR13"
             },
             {
               "key": "parts_note",
@@ -46784,6 +47379,16 @@
               "value": "SAE 15W-50, JASO MA2"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB04"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 108 links"
@@ -47086,6 +47691,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-40, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB03"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -47527,6 +48142,16 @@
               "key": "oil_filter",
               "label": "Oil Filter",
               "value": "HF510"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB04"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -47972,12 +48597,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA209/2"
+              "value": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -48135,6 +48760,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 15W-50, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB04"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -48753,6 +49388,16 @@
               "key": "oil_filter",
               "label": "Oil Filter",
               "value": "HF515"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB03"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB04"
             },
             {
               "key": "chain",
@@ -49392,9 +50037,14 @@
               "value": "NGK CR7EIA-9"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07076"
+            },
+            {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC SFA412"
+              "value": "EBC SFA412 · Brembo 07058"
             },
             {
               "key": "parts_note",
@@ -49714,6 +50364,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-40, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA17"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO26"
             },
             {
               "key": "chain",
@@ -50364,6 +51024,16 @@
               "value": "HF138"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA23"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 118 links"
@@ -50533,12 +51203,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA188"
+              "value": "EBC FA188 · SBS 686 · Brembo 07SU19 · Vesrah VD-349"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA254"
+              "value": "EBC FA254 · SBS 715/765/984 · Brembo 07SU25 · Vesrah VD-436"
             },
             {
               "key": "chain",
@@ -50715,12 +51385,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA379HH"
+              "value": "EBC FA379HH · SBS 806 · Brembo 07SU26 · Vesrah VD-355"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA254"
+              "value": "EBC FA254 · SBS 715/765/984 · Brembo 07SU25 · Vesrah VD-436"
             },
             {
               "key": "chain",
@@ -50897,12 +51567,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA379HH"
+              "value": "EBC FA379HH · SBS 806 · Brembo 07SU27 · Vesrah VD-355"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA254"
+              "value": "EBC FA254 · SBS 715/765/984 · Brembo 07SU25 · Vesrah VD-436"
             },
             {
               "key": "chain",
@@ -51079,12 +51749,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA379HH"
+              "value": "EBC FA379HH · SBS 806 · Brembo 07SU27 · Vesrah VD-355"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA419"
+              "value": "EBC FA419 · SBS 833 · Brembo 07SU32 · Vesrah VD-359"
             },
             {
               "key": "chain",
@@ -51261,12 +51931,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA379HH"
+              "value": "EBC FA379HH · SBS 806 · Brembo 07SU27 · Vesrah VD-355"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA436"
+              "value": "EBC FA436 · SBS 834/991 · Brembo 07HO59 · Vesrah VD-174"
             },
             {
               "key": "chain",
@@ -51443,12 +52113,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA436"
+              "value": "EBC FA436 · SBS 834/991 · Brembo 07HO59 · Vesrah VD-174"
             },
             {
               "key": "chain",
@@ -51625,12 +52295,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA436"
+              "value": "EBC FA436 · SBS 834/991 · Brembo 07HO59 · Vesrah VD-174"
             },
             {
               "key": "chain",
@@ -51797,12 +52467,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA715"
+              "value": "EBC FA715 · SBS 951 · Brembo 07SU33 · Vesrah VD-360"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA629"
+              "value": "EBC FA629 · SBS 915 · Brembo 07HO61 · Vesrah VD-182"
             },
             {
               "key": "chain",
@@ -51982,6 +52652,16 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB37"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO59"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 110 links"
@@ -52152,6 +52832,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB37"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO59"
             },
             {
               "key": "chain",
@@ -52328,12 +53018,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -52501,6 +53191,16 @@
               "key": "oil_filter",
               "label": "Oil Filter",
               "value": "HF138"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB37"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
             },
             {
               "key": "chain",
@@ -52672,12 +53372,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA347HH"
+              "value": "EBC FA347HH · SBS 782 · Vesrah VD-443"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -52847,6 +53547,16 @@
               "value": "SAE 10W-40, JASO MA2"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07SU19"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07KS05"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "530 O-ring, 118 links"
@@ -53004,6 +53714,16 @@
               "value": "SAE 10W-40, JASO MA2"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB37"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07SU32"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "530 O-ring, 118 links"
@@ -53159,6 +53879,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-40, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07BB37"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07SU32"
             },
             {
               "key": "chain",
@@ -53330,12 +54060,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA226"
+              "value": "EBC FA226 · Brembo 07HO30"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA496"
+              "value": "EBC FA496 · SBS 881 · Brembo 07HO53 · Vesrah VD-147/2"
             },
             {
               "key": "chain",
@@ -53512,12 +54242,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA436"
+              "value": "EBC FA436 · SBS 834/991 · Brembo 07HO36 · Vesrah VD-174"
             },
             {
               "key": "chain",
@@ -53694,7 +54424,7 @@
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA496"
+              "value": "EBC FA496 · SBS 881 · Vesrah VD-147/2"
             },
             {
               "key": "chain",
@@ -53871,12 +54601,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA379HH"
+              "value": "EBC FA379HH · SBS 806 · Brembo 07SU27 · Vesrah VD-355"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA419"
+              "value": "EBC FA419 · SBS 833 · Brembo 07SU32 · Vesrah VD-359"
             },
             {
               "key": "chain",
@@ -54051,6 +54781,16 @@
               "value": "HF138"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07SU27"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07SU32"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 118 links"
@@ -54223,9 +54963,14 @@
               "value": "NGK MR8E-9"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07KA19"
+            },
+            {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Brembo 07HO36 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -55020,12 +55765,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA142"
+              "value": "EBC FA142 · SBS 183/242/627 · Vesrah VD-156"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA140"
+              "value": "EBC FA140 · SBS 240/614/657 · Vesrah VD-147"
             },
             {
               "key": "chain",
@@ -55192,12 +55937,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA181X"
+              "value": "EBC FA181X · SBS 671/1003 · Brembo 07BB04 · Vesrah VD-947"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA140"
+              "value": "EBC FA140 · SBS 240/614/657 · Brembo 07HO27 · Vesrah VD-147"
             },
             {
               "key": "chain",
@@ -55364,12 +56109,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA142"
+              "value": "EBC FA142 · SBS 183/242/627 · Vesrah VD-156"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA214/2"
+              "value": "EBC FA214/2 · Vesrah VD-340/2"
             },
             {
               "key": "chain",
@@ -55536,7 +56281,7 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA142"
+              "value": "EBC FA142 · SBS 183/242/627 · Vesrah VD-156"
             },
             {
               "key": "rear_brake_pads",
@@ -55860,12 +56605,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "parts_note",
@@ -56017,12 +56762,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
             },
             {
               "key": "parts_note",
@@ -56184,12 +56929,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA209/2"
+              "value": "EBC FA209/2 · SBS 176/674/1005 · Brembo 07BB03 · Vesrah VD-958"
             },
             {
               "key": "chain",
@@ -56979,12 +57724,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213HH"
+              "value": "EBC FA213HH · Brembo 07BB20"
             },
             {
               "key": "chain",
@@ -57455,12 +58200,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA630HH"
+              "value": "EBC FA630HH · SBS 900 · Vesrah VD-9070"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA214/2"
+              "value": "EBC FA214/2 · Vesrah VD-340/2"
             },
             {
               "key": "parts_note",
@@ -57622,12 +58367,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA447HH"
+              "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA213"
+              "value": "EBC FA213 · Brembo 07BB02"
             },
             {
               "key": "chain",
@@ -57790,6 +58535,16 @@
               "key": "oil_filter",
               "label": "Oil Filter",
               "value": "HF204"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07HO30"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO27"
             },
             {
               "key": "chain",
@@ -58103,12 +58858,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA226"
+              "value": "EBC FA226 · Brembo 07HO30"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA140"
+              "value": "EBC FA140 · SBS 240/614/657 · Brembo 07HO27 · Vesrah VD-147"
             },
             {
               "key": "chain",
@@ -61114,6 +61869,16 @@
               "value": "SAE 10W-40, JASO MA2"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07YA34"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07BB02"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 106 links"
@@ -61283,12 +62048,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA663"
+              "value": "EBC FA663 · SBS 931 · Brembo 07YA52 · Vesrah VD-289"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA662"
+              "value": "EBC FA662 · SBS 932 · Brembo 07YA53 · Vesrah VD-290"
             },
             {
               "key": "chain",
@@ -61465,12 +62230,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA252 · SBS 634 · Brembo 07YA23"
+              "value": "EBC FA252 · SBS 634HS · Brembo 07YA23 · Vesrah VD-274"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174 · SBS 657"
+              "value": "EBC FA174 · SBS 657LS · Brembo 07HO36 · Vesrah VD-163"
             },
             {
               "key": "front_wheel_bearings",
@@ -61662,12 +62427,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA252"
+              "value": "EBC FA252 · SBS 198/634/639 · Brembo 07YA23 · Vesrah VD-274"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174"
+              "value": "EBC FA174 · SBS 657 · Brembo 07HO36 · Vesrah VD-163"
             },
             {
               "key": "chain",
@@ -61840,6 +62605,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR9E-J"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07YA23"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
             },
             {
               "key": "chain",
@@ -62635,6 +63410,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-40, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07YA23"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07YA39"
             }
           ]
         },
@@ -62961,6 +63746,16 @@
               "value": "HF204"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07YA23"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 110 links"
@@ -63130,12 +63925,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA181X"
+              "value": "EBC FA181X · SBS 671HS · Brembo 07BB04 · Vesrah VD-947"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA208X"
+              "value": "EBC FA208X · SBS 675LS · Brembo 07BB02 · Vesrah VD-953"
             },
             {
               "key": "chain",
@@ -63469,12 +64264,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC SFA705"
+              "value": "EBC SFA705 · Brembo 07YA52"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC SFA706"
+              "value": "EBC SFA706 · Brembo 07YA53"
             },
             {
               "key": "parts_note",
@@ -63637,6 +64432,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-40, JASO MA2"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07YA28"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07KA12"
             },
             {
               "key": "chain",
@@ -63941,6 +64746,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR8A-9"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07YA23"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO36"
             },
             {
               "key": "chain",
@@ -64277,6 +65092,16 @@
               "value": "NGK CR8E"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07YA55"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07YA41"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 pitch, 114 links"
@@ -64452,6 +65277,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "LMAR9E-J"
+            },
+            {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07YA23"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07HO59"
             },
             {
               "key": "chain",
@@ -64945,6 +65780,16 @@
               "value": "SAE 10W-40, JASO MA2"
             },
             {
+              "key": "front_brake_pads",
+              "label": "Front Brake Pads",
+              "value": "Brembo 07YA52"
+            },
+            {
+              "key": "rear_brake_pads",
+              "label": "Rear Brake Pads",
+              "value": "Brembo 07YA53"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 106 links"
@@ -65114,12 +65959,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA663"
+              "value": "EBC FA663 · SBS 931 · Brembo 07YA52 · Vesrah VD-289"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA662"
+              "value": "EBC FA662 · SBS 932 · Brembo 07YA53 · Vesrah VD-290"
             },
             {
               "key": "chain",
@@ -65296,12 +66141,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA663"
+              "value": "EBC FA663 · SBS 931 · Brembo 07YA52 · Vesrah VD-289"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA662"
+              "value": "EBC FA662 · SBS 932 · Brembo 07YA53 · Vesrah VD-290"
             },
             {
               "key": "chain",
@@ -65478,12 +66323,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA380HH"
+              "value": "EBC FA380HH · Brembo 07YA23"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA436"
+              "value": "EBC FA436 · SBS 834/991 · Brembo 07HO59 · Vesrah VD-174"
             },
             {
               "key": "chain",
@@ -65660,12 +66505,12 @@
             {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
-              "value": "EBC FA252HH"
+              "value": "EBC FA252HH · SBS 198/634/639 · Brembo 07YA23 · Vesrah VD-274"
             },
             {
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
-              "value": "EBC FA174HH"
+              "value": "EBC FA174HH · SBS 657 · Brembo 07HO36 · Vesrah VD-163"
             },
             {
               "key": "chain",
