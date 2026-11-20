@@ -156894,7 +156894,7 @@
       "model_group": "harley-davidson-xl-1200-iron",
       "category": "Naked",
       "displacement": "1200 cc",
-      "summary": "Harley-Davidson XL 1200 Iron (2018–2022). 1202 cc, 99 Nm, 255.8 kg, 653 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Harley-Davidson XL 1200 Iron (2018–2022). 1202 cc, 61 hp, 99 Nm, 255.8 kg, 653 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "harley-davidson",
         "xl-1200-iron",
@@ -156903,7 +156903,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -156974,9 +156974,9 @@
               "value": "2018–2022"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "61 hp @ 5,500 rpm"
             }
           ]
         },
@@ -157031,7 +157031,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
+              "value": "Harley-Davidson Iron 1200 engine output. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -174898,7 +174898,7 @@
       "model_group": "harley-davidson-flhtcutgse-1917-cvo-tri-glide",
       "category": "Naked",
       "displacement": "1917 cc",
-      "summary": "Harley-Davidson FLHTCUTGSE 1917 CVO Tri Glide (2020–2022). 169.5 Nm, 575.6 kg, 658 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Harley-Davidson FLHTCUTGSE 1917 CVO Tri Glide (2020–2022). 121 hp, 169.5 Nm, 575.6 kg, 658 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "harley-davidson",
         "flhtcutgse-1917-cvo-tri-glide",
@@ -174907,7 +174907,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -174963,9 +174963,9 @@
               "value": "2020–2022"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "121 hp @ 5,500 rpm"
             }
           ]
         },
@@ -175025,7 +175025,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2021 record; remaining specifications are still being compiled."
+              "value": "Harley-Davidson CVO Tri Glide output for the Milwaukee-Eight 117 engine. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -232833,33 +232833,89 @@
       "model_group": "italjet-200-dragster",
       "category": "Naked",
       "displacement": "200 cc",
-      "summary": "Italjet 200 Dragster brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Italjet 200 Dragster (2020–Present). 181 cc, 17.5 hp, 15.5 Nm, 133 kg, 770 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "italjet",
         "200-dragster",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "181 cc liquid-cooled single-cylinder four-stroke DOHC"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "200 cc"
+              "value": "181 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "17.5 hp @ 8,000 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "15.5 Nm @ 7,750 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "CVT, belt"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "ISS single-arm with Paioli hydro-pneumatic adjustable shock"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Single hydro-pneumatic adjustable shock"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 200 mm disc, Brembo, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 190 mm disc, Brembo, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-12 front, 140/60-13 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "770 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "133 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "9 L"
             },
             {
               "key": "model_years",
               "label": "Model Years",
-              "value": "2020–Present"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "2020–2023"
             }
           ]
         },
@@ -232879,7 +232935,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Italjet Dragster 200 data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -233041,12 +233097,13 @@
       "model_group": "italjet-500-dragster",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "Italjet 500 Dragster brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Italjet 500 Dragster (2023). 450 cc, 43 hp, 43 Nm, 750 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "italjet",
         "500-dragster",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -233055,9 +233112,69 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "450 cc liquid-cooled single-cylinder four-stroke DOHC"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "450 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "43 hp @ 8,000 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "43 Nm @ 6,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "47 mm USD fork"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Adjustable monoshock"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 270 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-15 front, 160/60-15 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "750 mm"
+            },
+            {
+              "key": "dry_weight",
+              "label": "Dry Weight",
+              "value": "180 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             },
             {
               "key": "model_years",
@@ -233067,7 +233184,7 @@
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -233087,7 +233204,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Italjet Dragster 500 GP data from the show prototype. Dry weight is quoted; production wet weight and final equipment remain to be confirmed."
             }
           ]
         },
@@ -256217,33 +256334,89 @@
       "model_group": "kove-mx-250-off-road",
       "category": "Naked",
       "displacement": "250 cc",
-      "summary": "Kove MX 250 Off Road brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kove MX 250 Off Road (2023). 249.9 cc, 40.2 hp, 27 Nm, 97 kg, 960 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "kove",
         "mx-250-off-road",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "249.9 cc liquid-cooled single-cylinder four-stroke DOHC"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "250 cc"
+              "value": "249.9 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "40.2 hp @ 12,000 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "27 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "5-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "KYB 48 mm inverted fork, fully adjustable"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Yu-An piggyback monoshock, fully adjustable"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 290 mm disc, two-piston caliper"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, single-piston caliper"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "80/100-21 front, 100/90-19 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "960 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "97 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "7 L"
             },
             {
               "key": "model_years",
               "label": "Model Years",
               "value": "2023"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
             }
           ]
         },
@@ -256263,7 +256436,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Kove MX250 data from the manufacturer. Weight is quoted ready to ride without fuel. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -256288,33 +256461,89 @@
       "model_group": "kove-mx-250-supermoto",
       "category": "Naked",
       "displacement": "250 cc",
-      "summary": "Kove MX 250 Supermoto brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Kove MX 250 Supermoto (2023). 249.9 cc, 40.2 hp, 27 Nm, 97 kg, 895 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "kove",
         "mx-250-supermoto",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "249.9 cc liquid-cooled single-cylinder four-stroke DOHC"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "250 cc"
+              "value": "249.9 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "40.2 hp @ 12,000 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "27 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "5-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "Inverted fork, fully adjustable"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Monoshock, fully adjustable"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single disc, two-piston caliper"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single disc, single-piston caliper"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "17-inch front and rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "895 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "97 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "7 L"
             },
             {
               "key": "model_years",
               "label": "Model Years",
               "value": "2023"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
             }
           ]
         },
@@ -256334,7 +256563,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Kove MX250 supermoto data from the manufacturer. The supermoto variant uses 17-inch wheels and a lower seat. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -282016,33 +282245,89 @@
       "model_group": "mbp-1000-c1002v",
       "category": "Naked",
       "displacement": "1002 cc",
-      "summary": "MBP 1000 C1002V brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MBP 1000 C1002V (2023). 997 cc, 87.2 hp, 89 Nm, 282 kg, 680 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "mbp",
         "1000-c1002v",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "997 cc liquid-cooled 80-degree V-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "1002 cc"
+              "value": "997 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "87.2 hp @ 7,200 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "89 Nm @ 5,250 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, belt"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "KYB USD fork, 137 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB Pro-Link monoshock, 52.5 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 320 mm discs, J.Juan, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 300 mm disc, J.Juan, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "130/70-18 front, 240/40-18 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "680 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "282 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "22 L"
             },
             {
               "key": "model_years",
               "label": "Model Years",
               "value": "2023"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
             }
           ]
         },
@@ -282062,7 +282347,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "MBP C1002V data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -282087,33 +282372,89 @@
       "model_group": "mbp-1000-t1002v",
       "category": "Naked",
       "displacement": "1002 cc",
-      "summary": "MBP 1000 T1002V brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "MBP 1000 T1002V (2023). 997 cc, 88.5 hp, 89 Nm, 265 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "mbp",
         "1000-t1002v",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "997 cc liquid-cooled 80-degree V-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "1002 cc"
+              "value": "997 cc"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "88.5 hp @ 7,750 rpm"
+            },
+            {
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "89 Nm @ 5,250 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "43 mm KYB USD fork, 183.8 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock with linkage, 77.4 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 320 mm discs, J.Juan, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 260 mm disc, J.Juan, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-19 front, 170/60-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "265 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "20 L"
             },
             {
               "key": "model_years",
               "label": "Model Years",
               "value": "2023"
-            },
-            {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
             }
           ]
         },
@@ -282133,7 +282474,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "MBP T1002V data from the manufacturer. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -288282,7 +288623,7 @@
       "model_group": "moto-guzzi-v7-850-stone-fast-endurance",
       "category": "Naked",
       "displacement": "850 cc",
-      "summary": "Moto Guzzi V7 850 Stone Fast Endurance (2022). 54.7 Nm, 198 kg, 805 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Moto Guzzi V7 850 Stone Fast Endurance (2022). 65 hp, 73 Nm, 218 kg, 780 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "moto-guzzi",
         "v7-850-stone-fast-endurance",
@@ -288291,7 +288632,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -288299,7 +288640,7 @@
             {
               "key": "torque",
               "label": "Max Torque",
-              "value": "54.7 Nm @ 3,600 rpm"
+              "value": "73 Nm @ 5,000 rpm"
             },
             {
               "key": "transmission",
@@ -288334,12 +288675,12 @@
             {
               "key": "seat_height",
               "label": "Seat Height",
-              "value": "805 mm"
+              "value": "780 mm"
             },
             {
               "key": "weight",
               "label": "Kerb Weight",
-              "value": "198 kg"
+              "value": "218 kg"
             },
             {
               "key": "fuel_capacity",
@@ -288352,9 +288693,9 @@
               "value": "2022"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "65 hp @ 6,800 rpm"
             }
           ]
         },
@@ -288409,7 +288750,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+              "value": "Moto Guzzi V7 850 Stone Fast Endurance data shared with the V7 Stone. Confirm the special-edition equipment against the owner's manual."
             }
           ]
         },
@@ -310524,7 +310865,7 @@
       "model_group": "royal-enfield-500-bullet-trials",
       "category": "Cruiser",
       "displacement": "500 cc",
-      "summary": "Royal Enfield 500 Bullet Trials (2020). 41.3 Nm, 192 kg, 800 mm seat. Partial specifications compiled from MotoSpecVault.",
+      "summary": "Royal Enfield 500 Bullet Trials (2020). 27 hp, 41.3 Nm, 192 kg, 800 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "royal-enfield",
         "500-bullet-trials",
@@ -310533,7 +310874,7 @@
         "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
@@ -310589,9 +310930,9 @@
               "value": "2020"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Partial specification — some core specifications still being compiled"
+              "key": "power",
+              "label": "Max Power",
+              "value": "27 hp @ 5,250 rpm"
             }
           ]
         },
@@ -310611,7 +310952,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
+              "value": "Royal Enfield Bullet Trials 500 engine output. Confirm model-year equipment against the owner's manual."
             }
           ]
         },

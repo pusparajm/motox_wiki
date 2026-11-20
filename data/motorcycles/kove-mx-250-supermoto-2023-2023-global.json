@@ -8,33 +8,89 @@
     "model_group": "kove-mx-250-supermoto",
     "category": "Naked",
     "displacement": "250 cc",
-    "summary": "Kove MX 250 Supermoto brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Kove MX 250 Supermoto (2023). 249.9 cc, 40.2 hp, 27 Nm, 97 kg, 895 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "kove",
       "mx-250-supermoto",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "249.9 cc liquid-cooled single-cylinder four-stroke DOHC"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "250 cc"
+            "value": "249.9 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "40.2 hp @ 12,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "27 Nm @ 7,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "Inverted fork, fully adjustable"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Monoshock, fully adjustable"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single disc, two-piston caliper"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc, single-piston caliper"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "17-inch front and rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "895 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "97 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "7 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2023"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
@@ -54,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Kove MX250 supermoto data from the manufacturer. The supermoto variant uses 17-inch wheels and a lower seat. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

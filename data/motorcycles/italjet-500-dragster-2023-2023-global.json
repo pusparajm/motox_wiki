@@ -8,12 +8,13 @@
     "model_group": "italjet-500-dragster",
     "category": "Naked",
     "displacement": "500 cc",
-    "summary": "Italjet 500 Dragster brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Italjet 500 Dragster (2023). 450 cc, 43 hp, 43 Nm, 750 mm seat. Partial specifications compiled from manufacturer data.",
     "tags": [
       "italjet",
       "500-dragster",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,9 +23,69 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "450 cc liquid-cooled single-cylinder four-stroke DOHC"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "500 cc"
+            "value": "450 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "43 hp @ 8,000 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "43 Nm @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "47 mm USD fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Adjustable monoshock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single 270 mm disc, ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single 230 mm disc"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-15 front, 160/60-15 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "750 mm"
+          },
+          {
+            "key": "dry_weight",
+            "label": "Dry Weight",
+            "value": "180 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12 L"
           },
           {
             "key": "model_years",
@@ -34,7 +95,7 @@
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -54,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Italjet Dragster 500 GP data from the show prototype. Dry weight is quoted; production wet weight and final equipment remain to be confirmed."
           }
         ]
       },

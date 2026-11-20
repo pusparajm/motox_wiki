@@ -8,33 +8,89 @@
     "model_group": "mbp-1000-t1002v",
     "category": "Naked",
     "displacement": "1002 cc",
-    "summary": "MBP 1000 T1002V brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "MBP 1000 T1002V (2023). 997 cc, 88.5 hp, 89 Nm, 265 kg, 820 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "mbp",
       "1000-t1002v",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "997 cc liquid-cooled 80-degree V-twin four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1002 cc"
+            "value": "997 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "88.5 hp @ 7,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "89 Nm @ 5,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm KYB USD fork, 183.8 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "KYB monoshock with linkage, 77.4 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double 320 mm discs, J.Juan, ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single 260 mm disc, J.Juan, ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-19 front, 170/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "820 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "265 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "20 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2023"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
@@ -54,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "MBP T1002V data from the manufacturer. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
