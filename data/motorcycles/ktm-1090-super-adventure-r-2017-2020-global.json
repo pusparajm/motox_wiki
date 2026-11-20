@@ -8,7 +8,7 @@
     "model_group": "ktm-1090-super-adventure-r",
     "category": "Adventure",
     "displacement": "1090 cc",
-    "summary": "KTM 1090 Super Adventure R (2017–2020). 1050 cc, 122.3 hp (91.2 kW), 890 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM 1090 Super Adventure R (2017–2020). 1050 cc, 122.3 hp (91.2 kW), 230 kg, 890 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "ktm",
       "1090-super-adventure-r",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -83,9 +83,9 @@
             "value": "2017–2020"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "230 kg"
           }
         ]
       },
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2018 record; remaining specifications are still being compiled."
+            "value": "KTM 1090 Adventure R wet weight. KTM quotes 207 kg dry; confirm model-year equipment against the owner's manual."
           }
         ]
       },

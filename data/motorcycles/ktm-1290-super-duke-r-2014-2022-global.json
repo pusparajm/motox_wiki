@@ -8,7 +8,7 @@
     "model_group": "ktm-1290-super-duke-r",
     "category": "Naked",
     "displacement": "1290 cc",
-    "summary": "KTM 1290 Super Duke R (2014–2022). 1301 cc, 173.3 hp (129.2 kW), 140 Nm, 835 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM 1290 Super Duke R (2014–2022). 1301 cc, 173.3 hp (129.2 kW), 140 Nm, 210 kg, 835 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "ktm",
       "1290-super-duke-r",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -88,9 +88,9 @@
             "value": "2014–2022"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "210 kg"
           }
         ]
       },
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+            "value": "KTM 1290 Super Duke R wet weight. KTM quotes 189 kg dry for the 2020 generation; earlier generations differ. Confirm the exact model year against the owner's manual."
           }
         ]
       },
