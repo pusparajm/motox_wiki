@@ -619,6 +619,18 @@ main.container {
   min-height: 2.75rem;
 }
 
+.filter-bar .clear-filters {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.75rem;
+  min-height: 2.75rem;
+  margin-bottom: 0;
+  padding: 0.5rem 0.65rem;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
 h2 {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;

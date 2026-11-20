@@ -18,7 +18,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>Motorcycle Specifications Database — 4734 Models | MotoX Wiki</title>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"MotoX Wiki","url":"https://motoxref.com/","description":"Motorcycle specifications, service data, torque specs and buying guides for 4734 mass-produced models.","potentialAction":{"@type":"SearchAction","target":"https://motoxref.com/search.html?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
-  <link rel="stylesheet" href="css/site.min.css?v=4" id="mx-main-css" data-mx-shield-css="css/main.css?v=33" fetchpriority="high">
+  <link rel="stylesheet" href="css/site.min.css?v=5" id="mx-main-css" data-mx-shield-css="css/main.css?v=34" fetchpriority="high">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465"
      crossorigin="anonymous"></script>
 </head>
@@ -40,26 +40,14 @@
   <main class="container">
     <section data-mx-ref="browse">
       <h1 class="sr-only">Motorcycle Specifications Database</h1>
-      <div class="browse-toolbar browse-toolbar-sort">
-        <label class="sort-select">Sort by
-          <select data-mx-ref="sort-mode">
-            <option value="make">Make (A–Z)</option>
-            <option value="newest">Newest first</option>
-            <option value="power">Power (high–low)</option>
-            <option value="displacement">Engine size (high–low)</option>
-            <option value="weight">Weight (light–heavy)</option>
-          </select>
-        </label>
-      </div>
-
       <div class="filter-bar">
-        <select data-mx-ref="filter-make" aria-label="Filter by make">
+        <select data-mx-ref="filter-make" aria-label="Filter by make" style="height:2.75rem;min-height:2.75rem;box-sizing:border-box;margin-bottom:0">
           <option value="">All Makes</option>
         </select>
-        <select data-mx-ref="filter-category" aria-label="Filter by category">
+        <select data-mx-ref="filter-category" aria-label="Filter by category" style="height:2.75rem;min-height:2.75rem;box-sizing:border-box;margin-bottom:0">
           <option value="">All Categories</option>
         </select>
-        <button type="button" data-mx-ref="clear-filters" class="secondary outline clear-filters">Clear</button>
+        <button type="button" data-mx-ref="clear-filters" class="secondary outline clear-filters" style="height:2.75rem;min-height:2.75rem;box-sizing:border-box;margin-bottom:0;padding:0.5rem 0.65rem;display:inline-flex;align-items:center;justify-content:center;line-height:1">Clear</button>
       </div>
 
       <div class="category-chips" data-mx-ref="category-chips" role="group" aria-label="Quick category filters"></div>
@@ -120,7 +108,6 @@
         renderChips(allBikes);
         applyFilters();
       });
-      MotoX.ref('sort-mode').addEventListener('change', applyFilters);
       MotoX.ref('clear-filters').addEventListener('click', clearFilters);
       MotoX.ref('browse-load-more').addEventListener('click', loadMore);
       window.addEventListener('resize', onResize);
@@ -221,34 +208,15 @@
     }
 
     function sortList(list) {
-      const mode = MotoX.ref('sort-mode')?.value || 'make';
-      const sorted = list.slice();
-      const num = v => {
-        if (!v) return 0;
-        const m = String(v).replace(/,/g, '').match(/-?\d+(?:\.\d+)?/);
-        return m ? parseFloat(m[0]) : 0;
-      };
       const startYear = y => {
         const m = String(y || '').match(/(19|20)\d{2}/);
         return m ? parseInt(m[0], 10) : 0;
       };
-      switch (mode) {
-        case 'newest':
-          sorted.sort((a, b) => startYear(b.year) - startYear(a.year) || a.make.localeCompare(b.make) || a.model.localeCompare(b.model));
-          break;
-        case 'power':
-          sorted.sort((a, b) => num(b.power) - num(a.power) || a.make.localeCompare(b.make) || a.model.localeCompare(b.model));
-          break;
-        case 'displacement':
-          sorted.sort((a, b) => num(b.displacement) - num(a.displacement) || a.make.localeCompare(b.make) || a.model.localeCompare(b.model));
-          break;
-        case 'weight':
-          sorted.sort((a, b) => (num(a.weight) || 9999) - (num(b.weight) || 9999) || a.make.localeCompare(b.make) || a.model.localeCompare(b.model));
-          break;
-        default:
-          sorted.sort((a, b) => a.make.localeCompare(b.make) || a.model.localeCompare(b.model) || startYear(b.year) - startYear(a.year));
-      }
-      return sorted;
+      return list.slice().sort((a, b) =>
+        a.make.localeCompare(b.make) ||
+        a.model.localeCompare(b.model) ||
+        startYear(b.year) - startYear(a.year)
+      );
     }
 
     function applyFilters() {
