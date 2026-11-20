@@ -8,33 +8,94 @@
     "model_group": "indian-ftr-1200-r-carbon",
     "category": "Naked",
     "displacement": "1200 cc",
-    "summary": "Indian FTR 1200 R carbon brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Indian FTR 1200 R carbon (2021–Present). Based on the Indian FTR 1200; 1,203 cc, 120 hp (89 kW), 112 Nm (83 lb-ft), 815 mm seat, 235 kg. Variant-specific equipment may differ.",
     "tags": [
       "indian",
       "ftr-1200-r-carbon",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,203 cc liquid-cooled DOHC V-twin, 8 valves"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1200 cc"
+            "value": "1,203 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "120 hp (89 kW) @ 7,750 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "112 Nm (83 lb-ft) @ 6,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "260 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-18 front, 180/55-18 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "815 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "235 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "13 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2021–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
@@ -54,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are shared with the Indian FTR 1200. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

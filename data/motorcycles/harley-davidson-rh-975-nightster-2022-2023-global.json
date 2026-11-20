@@ -6,9 +6,9 @@
     "year": "2022–Present",
     "region": "Global",
     "model_group": "harley-davidson-rh-975-nightster",
-    "category": "Naked",
+    "category": "Cruiser",
     "displacement": "975 cc",
-    "summary": "Harley-Davidson RH 975 Nightster (2022–Present). 1201.3 cc, 107.1 Nm, 254.9 kg, 653 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson RH 975 Nightster (2022–Present). Based on the Harley-Davidson Nightster; 975 cc, 90 hp (67 kW), 95 Nm (70 lb-ft), 705 mm seat, 218 kg. Variant-specific equipment may differ.",
     "tags": [
       "harley-davidson",
       "rh-975-nightster",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,72 +25,77 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "1201.3 cc air-cooled V2, four-stroke"
+            "value": "975 cc liquid-cooled DOHC Revolution Max 975T V-twin, 8 valves"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1201.3 cc"
+            "value": "975 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "90 hp (67 kW) @ 7,500 rpm"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "107.1 Nm @ 4,000 rpm"
+            "value": "95 Nm (70 lb-ft) @ 5,000 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "5-speed, Belt"
+            "value": "6-speed, belt final drive"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "39 mm, 92 mm (3.6 inches)"
+            "value": "41 mm inverted fork"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Mild steel, rectangular tube section, stamped junctions, MIG welded swing-arm. Coil-over; preload dual-adjustable shocks., 41 mm (1.6 inches)"
+            "value": "Single shock"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Single disc. Dual-piston"
+            "value": "320 mm disc, radial 4-piston caliper"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Single-piston"
+            "value": "260 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "100/90-B19 front, 150/80-B16 rear"
+            "value": "130/90-16 front, 150/80-16 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "653 mm"
+            "value": "705 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "254.9 kg"
+            "value": "218 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "12.49 L"
+            "value": "11.7 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2022–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -98,49 +103,9 @@
         "label": "Service Data",
         "fields": [
           {
-            "key": "oil_capacity",
-            "label": "Engine Oil (with filter)",
-            "value": "2.6 L"
-          },
-          {
-            "key": "oil_grade",
-            "label": "Oil Grade",
-            "value": "20W-50"
-          },
-          {
             "key": "oil_filter",
             "label": "Oil Filter",
-            "value": "HF170"
-          },
-          {
-            "key": "spark_plug",
-            "label": "Spark Plug",
-            "value": "NGK DCPR7E"
-          },
-          {
-            "key": "coolant",
-            "label": "Coolant",
-            "value": "2.1 L"
-          },
-          {
-            "key": "chain",
-            "label": "Chain / Final Drive",
-            "value": "Belt"
-          },
-          {
-            "key": "fork_oil",
-            "label": "Fork Oil",
-            "value": "SAE 15W, 0.40 litres (0.42 US quarts) per leg"
-          },
-          {
-            "key": "brake_fluid",
-            "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 24 months"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 8,000 km (5,000 miles)"
+            "value": "HF176B"
           },
           {
             "key": "front_brake_pads",
@@ -155,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are shared with the Harley-Davidson Nightster. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

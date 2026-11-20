@@ -6,36 +6,127 @@
     "year": "2023",
     "region": "Global",
     "model_group": "zero-dsr-x-zf17-3",
-    "category": "Naked",
+    "category": "Adventure",
     "displacement": "—",
-    "summary": "Zero DSR/X ZF17.3 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Zero DSR/X ZF17.3 (2023). Based on the Zero DSR/X; —, 100 hp (75 kW), 225 Nm (166 lb-ft), 828 mm seat, 247 kg. Variant-specific equipment may differ.",
     "tags": [
       "zero",
       "dsr-x-zf17-3",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "ZF75-10 electric motor, 17.3 kWh battery"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "—"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "100 hp (75 kW)"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "225 Nm (166 lb-ft)"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "Single-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted Showa fork, 200 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Showa single shock, 200 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "265 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-19 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "828 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "247 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17.3 kWh battery"
+          },
+          {
+            "key": "top_speed",
+            "label": "Top Speed",
+            "value": "180 km/h"
+          },
+          {
             "key": "model_years",
             "label": "Model Years",
             "value": "2023"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "engine_oil",
+            "label": "Engine Oil",
+            "value": "Not applicable — electric motor"
+          },
+          {
+            "key": "final_drive",
+            "label": "Final Drive",
+            "value": "Belt"
+          },
+          {
+            "key": "brake_fluid",
+            "label": "Brake Fluid",
+            "value": "DOT 4"
+          },
+          {
+            "key": "service_interval",
+            "label": "Service Interval",
+            "value": "Belt every 19,000 km; brake fluid every 19,000 km"
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -49,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are shared with the Zero DSR/X. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

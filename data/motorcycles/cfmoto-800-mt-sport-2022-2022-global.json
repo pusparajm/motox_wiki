@@ -6,9 +6,9 @@
     "year": "2022",
     "region": "Global",
     "model_group": "cfmoto-800-mt-sport",
-    "category": "Commuter",
+    "category": "Cruiser",
     "displacement": "800 cc",
-    "summary": "CFMOTO 800 MT Sport (2022). 75 Nm, 231 kg, 825 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "CFMOTO 800 MT Sport (2022). Based on the CFMOTO 800 MT Touring; 799 cc, 89.9 hp, 75 Nm, 825 mm seat, 231 kg. Variant-specific equipment may differ.",
     "tags": [
       "cfmoto",
       "800-mt-sport",
@@ -17,11 +17,26 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "799 cc liquid-cooled Twin, four-stroke"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "799 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "89.9 hp @ 9,250 rpm"
+          },
           {
             "key": "torque",
             "label": "Max Torque",
@@ -76,11 +91,6 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2022"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -105,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are shared with the CFMOTO 800 MT Touring. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

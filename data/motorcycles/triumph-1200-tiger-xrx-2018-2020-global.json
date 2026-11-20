@@ -8,7 +8,7 @@
     "model_group": "triumph-1200-tiger-xrx",
     "category": "Adventure",
     "displacement": "1200 cc",
-    "summary": "Triumph 1200 Tiger XRX (2018–2020). 1215 cc, 139 hp, 122 Nm, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Triumph 1200 Tiger XRX (2018–2020). Based on the Triumph Tiger 1200; 1,160 cc, 148 hp (110 kW), 130 Nm (96 lb-ft), 850/870 mm seat, 245 kg. Variant-specific equipment may differ.",
     "tags": [
       "triumph",
       "1200-tiger-xrx",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,57 +25,67 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "1215 cc liquid-cooled In-line three, four-stroke"
+            "value": "1,160 cc liquid-cooled DOHC inline-three, 12 valves, T-plane crank"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1215 cc"
+            "value": "1,160 cc"
           },
           {
             "key": "power",
             "label": "Max Power",
-            "value": "139 hp @ 9,350 rpm"
+            "value": "148 hp (110 kW) @ 9,000 rpm"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "122 Nm @ 7,600 rpm"
+            "value": "130 Nm (96 lb-ft) @ 7,000 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-speed, Shaft drive (cardan)"
+            "value": "6-speed, shaft final drive"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "WP 48 mm upside down forks, electronically adjustable damping, 168 mm (6.6 inches)"
+            "value": "49 mm inverted fork, semi-active"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "WP monoshock, electronically adjustable semi active damping, 158 mm (6.2 inches)"
+            "value": "Single shock, semi-active"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Floating discs, radially mounted monobloc Brembo calipers, 4-piston, switchable ABS."
+            "value": "320 mm dual discs, radial 4-piston calipers"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Nissin 2-piston sliding caliper, Switchable ABS"
+            "value": "282 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70-R19 front, 170/60-R17 rear"
+            "value": "120/70-19 front, 170/60-17 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "810 mm"
+            "value": "850/870 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "245 kg"
           },
           {
             "key": "fuel_capacity",
@@ -86,11 +96,6 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2018–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -100,12 +105,12 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "4 L"
+            "value": "4.0 L (4.2 US qt)"
           },
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "10W-40"
+            "value": "SAE 10W-40, JASO MA2"
           },
           {
             "key": "oil_filter",
@@ -113,24 +118,9 @@
             "value": "HF204"
           },
           {
-            "key": "coolant",
-            "label": "Coolant",
-            "value": "2.8 L"
-          },
-          {
-            "key": "chain",
-            "label": "Chain / Final Drive",
-            "value": "Shaft drive (cardan)"
-          },
-          {
-            "key": "brake_fluid",
-            "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 24 months"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 16,000 km (9,900 miles) or 12 months"
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           },
           {
             "key": "front_brake_pads",
@@ -145,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are shared with the Triumph Tiger 1200. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

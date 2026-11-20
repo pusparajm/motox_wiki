@@ -8,7 +8,7 @@
     "model_group": "suzuki-125-burgman-street-ex",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Suzuki 125 Burgman Street EX (2023). 124 cc, 8.5 hp, 10 Nm, 780 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Suzuki 125 Burgman Street EX (2023). Based on the Suzuki Burgman Street 125; 124 cc, 8.6 hp (6.4 kW), 10.2 Nm (8 lb-ft), 780 mm seat, 110 kg. Variant-specific equipment may differ.",
     "tags": [
       "suzuki",
       "125-burgman-street-ex",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,7 +25,7 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "124 cc liquid-cooled Single cylinder, four-stroke"
+            "value": "124 cc air-cooled SOHC single, 2 valves"
           },
           {
             "key": "displacement",
@@ -35,42 +35,47 @@
           {
             "key": "power",
             "label": "Max Power",
-            "value": "8.5 hp @ 6,500 rpm"
+            "value": "8.6 hp (6.4 kW) @ 6,750 rpm"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "10 Nm @ 5,500 rpm"
+            "value": "10.2 Nm (8 lb-ft) @ 5,000 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "Automatic, Belt"
+            "value": "CVT, belt final drive"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic, coil sprung, oil damped, 92 mm (3.6 inches)"
+            "value": "26 mm telescopic fork"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swingarm type, coilspring, oildamped, 83 mm (3.3 inches)"
+            "value": "Single shock"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Single disc"
+            "value": "120 mm disc"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Expanding brake (drum brake)"
+            "value": "120 mm drum"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Combined braking system"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "90/90-12 front, 100/80-12 rear"
+            "value": "90/90-12 front, 90/100-10 rear"
           },
           {
             "key": "seat_height",
@@ -78,19 +83,19 @@
             "value": "780 mm"
           },
           {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "110 kg"
+          },
+          {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "5.5 L"
+            "value": "5.3 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2023"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -100,27 +105,12 @@
           {
             "key": "oil_capacity",
             "label": "Engine Oil (with filter)",
-            "value": "0.65 L"
+            "value": "0.7 L (0.75 US qt)"
           },
           {
             "key": "oil_grade",
             "label": "Oil Grade",
-            "value": "10W-40"
-          },
-          {
-            "key": "chain",
-            "label": "Chain / Final Drive",
-            "value": "Belt"
-          },
-          {
-            "key": "brake_fluid",
-            "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 24 months"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 4,000 km (2,500 miles) or 12 months"
+            "value": "SAE 10W-30, JASO MB"
           },
           {
             "key": "front_brake_pads",
@@ -130,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are shared with the Suzuki Burgman Street 125. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

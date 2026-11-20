@@ -8,39 +8,105 @@
     "model_group": "moto-guzzi-v85-850-tt-travel",
     "category": "Adventure",
     "displacement": "850 cc",
-    "summary": "Moto Guzzi V85 850 TT Travel brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Moto Guzzi V85 850 TT Travel (2020–Present). Based on the Moto Guzzi V85 TT; 853 cc, 76 hp (56 kW), 82 Nm (60 lb-ft), 830 mm seat, 229 kg. Variant-specific equipment may differ.",
     "tags": [
       "moto-guzzi",
       "v85-850-tt-travel",
       "adventure",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "853 cc air-cooled OHV V-twin, 4 valves"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "850 cc"
+            "value": "853 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "76 hp (56 kW) @ 7,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "82 Nm (60 lb-ft) @ 5,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, shaft final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm inverted fork, 170 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock, 170 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "260 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-19 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "830 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "229 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "23 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2020–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+          },
           {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
@@ -54,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are shared with the Moto Guzzi V85 TT. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

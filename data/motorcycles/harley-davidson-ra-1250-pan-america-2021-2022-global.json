@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-ra-1250-pan-america",
     "category": "Adventure",
     "displacement": "1250 cc",
-    "summary": "Harley-Davidson RA 1250 Pan America (2021–2022). 127.5 Nm, 253.6 kg, 790 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson RA 1250 Pan America (2021–2022). Based on the Harley-Davidson Pan America 1250; 1,252 cc, 150 hp (112 kW), 128 Nm (94 lb-ft), 850 mm seat, 245 kg. Variant-specific equipment may differ.",
     "tags": [
       "harley-davidson",
       "ra-1250-pan-america",
@@ -17,55 +17,75 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,252 cc liquid-cooled DOHC Revolution Max 1250 V-twin, 8 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "1,252 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "150 hp (112 kW) @ 8,750 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "127.5 Nm @ 6,750 rpm"
+            "value": "128 Nm (94 lb-ft) @ 6,750 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-speed, Chain"
+            "value": "6-speed, chain final drive"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "47mm inverted fork with electronically adjustable semi-active damping control. Aluminum fork triple clamps., 190 mm (7.5 inches)"
+            "value": "47 mm inverted fork, semi-active"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Linkage-mounted monoshock with automatic electronic preload control and semi-active compression and rebound damping"
+            "value": "Single shock, semi-active"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Radially mounted, monoblock, 4-piston caliper. Optional ABS."
+            "value": "320 mm dual discs, radial 4-piston calipers"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Floating, single piston caliper. Optional ABS."
+            "value": "280 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70-R19 front, 170/60-R17 rear"
+            "value": "120/70-19 front, 170/60-17 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "790 mm"
+            "value": "850 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "253.6 kg"
+            "value": "245 kg"
           },
           {
             "key": "fuel_capacity",
@@ -76,11 +96,6 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2021–2022"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -88,39 +103,14 @@
         "label": "Service Data",
         "fields": [
           {
-            "key": "oil_capacity",
-            "label": "Engine Oil (with filter)",
-            "value": "4.5 L"
-          },
-          {
-            "key": "oil_grade",
-            "label": "Oil Grade",
-            "value": "20W-50"
-          },
-          {
             "key": "oil_filter",
             "label": "Oil Filter",
             "value": "HF176B"
           },
           {
-            "key": "coolant",
-            "label": "Coolant",
-            "value": "2.2 L"
-          },
-          {
-            "key": "chain",
-            "label": "Chain / Final Drive",
-            "value": "Gear, 49/89 ratio primary"
-          },
-          {
-            "key": "brake_fluid",
-            "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 24 months"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 8,000 km (5,000 miles) or 12 months"
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           },
           {
             "key": "front_brake_pads",
@@ -135,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are shared with the Harley-Davidson Pan America 1250. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

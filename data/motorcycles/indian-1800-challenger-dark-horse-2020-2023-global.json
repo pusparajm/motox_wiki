@@ -6,35 +6,96 @@
     "year": "2020–Present",
     "region": "Global",
     "model_group": "indian-1800-challenger-dark-horse",
-    "category": "Cruiser",
+    "category": "Touring",
     "displacement": "1800 cc",
-    "summary": "Indian 1800 Challenger Dark Horse brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Indian 1800 Challenger Dark Horse (2020–Present). Based on the Indian Challenger; 1,769 cc, 122 hp (91 kW), 178 Nm (131 lb-ft), 690 mm seat, 365 kg. Variant-specific equipment may differ.",
     "tags": [
       "indian",
       "1800-challenger-dark-horse",
       "cruiser",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "1,769 cc liquid-cooled DOHC PowerPlus V-twin, 8 valves"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1800 cc"
+            "value": "1,769 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "122 hp (91 kW) @ 5,500 rpm"
+          },
+          {
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "178 Nm (131 lb-ft) @ 3,800 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, belt final drive"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "43 mm inverted fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Single shock"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "320 mm dual discs, radial 4-piston calipers"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "298 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "130/60-19 front, 180/60-16 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "690 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "365 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "22.7 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2020–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
           }
         ]
       },
@@ -54,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications are shared with the Indian Challenger. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

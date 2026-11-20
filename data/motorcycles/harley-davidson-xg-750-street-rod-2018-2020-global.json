@@ -6,9 +6,9 @@
     "year": "2018–2020",
     "region": "Global",
     "model_group": "harley-davidson-xg-750-street-rod",
-    "category": "Naked",
+    "category": "Cruiser",
     "displacement": "750 cc",
-    "summary": "Harley-Davidson XG 750 Street Rod (2018–2020). 1130.8 cc, 108.5 Nm, 297.1 kg, 762 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson XG 750 Street Rod (2018–2020). Based on the Harley-Davidson Street Rod; 749 cc, 68 hp (51 kW), 65 Nm (48 lb-ft), 765 mm seat, 238 kg. Variant-specific equipment may differ.",
     "tags": [
       "harley-davidson",
       "xg-750-street-rod",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,27 +25,32 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "1130.8 cc liquid-cooled V2, four-stroke"
+            "value": "749 cc liquid-cooled Revolution X V-twin, 8 valves"
           },
           {
             "key": "displacement",
             "label": "Displacement",
-            "value": "1130.8 cc"
+            "value": "749 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "68 hp (51 kW) @ 8,750 rpm"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "108.5 Nm @ 7,000 rpm"
+            "value": "65 Nm (48 lb-ft) @ 4,000 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "5-speed, Belt"
+            "value": "6-speed, belt final drive"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Telescopic fork"
+            "value": "43 mm inverted fork"
           },
           {
             "key": "rear_suspension",
@@ -55,42 +60,42 @@
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc"
+            "value": "300 mm dual discs, 2-piston calipers"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc"
+            "value": "300 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "120/70-ZR19 front, 180/55-ZR19 rear"
+            "value": "120/70-17 front, 160/60-17 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "762 mm"
+            "value": "765 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "297.1 kg"
+            "value": "238 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "18.92 L"
+            "value": "13.2 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2018–2020"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -98,49 +103,9 @@
         "label": "Service Data",
         "fields": [
           {
-            "key": "oil_capacity",
-            "label": "Engine Oil (with filter)",
-            "value": "4.3 L"
-          },
-          {
-            "key": "oil_grade",
-            "label": "Oil Grade",
-            "value": "20W-50"
-          },
-          {
-            "key": "oil_filter",
-            "label": "Oil Filter",
-            "value": "HF174C"
-          },
-          {
-            "key": "spark_plug",
-            "label": "Spark Plug",
-            "value": "NGK DCPR8E"
-          },
-          {
-            "key": "coolant",
-            "label": "Coolant",
-            "value": "2.4 L"
-          },
-          {
-            "key": "chain",
-            "label": "Chain / Final Drive",
-            "value": "Belt"
-          },
-          {
-            "key": "fork_oil",
-            "label": "Fork Oil",
-            "value": "SAE 15W"
-          },
-          {
-            "key": "brake_fluid",
-            "label": "Brake Fluid",
-            "value": "DOT 4 or DOT 5.1, changed every 24 months"
-          },
-          {
-            "key": "service_interval",
-            "label": "Service Interval",
-            "value": "Every 8,000 km (5,000 miles)"
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           },
           {
             "key": "front_brake_pads",
@@ -155,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are shared with the Harley-Davidson Street Rod. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

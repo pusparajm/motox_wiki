@@ -8,7 +8,7 @@
     "model_group": "moto-guzzi-v85-850-tt-evocative-graphics",
     "category": "Adventure",
     "displacement": "850 cc",
-    "summary": "Moto Guzzi V85 850 TT Evocative Graphics (2023). 82 Nm, 230 kg, 803 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Moto Guzzi V85 850 TT Evocative Graphics (2023). Based on the Moto Guzzi V85 TT; 853 cc, 76 hp (56 kW), 82 Nm (60 lb-ft), 830 mm seat, 229 kg. Variant-specific equipment may differ.",
     "tags": [
       "moto-guzzi",
       "v85-850-tt-evocative-graphics",
@@ -17,40 +17,60 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "853 cc air-cooled OHV V-twin, 4 valves"
+          },
+          {
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "853 cc"
+          },
+          {
+            "key": "power",
+            "label": "Max Power",
+            "value": "76 hp (56 kW) @ 7,500 rpm"
+          },
+          {
             "key": "torque",
             "label": "Max Torque",
-            "value": "82 Nm @ 5,000 rpm"
+            "value": "82 Nm (60 lb-ft) @ 5,000 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-speed, Chain"
+            "value": "6-speed, shaft final drive"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Upside down hydraulic telescopic fork Ø 41 mm, with adjustable extension and spring preload."
+            "value": "41 mm inverted fork, 170 mm travel"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Swingarm Twin-sided with lateral mono shock absorber, adjustable extension and spring preload."
+            "value": "Single shock, 170 mm travel"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Radial Brembo calipers with 4 opposed pistons. ABS."
+            "value": "320 mm dual discs, radial 4-piston calipers"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Floating 2 pistons caliper. ABS."
+            "value": "260 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Dual-channel ABS"
           },
           {
             "key": "tyres",
@@ -60,27 +80,22 @@
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "803 mm"
+            "value": "830 mm"
           },
           {
             "key": "weight",
             "label": "Kerb Weight",
-            "value": "230 kg"
+            "value": "229 kg"
           },
           {
             "key": "fuel_capacity",
             "label": "Fuel Capacity",
-            "value": "21 L"
+            "value": "23 L"
           },
           {
             "key": "model_years",
             "label": "Model Years",
             "value": "2023"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -88,9 +103,9 @@
         "label": "Service Data",
         "fields": [
           {
-            "key": "chain",
-            "label": "Chain / Final Drive",
-            "value": "Chain"
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           },
           {
             "key": "front_brake_pads",
@@ -105,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are shared with the Moto Guzzi V85 TT. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },

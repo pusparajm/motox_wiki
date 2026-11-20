@@ -8,7 +8,7 @@
     "model_group": "triumph-900-tiger-gt-low",
     "category": "Adventure",
     "displacement": "900 cc",
-    "summary": "Triumph 900 Tiger GT Low (2020–Present). 888 cc, 93.9 hp, 87 Nm, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Triumph 900 Tiger GT Low (2020–Present). Based on the Triumph Tiger 900; 888 cc, 107 hp (79 kW), 90 Nm (66 lb-ft), 810/830 mm seat, 223 kg. Variant-specific equipment may differ.",
     "tags": [
       "triumph",
       "900-tiger-gt-low",
@@ -17,7 +17,7 @@
       "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
@@ -25,7 +25,7 @@
           {
             "key": "engine",
             "label": "Engine",
-            "value": "888 cc liquid-cooled In-line three, four-stroke"
+            "value": "888 cc liquid-cooled DOHC inline-three, 12 valves, T-plane crank"
           },
           {
             "key": "displacement",
@@ -35,47 +35,57 @@
           {
             "key": "power",
             "label": "Max Power",
-            "value": "93.9 hp @ 8,750 rpm"
+            "value": "107 hp (79 kW) @ 8,500 rpm"
           },
           {
             "key": "torque",
             "label": "Max Torque",
-            "value": "87 Nm @ 7,250 rpm"
+            "value": "90 Nm (66 lb-ft) @ 7,250 rpm"
           },
           {
             "key": "transmission",
             "label": "Transmission",
-            "value": "6-speed, Chain"
+            "value": "6-speed, chain final drive"
           },
           {
             "key": "front_suspension",
             "label": "Front Suspension",
-            "value": "Marzocchi 45mm upside down forks, non-adjustable, 140 mm (5.5 inches)"
+            "value": "45 mm inverted fork, 200 mm travel"
           },
           {
             "key": "rear_suspension",
             "label": "Rear Suspension",
-            "value": "Marzocchi rear suspension unit, manual preload adjustment, 170mm rear, 151 mm (5.9 inches)"
+            "value": "Single shock, 200 mm travel"
           },
           {
             "key": "front_brake",
             "label": "Front Brake",
-            "value": "Double disc. Brembo radial-type monobloc, with 4 pistons"
+            "value": "320 mm dual discs, radial 4-piston calipers"
           },
           {
             "key": "rear_brake",
             "label": "Rear Brake",
-            "value": "Single disc. Brembo with single pistons"
+            "value": "255 mm disc"
+          },
+          {
+            "key": "abs",
+            "label": "ABS",
+            "value": "Cornering ABS"
           },
           {
             "key": "tyres",
             "label": "Tyres",
-            "value": "100/90-19 front, 150/70-R17 rear"
+            "value": "90/90-21 front, 150/70-17 rear"
           },
           {
             "key": "seat_height",
             "label": "Seat Height",
-            "value": "810 mm"
+            "value": "810/830 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "223 kg"
           },
           {
             "key": "fuel_capacity",
@@ -86,17 +96,22 @@
             "key": "model_years",
             "label": "Model Years",
             "value": "2020–Present"
-          },
-          {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
       "service": {
         "label": "Service Data",
         "fields": [
+          {
+            "key": "oil_capacity",
+            "label": "Engine Oil (with filter)",
+            "value": "3.0 L (3.2 US qt)"
+          },
+          {
+            "key": "oil_grade",
+            "label": "Oil Grade",
+            "value": "SAE 10W-40, JASO MA2"
+          },
           {
             "key": "oil_filter",
             "label": "Oil Filter",
@@ -105,7 +120,12 @@
           {
             "key": "chain",
             "label": "Chain / Final Drive",
-            "value": "O-ring chain"
+            "value": "525 O-ring, 118 links"
+          },
+          {
+            "key": "parts_note",
+            "label": "Parts & Fitment Note",
+            "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
           },
           {
             "key": "front_brake_pads",
@@ -120,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Specifications are shared with the Triumph Tiger 900. Variant-specific equipment may differ; confirm against the owner's manual."
           }
         ]
       },
