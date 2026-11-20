@@ -8,33 +8,84 @@
     "model_group": "swm-600-superdual-t",
     "category": "Naked",
     "displacement": "600 cc",
-    "summary": "SWM 600 Superdual T brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "SWM 600 Superdual T (2018–2020). 600 cc, 54 hp, 55 Nm, 187 kg, 898 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "swm",
       "600-superdual-t",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
+          {
+            "key": "engine",
+            "label": "Engine",
+            "value": "600 cc liquid-cooled single-cylinder four-stroke"
+          },
           {
             "key": "displacement",
             "label": "Displacement",
             "value": "600 cc"
           },
           {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2018–2020"
+            "key": "power",
+            "label": "Max Power",
+            "value": "54 hp @ 7,500 rpm"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "55 Nm @ 6,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "45 mm USD fork, 210 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Sachs progressive monoshock, 220 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single 300 mm disc, Brembo, ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single 220 mm disc, Brembo"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-19 front, 140/80-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "898 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "187 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "18 L"
           }
         ]
       },
@@ -54,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications compiled from SWM data for the Superdual T. Sources differ on dry versus road-ready weight; the 187 kg figure is the road-ready value. Confirm against the owner's manual."
           }
         ]
       },

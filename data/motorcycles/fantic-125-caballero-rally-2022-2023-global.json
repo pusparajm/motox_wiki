@@ -8,33 +8,84 @@
     "model_group": "fantic-125-caballero-rally",
     "category": "Adventure",
     "displacement": "125 cc",
-    "summary": "Fantic 125 Caballero Rally brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Fantic 125 Caballero Rally (2022–Present). 124.66 cc, 15 hp, 11.2 Nm, 145 kg, 860 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "fantic",
       "125-caballero-rally",
       "adventure",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124.66 cc liquid-cooled single-cylinder four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "125 cc"
+            "value": "124.66 cc"
           },
           {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2022–Present"
+            "key": "power",
+            "label": "Max Power",
+            "value": "15 hp @ 10,250 rpm"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "11.2 Nm @ 6,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm USD fork, 200 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "rear monoshock, 200 mm travel"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single 320 mm disc, ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single 230 mm disc, ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-19 front, 130/80-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "860 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "145 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "12 L"
           }
         ]
       },
@@ -54,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications compiled from Fantic manufacturer data for the 125 cc Caballero. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

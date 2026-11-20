@@ -8,12 +8,13 @@
     "model_group": "fantic-xxf-450",
     "category": "Naked",
     "displacement": "450 cc",
-    "summary": "Fantic XXF 450 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Fantic XXF 450 (2022–Present). 450 cc, 119 kg, 965 mm seat. Partial specifications compiled from manufacturer data.",
     "tags": [
       "fantic",
       "xxf-450",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,19 +23,54 @@
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "450 cc liquid-cooled four-stroke single-cylinder"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
             "value": "450 cc"
           },
           {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2022–Present"
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "48 mm KYB fork, 310 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "KYB monoshock, 317 mm travel"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "80/100-21 front, 110/90-19 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "965 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "119 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "7.9 L"
           },
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -54,7 +90,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Fantic XXF 450 motocross data from the manufacturer manual. Power and torque figures are not published in the sourced material and remain to be verified."
           }
         ]
       },

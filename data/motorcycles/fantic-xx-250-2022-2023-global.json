@@ -8,12 +8,13 @@
     "model_group": "fantic-xx-250",
     "category": "Naked",
     "displacement": "250 cc",
-    "summary": "Fantic XX 250 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Fantic XX 250 (2022–Present). 249 cc, 98 kg, 975 mm seat. Partial specifications compiled from manufacturer data.",
     "tags": [
       "fantic",
       "xx-250",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
     "fitment_only": true,
@@ -22,19 +23,54 @@
         "label": "General Specifications",
         "fields": [
           {
-            "key": "displacement",
-            "label": "Displacement",
-            "value": "250 cc"
+            "key": "engine",
+            "label": "Engine",
+            "value": "249 cc liquid-cooled two-stroke single-cylinder"
           },
           {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2022–Present"
+            "key": "displacement",
+            "label": "Displacement",
+            "value": "249 cc"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "5-speed, chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "48 mm USD fork, 300 mm travel"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "rear monoshock, 315 mm travel"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "80/100-21 front, 100/90-19 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "975 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "98 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "9 L"
           },
           {
             "key": "data_status",
             "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "value": "Partial specification — some core specifications still being compiled"
           }
         ]
       },
@@ -54,7 +90,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Fantic XX 250 motocross data from the manufacturer manual. Power and torque figures are not published in the sourced material and remain to be verified."
           }
         ]
       },

@@ -8,33 +8,84 @@
     "model_group": "voge-ds-900-valico",
     "category": "Adventure",
     "displacement": "900 cc",
-    "summary": "Voge DS 900 Valico brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Voge DS 900 Valico (2023). 895 cc, 95 hp, 95 Nm, 238 kg, 825 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "voge",
       "ds-900-valico",
       "adventure",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "895 cc liquid-cooled parallel-twin four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "900 cc"
+            "value": "895 cc"
           },
           {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2023"
+            "key": "power",
+            "label": "Max Power",
+            "value": "95 hp @ 8,250 rpm"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "95 Nm @ 6,250 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain, quick-shifter"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "KYB USD fork, adjustable preload and damping"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "KYB monoshock, preload and rebound adjustable"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double disc, ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single disc, ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "90/90-21 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "825 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "238 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
           }
         ]
       },
@@ -54,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications compiled from Voge manufacturer data for the Valico 900 DSX. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

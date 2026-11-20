@@ -139624,33 +139624,84 @@
       "model_group": "fantic-125-caballero-deluxe",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "Fantic 125 Caballero Deluxe brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 125 Caballero Deluxe (2023). 124.66 cc, 15 hp, 11.2 Nm, 145 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "125-caballero-deluxe",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "124.66 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "125 cc"
+              "value": "124.66 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp @ 10,250 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "11.2 Nm @ 6,500 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm USD fork, 150 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 150 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 130/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "145 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             }
           ]
         },
@@ -139670,7 +139721,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the 125 cc Caballero. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -139766,33 +139817,84 @@
       "model_group": "fantic-125-caballero-rally",
       "category": "Adventure",
       "displacement": "125 cc",
-      "summary": "Fantic 125 Caballero Rally brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 125 Caballero Rally (2022–Present). 124.66 cc, 15 hp, 11.2 Nm, 145 kg, 860 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "125-caballero-rally",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "124.66 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "125 cc"
+              "value": "124.66 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp @ 10,250 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "11.2 Nm @ 6,500 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm USD fork, 200 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 200 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 130/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "860 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "145 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             }
           ]
         },
@@ -139812,7 +139914,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the 125 cc Caballero. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -139837,33 +139939,84 @@
       "model_group": "fantic-125-caballero-scrambler",
       "category": "Retro",
       "displacement": "125 cc",
-      "summary": "Fantic 125 Caballero Scrambler brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 125 Caballero Scrambler (2022–Present). 124.66 cc, 15 hp, 11.2 Nm, 145 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "125-caballero-scrambler",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "124.66 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "125 cc"
+              "value": "124.66 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp @ 10,250 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "11.2 Nm @ 6,500 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm USD fork, 150 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 150 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 130/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "145 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             }
           ]
         },
@@ -139883,7 +140036,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the 125 cc Caballero. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -140177,12 +140330,13 @@
       "model_group": "fantic-xe-125",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "Fantic XE 125 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic XE 125 (2022–Present). 125 cc, 95 kg, 970 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "xe-125",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -140191,19 +140345,54 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "125 cc liquid-cooled two-stroke single-cylinder"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
               "value": "125 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "48 mm USD fork, 300 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 315 mm travel"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-21 front, 120/80-18 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "970 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "95 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "9 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -140223,7 +140412,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Fantic XE 125 enduro data from the manufacturer manual. Power and torque figures are not published in the sourced material and remain to be verified."
             }
           ]
         },
@@ -140248,12 +140437,13 @@
       "model_group": "fantic-xef-125-competition",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "Fantic XEF 125 Competition brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic XEF 125 Competition (2022). 125 cc, 15 hp, 106 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "xef-125-competition",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -140262,19 +140452,59 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "125 cc liquid-cooled four-stroke single-cylinder"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
               "value": "125 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022"
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm USD fork"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-21 front, 120/80-18 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "955 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "106 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "7.9 L"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -140294,7 +140524,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Fantic XEF 125 Competition enduro data. Power is quoted by Fantic as 15 hp for the 125 four-stroke engine; other details remain to be verified."
             }
           ]
         },
@@ -140319,12 +140549,13 @@
       "model_group": "fantic-xmf-125-competition",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "Fantic XMF 125 Competition brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic XMF 125 Competition (2022). 125 cc, 15 hp, 106 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "xmf-125-competition",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -140333,19 +140564,59 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "125 cc liquid-cooled four-stroke single-cylinder"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
               "value": "125 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022"
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm USD fork"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "100/80-17 front, 130/70-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "955 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "106 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "7.9 L"
+            },
+            {
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -140365,7 +140636,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Fantic XMF 125 Competition supermoto data. Power is quoted by Fantic as 15 hp for the 125 four-stroke engine; other details remain to be verified."
             }
           ]
         },
@@ -140390,12 +140661,13 @@
       "model_group": "fantic-xx-125",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "Fantic XX 125 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic XX 125 (2020–Present). 125 cc, 90 kg, 975 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "xx-125",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -140404,19 +140676,54 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "125 cc liquid-cooled two-stroke single-cylinder"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
               "value": "125 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2020–Present"
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "48 mm USD fork, 300 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 315 mm travel"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "80/100-21 front, 100/90-19 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "975 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "90 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "9 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -140436,7 +140743,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Fantic XX 125 motocross data from the manufacturer manual and catalogue. Power and torque figures are not published in the sourced material and remain to be verified."
             }
           ]
         },
@@ -140857,12 +141164,13 @@
       "model_group": "fantic-xef-250",
       "category": "Naked",
       "displacement": "250 cc",
-      "summary": "Fantic XEF 250 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic XEF 250 (2022–Present). 250 cc, 106 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "xef-250",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -140871,19 +141179,54 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "250 cc liquid-cooled four-stroke single-cylinder"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
               "value": "250 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "48 mm KYB fork, 310 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, 317 mm travel"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-21 front, 140/90-18 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "955 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "106 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "7.9 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -140903,7 +141246,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Fantic XEF 250 enduro data from the manufacturer manual. Power and torque figures are not published in the sourced material and remain to be verified."
             }
           ]
         },
@@ -140928,12 +141271,13 @@
       "model_group": "fantic-xx-250",
       "category": "Naked",
       "displacement": "250 cc",
-      "summary": "Fantic XX 250 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic XX 250 (2022–Present). 249 cc, 98 kg, 975 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "xx-250",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -140942,19 +141286,54 @@
           "label": "General Specifications",
           "fields": [
             {
-              "key": "displacement",
-              "label": "Displacement",
-              "value": "250 cc"
+              "key": "engine",
+              "label": "Engine",
+              "value": "249 cc liquid-cooled two-stroke single-cylinder"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "displacement",
+              "label": "Displacement",
+              "value": "249 cc"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "5-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "48 mm USD fork, 300 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 315 mm travel"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "80/100-21 front, 100/90-19 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "975 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "98 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "9 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -140974,7 +141353,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Fantic XX 250 motocross data from the manufacturer manual. Power and torque figures are not published in the sourced material and remain to be verified."
             }
           ]
         },
@@ -140999,12 +141378,13 @@
       "model_group": "fantic-xxf-250",
       "category": "Naked",
       "displacement": "250 cc",
-      "summary": "Fantic XXF 250 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic XXF 250 (2022–Present). 250 cc, 106 kg, 965 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "xxf-250",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -141013,19 +141393,54 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "250 cc liquid-cooled four-stroke single-cylinder"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
               "value": "250 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "48 mm KYB fork, 310 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, 317 mm travel"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "80/100-21 front, 100/90-19 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "965 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "106 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "7.9 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -141045,7 +141460,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Fantic XXF 250 motocross data from the manufacturer manual. Power and torque figures are not published in the sourced material and remain to be verified."
             }
           ]
         },
@@ -141466,12 +141881,13 @@
       "model_group": "fantic-xef-450",
       "category": "Naked",
       "displacement": "450 cc",
-      "summary": "Fantic XEF 450 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic XEF 450 (2022–Present). 450 cc, 119 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "xef-450",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -141480,19 +141896,54 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "450 cc liquid-cooled four-stroke single-cylinder"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
               "value": "450 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "5-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "48 mm KYB fork, 310 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, 317 mm travel"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-21 front, 140/90-18 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "955 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "119 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "7.9 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -141512,7 +141963,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Fantic XEF 450 enduro data from the manufacturer manual. Power and torque figures are not published in the sourced material and remain to be verified."
             }
           ]
         },
@@ -141537,12 +141988,13 @@
       "model_group": "fantic-xef-450-rally",
       "category": "Enduro",
       "displacement": "450 cc",
-      "summary": "Fantic XEF 450 Rally brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic XEF 450 Rally (2022–Present). 450 cc, 140 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "xef-450-rally",
         "enduro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -141551,19 +142003,54 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "450 cc liquid-cooled four-stroke single-cylinder"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
               "value": "450 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "5-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "48 mm KYB fork, 310 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, 300 mm travel"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-21 front, 140/90-18 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "955 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "140 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "30 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -141583,7 +142070,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Fantic XEF 450 Rally data from the manufacturer and catalogue. Power and torque figures are not published in the sourced material and remain to be verified."
             }
           ]
         },
@@ -141608,12 +142095,13 @@
       "model_group": "fantic-xxf-450",
       "category": "Naked",
       "displacement": "450 cc",
-      "summary": "Fantic XXF 450 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic XXF 450 (2022–Present). 450 cc, 119 kg, 965 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "xxf-450",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -141622,19 +142110,54 @@
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "450 cc liquid-cooled four-stroke single-cylinder"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
               "value": "450 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "5-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "48 mm KYB fork, 310 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, 317 mm travel"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "80/100-21 front, 110/90-19 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "965 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "119 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "7.9 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -141654,7 +142177,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Fantic XXF 450 motocross data from the manufacturer manual. Power and torque figures are not published in the sourced material and remain to be verified."
             }
           ]
         },
@@ -141750,33 +142273,84 @@
       "model_group": "fantic-500-caballero-anniversary",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "Fantic 500 Caballero Anniversary brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 500 Caballero Anniversary (2023). 449 cc, 40 hp, 43 Nm, 157 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "500-caballero-anniversary",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "449 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "449 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "40 hp @ 7,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "43 Nm @ 6,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "Standard 41 mm USD fork, 150 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 150 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 140/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "157 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             }
           ]
         },
@@ -141796,7 +142370,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the 449 cc Caballero 500. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -141821,33 +142395,84 @@
       "model_group": "fantic-500-caballero-deluxe",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "Fantic 500 Caballero Deluxe brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 500 Caballero Deluxe (2023). 449 cc, 40 hp, 43 Nm, 157 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "500-caballero-deluxe",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "449 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "449 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "40 hp @ 7,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "43 Nm @ 6,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "Standard 41 mm USD fork, 150 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 150 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 140/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "157 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             }
           ]
         },
@@ -141867,7 +142492,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the 449 cc Caballero 500. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -141892,33 +142517,84 @@
       "model_group": "fantic-500-caballero-explorer",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "Fantic 500 Caballero Explorer brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 500 Caballero Explorer (2022–Present). 449 cc, 40 hp, 43 Nm, 157 kg, 860 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "500-caballero-explorer",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "449 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "449 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "power",
+              "label": "Max Power",
+              "value": "40 hp @ 7,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "43 Nm @ 6,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "43 mm USD fork, 200 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 200 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 140/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "860 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "157 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             }
           ]
         },
@@ -141938,7 +142614,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the 449 cc Caballero 500. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -141963,33 +142639,84 @@
       "model_group": "fantic-500-caballero-flat-track",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "Fantic 500 Caballero Flat Track brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 500 Caballero Flat Track (2023). 449 cc, 40 hp, 43 Nm, 160 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "500-caballero-flat-track",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "449 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "449 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "40 hp @ 7,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "43 Nm @ 6,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "Standard 41 mm USD fork, 150 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 150 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "130/80-19 front, 140/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "160 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             }
           ]
         },
@@ -142009,7 +142736,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the 449 cc Caballero 500. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -142034,33 +142761,84 @@
       "model_group": "fantic-500-caballero-rally",
       "category": "Adventure",
       "displacement": "500 cc",
-      "summary": "Fantic 500 Caballero Rally brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 500 Caballero Rally (2022–Present). 449 cc, 40 hp, 43 Nm, 157 kg, 860 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "500-caballero-rally",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "449 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "449 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "power",
+              "label": "Max Power",
+              "value": "40 hp @ 7,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "43 Nm @ 6,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "43 mm USD fork, 200 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 200 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 140/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "860 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "157 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             }
           ]
         },
@@ -142080,7 +142858,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the 449 cc Caballero 500. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -142105,33 +142883,84 @@
       "model_group": "fantic-500-caballero-scrambler",
       "category": "Retro",
       "displacement": "500 cc",
-      "summary": "Fantic 500 Caballero Scrambler brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 500 Caballero Scrambler (2022–Present). 449 cc, 40 hp, 43 Nm, 157 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "500-caballero-scrambler",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "449 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "449 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022–Present"
+              "key": "power",
+              "label": "Max Power",
+              "value": "40 hp @ 7,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "43 Nm @ 6,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "Standard 41 mm USD fork, 150 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 150 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 140/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "157 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             }
           ]
         },
@@ -142151,7 +142980,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the 449 cc Caballero 500. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -142176,33 +143005,84 @@
       "model_group": "fantic-500-caballero-six-days",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "Fantic 500 Caballero Six Days brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 500 Caballero Six Days (2022). 449 cc, 40 hp, 43 Nm, 157 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "500-caballero-six-days",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "449 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "449 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2022"
+              "key": "power",
+              "label": "Max Power",
+              "value": "40 hp @ 7,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "43 Nm @ 6,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "Standard 41 mm USD fork, 150 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "rear monoshock, 150 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 230 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 140/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "157 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "12 L"
             }
           ]
         },
@@ -142222,7 +143102,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the 449 cc Caballero 500. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -142247,33 +143127,84 @@
       "model_group": "fantic-700-caballero-scrambler",
       "category": "Retro",
       "displacement": "700 cc",
-      "summary": "Fantic 700 Caballero Scrambler brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Fantic 700 Caballero Scrambler (2023). 689 cc, 74 hp, 70 Nm, 185 kg, 830 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "fantic",
         "700-caballero-scrambler",
         "retro",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "689 cc liquid-cooled parallel-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "700 cc"
+              "value": "689 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "74 hp @ 9,000 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "70 Nm @ 6,500 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "45 mm USD fork, 150 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Monoshock, 150 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 330 mm disc, Brembo four-piston radial caliper, cornering ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 245 mm disc, Brembo caliper"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 150/70-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "830 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "185 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "13 L"
             }
           ]
         },
@@ -142293,7 +143224,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Fantic manufacturer data for the Caballero 700, which uses the Yamaha CP2 engine. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -330887,33 +331818,74 @@
       "model_group": "swm-125-ace-of-spades",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "SWM 125 Ace of Spades brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM 125 Ace of Spades (2020). 124.7 cc, 15 hp, 11 Nm, 150 kg, 720 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "125-ace-of-spades",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "124.7 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "125 cc"
+              "value": "124.7 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2020"
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp @ 10,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "11 Nm @ 8,500 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 300 mm disc, combined braking"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 220 mm disc, combined braking"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-17 front, 150/60-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "720 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "150 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "17 L"
             }
           ]
         },
@@ -330928,7 +331900,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from SWM/1000PS data for the 125 cc Ace of Spades and Gran Milano Outlaw. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -330953,33 +331925,74 @@
       "model_group": "swm-125-gran-milano-outlaw",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "SWM 125 Gran Milano Outlaw brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM 125 Gran Milano Outlaw (2020). 124.7 cc, 15 hp, 11 Nm, 150 kg, 720 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "125-gran-milano-outlaw",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "124.7 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "125 cc"
+              "value": "124.7 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2020"
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp @ 10,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "11 Nm @ 8,500 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 300 mm disc, combined braking"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 220 mm disc, combined braking"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-17 front, 150/60-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "720 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "150 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "17 L"
             }
           ]
         },
@@ -330999,7 +332012,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from SWM/1000PS data for the 125 cc Ace of Spades and Gran Milano Outlaw. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -331095,12 +332108,13 @@
       "model_group": "swm-125-varez",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "SWM 125 Varez brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM 125 Varez (2020). 124.7 cc, 130 kg, 820 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "125-varez",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -331109,19 +332123,54 @@
           "label": "General Specifications",
           "fields": [
             {
-              "key": "displacement",
-              "label": "Displacement",
-              "value": "125 cc"
+              "key": "engine",
+              "label": "Engine",
+              "value": "124.7 cc liquid-cooled single-cylinder four-stroke"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2020"
+              "key": "displacement",
+              "label": "Displacement",
+              "value": "124.7 cc"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/70-17 front, 150/60-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "130 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "16.5 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -331141,7 +332190,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "SWM Varez 125 data compiled from manufacturer sources. Power and torque figures remain to be verified."
             }
           ]
         },
@@ -331166,33 +332215,84 @@
       "model_group": "swm-rs-125-r",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "SWM RS 125 R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM RS 125 R (2018–2020). 124.7 cc, 15 hp, 11 Nm, 122 kg, 950 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "rs-125-r",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "124.7 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "125 cc"
+              "value": "124.7 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2018–2020"
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp @ 10,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "11 Nm @ 8,500 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm USD fork, 250 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Monoshock, 250 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 260 mm disc, combined braking"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 220 mm disc, combined braking"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "80/90-21 front, 110/80-18 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "950 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "122 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "7.5 L"
             }
           ]
         },
@@ -331212,7 +332312,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from SWM manufacturer data for the RS 125 R enduro. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -331237,33 +332337,84 @@
       "model_group": "swm-sm-125-r",
       "category": "Naked",
       "displacement": "125 cc",
-      "summary": "SWM SM 125 R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM SM 125 R (2018–2020). 124.7 cc, 15 hp, 11 Nm, 128 kg, 914 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "sm-125-r",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "124.7 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "125 cc"
+              "value": "124.7 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2018–2020"
+              "key": "power",
+              "label": "Max Power",
+              "value": "15 hp @ 10,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "11 Nm @ 8,500 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm USD fork, 250 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Monoshock, 250 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 300 mm disc, combined braking"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 220 mm disc, combined braking"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/70-17 front, 140/70-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "914 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "128 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "8 L"
             }
           ]
         },
@@ -331283,7 +332434,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from SWM manufacturer data for the SM 125 R supermoto. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -331308,12 +332459,13 @@
       "model_group": "swm-rs-300-r",
       "category": "Naked",
       "displacement": "300 cc",
-      "summary": "SWM RS 300 R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM RS 300 R (2015–2020). 297.6 cc, 111 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "rs-300-r",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -331322,19 +332474,64 @@
           "label": "General Specifications",
           "fields": [
             {
-              "key": "displacement",
-              "label": "Displacement",
-              "value": "300 cc"
+              "key": "engine",
+              "label": "Engine",
+              "value": "297.6 cc liquid-cooled single-cylinder four-stroke"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2015–2020"
+              "key": "displacement",
+              "label": "Displacement",
+              "value": "297.6 cc"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "USD fork, 295 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Monoshock, 296 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 260 mm disc"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, Brembo"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-21 front, 140/80-18 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "955 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "111 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "7.5 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -331354,7 +332551,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "SWM RS 300 R enduro data from the 2020 record. Power and torque figures were not published in the sourced material and remain to be verified."
             }
           ]
         },
@@ -331379,12 +332576,13 @@
       "model_group": "swm-400-varez",
       "category": "Naked",
       "displacement": "400 cc",
-      "summary": "SWM 400 Varez brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM 400 Varez (2020). 399 cc, 144 kg, 820 mm seat. Partial specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "400-varez",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
       "fitment_only": true,
@@ -331393,19 +332591,54 @@
           "label": "General Specifications",
           "fields": [
             {
-              "key": "displacement",
-              "label": "Displacement",
-              "value": "400 cc"
+              "key": "engine",
+              "label": "Engine",
+              "value": "399 cc liquid-cooled single-cylinder four-stroke"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2020"
+              "key": "displacement",
+              "label": "Displacement",
+              "value": "399 cc"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "5-speed, chain"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, Brembo, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 220 mm disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/70-17 front, 150/60-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "144 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "16.5 L"
             },
             {
               "key": "data_status",
               "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "value": "Partial specification — some core specifications still being compiled"
             }
           ]
         },
@@ -331425,7 +332658,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "SWM Varez 400 data compiled from manufacturer sources. Power and torque figures remain to be verified."
             }
           ]
         },
@@ -331876,33 +333109,84 @@
       "model_group": "swm-rs-500-r",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "SWM RS 500 R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM RS 500 R (2015–2020). 501 cc, 27 hp, 35 Nm, 129 kg, 955 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "rs-500-r",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "501 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "501 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2015–2020"
+              "key": "power",
+              "label": "Max Power",
+              "value": "27 hp @ 6,000 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "35 Nm @ 5,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "48 mm KYB USD fork, 295 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, 295 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 260 mm disc, Brembo"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, Brembo"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-21 front, 140/80-18 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "955 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "129 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "8 L"
             }
           ]
         },
@@ -331922,7 +333206,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from SWM/1000PS data for the 2020 RS 500 R. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -331947,33 +333231,84 @@
       "model_group": "swm-sm-500-r",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "SWM SM 500 R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM SM 500 R (2018–2020). 501 cc, 34 hp, 35 Nm, 140 kg, 920 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "sm-500-r",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "501 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "501 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2018–2020"
+              "key": "power",
+              "label": "Max Power",
+              "value": "34 hp @ 7,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "35 Nm @ 4,500 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "48 mm KYB USD fork, 250 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, 290 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 320 mm disc, Brembo, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, Brembo, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-17 front, 150/60-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "920 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "140 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "8 L"
             }
           ]
         },
@@ -331993,7 +333328,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from SWM/1000PS data for the 2020 SM 500 R. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -332089,33 +333424,84 @@
       "model_group": "swm-600-superdual-t",
       "category": "Naked",
       "displacement": "600 cc",
-      "summary": "SWM 600 Superdual T brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM 600 Superdual T (2018–2020). 600 cc, 54 hp, 55 Nm, 187 kg, 898 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "600-superdual-t",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
+            {
+              "key": "engine",
+              "label": "Engine",
+              "value": "600 cc liquid-cooled single-cylinder four-stroke"
+            },
             {
               "key": "displacement",
               "label": "Displacement",
               "value": "600 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2018–2020"
+              "key": "power",
+              "label": "Max Power",
+              "value": "54 hp @ 7,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "55 Nm @ 6,250 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "45 mm USD fork, 210 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Sachs progressive monoshock, 220 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 300 mm disc, Brembo, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 220 mm disc, Brembo"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 140/80-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "898 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "187 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "18 L"
             }
           ]
         },
@@ -332135,7 +333521,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from SWM data for the Superdual T. Sources differ on dry versus road-ready weight; the 187 kg figure is the road-ready value. Confirm against the owner's manual."
             }
           ]
         },
@@ -332160,33 +333546,84 @@
       "model_group": "swm-600-superdual-x",
       "category": "Naked",
       "displacement": "600 cc",
-      "summary": "SWM 600 Superdual X brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "SWM 600 Superdual X (2018–2020). 600 cc, 54 hp, 55 Nm, 187 kg, 909 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "swm",
         "600-superdual-x",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
+            {
+              "key": "engine",
+              "label": "Engine",
+              "value": "600 cc liquid-cooled single-cylinder four-stroke"
+            },
             {
               "key": "displacement",
               "label": "Displacement",
               "value": "600 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2018–2020"
+              "key": "power",
+              "label": "Max Power",
+              "value": "54 hp @ 7,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "55 Nm @ 6,250 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "45 mm USD fork, 210 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Sachs progressive monoshock, 220 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Single 300 mm disc, Brembo, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 220 mm disc, Brembo"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-21 front, 140/80-18 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "909 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "187 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "18 L"
             }
           ]
         },
@@ -332206,7 +333643,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from SWM data for the Superdual X. Seat height and weight are from the road-ready specification; confirm against the owner's manual."
             }
           ]
         },
@@ -363318,33 +364755,84 @@
       "model_group": "voge-500-r",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "Voge 500 R brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Voge 500 R (2023). 471 cc, 46.9 hp, 44.5 Nm, 198 kg, 800 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "voge",
         "500-r",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "471 cc liquid-cooled parallel-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "471 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "46.9 hp @ 8,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "44.5 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm KYB USD fork, 127 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, preload adjustable, 120 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 298 mm discs, Nissin calipers, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, Nissin caliper, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-17 front, 160/60-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "800 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "198 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "16.5 L"
             }
           ]
         },
@@ -363364,7 +364852,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Voge manufacturer data for the 471 cc 500 R. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -363389,33 +364877,84 @@
       "model_group": "voge-ac-500",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "Voge AC 500 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Voge AC 500 (2023). 471 cc, 46.9 hp, 44.5 Nm, 198 kg, 810 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "voge",
         "ac-500",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "471 cc liquid-cooled parallel-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "471 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "46.9 hp @ 8,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "44.5 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm KYB USD fork, 128 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, preload adjustable"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 298 mm discs, Nissin calipers, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, Nissin caliper, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-17 front, 160/60-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "810 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "198 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "19 L"
             }
           ]
         },
@@ -363435,7 +364974,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Voge manufacturer data for the 471 cc 500 AC. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -363460,33 +364999,84 @@
       "model_group": "voge-acx-500",
       "category": "Naked",
       "displacement": "500 cc",
-      "summary": "Voge ACX 500 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Voge ACX 500 (2023). 494 cc, 47.6 hp, 44.5 Nm, 185 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "voge",
         "acx-500",
         "naked",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "494 cc liquid-cooled parallel-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "494 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "47.6 hp @ 8,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "44.5 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm USD fork"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "Monoshock, preload adjustable"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 300 mm discs, Nissin calipers, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 220 mm disc, Nissin caliper, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 150/70-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "185 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "19 L"
             }
           ]
         },
@@ -363506,7 +365096,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Voge manufacturer data for the 494 cc 525 ACX scrambler. Dry weight is quoted by the manufacturer; confirm wet weight against the owner's manual."
             }
           ]
         },
@@ -363531,33 +365121,84 @@
       "model_group": "voge-ds-500",
       "category": "Adventure",
       "displacement": "500 cc",
-      "summary": "Voge DS 500 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Voge DS 500 (2023). 471 cc, 46.9 hp, 44.5 Nm, 205 kg, 835 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "voge",
         "ds-500",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "471 cc liquid-cooled parallel-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "471 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "46.9 hp @ 8,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "44.5 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm KYB USD fork"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, preload adjustable"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 298 mm discs, Nissin calipers, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, Nissin caliper, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "120/70-17 front, 160/60-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "835 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "205 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "16.5 L"
             }
           ]
         },
@@ -363577,7 +365218,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Voge manufacturer data for the 471 cc 500 DS. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -363602,33 +365243,84 @@
       "model_group": "voge-dsx-500",
       "category": "Adventure",
       "displacement": "500 cc",
-      "summary": "Voge DSX 500 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Voge DSX 500 (2023). 471 cc, 46.9 hp, 44.5 Nm, 206 kg, 840 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "voge",
         "dsx-500",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "471 cc liquid-cooled parallel-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "500 cc"
+              "value": "471 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "46.9 hp @ 8,500 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "44.5 Nm @ 7,000 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm KYB USD fork, 156 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock with linkage, 61 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 298 mm discs, Nissin calipers, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, Nissin caliper, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 150/70-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "840 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "206 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "16.5 L"
             }
           ]
         },
@@ -363648,7 +365340,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Voge manufacturer data for the 471 cc 500 DSX. Confirm model-year equipment and seat height against the owner's manual."
             }
           ]
         },
@@ -363673,33 +365365,84 @@
       "model_group": "voge-dsx-650",
       "category": "Adventure",
       "displacement": "650 cc",
-      "summary": "Voge DSX 650 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Voge DSX 650 (2023). 652 cc, 47.5 hp, 60 Nm, 219 kg, 820 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "voge",
         "dsx-650",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "652 cc liquid-cooled single-cylinder four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "650 cc"
+              "value": "652 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "47.5 hp @ 6,750 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "60 Nm @ 5,500 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "5-speed, chain"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "41 mm KYB USD fork, 179 mm travel"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock with linkage, 58 mm travel"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double 298 mm discs, Nissin calipers, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single 240 mm disc, Nissin caliper, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "110/80-19 front, 150/70-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "820 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "219 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "18 L"
             }
           ]
         },
@@ -363719,7 +365462,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Voge manufacturer data for the 652 cc 650 DSX. A taller 850 mm seat is offered as an option. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -363744,33 +365487,84 @@
       "model_group": "voge-ds-900-valico",
       "category": "Adventure",
       "displacement": "900 cc",
-      "summary": "Voge DS 900 Valico brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+      "summary": "Voge DS 900 Valico (2023). 895 cc, 95 hp, 95 Nm, 238 kg, 825 mm seat. Specifications compiled from manufacturer data.",
       "tags": [
         "voge",
         "ds-900-valico",
         "adventure",
-        "sbs"
+        "sbs",
+        "specs"
       ],
       "published": true,
-      "fitment_only": true,
+      "fitment_only": false,
       "sections": {
         "general_specs": {
           "label": "General Specifications",
           "fields": [
             {
+              "key": "engine",
+              "label": "Engine",
+              "value": "895 cc liquid-cooled parallel-twin four-stroke"
+            },
+            {
               "key": "displacement",
               "label": "Displacement",
-              "value": "900 cc"
+              "value": "895 cc"
             },
             {
-              "key": "model_years",
-              "label": "Model Years",
-              "value": "2023"
+              "key": "power",
+              "label": "Max Power",
+              "value": "95 hp @ 8,250 rpm"
             },
             {
-              "key": "data_status",
-              "label": "Data Status",
-              "value": "Fitment entry — full specifications pending"
+              "key": "torque",
+              "label": "Max Torque",
+              "value": "95 Nm @ 6,250 rpm"
+            },
+            {
+              "key": "transmission",
+              "label": "Transmission",
+              "value": "6-speed, chain, quick-shifter"
+            },
+            {
+              "key": "front_suspension",
+              "label": "Front Suspension",
+              "value": "KYB USD fork, adjustable preload and damping"
+            },
+            {
+              "key": "rear_suspension",
+              "label": "Rear Suspension",
+              "value": "KYB monoshock, preload and rebound adjustable"
+            },
+            {
+              "key": "front_brake",
+              "label": "Front Brake",
+              "value": "Double disc, ABS"
+            },
+            {
+              "key": "rear_brake",
+              "label": "Rear Brake",
+              "value": "Single disc, ABS"
+            },
+            {
+              "key": "tyres",
+              "label": "Tyres",
+              "value": "90/90-21 front, 150/70-17 rear"
+            },
+            {
+              "key": "seat_height",
+              "label": "Seat Height",
+              "value": "825 mm"
+            },
+            {
+              "key": "weight",
+              "label": "Kerb Weight",
+              "value": "238 kg"
+            },
+            {
+              "key": "fuel_capacity",
+              "label": "Fuel Capacity",
+              "value": "17 L"
             }
           ]
         },
@@ -363790,7 +365584,7 @@
             {
               "key": "note",
               "label": "Note",
-              "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+              "value": "Specifications compiled from Voge manufacturer data for the Valico 900 DSX. Confirm model-year equipment against the owner's manual."
             }
           ]
         },

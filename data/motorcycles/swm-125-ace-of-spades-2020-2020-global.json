@@ -8,33 +8,74 @@
     "model_group": "swm-125-ace-of-spades",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "SWM 125 Ace of Spades brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "SWM 125 Ace of Spades (2020). 124.7 cc, 15 hp, 11 Nm, 150 kg, 720 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "swm",
       "125-ace-of-spades",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "124.7 cc liquid-cooled single-cylinder four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "125 cc"
+            "value": "124.7 cc"
           },
           {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2020"
+            "key": "power",
+            "label": "Max Power",
+            "value": "15 hp @ 10,500 rpm"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "11 Nm @ 8,500 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Single 300 mm disc, combined braking"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single 220 mm disc, combined braking"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "120/70-17 front, 150/60-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "720 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "150 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "17 L"
           }
         ]
       },
@@ -49,7 +90,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications compiled from SWM/1000PS data for the 125 cc Ace of Spades and Gran Milano Outlaw. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

@@ -8,33 +8,84 @@
     "model_group": "voge-acx-500",
     "category": "Naked",
     "displacement": "500 cc",
-    "summary": "Voge ACX 500 brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Voge ACX 500 (2023). 494 cc, 47.6 hp, 44.5 Nm, 185 kg, 820 mm seat. Specifications compiled from manufacturer data.",
     "tags": [
       "voge",
       "acx-500",
       "naked",
-      "sbs"
+      "sbs",
+      "specs"
     ],
     "published": true,
-    "fitment_only": true,
+    "fitment_only": false,
     "sections": {
       "general_specs": {
         "label": "General Specifications",
         "fields": [
           {
+            "key": "engine",
+            "label": "Engine",
+            "value": "494 cc liquid-cooled parallel-twin four-stroke"
+          },
+          {
             "key": "displacement",
             "label": "Displacement",
-            "value": "500 cc"
+            "value": "494 cc"
           },
           {
-            "key": "model_years",
-            "label": "Model Years",
-            "value": "2023"
+            "key": "power",
+            "label": "Max Power",
+            "value": "47.6 hp @ 8,500 rpm"
           },
           {
-            "key": "data_status",
-            "label": "Data Status",
-            "value": "Fitment entry — full specifications pending"
+            "key": "torque",
+            "label": "Max Torque",
+            "value": "44.5 Nm @ 7,000 rpm"
+          },
+          {
+            "key": "transmission",
+            "label": "Transmission",
+            "value": "6-speed, chain"
+          },
+          {
+            "key": "front_suspension",
+            "label": "Front Suspension",
+            "value": "41 mm USD fork"
+          },
+          {
+            "key": "rear_suspension",
+            "label": "Rear Suspension",
+            "value": "Monoshock, preload adjustable"
+          },
+          {
+            "key": "front_brake",
+            "label": "Front Brake",
+            "value": "Double 300 mm discs, Nissin calipers, ABS"
+          },
+          {
+            "key": "rear_brake",
+            "label": "Rear Brake",
+            "value": "Single 220 mm disc, Nissin caliper, ABS"
+          },
+          {
+            "key": "tyres",
+            "label": "Tyres",
+            "value": "110/80-19 front, 150/70-17 rear"
+          },
+          {
+            "key": "seat_height",
+            "label": "Seat Height",
+            "value": "820 mm"
+          },
+          {
+            "key": "weight",
+            "label": "Kerb Weight",
+            "value": "185 kg"
+          },
+          {
+            "key": "fuel_capacity",
+            "label": "Fuel Capacity",
+            "value": "19 L"
           }
         ]
       },
@@ -54,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Specifications compiled from Voge manufacturer data for the 494 cc 525 ACX scrambler. Dry weight is quoted by the manufacturer; confirm wet weight against the owner's manual."
           }
         ]
       },
