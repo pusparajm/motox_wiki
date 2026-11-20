@@ -16,6 +16,8 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>Motorcycle Reference Guides — MotoX Wiki</title>
   <link rel="stylesheet" href="css/site.min.css?v=3" id="mx-main-css" data-mx-shield-css="css/main.css?v=32" fetchpriority="high">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465"
+     crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="site-top">
@@ -103,31 +105,6 @@
     document.addEventListener('DOMContentLoaded', () => {
       MotoXShield.bootstrap().then(() => init());
     });
-  </script>
-  <script>
-    (function () {
-      var loaded = false;
-      function loadAdsense() {
-        if (loaded) return;
-        loaded = true;
-        ['https://pagead2.googlesyndication.com', 'https://googleads.g.doubleclick.net'].forEach(function (origin) {
-          var l = document.createElement('link');
-          l.rel = 'preconnect';
-          l.href = origin;
-          l.crossOrigin = 'anonymous';
-          document.head.appendChild(l);
-        });
-        var s = document.createElement('script');
-        s.async = true;
-        s.crossOrigin = 'anonymous';
-        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465';
-        document.head.appendChild(s);
-      }
-      ['scroll', 'click', 'touchstart', 'keydown'].forEach(function (ev) {
-        window.addEventListener(ev, loadAdsense, { once: true, passive: true });
-      });
-      setTimeout(loadAdsense, 8000);
-    })();
   </script>
 </body>
 </html>

@@ -25,31 +25,8 @@ MODELS = os.path.join(ROOT, "motorcycle")
 SITE = "https://motoxref.com"
 LAST_MOD = "2026-11-20"
 
-ADS_LOADER = """  <script>
-    (function () {
-      var loaded = false;
-      function loadAdsense() {
-        if (loaded) return;
-        loaded = true;
-        ['https://pagead2.googlesyndication.com', 'https://googleads.g.doubleclick.net'].forEach(function (origin) {
-          var l = document.createElement('link');
-          l.rel = 'preconnect';
-          l.href = origin;
-          l.crossOrigin = 'anonymous';
-          document.head.appendChild(l);
-        });
-        var s = document.createElement('script');
-        s.async = true;
-        s.crossOrigin = 'anonymous';
-        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465';
-        document.head.appendChild(s);
-      }
-      ['scroll', 'click', 'touchstart', 'keydown'].forEach(function (ev) {
-        window.addEventListener(ev, loadAdsense, { once: true, passive: true });
-      });
-      setTimeout(loadAdsense, 8000);
-    })();
-  </script>"""
+ADSENSE_HEAD = """  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465"
+     crossorigin="anonymous"></script>"""
 
 
 
@@ -191,6 +168,7 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../css/site.min.css?v=3" id="mx-main-css" data-mx-shield-css="../css/main.css?v=32" fetchpriority="high">
   <script type="application/ld+json">{json.dumps(graph, ensure_ascii=False)}</script>
+  {ADSENSE_HEAD}
 </head>
 <body>
   <header class="site-header static-header">
@@ -224,7 +202,6 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
       <span class="footer-text">© 2026 MotoX Wiki. Community-maintained motorcycle technical reference.</span>
     </div>
   </footer>
-  {ADS_LOADER}
 </body>
 </html>
 """
@@ -884,6 +861,7 @@ def model_page(bike, related, guide_links):
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../css/site.min.css?v=3" id="mx-main-css" data-mx-shield-css="../css/main.css?v=32" fetchpriority="high">
   <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)}</script>
+  {ADSENSE_HEAD}
 </head>
 <body>
   <header class="site-header static-header">
@@ -916,7 +894,6 @@ def model_page(bike, related, guide_links):
     </article>
   </main>
   <footer class="site-footer"><div class="container site-footer-inner"><span class="footer-text">© 2026 MotoX Wiki. Community-maintained motorcycle technical reference.</span></div></footer>
-  {ADS_LOADER}
 </body>
 </html>
 """
