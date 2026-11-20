@@ -163,6 +163,16 @@ const MotoX = (() => {
     wireQuickSpecSync(root);
   }
 
+  function initAdsense(root) {
+    const scope = root || document;
+    const ads = scope.querySelectorAll('ins.adsbygoogle:not([data-adsbygoogle-status])');
+    if (!ads.length) return;
+    window.adsbygoogle = window.adsbygoogle || [];
+    ads.forEach(() => {
+      try { window.adsbygoogle.push({}); } catch { /* AdSense may not be ready yet */ }
+    });
+  }
+
   function setContainerHtml(container, html) {
     if (!container) return;
     if (typeof MotoXShield !== 'undefined') {
@@ -171,6 +181,7 @@ const MotoX = (() => {
       container.innerHTML = html;
     }
     wireQuickSpecSync(container);
+    initAdsense(container);
   }
 
   function renderHeader(container, settings, activePage) {
@@ -635,6 +646,7 @@ const MotoX = (() => {
     shieldEnc,
     finalizeContent,
     setContainerHtml,
+    initAdsense,
     renderHeader,
     renderFooter,
     initLayout,

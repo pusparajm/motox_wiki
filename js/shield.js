@@ -5,7 +5,7 @@
  */
 const MotoXShield = (() => {
   const KNOWN = [
-    'active', 'ad-placeholder', 'ad-slot', 'adsbygoogle', 'bike-card', 'bike-engine', 'bike-grid',
+    'active', 'ad-placeholder', 'ad-slot', 'bike-card', 'bike-engine', 'bike-grid',
     'bike-header', 'bike-make', 'bike-meta', 'bike-model', 'bike-oil', 'bike-spec', 'bike-spec-sep',
     'bike-specs', 'bike-subtitle', 'bike-tags', 'bike-title', 'bike-variant', 'bike-weight', 'brand',
     'brand-icon', 'breadcrumb', 'browse-count', 'browse-pagination', 'browse-showing-count',
