@@ -57,7 +57,7 @@
       "oil_capacity": "2.6 L (2.7 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
-        "mt"
+        "cp2"
       ]
     },
     {
@@ -359,6 +359,7 @@
       "oil_capacity": "2.6 L (2.7 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "cp2",
         "t7",
         "tenere",
         "tenere 700"

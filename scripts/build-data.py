@@ -153,7 +153,9 @@ def build_from_data_dir(data_dir: str) -> None:
         moto_id = moto.get("id")
         if not moto_id:
             continue
-        write_json(os.path.join(moto_dir, f"{safe_filename(moto_id)}.json"), {"motorcycle": moto})
+        full = dict(moto)
+        full["aliases"] = aliases_for(moto.get("make", ""), moto.get("model", ""))
+        write_json(os.path.join(moto_dir, f"{safe_filename(moto_id)}.json"), {"motorcycle": full})
 
     page_summaries = [page_index_entry(page) for page in published_pages]
     write_json(os.path.join(data_dir, "pages-index.json"), {"pages": page_summaries})

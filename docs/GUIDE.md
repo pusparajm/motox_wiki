@@ -72,11 +72,14 @@ Two folders live side by side on your computer:
 │   ├── search-index.json        # Generated search index
 │   └── settings.json            # Site title, nav, ads, search config
 ├── scripts/
-│   └── build-data.py            # Regenerate derived data from motorcycles.json
+│   ├── build-data.py            # Regenerate derived data from motorcycles.json
+│   └── build-seo-pages.py       # Generate static guides and sitemap
+├── guides/                      # Static SEO charts, buying guides and comparisons
 ├── sitemap.xml
 ├── robots.txt
 ├── docs/
-│   └── GUIDE.md                 # This file
+│   ├── GUIDE.md                 # This file
+│   └── SEO.md                   # Keyword strategy and page map
 ├── .gitignore             # Excludes admin/ if ever re-added
 ├── .nojekyll              # Required for GitHub Pages
 └── README.md

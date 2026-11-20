@@ -154,6 +154,14 @@
           }
         ]
       }
-    }
+    },
+    "aliases": [
+      "600rr",
+      "cbr 600",
+      "cbr 600 rr",
+      "cbr600",
+      "cbr600rr",
+      "fireblade"
+    ]
   }
 }

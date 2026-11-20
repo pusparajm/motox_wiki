@@ -348,6 +348,93 @@ main.container {
   }
 }
 
+.static-header .site-nav {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .static-header .site-nav {
+    flex-direction: row;
+    border-top: none;
+    padding: 0;
+  }
+
+  .static-header .site-nav a {
+    width: auto;
+    min-height: auto;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+.home-lead {
+  max-width: 72ch;
+  margin: 0.2rem 0 0.5rem;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--pico-muted-color);
+}
+
+.home-guide-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+  margin: 0.1rem 0 0.55rem;
+  font-size: 0.75rem;
+}
+
+.home-guide-links strong {
+  color: var(--pico-muted-color);
+  font-weight: 600;
+}
+
+.home-guide-links a {
+  color: var(--motox-accent);
+  text-decoration: none;
+}
+
+.home-guide-links a:hover {
+  text-decoration: underline;
+}
+
+.bike-alias {
+  margin: 0.1rem 0 0.35rem;
+  font-size: 0.75rem;
+  color: var(--pico-muted-color);
+}
+
+.section-heading {
+  margin: 0.85rem 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.faq-section {
+  margin-top: 1rem;
+}
+
+.faq-item {
+  margin-bottom: 0.4rem;
+  padding: 0.5rem 0.65rem;
+  background: var(--motox-surface);
+  border: 1px solid var(--motox-border);
+  border-radius: var(--motox-radius);
+}
+
+.faq-question {
+  margin: 0 0 0.2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.faq-answer {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--pico-muted-color);
+}
+
 /* Browse toolbar */
 .browse-toolbar {
   display: flex;
@@ -845,6 +932,20 @@ h2 {
 .page-content table {
   font-size: 0.82rem;
   min-width: 20rem;
+}
+
+.page-content .spec-table {
+  min-width: 42rem;
+}
+
+@media (max-width: 767px) {
+  .page-content .spec-table-wrap::before {
+    content: "Swipe horizontally to see all columns →";
+    display: block;
+    padding: 0.2rem 0 0.35rem;
+    font-size: 0.7rem;
+    color: var(--pico-muted-color);
+  }
 }
 
 /* In-content ads (sidebar, content slots) */

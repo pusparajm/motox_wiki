@@ -129,6 +129,12 @@
           }
         ]
       }
-    }
+    },
+    "aliases": [
+      "classic",
+      "harley",
+      "hd",
+      "heritage"
+    ]
   }
 }

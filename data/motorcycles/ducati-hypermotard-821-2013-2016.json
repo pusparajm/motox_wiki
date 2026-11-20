@@ -144,6 +144,10 @@
           }
         ]
       }
-    }
+    },
+    "aliases": [
+      "hyper",
+      "hypermotard"
+    ]
   }
 }

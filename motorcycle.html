@@ -3,13 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="Motorcycle specifications and technical details on MotoX Wiki.">
-  <title>Motorcycle Details — MotoX Wiki</title>
+  <meta name="description" content="Motorcycle specifications, torque values, oil capacity, seat height and weight on MotoX Wiki.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://motoxref.com/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="MotoX Wiki">
+  <meta property="og:title" content="Motorcycle Specifications — MotoX Wiki">
+  <meta property="og:description" content="Specifications, torque values, oil capacity, seat height and weight.">
+  <meta property="og:url" content="https://motoxref.com/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Motorcycle Specifications — MotoX Wiki">
+  <meta name="twitter:description" content="Specifications, torque values, oil capacity, seat height and weight.">
+  <meta name="theme-color" content="#c2410c">
+  <title>Motorcycle Specifications — MotoX Wiki</title>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465"
      crossorigin="anonymous"></script>
   <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=18" id="mx-main-css">
+  <link rel="stylesheet" href="css/main.css?v=21" id="mx-main-css">
 </head>
 <body>
   <header data-mx-ref="site-header" class="site-header"></header>
@@ -20,8 +31,8 @@
 
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script src="js/dist/shield.js?v=8"></script>
-  <script src="js/dist/core.js?v=23"></script>
+  <script src="js/dist/shield.js?v=9"></script>
+  <script src="js/dist/core.js?v=25"></script>
   <script src="js/dist/search.js?v=11"></script>
   <script>
     function setStructuredData(bike) {
@@ -33,8 +44,13 @@
         return Number.isFinite(num) ? { '@type': 'QuantitativeValue', value: num, unitCode } : (value || undefined);
       };
       const fuel = spec('fuel_capacity') || '';
-      const data = {
-        '@context': 'https://schema.org',
+      const pageUrl = `https://motoxref.com/motorcycle.html?id=${encodeURIComponent(bike.id)}`;
+      const faq = MotoX.getBikeFaq(bike).map(item => ({
+        '@type': 'Question',
+        name: item.q,
+        acceptedAnswer: { '@type': 'Answer', text: item.a }
+      }));
+      const graph = [{
         '@type': 'Motorcycle',
         name: MotoX.formatBikeTitle(bike),
         brand: { '@type': 'Brand', name: bike.make },
@@ -50,8 +66,19 @@
           enginePower: quantity(spec('power'), 'BHP'),
           engineTorque: quantity(spec('torque'), 'NU')
         },
-        url: window.location.href
-      };
+        url: pageUrl
+      }, {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://motoxref.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Browse', item: 'https://motoxref.com/#browse' },
+          { '@type': 'ListItem', position: 3, name: MotoX.formatBikeTitle(bike), item: pageUrl }
+        ]
+      }];
+      if (faq.length) {
+        graph.push({ '@type': 'FAQPage', mainEntity: faq });
+      }
+      const data = { '@context': 'https://schema.org', '@graph': graph };
       const script = document.createElement('script');
       script.type = 'application/ld+json';
       script.id = 'mx-jsonld';
@@ -64,7 +91,17 @@
         canonical.rel = 'canonical';
         document.head.appendChild(canonical);
       }
-      canonical.href = window.location.href;
+      canonical.href = pageUrl;
+
+      const setMeta = (selector, value) => {
+        const el = document.querySelector(selector);
+        if (el && value) el.setAttribute('content', value);
+      };
+      setMeta('meta[property="og:title"]', MotoX.formatBikeTitle(bike));
+      setMeta('meta[property="og:description"]', bike.summary || '');
+      setMeta('meta[property="og:url"]', pageUrl);
+      setMeta('meta[name="twitter:title"]', MotoX.formatBikeTitle(bike));
+      setMeta('meta[name="twitter:description"]', bike.summary || '');
     }
 
     async function init() {
@@ -101,11 +138,22 @@
         return;
       }
 
-      document.title = `${MotoX.formatBikeTitle(bike)} — MotoX Wiki`;
       const power = MotoX.getGeneralField(bike, 'power');
+      const torque = MotoX.getGeneralField(bike, 'torque');
       const weight = MotoX.getGeneralField(bike, 'weight');
+      const seat = MotoX.getGeneralField(bike, 'seat_height');
+      const oil = MotoX.getServiceField(bike, 'oil_capacity');
+      const seoTitle = `${bike.make} ${bike.model} (${bike.year}) Specs & Torque`;
+      document.title = `${seoTitle} | MotoX Wiki`;
+      const short = value => String(value || '').split('@')[0].replace(/\([^)]*\)/g, '').trim();
+      const descBits = [];
+      if (power) descBits.push(`${short(power)} power`);
+      if (torque) descBits.push(`${short(torque)} torque`);
+      if (weight) descBits.push(`${weight}`);
+      if (seat) descBits.push(`${seat} seat`);
+      if (oil) descBits.push(`${short(oil)} oil`);
       document.querySelector('meta[name="description"]').content =
-        `${MotoX.formatBikeTitle(bike)} specifications${power ? `: ${power}` : ''}${weight ? `, ${weight}` : ''}. Engine, performance, chassis, dimensions and service data.`;
+        `${bike.make} ${bike.model} specs: ${descBits.join(', ')}. Torque values, service data and dimensions.`;
       setStructuredData(bike);
 
       const detailHtml = MotoX.renderMotorcycleDetail(bike, settings);

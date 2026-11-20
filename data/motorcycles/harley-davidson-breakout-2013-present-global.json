@@ -129,6 +129,11 @@
           }
         ]
       }
-    }
+    },
+    "aliases": [
+      "breakout",
+      "harley",
+      "hd"
+    ]
   }
 }

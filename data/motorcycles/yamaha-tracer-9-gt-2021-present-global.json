@@ -154,6 +154,11 @@
           }
         ]
       }
-    }
+    },
+    "aliases": [
+      "cp3",
+      "tracer",
+      "tracer 9"
+    ]
   }
 }

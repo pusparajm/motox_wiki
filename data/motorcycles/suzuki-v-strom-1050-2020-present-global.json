@@ -159,6 +159,11 @@
           }
         ]
       }
-    }
+    },
+    "aliases": [
+      "strom",
+      "v strom",
+      "vstrom"
+    ]
   }
 }

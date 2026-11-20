@@ -204,7 +204,7 @@ const MotoX = (() => {
         </div>
         <nav ${mxRef('site-nav')} class="${mx('site-nav')}" aria-label="Main navigation">
           ${nav.map(item => {
-            const isActive = activePage && (item.href === activePage || item.href.includes(activePage));
+            const isActive = activePage && item.href === activePage;
             return `<a href="${BASE}${item.href.replace(/^\.\//, '')}" ${isActive ? `class="${mx('active')}"` : ''}>${shieldEnc(item.label)}</a>`;
           }).join('')}
         </nav>
@@ -416,6 +416,79 @@ const MotoX = (() => {
     return typeof MotoXShield !== 'undefined' ? MotoXShield.wrapHtml(html) : html;
   }
 
+  function aliasLabel(value) {
+    return String(value || '')
+      .split(' ')
+      .filter(Boolean)
+      .map(word => word.length <= 3 ? word.toUpperCase() : word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }
+
+  function getBikeFaq(bike) {
+    const name = `${bike.make || ''} ${bike.model || ''}`.trim();
+    const power = getGeneralField(bike, 'power');
+    const torque = getGeneralField(bike, 'torque');
+    const weight = getGeneralField(bike, 'weight');
+    const seat = getGeneralField(bike, 'seat_height');
+    const fuel = getGeneralField(bike, 'fuel_capacity');
+    const top = getGeneralField(bike, 'top_speed');
+    const oilCapacity = getServiceField(bike, 'oil_capacity');
+    const oilGrade = getServiceField(bike, 'oil_grade');
+    const faq = [];
+
+    if (power) faq.push({ q: `How much power does the ${name} make?`, a: `The ${name} is rated at ${power}.` });
+    if (torque) faq.push({ q: `What is the torque of the ${name}?`, a: `Manufacturer-claimed peak torque is ${torque}.` });
+    if (seat) faq.push({ q: `What is the seat height of the ${name}?`, a: `The seat height is listed as ${seat}. Seat width and suspension sag also affect reach.` });
+    if (weight) faq.push({ q: `How much does the ${name} weigh?`, a: `The kerb weight is listed as ${weight}.` });
+    if (oilCapacity) faq.push({ q: `What engine oil does the ${name} take?`, a: `Engine oil capacity is ${oilCapacity}${oilGrade ? ` and the recommended grade is ${oilGrade}` : ''}. Confirm the exact fill procedure in the owner's or workshop manual.` });
+    else if (oilGrade) faq.push({ q: `What engine oil grade does the ${name} use?`, a: `The recommended grade is ${oilGrade}. Confirm the exact fill procedure in the owner's or workshop manual.` });
+    if (top) faq.push({ q: `What is the top speed of the ${name}?`, a: `The listed top speed is ${top}.` });
+    if (fuel) faq.push({ q: `What is the fuel capacity of the ${name}?`, a: `Fuel capacity is listed as ${fuel}.` });
+
+    return faq.slice(0, 6);
+  }
+
+  function renderBikeFaq(bike) {
+    const faq = getBikeFaq(bike);
+    if (!faq.length) return '';
+    return `<section class="${mx('faq-section')}">
+      <h2 class="${mx('section-heading')}">Frequently Asked Questions</h2>
+      ${faq.map(item => `<div class="${mx('faq-item')}">
+        <h3 class="${mx('faq-question')}">${shieldEnc(item.q)}</h3>
+        <p class="${mx('faq-answer')}">${shieldEnc(item.a)}</p>
+      </div>`).join('')}
+    </section>`;
+  }
+
+  function renderRelatedGuides(bike) {
+    const category = (bike.category || '').toLowerCase();
+    const links = [
+      ['guides/oil-capacity-chart.html', 'Motorcycle oil capacity chart'],
+      ['guides/seat-height-chart.html', 'Motorcycle seat height chart'],
+      ['guides/a2-motorcycles.html', 'A2 motorcycles'],
+      ['guides/best-beginner-motorcycles.html', 'Best beginner motorcycles'],
+      ['guides/torque-specs.html', 'Motorcycle torque specs']
+    ];
+    if (category === 'scooter') links.unshift(['guides/best-scooters.html', 'Best scooters']);
+    else if (category === 'adventure' || category === 'dual sport') links.unshift(['guides/best-adventure-motorcycles.html', 'Best adventure motorcycles']);
+    else if (category === 'cruiser') links.unshift(['guides/best-cruiser-motorcycles.html', 'Best cruiser motorcycles']);
+    else if (category === 'commuter') links.unshift(['guides/best-commuter-motorcycles.html', 'Best commuter motorcycles']);
+    else if (category === 'retro' || category === 'scrambler') links.unshift(['guides/best-retro-motorcycles.html', 'Best retro motorcycles']);
+    if (String(bike.displacement || '').trim() === '—') links.unshift(['guides/best-electric-motorcycles.html', 'Best electric motorcycles']);
+
+    const seen = new Set();
+    const items = links.filter(([href, label]) => {
+      if (seen.has(href)) return false;
+      seen.add(href);
+      return true;
+    }).slice(0, 7);
+
+    return `<section class="${mx('related-section')}">
+      <h2 class="${mx('related-title')}">Related Guides</h2>
+      <p class="${mx('home-guide-links')}">${items.map(([href, label]) => `<a href="${BASE}${href}">${shieldEnc(label)}</a>`).join('')}</p>
+    </section>`;
+  }
+
   function renderMotorcycleDetail(bike, settings) {
     const sections = bike.sections || {};
     const sectionHtml = renderAllSpecSections(sections);
@@ -440,12 +513,16 @@ const MotoX = (() => {
             <h1 class="${mx('bike-title')}">${shieldEnc(formatBikeTitle(bike))}</h1>
             <p class="${mx('bike-subtitle')}">${shieldEnc(bike.category || '')}${bike.category && bike.displacement ? ' · ' : ''}${shieldEnc(bike.displacement || '')}</p>
             ${bike.summary ? `<p>${shieldEnc(bike.summary)}</p>` : ''}
+            ${(bike.aliases || []).length ? `<p class="${mx('bike-alias')}"><strong>Also known as:</strong> ${shieldEnc((bike.aliases || []).slice(0, 5).map(aliasLabel).join(', '))}</p>` : ''}
             ${renderHeroStats(bike)}
           </div>
           ${adTop ? `<div class="${mx('ad-slot')}">${adTop}</div>` : ''}
+          <h2 class="${mx('section-heading')}">Specifications</h2>
           ${sectionHtml}
           ${adInArticle ? `<div class="${mx('ad-slot')}">${adInArticle}</div>` : ''}
           ${customHtml}
+          ${renderBikeFaq(bike)}
+          ${renderRelatedGuides(bike)}
           ${adBottom ? `<div class="${mx('ad-slot')}">${adBottom}</div>` : ''}
           ${(bike.sections?.service || bike.sections?.engine_oil) ? '' : `<p class="${mx('data-note')} ${mx('service-pending')}">Service data for this model is still being compiled. Use the owner's or workshop manual for oil capacity, fluid grades and torque values.</p>`}
           <p class="${mx('data-note')}">Specifications are manufacturer-claimed and can vary by model year and market. Always confirm service limits and torque values against the owner's or workshop manual before working on your motorcycle.</p>
@@ -630,6 +707,7 @@ const MotoX = (() => {
     formatBikeTitle,
     getOilField,
     getGeneralField,
+    getBikeFaq,
     getServiceField,
     getSpecNumber,
     specHeadline,

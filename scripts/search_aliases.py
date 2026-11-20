@@ -46,7 +46,8 @@ ALIAS_RULES = [
     (("cbr600rr",), ("cbr600rr", "cbr 600 rr")),
 
     # Yamaha
-    (("mt-", "mt "), ("mt",)),
+    (("mt-07", "xsr700", "ténéré 700", "tenere 700", "yzf-r7"), ("cp2",)),
+    (("mt-09", "xsr900", "tracer 9"), ("cp3",)),
     (("yzf-r", "yzf r"), ("yzf", "r series")),
     (("xsr",), ("xsr",)),
     (("ténéré", "tenere"), ("tenere", "tenere 700", "t7")),
@@ -99,7 +100,6 @@ ALIAS_RULES = [
 
     # KTM
     (("duke",), ("duke",)),
-    (("rc ", "rc-"), ("rc",)),
     (("adventure",), ("adventure", "adv")),
     (("super duke",), ("super duke",)),
     (("exc",), ("exc",)),

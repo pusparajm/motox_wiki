@@ -28,6 +28,7 @@ Manufacturers covered include Aprilia, Ather, Bajaj, Benelli, BMW, BSA, CFMOTO, 
 - **Smart search** — tokenized multi-word matching, common nicknames and aliases (Fireblade, Busa, Gixxer), typo tolerance, and suggested searches when nothing matches.
 - **Expandable specs** — JSON-driven sections for key-value fields, tables and custom HTML blocks.
 - **Related models** — each detail page links to other variants and models in the same family.
+- **SEO guides** — static oil capacity, seat height, weight, horsepower, A2, beginner and comparison pages under `guides/`.
 - **Advertisements** — configurable ad slots (placeholder, custom HTML, Google AdSense).
 - **Responsive** — mobile-friendly layout with collapsible spec sections.
 - **SEO** — generated sitemap, per-model canonical URLs and Motorcycle structured data.
@@ -49,6 +50,18 @@ npm run build:data
 ```
 
 This regenerates `motorcycles-index.json`, per-bike files under `data/motorcycles/`, the search index, page indexes and the popular-model cache.
+
+To rebuild the static SEO guides and sitemap as well:
+
+```bash
+npm run build:seo
+```
+
+Or run the full pipeline:
+
+```bash
+npm run build
+```
 
 ### Deploy to GitHub Pages
 
@@ -130,6 +143,7 @@ motox_wiki/              # This repo (public, GitHub Pages)
 ├── motorcycle.html      # Model detail page
 ├── pages.html           # Wiki reference pages
 ├── search.html          # Full search results
+├── guides/              # Static SEO charts, buying guides and comparisons
 ├── sitemap.xml
 ├── robots.txt
 ├── css/main.css
@@ -139,6 +153,7 @@ motox_wiki/              # This repo (public, GitHub Pages)
 │   └── shield.js
 ├── scripts/
 │   ├── build-data.py    # Generate derived JSON from motorcycles.json
+│   ├── build-seo-pages.py # Generate static guides and sitemap
 │   └── build-web.mjs    # Obfuscate public JS into js/dist/
 └── data/
     ├── motorcycles.json
@@ -190,6 +205,10 @@ Motorcycles use flexible, expandable spec sections. A typical entry:
 ```
 
 Field keys in `general_specs` (`power`, `torque`, `weight`, `seat_height`, `engine`, `fuel_capacity`) are extracted into the compact index so browse cards and search results stay fast.
+
+## SEO
+
+The search strategy and page map are documented in [docs/SEO.md](docs/SEO.md). Static guide pages target oil capacity, seat height, weight, horsepower, torque, A2, beginner, 125cc, scooter, adventure, cruiser, electric and comparison queries.
 
 ## Data Sources & Accuracy
 

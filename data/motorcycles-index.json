@@ -8112,9 +8112,7 @@
       "fuel_capacity": "13.4 L",
       "oil_capacity": "1.5 L (1.6 US qt)",
       "oil_type": "SAE 10W-50, JASO MA2",
-      "aliases": [
-        "rc"
-      ]
+      "aliases": []
     },
     {
       "id": "ktm-rc-200-2014-present-global",
@@ -8141,9 +8139,7 @@
       "fuel_capacity": "13.4 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
       "oil_type": "SAE 10W-50, JASO MA2",
-      "aliases": [
-        "rc"
-      ]
+      "aliases": []
     },
     {
       "id": "ktm-rc-390",
@@ -8170,9 +8166,7 @@
       "fuel_capacity": "13.4 L",
       "oil_capacity": "1.7 L (1.8 US qt)",
       "oil_type": "SAE 10W-50, JASO MA2",
-      "aliases": [
-        "rc"
-      ]
+      "aliases": []
     },
     {
       "id": "kymco-ak-550-2017-present-global",
@@ -11344,9 +11338,7 @@
       "fuel_capacity": "15 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
-      "aliases": [
-        "mt"
-      ]
+      "aliases": []
     },
     {
       "id": "yamaha-mt-03-2016",
@@ -11373,9 +11365,7 @@
       "fuel_capacity": "14 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
-      "aliases": [
-        "mt"
-      ]
+      "aliases": []
     },
     {
       "id": "yamaha-mt-07-2018",
@@ -11403,7 +11393,7 @@
       "oil_capacity": "2.6 L (2.7 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
-        "mt"
+        "cp2"
       ]
     },
     {
@@ -11432,7 +11422,7 @@
       "oil_capacity": "3.2 L (3.4 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
-        "mt"
+        "cp3"
       ]
     },
     {
@@ -11460,9 +11450,7 @@
       "fuel_capacity": "17 L",
       "oil_capacity": "3.9 L (4.1 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
-      "aliases": [
-        "mt"
-      ]
+      "aliases": []
     },
     {
       "id": "yamaha-mt-125-2014-present-global",
@@ -11489,9 +11477,7 @@
       "fuel_capacity": "11 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
-      "aliases": [
-        "mt"
-      ]
+      "aliases": []
     },
     {
       "id": "yamaha-mt-15-2018-present-india",
@@ -11518,9 +11504,7 @@
       "fuel_capacity": "10 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
-      "aliases": [
-        "mt"
-      ]
+      "aliases": []
     },
     {
       "id": "yamaha-mt-25-2015-present-global",
@@ -11547,9 +11531,7 @@
       "fuel_capacity": "14 L",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": [
-        "mt"
-      ]
+      "aliases": []
     },
     {
       "id": "yamaha-nmax-155-2020-present-global",
@@ -11668,6 +11650,7 @@
       "oil_capacity": "3.2 L (3.4 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "cp3",
         "tracer",
         "tracer 9"
       ]
@@ -11698,6 +11681,7 @@
       "oil_capacity": "2.6 L (2.7 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "cp2",
         "t7",
         "tenere",
         "tenere 700"
@@ -11843,6 +11827,7 @@
       "oil_capacity": "2.6 L (2.7 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "cp2",
         "xsr"
       ]
     },
@@ -11872,6 +11857,7 @@
       "oil_capacity": "3.2 L (3.4 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "cp3",
         "xsr"
       ]
     },
@@ -12138,6 +12124,7 @@
       "oil_capacity": "2.6 L (2.7 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "cp2",
         "r series",
         "yzf"
       ]

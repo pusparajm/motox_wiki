@@ -4595,9 +4595,7 @@
       "make": "KTM",
       "model": "RC 125",
       "model_group": "ktm-rc-125",
-      "aliases": [
-        "rc"
-      ],
+      "aliases": [],
       "meta": "Global · Supersport · 125 cc",
       "power": "15 hp (11 kW) @ 9,500 rpm",
       "weight": "160 kg",
@@ -4611,9 +4609,7 @@
       "make": "KTM",
       "model": "RC 200",
       "model_group": "ktm-rc-200",
-      "aliases": [
-        "rc"
-      ],
+      "aliases": [],
       "meta": "Global · Supersport · 199.5 cc",
       "power": "25 hp (19 kW) @ 10,000 rpm",
       "weight": "160 kg",
@@ -4627,9 +4623,7 @@
       "make": "KTM",
       "model": "RC 390",
       "model_group": "ktm-rc-390",
-      "aliases": [
-        "rc"
-      ],
+      "aliases": [],
       "meta": "Global · Supersport · 373 cc",
       "power": "43 hp (32 kW) @ 9,000 rpm",
       "weight": "155 kg",
@@ -6442,9 +6436,7 @@
       "make": "Yamaha",
       "model": "MT-03",
       "model_group": "yamaha-mt-03-2006-2015",
-      "aliases": [
-        "mt"
-      ],
+      "aliases": [],
       "meta": "Global · Naked · 660 cc",
       "power": "45 hp (33 kW) @ 6,250 rpm",
       "weight": "192 kg",
@@ -6458,9 +6450,7 @@
       "make": "Yamaha",
       "model": "MT-03",
       "model_group": "yamaha-mt-03-2006-2015",
-      "aliases": [
-        "mt"
-      ],
+      "aliases": [],
       "meta": "Global · Naked · 321 cc",
       "power": "42 hp (31 kW) @ 10,750 rpm",
       "weight": "169 kg",
@@ -6475,7 +6465,7 @@
       "model": "MT-07",
       "model_group": "yamaha-mt-07",
       "aliases": [
-        "mt"
+        "cp2"
       ],
       "meta": "Global · Naked · 689 cc",
       "power": "74 hp (55 kW) @ 9,000 rpm",
@@ -6491,7 +6481,7 @@
       "model": "MT-09",
       "model_group": "yamaha-mt-09",
       "aliases": [
-        "mt"
+        "cp3"
       ],
       "meta": "Global · Naked · 847 cc",
       "power": "115 hp (85 kW) @ 10,000 rpm",
@@ -6506,9 +6496,7 @@
       "make": "Yamaha",
       "model": "MT-10",
       "model_group": "yamaha-mt-10",
-      "aliases": [
-        "mt"
-      ],
+      "aliases": [],
       "meta": "Global · Naked · 998 cc",
       "power": "165 hp (121 kW) @ 11,500 rpm",
       "weight": "212 kg",
@@ -6522,9 +6510,7 @@
       "make": "Yamaha",
       "model": "MT-125",
       "model_group": "yamaha-mt-125",
-      "aliases": [
-        "mt"
-      ],
+      "aliases": [],
       "meta": "Global · Naked · 125 cc",
       "power": "14.8 hp (11 kW) @ 10,000 rpm",
       "weight": "142 kg",
@@ -6538,9 +6524,7 @@
       "make": "Yamaha",
       "model": "MT-15",
       "model_group": "yamaha-mt-15",
-      "aliases": [
-        "mt"
-      ],
+      "aliases": [],
       "meta": "India · Naked · 155 cc",
       "power": "18.1 hp (13.5 kW) @ 10,000 rpm",
       "weight": "141 kg",
@@ -6554,9 +6538,7 @@
       "make": "Yamaha",
       "model": "MT-25",
       "model_group": "yamaha-mt-25",
-      "aliases": [
-        "mt"
-      ],
+      "aliases": [],
       "meta": "Global · Naked · 249 cc",
       "power": "35.5 hp (26 kW) @ 12,000 rpm",
       "weight": "169 kg",
@@ -6623,6 +6605,7 @@
       "model": "Tracer 9 GT",
       "model_group": "yamaha-tracer-9-gt",
       "aliases": [
+        "cp3",
         "tracer",
         "tracer 9"
       ],
@@ -6630,7 +6613,7 @@
       "power": "119 hp (88 kW) @ 10,000 rpm",
       "weight": "220 kg",
       "url": "motorcycle.html?id=yamaha-tracer-9-gt-2021-present-global",
-      "searchText": "yamaha tracer 9 gt 2021 present global sport tourer 890 cc touring version of the mt 09 with a taller screen semi active suspension and kit liquid cooled dohc inline three 12 valves 119 hp 88 kw 10 000 rpm 93 nm 69 lb ft 7 220 kg 810 825 mm triple general specifications engine displacement max power torque transmission 6 speed chain final drive front 41 inverted fork electronic adjustment rear link type single shock brake 298 dual discs radial 4 piston calipers 245 disc abs cornering tyres 120 70 17 180 55 seat height kerb weight fuel capacity 18 l service data oil filter 3 2 us qt grade sae w 40 jaso ma 525 o ring 110 links source verification manual reference values figures can vary by model year market fastener condition confirm against workshop drain plug 43 replace crush washer axle nut 72 105 caliper bolts 35 spark plugs 13 spin on"
+      "searchText": "yamaha tracer 9 gt 2021 present global sport tourer 890 cc touring version of the mt 09 with a taller screen semi active suspension and kit liquid cooled dohc inline three 12 valves 119 hp 88 kw 10 000 rpm 93 nm 69 lb ft 7 220 kg 810 825 mm triple general specifications engine displacement max power torque transmission 6 speed chain final drive front 41 inverted fork electronic adjustment rear link type single shock brake 298 dual discs radial 4 piston calipers 245 disc abs cornering tyres 120 70 17 180 55 seat height kerb weight fuel capacity 18 l service data oil filter 3 2 us qt grade sae w 40 jaso ma 525 o ring 110 links source verification manual reference values figures can vary by model year market fastener condition confirm against workshop drain plug 43 replace crush washer axle nut 72 105 caliper bolts 35 spark plugs 13 spin on cp"
     },
     {
       "type": "motorcycle",
@@ -6640,6 +6623,7 @@
       "model": "Ténéré 700",
       "model_group": "yamaha-t-n-r-700",
       "aliases": [
+        "cp2",
         "t7",
         "tenere",
         "tenere 700"
@@ -6720,6 +6704,7 @@
       "model": "XSR700",
       "model_group": "yamaha-xsr700",
       "aliases": [
+        "cp2",
         "xsr"
       ],
       "meta": "Global · Retro · 689 cc",
@@ -6736,6 +6721,7 @@
       "model": "XSR900",
       "model_group": "yamaha-xsr900",
       "aliases": [
+        "cp3",
         "xsr"
       ],
       "meta": "Global · Retro · 890 cc",
@@ -6885,6 +6871,7 @@
       "model": "YZF-R7",
       "model_group": "yamaha-yzf-r7",
       "aliases": [
+        "cp2",
         "r series",
         "yzf"
       ],

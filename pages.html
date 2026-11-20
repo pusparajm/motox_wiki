@@ -3,13 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="Wiki pages and reference guides on MotoX Wiki.">
-  <title>Wiki Pages — MotoX Wiki</title>
+  <meta name="description" content="Motorcycle reference guides: torque conversion, oil grades, metric fastener torque and how to contribute to MotoX Wiki.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://motoxref.com/pages.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MotoX Wiki">
+  <meta property="og:title" content="Motorcycle Reference Guides — MotoX Wiki">
+  <meta property="og:description" content="Torque conversion, oil grades, fastener torque and other motorcycle reference guides.">
+  <meta property="og:url" content="https://motoxref.com/pages.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#c2410c">
+  <title>Motorcycle Reference Guides — MotoX Wiki</title>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465"
      crossorigin="anonymous"></script>
   <style>html.mx-lock body{visibility:hidden}</style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="css/main.css?v=18" id="mx-main-css">
+  <link rel="stylesheet" href="css/main.css?v=21" id="mx-main-css">
 </head>
 <body>
   <header data-mx-ref="site-header" class="site-header"></header>
@@ -20,8 +29,8 @@
 
   <footer data-mx-ref="site-footer" class="site-footer"></footer>
 
-  <script src="js/dist/shield.js?v=8"></script>
-  <script src="js/dist/core.js?v=23"></script>
+  <script src="js/dist/shield.js?v=9"></script>
+  <script src="js/dist/core.js?v=25"></script>
   <script src="js/dist/search.js?v=11"></script>
   <script>
     async function init() {
@@ -43,6 +52,17 @@
         }
 
         document.title = `${page.title} — MotoX Wiki`;
+        const pageUrl = `https://motoxref.com/pages.html?slug=${encodeURIComponent(page.slug || page.id)}`;
+        const canonical = document.querySelector('link[rel="canonical"]');
+        if (canonical) canonical.href = pageUrl;
+        const desc = document.querySelector('meta[name="description"]');
+        if (desc) desc.content = page.summary || `${page.title} reference guide on MotoX Wiki.`;
+        const ogTitle = document.querySelector('meta[property="og:title"]');
+        if (ogTitle) ogTitle.content = `${page.title} — MotoX Wiki`;
+        const ogDesc = document.querySelector('meta[property="og:description"]');
+        if (ogDesc) ogDesc.content = page.summary || '';
+        const ogUrl = document.querySelector('meta[property="og:url"]');
+        if (ogUrl) ogUrl.content = pageUrl;
         const adTop = MotoX.renderAdSlot(settings.ads, 'content-top');
         const adBottom = MotoX.renderAdSlot(settings.ads, 'content-bottom');
         const sidebarAd = MotoX.renderAdSlot(settings.ads, 'sidebar');
