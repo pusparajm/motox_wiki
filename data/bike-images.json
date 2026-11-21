@@ -1586,6 +1586,35 @@
           "800": "images/motorcycles/royal-enfield/classic-350/classic-350-6a50d45e-800.jpg"
         }
       }
+    },
+    "kawasaki-ninja-zx-10r-2016-2020-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/kawasaki/kawasaki_zx10r_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Ninja ZX-10R 2020 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-3396eb5d-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-3396eb5d-800.avif",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-3396eb5d-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-3396eb5d-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-3396eb5d-800.webp",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-3396eb5d-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-3396eb5d-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-3396eb5d-800.jpg",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-3396eb5d-1200.jpg"
+        }
+      }
     }
   }
 }

@@ -3,10 +3,10 @@
 ## Status
 
 Phase 1 is complete: the image pipeline, manifest, responsive markup, social metadata
-and image sitemap entries are in place. Sixty-one approved BikeDekho images are live,
-covering current Aprilia, Bajaj, BMW, BSA, CFMOTO, Ducati, Harley-Davidson, Hero,
-Honda, Indian, Kawasaki and Royal Enfield models. More batches are being added as
-model matches are verified.
+and image sitemap entries are in place. Sixty-two approved images are live, covering
+current Aprilia, Bajaj, BMW, BSA, CFMOTO, Ducati, Harley-Davidson, Hero, Honda, Indian,
+Kawasaki and Royal Enfield models, plus the 2016–2020 Kawasaki Ninja ZX-10R from
+MotorcycleSpecs. More batches are being added as model matches are verified.
 
 Where the licence or written permission does not require public credit, no credit line
 is rendered. Source, licence and permission details remain in the manifest for audit.
@@ -17,8 +17,9 @@ is rendered. Source, licence and permission details remain in the manifest for a
   at 800 px from the 930 × 620 originals.
 - **CarBike360** — written permission on file. Watermarked files are not used; only
   unwatermarked originals or supplied files are accepted.
-- **MotorcycleSpecs.co.za** — blocked pending written permission. Its Terms of Use
-  explicitly prohibit copying, publishing or reproducing its material.
+- **MotorcycleSpecs.co.za** — written permission on file. Used for models that are not
+  available from the other approved sources. Its default Terms of Use still prohibit
+  reuse without that written permission.
 
 All other models have no image until a licensed source is supplied. The pipeline does
 not scrape third-party pages and will not publish an image without an explicit licence
