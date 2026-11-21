@@ -91,11 +91,6 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "SBS 777HF"
-          },
-          {
-            "key": "note",
-            "label": "Note",
-            "value": "Fantic XMF 125 Competition supermoto data. Power is quoted by Fantic as 15 hp for the 125 four-stroke engine; other details remain to be verified."
           }
         ]
       },

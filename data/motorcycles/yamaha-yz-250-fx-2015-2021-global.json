@@ -133,11 +133,6 @@
             "value": "SBS 790SI"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "Yamaha YZ250FX wet weight and seat height. Yamaha does not publish a peak power figure for this competition model. Confirm model-year equipment against the owner's manual."
-          },
-          {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
             "value": "5W — 2021"

@@ -108,11 +108,6 @@
             "key": "final_drive",
             "label": "Final Drive",
             "value": "Belt"
-          },
-          {
-            "key": "note",
-            "label": "Note",
-            "value": "No engine oil or spark plug. Follow Bajaj’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
           }
         ]
       },

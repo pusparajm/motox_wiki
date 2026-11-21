@@ -141,11 +141,6 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "SBS 715"
-          },
-          {
-            "key": "note",
-            "label": "Note",
-            "value": "Harley-Davidson Iron 1200 engine output. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

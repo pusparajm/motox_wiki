@@ -324,11 +324,6 @@
               "value": "6,000 km / 12 months"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Oil capacity and grade are from LIQUI MOLY application data; Aprilia does not publish a single service-fill figure in the owner’s manual. Confirm the level on the dipstick after filling."
-            },
-            {
               "key": "fork_air_gap",
               "label": "Fork Air Gap",
               "value": "110 mm — 2026"
@@ -554,11 +549,6 @@
               "key": "fork_seal",
               "label": "Fork Seal Size",
               "value": "41 × 53 × 8 mm (Kayaba)"
-            },
-            {
-              "key": "parts_note",
-              "label": "Parts & Fitment Note",
-              "value": "All Balls kits are listed for RS 660 2021–2025. OEM fork seal kit 2B004402; some RS 660 variants use Wuxi forks — verify before ordering."
             },
             {
               "key": "fork_oil_grade",
@@ -1954,11 +1944,6 @@
               "key": "final_drive",
               "label": "Final Drive",
               "value": "Belt"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "No engine oil, spark plug, coolant or valve service. Ather's periodic service covers brake fluid, brake pads, tyres, wheel bearings and the drive belt."
             }
           ]
         },
@@ -2282,11 +2267,6 @@
               "key": "final_drive",
               "label": "Final Drive",
               "value": "Belt"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "No engine oil or spark plug. Follow Bajaj’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
             }
           ]
         },
@@ -5417,11 +5397,6 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "10,000 km / 24 months"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "BMW also specifies transmission-oil changes every 10,000 km or 24 months. The battery and motor use a separate coolant circuit; check the level at each service."
             },
             {
               "key": "battery",
@@ -16461,11 +16436,6 @@
               "value": "DOT 4"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "No engine oil, spark plug, coolant or valve service. Follow Energica’s schedule for brake fluid, tyres, bearings and the chain."
-            },
-            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "SBS 901HS"
@@ -19878,11 +19848,6 @@
               "value": "6,000 km"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Capacity is for the 210 cc Hero engine family; confirm the final level on the dipstick."
-            },
-            {
               "key": "battery",
               "label": "Battery",
               "value": "ETZ7"
@@ -20053,11 +20018,6 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "6,000 km"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Hero revised the 110 cc engine during this model run; check the manual for your model year."
             },
             {
               "key": "battery",
@@ -43738,11 +43698,6 @@
               "value": "2,000 km / 3 months (first changes at 500 km)"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Later Kove owner manuals list SAE 10W-40; confirm the grade for your model year."
-            },
-            {
               "key": "fork_oil_grade",
               "label": "Fork Oil Grade",
               "value": "5W — 2026"
@@ -51234,11 +51189,6 @@
               "key": "final_drive",
               "label": "Final Drive",
               "value": "Belt"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "No engine oil, spark plug, coolant or valve service. Follow Ola’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
             }
           ]
         },
@@ -51395,11 +51345,6 @@
               "key": "final_drive",
               "label": "Final Drive",
               "value": "Belt"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "No engine oil, spark plug, coolant or valve service. Follow Ola’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
             }
           ]
         },
@@ -51891,11 +51836,6 @@
               "key": "brake_fluid",
               "label": "Brake Fluid",
               "value": "DOT 4"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "QJMotor specifies a 1,000 km first service, then the intervals in the owner’s manual."
             },
             {
               "key": "battery",
@@ -54824,11 +54764,6 @@
               "key": "final_drive",
               "label": "Final Drive",
               "value": "Chain"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "No engine oil, spark plug, coolant or valve service. Follow Stark’s schedule for brake fluid, brake pads, bearings, suspension and the drive chain."
             },
             {
               "key": "fork_oil_grade",
@@ -65706,11 +65641,6 @@
               "key": "final_drive",
               "label": "Final Drive",
               "value": "Belt"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "No engine oil, spark plug, coolant or valve service. Follow TVS’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
             }
           ]
         },
@@ -66737,11 +66667,6 @@
               "key": "final_drive",
               "label": "Final Drive",
               "value": "Belt"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "No engine oil, spark plug, coolant or valve service. Follow Ultraviolette’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
             }
           ]
         },
@@ -74569,13 +74494,7 @@
         },
         "torque_specs": {
           "label": "Torque Specifications",
-          "fields": [
-            {
-              "key": "note",
-              "label": "Verification note",
-              "value": "A verified model-specific torque table is not yet available for this model. Use the BMW workshop manual for fastener torque values."
-            }
-          ]
+          "fields": []
         }
       }
     },
@@ -74759,13 +74678,7 @@
         },
         "torque_specs": {
           "label": "Torque Specifications",
-          "fields": [
-            {
-              "key": "note",
-              "label": "Verification note",
-              "value": "A verified model-specific torque table is not yet available for this model. Use the BMW workshop manual for fastener torque values."
-            }
-          ]
+          "fields": []
         }
       }
     },
@@ -74929,13 +74842,7 @@
         },
         "torque_specs": {
           "label": "Torque Specifications",
-          "fields": [
-            {
-              "key": "note",
-              "label": "Verification note",
-              "value": "A verified model-specific torque table is not yet available for this model. Use the BMW workshop manual for fastener torque values."
-            }
-          ]
+          "fields": []
         }
       }
     },
@@ -75079,13 +74986,7 @@
         },
         "torque_specs": {
           "label": "Torque Specifications",
-          "fields": [
-            {
-              "key": "note",
-              "label": "Verification note",
-              "value": "A verified model-specific torque table is not yet available for this model. Use the BMW workshop manual for fastener torque values."
-            }
-          ]
+          "fields": []
         }
       }
     },
@@ -77718,11 +77619,6 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "SBS 237HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Aprilia SR 50 Motard wet weight from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -79356,11 +79252,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 187CT"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Aprilia SR 200 GT engine output from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -80339,11 +80230,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Aprilia Tuono 660. Variant-specific equipment may differ; confirm against the owner's manual."
             },
             {
               "key": "fork_oil_grade",
@@ -85649,11 +85535,6 @@
               "value": "SBS 730LS"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Benda LFS 700 specifications are recorded. Confirm model-year equipment against the owner’s manual."
-            },
-            {
               "key": "battery",
               "label": "Battery",
               "value": "MG14L-BS-C"
@@ -85862,11 +85743,6 @@
               "value": "SBS 832HF"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Benelli BKX 125 specifications are recorded. Dry weight is quoted; wet weight is not published. Confirm model-year equipment against the owner's manual."
-            },
-            {
               "key": "battery_rating",
               "label": "Battery Rating",
               "value": "12V 11.2Ah"
@@ -85997,11 +85873,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 832HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Benelli BKX 125 specifications are recorded. Dry weight is quoted; wet weight is not published. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -87351,11 +87222,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Benelli TNT 600 Tornado Naked wet weight from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -87863,11 +87729,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Benelli Leoncino 800. Variant-specific equipment may differ; confirm against the owner's manual."
             },
             {
               "key": "battery",
@@ -93539,11 +93400,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 790SI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Bimota BX450 enduro specifications. Power, torque and seat height remain to be verified."
             }
           ]
         },
@@ -94726,11 +94582,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Bimota Tesi H2 specifications are recorded. Kerb weight is quoted at 214 kg; some figures quote 219 kg with a partial tank. Confirm equipment against the owner's manual."
             }
           ]
         },
@@ -95203,11 +95054,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Bimota KB4 specifications are recorded. Kerb weight is quoted with a partially filled tank; dry weight is 189 kg. Confirm equipment against the owner's manual."
             }
           ]
         },
@@ -95325,11 +95171,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Bimota KB4 RC data shared with the KB4. The RC is a race-kit variant; confirm its exact equipment and weight against the owner's manual."
             }
           ]
         },
@@ -116255,11 +116096,6 @@
               "value": "SBS 671LS"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the CFMOTO 800 MT Touring. Variant-specific equipment may differ; confirm against the owner's manual."
-            },
-            {
               "key": "battery",
               "label": "Battery",
               "value": "YTZ14S"
@@ -135055,11 +134891,6 @@
               "value": "SBS 730LS"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Ducati 959 Panigale. Variant-specific equipment may differ; confirm against the owner's manual."
-            },
-            {
               "key": "fork_oil_grade",
               "label": "Fork Oil Grade",
               "value": "5W — 2020"
@@ -147521,11 +147352,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 790SI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Fantic XE 125 enduro specifications are recorded. Power and torque figures are not published and remain to be verified."
             }
           ]
         },
@@ -147633,11 +147459,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 777HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Fantic XEF 125 Competition enduro data. Power is quoted by Fantic as 15 hp for the 125 four-stroke engine; other details remain to be verified."
             }
           ]
         },
@@ -147745,11 +147566,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 777HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Fantic XMF 125 Competition supermoto data. Power is quoted by Fantic as 15 hp for the 125 four-stroke engine; other details remain to be verified."
             }
           ]
         },
@@ -147852,11 +147668,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 790RSI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Fantic XX 125 motocross specifications are recorded. Power and torque figures are not published and remain to be verified."
             },
             {
               "key": "fork_oil_grade",
@@ -148392,11 +148203,6 @@
               "value": "SBS 790SI"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Fantic XEF 250 enduro specifications are recorded. Power and torque figures are not published and remain to be verified."
-            },
-            {
               "key": "fork_oil_grade",
               "label": "Fork Oil Grade",
               "value": "5W — 2026"
@@ -148534,11 +148340,6 @@
               "value": "SBS 790RSI"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Fantic XX 250 motocross specifications are recorded. Power and torque figures are not published and remain to be verified."
-            },
-            {
               "key": "fork_oil_grade",
               "label": "Fork Oil Grade",
               "value": "5W — 2023, 2026"
@@ -148674,11 +148475,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 790RSI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Fantic XXF 250 motocross specifications are recorded. Power and torque figures are not published and remain to be verified."
             },
             {
               "key": "fork_oil_grade",
@@ -149212,11 +149008,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 790SI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Fantic XEF 450 enduro specifications are recorded. Power and torque figures are not published and remain to be verified."
             }
           ]
         },
@@ -149319,11 +149110,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 790SI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Fantic XEF 450 Rally specifications are recorded. Power and torque figures are not published and remain to be verified."
             }
           ]
         },
@@ -149426,11 +149212,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 790RSI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Fantic XXF 450 motocross specifications are recorded. Power and torque figures are not published and remain to be verified."
             },
             {
               "key": "fork_oil_grade",
@@ -150508,11 +150289,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications describe the Caballero 700, which uses the Yamaha CP2 engine. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -161022,11 +160798,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 671"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Harley-Davidson Street Rod. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -162204,11 +161975,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 993"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Harley-Davidson Nightster. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -164182,11 +163948,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 715"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Harley-Davidson Iron 1200 engine output. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -165530,11 +165291,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Harley-Davidson Pan America 1250. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -165672,11 +165428,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Harley-Davidson Pan America 1250. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -165839,11 +165590,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 993"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Harley-Davidson Sportster S. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -182186,11 +181932,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 948HS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Harley-Davidson CVO Tri Glide output for the Milwaukee-Eight 117 engine. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -183391,11 +183132,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 949"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Harley-Davidson Low Rider S. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -188850,11 +188586,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 236HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Honda NSC110 Vision specifications for the listed model years. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -190082,11 +189813,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 784HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Honda Trail 125. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -192454,11 +192180,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 2208"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Honda PCX150 specifications are recorded for the 2018-generation model. Confirm the exact model year against the owner's manual."
             },
             {
               "key": "battery",
@@ -216316,11 +216037,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 881LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Honda Rebel 1100. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -231972,11 +231688,6 @@
               "value": "SBS 675LS"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Husqvarna 701 Supermoto. Variant-specific equipment may differ; confirm against the owner's manual."
-            },
-            {
               "key": "battery",
               "label": "Battery",
               "value": "YTZ10S"
@@ -237176,11 +236887,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Indian Scout Rogue wet weight, seat height and engine output are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -237308,11 +237014,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Indian FTR 1200. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -237567,11 +237268,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Indian FTR 1200 S RR data shared with the FTR S. The RR is a race-replica trim; confirm its exact equipment and weight against the owner's manual."
             }
           ]
         },
@@ -238231,11 +237927,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 630"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Indian Pursuit. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -238398,11 +238089,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 630"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Indian Pursuit. The Limited trim adds a trunk and touring equipment; confirm exact wet weight and equipment against the owner's manual."
             }
           ]
         },
@@ -238530,11 +238216,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 630"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Indian Challenger. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -238662,11 +238343,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 630"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Indian Challenger. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -238794,11 +238470,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 630"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Indian Challenger. The Limited trim adds a trunk and touring equipment; confirm exact wet weight and equipment against the owner's manual."
             }
           ]
         },
@@ -238961,11 +238632,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 630"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Indian Chief. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -239128,11 +238794,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 630"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Indian Chief Bobber. The Dark Horse trim adds blacked-out finishes and equipment; confirm exact wet weight against the owner's manual."
             }
           ]
         },
@@ -239783,11 +239444,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 630"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Indian Roadmaster Dark Horse data shared with the Roadmaster Limited. The Dark Horse trim deletes some touring equipment; confirm exact wet weight against the owner's manual."
             }
           ]
         },
@@ -239941,11 +239597,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 630"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Indian Roadmaster Limited wet weight, seat height and engine output are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -240250,11 +239901,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 630"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Indian Chief. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -242681,11 +242327,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 157CT"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Italjet Dragster 200 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -242950,11 +242591,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Italjet Dragster 500 GP prototype specifications. Dry weight is quoted; production wet weight and final equipment remain to be confirmed."
             }
           ]
         },
@@ -247158,11 +246794,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 536HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Kawasaki KLX 230. Variant-specific equipment may differ; confirm against the owner's manual."
             },
             {
               "key": "battery",
@@ -253376,11 +253007,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 834LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Kawasaki Ninja ZX-6R. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -259403,11 +259029,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 657LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Kawasaki Versys 1000. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -261045,11 +260666,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Kawasaki Ninja H2. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -261192,11 +260808,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Kawasaki Ninja H2. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -261709,11 +261320,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 834LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Kawasaki Ninja ZX-10R. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -266862,11 +266468,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 777RSI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Kove MX250 specifications are recorded. Weight is quoted ready to ride without fuel. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -266989,11 +266590,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 777HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Kove MX250 supermoto specifications are recorded. The supermoto variant uses 17-inch wheels and a lower seat. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -279674,11 +279270,6 @@
               "value": "SBS 671LS"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "KTM 790 Adventure R wet weight. KTM quotes 189 kg dry; confirm model-year equipment against the owner's manual."
-            },
-            {
               "key": "fork_air_gap",
               "label": "Fork Air Gap",
               "value": "110 mm — 2020"
@@ -279869,11 +279460,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 671LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the KTM 790 Adventure. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -281266,11 +280852,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 671LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "KTM 1090 Adventure R wet weight. KTM quotes 207 kg dry; confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -281815,11 +281396,6 @@
               "value": "SBS 671LS"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "KTM 1290 Super Adventure R wet weight. KTM quotes 217 kg dry; confirm model-year equipment against the owner's manual."
-            },
-            {
               "key": "fork_air_gap",
               "label": "Fork Air Gap",
               "value": "85 mm — 2020"
@@ -282103,11 +281679,6 @@
               "value": "SBS 730LS"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "KTM 1290 Super Duke R wet weight. KTM quotes 189 kg dry for the 2020 generation; earlier generations differ. Confirm the exact model year against the owner's manual."
-            },
-            {
               "key": "fork_oil_volume",
               "label": "Fork Oil Quantity",
               "value": "615 cc — 2022"
@@ -282295,11 +281866,6 @@
               "value": "SBS 730LS"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "KTM 1290 Super Duke R EVO wet weight. KTM quotes 189 kg dry; confirm equipment against the owner's manual."
-            },
-            {
               "key": "battery",
               "label": "Battery",
               "value": "YTZ14S"
@@ -282470,11 +282036,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Black colour variant of the 1290 Super Duke R. Wet weight shown; KTM quotes 189 kg dry."
             },
             {
               "key": "battery",
@@ -284464,11 +284025,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 204CT"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Kymco X-Town CT 125 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -284591,11 +284147,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 204CT"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Kymco DT X360 125 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -285601,11 +285152,6 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "SBS 204MS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Kymco Agility 300i specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -285875,11 +285421,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 204MS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Kymco People S 300 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -286093,11 +285634,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 204MS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Kymco X-Town CT 300 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -286291,11 +285827,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 204MS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Kymco DT X360 350 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -293380,11 +292911,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 671LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "MBP C1002V specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -293507,11 +293033,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 671LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "MBP T1002V specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -299681,11 +299202,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 588HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Moto Guzzi V7 850. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -299833,11 +299349,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 588HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Moto Guzzi V7 850 Stone Fast Endurance data shared with the V7 Stone. Confirm the special-edition equipment against the owner's manual."
             }
           ]
         },
@@ -299990,11 +299501,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 588HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Moto Guzzi V7 850. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -300127,11 +299633,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 588HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Moto Guzzi V85 TT. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -300401,11 +299902,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 588HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Moto Guzzi V85 TT. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -300553,11 +300049,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 588HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Moto Guzzi V9 Bobber. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -306508,11 +305999,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Moto Morini X-Cape 650 specifications are recorded. The seat is adjustable to 845 mm; dry weight is quoted as approximately 213 kg. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -306701,11 +306187,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 671LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Moto Morini Seiemmezzo 650 specifications for the listed model years. The STR and SCR share the engine and chassis but differ in wheels and tyres. Confirm the exact variant against the owner's manual."
             }
           ]
         },
@@ -307112,11 +306593,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Moto Morini Corsaro 1200 ZT specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -307239,11 +306715,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Moto Morini Corsaro 1200 ZZ specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -307797,11 +307268,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Moto Morini Super Scrambler specifications are recorded. Dry weight is quoted; wet weight is not published."
             }
           ]
         },
@@ -322338,11 +321804,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Royal Enfield Bullet Trials 500 engine output. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -327161,11 +326622,6 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "SBS 2010"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Suzuki DR-Z70 specifications for the listed model years. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -328424,11 +327880,6 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "SBS 223CT"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Suzuki Address 125 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -328556,11 +328007,6 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "SBS 223CT"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Suzuki Avenis 125 specifications are recorded; the model also appears as 'Avensis'. Confirm equipment against the owner's manual."
             }
           ]
         },
@@ -328693,11 +328139,6 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "SBS 223CT"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Suzuki Burgman Street 125. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -339705,11 +339146,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 657LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Suzuki V-Strom 800. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -341544,11 +340980,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 833LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Suzuki V-Strom 1050. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -341696,11 +341127,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 833LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Suzuki V-Strom 1050DE. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -341858,11 +341284,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 833LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Suzuki V-Strom 1050. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -345235,11 +344656,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 998HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "SWM Outlaw 125 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -345352,11 +344768,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 998HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "SWM Varez 125 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -345718,11 +345129,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 791SI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "SWM RS 300 R enduro specifications describe the 2020 model year. Power and torque figures are not published and remain to be verified."
             }
           ]
         },
@@ -345825,11 +345231,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 791HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "SWM Varez 400 specifications are recorded. Power and torque figures remain to be verified."
             }
           ]
         },
@@ -346236,11 +345637,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 998HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "SWM 500 Ace of Spades / Gran Milano Outlaw specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -346363,11 +345759,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 998HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "SWM 500 Ace of Spades / Gran Milano Outlaw specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -354965,11 +354356,6 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "SBS 178CT"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "SYM Joyride 300 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -355660,11 +355046,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 218MS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "SYM Maxsym TL 465 wet weight from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -365961,11 +365342,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Tiger 850 Sport wet weight from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -367370,11 +366746,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 611LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Speed Twin 900 wet weight from published specifications. Confirm equipment against the owner's manual."
             }
           ]
         },
@@ -367603,11 +366974,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 611LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Triumph 900 Street Twin. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -368712,11 +368078,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Triumph Tiger 900. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -369046,11 +368407,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Triumph Tiger 900. Variant-specific equipment may differ; confirm against the owner's manual."
             },
             {
               "key": "fork_oil_grade",
@@ -370540,11 +369896,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 611LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Wet weight is shown; Triumph quotes 189 kg dry for the RS. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -370692,11 +370043,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 611LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Wet weight is shown; Triumph quotes 192 kg dry for the S. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -372262,11 +371608,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 611LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Thruxton RS wet weight from published specifications. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -372520,11 +371861,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Triumph Tiger 1200. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -372956,11 +372292,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Triumph Tiger 1200. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -373108,11 +372439,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Triumph Tiger 1200. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -373260,11 +372586,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 611LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Triumph Tiger 1200. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -373412,11 +372733,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 611LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Triumph Tiger 1200. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -373635,11 +372951,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 611LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Triumph Tiger 1200. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -373787,11 +373098,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 611LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Triumph Tiger 1200. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -373924,11 +373230,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 611LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Tiger 1200 XRX Low wet weight; Triumph quotes 244 kg dry. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -382710,11 +382011,6 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "SBS 2010"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Yamaha TT-R50E wet weight and seat height. A peak power figure is not published. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -384754,11 +384050,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 2028"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Yamaha TT-R110E wet weight and seat height. A peak power figure is not published. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -390093,11 +389384,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 2034"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Yamaha TT-R230 wet weight is recorded. A peak power figure is not published. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -392201,11 +391487,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 728HF"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Yamaha XT250 seat height is recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -392556,11 +391837,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 2034"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Yamaha XVS 250 V-Star specifications for the listed model years. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -393703,11 +392979,6 @@
               "value": "SBS 790SI"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Yamaha YZ250FX wet weight and seat height. Yamaha does not publish a peak power figure for this competition model. Confirm model-year equipment against the owner's manual."
-            },
-            {
               "key": "fork_oil_grade",
               "label": "Fork Oil Grade",
               "value": "5W — 2021"
@@ -393939,11 +393210,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 790SI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Yamaha YZ250X wet weight and seat height. Yamaha does not publish a peak power figure for this competition model. Confirm model-year equipment against the owner's manual."
             },
             {
               "key": "fork_oil_grade",
@@ -396299,11 +395565,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 790SI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Yamaha WR450F wet weight and measured rear-wheel power. Yamaha does not publish a crankshaft power figure. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -396512,11 +395773,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 790SI"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Yamaha YZ450FX wet weight and seat height. Yamaha does not publish a peak power figure for this competition model. Confirm model-year equipment against the owner's manual."
             },
             {
               "key": "fork_oil_grade",
@@ -402706,11 +401962,6 @@
               "value": "SBS 675LS"
             },
             {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Yamaha Ténéré 700. Variant-specific equipment may differ; confirm against the owner's manual."
-            },
-            {
               "key": "fork_oil_grade",
               "label": "Fork Oil Grade",
               "value": "5W — 2022"
@@ -407128,11 +406379,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 663HS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Yamaha Bolt R-Spec wet weight, seat height and engine output. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -413671,11 +412917,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 671LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Zero DSR/X. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -413793,11 +413034,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Zero DSR Black Forest Edition specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -415209,11 +414445,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Specifications are shared with the Zero SR/F. Variant-specific equipment may differ; confirm against the owner's manual."
             }
           ]
         },
@@ -415331,11 +414562,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "Zero SR/S ZF14.4 specifications are recorded. Confirm model-year equipment against the owner's manual."
             }
           ]
         },
@@ -415848,11 +415074,6 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675"
-            },
-            {
-              "key": "note",
-              "label": "Note",
-              "value": "KTM RC 390 wet weight for the 2014-2020 generation. Confirm the exact model year against the owner's manual."
             }
           ]
         },

@@ -133,11 +133,6 @@
             "value": "SBS 675LS"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "Specifications are shared with the Husqvarna 701 Supermoto. Variant-specific equipment may differ; confirm against the owner's manual."
-          },
-          {
             "key": "battery",
             "label": "Battery",
             "value": "YTZ10S"

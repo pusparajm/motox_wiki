@@ -66,11 +66,6 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "SBS 630"
-          },
-          {
-            "key": "note",
-            "label": "Note",
-            "value": "Indian Roadmaster Dark Horse data shared with the Roadmaster Limited. The Dark Horse trim deletes some touring equipment; confirm exact wet weight against the owner's manual."
           }
         ]
       },

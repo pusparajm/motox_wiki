@@ -148,11 +148,6 @@
             "value": "SBS 671LS"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "KTM 790 Adventure R wet weight. KTM quotes 189 kg dry; confirm model-year equipment against the owner's manual."
-          },
-          {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
             "value": "110 mm — 2020"

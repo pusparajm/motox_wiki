@@ -116,11 +116,6 @@
             "value": "DOT 4"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "QJMotor specifies a 1,000 km first service, then the intervals in the owner’s manual."
-          },
-          {
             "key": "battery",
             "label": "Battery",
             "value": "YTZ14S"

@@ -110,11 +110,6 @@
             "value": "Chain"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "No engine oil, spark plug, coolant or valve service. Follow Stark’s schedule for brake fluid, brake pads, bearings, suspension and the drive chain."
-          },
-          {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
             "value": "5W — 2026"

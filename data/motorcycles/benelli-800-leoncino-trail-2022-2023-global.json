@@ -123,11 +123,6 @@
             "value": "SBS 730LS"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "Specifications are shared with the Benelli Leoncino 800. Variant-specific equipment may differ; confirm against the owner's manual."
-          },
-          {
             "key": "battery",
             "label": "Battery",
             "value": "YTX12-BS"

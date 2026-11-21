@@ -101,11 +101,6 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "SBS 730LS"
-          },
-          {
-            "key": "note",
-            "label": "Note",
-            "value": "Bimota KB4 RC data shared with the KB4. The RC is a race-kit variant; confirm its exact equipment and weight against the owner's manual."
           }
         ]
       },

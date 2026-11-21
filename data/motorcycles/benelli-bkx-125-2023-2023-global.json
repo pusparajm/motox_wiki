@@ -113,11 +113,6 @@
             "value": "SBS 832HF"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "Benelli BKX 125 specifications are recorded. Dry weight is quoted; wet weight is not published. Confirm model-year equipment against the owner's manual."
-          },
-          {
             "key": "battery_rating",
             "label": "Battery Rating",
             "value": "12V 11.2Ah"

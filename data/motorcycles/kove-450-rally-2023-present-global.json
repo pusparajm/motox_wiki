@@ -121,11 +121,6 @@
             "value": "2,000 km / 3 months (first changes at 500 km)"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "Later Kove owner manuals list SAE 10W-40; confirm the grade for your model year."
-          },
-          {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
             "value": "5W — 2026"

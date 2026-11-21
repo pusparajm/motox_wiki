@@ -156,11 +156,6 @@
             "value": "6,000 km / 12 months"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "Oil capacity and grade are from LIQUI MOLY application data; Aprilia does not publish a single service-fill figure in the owner’s manual. Confirm the level on the dipstick after filling."
-          },
-          {
             "key": "fork_air_gap",
             "label": "Fork Air Gap",
             "value": "110 mm — 2026"

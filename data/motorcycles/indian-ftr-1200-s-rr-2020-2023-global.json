@@ -66,11 +66,6 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "SBS 730LS"
-          },
-          {
-            "key": "note",
-            "label": "Note",
-            "value": "Indian FTR 1200 S RR data shared with the FTR S. The RR is a race-replica trim; confirm its exact equipment and weight against the owner's manual."
           }
         ]
       },

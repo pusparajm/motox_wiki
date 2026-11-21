@@ -88,11 +88,6 @@
             "value": "SBS 790RSI"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "Fantic XXF 450 motocross specifications are recorded. Power and torque figures are not published and remain to be verified."
-          },
-          {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
             "value": "5W — 2026"

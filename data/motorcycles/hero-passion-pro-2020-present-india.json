@@ -111,11 +111,6 @@
             "value": "6,000 km"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "Hero revised the 110 cc engine during this model run; check the manual for your model year."
-          },
-          {
             "key": "battery",
             "label": "Battery",
             "value": "ETZ4"

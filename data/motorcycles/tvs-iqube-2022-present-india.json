@@ -108,11 +108,6 @@
             "key": "final_drive",
             "label": "Final Drive",
             "value": "Belt"
-          },
-          {
-            "key": "note",
-            "label": "Note",
-            "value": "No engine oil, spark plug, coolant or valve service. Follow TVS’s periodic inspection schedule for brakes, tyres, bearings and the belt drive."
           }
         ]
       },

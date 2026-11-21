@@ -151,11 +151,6 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "SBS 790SI"
-          },
-          {
-            "key": "note",
-            "label": "Note",
-            "value": "Yamaha WR450F wet weight and measured rear-wheel power. Yamaha does not publish a crankshaft power figure. Confirm model-year equipment against the owner's manual."
           }
         ]
       },

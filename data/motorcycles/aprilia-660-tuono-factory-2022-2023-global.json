@@ -138,11 +138,6 @@
             "value": "SBS 730LS"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "Specifications are shared with the Aprilia Tuono 660. Variant-specific equipment may differ; confirm against the owner's manual."
-          },
-          {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
             "value": "5W — 2026"

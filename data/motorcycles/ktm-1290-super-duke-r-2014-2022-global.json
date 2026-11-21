@@ -148,11 +148,6 @@
             "value": "SBS 730LS"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "KTM 1290 Super Duke R wet weight. KTM quotes 189 kg dry for the 2020 generation; earlier generations differ. Confirm the exact model year against the owner's manual."
-          },
-          {
             "key": "fork_oil_volume",
             "label": "Fork Oil Quantity",
             "value": "615 cc — 2022"

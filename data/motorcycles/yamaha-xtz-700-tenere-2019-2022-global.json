@@ -153,11 +153,6 @@
             "value": "SBS 675LS"
           },
           {
-            "key": "note",
-            "label": "Note",
-            "value": "Specifications are shared with the Yamaha Ténéré 700. Variant-specific equipment may differ; confirm against the owner's manual."
-          },
-          {
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
             "value": "5W — 2022"
