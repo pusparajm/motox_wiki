@@ -4,7 +4,7 @@
 
 Rank for high-intent motorcycle specification, service and buying queries, then funnel search visitors into model pages and the full catalogue.
 
-The site already has a large structured dataset (4,734 models from 94 manufacturers, including brake-pad fitment for 4,589 models and battery data for 591 models). The SEO opportunity is not more generic text — it is **turning that data into pages that answer the exact things people search for**.
+The site already has a large structured dataset (4,719 models from 94 manufacturers, including brake-pad fitment for 4,572 models and battery data for 591 models). The SEO opportunity is not more generic text — it is **turning that data into pages that answer the exact things people search for**.
 
 ---
 
@@ -201,7 +201,7 @@ Each guide includes:
 
 ### Technical SEO
 
-- `sitemap.xml` includes all static model pages, reference pages, guides and the homepage (4,889 URLs).
+- `sitemap.xml` includes all static model pages, reference pages, guides and the homepage (4,874 URLs).
 - `robots.txt` points to the sitemap.
 - `search.html` is `noindex,follow` to avoid indexing thin search-result pages.
 - Guide, reference and model pages are static HTML so they do not depend on JavaScript rendering.

@@ -8218,20 +8218,6 @@
     },
     {
       "type": "motorcycle",
-      "id": "aprilia-model-2009-2013-global",
-      "title": "Aprilia (2009–2013, Global)",
-      "make": "Aprilia",
-      "model": "",
-      "model_group": "aprilia-model",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/aprilia-model-2009-2013-global.html",
-      "searchText": "aprilia 2009 2013 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled model sbs general years data status entry pending front pads 879 hf note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
       "id": "aprilia-na-850-mana-abs-2008-2011-global",
       "title": "Aprilia NA 850 Mana,ABS (2008–2011, Global)",
       "make": "Aprilia",
@@ -8812,20 +8798,6 @@
       "weight": "",
       "url": "motorcycle/aprilia-400-2x4-man-hand-brake-1998-2002-global.html",
       "searchText": "aprilia 400 2 x 4 man hand brake 1998 2002 global naked cc pad fitment is recorded full engine chassis and service specifications are being compiled sbs general displacement model years data status entry pending front pads 827 ats note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
-      "id": "aprilia-man-hand-brake-1998-2008-global",
-      "title": "Aprilia (Man. Hand Brake) (1998–2008, Global)",
-      "make": "Aprilia",
-      "model": "(Man. Hand Brake)",
-      "model_group": "aprilia-man-hand-brake",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/aprilia-man-hand-brake-1998-2008-global.html",
-      "searchText": "aprilia man hand brake 1998 2008 global naked pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 827 ats rear 758 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
     },
     {
       "type": "motorcycle",
@@ -15826,20 +15798,6 @@
       "weight": "",
       "url": "motorcycle/derbi-50-senda-sm-drd-2003-2004-global.html",
       "searchText": "derbi 50 senda sm drd 2003 2004 global naked cc brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general displacement model years data status entry pending front pads 105 hf note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
-      "id": "derbi-edition-2003-2004-global",
-      "title": "Derbi Edition (2003–2004, Global)",
-      "make": "Derbi",
-      "model": "Edition",
-      "model_group": "derbi-edition",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/derbi-edition-2003-2004-global.html",
-      "searchText": "derbi edition 2003 2004 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 168 hf rear 105 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
     },
     {
       "type": "motorcycle",
@@ -32372,20 +32330,6 @@
       "weight": "",
       "url": "motorcycle/honda-ctx-700-d-abs-w-dct-2013-2015-global.html",
       "searchText": "honda ctx 700 d abs w dct 2013 2015 global naked cc brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general displacement model years data status entry pending front pads hs rear 881 ls note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener wdct"
-    },
-    {
-      "type": "motorcycle",
-      "id": "honda-model-2012-2019-global",
-      "title": "Honda (2012–2019, Global)",
-      "make": "Honda",
-      "model": "",
-      "model_group": "honda-model",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/honda-model-2012-2019-global.html",
-      "searchText": "honda 2012 2019 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled model sbs general years data status entry pending front pads 879 hf note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
     },
     {
       "type": "motorcycle",
@@ -53426,34 +53370,6 @@
     },
     {
       "type": "motorcycle",
-      "id": "peugeot-brembo-cal-1996-2015-global",
-      "title": "Peugeot (Brembo cal.) (1996–2015, Global)",
-      "make": "Peugeot",
-      "model": "(Brembo cal.)",
-      "model_group": "peugeot-brembo-cal",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/peugeot-brembo-cal-1996-2015-global.html",
-      "searchText": "peugeot brembo cal 1996 2015 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 123 hf rear 2012 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
-      "id": "peugeot-hengtong-cal-1996-2015-global",
-      "title": "Peugeot (Hengtong cal.) (1996–2015, Global)",
-      "make": "Peugeot",
-      "model": "(Hengtong cal.)",
-      "model_group": "peugeot-hengtong-cal",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/peugeot-hengtong-cal-1996-2015-global.html",
-      "searchText": "peugeot hengtong cal 1996 2015 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 102 hf rear 2012 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
       "id": "peugeot-50-speedfight-lemans-2011-2011-global",
       "title": "Peugeot 50 Speedfight Lemans (2011, Global)",
       "make": "Peugeot",
@@ -53942,20 +53858,6 @@
     },
     {
       "type": "motorcycle",
-      "id": "vespa-model-2009-2019-global",
-      "title": "Vespa (2009–2019, Global)",
-      "make": "Vespa",
-      "model": "",
-      "model_group": "vespa-model",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/vespa-model-2009-2019-global.html",
-      "searchText": "vespa 2009 2019 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled model sbs general years data status entry pending front pads 209 hf note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
       "id": "vespa-125-mp3-yourban-2011-2012-global",
       "title": "Vespa 125 MP3 Yourban (2011–2012, Global)",
       "make": "Vespa",
@@ -54343,20 +54245,6 @@
       "weight": "",
       "url": "motorcycle/vespa-500-mp3-lt-touring-business-2011-2013-global.html",
       "searchText": "vespa 500 mp 3 lt touring business 2011 2013 global scooter cc brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general displacement model years data status entry pending front pads 202 ms rear 177 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
-      "id": "vespa-abs-2014-2015-global",
-      "title": "Vespa ABS (2014–2015, Global)",
-      "make": "Vespa",
-      "model": "ABS",
-      "model_group": "vespa-abs",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/vespa-abs-2014-2015-global.html",
-      "searchText": "vespa abs 2014 2015 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 224 ms rear 177 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
     },
     {
       "type": "motorcycle",
@@ -57563,20 +57451,6 @@
     },
     {
       "type": "motorcycle",
-      "id": "suzuki-right-2004-2006-global",
-      "title": "Suzuki Right (2004–2006, Global)",
-      "make": "Suzuki",
-      "model": "Right",
-      "model_group": "suzuki-right",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/suzuki-right-2004-2006-global.html",
-      "searchText": "suzuki right 2004 2006 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 704 hs rear 798 si note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
       "id": "suzuki-gsf-650-bandit-abs-2007-2012-global",
       "title": "Suzuki GSF 650 Bandit ABS (2007–2012, Global)",
       "make": "Suzuki",
@@ -57759,20 +57633,6 @@
       "weight": "",
       "url": "motorcycle/suzuki-gv-700-glg-madura-1986-1986-global.html",
       "searchText": "suzuki gv 700 glg madura 1986 global naked cc brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general displacement model years data status entry pending front pads 533 hf rear 2052 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
-      "id": "suzuki-left-2004-2006-global",
-      "title": "Suzuki Left (2004–2006, Global)",
-      "make": "Suzuki",
-      "model": "Left",
-      "model_group": "suzuki-left",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/suzuki-left-2004-2006-global.html",
-      "searchText": "suzuki left 2004 2006 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 801 si note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
     },
     {
       "type": "motorcycle",
@@ -62977,22 +62837,6 @@
       "weight": "",
       "url": "motorcycle/triumph-800-bonneville-america-2002-2006-global.html",
       "searchText": "triumph 800 bonneville america 2002 2006 global retro cc brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general displacement model years data status entry pending front pads 627 hs rear 611 ls note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener bonny motorcycles"
-    },
-    {
-      "type": "motorcycle",
-      "id": "triumph-centennial-edition-2002-2004-global",
-      "title": "Triumph Centennial Edition (2002–2004, Global)",
-      "make": "Triumph",
-      "model": "Centennial Edition",
-      "model_group": "triumph-centennial-edition",
-      "aliases": [
-        "triumph motorcycles"
-      ],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/triumph-centennial-edition-2002-2004-global.html",
-      "searchText": "triumph centennial edition 2002 2004 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 627 hs rear 611 ls note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener motorcycles"
     },
     {
       "type": "motorcycle",
@@ -69890,62 +69734,6 @@
       "weight": "",
       "url": "motorcycle/yamaha-xv-700-virago-1987-1987-global.html",
       "searchText": "yamaha xv 700 virago 1987 global naked cc brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general displacement model years data status entry pending front pads 555 hf rear 2065 note for this capacities fluid grades torque values still battery yb 16 al a 2 verification verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
-      "id": "yamaha-edition-2016-2018-global",
-      "title": "Yamaha Edition (2016–2018, Global)",
-      "make": "Yamaha",
-      "model": "Edition",
-      "model_group": "yamaha-edition",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/yamaha-edition-2016-2018-global.html",
-      "searchText": "yamaha edition 2016 2018 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 971 psi rear 973 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
-      "id": "yamaha-left-2016-2018-global",
-      "title": "Yamaha Left (2016–2018, Global)",
-      "make": "Yamaha",
-      "model": "Left",
-      "model_group": "yamaha-left",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/yamaha-left-2016-2018-global.html",
-      "searchText": "yamaha left 2016 2018 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 971 psi rear 973 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
-      "id": "yamaha-right-2016-2018-global",
-      "title": "Yamaha Right (2016–2018, Global)",
-      "make": "Yamaha",
-      "model": "Right",
-      "model_group": "yamaha-right",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/yamaha-right-2016-2018-global.html",
-      "searchText": "yamaha right 2016 2018 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 972 psi rear 974 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
-    },
-    {
-      "type": "motorcycle",
-      "id": "yamaha-special-edition-2017-2017-global",
-      "title": "Yamaha Special Edition (2017, Global)",
-      "make": "Yamaha",
-      "model": "Special Edition",
-      "model_group": "yamaha-special-edition",
-      "aliases": [],
-      "meta": "Global · Naked · —",
-      "power": "",
-      "weight": "",
-      "url": "motorcycle/yamaha-special-edition-2017-2017-global.html",
-      "searchText": "yamaha special edition 2017 global naked brake pad fitment is recorded full engine chassis and service specifications are being compiled sbs general model years data status entry pending front pads 971 psi rear 973 note for this capacities fluid grades torque values still verification a verified specific table not available use the workshop manual fastener"
     },
     {
       "type": "motorcycle",

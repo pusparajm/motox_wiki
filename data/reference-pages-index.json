@@ -943,9 +943,9 @@
     {
       "slug": "all-models",
       "title": "All Motorcycle Models A–Z",
-      "description": "Complete index of 4734 motorcycle models by manufacturer, linking to specifications, oil capacity and service data.",
+      "description": "Complete index of 4719 motorcycle models by manufacturer, linking to specifications, oil capacity and service data.",
       "h1": "All Motorcycle Models",
-      "subtitle": "4734 models from 94 manufacturers.",
+      "subtitle": "4719 models from 94 manufacturers.",
       "group": "Reference tool",
       "hasOverride": false,
       "path": "reference/all-models.html"

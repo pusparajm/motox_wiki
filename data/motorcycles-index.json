@@ -14161,26 +14161,6 @@
       "aliases": []
     },
     {
-      "id": "aprilia-model-2009-2013-global",
-      "make": "Aprilia",
-      "year": "2009–2013",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "aprilia",
-        "model",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Aprilia brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "aprilia-model",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
       "id": "aprilia-na-850-mana-abs-2008-2011-global",
       "make": "Aprilia",
       "model": "NA 850 Mana,ABS",
@@ -15046,27 +15026,6 @@
       "summary": "Aprilia 400 2x4 (Man. Hand Brake) brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
       "published": true,
       "model_group": "aprilia-400-2x4-man-hand-brake",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
-      "id": "aprilia-man-hand-brake-1998-2008-global",
-      "make": "Aprilia",
-      "model": "(Man. Hand Brake)",
-      "year": "1998–2008",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "aprilia",
-        "man-hand-brake",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Aprilia (Man. Hand Brake) brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "aprilia-man-hand-brake",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -25563,27 +25522,6 @@
       "summary": "Derbi 50 Senda SM DRD brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
       "published": true,
       "model_group": "derbi-50-senda-sm-drd",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
-      "id": "derbi-edition-2003-2004-global",
-      "make": "Derbi",
-      "model": "Edition",
-      "year": "2003–2004",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "derbi",
-        "edition",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Derbi Edition brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "derbi-edition",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -50501,26 +50439,6 @@
         "ctx 700 d abs w dct",
         "wdct"
       ]
-    },
-    {
-      "id": "honda-model-2012-2019-global",
-      "make": "Honda",
-      "year": "2012–2019",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "honda",
-        "model",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Honda brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "honda-model",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
     },
     {
       "id": "honda-ctx-700-n-2014-2018-global",
@@ -82039,48 +81957,6 @@
       "aliases": []
     },
     {
-      "id": "peugeot-brembo-cal-1996-2015-global",
-      "make": "Peugeot",
-      "model": "(Brembo cal.)",
-      "year": "1996–2015",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "peugeot",
-        "brembo-cal",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Peugeot (Brembo cal.) brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "peugeot-brembo-cal",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
-      "id": "peugeot-hengtong-cal-1996-2015-global",
-      "make": "Peugeot",
-      "model": "(Hengtong cal.)",
-      "year": "1996–2015",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "peugeot",
-        "hengtong-cal",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Peugeot (Hengtong cal.) brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "peugeot-hengtong-cal",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
       "id": "peugeot-50-speedfight-lemans-2011-2011-global",
       "make": "Peugeot",
       "model": "50 Speedfight Lemans",
@@ -82807,26 +82683,6 @@
       ]
     },
     {
-      "id": "vespa-model-2009-2019-global",
-      "make": "Vespa",
-      "year": "2009–2019",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "vespa",
-        "model",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Vespa brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "vespa-model",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
       "id": "vespa-125-mp3-yourban-2011-2012-global",
       "make": "Vespa",
       "model": "125 MP3 Yourban",
@@ -83390,27 +83246,6 @@
       "aliases": [
         "mp3"
       ]
-    },
-    {
-      "id": "vespa-abs-2014-2015-global",
-      "make": "Vespa",
-      "model": "ABS",
-      "year": "2014–2015",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "vespa",
-        "abs",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Vespa ABS brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "vespa-abs",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
     },
     {
       "id": "vespa-500-mp3-lt-touring-sport-2011-2013-global",
@@ -88175,27 +88010,6 @@
       ]
     },
     {
-      "id": "suzuki-right-2004-2006-global",
-      "make": "Suzuki",
-      "model": "Right",
-      "year": "2004–2006",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "suzuki",
-        "right",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Suzuki Right brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "suzuki-right",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
       "id": "suzuki-gsf-650-bandit-abs-2007-2012-global",
       "make": "Suzuki",
       "model": "GSF 650 Bandit ABS",
@@ -88467,27 +88281,6 @@
       "summary": "Suzuki GV 700 GLG Madura brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
       "published": true,
       "model_group": "suzuki-gv-700-glg-madura",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
-      "id": "suzuki-left-2004-2006-global",
-      "make": "Suzuki",
-      "model": "Left",
-      "year": "2004–2006",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "suzuki",
-        "left",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Suzuki Left brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "suzuki-left",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
@@ -96329,29 +96122,6 @@
       "aliases": [
         "bonneville",
         "bonny",
-        "triumph motorcycles"
-      ]
-    },
-    {
-      "id": "triumph-centennial-edition-2002-2004-global",
-      "make": "Triumph",
-      "model": "Centennial Edition",
-      "year": "2002–2004",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "triumph",
-        "centennial-edition",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Triumph Centennial Edition brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "triumph-centennial-edition",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": [
         "triumph motorcycles"
       ]
     },
@@ -106836,90 +106606,6 @@
       "summary": "Yamaha XV 700 Virago brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
       "published": true,
       "model_group": "yamaha-xv-700-virago",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
-      "id": "yamaha-edition-2016-2018-global",
-      "make": "Yamaha",
-      "model": "Edition",
-      "year": "2016–2018",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "yamaha",
-        "edition",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Yamaha Edition brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "yamaha-edition",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
-      "id": "yamaha-left-2016-2018-global",
-      "make": "Yamaha",
-      "model": "Left",
-      "year": "2016–2018",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "yamaha",
-        "left",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Yamaha Left brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "yamaha-left",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
-      "id": "yamaha-right-2016-2018-global",
-      "make": "Yamaha",
-      "model": "Right",
-      "year": "2016–2018",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "yamaha",
-        "right",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Yamaha Right brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "yamaha-right",
-      "oil_capacity": "",
-      "oil_type": "",
-      "aliases": []
-    },
-    {
-      "id": "yamaha-special-edition-2017-2017-global",
-      "make": "Yamaha",
-      "model": "Special Edition",
-      "year": "2017",
-      "region": "Global",
-      "category": "Naked",
-      "displacement": "—",
-      "tags": [
-        "yamaha",
-        "special-edition",
-        "naked",
-        "sbs"
-      ],
-      "summary": "Yamaha Special Edition brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
-      "published": true,
-      "model_group": "yamaha-special-edition",
       "oil_capacity": "",
       "oil_type": "",
       "aliases": []
