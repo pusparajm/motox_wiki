@@ -42,7 +42,18 @@
   <main class="container" data-mx-ref="main-content" data-mx-shield="light">
     <h1>Reference</h1>
     <p>Reference tables, conversion charts and general motorcycle technical information.</p>
-    <h2>Parts and brake tables</h2>
+    <h2>Browse the catalogue</h2>
+    <div class="page-list">
+      <a class="page-item" href="reference/brands.html">
+        <h2>Motorcycle Brand Directory</h2>
+        <p>Every manufacturer, with links to all models and service data.</p>
+      </a>
+      <a class="page-item" href="reference/all-models.html">
+        <h2>All Motorcycle Models A–Z</h2>
+        <p>Every published model grouped by manufacturer.</p>
+      </a>
+    </div>
+    <h2>Parts and data finders</h2>
     <div class="page-list">
       <a class="page-item" href="reference/brake-pad-fitment.html">
         <h2>Motorcycle Brake Pad Fitment Table</h2>
@@ -51,6 +62,14 @@
       <a class="page-item" href="reference/pad-shape-cross-reference.html">
         <h2>Brake Pad Shape Cross-Reference</h2>
         <p>EBC, SBS, Ferodo, Dunlopad, Emgo and Vesrah shape equivalents.</p>
+      </a>
+      <a class="page-item" href="reference/tyre-size-finder.html">
+        <h2>Motorcycle Tyre Size Finder</h2>
+        <p>Front and rear tyre sizes by model.</p>
+      </a>
+      <a class="page-item" href="reference/fork-seal-finder.html">
+        <h2>Fork Seal &amp; Rear Shock Finder</h2>
+        <p>Fork seal, dust seal, bush, circlip and rear-shock data.</p>
       </a>
     </div>
     <div class="loading">Loading general reference…</div>
@@ -115,16 +134,26 @@
       }
 
       const pages = await MotoX.loadPagesIndex();
-      const brakePages = [
+      const cataloguePages = [
+        ['reference/brands.html', 'Motorcycle Brand Directory', 'Every manufacturer, with links to all models and service data.'],
+        ['reference/all-models.html', 'All Motorcycle Models A–Z', 'Every published model grouped by manufacturer.']
+      ];
+      const finderPages = [
         ['reference/brake-pad-fitment.html', 'Motorcycle Brake Pad Fitment Table', 'Front and rear brake pad codes for individual models.'],
-        ['reference/pad-shape-cross-reference.html', 'Brake Pad Shape Cross-Reference', 'EBC, SBS, Ferodo, Dunlopad, Emgo and Vesrah shape equivalents.']
+        ['reference/pad-shape-cross-reference.html', 'Brake Pad Shape Cross-Reference', 'EBC, SBS, Ferodo, Dunlopad, Emgo and Vesrah shape equivalents.'],
+        ['reference/tyre-size-finder.html', 'Motorcycle Tyre Size Finder', 'Front and rear tyre sizes by model.'],
+        ['reference/fork-seal-finder.html', 'Fork Seal & Rear Shock Finder', 'Fork seal, dust seal, bush, circlip and rear-shock data.']
       ];
       MotoX.setContainerHtml(main, `
         <h1>Reference</h1>
         <p>Reference tables, conversion charts and general motorcycle technical information.</p>
-        <h2>Parts and brake tables</h2>
+        <h2>Browse the catalogue</h2>
         <div class="${m('page-list')}">
-          ${brakePages.map(([href, title, summary], index) => MotoX.renderPageItem(href, title, summary, `reference-${index}`)).join('')}
+          ${cataloguePages.map(([href, title, summary], index) => MotoX.renderPageItem(href, title, summary, `catalogue-${index}`)).join('')}
+        </div>
+        <h2>Parts and data finders</h2>
+        <div class="${m('page-list')}">
+          ${finderPages.map(([href, title, summary], index) => MotoX.renderPageItem(href, title, summary, `finder-${index}`)).join('')}
         </div>
         <h2>General reference</h2>
         <div class="${m('page-list')}">

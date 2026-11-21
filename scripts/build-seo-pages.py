@@ -116,7 +116,10 @@ def spec_strip(bike):
 
 def table(headers, rows):
     head = "".join(f"<th>{esc(h)}</th>" for h in headers)
-    body = "".join("<tr>" + "".join(f"<td>{cell}</td>" for cell in row) + "</tr>" for row in rows)
+    body = "".join(
+        "<tr>" + "".join(f"<td>{cell if str(cell).strip() else '—'}</td>" for cell in row) + "</tr>"
+        for row in rows
+    )
     return f'<div class="spec-table-wrap"><table class="spec-table"><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>'
 
 
@@ -323,7 +326,7 @@ def build_index(bikes):
     items = "".join(f'<a class="page-item" href="{slug}.html"><h2>{esc(t)}</h2><p>{esc(d)}</p></a>' for slug, t, d in cards)
     content = f"""
       <p>These guides turn the MotoX Wiki catalogue into practical answers: oil capacities, seat heights, weights, horsepower, torque data, buying shortlists and direct model comparisons.</p>
-      <p>Brake-pad fitment and pad-shape tables are in the <a href="../pages.html">Reference section</a>.</p>
+      <p>Brand hubs, the all-model index, brake fitment and parts finders are in the <a href="../pages.html">Reference section</a>.</p>
       <div class="page-list">{items}</div>
     """
     return guide_page(
@@ -663,6 +666,157 @@ def build_brake_redirect():
 """
     with open(os.path.join(GUIDES, "brake-pad-cross-reference.html"), "w", encoding="utf-8") as fh:
         fh.write(template)
+
+
+def make_slug(make):
+    return re.sub(r"[^a-z0-9]+", "-", str(make).lower()).strip("-")
+
+
+def build_brand_pages(bikes):
+    by_make = {}
+    for bike in bikes:
+        by_make.setdefault(bike.get("make", ""), []).append(bike)
+
+    urls = []
+    brand_links = {}
+    brand_cards = []
+    for make in sorted(by_make, key=str.lower):
+        items = sorted(by_make[make], key=name)
+        slug = make_slug(make)
+        page_slug = f"brand-{slug}"
+        href = f"../reference/{page_slug}.html"
+        brand_links[make] = href
+        rows = []
+        for bike in items:
+            rows.append([
+                bike_link(bike),
+                esc(bike.get("year", "")),
+                esc(bike.get("category", "")),
+                esc(bike.get("displacement", "")),
+                esc(field(bike, "power")),
+                esc(field(bike, "weight")),
+                esc(field(bike, "seat_height")),
+                esc(service(bike, "oil_capacity")),
+            ])
+        content = f"""
+          <p>Browse every {esc(make)} model in the catalogue. Each row links to the full specification page with engine data, dimensions, service capacities, torque values and FAQs.</p>
+          <p><a href="brands.html">All motorcycle brands</a> · <a href="all-models.html">All models A–Z</a> · <a href="../guides/oil-capacity-chart.html">Oil capacity chart</a> · <a href="../guides/seat-height-chart.html">Seat height chart</a></p>
+          <h2>{esc(make)} models</h2>
+          {table(["Model", "Year", "Category", "Engine", "Power", "Weight", "Seat", "Oil capacity"], rows)}
+          <h2>Related reference</h2>
+          <ul>
+            <li><a href="tyre-size-finder.html">Motorcycle tyre size finder</a></li>
+            <li><a href="fork-seal-finder.html">Fork seal and suspension finder</a></li>
+            <li><a href="brake-pad-fitment.html">Motorcycle brake pad fitment table</a></li>
+          </ul>
+        """
+        urls.append(reference_page(
+            page_slug,
+            f"{make} Motorcycles — Specs, Oil Capacity & Service Data",
+            f"All {make} motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+            f"{make} Motorcycles",
+            f"Every {make} model in the MotoX Wiki database.",
+            content,
+            f"{make}",
+        ))
+        brand_cards.append((make, page_slug, len(items)))
+
+    cards_html = "".join(
+        f'<a class="page-item" href="{page_slug}.html"><h2>{esc(make)}</h2><p>{count} models · specs, oil capacity and service data.</p></a>'
+        for make, page_slug, count in brand_cards
+    )
+    urls.append(reference_page(
+        "brands",
+        "Motorcycle Brand Directory",
+        "Motorcycle manufacturers and model counts, with links to every brand hub and model specification page.",
+        "Motorcycle Brand Directory",
+        f"{len(brand_cards)} motorcycle manufacturers in the catalogue.",
+        f"""
+          <p>Choose a manufacturer to browse every model, engine specification, oil capacity and service data entry.</p>
+          <p><a href="all-models.html">All models A–Z</a> · <a href="tyre-size-finder.html">Tyre size finder</a> · <a href="fork-seal-finder.html">Fork seal finder</a></p>
+          <div class="page-list">{cards_html}</div>
+        """,
+        "Brands",
+    ))
+
+    model_groups = []
+    for make in sorted(by_make, key=str.lower):
+        slug = make_slug(make)
+        models = "".join(
+            f'<li><a href="{bike_url(bike)}">{esc(title(bike))}</a></li>'
+            for bike in sorted(by_make[make], key=name)
+        )
+        model_groups.append(f'<h2 id="make-{slug}"><a href="brand-{slug}.html">{esc(make)}</a> <small>{len(by_make[make])} models</small></h2><ul>{models}</ul>')
+    urls.append(reference_page(
+        "all-models",
+        "All Motorcycle Models A–Z",
+        f"Complete index of {len(bikes)} motorcycle models by manufacturer, linking to specifications, oil capacity and service data.",
+        "All Motorcycle Models",
+        f"{len(bikes)} models from {len(by_make)} manufacturers.",
+        f"""
+          <p>Every published model in the catalogue, grouped by manufacturer. Use the <a href="brands.html">brand directory</a> for manufacturer hubs, or the finders for <a href="tyre-size-finder.html">tyre sizes</a> and <a href="fork-seal-finder.html">fork and shock data</a>.</p>
+          {''.join(model_groups)}
+        """,
+        "All Models",
+    ))
+    return urls, brand_links
+
+
+def build_tyre_finder(bikes):
+    rows = []
+    for bike in sorted(bikes, key=name):
+        tyres = field(bike, "tyres")
+        if not tyres:
+            continue
+        match = re.match(r"(.+?)\s+front,\s*(.+?)\s+rear", str(tyres), re.I)
+        if match:
+            front, rear = match.group(1).strip(), match.group(2).strip()
+        else:
+            front, rear = str(tyres), ""
+        rows.append([bike_link(bike), esc(front), esc(rear)])
+    content = f"""
+      <p>Find the listed front and rear tyre sizes for {len(rows)} motorcycle models. Tyre dimensions can change by model year, market and wheel option, so confirm the size on the machine before ordering.</p>
+      <p><a href="all-models.html">All models</a> · <a href="fork-seal-finder.html">Fork seal finder</a> · <a href="brake-pad-fitment.html">Brake pad fitment</a> · <a href="../guides/parts-fitment-codes.html">Parts and fitment codes</a></p>
+      {table(["Model", "Front tyre", "Rear tyre"], rows)}
+    """
+    return reference_page(
+        "tyre-size-finder",
+        "Motorcycle Tyre Size Finder",
+        f"Front and rear tyre sizes for {len(rows)} motorcycle models, with links to full specifications and service data.",
+        "Motorcycle Tyre Size Finder",
+        "Front and rear tyre sizes by model.",
+        content,
+        "Tyre Size Finder",
+    )
+
+
+def build_fork_seal_finder(bikes):
+    rows = []
+    for bike in sorted(bikes, key=name):
+        seal = service(bike, "fork_seal")
+        dust = service(bike, "fork_dust_seal")
+        bushes = service(bike, "fork_slide_bushes")
+        circlip = service(bike, "fork_seal_circlip")
+        shock = service(bike, "rear_shock")
+        if not any((seal, dust, bushes, circlip, shock)):
+            continue
+        rows.append([
+            bike_link(bike), esc(seal), esc(dust), esc(bushes), esc(circlip), esc(shock)
+        ])
+    content = f"""
+      <p>Fork seal, dust seal, slide-bush, circlip and rear-shock data for {len(rows)} models. Sizes are listed in millimetres. Confirm the exact fork or shock variant before ordering.</p>
+      <p><a href="all-models.html">All models</a> · <a href="tyre-size-finder.html">Tyre size finder</a> · <a href="brake-pad-fitment.html">Brake pad fitment</a> · <a href="../guides/parts-fitment-codes.html">Parts and fitment codes</a></p>
+      {table(["Model", "Fork oil seal", "Dust seal", "Slide bushes", "Seal circlip", "Rear shock"], rows)}
+    """
+    return reference_page(
+        "fork-seal-finder",
+        "Motorcycle Fork Seal & Rear Shock Finder",
+        f"Fork oil seal, dust seal, slide bush, circlip and rear shock sizes for {len(rows)} motorcycle models.",
+        "Motorcycle Fork Seal & Rear Shock Finder",
+        "Fork seal, dust seal, bush and rear-shock data by model.",
+        content,
+        "Fork Seal & Suspension Finder",
+    )
 
 
 def build_beginner(bikes):
@@ -1036,7 +1190,7 @@ def static_sections_html(bike):
     return f'<div class="spec-section-grid">{"".join(parts)}</div>'
 
 
-def model_page(bike, related, guide_links):
+def model_page(bike, related, guide_links, brand_href):
     url = f"{SITE}/motorcycle/{quote(bike['id'])}.html"
     oil_capacity = service(bike, "oil_capacity")
     oil_grade = service(bike, "oil_grade")
@@ -1070,7 +1224,7 @@ def model_page(bike, related, guide_links):
         description = f"{name(bike)} specs: {', '.join(bits)}. Torque values, service data and dimensions."
     oil_quick = ""
     if oil_capacity:
-        oil_quick = f'<p class="data-note"><strong>Engine oil capacity:</strong> {esc(oil_capacity)}'
+        oil_quick = f'<h2 class="section-heading">Engine oil capacity</h2><p class="data-note"><strong>Engine oil capacity:</strong> {esc(oil_capacity)}'
         if oil_grade:
             oil_quick += f' · <strong>Recommended grade:</strong> {esc(oil_grade)}'
         oil_quick += "</p>"
@@ -1174,6 +1328,7 @@ def model_page(bike, related, guide_links):
       <p class="bike-subtitle">{esc(bike.get('category', ''))}{' · ' if bike.get('category') and bike.get('displacement') else ''}{esc(bike.get('displacement', ''))}</p>
       <p>{esc(bike.get('summary', ''))}</p>
       {oil_quick}
+      <p class="bike-alias"><strong>Brand:</strong> <a href="{brand_href}">All {esc(bike.get('make', ''))} models</a> · <a href="../reference/all-models.html">All models A–Z</a></p>
       {alias_html}
       <div class="hero-stats">{hero}</div>
     </div>
@@ -1211,7 +1366,7 @@ COMPARISON_LINKS = {
 }
 
 
-def build_model_pages(bikes):
+def build_model_pages(bikes, brand_links):
     os.makedirs(MODELS, exist_ok=True)
     for entry in os.listdir(MODELS):
         if entry.endswith(".html"):
@@ -1248,7 +1403,7 @@ def build_model_pages(bikes):
             guides.insert(0, ("best-commuter-motorcycles.html", "Best commuter motorcycles"))
         elif category in ("retro", "scrambler"):
             guides.insert(0, ("best-retro-motorcycles.html", "Best retro motorcycles"))
-        model_page(bike, related, guides[:7])
+        model_page(bike, related, guides[:7], brand_links.get(bike.get("make", ""), "../reference/brands.html"))
     return len(bikes)
 
 
@@ -1264,8 +1419,10 @@ def main():
         if entry.endswith(".html"):
             os.remove(os.path.join(REFERENCE, entry))
 
-    model_count = build_model_pages(bikes)
+    brand_urls, brand_links = build_brand_pages(bikes)
+    model_count = build_model_pages(bikes, brand_links)
     urls = []
+    urls.extend(brand_urls)
     urls.append(build_index(bikes))
     urls.append(build_oil_chart(bikes))
     urls.append(build_seat_chart(bikes))
@@ -1275,6 +1432,8 @@ def main():
     urls.append(build_parts_fitment(bikes))
     urls.append(build_brake_fitment(bikes))
     urls.append(build_pad_shape_crossref(bikes))
+    urls.append(build_tyre_finder(bikes))
+    urls.append(build_fork_seal_finder(bikes))
     urls.append(build_beginner(bikes))
     urls.append(build_a2(bikes))
     urls.append(build_125(bikes))
