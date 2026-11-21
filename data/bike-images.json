@@ -806,6 +806,786 @@
           "800": "images/motorcycles/ducati/multistrada-v4/multistrada-v4-22aae28f-800.jpg"
         }
       }
+    },
+    "ducati-streetfighter-v2-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/ducati/streetfighter-v2",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Ducati Streetfighter V2 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/streetfighter-v2/streetfighter-v2-ca4447dc-400.avif",
+          "800": "images/motorcycles/ducati/streetfighter-v2/streetfighter-v2-ca4447dc-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/streetfighter-v2/streetfighter-v2-ca4447dc-400.webp",
+          "800": "images/motorcycles/ducati/streetfighter-v2/streetfighter-v2-ca4447dc-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/streetfighter-v2/streetfighter-v2-ca4447dc-400.jpg",
+          "800": "images/motorcycles/ducati/streetfighter-v2/streetfighter-v2-ca4447dc-800.jpg"
+        }
+      }
+    },
+    "ducati-streetfighter-v4-2020-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/ducati/streetfighter-v4",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Ducati Streetfighter V4 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/streetfighter-v4/streetfighter-v4-80d19315-400.avif",
+          "800": "images/motorcycles/ducati/streetfighter-v4/streetfighter-v4-80d19315-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/streetfighter-v4/streetfighter-v4-80d19315-400.webp",
+          "800": "images/motorcycles/ducati/streetfighter-v4/streetfighter-v4-80d19315-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/streetfighter-v4/streetfighter-v4-80d19315-400.jpg",
+          "800": "images/motorcycles/ducati/streetfighter-v4/streetfighter-v4-80d19315-800.jpg"
+        }
+      }
+    },
+    "ducati-supersport-950-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/ducati/supersport",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Ducati SuperSport 950 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/supersport-950/supersport-950-538dac5f-400.avif",
+          "800": "images/motorcycles/ducati/supersport-950/supersport-950-538dac5f-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/supersport-950/supersport-950-538dac5f-400.webp",
+          "800": "images/motorcycles/ducati/supersport-950/supersport-950-538dac5f-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/supersport-950/supersport-950-538dac5f-400.jpg",
+          "800": "images/motorcycles/ducati/supersport-950/supersport-950-538dac5f-800.jpg"
+        }
+      }
+    },
+    "ducati-xdiavel-2016-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/ducati/xdiavel-v4",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Ducati XDiavel side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/xdiavel/xdiavel-030ec89d-400.avif",
+          "800": "images/motorcycles/ducati/xdiavel/xdiavel-030ec89d-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/xdiavel/xdiavel-030ec89d-400.webp",
+          "800": "images/motorcycles/ducati/xdiavel/xdiavel-030ec89d-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/xdiavel/xdiavel-030ec89d-400.jpg",
+          "800": "images/motorcycles/ducati/xdiavel/xdiavel-030ec89d-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-breakout-2013-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/harley-davidson/breakout",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley-Davidson Breakout side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/breakout/breakout-0517972f-400.avif",
+          "800": "images/motorcycles/harley-davidson/breakout/breakout-0517972f-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/breakout/breakout-0517972f-400.webp",
+          "800": "images/motorcycles/harley-davidson/breakout/breakout-0517972f-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/breakout/breakout-0517972f-400.jpg",
+          "800": "images/motorcycles/harley-davidson/breakout/breakout-0517972f-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-fat-boy-2013-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/harley-davidson/fat-boy",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley-Davidson Fat Boy side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/fat-boy/fat-boy-4c5a7211-400.avif",
+          "800": "images/motorcycles/harley-davidson/fat-boy/fat-boy-4c5a7211-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/fat-boy/fat-boy-4c5a7211-400.webp",
+          "800": "images/motorcycles/harley-davidson/fat-boy/fat-boy-4c5a7211-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/fat-boy/fat-boy-4c5a7211-400.jpg",
+          "800": "images/motorcycles/harley-davidson/fat-boy/fat-boy-4c5a7211-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-heritage-classic-2018-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/harley-davidson/heritage-classic",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley-Davidson Heritage Classic side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/heritage-classic/heritage-classic-045a9cd6-400.avif",
+          "800": "images/motorcycles/harley-davidson/heritage-classic/heritage-classic-045a9cd6-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/heritage-classic/heritage-classic-045a9cd6-400.webp",
+          "800": "images/motorcycles/harley-davidson/heritage-classic/heritage-classic-045a9cd6-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/heritage-classic/heritage-classic-045a9cd6-400.jpg",
+          "800": "images/motorcycles/harley-davidson/heritage-classic/heritage-classic-045a9cd6-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-nightster-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/harley-davidson/nightster",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley-Davidson Nightster side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/nightster/nightster-0a35fca8-400.avif",
+          "800": "images/motorcycles/harley-davidson/nightster/nightster-0a35fca8-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/nightster/nightster-0a35fca8-400.webp",
+          "800": "images/motorcycles/harley-davidson/nightster/nightster-0a35fca8-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/nightster/nightster-0a35fca8-400.jpg",
+          "800": "images/motorcycles/harley-davidson/nightster/nightster-0a35fca8-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-pan-america-1250-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/harley-davidson/pan-america-1250",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley-Davidson Pan America 1250 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/pan-america-1250/pan-america-1250-467ae434-400.avif",
+          "800": "images/motorcycles/harley-davidson/pan-america-1250/pan-america-1250-467ae434-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/pan-america-1250/pan-america-1250-467ae434-400.webp",
+          "800": "images/motorcycles/harley-davidson/pan-america-1250/pan-america-1250-467ae434-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/pan-america-1250/pan-america-1250-467ae434-400.jpg",
+          "800": "images/motorcycles/harley-davidson/pan-america-1250/pan-america-1250-467ae434-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-sportster-s-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/harley-davidson/sportster-s",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley-Davidson Sportster S side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/sportster-s/sportster-s-479260a9-400.avif",
+          "800": "images/motorcycles/harley-davidson/sportster-s/sportster-s-479260a9-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/sportster-s/sportster-s-479260a9-400.webp",
+          "800": "images/motorcycles/harley-davidson/sportster-s/sportster-s-479260a9-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/sportster-s/sportster-s-479260a9-400.jpg",
+          "800": "images/motorcycles/harley-davidson/sportster-s/sportster-s-479260a9-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-x440-t-2025-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/harley-davidson/x440",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley-Davidson X440 T side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/x440-t/x440-t-143fa913-400.avif",
+          "800": "images/motorcycles/harley-davidson/x440-t/x440-t-143fa913-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/x440-t/x440-t-143fa913-400.webp",
+          "800": "images/motorcycles/harley-davidson/x440-t/x440-t-143fa913-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/x440-t/x440-t-143fa913-400.jpg",
+          "800": "images/motorcycles/harley-davidson/x440-t/x440-t-143fa913-800.jpg"
+        }
+      }
+    },
+    "hero-karizma-xmr-210-2023-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/hero/karizma-xmr-210",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Hero Karizma XMR 210 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/hero/karizma-xmr-210/karizma-xmr-210-fc4d56ff-400.avif",
+          "800": "images/motorcycles/hero/karizma-xmr-210/karizma-xmr-210-fc4d56ff-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/hero/karizma-xmr-210/karizma-xmr-210-fc4d56ff-400.webp",
+          "800": "images/motorcycles/hero/karizma-xmr-210/karizma-xmr-210-fc4d56ff-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/hero/karizma-xmr-210/karizma-xmr-210-fc4d56ff-400.jpg",
+          "800": "images/motorcycles/hero/karizma-xmr-210/karizma-xmr-210-fc4d56ff-800.jpg"
+        }
+      }
+    },
+    "hero-xpulse-210-2025-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/hero/xpulse-210",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Hero XPulse 210 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/hero/xpulse-210/xpulse-210-81ab6412-400.avif",
+          "800": "images/motorcycles/hero/xpulse-210/xpulse-210-81ab6412-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/hero/xpulse-210/xpulse-210-81ab6412-400.webp",
+          "800": "images/motorcycles/hero/xpulse-210/xpulse-210-81ab6412-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/hero/xpulse-210/xpulse-210-81ab6412-400.jpg",
+          "800": "images/motorcycles/hero/xpulse-210/xpulse-210-81ab6412-800.jpg"
+        }
+      }
+    },
+    "hero-xtreme-250r-2025-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/hero/xtreme-250r",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Hero Xtreme 250R side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/hero/xtreme-250r/xtreme-250r-f072fbe3-400.avif",
+          "800": "images/motorcycles/hero/xtreme-250r/xtreme-250r-f072fbe3-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/hero/xtreme-250r/xtreme-250r-f072fbe3-400.webp",
+          "800": "images/motorcycles/hero/xtreme-250r/xtreme-250r-f072fbe3-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/hero/xtreme-250r/xtreme-250r-f072fbe3-400.jpg",
+          "800": "images/motorcycles/hero/xtreme-250r/xtreme-250r-f072fbe3-800.jpg"
+        }
+      }
+    },
+    "honda-activa-6g-2020-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/honda/activa",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Honda Activa 6G side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/activa-6g/activa-6g-96d96264-400.avif",
+          "800": "images/motorcycles/honda/activa-6g/activa-6g-96d96264-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/activa-6g/activa-6g-96d96264-400.webp",
+          "800": "images/motorcycles/honda/activa-6g/activa-6g-96d96264-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/activa-6g/activa-6g-96d96264-400.jpg",
+          "800": "images/motorcycles/honda/activa-6g/activa-6g-96d96264-800.jpg"
+        }
+      }
+    },
+    "honda-adv-160-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/honda/adv-160",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Honda ADV 160 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/adv-160/adv-160-78c5433d-400.avif",
+          "800": "images/motorcycles/honda/adv-160/adv-160-78c5433d-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/adv-160/adv-160-78c5433d-400.webp",
+          "800": "images/motorcycles/honda/adv-160/adv-160-78c5433d-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/adv-160/adv-160-78c5433d-400.jpg",
+          "800": "images/motorcycles/honda/adv-160/adv-160-78c5433d-800.jpg"
+        }
+      }
+    },
+    "honda-cb350-2021-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/honda/cb350",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Honda CB350 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cb350/cb350-663765d7-400.avif",
+          "800": "images/motorcycles/honda/cb350/cb350-663765d7-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cb350/cb350-663765d7-400.webp",
+          "800": "images/motorcycles/honda/cb350/cb350-663765d7-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cb350/cb350-663765d7-400.jpg",
+          "800": "images/motorcycles/honda/cb350/cb350-663765d7-800.jpg"
+        }
+      }
+    },
+    "honda-cb350rs-2021-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/honda/cb350rs",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Honda CB350RS side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cb350rs/cb350rs-2084fae1-400.avif",
+          "800": "images/motorcycles/honda/cb350rs/cb350rs-2084fae1-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cb350rs/cb350rs-2084fae1-400.webp",
+          "800": "images/motorcycles/honda/cb350rs/cb350rs-2084fae1-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cb350rs/cb350rs-2084fae1-400.jpg",
+          "800": "images/motorcycles/honda/cb350rs/cb350rs-2084fae1-800.jpg"
+        }
+      }
+    },
+    "honda-nx500-2023-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/honda/nx500",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Honda NX500 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/nx500/nx500-55c0af37-400.avif",
+          "800": "images/motorcycles/honda/nx500/nx500-55c0af37-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/nx500/nx500-55c0af37-400.webp",
+          "800": "images/motorcycles/honda/nx500/nx500-55c0af37-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/nx500/nx500-55c0af37-400.jpg",
+          "800": "images/motorcycles/honda/nx500/nx500-55c0af37-800.jpg"
+        }
+      }
+    },
+    "honda-rebel-300-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/honda/rebel-300",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Honda Rebel 300 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/rebel-300/rebel-300-71ae4a28-400.avif",
+          "800": "images/motorcycles/honda/rebel-300/rebel-300-71ae4a28-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/rebel-300/rebel-300-71ae4a28-400.webp",
+          "800": "images/motorcycles/honda/rebel-300/rebel-300-71ae4a28-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/rebel-300/rebel-300-71ae4a28-400.jpg",
+          "800": "images/motorcycles/honda/rebel-300/rebel-300-71ae4a28-800.jpg"
+        }
+      }
+    },
+    "indian-challenger-2020-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/indian/challenger",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Indian Challenger side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/indian/challenger/challenger-c6464cab-400.avif",
+          "800": "images/motorcycles/indian/challenger/challenger-c6464cab-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/indian/challenger/challenger-c6464cab-400.webp",
+          "800": "images/motorcycles/indian/challenger/challenger-c6464cab-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/indian/challenger/challenger-c6464cab-400.jpg",
+          "800": "images/motorcycles/indian/challenger/challenger-c6464cab-800.jpg"
+        }
+      }
+    },
+    "indian-ftr-1200-2019-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/indian/ftr-1200",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Indian FTR 1200 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/indian/ftr-1200/ftr-1200-aa3eccf2-400.avif",
+          "800": "images/motorcycles/indian/ftr-1200/ftr-1200-aa3eccf2-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/indian/ftr-1200/ftr-1200-aa3eccf2-400.webp",
+          "800": "images/motorcycles/indian/ftr-1200/ftr-1200-aa3eccf2-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/indian/ftr-1200/ftr-1200-aa3eccf2-400.jpg",
+          "800": "images/motorcycles/indian/ftr-1200/ftr-1200-aa3eccf2-800.jpg"
+        }
+      }
+    },
+    "indian-scout-2015-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/indian/scout-classic",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Indian Scout side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/indian/scout/scout-ebdc762e-400.avif",
+          "800": "images/motorcycles/indian/scout/scout-ebdc762e-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/indian/scout/scout-ebdc762e-400.webp",
+          "800": "images/motorcycles/indian/scout/scout-ebdc762e-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/indian/scout/scout-ebdc762e-400.jpg",
+          "800": "images/motorcycles/indian/scout/scout-ebdc762e-800.jpg"
+        }
+      }
+    },
+    "kawasaki-ninja-1100sx-2025-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/kawasaki/ninja-1100sx",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Ninja 1100SX side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-1100sx/ninja-1100sx-733d4eac-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-1100sx/ninja-1100sx-733d4eac-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-1100sx/ninja-1100sx-733d4eac-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-1100sx/ninja-1100sx-733d4eac-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-1100sx/ninja-1100sx-733d4eac-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-1100sx/ninja-1100sx-733d4eac-800.jpg"
+        }
+      }
+    },
+    "kawasaki-ninja-500-2024-present": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/kawasaki/ninja-500",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Ninja 500 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-500/ninja-500-cb4a3b5b-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-500/ninja-500-cb4a3b5b-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-500/ninja-500-cb4a3b5b-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-500/ninja-500-cb4a3b5b-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-500/ninja-500-cb4a3b5b-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-500/ninja-500-cb4a3b5b-800.jpg"
+        }
+      }
+    },
+    "kawasaki-versys-1100-2025-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/kawasaki/2025-versys-1100",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Versys 1100 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/versys-1100/versys-1100-bc994bdb-400.avif",
+          "800": "images/motorcycles/kawasaki/versys-1100/versys-1100-bc994bdb-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/versys-1100/versys-1100-bc994bdb-400.webp",
+          "800": "images/motorcycles/kawasaki/versys-1100/versys-1100-bc994bdb-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/versys-1100/versys-1100-bc994bdb-400.jpg",
+          "800": "images/motorcycles/kawasaki/versys-1100/versys-1100-bc994bdb-800.jpg"
+        }
+      }
+    },
+    "kawasaki-z650-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/kawasaki/2020-z650",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Z650 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/z650/z650-5aa1dd39-400.avif",
+          "800": "images/motorcycles/kawasaki/z650/z650-5aa1dd39-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/z650/z650-5aa1dd39-400.webp",
+          "800": "images/motorcycles/kawasaki/z650/z650-5aa1dd39-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/z650/z650-5aa1dd39-400.jpg",
+          "800": "images/motorcycles/kawasaki/z650/z650-5aa1dd39-800.jpg"
+        }
+      }
+    },
+    "kawasaki-z650rs-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/kawasaki/z650rs",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Z650RS side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/z650rs/z650rs-8e5e77db-400.avif",
+          "800": "images/motorcycles/kawasaki/z650rs/z650rs-8e5e77db-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/z650rs/z650rs-8e5e77db-400.webp",
+          "800": "images/motorcycles/kawasaki/z650rs/z650rs-8e5e77db-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/z650rs/z650rs-8e5e77db-400.jpg",
+          "800": "images/motorcycles/kawasaki/z650rs/z650rs-8e5e77db-800.jpg"
+        }
+      }
+    },
+    "kawasaki-z900": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/kawasaki/z900",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Z900 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/z900/z900-80bf6ecd-400.avif",
+          "800": "images/motorcycles/kawasaki/z900/z900-80bf6ecd-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/z900/z900-80bf6ecd-400.webp",
+          "800": "images/motorcycles/kawasaki/z900/z900-80bf6ecd-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/z900/z900-80bf6ecd-400.jpg",
+          "800": "images/motorcycles/kawasaki/z900/z900-80bf6ecd-800.jpg"
+        }
+      }
+    },
+    "royal-enfield-classic-350-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/royal-enfield/classic-350",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Royal Enfield Classic 350 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/royal-enfield/classic-350/classic-350-6a50d45e-400.avif",
+          "800": "images/motorcycles/royal-enfield/classic-350/classic-350-6a50d45e-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/royal-enfield/classic-350/classic-350-6a50d45e-400.webp",
+          "800": "images/motorcycles/royal-enfield/classic-350/classic-350-6a50d45e-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/royal-enfield/classic-350/classic-350-6a50d45e-400.jpg",
+          "800": "images/motorcycles/royal-enfield/classic-350/classic-350-6a50d45e-800.jpg"
+        }
+      }
     }
   }
 }

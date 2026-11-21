@@ -3,9 +3,10 @@
 ## Status
 
 Phase 1 is complete: the image pipeline, manifest, responsive markup, social metadata
-and image sitemap entries are in place. Thirty-one approved BikeDekho images are live,
-covering current Aprilia, Bajaj, BMW, BSA, CFMOTO and Ducati models. More batches are
-being added as model matches are verified.
+and image sitemap entries are in place. Sixty-one approved BikeDekho images are live,
+covering current Aprilia, Bajaj, BMW, BSA, CFMOTO, Ducati, Harley-Davidson, Hero,
+Honda, Indian, Kawasaki and Royal Enfield models. More batches are being added as
+model matches are verified.
 
 Where the licence or written permission does not require public credit, no credit line
 is rendered. Source, licence and permission details remain in the manifest for audit.
