@@ -3980,6 +3980,495 @@
           "1200": "images/motorcycles/triumph/800-tiger-xrx/800-tiger-xrx-e60d9dcc-1200.jpg"
         }
       }
+    },
+    "royal-enfield-himalayan-411-2015-2023-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Royal_Enfield/royal_enfield_himalayan_21.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2022 Royal Enfield Himalayan side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-3859bdb0-400.avif",
+          "800": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-3859bdb0-800.avif",
+          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-3859bdb0-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-3859bdb0-400.webp",
+          "800": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-3859bdb0-800.webp",
+          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-3859bdb0-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-3859bdb0-400.jpg",
+          "800": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-3859bdb0-800.jpg",
+          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-3859bdb0-1200.jpg"
+        }
+      }
+    },
+    "royal-enfield-interceptor-650-2018-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Royal_Enfield/Royal_Enflied_Interceptor-650_18.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2018 Royal Enflield Interceptor 650 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/royal-enfield/interceptor-650/interceptor-650-b3c4f1c3-400.avif",
+          "800": "images/motorcycles/royal-enfield/interceptor-650/interceptor-650-b3c4f1c3-800.avif",
+          "1200": "images/motorcycles/royal-enfield/interceptor-650/interceptor-650-b3c4f1c3-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/royal-enfield/interceptor-650/interceptor-650-b3c4f1c3-400.webp",
+          "800": "images/motorcycles/royal-enfield/interceptor-650/interceptor-650-b3c4f1c3-800.webp",
+          "1200": "images/motorcycles/royal-enfield/interceptor-650/interceptor-650-b3c4f1c3-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/royal-enfield/interceptor-650/interceptor-650-b3c4f1c3-400.jpg",
+          "800": "images/motorcycles/royal-enfield/interceptor-650/interceptor-650-b3c4f1c3-800.jpg",
+          "1200": "images/motorcycles/royal-enfield/interceptor-650/interceptor-650-b3c4f1c3-1200.jpg"
+        }
+      }
+    },
+    "royal-enfield-continental-gt-650-2019-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Royal_Enfield/Royal_Enflied_Continental_650_18.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2018 Royal Enflield Continental GT 650 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/royal-enfield/continental-gt-650/continental-gt-650-3ea73657-400.avif",
+          "800": "images/motorcycles/royal-enfield/continental-gt-650/continental-gt-650-3ea73657-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/royal-enfield/continental-gt-650/continental-gt-650-3ea73657-400.webp",
+          "800": "images/motorcycles/royal-enfield/continental-gt-650/continental-gt-650-3ea73657-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/royal-enfield/continental-gt-650/continental-gt-650-3ea73657-400.jpg",
+          "800": "images/motorcycles/royal-enfield/continental-gt-650/continental-gt-650-3ea73657-800.jpg"
+        }
+      }
+    },
+    "royal-enfield-meteor-350-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Royal_Enfield/royal_enfield_meteor_350_21.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2021 Royal Enfield Meteor 350 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/royal-enfield/meteor-350/meteor-350-b4d0b9ff-400.avif",
+          "800": "images/motorcycles/royal-enfield/meteor-350/meteor-350-b4d0b9ff-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/royal-enfield/meteor-350/meteor-350-b4d0b9ff-400.webp",
+          "800": "images/motorcycles/royal-enfield/meteor-350/meteor-350-b4d0b9ff-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/royal-enfield/meteor-350/meteor-350-b4d0b9ff-400.jpg",
+          "800": "images/motorcycles/royal-enfield/meteor-350/meteor-350-b4d0b9ff-800.jpg"
+        }
+      }
+    },
+    "royal-enfield-hunter-350-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Royal_Enfield/royal-enfield-hunter-350-22.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2022 Royal Enfield Hunter 350 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/royal-enfield/hunter-350/hunter-350-fbbbec5e-400.avif",
+          "800": "images/motorcycles/royal-enfield/hunter-350/hunter-350-fbbbec5e-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/royal-enfield/hunter-350/hunter-350-fbbbec5e-400.webp",
+          "800": "images/motorcycles/royal-enfield/hunter-350/hunter-350-fbbbec5e-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/royal-enfield/hunter-350/hunter-350-fbbbec5e-400.jpg",
+          "800": "images/motorcycles/royal-enfield/hunter-350/hunter-350-fbbbec5e-800.jpg"
+        }
+      }
+    },
+    "royal-enfield-super-meteor-650-2023-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Royal_Enfield/royal-enfield-super-meteor-650-23.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2023 Royal Enfield Super Meteor 650 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/royal-enfield/super-meteor-650/super-meteor-650-b71dd6bf-400.avif",
+          "800": "images/motorcycles/royal-enfield/super-meteor-650/super-meteor-650-b71dd6bf-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/royal-enfield/super-meteor-650/super-meteor-650-b71dd6bf-400.webp",
+          "800": "images/motorcycles/royal-enfield/super-meteor-650/super-meteor-650-b71dd6bf-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/royal-enfield/super-meteor-650/super-meteor-650-b71dd6bf-400.jpg",
+          "800": "images/motorcycles/royal-enfield/super-meteor-650/super-meteor-650-b71dd6bf-800.jpg"
+        }
+      }
+    },
+    "royal-enfield-scram-411-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Royal_Enfield/royal_enfield_scram_411_22.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2022 Royal Enfield Scram 411 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/royal-enfield/scram-411/scram-411-56b26b68-400.avif",
+          "800": "images/motorcycles/royal-enfield/scram-411/scram-411-56b26b68-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/royal-enfield/scram-411/scram-411-56b26b68-400.webp",
+          "800": "images/motorcycles/royal-enfield/scram-411/scram-411-56b26b68-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/royal-enfield/scram-411/scram-411-56b26b68-400.jpg",
+          "800": "images/motorcycles/royal-enfield/scram-411/scram-411-56b26b68-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-iron-883-2009-2022-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_sporter_883_iron_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2020 - 2021 Harley Davidson XL 883N Sportster Iron side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/iron-883/iron-883-c4989319-400.avif",
+          "800": "images/motorcycles/harley-davidson/iron-883/iron-883-c4989319-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/iron-883/iron-883-c4989319-400.webp",
+          "800": "images/motorcycles/harley-davidson/iron-883/iron-883-c4989319-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/iron-883/iron-883-c4989319-400.jpg",
+          "800": "images/motorcycles/harley-davidson/iron-883/iron-883-c4989319-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-forty-eight-2010-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_xl1200%20forty%20eigh.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley Davidson XL1200 Forty-Eight side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/forty-eight/forty-eight-e634818b-400.avif",
+          "800": "images/motorcycles/harley-davidson/forty-eight/forty-eight-e634818b-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/forty-eight/forty-eight-e634818b-400.webp",
+          "800": "images/motorcycles/harley-davidson/forty-eight/forty-eight-e634818b-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/forty-eight/forty-eight-e634818b-400.jpg",
+          "800": "images/motorcycles/harley-davidson/forty-eight/forty-eight-e634818b-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-vrscaw-1250-v-rod-2008-2010-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_VRSCAW%20A%2008.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley Davidson VRSCAW/A V-Rod side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/vrscaw-1250-v-rod/vrscaw-1250-v-rod-f573efd1-400.avif",
+          "800": "images/motorcycles/harley-davidson/vrscaw-1250-v-rod/vrscaw-1250-v-rod-f573efd1-800.avif",
+          "1200": "images/motorcycles/harley-davidson/vrscaw-1250-v-rod/vrscaw-1250-v-rod-f573efd1-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/vrscaw-1250-v-rod/vrscaw-1250-v-rod-f573efd1-400.webp",
+          "800": "images/motorcycles/harley-davidson/vrscaw-1250-v-rod/vrscaw-1250-v-rod-f573efd1-800.webp",
+          "1200": "images/motorcycles/harley-davidson/vrscaw-1250-v-rod/vrscaw-1250-v-rod-f573efd1-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/vrscaw-1250-v-rod/vrscaw-1250-v-rod-f573efd1-400.jpg",
+          "800": "images/motorcycles/harley-davidson/vrscaw-1250-v-rod/vrscaw-1250-v-rod-f573efd1-800.jpg",
+          "1200": "images/motorcycles/harley-davidson/vrscaw-1250-v-rod/vrscaw-1250-v-rod-f573efd1-1200.jpg"
+        }
+      }
+    },
+    "harley-davidson-road-king-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_road_king_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2019 - 2020 Harley Davidson Road King side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/road-king/road-king-3a8a4627-400.avif",
+          "800": "images/motorcycles/harley-davidson/road-king/road-king-3a8a4627-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/road-king/road-king-3a8a4627-400.webp",
+          "800": "images/motorcycles/harley-davidson/road-king/road-king-3a8a4627-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/road-king/road-king-3a8a4627-400.jpg",
+          "800": "images/motorcycles/harley-davidson/road-king/road-king-3a8a4627-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-low-rider-s-2020-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/Harley_Davidson_softail_Low_Rider_S_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2020 - 2021 Harley Davidson Softail Low Rider S side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/low-rider-s/low-rider-s-cb13649d-400.avif",
+          "800": "images/motorcycles/harley-davidson/low-rider-s/low-rider-s-cb13649d-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/low-rider-s/low-rider-s-cb13649d-400.webp",
+          "800": "images/motorcycles/harley-davidson/low-rider-s/low-rider-s-cb13649d-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/low-rider-s/low-rider-s-cb13649d-400.jpg",
+          "800": "images/motorcycles/harley-davidson/low-rider-s/low-rider-s-cb13649d-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-fxfb-1750-fat-bob-2018-2020-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_fat_bob-107_18.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley Davidson Softail Fat Bob 107 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/fxfb-1750-fat-bob/fxfb-1750-fat-bob-4c144c4e-400.avif",
+          "800": "images/motorcycles/harley-davidson/fxfb-1750-fat-bob/fxfb-1750-fat-bob-4c144c4e-800.avif",
+          "1200": "images/motorcycles/harley-davidson/fxfb-1750-fat-bob/fxfb-1750-fat-bob-4c144c4e-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/fxfb-1750-fat-bob/fxfb-1750-fat-bob-4c144c4e-400.webp",
+          "800": "images/motorcycles/harley-davidson/fxfb-1750-fat-bob/fxfb-1750-fat-bob-4c144c4e-800.webp",
+          "1200": "images/motorcycles/harley-davidson/fxfb-1750-fat-bob/fxfb-1750-fat-bob-4c144c4e-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/fxfb-1750-fat-bob/fxfb-1750-fat-bob-4c144c4e-400.jpg",
+          "800": "images/motorcycles/harley-davidson/fxfb-1750-fat-bob/fxfb-1750-fat-bob-4c144c4e-800.jpg",
+          "1200": "images/motorcycles/harley-davidson/fxfb-1750-fat-bob/fxfb-1750-fat-bob-4c144c4e-1200.jpg"
+        }
+      }
+    },
+    "aprilia-rs-125-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-rs125-21.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2021 Aprilia RS 125 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rs-125/rs-125-d5ca8384-400.avif",
+          "800": "images/motorcycles/aprilia/rs-125/rs-125-d5ca8384-800.avif",
+          "1200": "images/motorcycles/aprilia/rs-125/rs-125-d5ca8384-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rs-125/rs-125-d5ca8384-400.webp",
+          "800": "images/motorcycles/aprilia/rs-125/rs-125-d5ca8384-800.webp",
+          "1200": "images/motorcycles/aprilia/rs-125/rs-125-d5ca8384-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rs-125/rs-125-d5ca8384-400.jpg",
+          "800": "images/motorcycles/aprilia/rs-125/rs-125-d5ca8384-800.jpg",
+          "1200": "images/motorcycles/aprilia/rs-125/rs-125-d5ca8384-1200.jpg"
+        }
+      }
+    },
+    "aprilia-1200-caponord-2013-2019-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-caponord-1200-15.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2015 Aprilia Caponord 1200 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/1200-caponord/1200-caponord-227e6dea-400.avif",
+          "800": "images/motorcycles/aprilia/1200-caponord/1200-caponord-227e6dea-800.avif",
+          "1200": "images/motorcycles/aprilia/1200-caponord/1200-caponord-227e6dea-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/1200-caponord/1200-caponord-227e6dea-400.webp",
+          "800": "images/motorcycles/aprilia/1200-caponord/1200-caponord-227e6dea-800.webp",
+          "1200": "images/motorcycles/aprilia/1200-caponord/1200-caponord-227e6dea-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/1200-caponord/1200-caponord-227e6dea-400.jpg",
+          "800": "images/motorcycles/aprilia/1200-caponord/1200-caponord-227e6dea-800.jpg",
+          "1200": "images/motorcycles/aprilia/1200-caponord/1200-caponord-227e6dea-1200.jpg"
+        }
+      }
+    },
+    "aprilia-na-850-mana-abs-2008-2011-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-mana-850-10.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2010 Aprilia NA Mana 850 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/na-850-mana-abs/na-850-mana-abs-8f975091-400.avif",
+          "800": "images/motorcycles/aprilia/na-850-mana-abs/na-850-mana-abs-8f975091-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/na-850-mana-abs/na-850-mana-abs-8f975091-400.webp",
+          "800": "images/motorcycles/aprilia/na-850-mana-abs/na-850-mana-abs-8f975091-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/na-850-mana-abs/na-850-mana-abs-8f975091-400.jpg",
+          "800": "images/motorcycles/aprilia/na-850-mana-abs/na-850-mana-abs-8f975091-800.jpg"
+        }
+      }
+    },
+    "aprilia-rsv4-1000-factory-2009-2011-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-rsv-4-factory-09.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2009 Aprilia RSV 4 Factory side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rsv4-1000-factory/rsv4-1000-factory-5a4d9d2e-400.avif",
+          "800": "images/motorcycles/aprilia/rsv4-1000-factory/rsv4-1000-factory-5a4d9d2e-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rsv4-1000-factory/rsv4-1000-factory-5a4d9d2e-400.webp",
+          "800": "images/motorcycles/aprilia/rsv4-1000-factory/rsv4-1000-factory-5a4d9d2e-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rsv4-1000-factory/rsv4-1000-factory-5a4d9d2e-400.jpg",
+          "800": "images/motorcycles/aprilia/rsv4-1000-factory/rsv4-1000-factory-5a4d9d2e-800.jpg"
+        }
+      }
+    },
+    "aprilia-rsv4-rr-1000-2015-2020-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-rsv-4rr-15.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2015 Aprilia RSV4 RR side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rsv4-rr-1000/rsv4-rr-1000-894d2a51-400.avif",
+          "800": "images/motorcycles/aprilia/rsv4-rr-1000/rsv4-rr-1000-894d2a51-800.avif",
+          "1200": "images/motorcycles/aprilia/rsv4-rr-1000/rsv4-rr-1000-894d2a51-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rsv4-rr-1000/rsv4-rr-1000-894d2a51-400.webp",
+          "800": "images/motorcycles/aprilia/rsv4-rr-1000/rsv4-rr-1000-894d2a51-800.webp",
+          "1200": "images/motorcycles/aprilia/rsv4-rr-1000/rsv4-rr-1000-894d2a51-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rsv4-rr-1000/rsv4-rr-1000-894d2a51-400.jpg",
+          "800": "images/motorcycles/aprilia/rsv4-rr-1000/rsv4-rr-1000-894d2a51-800.jpg",
+          "1200": "images/motorcycles/aprilia/rsv4-rr-1000/rsv4-rr-1000-894d2a51-1200.jpg"
+        }
+      }
     }
   }
 }
