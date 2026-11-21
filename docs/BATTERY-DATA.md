@@ -21,7 +21,7 @@ Public pages do not name or cite these sources. The battery code and rating are 
 
 `data/battery-fitment.json` contains the verified entries. `scripts/apply-battery-fitment.py` merges them into each model's Service Data section.
 
-Current coverage: 505 models — 478 with a verified code and 27 with a verified rating only. Coverage is deliberately partial. The application guides are US-market focused and do not cover every Indian, Chinese, electric or older model. Missing entries are not guessed. Add new entries only when the model, year and code are verified.
+Current coverage: 527 models — 488 with a verified code and 39 with a verified rating only. Coverage is deliberately partial. The application guides are US-market focused and do not cover every Indian, Chinese, electric or older model. Missing entries are not guessed. Add new entries only when the model, year and code are verified.
 
 ## Recent additions
 
@@ -33,6 +33,8 @@ Current coverage: 505 models — 478 with a verified code and 27 with a verified
 - KTM 200/390 Duke, RC 200/390, 390 Adventure/Enduro/SMC, 790/890 and 1290/1390 models.
 - Kawasaki Versys 1000, Z900, W800, Vulcan 900, Ninja 650, ZX-6R, Ninja 400 and Z400.
 - Benelli Leoncino 500 and TRK 702; Voge 300 Rally.
+- Indian scooters and commuters: Honda Activa 6G and SP 125; TVS Jupiter 110/125 and Ntorq 125; Hero Destini 125, Xoom 125, Xtreme 125R and Xtreme 250R; Bajaj Avenger 220 and Freedom 125; Suzuki Access 125 and Burgman Street 125.
+- Yamaha scooters and small-capacity models: Aerox 155, NMAX 155, Fascino 125, FZ-S Fi V4, FZ-X 150, MT-25, XSR125, XSR155 and TMAX 560.
 
 ## Fields
 

@@ -66,8 +66,16 @@
       "code": "YTZ10S",
       "source": "fitment"
     },
+    "bajaj-avenger-220-cruise-2018-present-india": {
+      "rating": "12V 8Ah VRLA",
+      "source": "manufacturer"
+    },
     "bajaj-dominar-400-2019-present-india": {
       "rating": "12V 8Ah VRLA",
+      "source": "manufacturer"
+    },
+    "bajaj-freedom-125-cng-2024-present-india": {
+      "rating": "12V 4Ah VRLA",
       "source": "manufacturer"
     },
     "bajaj-platina-110-2019-present-india": {
@@ -620,6 +628,11 @@
       "years": "2004-2025",
       "raw": "XL,XLH,XR1200X(Sportster) '04-'25 GYZ16HL - YTX14L-BS -"
     },
+    "hero-destini-125-2020-present-india": {
+      "code": "ETZ5",
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
+    },
     "hero-glamour-2020-present-india": {
       "code": "ETZ5",
       "rating": "12V 4Ah",
@@ -640,6 +653,11 @@
       "rating": "12V 3Ah",
       "source": "manufacturer"
     },
+    "hero-xoom-125-2023-present-india": {
+      "code": "ETZ5",
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
+    },
     "hero-xpulse-200-4v-2022-present-global": {
       "code": "ETZ7",
       "rating": "12V 6Ah",
@@ -650,9 +668,23 @@
       "rating": "12V 6Ah",
       "source": "manufacturer"
     },
+    "hero-xtreme-125r-2024-present-india": {
+      "code": "ETZ5",
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
+    },
     "hero-xtreme-160r-4v-2023-present-india": {
       "code": "ETZ7",
       "rating": "12V 6Ah",
+      "source": "manufacturer"
+    },
+    "hero-xtreme-250r-2025-present-india": {
+      "code": "ETZ9-BS",
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
+    },
+    "honda-activa-6g-2020-present-india": {
+      "rating": "12V 3Ah MF",
       "source": "manufacturer"
     },
     "honda-adv-160-2022-present-global": {
@@ -1216,6 +1248,10 @@
       "raw": "SH150 '13 - YTZ7S - -"
     },
     "honda-shine-125-2018-present-india": {
+      "rating": "12V 5Ah",
+      "source": "manufacturer"
+    },
+    "honda-sp-125-2020-present-india": {
       "rating": "12V 5Ah",
       "source": "manufacturer"
     },
@@ -2046,6 +2082,10 @@
       "rating": "12V 12Ah",
       "source": "fitment"
     },
+    "suzuki-access-125-2020-present-india": {
+      "rating": "12V 4Ah MF",
+      "source": "manufacturer"
+    },
     "suzuki-an-400-burgman-1999-2006-global": {
       "code": "YTX9-BS",
       "options": [
@@ -2067,6 +2107,10 @@
       "code": "YTX20CH-BS",
       "rating": "12V 18Ah",
       "source": "guide"
+    },
+    "suzuki-burgman-street-125-2018-present-india": {
+      "rating": "12V 4Ah MF",
+      "source": "manufacturer"
     },
     "suzuki-dl-1000-v-strom-2002-2019-global": {
       "code": "YTX14-BS",
@@ -2474,6 +2518,18 @@
       "rating": "12V 8Ah VRLA",
       "source": "manufacturer"
     },
+    "tvs-jupiter-110-2022-present-india": {
+      "rating": "12V 4Ah / 5Ah MF",
+      "source": "manufacturer"
+    },
+    "tvs-jupiter-125-2021-present-india": {
+      "rating": "12V 5Ah MF",
+      "source": "manufacturer"
+    },
+    "tvs-ntorq-125-2018-present-india": {
+      "rating": "12V 4Ah MF",
+      "source": "manufacturer"
+    },
     "tvs-raider-125-2021-present-india": {
       "rating": "12V 4Ah",
       "source": "manufacturer"
@@ -2484,6 +2540,15 @@
     },
     "voge-300-rally-2022-present-global": {
       "rating": "12V 7Ah",
+      "source": "manufacturer"
+    },
+    "yamaha-aerox-155-2021-present-global": {
+      "code": "YTZ7V",
+      "rating": "12V 6Ah",
+      "source": "manufacturer"
+    },
+    "yamaha-fascino-125-2020-present-india": {
+      "rating": "12V 5Ah MF",
       "source": "manufacturer"
     },
     "yamaha-fj-1100-1983-1985-global": {
@@ -2552,6 +2617,15 @@
       "years": "1985-1988",
       "raw": "750 FZ750,FZR750 '85-'88 - YTX14AHL-BS - SYB14L-A2†"
     },
+    "yamaha-fz-s-fi-v4-2022-present-india": {
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
+    },
+    "yamaha-fz-x-150-2021-present-india": {
+      "code": "ETZ5",
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
+    },
     "yamaha-fzr-1000-1994-1995-global": {
       "code": "YTX14-BS",
       "options": [
@@ -2619,6 +2693,16 @@
       "rating": "12V 4Ah",
       "source": "manufacturer"
     },
+    "yamaha-mt-25-2015-present-global": {
+      "code": "YTZ8V",
+      "rating": "12V 7Ah",
+      "source": "manufacturer"
+    },
+    "yamaha-nmax-155-2020-present-global": {
+      "code": "YTZ7V",
+      "rating": "12V 6Ah",
+      "source": "manufacturer"
+    },
     "yamaha-qt-50-yamahopper-1979-1987-global": {
       "code": "6N4-2A-5",
       "years": "1979-1987",
@@ -2683,6 +2767,11 @@
       "code": "YTZ10S",
       "rating": "12V 8.6Ah",
       "source": "guide"
+    },
+    "yamaha-tmax-560-2020-present-global": {
+      "code": "YTZ12S",
+      "rating": "12V 11Ah",
+      "source": "manufacturer"
     },
     "yamaha-tracer-9-gt-2021-present-global": {
       "code": "YTZ10S",
@@ -2832,6 +2921,15 @@
       ],
       "years": "1980-1981",
       "raw": "XS850(All) '80-'81 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-xsr125-2021-present-global": {
+      "code": "YTZ4V",
+      "rating": "12V 3Ah",
+      "source": "manufacturer"
+    },
+    "yamaha-xsr155-2019-present-global": {
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
     },
     "yamaha-xsr700-2016-present-global": {
       "code": "YTZ10S",

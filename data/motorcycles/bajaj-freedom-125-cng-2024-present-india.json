@@ -114,6 +114,11 @@
             "key": "note",
             "label": "Note",
             "value": "CNG system inspection is required at every service interval."
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 4Ah VRLA"
           }
         ]
       },

@@ -2116,6 +2116,11 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "Oil change every 10,000 km; top-up every 5,000 km"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah VRLA"
             }
           ]
         },
@@ -2611,6 +2616,11 @@
               "key": "note",
               "label": "Note",
               "value": "CNG system inspection is required at every service interval."
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah VRLA"
             }
           ]
         },
@@ -19412,6 +19422,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ5"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
             }
           ]
         },
@@ -20282,6 +20302,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ5"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
             }
           ]
         },
@@ -20967,6 +20997,16 @@
               "value": "Federal Mogul P-RG6HCC"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ5"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
+            },
+            {
               "key": "service_interval",
               "label": "Service Interval",
               "value": "6,000 km"
@@ -21304,6 +21344,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 110 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -21461,6 +21511,11 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 3Ah MF"
             }
           ]
         },
@@ -29942,6 +29997,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "428 O-ring, 118 links"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 5Ah"
             }
           ]
         },
@@ -54631,6 +54691,11 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah MF"
             }
           ]
         },
@@ -55142,6 +55207,11 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah MF"
             }
           ]
         },
@@ -65473,6 +65543,11 @@
               "key": "note",
               "label": "Note",
               "value": "Capacity depends on engine generation; check the owner’s manual for your model year."
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah / 5Ah MF"
             }
           ]
         },
@@ -65630,6 +65705,11 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 5Ah MF"
             }
           ]
         },
@@ -65802,6 +65882,11 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "6,000 km"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah MF"
             }
           ]
         },
@@ -67329,6 +67414,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7V"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah"
             }
           ]
         },
@@ -67486,6 +67581,11 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 5Ah MF"
             }
           ]
         },
@@ -67653,6 +67753,11 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "3,000 km"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
             }
           ]
         },
@@ -67815,6 +67920,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "428 O-ring, 128 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ5"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
             }
           ]
         },
@@ -69363,6 +69478,16 @@
               "value": "NGK LMAR8A-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 7Ah"
+            },
+            {
               "key": "coolant",
               "label": "Coolant",
               "value": "1.07 L (0.82 L radiator + 0.25 L reservoir)"
@@ -69528,6 +69653,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7V"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah"
             }
           ]
         },
@@ -69867,6 +70002,16 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 169MS"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11Ah"
             }
           ]
         },
@@ -70817,6 +70962,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "428 O-ring, 126 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ4V"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 3Ah"
             }
           ]
         },
@@ -70979,6 +71134,11 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "4,000 km"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
             }
           ]
         },

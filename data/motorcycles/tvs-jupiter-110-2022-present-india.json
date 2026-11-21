@@ -124,6 +124,11 @@
             "key": "note",
             "label": "Note",
             "value": "Capacity depends on engine generation; check the owner’s manual for your model year."
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 4Ah / 5Ah MF"
           }
         ]
       },

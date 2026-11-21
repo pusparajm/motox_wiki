@@ -119,6 +119,16 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "428 O-ring, 126 links"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ4V"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 3Ah"
           }
         ]
       },

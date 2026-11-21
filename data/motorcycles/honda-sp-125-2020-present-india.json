@@ -109,6 +109,11 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "428 O-ring, 118 links"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 5Ah"
           }
         ]
       },

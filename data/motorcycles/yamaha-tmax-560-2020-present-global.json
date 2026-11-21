@@ -119,6 +119,16 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "SBS 169MS"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ12S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11Ah"
           }
         ]
       },

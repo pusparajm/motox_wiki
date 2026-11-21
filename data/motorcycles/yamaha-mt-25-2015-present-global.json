@@ -111,6 +111,16 @@
             "value": "NGK LMAR8A-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ8V"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 7Ah"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.07 L (0.82 L radiator + 0.25 L reservoir)"

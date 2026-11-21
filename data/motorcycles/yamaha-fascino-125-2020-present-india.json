@@ -104,6 +104,11 @@
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "SAE 10W-30, JASO MB"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 5Ah MF"
           }
         ]
       },
