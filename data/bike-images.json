@@ -2727,6 +2727,466 @@
           "800": "images/motorcycles/suzuki/burgman-400/burgman-400-00e83aa8-800.jpg"
         }
       }
+    },
+    "kawasaki-ninja-400-2018-present": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/kawasaki/kawasaki_ninja_400_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2019 - 2020 Kawasaki Ninja 400 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-400/ninja-400-201d6faf-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-400/ninja-400-201d6faf-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-400/ninja-400-201d6faf-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-400/ninja-400-201d6faf-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-400/ninja-400-201d6faf-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-400/ninja-400-201d6faf-800.jpg"
+        }
+      }
+    },
+    "kawasaki-ninja-650-2017-2020": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/kawasaki/kawasaki_Ninja_650_17.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2017 Kawasaki Ninja 650 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-650/ninja-650-a6a35d99-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-650/ninja-650-a6a35d99-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-650/ninja-650-a6a35d99-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-650/ninja-650-a6a35d99-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-650/ninja-650-a6a35d99-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-650/ninja-650-a6a35d99-800.jpg"
+        }
+      }
+    },
+    "kawasaki-ninja-zx-6r-2009-2012": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/kawasaki/kawasaki_zx6r%2009.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2009 Kawasaki ZX6R side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-c3b08896-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-c3b08896-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-c3b08896-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-c3b08896-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-c3b08896-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-c3b08896-800.jpg"
+        }
+      }
+    },
+    "kawasaki-ninja-zx-6r-2013-2018": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/kawasaki/kawasaki_zx6r%2013.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2013 Kawasaki ZX-6R Ninja side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-536487dd-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-536487dd-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-536487dd-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-536487dd-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-536487dd-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-536487dd-800.jpg"
+        }
+      }
+    },
+    "kawasaki-ninja-zx-6r-2019-2023": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/kawasaki/kawasaki_zx6r_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2019 Kawasaki ZX-6R Ninja side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-e5bcd75c-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-e5bcd75c-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-e5bcd75c-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-e5bcd75c-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-e5bcd75c-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-zx-6r/ninja-zx-6r-e5bcd75c-800.jpg"
+        }
+      }
+    },
+    "kawasaki-ninja-zx-14r-2012-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/kawasaki/kawasaki_zzr1400%2012.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2012 Kawasaki ZZR1400 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-14r/ninja-zx-14r-87c129fd-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-zx-14r/ninja-zx-14r-87c129fd-800.avif",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-14r/ninja-zx-14r-87c129fd-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-14r/ninja-zx-14r-87c129fd-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-zx-14r/ninja-zx-14r-87c129fd-800.webp",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-14r/ninja-zx-14r-87c129fd-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-14r/ninja-zx-14r-87c129fd-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-zx-14r/ninja-zx-14r-87c129fd-800.jpg",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-14r/ninja-zx-14r-87c129fd-1200.jpg"
+        }
+      }
+    },
+    "kawasaki-vulcan-s-2015-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/kawasaki/kawasaki_Vulcan%20s%2015.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Vulcan S side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/vulcan-s/vulcan-s-d9b1b8f2-400.avif",
+          "800": "images/motorcycles/kawasaki/vulcan-s/vulcan-s-d9b1b8f2-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/vulcan-s/vulcan-s-d9b1b8f2-400.webp",
+          "800": "images/motorcycles/kawasaki/vulcan-s/vulcan-s-d9b1b8f2-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/vulcan-s/vulcan-s-d9b1b8f2-400.jpg",
+          "800": "images/motorcycles/kawasaki/vulcan-s/vulcan-s-d9b1b8f2-800.jpg"
+        }
+      }
+    },
+    "kawasaki-versys-650-2015-2021-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/kawasaki/kawasaki_versys_650_15.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Versys 650 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/versys-650/versys-650-7ce1c96a-400.avif",
+          "800": "images/motorcycles/kawasaki/versys-650/versys-650-7ce1c96a-800.avif",
+          "1200": "images/motorcycles/kawasaki/versys-650/versys-650-7ce1c96a-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/versys-650/versys-650-7ce1c96a-400.webp",
+          "800": "images/motorcycles/kawasaki/versys-650/versys-650-7ce1c96a-800.webp",
+          "1200": "images/motorcycles/kawasaki/versys-650/versys-650-7ce1c96a-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/versys-650/versys-650-7ce1c96a-400.jpg",
+          "800": "images/motorcycles/kawasaki/versys-650/versys-650-7ce1c96a-800.jpg",
+          "1200": "images/motorcycles/kawasaki/versys-650/versys-650-7ce1c96a-1200.jpg"
+        }
+      }
+    },
+    "kawasaki-versys-650-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/kawasaki/kawasaki_versys%20650_lt_22.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2022 Kawasaki Versys 650 / LT side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/versys-650/versys-650-df3e2a52-400.avif",
+          "800": "images/motorcycles/kawasaki/versys-650/versys-650-df3e2a52-800.avif",
+          "1200": "images/motorcycles/kawasaki/versys-650/versys-650-df3e2a52-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/versys-650/versys-650-df3e2a52-400.webp",
+          "800": "images/motorcycles/kawasaki/versys-650/versys-650-df3e2a52-800.webp",
+          "1200": "images/motorcycles/kawasaki/versys-650/versys-650-df3e2a52-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/versys-650/versys-650-df3e2a52-400.jpg",
+          "800": "images/motorcycles/kawasaki/versys-650/versys-650-df3e2a52-800.jpg",
+          "1200": "images/motorcycles/kawasaki/versys-650/versys-650-df3e2a52-1200.jpg"
+        }
+      }
+    },
+    "ducati-panigale-v4-2018-2019": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/ducati/Ducati_Panigale_V4_18.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2018 Ducati Panigale V4 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/panigale-v4/panigale-v4-ec7bddf9-400.avif",
+          "800": "images/motorcycles/ducati/panigale-v4/panigale-v4-ec7bddf9-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/panigale-v4/panigale-v4-ec7bddf9-400.webp",
+          "800": "images/motorcycles/ducati/panigale-v4/panigale-v4-ec7bddf9-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/panigale-v4/panigale-v4-ec7bddf9-400.jpg",
+          "800": "images/motorcycles/ducati/panigale-v4/panigale-v4-ec7bddf9-800.jpg"
+        }
+      }
+    },
+    "ducati-panigale-v4-2020-2022": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/ducati/Ducati_Panigale_V4_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2020 Ducati Panigale V4 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/panigale-v4/panigale-v4-02aa8b61-400.avif",
+          "800": "images/motorcycles/ducati/panigale-v4/panigale-v4-02aa8b61-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/panigale-v4/panigale-v4-02aa8b61-400.webp",
+          "800": "images/motorcycles/ducati/panigale-v4/panigale-v4-02aa8b61-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/panigale-v4/panigale-v4-02aa8b61-400.jpg",
+          "800": "images/motorcycles/ducati/panigale-v4/panigale-v4-02aa8b61-800.jpg"
+        }
+      }
+    },
+    "ducati-panigale-v4-2022-2023": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/ducati/ducati_panigale_v4_22.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2022 Ducati Panigale V4 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/panigale-v4/panigale-v4-9019c258-400.avif",
+          "800": "images/motorcycles/ducati/panigale-v4/panigale-v4-9019c258-800.avif",
+          "1200": "images/motorcycles/ducati/panigale-v4/panigale-v4-9019c258-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/panigale-v4/panigale-v4-9019c258-400.webp",
+          "800": "images/motorcycles/ducati/panigale-v4/panigale-v4-9019c258-800.webp",
+          "1200": "images/motorcycles/ducati/panigale-v4/panigale-v4-9019c258-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/panigale-v4/panigale-v4-9019c258-400.jpg",
+          "800": "images/motorcycles/ducati/panigale-v4/panigale-v4-9019c258-800.jpg",
+          "1200": "images/motorcycles/ducati/panigale-v4/panigale-v4-9019c258-1200.jpg"
+        }
+      }
+    },
+    "ducati-panigale-v2-2020-2024": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/ducati/Ducati_v2_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2020 Ducati Panigale V2 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/panigale-v2/panigale-v2-70712b66-400.avif",
+          "800": "images/motorcycles/ducati/panigale-v2/panigale-v2-70712b66-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/panigale-v2/panigale-v2-70712b66-400.webp",
+          "800": "images/motorcycles/ducati/panigale-v2/panigale-v2-70712b66-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/panigale-v2/panigale-v2-70712b66-400.jpg",
+          "800": "images/motorcycles/ducati/panigale-v2/panigale-v2-70712b66-800.jpg"
+        }
+      }
+    },
+    "ducati-monster-821-2014-2020-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/ducati/ducati_monster_821%2014.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Ducati Monster 821 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/monster-821/monster-821-089ee03b-400.avif",
+          "800": "images/motorcycles/ducati/monster-821/monster-821-089ee03b-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/monster-821/monster-821-089ee03b-400.webp",
+          "800": "images/motorcycles/ducati/monster-821/monster-821-089ee03b-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/monster-821/monster-821-089ee03b-400.jpg",
+          "800": "images/motorcycles/ducati/monster-821/monster-821-089ee03b-800.jpg"
+        }
+      }
+    },
+    "ducati-monster-937-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/ducati/ducati_monster_21.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2021 Ducati Monster side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/monster-937/monster-937-314b4871-400.avif",
+          "800": "images/motorcycles/ducati/monster-937/monster-937-314b4871-800.avif",
+          "1200": "images/motorcycles/ducati/monster-937/monster-937-314b4871-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/monster-937/monster-937-314b4871-400.webp",
+          "800": "images/motorcycles/ducati/monster-937/monster-937-314b4871-800.webp",
+          "1200": "images/motorcycles/ducati/monster-937/monster-937-314b4871-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/monster-937/monster-937-314b4871-400.jpg",
+          "800": "images/motorcycles/ducati/monster-937/monster-937-314b4871-800.jpg",
+          "1200": "images/motorcycles/ducati/monster-937/monster-937-314b4871-1200.jpg"
+        }
+      }
+    },
+    "ducati-950-multistrada-2017-2021-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/ducati/ducati_multistrada_950.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2017 Ducati Multistrada 950 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/950-multistrada/950-multistrada-bf4af085-400.avif",
+          "800": "images/motorcycles/ducati/950-multistrada/950-multistrada-bf4af085-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/950-multistrada/950-multistrada-bf4af085-400.webp",
+          "800": "images/motorcycles/ducati/950-multistrada/950-multistrada-bf4af085-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/950-multistrada/950-multistrada-bf4af085-400.jpg",
+          "800": "images/motorcycles/ducati/950-multistrada/950-multistrada-bf4af085-800.jpg"
+        }
+      }
+    },
+    "ducati-1260-diavel-2019-2022-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/ducati/Ducati_Diavel_1260.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2019 Ducati Diavel 1260 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/1260-diavel/1260-diavel-78e9d07a-400.avif",
+          "800": "images/motorcycles/ducati/1260-diavel/1260-diavel-78e9d07a-800.avif",
+          "1200": "images/motorcycles/ducati/1260-diavel/1260-diavel-78e9d07a-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/1260-diavel/1260-diavel-78e9d07a-400.webp",
+          "800": "images/motorcycles/ducati/1260-diavel/1260-diavel-78e9d07a-800.webp",
+          "1200": "images/motorcycles/ducati/1260-diavel/1260-diavel-78e9d07a-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/1260-diavel/1260-diavel-78e9d07a-400.jpg",
+          "800": "images/motorcycles/ducati/1260-diavel/1260-diavel-78e9d07a-800.jpg",
+          "1200": "images/motorcycles/ducati/1260-diavel/1260-diavel-78e9d07a-1200.jpg"
+        }
+      }
     }
   }
 }
