@@ -129,7 +129,7 @@ def related_guides(links):
     ) + "</ul>"
 
 
-def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb, extra_json=None):
+def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb, extra_json=None, parents=None):
     canonical = f"{SITE}/guides/{slug}.html" if slug != "index" else f"{SITE}/guides/"
     jsonld = {
         "@context": "https://schema.org",
@@ -140,14 +140,27 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
         "dateModified": LAST_MOD,
         "publisher": {"@type": "Organization", "name": "MotoX Wiki", "url": SITE}
     }
+    breadcrumb_items = [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
+        {"@type": "ListItem", "position": 2, "name": "Guides", "item": SITE + "/guides/"},
+    ]
+    for label, href in parents or []:
+        breadcrumb_items.append({
+            "@type": "ListItem",
+            "position": len(breadcrumb_items) + 1,
+            "name": label,
+            "item": href if str(href).startswith("http") else f"{SITE}/guides/{href}",
+        })
+    breadcrumb_items.append({
+        "@type": "ListItem",
+        "position": len(breadcrumb_items) + 1,
+        "name": h1,
+        "item": canonical,
+    })
     graph = [jsonld, {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
-            {"@type": "ListItem", "position": 2, "name": "Guides", "item": SITE + "/guides/"},
-            {"@type": "ListItem", "position": 3, "name": h1, "item": canonical}
-        ]
+        "itemListElement": breadcrumb_items
     }]
     if extra_json:
         graph.extend(extra_json)
@@ -189,7 +202,7 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
 
   <main class="container">
     <div class="bike-header">
-      <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">Guides</a> / {esc(breadcrumb)}</div>
+      <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="index.html">Guides</a>{''.join(f' / <a href="{href}">{esc(label)}</a>' for label, href in (parents or []))} / {esc(breadcrumb)}</div>
       <h1>{h1}</h1>
       <p class="bike-subtitle">{subtitle}</p>
     </div>
@@ -316,12 +329,7 @@ def build_index(bikes):
         ("low-seat-height-motorcycles", "Low Seat Height Motorcycles", "Bikes with a seat height of 800 mm or less, for shorter riders."),
         ("best-commuter-motorcycles", "Best Commuter Motorcycles", "Practical, economical bikes for daily transport."),
         ("best-retro-motorcycles", "Best Retro Motorcycles", "Modern classics, retro roadsters and scramblers."),
-        ("cbr600rr-vs-cbr650r", "CBR600RR vs CBR650R", "On-paper comparison of Honda's 600 cc supersport and 650 cc sportbike."),
-        ("mt-07-vs-mt-09", "MT-07 vs MT-09", "Yamaha's CP2 and CP3 nakeds compared."),
-        ("ninja-400-vs-ninja-500", "Ninja 400 vs Ninja 500", "Kawasaki's lightweight parallel-twin sportbikes compared."),
-        ("classic-350-vs-hunter-350", "Classic 350 vs Hunter 350", "Royal Enfield's classic and city roadster compared."),
-        ("himalayan-450-vs-411", "Himalayan 450 vs 411", "Old and new Royal Enfield adventure singles compared."),
-        ("interceptor-650-vs-continental-gt-650", "Interceptor 650 vs Continental GT 650", "Royal Enfield's 650 twins compared."),
+        ("comparisons", "Motorcycle Model Comparisons", f"{len(COMPARISONS)} head-to-head comparisons across 450 motocross, sport, naked, adventure and retro classes."),
     ]
     items = "".join(f'<a class="page-item" href="{slug}.html"><h2>{esc(t)}</h2><p>{esc(d)}</p></a>' for slug, t, d in cards)
     content = f"""
@@ -930,8 +938,107 @@ def build_low_seat(bikes):
     )
 
 
-def comparison(slug, page_title, description, h1, subtitle, a, b, verdict):
+def comparison_facts(a, b):
+    facts = []
+
+    def add(label, value_a, value_b, num_a, num_b, higher_wins, phrase, unit):
+        if not num_a or not num_b or num_a == num_b:
+            return
+        leader = a if (num_a > num_b) == higher_wins else b
+        delta = abs(num_a - num_b)
+        facts.append(
+            f"<li><strong>{label}:</strong> {esc(value_a)} vs {esc(value_b)}. "
+            f"The {esc(name(leader))} lists the {phrase} ({delta:g} {unit}).</li>"
+        )
+
+    add("Power", field(a, "power"), field(b, "power"), hp(a), hp(b), True, "higher claimed power", "hp")
+    add("Torque", field(a, "torque"), field(b, "torque"), numeric(field(a, "torque")), numeric(field(b, "torque")), True, "higher claimed torque", "Nm")
+    add("Kerb weight", field(a, "weight"), field(b, "weight"), weight(a), weight(b), False, "lower kerb weight", "kg")
+    add("Seat height", field(a, "seat_height"), field(b, "seat_height"), seat(a), seat(b), False, "lower seat height", "mm")
+    add("Fuel capacity", field(a, "fuel_capacity"), field(b, "fuel_capacity"), numeric(field(a, "fuel_capacity")), numeric(field(b, "fuel_capacity")), True, "larger fuel capacity", "L")
+
+    if hp(a) and weight(a) and hp(b) and weight(b):
+        ratio_a = hp(a) * 1000 / weight(a)
+        ratio_b = hp(b) * 1000 / weight(b)
+        if round(ratio_a) != round(ratio_b):
+            leader = a if ratio_a > ratio_b else b
+            facts.append(
+                f"<li><strong>Power-to-weight:</strong> about {ratio_a:,.0f} vs {ratio_b:,.0f} hp per tonne. "
+                f"The {esc(name(leader))} has the higher calculated ratio.</li>"
+            )
+    if field(a, "tyres") and field(a, "tyres") == field(b, "tyres"):
+        facts.append(f"<li><strong>Tyres:</strong> both list {esc(field(a, 'tyres'))}.</li>")
+    if field(a, "transmission") and field(a, "transmission") == field(b, "transmission"):
+        facts.append(f"<li><strong>Transmission:</strong> both list {esc(field(a, 'transmission'))}.</li>")
+    return facts
+
+
+def comparison_faqs(a, b):
+    faqs = []
+
+    def addq(question, answer):
+        if question and answer:
+            faqs.append((question, answer))
+
+    def leader_for(value_a, value_b, higher_wins):
+        return a if (value_a > value_b) == higher_wins else b
+
+    if hp(a) and hp(b) and hp(a) != hp(b):
+        leader = leader_for(hp(a), hp(b), True)
+        other = b if leader is a else a
+        addq(
+            f"Which has more power, the {name(a)} or the {name(b)}?",
+            f"The {name(leader)} lists {field(leader, 'power')}, compared with {field(other, 'power')} for the {name(other)}."
+        )
+    if weight(a) and weight(b) and weight(a) != weight(b):
+        leader = leader_for(weight(a), weight(b), False)
+        other = b if leader is a else a
+        addq(
+            f"Which is lighter, the {name(a)} or the {name(b)}?",
+            f"The {name(leader)} lists {field(leader, 'weight')}, compared with {field(other, 'weight')} for the {name(other)}."
+        )
+    if seat(a) and seat(b) and seat(a) != seat(b):
+        leader = leader_for(seat(a), seat(b), False)
+        other = b if leader is a else a
+        addq(
+            f"Which has a lower seat height, the {name(a)} or the {name(b)}?",
+            f"The {name(leader)} lists {field(leader, 'seat_height')}, compared with {field(other, 'seat_height')} for the {name(other)}."
+        )
+    if numeric(field(a, "fuel_capacity")) and numeric(field(b, "fuel_capacity")) and numeric(field(a, "fuel_capacity")) != numeric(field(b, "fuel_capacity")):
+        leader = leader_for(numeric(field(a, "fuel_capacity")), numeric(field(b, "fuel_capacity")), True)
+        other = b if leader is a else a
+        addq(
+            f"Which has more fuel capacity, the {name(a)} or the {name(b)}?",
+            f"The {name(leader)} lists {field(leader, 'fuel_capacity')}, compared with {field(other, 'fuel_capacity')} for the {name(other)}."
+        )
+    if hp(a) and weight(a) and hp(b) and weight(b):
+        ratio_a = hp(a) * 1000 / weight(a)
+        ratio_b = hp(b) * 1000 / weight(b)
+        if round(ratio_a) != round(ratio_b):
+            leader = a if ratio_a > ratio_b else b
+            addq(
+                f"What is the power-to-weight ratio of the {name(a)} and {name(b)}?",
+                f"Using the listed power and kerb weight, the calculated ratios are about {ratio_a:,.0f} hp per tonne for the {name(a)} "
+                f"and {ratio_b:,.0f} hp per tonne for the {name(b)}. The {name(leader)} has the higher listed ratio."
+            )
+    if a.get("category") and a.get("category") == b.get("category"):
+        addq(
+            f"Are the {name(a)} and {name(b)} both {a.get('category').lower()} motorcycles?",
+            f"Yes. Both are listed in the {a.get('category')} category in the catalogue."
+        )
+    if field(a, "tyres") and field(a, "tyres") == field(b, "tyres"):
+        addq(
+            f"Do the {name(a)} and {name(b)} use the same tyre sizes?",
+            f"Yes. Both list {field(a, 'tyres')}."
+        )
+    return faqs
+
+
+def comparison(item, a, b):
+    slug = item["slug"]
+    h1 = item["title"]
     fields = [
+        ("Category", lambda x: x.get("category", "")),
         ("Engine", lambda x: field(x, "engine")),
         ("Displacement", lambda x: x.get("displacement", "")),
         ("Max power", lambda x: field(x, "power")),
@@ -941,7 +1048,9 @@ def comparison(slug, page_title, description, h1, subtitle, a, b, verdict):
         ("Fuel capacity", lambda x: field(x, "fuel_capacity")),
         ("Transmission", lambda x: field(x, "transmission")),
         ("Front suspension", lambda x: field(x, "front_suspension")),
+        ("Rear suspension", lambda x: field(x, "rear_suspension")),
         ("Front brake", lambda x: field(x, "front_brake")),
+        ("Rear brake", lambda x: field(x, "rear_brake")),
         ("Tyres", lambda x: field(x, "tyres")),
         ("Oil capacity", lambda x: service(x, "oil_capacity")),
     ]
@@ -949,20 +1058,74 @@ def comparison(slug, page_title, description, h1, subtitle, a, b, verdict):
         f"<tr><th>{esc(label)}</th><td>{esc(fn(a))}</td><td>{esc(fn(b))}</td></tr>"
         for label, fn in fields
     )
+    facts = comparison_facts(a, b)
+    faqs = comparison_faqs(a, b)
+    faq_html = "".join(
+        f'<div class="faq-item"><h3 class="faq-question">{esc(question)}</h3><p class="faq-answer">{esc(answer)}</p></div>'
+        for question, answer in faqs
+    )
+    faq_json = {
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": question, "acceptedAnswer": {"@type": "Answer", "text": answer}}
+            for question, answer in faqs
+        ],
+    } if faqs else None
+    brand_links = " · ".join(dict.fromkeys(
+        f'<a href="../reference/brand-{make_slug(bike.get("make", ""))}.html">All {esc(bike.get("make", ""))} models</a>'
+        for bike in (a, b)
+    ))
     content = f"""
-      <p>{esc(verdict)}</p>
+      <p>{esc(item["verdict"])}</p>
+      <p class="data-note">This is a specification comparison using the catalogue entries for {esc(name(a))} ({esc(a.get("year", ""))}) and {esc(name(b))} ({esc(b.get("year", ""))}). It is not a ride review; specifications can change by model year and market.</p>
       <div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Specification</th><th>{bike_link(a)}</th><th>{bike_link(b)}</th></tr></thead><tbody>{rows}</tbody></table></div>
-      <h2>On-paper differences</h2>
-      <ul>
-        <li><strong>Power:</strong> {esc(name(a))} {esc(field(a, "power"))} vs {esc(name(b))} {esc(field(b, "power"))}.</li>
-        <li><strong>Weight:</strong> {esc(field(a, "weight"))} vs {esc(field(b, "weight"))}.</li>
-        <li><strong>Seat height:</strong> {esc(field(a, "seat_height"))} vs {esc(field(b, "seat_height"))}.</li>
-        <li><strong>Fuel capacity:</strong> {esc(field(a, "fuel_capacity"))} vs {esc(field(b, "fuel_capacity"))}.</li>
-      </ul>
-      <p>Use the linked model pages for the full specification, service data and torque tables. The better bike depends on your licence, riding mix, inseam, luggage and budget — this comparison is a starting point, not a verdict.</p>
-      {related_guides([("best-beginner-motorcycles.html", "Best beginner motorcycles"), ("a2-motorcycles.html", "A2 motorcycles"), ("seat-height-chart.html", "Motorcycle seat height chart")])}
+      <h2>What the numbers say</h2>
+      <ul>{''.join(facts) if facts else '<li>The listed fields do not provide enough comparable numbers for a difference summary.</li>'}</ul>
+      <h2>Full specifications and service data</h2>
+      <p>{bike_link(a)} · {bike_link(b)}</p>
+      <p>{brand_links} · <a href="../reference/tyre-size-finder.html">Tyre size finder</a> · <a href="../reference/fork-seal-finder.html">Fork seal finder</a></p>
+      {f'<section class="faq-section"><h2>Frequently Asked Questions</h2>{faq_html}</section>' if faq_html else ''}
+      {related_guides([("comparisons.html", "All model comparisons"), ("parts-fitment-codes.html", "Parts and fitment codes"), ("torque-specs.html", "Motorcycle torque specs"), ("seat-height-chart.html", "Motorcycle seat height chart")])}
     """
-    return guide_page(slug, page_title, description, h1, subtitle, content, h1)
+    return guide_page(
+        slug,
+        f"{h1} — Specs & Comparison",
+        item["description"],
+        h1,
+        f"{a.get('category', '')} comparison · {a.get('year', '')} vs {b.get('year', '')}",
+        content,
+        h1,
+        [faq_json] if faq_json else None,
+        parents=[("Model Comparisons", "comparisons.html")],
+    )
+
+
+def build_comparisons_hub():
+    groups = {}
+    for item in COMPARISONS:
+        groups.setdefault(item["group"], []).append(item)
+    sections = []
+    for group, items in groups.items():
+        cards = "".join(
+            f'<a class="page-item" href="{item["slug"]}.html"><h2>{esc(item["title"])}</h2><p>{esc(item["description"])}</p></a>'
+            for item in items
+        )
+        sections.append(f'<h2>{esc(group)}</h2><div class="page-list">{cards}</div>')
+    content = f"""
+      <p>Head-to-head comparisons built from the catalogue's listed specifications. Each page shows power, torque, weight, seat height, suspension, brakes, tyres and service data, followed by the main on-paper differences.</p>
+      <p>These are specification comparisons, not ride reviews. Model-year and market variants can differ, so confirm the exact machine before ordering parts.</p>
+      {''.join(sections)}
+      {related_guides([("parts-fitment-codes.html", "Parts and fitment codes"), ("seat-height-chart.html", "Seat height chart"), ("torque-specs.html", "Torque specifications"), ("oil-capacity-chart.html", "Oil capacity chart")])}
+    """
+    return guide_page(
+        "comparisons",
+        "Motorcycle Model Comparisons — Specs & Differences",
+        f"{len(COMPARISONS)} motorcycle head-to-head comparisons across 450 motocross, sport, naked, adventure and retro classes.",
+        "Motorcycle Model Comparisons",
+        f"{len(COMPARISONS)} head-to-head specification comparisons.",
+        content,
+        "Model Comparisons",
+    )
 
 
 def property_table(rows):
@@ -1389,20 +1552,122 @@ def model_page(bike, related, guide_links, brand_href):
         fh.write(template)
 
 
-COMPARISON_LINKS = {
-    "honda-cbr600rr-2013": ("cbr600rr-vs-cbr650r.html", "CBR600RR vs CBR650R"),
-    "honda-cbr650r-2024-present-global": ("cbr600rr-vs-cbr650r.html", "CBR600RR vs CBR650R"),
-    "yamaha-mt-07-2018": ("mt-07-vs-mt-09.html", "MT-07 vs MT-09"),
-    "yamaha-mt-09-2015-2018-global": ("mt-07-vs-mt-09.html", "MT-07 vs MT-09"),
-    "kawasaki-ninja-400-2018-present": ("ninja-400-vs-ninja-500.html", "Ninja 400 vs Ninja 500"),
-    "kawasaki-ninja-500-2024-present": ("ninja-400-vs-ninja-500.html", "Ninja 400 vs Ninja 500"),
-    "royal-enfield-classic-350-2021-present-global": ("classic-350-vs-hunter-350.html", "Classic 350 vs Hunter 350"),
-    "royal-enfield-hunter-350-2022-present-global": ("classic-350-vs-hunter-350.html", "Classic 350 vs Hunter 350"),
-    "royal-enfield-himalayan-450": ("himalayan-450-vs-411.html", "Himalayan 450 vs 411"),
-    "royal-enfield-himalayan-411-2015-2023-global": ("himalayan-450-vs-411.html", "Himalayan 450 vs 411"),
-    "royal-enfield-interceptor-650-2018-present-global": ("interceptor-650-vs-continental-gt-650.html", "Interceptor 650 vs Continental GT 650"),
-    "royal-enfield-continental-gt-650-2019-present-global": ("interceptor-650-vs-continental-gt-650.html", "Interceptor 650 vs Continental GT 650"),
-}
+COMPARISONS = [
+    {
+        "slug": "honda-crf450r-vs-yamaha-yz450f",
+        "title": "Honda CRF450R vs Yamaha YZ450F",
+        "description": "Honda CRF450R vs Yamaha YZ450F: 57 vs 59 hp, 111 vs 109 kg and 960 vs 965 mm seat height. Compare 450 motocross specs, suspension and service data.",
+        "verdict": "The Yamaha YZ450F lists 2 hp more and 2 kg less than the Honda CRF450R, while the CRF450R has a 5 mm lower seat and 0.1 L more fuel capacity.",
+        "a": "honda-crf450r-2021-present-global",
+        "b": "yamaha-yz450f-2023-present-global",
+        "group": "450 Motocross",
+    },
+    {
+        "slug": "honda-crf450r-vs-kawasaki-kx450",
+        "title": "Honda CRF450R vs Kawasaki KX450",
+        "description": "Honda CRF450R vs Kawasaki KX450: 57 vs 58 hp, 111 vs 110 kg and the same 960 mm seat height. Compare 450 motocross specifications.",
+        "verdict": "The Kawasaki KX450 lists 1 hp more, 2 Nm more torque and 1 kg less weight than the Honda CRF450R. Both list a 960 mm seat; the CRF450R has 0.1 L more fuel capacity.",
+        "a": "honda-crf450r-2021-present-global",
+        "b": "kawasaki-kx450-2024-present-global",
+        "group": "450 Motocross",
+    },
+    {
+        "slug": "honda-crf450r-vs-ktm-450-sx-f",
+        "title": "Honda CRF450R vs KTM 450 SX-F",
+        "description": "Honda CRF450R vs KTM 450 SX-F: 57 vs 63 hp, 111 vs 104 kg and 960 vs 958 mm seat height. Compare 450 motocross specs and service data.",
+        "verdict": "The KTM 450 SX-F lists 6 hp more, 2 Nm more torque, 7 kg less weight, a 2 mm lower seat and 0.7 L more fuel capacity than the Honda CRF450R.",
+        "a": "honda-crf450r-2021-present-global",
+        "b": "ktm-450-sx-f-2022-present-global",
+        "group": "450 Motocross",
+    },
+    {
+        "slug": "yamaha-yz450f-vs-kawasaki-kx450",
+        "title": "Yamaha YZ450F vs Kawasaki KX450",
+        "description": "Yamaha YZ450F vs Kawasaki KX450: 59 vs 58 hp, 109 vs 110 kg and 965 vs 960 mm seat height. Compare 450 motocross specifications.",
+        "verdict": "The Yamaha YZ450F lists 1 hp more and 1 kg less than the Kawasaki KX450, while the KX450 lists 1 Nm more torque and a 5 mm lower seat. Both list a 6.2 L tank.",
+        "a": "yamaha-yz450f-2023-present-global",
+        "b": "kawasaki-kx450-2024-present-global",
+        "group": "450 Motocross",
+    },
+    {
+        "slug": "yamaha-yz450f-vs-ktm-450-sx-f",
+        "title": "Yamaha YZ450F vs KTM 450 SX-F",
+        "description": "Yamaha YZ450F vs KTM 450 SX-F: 59 vs 63 hp, 109 vs 104 kg and 965 vs 958 mm seat height. Compare 450 motocross specs and service data.",
+        "verdict": "The KTM 450 SX-F lists 4 hp more, 1 Nm more torque, 5 kg less weight, a 7 mm lower seat and 0.8 L more fuel capacity than the Yamaha YZ450F.",
+        "a": "yamaha-yz450f-2023-present-global",
+        "b": "ktm-450-sx-f-2022-present-global",
+        "group": "450 Motocross",
+    },
+    {
+        "slug": "kawasaki-kx450-vs-ktm-450-sx-f",
+        "title": "Kawasaki KX450 vs KTM 450 SX-F",
+        "description": "Kawasaki KX450 vs KTM 450 SX-F: 58 vs 63 hp, 110 vs 104 kg and 960 vs 958 mm seat height. Compare 450 motocross specifications.",
+        "verdict": "The KTM 450 SX-F lists 5 hp more, 6 kg less weight, a 2 mm lower seat and 0.8 L more fuel capacity than the Kawasaki KX450. Both list 49 Nm of torque.",
+        "a": "kawasaki-kx450-2024-present-global",
+        "b": "ktm-450-sx-f-2022-present-global",
+        "group": "450 Motocross",
+    },
+    {
+        "slug": "cbr600rr-vs-cbr650r",
+        "title": "CBR600RR vs CBR650R",
+        "description": "Honda CBR600RR vs CBR650R: supersport vs sportbike specs, weight, seat height and power compared.",
+        "verdict": "The CBR600RR is the sharper track-focused 600, while the CBR650R is the more usable road bike with a broader powerband and comfortable ergonomics.",
+        "a": "honda-cbr600rr-2013",
+        "b": "honda-cbr650r-2024-present-global",
+        "group": "Sport",
+    },
+    {
+        "slug": "ninja-400-vs-ninja-500",
+        "title": "Ninja 400 vs Ninja 500",
+        "description": "Kawasaki Ninja 400 vs Ninja 500: power, weight, seat height and specifications compared.",
+        "verdict": "The Ninja 500 replaces the 400 with a larger, torquier engine while keeping the same lightweight formula.",
+        "a": "kawasaki-ninja-400-2018-present",
+        "b": "kawasaki-ninja-500-2024-present",
+        "group": "Sport",
+    },
+    {
+        "slug": "mt-07-vs-mt-09",
+        "title": "MT-07 vs MT-09",
+        "description": "Yamaha MT-07 vs MT-09: CP2 twin vs CP3 triple, with power, torque, weight and seat height compared.",
+        "verdict": "The MT-07 is lighter and cheaper to run; the MT-09 adds a three-cylinder engine, more power and more equipment.",
+        "a": "yamaha-mt-07-2018",
+        "b": "yamaha-mt-09-2015-2018-global",
+        "group": "Naked",
+    },
+    {
+        "slug": "himalayan-450-vs-411",
+        "title": "Himalayan 450 vs 411",
+        "description": "Royal Enfield Himalayan 450 vs 411: power, weight, seat height and specifications compared.",
+        "verdict": "The Himalayan 450 brings a new liquid-cooled engine, more power and a modern chassis; the 411 is simpler and lighter on electronics.",
+        "a": "royal-enfield-himalayan-450",
+        "b": "royal-enfield-himalayan-411-2015-2023-global",
+        "group": "Adventure",
+    },
+    {
+        "slug": "classic-350-vs-hunter-350",
+        "title": "Classic 350 vs Hunter 350",
+        "description": "Royal Enfield Classic 350 vs Hunter 350: weight, seat height, power and specifications compared.",
+        "verdict": "The Classic 350 is the traditional, relaxed Royal Enfield; the Hunter 350 is lighter, shorter and more city-focused.",
+        "a": "royal-enfield-classic-350-2021-present-global",
+        "b": "royal-enfield-hunter-350-2022-present-global",
+        "group": "Retro",
+    },
+    {
+        "slug": "interceptor-650-vs-continental-gt-650",
+        "title": "Interceptor 650 vs Continental GT 650",
+        "description": "Royal Enfield Interceptor 650 vs Continental GT 650: power, weight, seat height and specifications compared.",
+        "verdict": "Both use the same 648 cc twin; the Interceptor has upright bars and a more relaxed ride, while the Continental GT has clip-ons and a café-racer stance.",
+        "a": "royal-enfield-interceptor-650-2018-present-global",
+        "b": "royal-enfield-continental-gt-650-2019-present-global",
+        "group": "Retro",
+    },
+]
+
+COMPARISON_LINKS = {}
+for _comparison in COMPARISONS:
+    _link = (f"{_comparison['slug']}.html", _comparison["title"])
+    for _key in ("a", "b"):
+        COMPARISON_LINKS.setdefault(_comparison[_key], []).append(_link)
 
 
 def build_model_pages(bikes, brand_links):
@@ -1429,9 +1694,9 @@ def build_model_pages(bikes, brand_links):
             ("best-beginner-motorcycles.html", "Best beginner motorcycles"),
             ("torque-specs.html", "Motorcycle torque specs")
         ]
-        comparison = COMPARISON_LINKS.get(bike["id"])
-        if comparison:
-            guides.insert(0, comparison)
+        comparisons = COMPARISON_LINKS.get(bike["id"], [])
+        if comparisons:
+            guides = comparisons + guides
         if category == "scooter":
             guides.insert(0, ("best-scooters.html", "Best scooters"))
         elif category in ("adventure", "dual sport"):
@@ -1529,32 +1794,11 @@ def main():
     ))
     urls.append(build_low_seat(bikes))
 
-    comparisons = [
-        ("cbr600rr-vs-cbr650r", "cbr600rr-vs-cbr650r", "CBR600RR vs CBR650R", "Honda CBR600RR vs CBR650R — specs, weight and seat height compared.",
-         "The CBR600RR is the sharper track-focused 600, while the CBR650R is the more usable road bike with a broader powerband and comfortable ergonomics."),
-        ("mt-07-vs-mt-09", "mt-07-vs-mt-09", "MT-07 vs MT-09", "Yamaha MT-07 vs MT-09 — CP2 twin vs CP3 triple compared.",
-         "The MT-07 is lighter and cheaper to run; the MT-09 adds a three-cylinder engine, more power and more equipment."),
-        ("ninja-400-vs-ninja-500", "ninja-400-vs-ninja-500", "Ninja 400 vs Ninja 500", "Kawasaki Ninja 400 vs Ninja 500 — specs and differences.",
-         "The Ninja 500 replaces the 400 with a larger, torquier engine while keeping the same lightweight formula."),
-        ("classic-350-vs-hunter-350", "classic-350-vs-hunter-350", "Classic 350 vs Hunter 350", "Royal Enfield Classic 350 vs Hunter 350 — weight, seat height and character.",
-         "The Classic 350 is the traditional, relaxed Royal Enfield; the Hunter 350 is lighter, shorter and more city-focused."),
-        ("himalayan-450-vs-411", "himalayan-450-vs-411", "Himalayan 450 vs 411", "Royal Enfield Himalayan 450 vs 411 — old vs new adventure single.",
-         "The Himalayan 450 brings a new liquid-cooled engine, more power and a modern chassis; the 411 is simpler and lighter on electronics."),
-        ("interceptor-650-vs-continental-gt-650", "interceptor-650-vs-continental-gt-650", "Interceptor 650 vs Continental GT 650", "Royal Enfield Interceptor 650 vs Continental GT 650 — roadster vs café racer.",
-         "Both use the same 648 cc twin; the Interceptor has upright bars and a more relaxed ride, while the Continental GT has clip-ons and a café-racer stance."),
-    ]
     id_map = {b["id"]: b for b in bikes}
-    for slug, page_slug, h1, desc, verdict in comparisons:
-        pairs = {
-            "cbr600rr-vs-cbr650r": ("honda-cbr600rr-2013", "honda-cbr650r-2024-present-global"),
-            "mt-07-vs-mt-09": ("yamaha-mt-07-2018", "yamaha-mt-09-2015-2018-global"),
-            "ninja-400-vs-ninja-500": ("kawasaki-ninja-400-2018-present", "kawasaki-ninja-500-2024-present"),
-            "classic-350-vs-hunter-350": ("royal-enfield-classic-350-2021-present-global", "royal-enfield-hunter-350-2022-present-global"),
-            "himalayan-450-vs-411": ("royal-enfield-himalayan-450", "royal-enfield-himalayan-411-2015-2023-global"),
-            "interceptor-650-vs-continental-gt-650": ("royal-enfield-interceptor-650-2018-present-global", "royal-enfield-continental-gt-650-2019-present-global"),
-        }[slug]
-        a, b = id_map[pairs[0]], id_map[pairs[1]]
-        urls.append(comparison(slug, h1, desc, h1, f"{name(a)} vs {name(b)}", a, b, verdict))
+    for item in COMPARISONS:
+        a, b = id_map[item["a"]], id_map[item["b"]]
+        urls.append(comparison(item, a, b))
+    urls.append(build_comparisons_hub())
 
     build_brake_redirect()
     sync_reference_index(bikes, pages)
