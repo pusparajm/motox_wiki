@@ -4967,6 +4967,223 @@
           "1200": "images/motorcycles/harley-davidson/fxdf-1690-dyna-wide-glide/fxdf-1690-dyna-wide-glide-93bbad2e-1200.jpg"
         }
       }
+    },
+    "harley-davidson-street-glide-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_street_glid_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2018 - 2019 Harley Davidson FLHX Street Glide side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/street-glide/street-glide-93c7dad9-400.avif",
+          "800": "images/motorcycles/harley-davidson/street-glide/street-glide-93c7dad9-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/street-glide/street-glide-93c7dad9-400.webp",
+          "800": "images/motorcycles/harley-davidson/street-glide/street-glide-93c7dad9-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/street-glide/street-glide-93c7dad9-400.jpg",
+          "800": "images/motorcycles/harley-davidson/street-glide/street-glide-93c7dad9-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-flhxs-1750-street-glide-special-2017-2022-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_street_glid_special_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2019 - 2020 Harley Davidson Street Glide Special 114 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/flhxs-1750-street-glide-special/flhxs-1750-street-glide-special-e1c2c024-400.avif",
+          "800": "images/motorcycles/harley-davidson/flhxs-1750-street-glide-special/flhxs-1750-street-glide-special-e1c2c024-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/flhxs-1750-street-glide-special/flhxs-1750-street-glide-special-e1c2c024-400.webp",
+          "800": "images/motorcycles/harley-davidson/flhxs-1750-street-glide-special/flhxs-1750-street-glide-special-e1c2c024-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/flhxs-1750-street-glide-special/flhxs-1750-street-glide-special-e1c2c024-400.jpg",
+          "800": "images/motorcycles/harley-davidson/flhxs-1750-street-glide-special/flhxs-1750-street-glide-special-e1c2c024-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-flhrxs-1750-road-king-special-2017-2022-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_road_king_special_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2019 - 2020 Harley Davidson Road King Special side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/flhrxs-1750-road-king-special/flhrxs-1750-road-king-special-9830c6e6-400.avif",
+          "800": "images/motorcycles/harley-davidson/flhrxs-1750-road-king-special/flhrxs-1750-road-king-special-9830c6e6-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/flhrxs-1750-road-king-special/flhrxs-1750-road-king-special-9830c6e6-400.webp",
+          "800": "images/motorcycles/harley-davidson/flhrxs-1750-road-king-special/flhrxs-1750-road-king-special-9830c6e6-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/flhrxs-1750-road-king-special/flhrxs-1750-road-king-special-9830c6e6-400.jpg",
+          "800": "images/motorcycles/harley-davidson/flhrxs-1750-road-king-special/flhrxs-1750-road-king-special-9830c6e6-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-flfb-1750-fat-boy-2018-2020-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_fat_boy_18.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley Davidson Softail Fat Boy side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/flfb-1750-fat-boy/flfb-1750-fat-boy-492441cf-400.avif",
+          "800": "images/motorcycles/harley-davidson/flfb-1750-fat-boy/flfb-1750-fat-boy-492441cf-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/flfb-1750-fat-boy/flfb-1750-fat-boy-492441cf-400.webp",
+          "800": "images/motorcycles/harley-davidson/flfb-1750-fat-boy/flfb-1750-fat-boy-492441cf-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/flfb-1750-fat-boy/flfb-1750-fat-boy-492441cf-400.jpg",
+          "800": "images/motorcycles/harley-davidson/flfb-1750-fat-boy/flfb-1750-fat-boy-492441cf-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-flhc-1750-heritage-classic-2018-2019-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_%20Heritage_Classic%20_18.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2018 - 2019 Harley Davidson Softail Heritage Classic side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/flhc-1750-heritage-classic/flhc-1750-heritage-classic-e2eb725a-400.avif",
+          "800": "images/motorcycles/harley-davidson/flhc-1750-heritage-classic/flhc-1750-heritage-classic-e2eb725a-800.avif",
+          "1200": "images/motorcycles/harley-davidson/flhc-1750-heritage-classic/flhc-1750-heritage-classic-e2eb725a-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/flhc-1750-heritage-classic/flhc-1750-heritage-classic-e2eb725a-400.webp",
+          "800": "images/motorcycles/harley-davidson/flhc-1750-heritage-classic/flhc-1750-heritage-classic-e2eb725a-800.webp",
+          "1200": "images/motorcycles/harley-davidson/flhc-1750-heritage-classic/flhc-1750-heritage-classic-e2eb725a-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/flhc-1750-heritage-classic/flhc-1750-heritage-classic-e2eb725a-400.jpg",
+          "800": "images/motorcycles/harley-davidson/flhc-1750-heritage-classic/flhc-1750-heritage-classic-e2eb725a-800.jpg",
+          "1200": "images/motorcycles/harley-davidson/flhc-1750-heritage-classic/flhc-1750-heritage-classic-e2eb725a-1200.jpg"
+        }
+      }
+    },
+    "harley-davidson-xl-1200-c-sportster-custom-2004-2013-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_1200_custom%2013.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2013 Harley Davidson XL1200C Custom Sportster side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/xl-1200-c-sportster-custom/xl-1200-c-sportster-custom-c2fccede-400.avif",
+          "800": "images/motorcycles/harley-davidson/xl-1200-c-sportster-custom/xl-1200-c-sportster-custom-c2fccede-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/xl-1200-c-sportster-custom/xl-1200-c-sportster-custom-c2fccede-400.webp",
+          "800": "images/motorcycles/harley-davidson/xl-1200-c-sportster-custom/xl-1200-c-sportster-custom-c2fccede-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/xl-1200-c-sportster-custom/xl-1200-c-sportster-custom-c2fccede-400.jpg",
+          "800": "images/motorcycles/harley-davidson/xl-1200-c-sportster-custom/xl-1200-c-sportster-custom-c2fccede-800.jpg"
+        }
+      }
+    },
+    "aprilia-1200-caponord-rally-2015-2019-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-caponord-rally-1200-15.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2015 Aprilia Caponord Rally 1200 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/1200-caponord-rally/1200-caponord-rally-f0d7064b-400.avif",
+          "800": "images/motorcycles/aprilia/1200-caponord-rally/1200-caponord-rally-f0d7064b-800.avif",
+          "1200": "images/motorcycles/aprilia/1200-caponord-rally/1200-caponord-rally-f0d7064b-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/1200-caponord-rally/1200-caponord-rally-f0d7064b-400.webp",
+          "800": "images/motorcycles/aprilia/1200-caponord-rally/1200-caponord-rally-f0d7064b-800.webp",
+          "1200": "images/motorcycles/aprilia/1200-caponord-rally/1200-caponord-rally-f0d7064b-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/1200-caponord-rally/1200-caponord-rally-f0d7064b-400.jpg",
+          "800": "images/motorcycles/aprilia/1200-caponord-rally/1200-caponord-rally-f0d7064b-800.jpg",
+          "1200": "images/motorcycles/aprilia/1200-caponord-rally/1200-caponord-rally-f0d7064b-1200.jpg"
+        }
+      }
+    },
+    "aprilia-rsv4-1100-factory-2019-2023-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-rsv-4rf-1100-19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2019 Aprilia RSV4 1100 Factory side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rsv4-1100-factory/rsv4-1100-factory-1e6fd042-400.avif",
+          "800": "images/motorcycles/aprilia/rsv4-1100-factory/rsv4-1100-factory-1e6fd042-800.avif",
+          "1200": "images/motorcycles/aprilia/rsv4-1100-factory/rsv4-1100-factory-1e6fd042-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rsv4-1100-factory/rsv4-1100-factory-1e6fd042-400.webp",
+          "800": "images/motorcycles/aprilia/rsv4-1100-factory/rsv4-1100-factory-1e6fd042-800.webp",
+          "1200": "images/motorcycles/aprilia/rsv4-1100-factory/rsv4-1100-factory-1e6fd042-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rsv4-1100-factory/rsv4-1100-factory-1e6fd042-400.jpg",
+          "800": "images/motorcycles/aprilia/rsv4-1100-factory/rsv4-1100-factory-1e6fd042-800.jpg",
+          "1200": "images/motorcycles/aprilia/rsv4-1100-factory/rsv4-1100-factory-1e6fd042-1200.jpg"
+        }
+      }
     }
   }
 }
