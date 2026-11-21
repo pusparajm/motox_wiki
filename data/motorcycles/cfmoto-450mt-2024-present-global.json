@@ -111,6 +111,11 @@
             "value": "BN8RTI"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
             "key": "battery_rating",
             "label": "Battery Rating",
             "value": "12V 11.2Ah"

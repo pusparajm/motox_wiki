@@ -153,6 +153,11 @@
             "value": "Brembo 07HO61"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX12-BS"
+          },
+          {
             "key": "battery_rating",
             "label": "Battery Rating",
             "value": "12V 12Ah"

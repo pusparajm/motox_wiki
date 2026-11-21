@@ -111,6 +111,16 @@
             "value": "BN8RTI"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.70 L + 0.284 L reservoir"

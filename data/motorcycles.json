@@ -4321,6 +4321,16 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 730LS"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11Ah"
             }
           ]
         },
@@ -9653,6 +9663,11 @@
               "value": "BN8RTI"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
               "key": "battery_rating",
               "label": "Battery Rating",
               "value": "12V 11.2Ah"
@@ -9882,6 +9897,11 @@
               "value": "Brembo 07HO61"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
+            },
+            {
               "key": "battery_rating",
               "label": "Battery Rating",
               "value": "12V 12Ah"
@@ -10010,6 +10030,11 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "EBC FA192 · SBS 675LS"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -10172,6 +10197,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "BN8RTI"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             },
             {
               "key": "coolant",
@@ -10349,6 +10384,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 110 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -10526,6 +10571,16 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "Oil change every 5,000 km; spark plugs every 20,000 km"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -10693,6 +10748,16 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "15,000 km / 12 months"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -51394,6 +51459,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 118 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -51566,6 +51641,16 @@
               "key": "note",
               "label": "Note",
               "value": "QJMotor specifies a 1,000 km first service, then the intervals in the owner’s manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -67239,6 +67324,11 @@
               "value": "NGK LMAR9J-9E"
             },
             {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 12Ah lithium"
+            },
+            {
               "key": "coolant",
               "label": "Coolant",
               "value": "2.0 L"
@@ -73835,6 +73925,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-40, JASO MA2"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 12Ah"
             }
           ]
         },
@@ -74007,6 +74107,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "Chain"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah lithium"
             }
           ]
         },
@@ -86586,6 +86691,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -87225,6 +87340,11 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the 2020 model year. Confirm variant-specific equipment and service limits against the owner's manual."
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -87438,6 +87558,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications are shared with the Benelli Leoncino 800. Variant-specific equipment may differ; confirm against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11Ah"
             }
           ]
         },

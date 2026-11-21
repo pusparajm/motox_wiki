@@ -111,6 +111,11 @@
             "value": "NGK LMAR9J-9E"
           },
           {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 12Ah lithium"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "2.0 L"

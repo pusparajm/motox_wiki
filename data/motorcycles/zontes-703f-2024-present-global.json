@@ -119,6 +119,11 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "Chain"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 6Ah lithium"
           }
         ]
       },

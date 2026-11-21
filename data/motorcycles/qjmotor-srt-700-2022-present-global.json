@@ -119,6 +119,16 @@
             "key": "note",
             "label": "Note",
             "value": "QJMotor specifies a 1,000 km first service, then the intervals in the owner’s manual."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
           }
         ]
       },

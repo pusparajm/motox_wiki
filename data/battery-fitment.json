@@ -103,6 +103,15 @@
       "rating": "12V 8Ah",
       "source": "manufacturer"
     },
+    "benelli-752-s-2020-2023-global": {
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
+    },
+    "benelli-800-leoncino-trail-2022-2023-global": {
+      "code": "YTX12-BS",
+      "rating": "12V 11Ah",
+      "source": "manufacturer"
+    },
     "benelli-imperiale-400-2019-present-global": {
       "code": "YTX9-BS",
       "rating": "12V 8Ah",
@@ -113,7 +122,17 @@
       "rating": "12V 8Ah",
       "source": "manufacturer"
     },
+    "benelli-leoncino-800-2021-present-global": {
+      "code": "YTX12-BS",
+      "rating": "12V 11Ah",
+      "source": "manufacturer"
+    },
     "benelli-trk-502-2017-present-global": {
+      "code": "YTX9-BS",
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
+    },
+    "benelli-trk-502-x-2017-2023-global": {
       "code": "YTX9-BS",
       "rating": "12V 8Ah",
       "source": "manufacturer"
@@ -520,11 +539,37 @@
       "raw": "440 C440,E440,S440,X440,X440S '02-'03 - YTZ7S YTX5L-BS -"
     },
     "cfmoto-450mt-2024-present-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "fitment"
+    },
+    "cfmoto-450sr-2022-present-global": {
+      "code": "YTX12-BS",
+      "rating": "12V 12Ah",
+      "source": "manufacturer"
+    },
+    "cfmoto-650nk-2015-present-global": {
+      "code": "YTX12-BS",
+      "source": "fitment"
+    },
+    "cfmoto-675sr-r-2024-present-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "fitment"
+    },
+    "cfmoto-700cl-x-2021-present-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "fitment"
+    },
+    "cfmoto-800mt-2021-present-global": {
+      "code": "YTZ14S",
       "rating": "12V 11.2Ah",
       "source": "manufacturer"
     },
-    "cfmoto-450sr-2022-present-global": {
-      "rating": "12V 12Ah",
+    "cfmoto-800nk-2023-present-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
       "source": "manufacturer"
     },
     "ducati-1098-2007-2008-global": {
@@ -1995,6 +2040,16 @@
       "years": "2016-2019",
       "raw": "853 V9Bobber,Roamer '16-'19 GYZ16H YTX14H-BS* YTX14-BS"
     },
+    "qjmotor-srt-550-2022-present-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "fitment"
+    },
+    "qjmotor-srt-700-2022-present-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "manufacturer"
+    },
     "royal-enfield-bear-650-2025-present-global": {
       "rating": "12V 12Ah VRLA",
       "source": "manufacturer"
@@ -2542,6 +2597,10 @@
       "rating": "12V 7Ah",
       "source": "manufacturer"
     },
+    "voge-900dsx-2023-present-global": {
+      "rating": "12V 12Ah lithium",
+      "source": "manufacturer"
+    },
     "yamaha-aerox-155-2021-present-global": {
       "code": "YTZ7V",
       "rating": "12V 6Ah",
@@ -3081,6 +3140,15 @@
       "code": "YTZ7S",
       "rating": "12V 6Ah",
       "source": "guide"
+    },
+    "zontes-368g-2024-present-global": {
+      "code": "YTX12-BS",
+      "rating": "12V 12Ah",
+      "source": "manufacturer"
+    },
+    "zontes-703f-2024-present-global": {
+      "rating": "12V 6Ah lithium",
+      "source": "manufacturer"
     }
   }
 }

@@ -119,6 +119,11 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "EBC FA192 · SBS 675LS"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX12-BS"
           }
         ]
       },

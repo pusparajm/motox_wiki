@@ -124,6 +124,16 @@
             "key": "service_interval",
             "label": "Service Interval",
             "value": "Oil change every 5,000 km; spark plugs every 20,000 km"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
           }
         ]
       },
