@@ -152,13 +152,13 @@ Examples:
 
 - Adaptive titles: oil-capacity pages target oil queries, fitment-only entries target brake-pad fitment, and full-spec pages target specs and torque.
 - Every meta description is built from the strongest available data, so no page ships with an empty `specs: .` description.
-- Fitment-only entries show a **Brake pad fitment** block with front/rear codes, a shape-family cross-reference where the interchange data matches, and links to the two brake reference pages.
+- Fitment-only entries use the standard model-page layout. Their brake-pad codes stay in **Service Data**, and the two brake reference pages are linked from **Related Guides**.
 - Added **“Also known as”** aliases (Fireblade, Busa, CP2, etc.).
 - Added an H2 **Specifications** section.
 - Added a **Frequently Asked Questions** section generated from real data:
   - power, torque, seat height, weight, oil capacity/grade, top speed, fuel capacity
 - Added `FAQPage`, `Motorcycle` and `BreadcrumbList` structured data.
-- Added **Related Models**, **Models sharing this brake pad shape** and **Related Guides** links.
+- Added **Related Models** and **Related Guides** links.
 - Added canonical, Open Graph and Twitter meta.
 
 ### Static model pages
