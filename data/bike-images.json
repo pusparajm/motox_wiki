@@ -1,7 +1,7 @@
 {
   "version": 1,
   "images": {
-    "kawasaki-ninja-zx-10r-2016-2020-global": {
+    "kawasaki-ninja-zx-10r": {
       "source": "approved",
       "sourcePage": "https://www.bikedekho.com/kawasaki/ninja-zx-10r/specifications",
       "license": "Written permission — BikeDekho",
@@ -9,7 +9,7 @@
       "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
       "credit": "",
       "creditRequired": false,
-      "alt": "Kawasaki Ninja ZX-10R side view",
+      "alt": "Kawasaki Ninja ZX-10R 2021-2025 side view",
       "width": 800,
       "height": 533,
       "variants": {
@@ -24,6 +24,786 @@
         "jpg": {
           "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-13213a48-400.jpg",
           "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-13213a48-800.jpg"
+        }
+      }
+    },
+    "aprilia-rs-457-2023-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/aprilia/rs-457",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Aprilia RS 457 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rs-457/rs-457-049935b3-400.avif",
+          "800": "images/motorcycles/aprilia/rs-457/rs-457-049935b3-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rs-457/rs-457-049935b3-400.webp",
+          "800": "images/motorcycles/aprilia/rs-457/rs-457-049935b3-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rs-457/rs-457-049935b3-400.jpg",
+          "800": "images/motorcycles/aprilia/rs-457/rs-457-049935b3-800.jpg"
+        }
+      }
+    },
+    "aprilia-rs-660-2020-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/aprilia/rs-660",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Aprilia RS 660 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rs-660/rs-660-66064d80-400.avif",
+          "800": "images/motorcycles/aprilia/rs-660/rs-660-66064d80-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rs-660/rs-660-66064d80-400.webp",
+          "800": "images/motorcycles/aprilia/rs-660/rs-660-66064d80-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rs-660/rs-660-66064d80-400.jpg",
+          "800": "images/motorcycles/aprilia/rs-660/rs-660-66064d80-800.jpg"
+        }
+      }
+    },
+    "aprilia-rsv4-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/aprilia/rsv4",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Aprilia RSV4 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rsv4/rsv4-3efe0093-400.avif",
+          "800": "images/motorcycles/aprilia/rsv4/rsv4-3efe0093-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rsv4/rsv4-3efe0093-400.webp",
+          "800": "images/motorcycles/aprilia/rsv4/rsv4-3efe0093-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rsv4/rsv4-3efe0093-400.jpg",
+          "800": "images/motorcycles/aprilia/rsv4/rsv4-3efe0093-800.jpg"
+        }
+      }
+    },
+    "aprilia-sr-160-2021-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/aprilia/sr-160-bs6",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Aprilia SR 160 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/sr-160/sr-160-873dfec9-400.avif",
+          "800": "images/motorcycles/aprilia/sr-160/sr-160-873dfec9-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/sr-160/sr-160-873dfec9-400.webp",
+          "800": "images/motorcycles/aprilia/sr-160/sr-160-873dfec9-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/sr-160/sr-160-873dfec9-400.jpg",
+          "800": "images/motorcycles/aprilia/sr-160/sr-160-873dfec9-800.jpg"
+        }
+      }
+    },
+    "aprilia-tuareg-660-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/aprilia/tuareg-660",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Aprilia Tuareg 660 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/tuareg-660/tuareg-660-1001851a-400.avif",
+          "800": "images/motorcycles/aprilia/tuareg-660/tuareg-660-1001851a-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/tuareg-660/tuareg-660-1001851a-400.webp",
+          "800": "images/motorcycles/aprilia/tuareg-660/tuareg-660-1001851a-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/tuareg-660/tuareg-660-1001851a-400.jpg",
+          "800": "images/motorcycles/aprilia/tuareg-660/tuareg-660-1001851a-800.jpg"
+        }
+      }
+    },
+    "aprilia-tuono-660-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/aprilia/tuono-660",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Aprilia Tuono 660 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/tuono-660/tuono-660-b6395bb0-400.avif",
+          "800": "images/motorcycles/aprilia/tuono-660/tuono-660-b6395bb0-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/tuono-660/tuono-660-b6395bb0-400.webp",
+          "800": "images/motorcycles/aprilia/tuono-660/tuono-660-b6395bb0-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/tuono-660/tuono-660-b6395bb0-400.jpg",
+          "800": "images/motorcycles/aprilia/tuono-660/tuono-660-b6395bb0-800.jpg"
+        }
+      }
+    },
+    "bajaj-chetak-2020-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bajaj/chetak",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Bajaj Chetak side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bajaj/chetak/chetak-20a9721f-400.avif",
+          "800": "images/motorcycles/bajaj/chetak/chetak-20a9721f-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bajaj/chetak/chetak-20a9721f-400.webp",
+          "800": "images/motorcycles/bajaj/chetak/chetak-20a9721f-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bajaj/chetak/chetak-20a9721f-400.jpg",
+          "800": "images/motorcycles/bajaj/chetak/chetak-20a9721f-800.jpg"
+        }
+      }
+    },
+    "bajaj-freedom-125-cng-2024-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bajaj/freedom-125",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Bajaj Freedom 125 CNG side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bajaj/freedom-125-cng/freedom-125-cng-3b5c4363-400.avif",
+          "800": "images/motorcycles/bajaj/freedom-125-cng/freedom-125-cng-3b5c4363-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bajaj/freedom-125-cng/freedom-125-cng-3b5c4363-400.webp",
+          "800": "images/motorcycles/bajaj/freedom-125-cng/freedom-125-cng-3b5c4363-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bajaj/freedom-125-cng/freedom-125-cng-3b5c4363-400.jpg",
+          "800": "images/motorcycles/bajaj/freedom-125-cng/freedom-125-cng-3b5c4363-800.jpg"
+        }
+      }
+    },
+    "bajaj-platina-110-2019-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bajaj/platina",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Bajaj Platina 110 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bajaj/platina-110/platina-110-e7515c4b-400.avif",
+          "800": "images/motorcycles/bajaj/platina-110/platina-110-e7515c4b-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bajaj/platina-110/platina-110-e7515c4b-400.webp",
+          "800": "images/motorcycles/bajaj/platina-110/platina-110-e7515c4b-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bajaj/platina-110/platina-110-e7515c4b-400.jpg",
+          "800": "images/motorcycles/bajaj/platina-110/platina-110-e7515c4b-800.jpg"
+        }
+      }
+    },
+    "bajaj-pulsar-n160-2022-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bajaj/pulsar-n160",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Bajaj Pulsar N160 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bajaj/pulsar-n160/pulsar-n160-421515fa-400.avif",
+          "800": "images/motorcycles/bajaj/pulsar-n160/pulsar-n160-421515fa-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bajaj/pulsar-n160/pulsar-n160-421515fa-400.webp",
+          "800": "images/motorcycles/bajaj/pulsar-n160/pulsar-n160-421515fa-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bajaj/pulsar-n160/pulsar-n160-421515fa-400.jpg",
+          "800": "images/motorcycles/bajaj/pulsar-n160/pulsar-n160-421515fa-800.jpg"
+        }
+      }
+    },
+    "bajaj-pulsar-n250-2021-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bajaj/pulsar-n250",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Bajaj Pulsar N250 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bajaj/pulsar-n250/pulsar-n250-24787a85-400.avif",
+          "800": "images/motorcycles/bajaj/pulsar-n250/pulsar-n250-24787a85-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bajaj/pulsar-n250/pulsar-n250-24787a85-400.webp",
+          "800": "images/motorcycles/bajaj/pulsar-n250/pulsar-n250-24787a85-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bajaj/pulsar-n250/pulsar-n250-24787a85-400.jpg",
+          "800": "images/motorcycles/bajaj/pulsar-n250/pulsar-n250-24787a85-800.jpg"
+        }
+      }
+    },
+    "bajaj-pulsar-ns200-2023-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bajaj/pulsar-ns200",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Bajaj Pulsar NS200 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bajaj/pulsar-ns200/pulsar-ns200-90e866e9-400.avif",
+          "800": "images/motorcycles/bajaj/pulsar-ns200/pulsar-ns200-90e866e9-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bajaj/pulsar-ns200/pulsar-ns200-90e866e9-400.webp",
+          "800": "images/motorcycles/bajaj/pulsar-ns200/pulsar-ns200-90e866e9-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bajaj/pulsar-ns200/pulsar-ns200-90e866e9-400.jpg",
+          "800": "images/motorcycles/bajaj/pulsar-ns200/pulsar-ns200-90e866e9-800.jpg"
+        }
+      }
+    },
+    "bajaj-pulsar-ns400z-2024-present-india": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bajaj/pulsar-ns400z",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Bajaj Pulsar NS400Z side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bajaj/pulsar-ns400z/pulsar-ns400z-564ef2f1-400.avif",
+          "800": "images/motorcycles/bajaj/pulsar-ns400z/pulsar-ns400z-564ef2f1-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bajaj/pulsar-ns400z/pulsar-ns400z-564ef2f1-400.webp",
+          "800": "images/motorcycles/bajaj/pulsar-ns400z/pulsar-ns400z-564ef2f1-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bajaj/pulsar-ns400z/pulsar-ns400z-564ef2f1-400.jpg",
+          "800": "images/motorcycles/bajaj/pulsar-ns400z/pulsar-ns400z-564ef2f1-800.jpg"
+        }
+      }
+    },
+    "bmw-c-400-gt-2018-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bmw/c-400-gt",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "BMW C 400 GT side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bmw/c-400-gt/c-400-gt-fc548e9c-400.avif",
+          "800": "images/motorcycles/bmw/c-400-gt/c-400-gt-fc548e9c-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bmw/c-400-gt/c-400-gt-fc548e9c-400.webp",
+          "800": "images/motorcycles/bmw/c-400-gt/c-400-gt-fc548e9c-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bmw/c-400-gt/c-400-gt-fc548e9c-400.jpg",
+          "800": "images/motorcycles/bmw/c-400-gt/c-400-gt-fc548e9c-800.jpg"
+        }
+      }
+    },
+    "bmw-ce-04-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bmw/ce-04",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "BMW CE 04 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bmw/ce-04/ce-04-a389be6c-400.avif",
+          "800": "images/motorcycles/bmw/ce-04/ce-04-a389be6c-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bmw/ce-04/ce-04-a389be6c-400.webp",
+          "800": "images/motorcycles/bmw/ce-04/ce-04-a389be6c-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bmw/ce-04/ce-04-a389be6c-400.jpg",
+          "800": "images/motorcycles/bmw/ce-04/ce-04-a389be6c-800.jpg"
+        }
+      }
+    },
+    "bmw-f-900-gs-2024-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bmw/f-900-gs",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "BMW F 900 GS side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bmw/f-900-gs/f-900-gs-4f82edda-400.avif",
+          "800": "images/motorcycles/bmw/f-900-gs/f-900-gs-4f82edda-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bmw/f-900-gs/f-900-gs-4f82edda-400.webp",
+          "800": "images/motorcycles/bmw/f-900-gs/f-900-gs-4f82edda-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bmw/f-900-gs/f-900-gs-4f82edda-400.jpg",
+          "800": "images/motorcycles/bmw/f-900-gs/f-900-gs-4f82edda-800.jpg"
+        }
+      }
+    },
+    "bmw-f450gs-2026-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bmw/f-450-gs",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "BMW F 450 GS side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bmw/f-450-gs/f-450-gs-f954cb00-400.avif",
+          "800": "images/motorcycles/bmw/f-450-gs/f-450-gs-f954cb00-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bmw/f-450-gs/f-450-gs-f954cb00-400.webp",
+          "800": "images/motorcycles/bmw/f-450-gs/f-450-gs-f954cb00-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bmw/f-450-gs/f-450-gs-f954cb00-400.jpg",
+          "800": "images/motorcycles/bmw/f-450-gs/f-450-gs-f954cb00-800.jpg"
+        }
+      }
+    },
+    "bmw-m-1000-r-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bmw/m-1000-r",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "BMW M 1000 R side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bmw/m-1000-r/m-1000-r-848f9322-400.avif",
+          "800": "images/motorcycles/bmw/m-1000-r/m-1000-r-848f9322-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bmw/m-1000-r/m-1000-r-848f9322-400.webp",
+          "800": "images/motorcycles/bmw/m-1000-r/m-1000-r-848f9322-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bmw/m-1000-r/m-1000-r-848f9322-400.jpg",
+          "800": "images/motorcycles/bmw/m-1000-r/m-1000-r-848f9322-800.jpg"
+        }
+      }
+    },
+    "bmw-r-12-2024-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bmw/r-12",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "BMW R 12 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bmw/r-12/r-12-7d570871-400.avif",
+          "800": "images/motorcycles/bmw/r-12/r-12-7d570871-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bmw/r-12/r-12-7d570871-400.webp",
+          "800": "images/motorcycles/bmw/r-12/r-12-7d570871-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bmw/r-12/r-12-7d570871-400.jpg",
+          "800": "images/motorcycles/bmw/r-12/r-12-7d570871-800.jpg"
+        }
+      }
+    },
+    "bmw-r-12-ninet-2024-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bmw/r-12-ninet",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "BMW R 12 nineT side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bmw/r-12-ninet/r-12-ninet-56da5e11-400.avif",
+          "800": "images/motorcycles/bmw/r-12-ninet/r-12-ninet-56da5e11-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bmw/r-12-ninet/r-12-ninet-56da5e11-400.webp",
+          "800": "images/motorcycles/bmw/r-12-ninet/r-12-ninet-56da5e11-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bmw/r-12-ninet/r-12-ninet-56da5e11-400.jpg",
+          "800": "images/motorcycles/bmw/r-12-ninet/r-12-ninet-56da5e11-800.jpg"
+        }
+      }
+    },
+    "bmw-r-1300-gs-2023-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bmw/r-1300-gs",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "BMW R 1300 GS side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bmw/r-1300-gs/r-1300-gs-609e18e7-400.avif",
+          "800": "images/motorcycles/bmw/r-1300-gs/r-1300-gs-609e18e7-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bmw/r-1300-gs/r-1300-gs-609e18e7-400.webp",
+          "800": "images/motorcycles/bmw/r-1300-gs/r-1300-gs-609e18e7-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bmw/r-1300-gs/r-1300-gs-609e18e7-400.jpg",
+          "800": "images/motorcycles/bmw/r-1300-gs/r-1300-gs-609e18e7-800.jpg"
+        }
+      }
+    },
+    "bmw-s-1000-r-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bmw/s-1000-r",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "BMW S 1000 R side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bmw/s-1000-r/s-1000-r-33305f32-400.avif",
+          "800": "images/motorcycles/bmw/s-1000-r/s-1000-r-33305f32-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bmw/s-1000-r/s-1000-r-33305f32-400.webp",
+          "800": "images/motorcycles/bmw/s-1000-r/s-1000-r-33305f32-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bmw/s-1000-r/s-1000-r-33305f32-400.jpg",
+          "800": "images/motorcycles/bmw/s-1000-r/s-1000-r-33305f32-800.jpg"
+        }
+      }
+    },
+    "bsa-gold-star-650-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/bsa/gold-star",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "BSA Gold Star 650 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/bsa/gold-star-650/gold-star-650-5cdc60fb-400.avif",
+          "800": "images/motorcycles/bsa/gold-star-650/gold-star-650-5cdc60fb-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/bsa/gold-star-650/gold-star-650-5cdc60fb-400.webp",
+          "800": "images/motorcycles/bsa/gold-star-650/gold-star-650-5cdc60fb-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/bsa/gold-star-650/gold-star-650-5cdc60fb-400.jpg",
+          "800": "images/motorcycles/bsa/gold-star-650/gold-star-650-5cdc60fb-800.jpg"
+        }
+      }
+    },
+    "cfmoto-450sr-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/cfmoto/450sr",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CFMOTO 450SR side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/cfmoto/450sr/450sr-6d6a2b63-400.avif",
+          "800": "images/motorcycles/cfmoto/450sr/450sr-6d6a2b63-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/cfmoto/450sr/450sr-6d6a2b63-400.webp",
+          "800": "images/motorcycles/cfmoto/450sr/450sr-6d6a2b63-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/cfmoto/450sr/450sr-6d6a2b63-400.jpg",
+          "800": "images/motorcycles/cfmoto/450sr/450sr-6d6a2b63-800.jpg"
+        }
+      }
+    },
+    "cfmoto-650nk-2015-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/cfmoto/650nk",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CFMOTO 650NK side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/cfmoto/650nk/650nk-73718e06-400.avif",
+          "800": "images/motorcycles/cfmoto/650nk/650nk-73718e06-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/cfmoto/650nk/650nk-73718e06-400.webp",
+          "800": "images/motorcycles/cfmoto/650nk/650nk-73718e06-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/cfmoto/650nk/650nk-73718e06-400.jpg",
+          "800": "images/motorcycles/cfmoto/650nk/650nk-73718e06-800.jpg"
+        }
+      }
+    },
+    "ducati-desertx-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/ducati/desertx",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Ducati DesertX side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/desertx/desertx-d6df6314-400.avif",
+          "800": "images/motorcycles/ducati/desertx/desertx-d6df6314-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/desertx/desertx-d6df6314-400.webp",
+          "800": "images/motorcycles/ducati/desertx/desertx-d6df6314-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/desertx/desertx-d6df6314-400.jpg",
+          "800": "images/motorcycles/ducati/desertx/desertx-d6df6314-800.jpg"
+        }
+      }
+    },
+    "ducati-diavel-v4-2023-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/ducati/diavel-v4",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Ducati Diavel V4 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/diavel-v4/diavel-v4-fdb94c6c-400.avif",
+          "800": "images/motorcycles/ducati/diavel-v4/diavel-v4-fdb94c6c-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/diavel-v4/diavel-v4-fdb94c6c-400.webp",
+          "800": "images/motorcycles/ducati/diavel-v4/diavel-v4-fdb94c6c-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/diavel-v4/diavel-v4-fdb94c6c-400.jpg",
+          "800": "images/motorcycles/ducati/diavel-v4/diavel-v4-fdb94c6c-800.jpg"
+        }
+      }
+    },
+    "ducati-hypermotard-698-mono-2024-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/ducati/hypermotard-698",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Ducati Hypermotard 698 Mono side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/hypermotard-698-mono/hypermotard-698-mono-f66cb710-400.avif",
+          "800": "images/motorcycles/ducati/hypermotard-698-mono/hypermotard-698-mono-f66cb710-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/hypermotard-698-mono/hypermotard-698-mono-f66cb710-400.webp",
+          "800": "images/motorcycles/ducati/hypermotard-698-mono/hypermotard-698-mono-f66cb710-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/hypermotard-698-mono/hypermotard-698-mono-f66cb710-400.jpg",
+          "800": "images/motorcycles/ducati/hypermotard-698-mono/hypermotard-698-mono-f66cb710-800.jpg"
+        }
+      }
+    },
+    "ducati-multistrada-v2-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/ducati/multistrada-v2",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Ducati Multistrada V2 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/multistrada-v2/multistrada-v2-eb41e4a0-400.avif",
+          "800": "images/motorcycles/ducati/multistrada-v2/multistrada-v2-eb41e4a0-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/multistrada-v2/multistrada-v2-eb41e4a0-400.webp",
+          "800": "images/motorcycles/ducati/multistrada-v2/multistrada-v2-eb41e4a0-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/multistrada-v2/multistrada-v2-eb41e4a0-400.jpg",
+          "800": "images/motorcycles/ducati/multistrada-v2/multistrada-v2-eb41e4a0-800.jpg"
+        }
+      }
+    },
+    "ducati-multistrada-v4-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/ducati/multistrada-v4",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Ducati Multistrada V4 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/ducati/multistrada-v4/multistrada-v4-22aae28f-400.avif",
+          "800": "images/motorcycles/ducati/multistrada-v4/multistrada-v4-22aae28f-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/ducati/multistrada-v4/multistrada-v4-22aae28f-400.webp",
+          "800": "images/motorcycles/ducati/multistrada-v4/multistrada-v4-22aae28f-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/ducati/multistrada-v4/multistrada-v4-22aae28f-400.jpg",
+          "800": "images/motorcycles/ducati/multistrada-v4/multistrada-v4-22aae28f-800.jpg"
         }
       }
     }

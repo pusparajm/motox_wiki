@@ -3,12 +3,21 @@
 ## Status
 
 Phase 1 is complete: the image pipeline, manifest, responsive markup, social metadata
-and image sitemap entries are in place. The current approved image is the Kawasaki Ninja
-ZX-10R 2016–2020 from BikeDekho. All other model images were removed while approved
-sources are collected.
+and image sitemap entries are in place. Thirty-one approved BikeDekho images are live,
+covering current Aprilia, Bajaj, BMW, BSA, CFMOTO and Ducati models. More batches are
+being added as model matches are verified.
 
 Where the licence or written permission does not require public credit, no credit line
 is rendered. Source, licence and permission details remain in the manifest for audit.
+
+## Approved sources
+
+- **BikeDekho** — written permission on file. Source images are unwatermarked and render
+  at 800 px from the 930 × 620 originals.
+- **CarBike360** — written permission on file. Watermarked files are not used; only
+  unwatermarked originals or supplied files are accepted.
+- **MotorcycleSpecs.co.za** — blocked pending written permission. Its Terms of Use
+  explicitly prohibit copying, publishing or reproducing its material.
 
 All other models have no image until a licensed source is supplied. The pipeline does
 not scrape third-party pages and will not publish an image without an explicit licence
