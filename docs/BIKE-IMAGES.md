@@ -3,12 +3,14 @@
 ## Status
 
 Phase 1 is complete: the image pipeline, manifest, responsive markup, social metadata
-and image sitemap entries are in place. One hundred and ninety-two approved images are live:
+and image sitemap entries are in place. Six hundred and forty-four approved images are live:
 61 from BikeDekho across current Aprilia, Bajaj, BMW, BSA, CFMOTO, Ducati,
-Harley-Davidson, Hero, Honda, Indian, Kawasaki and Royal Enfield models, plus 131 from
-MotorcycleSpecs covering older Honda, Yamaha, Suzuki, Kawasaki, Ducati, BMW, KTM,
-Triumph, Royal Enfield, Harley-Davidson and Aprilia generations, plus the 2016–2020
-Kawasaki Ninja ZX-10R. More batches are being added as model matches are verified.
+Harley-Davidson, Hero, Honda, Indian, Kawasaki and Royal Enfield models, plus 583 from
+MotorcycleSpecs covering 25 brands, including older Honda, Yamaha, Suzuki, Kawasaki,
+Ducati, BMW, KTM, Triumph, Moto Guzzi, MV Agusta, Aprilia, Husqvarna, Benelli, Bimota,
+Cagiva, CFMOTO, Fantic, Hyosung, Laverda, Norton and Vespa generations. The latest sweep
+added 452 images after a full MotorcycleSpecs brand-index crawl and a manual full-bike
+review. More batches are being added as model matches are verified.
 
 Where the licence or written permission does not require public credit, no credit line
 is rendered. Source, licence and permission details remain in the manifest for audit.
@@ -89,10 +91,12 @@ and rights approval.
 
 1. **Phase 1 — pipeline and pilot (done):** two models, responsive formats, social metadata,
    image sitemap and page-speed checks.
-2. **Phase 2 — one manufacturer at a time (started):** add only approved assets, review 50–100 models,
-   then run a page-speed and broken-image check.
-3. **Phase 3 — remaining catalogue:** continue in batches until every model has either an
-   approved image or an explicit "no licensed image" status.
+2. **Phase 2 — MotorcycleSpecs batch sweep (done for 25 brands):** crawl each brand index,
+   match every missing model, reject scans/details/trim duplicates, then add only approved
+   full-bike assets. Current coverage is recorded in `docs/IMAGE-COVERAGE.md`.
+3. **Phase 3 — remaining catalogue:** continue with BikeDekho for Indian-market brands and
+   unwatermarked CarBike360 originals until every model has either an approved image or an
+   explicit "no licensed image" status.
 4. **Phase 4 — audit:** verify image dimensions, licences, credits, sitemap entries and
    Core Web Vitals after the catalogue is populated.
 
