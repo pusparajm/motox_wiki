@@ -2540,7 +2540,7 @@ def build_model_pages(bikes, brand_links):
         }
         pad_related = []
         seen_pad_ids = set()
-        for code in pad_codes:
+        for code in sorted(pad_codes):
             for candidate in pad_index.get(code, []):
                 if candidate["id"] == bike["id"] or candidate["id"] in seen_pad_ids:
                     continue
