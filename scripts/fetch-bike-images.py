@@ -23,7 +23,7 @@ SOURCES = DATA / "bike-image-sources.json"
 MANIFEST = DATA / "bike-images.json"
 MOTORCYCLES = DATA / "motorcycles.json"
 
-WIDTHS = (400, 800, 1200, 1600)
+WIDTHS = (400, 800, 1200)
 ASPECT = 2 / 3
 USER_AGENT = "MotoXWikiImagePipeline/1.0 (+https://motoxref.com)"
 MAX_BYTES = 20 * 1024 * 1024
@@ -192,8 +192,8 @@ def main():
             "credit": entry.get("credit", ""),
             "creditRequired": bool(entry.get("creditRequired")),
             "alt": entry.get("alt") or f"{model.get('make', '')} {model.get('model', '')}",
-            "width": 1600,
-            "height": round(1600 * ASPECT),
+            "width": 1200,
+            "height": round(1200 * ASPECT),
             "variants": variants,
         }
         downloaded += 1

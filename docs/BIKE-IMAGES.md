@@ -3,7 +3,7 @@
 ## Status
 
 Phase 1 is complete: the image pipeline, manifest, responsive markup, social metadata
-and image sitemap entries are in place. Two free-licence images are live as the pilot.
+and image sitemap entries are in place. Four free-licence images are live as the pilot: Royal Enfield Himalayan 411, Honda CBR1000RR-R, Kawasaki Ninja 400 and Suzuki V-Strom 650.
 
 All other models have no image until a licensed source is supplied. The pipeline does
 not scrape third-party pages and will not publish an image without an explicit licence
@@ -13,7 +13,7 @@ and rights approval.
 
 - `data/bike-image-sources.json` — approved source list. Every entry needs `modelId`,
   a direct HTTPS `imageUrl`, `sourcePage`, `license`, `credit` and `rightsApproved: true`.
-- `scripts/fetch-bike-images.py` — downloads the approved file, generates 400/800/1200/1600
+- `scripts/fetch-bike-images.py` — downloads the approved file, generates 400/800/1200
   px AVIF, WebP and JPEG variants at a 3:2 hero ratio, strips metadata, hashes the filename
   and writes `data/bike-images.json`.
 - `images/motorcycles/<make>/<model>/` — generated variants.
@@ -27,8 +27,8 @@ and rights approval.
 - Hero image: `loading="eager"`, `fetchpriority="high"`, `decoding="async"`.
 - AVIF source first, WebP second, JPEG fallback.
 - Explicit `width` and `height` on the fallback image.
-- `srcset` at 400/800/1200/1600 px with a 960 px desktop `sizes` cap.
-- 1600 px AVIF target: under 160 KB.
+- `srcset` at 400/800/1200 px with a 960 px desktop `sizes` cap.
+- 1200 px AVIF target: under 160 KB.
 - No image is repeated above the fold on the same page.
 
 ## Licensing rules
@@ -44,7 +44,7 @@ and rights approval.
 
 1. **Phase 1 — pipeline and pilot (done):** two models, responsive formats, social metadata,
    image sitemap and page-speed checks.
-2. **Phase 2 — one manufacturer at a time:** add only approved assets, review 50–100 models,
+2. **Phase 2 — one manufacturer at a time (started):** add only approved assets, review 50–100 models,
    then run a page-speed and broken-image check.
 3. **Phase 3 — remaining catalogue:** continue in batches until every model has either an
    approved image or an explicit "no licensed image" status.

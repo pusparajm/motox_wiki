@@ -1723,8 +1723,8 @@ def bike_image_html(bike):
         credit = f"<figcaption>{credit_text}</figcaption>"
     return (
         '<figure class="bike-photo"><picture>'
-        f'{sources}<img src="../{fallback}" alt="{alt}" width="{entry.get("width", 1600)}" '
-        f'height="{entry.get("height", 1067)}" loading="eager" fetchpriority="high" decoding="async">'
+        f'{sources}<img src="../{fallback}" alt="{alt}" width="{entry.get("width", 1200)}" '
+        f'height="{entry.get("height", 800)}" loading="eager" fetchpriority="high" decoding="async">'
         f'</picture>{credit}</figure>'
     )
 

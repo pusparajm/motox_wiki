@@ -9,26 +9,23 @@
       "credit": "Ashley Pomeroy, CC0, via Wikimedia Commons",
       "creditRequired": false,
       "alt": "Royal Enfield Himalayan 411 on a gravel road",
-      "width": 1600,
-      "height": 1067,
+      "width": 1200,
+      "height": 800,
       "variants": {
         "avif": {
           "400": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-400.avif",
           "800": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-800.avif",
-          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1200.avif",
-          "1600": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1600.avif"
+          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1200.avif"
         },
         "webp": {
           "400": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-400.webp",
           "800": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-800.webp",
-          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1200.webp",
-          "1600": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1600.webp"
+          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1200.webp"
         },
         "jpg": {
           "400": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-400.jpg",
           "800": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-800.jpg",
-          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1200.jpg",
-          "1600": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1600.jpg"
+          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1200.jpg"
         }
       }
     },
@@ -40,26 +37,79 @@
       "credit": "Chanokchon, via Wikimedia Commons",
       "creditRequired": true,
       "alt": "Honda CBR1000RR-R Fireblade SP side view at a motor show",
-      "width": 1600,
-      "height": 1067,
+      "width": 1200,
+      "height": 800,
       "variants": {
         "avif": {
           "400": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-400.avif",
           "800": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-800.avif",
-          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1200.avif",
-          "1600": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1600.avif"
+          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1200.avif"
         },
         "webp": {
           "400": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-400.webp",
           "800": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-800.webp",
-          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1200.webp",
-          "1600": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1600.webp"
+          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1200.webp"
         },
         "jpg": {
           "400": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-400.jpg",
           "800": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-800.jpg",
-          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1200.jpg",
-          "1600": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1600.jpg"
+          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1200.jpg"
+        }
+      }
+    },
+    "kawasaki-ninja-400-2018-present": {
+      "source": "approved",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawasaki_Ninja_400.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "Rikita, via Wikimedia Commons",
+      "creditRequired": true,
+      "alt": "Kawasaki Ninja 400 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-400/ninja-400-01dd1f0e-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-400/ninja-400-01dd1f0e-800.avif",
+          "1200": "images/motorcycles/kawasaki/ninja-400/ninja-400-01dd1f0e-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-400/ninja-400-01dd1f0e-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-400/ninja-400-01dd1f0e-800.webp",
+          "1200": "images/motorcycles/kawasaki/ninja-400/ninja-400-01dd1f0e-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-400/ninja-400-01dd1f0e-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-400/ninja-400-01dd1f0e-800.jpg",
+          "1200": "images/motorcycles/kawasaki/ninja-400/ninja-400-01dd1f0e-1200.jpg"
+        }
+      }
+    },
+    "suzuki-v-strom-650-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Suzuki_650_DL_test_drive_IMG_20170519_143232_(34986974505).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "credit": "EnricoCE, via Wikimedia Commons",
+      "creditRequired": true,
+      "alt": "Suzuki V-Strom 650 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/v-strom-650/v-strom-650-09adfba8-400.avif",
+          "800": "images/motorcycles/suzuki/v-strom-650/v-strom-650-09adfba8-800.avif",
+          "1200": "images/motorcycles/suzuki/v-strom-650/v-strom-650-09adfba8-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/v-strom-650/v-strom-650-09adfba8-400.webp",
+          "800": "images/motorcycles/suzuki/v-strom-650/v-strom-650-09adfba8-800.webp",
+          "1200": "images/motorcycles/suzuki/v-strom-650/v-strom-650-09adfba8-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/v-strom-650/v-strom-650-09adfba8-400.jpg",
+          "800": "images/motorcycles/suzuki/v-strom-650/v-strom-650-09adfba8-800.jpg",
+          "1200": "images/motorcycles/suzuki/v-strom-650/v-strom-650-09adfba8-1200.jpg"
         }
       }
     }
