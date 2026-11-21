@@ -271,6 +271,20 @@ Static model pages are now generated. The next improvement is to add more verifi
 
 ---
 
+## Priority action plan (November 2026)
+
+| Priority | Action | Why it matters |
+|---|---|---|
+| P0 | Submit `sitemap.xml` in Google Search Console and Yandex Webmaster; request indexing for the homepage, top guides, top model pages and the brake/battery/tyre finders. | The sitemap is healthy, but indexing is the bottleneck. Search Console data is still too small to guide content decisions. |
+| P0 | Monitor a sample of 20 fitment-only model pages in URL Inspection for 30 days. | If Google reports “Crawled — currently not indexed”, either enrich those models or noindex/consolidate the lowest-value entries instead of leaving 4,000 thin URLs in the index. |
+| P0 | Add verified specifications and licensed images for the top 100 models by impressions and search demand. | Rich model pages earn links, image search traffic and better CTR; fitment-only entries cannot rank for broad “specs” queries. |
+| P1 | Build links to the brake fitment table, pad-shape cross-reference, battery finder and oil-capacity chart. | Data assets are the most linkable part of the site. A new domain needs external citations before competitive queries can rank. |
+| P1 | Publish 10–20 high-intent service guides: tyre pressures, chain slack, valve clearance, fork seals, battery cross-reference. | These queries are less competitive than model specs and fit the existing data. |
+| P2 | Replace the four `pages.html?slug=` URLs with static pages or noindex them. | Their raw canonical points at `pages.html`; the query URLs add little crawl value. |
+| P2 | Reduce AdSense main-thread cost and re-test mobile Core Web Vitals. | Lab performance is 93 on the homepage and 85 on model pages; TBT is the main gap. |
+
+---
+
 ## Measurement
 
 Track in Google Search Console:
