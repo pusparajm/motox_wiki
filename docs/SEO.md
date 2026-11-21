@@ -4,7 +4,7 @@
 
 Rank for high-intent motorcycle specification, service and buying queries, then funnel search visitors into model pages and the full catalogue.
 
-The site already has a large structured dataset (409 models, 36 manufacturers, service data for 290 models). The SEO opportunity is not more generic text — it is **turning that data into pages that answer the exact things people search for**.
+The site already has a large structured dataset (4,734 models from 94 manufacturers, including brake-pad fitment for 4,589 models and battery data for 591 models). The SEO opportunity is not more generic text — it is **turning that data into pages that answer the exact things people search for**.
 
 ---
 
@@ -150,14 +150,15 @@ Examples:
 
 ### Model pages
 
-- Dynamic title: **“[Make] [Model] ([Year]) Specs & Torque”**.
-- Meta description includes power, torque, weight, seat height and oil capacity.
+- Adaptive titles: oil-capacity pages target oil queries, fitment-only entries target brake-pad fitment, and full-spec pages target specs and torque.
+- Every meta description is built from the strongest available data, so no page ships with an empty `specs: .` description.
+- Fitment-only entries show a **Brake pad fitment** block with front/rear codes, a shape-family cross-reference where the interchange data matches, and links to the two brake reference pages.
 - Added **“Also known as”** aliases (Fireblade, Busa, CP2, etc.).
 - Added an H2 **Specifications** section.
 - Added a **Frequently Asked Questions** section generated from real data:
   - power, torque, seat height, weight, oil capacity/grade, top speed, fuel capacity
 - Added `FAQPage`, `Motorcycle` and `BreadcrumbList` structured data.
-- Added **Related Guides** links based on category.
+- Added **Related Models**, **Models sharing this brake pad shape** and **Related Guides** links.
 - Added canonical, Open Graph and Twitter meta.
 
 ### Static model pages
@@ -166,11 +167,11 @@ Every motorcycle now has a static, crawlable page at:
 
 `https://motoxref.com/motorcycle/<id>.html`
 
-These pages contain the full specification table, service data, torque table, FAQ, related models and related guides in the initial HTML. They do not depend on JavaScript rendering. The old `motorcycle.html?id=...` URL remains as a working fallback and canonicalises to the static page.
+These pages contain the specification table, service data, torque table, FAQ, related models, brake-pad cross-links and related guides in the initial HTML. They do not depend on JavaScript rendering. The old `motorcycle.html?id=...` URL remains as a working fallback and canonicalises to the static page.
 
 ### Guide pages
 
-22 static, indexable HTML pages were added under `guides/`. They contain real HTML content instead of client-rendered placeholders:
+Static, indexable HTML guide pages live under `guides/`. They contain real HTML content instead of client-rendered placeholders:
 
 - Oil capacity chart
 - Seat height chart
@@ -200,11 +201,13 @@ Each guide includes:
 
 ### Technical SEO
 
-- `sitemap.xml` now includes all 409 static model pages, reference pages, 22 guides and the homepage.
+- `sitemap.xml` includes all static model pages, reference pages, guides and the homepage (4,889 URLs).
 - `robots.txt` points to the sitemap.
 - `search.html` is `noindex,follow` to avoid indexing thin search-result pages.
-- Guide pages are static HTML so they do not depend on JavaScript rendering.
-- Internal links from guides and model pages help crawlers discover the catalogue.
+- Guide, reference and model pages are static HTML so they do not depend on JavaScript rendering.
+- Internal links from guides, brand hubs, the brake reference pages and model pages help crawlers discover the catalogue.
+- Yandex Webmaster verification is injected through `settings.third_party.verification` and appears once in every generated page.
+- Canonicals are self-referential for static pages; `motorcycle.html` canonicalises to the homepage and `guides/brake-pad-cross-reference.html` canonicalises to the brake fitment table.
 
 ---
 

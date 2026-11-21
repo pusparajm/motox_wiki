@@ -24,7 +24,7 @@ GUIDES = os.path.join(ROOT, "guides")
 REFERENCE = os.path.join(ROOT, "reference")
 MODELS = os.path.join(ROOT, "motorcycle")
 SITE = "https://motoxref.com"
-LAST_MOD = "2026-11-21"
+LAST_MOD = "2026-11-22"
 
 
 def read_json(name, default):
@@ -58,6 +58,14 @@ def load_bike_images():
 
 
 BIKE_IMAGES = load_bike_images()
+BRAKE_INTERCHANGE = read_json("brake-interchange.json", {})
+SBS_INTERCHANGE = {}
+for _ebc, _item in BRAKE_INTERCHANGE.items():
+    for _code in _item.get("sbs") or []:
+        for _part in re.split(r"[/,]", str(_code)):
+            _base = re.sub(r"[^0-9]", "", _part)
+            if _base:
+                SBS_INTERCHANGE.setdefault(_base, []).append(_item)
 
 
 def esc(value):
@@ -86,6 +94,42 @@ def service(bike, key):
         if item.get("key") == key:
             return item.get("value", "")
     return ""
+
+
+def brake_shape_crossref_html(front, rear):
+    lines = []
+    for label, value in (("Front", front), ("Rear", rear)):
+        if not value:
+            continue
+        matches = []
+        seen = set()
+        for match in re.finditer(r"SBS\s+([0-9/]+)", str(value), re.I):
+            for part in match.group(1).split("/"):
+                base = re.sub(r"[^0-9]", "", part)
+                for item in SBS_INTERCHANGE.get(base, []):
+                    ebc = item.get("ebc") or ""
+                    if ebc and ebc not in seen:
+                        seen.add(ebc)
+                        matches.append(item)
+        if not matches:
+            continue
+        pieces = []
+        for item in matches[:2]:
+            piece = f"EBC {esc(item.get('ebc', ''))}"
+            for key, brand in (("ferodo", "Ferodo"), ("dunlopad", "Dunlopad"), ("vesrah", "Vesrah")):
+                values = [str(entry) for entry in item.get(key) or [] if entry]
+                if values:
+                    piece += f" · {brand} {esc(' / '.join(values[:3]))}"
+            pieces.append(piece)
+        lines.append(f"<strong>{label} {esc(value)}:</strong> {' · '.join(pieces)}")
+    if not lines:
+        return ""
+    return (
+        '<p class="data-note"><strong>Shape-family cross-reference:</strong> '
+        + "<br>".join(lines)
+        + ". Cross-reference values describe the backing-plate shape family; "
+        "confirm the compound and exact model year before ordering.</p>"
+    )
 
 
 def battery_value(bike):
@@ -123,7 +167,11 @@ def displacement(bike):
 
 
 def name(bike):
-    return f"{bike.get('make', '')} {bike.get('model', '')}".strip()
+    make = str(bike.get("make") or "").strip()
+    model = str(bike.get("model") or "").strip()
+    if not model:
+        return f"{make} Brake Pad Fitment".strip()
+    return f"{make} {model}".strip()
 
 
 def title(bike):
@@ -171,6 +219,7 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
         "description": description,
         "url": canonical,
         "dateModified": LAST_MOD,
+        "author": {"@type": "Organization", "name": "MotoX Wiki", "url": SITE},
         "publisher": {"@type": "Organization", "name": "MotoX Wiki", "url": SITE}
     }
     breadcrumb_items = [
@@ -296,6 +345,7 @@ def reference_page(slug, page_title, description, h1, subtitle, content, breadcr
         "description": description,
         "url": canonical,
         "dateModified": LAST_MOD,
+        "author": {"@type": "Organization", "name": "MotoX Wiki", "url": SITE},
         "publisher": {"@type": "Organization", "name": "MotoX Wiki", "url": SITE}
     }
     graph = [jsonld, {
@@ -1705,6 +1755,8 @@ def display_aliases(bike, aliases):
 def faq_alias(bike):
     """Pick a compact, model-specific alias for search-style FAQ questions."""
     model = str(bike.get("model", "")).strip()
+    if not model:
+        return str(bike.get("make") or "this motorcycle")
     model_key = re.sub(r"[^a-z0-9]", "", model.lower())
     compact_model = re.sub(r"[\s\-/]+", "", model.lower())
     aliases = bike.get("aliases") or aliases_for(bike.get("make", ""), model)
@@ -1794,12 +1846,17 @@ def static_sections_html(bike):
         label = section.get("label") or key
         body = ""
         note = next((f.get("value", "") for f in section.get("fields") or [] if f.get("key") == "note"), "")
+        if note and bike.get("fitment_only") and key == "service":
+            note = (
+                "Brake-pad fitment is recorded for this model. Other service capacities, "
+                "fluid grades and torque values are not listed in this entry."
+            )
         if note:
             body += f'<p class="spec-note">{esc(note)}</p>'
         field_rows = [
             (f.get("label", ""), f.get("value", ""))
             for f in section.get("fields") or []
-            if f.get("key") != "note"
+            if f.get("key") not in {"note", "data_status"}
         ]
         if field_rows:
             body += property_table(field_rows)
@@ -1824,16 +1881,28 @@ def static_sections_html(bike):
     return f'<div class="spec-section-grid">{"".join(parts)}</div>'
 
 
-def model_page(bike, related, guide_links, brand_href):
+def model_page(bike, related, pad_related, guide_links, brand_href):
     url = f"{SITE}/motorcycle/{quote(bike['id'])}.html"
     oil_capacity = service(bike, "oil_capacity")
     oil_grade = service(bike, "oil_grade")
+    front_pads = service(bike, "front_brake_pads")
+    rear_pads = service(bike, "rear_brake_pads")
+    fitment_only = bool(bike.get("fitment_only"))
+    model_label = str(bike.get("model") or "").strip()
+
     if oil_capacity:
         seo_title = f"{name(bike)} ({bike.get('year', '')}) Oil Capacity, Specs & Torque"
     elif oil_grade:
         seo_title = f"{name(bike)} ({bike.get('year', '')}) Oil Grade, Specs & Torque"
-    else:
+    elif fitment_only and (front_pads or rear_pads):
+        if model_label:
+            seo_title = f"{name(bike)} ({bike.get('year', '')}) Brake Pads & Fitment"
+        else:
+            seo_title = f"{name(bike)} ({bike.get('year', '')})"
+    elif field(bike, "torque"):
         seo_title = f"{name(bike)} ({bike.get('year', '')}) Specs & Torque"
+    else:
+        seo_title = f"{name(bike)} ({bike.get('year', '')}) Specs & Service Data"
 
     def short(value):
         return re.sub(r"\([^)]*\)", "", str(value or "").split("@")[0]).strip()
@@ -1854,14 +1923,80 @@ def model_page(bike, related, guide_links, brand_href):
         if oil_grade:
             oil_desc += f" Recommended grade: {oil_grade}."
         description = f"{oil_desc} Full specs, service data, torque values and dimensions."
-    else:
+    elif fitment_only and (front_pads or rear_pads):
+        fitment_bits = []
+        if front_pads:
+            fitment_bits.append(f"front {front_pads}")
+        if rear_pads:
+            fitment_bits.append(f"rear {rear_pads}")
+        prefix = f"{name(bike)} ({bike.get('year', '')})"
+        if model_label:
+            prefix += " brake pad fitment"
+        description = f"{prefix}: {', '.join(fitment_bits)}."
+        extras = []
+        displacement_value = str(bike.get("displacement") or "").strip()
+        if displacement_value and displacement_value not in {"—", "-", "–"}:
+            category_value = str(bike.get("category") or "").strip()
+            extras.append(f"{category_value} {displacement_value}".strip())
+        battery_code = service(bike, "battery")
+        battery_rating = service(bike, "battery_rating")
+        if battery_code:
+            extras.append(f"battery {battery_code}")
+        elif battery_rating:
+            extras.append(f"battery rating {battery_rating}")
+        tyre_value = field(bike, "tyres")
+        if tyre_value:
+            extras.append(f"tyres {tyre_value}")
+        if extras:
+            description += f" {' · '.join(extras)}."
+        description += " Pad-shape references, service data and related specifications."
+    elif bits:
         description = f"{name(bike)} specs: {', '.join(bits)}. Torque values, service data and dimensions."
+    else:
+        description = f"{name(bike)} ({bike.get('year', '')}) specifications, service data and reference tables."
+    for tail in (
+        " Pad-shape references, service data and related specifications.",
+        " Full specs, service data, torque values and dimensions.",
+        " Torque values, service data and dimensions.",
+    ):
+        if len(description) > 160 and description.endswith(tail):
+            description = description[:-len(tail)]
+            break
     oil_quick = ""
     if oil_capacity:
         oil_quick = f'<h2 class="section-heading">Engine oil capacity</h2><p class="data-note"><strong>Engine oil capacity:</strong> {esc(oil_capacity)}'
         if oil_grade:
             oil_quick += f' · <strong>Recommended grade:</strong> {esc(oil_grade)}'
         oil_quick += "</p>"
+    fitment_quick = ""
+    if fitment_only and (front_pads or rear_pads):
+        fitment_crossref = brake_shape_crossref_html(front_pads, rear_pads)
+        fitment_rows = []
+        if front_pads:
+            fitment_rows.append(f"<strong>Front:</strong> {esc(front_pads)}")
+        if rear_pads:
+            fitment_rows.append(f"<strong>Rear:</strong> {esc(rear_pads)}")
+        fitment_subject = f"the {esc(title(bike))}" if model_label else "this fitment entry"
+        fitment_quick = (
+            '<section class="fitment-quick">'
+            '<h2 class="section-heading">Brake pad fitment</h2>'
+            f'<p class="data-note">{" · ".join(fitment_rows)}</p>'
+            f'<p>These codes identify the backing-plate shape for {fitment_subject}. '
+            'Confirm the friction compound, ABS variant and exact model year before ordering. '
+            'See the <a href="../reference/brake-pad-fitment.html">brake pad fitment table</a> and '
+            '<a href="../reference/pad-shape-cross-reference.html">pad shape cross-reference</a>.</p>'
+            f'{fitment_crossref}'
+            '</section>'
+        )
+    subtitle_displacement = str(bike.get("displacement") or "").strip()
+    if subtitle_displacement in {"—", "-", "–"}:
+        subtitle_displacement = ""
+    summary_text = str(bike.get("summary") or "").strip()
+    if fitment_only:
+        summary_text = summary_text.replace(
+            "Full engine, chassis and service specifications are being compiled.",
+            "Engine, chassis and service specifications are not listed in this entry.",
+        )
     faq = bike_faq(bike)
     bike_photo = bike_image_html(bike)
     bike_photo_block = f"\n      {bike_photo}" if bike_photo else ""
@@ -1881,7 +2016,7 @@ def model_page(bike, related, guide_links, brand_href):
         "brand": {"@type": "Brand", "name": bike.get("make", "")},
         "model": bike.get("model", ""),
         "vehicleModelDate": bike.get("year", ""),
-        "description": bike.get("summary", ""),
+        "description": summary_text,
         "bodyType": bike.get("category", ""),
         "weight": qty(field(bike, "weight"), "KGM"),
         "fuelCapacity": qty(fuel, "KWH" if "kwh" in fuel.lower() else "LTR"),
@@ -1929,6 +2064,10 @@ def model_page(bike, related, guide_links, brand_href):
         f'<a class="bike-card" href="{quote(other["id"])}.html"><span class="bike-make">{esc(other.get("make", ""))}</span><h3 class="bike-model">{esc(other.get("model", ""))}</h3><span class="bike-meta">{esc(other.get("year", ""))} · {esc(other.get("displacement", ""))}</span></a>'
         for other in related
     )
+    pad_related_html = "".join(
+        f'<a href="{quote(other["id"])}.html">{esc(title(other))}</a>'
+        for other in pad_related
+    )
     guides_html = "".join(
         f'<a href="{href if href.startswith("../") else f"../guides/{href}"}">{esc(label)}</a>'
         for href, label in guide_links
@@ -1968,18 +2107,20 @@ def model_page(bike, related, guide_links, brand_href):
     <div class="bike-header">
       <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#browse">Browse</a> / <a href="{brand_href}">{esc(bike.get('make', ''))}</a> / {esc(name(bike))}</div>
       <h1>{esc(title(bike))}</h1>
-      <p class="bike-subtitle">{esc(bike.get('category', ''))}{' · ' if bike.get('category') and bike.get('displacement') else ''}{esc(bike.get('displacement', ''))}</p>{bike_photo_block}
-      <p>{esc(bike.get('summary', ''))}</p>
+      <p class="bike-subtitle">{esc(bike.get('category', ''))}{' · ' if bike.get('category') and subtitle_displacement else ''}{esc(subtitle_displacement)}</p>{bike_photo_block}
+      <p>{esc(summary_text)}</p>
       {oil_quick}
       <p class="bike-alias"><strong>Brand:</strong> <a href="{brand_href}">All {esc(bike.get('make', ''))} models</a> · <a href="../reference/all-models.html">All models A–Z</a></p>
       {alias_html}
       <div class="hero-stats">{hero}</div>
     </div>
     <article class="model-content">
+      {fitment_quick}
       <h2 class="section-heading">Specifications</h2>
       {static_sections_html(bike)}
       {f'<section class="faq-section"><h2 class="section-heading">Frequently Asked Questions</h2>{faq_html}</section>' if faq_html else ''}
       {f'<section class="related-section"><h2 class="related-title">Related Models</h2><div class="bike-grid related-grid">{related_html}</div></section>' if related_html else ''}
+      {f'<section class="related-section"><h2 class="related-title">Models sharing this brake pad shape</h2><p class="home-guide-links">{pad_related_html}</p></section>' if pad_related_html else ''}
       <section class="related-section"><h2 class="related-title">Related Guides</h2><p class="home-guide-links">{guides_html}</p></section>
       <p class="data-note">Specifications are manufacturer-claimed and can vary by model year and market. Confirm service limits and torque values against the owner's or workshop manual. Data updated {LAST_MOD}.</p>
     </article>
@@ -2378,14 +2519,39 @@ def build_model_pages(bikes, brand_links):
         if entry.endswith(".html"):
             os.remove(os.path.join(MODELS, entry))
     by_group = {}
+    pad_index = {}
     for bike in bikes:
         group = bike.get("model_group") or ""
         if group:
             by_group.setdefault(group, []).append(bike)
+        for key in ("front_brake_pads", "rear_brake_pads"):
+            code = service(bike, key)
+            if code:
+                pad_index.setdefault(code, []).append(bike)
     for bike in bikes:
         related = [b for b in by_group.get(bike.get("model_group") or "", []) if b["id"] != bike["id"]][:6]
         if not related:
             related = [b for b in bikes if b["id"] != bike["id"] and b.get("make") == bike.get("make") and b.get("category") == bike.get("category")][:6]
+        pad_codes = {
+            code for code in (
+                service(bike, "front_brake_pads"),
+                service(bike, "rear_brake_pads"),
+            ) if code
+        }
+        pad_related = []
+        seen_pad_ids = set()
+        for code in pad_codes:
+            for candidate in pad_index.get(code, []):
+                if candidate["id"] == bike["id"] or candidate["id"] in seen_pad_ids:
+                    continue
+                seen_pad_ids.add(candidate["id"])
+                pad_related.append(candidate)
+        pad_related.sort(key=lambda candidate: (
+            candidate.get("make") != bike.get("make"),
+            candidate.get("category") != bike.get("category"),
+            name(candidate).lower(),
+        ))
+        pad_related = pad_related[:6]
         category = (bike.get("category") or "").lower()
         guides = [
             ("parts-fitment-codes.html", "Parts and fitment codes"),
@@ -2409,7 +2575,7 @@ def build_model_pages(bikes, brand_links):
             guides.insert(0, ("best-commuter-motorcycles.html", "Best commuter motorcycles"))
         elif category in ("retro", "scrambler"):
             guides.insert(0, ("best-retro-motorcycles.html", "Best retro motorcycles"))
-        model_page(bike, related, guides[:7], brand_links.get(bike.get("make", ""), "../reference/brands.html"))
+        model_page(bike, related, pad_related, guides[:7], brand_links.get(bike.get("make", ""), "../reference/brands.html"))
     return len(bikes)
 
 
