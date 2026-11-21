@@ -1615,6 +1615,426 @@
           "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-3396eb5d-1200.jpg"
         }
       }
+    },
+    "honda-cbr600rr-2013": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr600rr_13.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR600RR side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr600rr/cbr600rr-de56cac3-400.avif",
+          "800": "images/motorcycles/honda/cbr600rr/cbr600rr-de56cac3-800.avif",
+          "1200": "images/motorcycles/honda/cbr600rr/cbr600rr-de56cac3-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr600rr/cbr600rr-de56cac3-400.webp",
+          "800": "images/motorcycles/honda/cbr600rr/cbr600rr-de56cac3-800.webp",
+          "1200": "images/motorcycles/honda/cbr600rr/cbr600rr-de56cac3-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr600rr/cbr600rr-de56cac3-400.jpg",
+          "800": "images/motorcycles/honda/cbr600rr/cbr600rr-de56cac3-800.jpg",
+          "1200": "images/motorcycles/honda/cbr600rr/cbr600rr-de56cac3-1200.jpg"
+        }
+      }
+    },
+    "honda-cbr1000rr-2004-2005": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr1000rr_04.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR1000RR side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr1000rr/cbr1000rr-8dad50de-400.avif",
+          "800": "images/motorcycles/honda/cbr1000rr/cbr1000rr-8dad50de-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr1000rr/cbr1000rr-8dad50de-400.webp",
+          "800": "images/motorcycles/honda/cbr1000rr/cbr1000rr-8dad50de-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr1000rr/cbr1000rr-8dad50de-400.jpg",
+          "800": "images/motorcycles/honda/cbr1000rr/cbr1000rr-8dad50de-800.jpg"
+        }
+      }
+    },
+    "honda-cbr1000rr-2012-2016": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr1000rr_12.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR1000RR side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr1000rr/cbr1000rr-503819c3-400.avif",
+          "800": "images/motorcycles/honda/cbr1000rr/cbr1000rr-503819c3-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr1000rr/cbr1000rr-503819c3-400.webp",
+          "800": "images/motorcycles/honda/cbr1000rr/cbr1000rr-503819c3-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr1000rr/cbr1000rr-503819c3-400.jpg",
+          "800": "images/motorcycles/honda/cbr1000rr/cbr1000rr-503819c3-800.jpg"
+        }
+      }
+    },
+    "honda-cbr1000rr-r-2020-2023": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr1000rr-r_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR1000RR-R side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-bcecdaab-400.avif",
+          "800": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-bcecdaab-800.avif",
+          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-bcecdaab-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-bcecdaab-400.webp",
+          "800": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-bcecdaab-800.webp",
+          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-bcecdaab-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-bcecdaab-400.jpg",
+          "800": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-bcecdaab-800.jpg",
+          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-bcecdaab-1200.jpg"
+        }
+      }
+    },
+    "honda-cbr650r-2019-2020": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr650r_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR650R side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr650r/cbr650r-735b264f-400.avif",
+          "800": "images/motorcycles/honda/cbr650r/cbr650r-735b264f-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr650r/cbr650r-735b264f-400.webp",
+          "800": "images/motorcycles/honda/cbr650r/cbr650r-735b264f-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr650r/cbr650r-735b264f-400.jpg",
+          "800": "images/motorcycles/honda/cbr650r/cbr650r-735b264f-800.jpg"
+        }
+      }
+    },
+    "honda-cbr650r-2021-2023-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr650r_21.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR650R side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr650r/cbr650r-029f106e-400.avif",
+          "800": "images/motorcycles/honda/cbr650r/cbr650r-029f106e-800.avif",
+          "1200": "images/motorcycles/honda/cbr650r/cbr650r-029f106e-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr650r/cbr650r-029f106e-400.webp",
+          "800": "images/motorcycles/honda/cbr650r/cbr650r-029f106e-800.webp",
+          "1200": "images/motorcycles/honda/cbr650r/cbr650r-029f106e-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr650r/cbr650r-029f106e-400.jpg",
+          "800": "images/motorcycles/honda/cbr650r/cbr650r-029f106e-800.jpg",
+          "1200": "images/motorcycles/honda/cbr650r/cbr650r-029f106e-1200.jpg"
+        }
+      }
+    },
+    "honda-cbr650f-2013-2016-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr650f_14.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR650F side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr650f/cbr650f-51acada2-400.avif",
+          "800": "images/motorcycles/honda/cbr650f/cbr650f-51acada2-800.avif",
+          "1200": "images/motorcycles/honda/cbr650f/cbr650f-51acada2-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr650f/cbr650f-51acada2-400.webp",
+          "800": "images/motorcycles/honda/cbr650f/cbr650f-51acada2-800.webp",
+          "1200": "images/motorcycles/honda/cbr650f/cbr650f-51acada2-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr650f/cbr650f-51acada2-400.jpg",
+          "800": "images/motorcycles/honda/cbr650f/cbr650f-51acada2-800.jpg",
+          "1200": "images/motorcycles/honda/cbr650f/cbr650f-51acada2-1200.jpg"
+        }
+      }
+    },
+    "honda-cb650r-2019-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cb650r_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CB650R side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cb650r/cb650r-5f0c2718-400.avif",
+          "800": "images/motorcycles/honda/cb650r/cb650r-5f0c2718-800.avif",
+          "1200": "images/motorcycles/honda/cb650r/cb650r-5f0c2718-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cb650r/cb650r-5f0c2718-400.webp",
+          "800": "images/motorcycles/honda/cb650r/cb650r-5f0c2718-800.webp",
+          "1200": "images/motorcycles/honda/cb650r/cb650r-5f0c2718-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cb650r/cb650r-5f0c2718-400.jpg",
+          "800": "images/motorcycles/honda/cb650r/cb650r-5f0c2718-800.jpg",
+          "1200": "images/motorcycles/honda/cb650r/cb650r-5f0c2718-1200.jpg"
+        }
+      }
+    },
+    "honda-cb1000r-2018-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cb1000r_18.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CB1000R side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cb1000r/cb1000r-6f60aa9b-400.avif",
+          "800": "images/motorcycles/honda/cb1000r/cb1000r-6f60aa9b-800.avif",
+          "1200": "images/motorcycles/honda/cb1000r/cb1000r-6f60aa9b-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cb1000r/cb1000r-6f60aa9b-400.webp",
+          "800": "images/motorcycles/honda/cb1000r/cb1000r-6f60aa9b-800.webp",
+          "1200": "images/motorcycles/honda/cb1000r/cb1000r-6f60aa9b-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cb1000r/cb1000r-6f60aa9b-400.jpg",
+          "800": "images/motorcycles/honda/cb1000r/cb1000r-6f60aa9b-800.jpg",
+          "1200": "images/motorcycles/honda/cb1000r/cb1000r-6f60aa9b-1200.jpg"
+        }
+      }
+    },
+    "honda-crf-1000-l-africa-twin-2016-2019-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_crf%201000l%20africa%20twin%2016.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CRF 1000 L Africa Twin side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/crf-1000-l-africa-twin/crf-1000-l-africa-twin-f9c76509-400.avif",
+          "800": "images/motorcycles/honda/crf-1000-l-africa-twin/crf-1000-l-africa-twin-f9c76509-800.avif",
+          "1200": "images/motorcycles/honda/crf-1000-l-africa-twin/crf-1000-l-africa-twin-f9c76509-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/crf-1000-l-africa-twin/crf-1000-l-africa-twin-f9c76509-400.webp",
+          "800": "images/motorcycles/honda/crf-1000-l-africa-twin/crf-1000-l-africa-twin-f9c76509-800.webp",
+          "1200": "images/motorcycles/honda/crf-1000-l-africa-twin/crf-1000-l-africa-twin-f9c76509-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/crf-1000-l-africa-twin/crf-1000-l-africa-twin-f9c76509-400.jpg",
+          "800": "images/motorcycles/honda/crf-1000-l-africa-twin/crf-1000-l-africa-twin-f9c76509-800.jpg",
+          "1200": "images/motorcycles/honda/crf-1000-l-africa-twin/crf-1000-l-africa-twin-f9c76509-1200.jpg"
+        }
+      }
+    },
+    "honda-africa-twin-crf1100l-2020-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_crf_1100l_africa_twin_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Africa Twin CRF1100L side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/africa-twin-crf1100l/africa-twin-crf1100l-837cda1b-400.avif",
+          "800": "images/motorcycles/honda/africa-twin-crf1100l/africa-twin-crf1100l-837cda1b-800.avif",
+          "1200": "images/motorcycles/honda/africa-twin-crf1100l/africa-twin-crf1100l-837cda1b-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/africa-twin-crf1100l/africa-twin-crf1100l-837cda1b-400.webp",
+          "800": "images/motorcycles/honda/africa-twin-crf1100l/africa-twin-crf1100l-837cda1b-800.webp",
+          "1200": "images/motorcycles/honda/africa-twin-crf1100l/africa-twin-crf1100l-837cda1b-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/africa-twin-crf1100l/africa-twin-crf1100l-837cda1b-400.jpg",
+          "800": "images/motorcycles/honda/africa-twin-crf1100l/africa-twin-crf1100l-837cda1b-800.jpg",
+          "1200": "images/motorcycles/honda/africa-twin-crf1100l/africa-twin-crf1100l-837cda1b-1200.jpg"
+        }
+      }
+    },
+    "honda-cbr-1000-f-1987-1992-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr1000f%2087.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR 1000 F side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr-1000-f/cbr-1000-f-07f94ad7-400.avif",
+          "800": "images/motorcycles/honda/cbr-1000-f/cbr-1000-f-07f94ad7-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr-1000-f/cbr-1000-f-07f94ad7-400.webp",
+          "800": "images/motorcycles/honda/cbr-1000-f/cbr-1000-f-07f94ad7-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr-1000-f/cbr-1000-f-07f94ad7-400.jpg",
+          "800": "images/motorcycles/honda/cbr-1000-f/cbr-1000-f-07f94ad7-800.jpg"
+        }
+      }
+    },
+    "honda-cbr-600-f-2011-2013-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr600f_11.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR 600 F side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr-600-f/cbr-600-f-98830083-400.avif",
+          "800": "images/motorcycles/honda/cbr-600-f/cbr-600-f-98830083-800.avif",
+          "1200": "images/motorcycles/honda/cbr-600-f/cbr-600-f-98830083-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr-600-f/cbr-600-f-98830083-400.webp",
+          "800": "images/motorcycles/honda/cbr-600-f/cbr-600-f-98830083-800.webp",
+          "1200": "images/motorcycles/honda/cbr-600-f/cbr-600-f-98830083-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr-600-f/cbr-600-f-98830083-400.jpg",
+          "800": "images/motorcycles/honda/cbr-600-f/cbr-600-f-98830083-800.jpg",
+          "1200": "images/motorcycles/honda/cbr-600-f/cbr-600-f-98830083-1200.jpg"
+        }
+      }
+    },
+    "honda-cbr-1000-rr-sp-2014-2022-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr1000rr_sp_14.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR 1000 RR SP side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr-1000-rr-sp/cbr-1000-rr-sp-32cd6d1d-400.avif",
+          "800": "images/motorcycles/honda/cbr-1000-rr-sp/cbr-1000-rr-sp-32cd6d1d-800.avif",
+          "1200": "images/motorcycles/honda/cbr-1000-rr-sp/cbr-1000-rr-sp-32cd6d1d-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr-1000-rr-sp/cbr-1000-rr-sp-32cd6d1d-400.webp",
+          "800": "images/motorcycles/honda/cbr-1000-rr-sp/cbr-1000-rr-sp-32cd6d1d-800.webp",
+          "1200": "images/motorcycles/honda/cbr-1000-rr-sp/cbr-1000-rr-sp-32cd6d1d-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr-1000-rr-sp/cbr-1000-rr-sp-32cd6d1d-400.jpg",
+          "800": "images/motorcycles/honda/cbr-1000-rr-sp/cbr-1000-rr-sp-32cd6d1d-800.jpg",
+          "1200": "images/motorcycles/honda/cbr-1000-rr-sp/cbr-1000-rr-sp-32cd6d1d-1200.jpg"
+        }
+      }
+    },
+    "honda-cbr-1000-rr-r-sp-fireblade-2020-2022-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/Honda/honda_cbr1000rr-r-sp_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "CBR 1000 RR-R SP Fireblade side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr-1000-rr-r-sp-fireblade/cbr-1000-rr-r-sp-fireblade-c9c82cf3-400.avif",
+          "800": "images/motorcycles/honda/cbr-1000-rr-r-sp-fireblade/cbr-1000-rr-r-sp-fireblade-c9c82cf3-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr-1000-rr-r-sp-fireblade/cbr-1000-rr-r-sp-fireblade-c9c82cf3-400.webp",
+          "800": "images/motorcycles/honda/cbr-1000-rr-r-sp-fireblade/cbr-1000-rr-r-sp-fireblade-c9c82cf3-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr-1000-rr-r-sp-fireblade/cbr-1000-rr-r-sp-fireblade-c9c82cf3-400.jpg",
+          "800": "images/motorcycles/honda/cbr-1000-rr-r-sp-fireblade/cbr-1000-rr-r-sp-fireblade-c9c82cf3-800.jpg"
+        }
+      }
     }
   }
 }
