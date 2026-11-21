@@ -35,7 +35,7 @@ Public pages do not name or cite these outlets. They are research inputs only.
 | 5 | Single-cylinder sportbikes | `single-cylinder-sportbikes` | Implemented |
 | 6 | 600cc sportbikes | `600cc-sportbikes` | Implemented |
 
-### Phase 2 — Indian and Asian volume segments
+### Phase 2 — Indian and Asian volume segments (implemented)
 
 | # | Segment | Slug | Candidate models |
 |---|---|---|---|
@@ -46,7 +46,7 @@ Public pages do not name or cite these outlets. They are research inputs only.
 | 11 | 300–500cc cruisers | `300-500cc-cruisers` | Rebel 300, Rebel 500, Eliminator 500, Meteor 350, Benelli 502C |
 | 12 | 125cc sportbikes | `125cc-sportbikes` | YZF-R125, RS 125, RC 125, Ninja 125, GSX-R125 |
 
-### Phase 3 — US/global and premium segments
+### Phase 3 — US/global and premium segments (planned)
 
 | # | Segment | Slug | Candidate models |
 |---|---|---|---|

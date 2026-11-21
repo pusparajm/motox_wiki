@@ -329,13 +329,32 @@ def build_index(bikes):
         ("low-seat-height-motorcycles", "Low Seat Height Motorcycles", "Bikes with a seat height of 800 mm or less, for shorter riders."),
         ("best-commuter-motorcycles", "Best Commuter Motorcycles", "Practical, economical bikes for daily transport."),
         ("best-retro-motorcycles", "Best Retro Motorcycles", "Modern classics, retro roadsters and scramblers."),
-        ("comparisons", "Motorcycle Comparisons", f"{len(SEGMENT_COMPARISONS)} segment comparisons and {len(COMPARISONS)} head-to-head comparisons across adventure, touring, sport, motocross and retro classes."),
     ]
     items = "".join(f'<a class="page-item" href="{slug}.html"><h2>{esc(t)}</h2><p>{esc(d)}</p></a>' for slug, t, d in cards)
+    segment_cards = "".join(
+        f'<a class="page-item" href="{item["slug"]}.html"><h2>{esc(item["title"])}</h2><p>{esc(item["description"])}</p></a>'
+        for item in SEGMENT_COMPARISONS
+    )
+    pair_groups = {}
+    for item in COMPARISONS:
+        pair_groups.setdefault(item["group"], []).append(item)
+    pair_sections = []
+    for group, group_items in pair_groups.items():
+        cards_html = "".join(
+            f'<a class="page-item" href="{item["slug"]}.html"><h2>{esc(item["title"])}</h2><p>{esc(item["description"])}</p></a>'
+            for item in group_items
+        )
+        pair_sections.append(f'<h4>{esc(group)}</h4><div class="page-list">{cards_html}</div>')
     content = f"""
       <p>These guides turn the MotoX Wiki catalogue into practical answers: oil capacities, seat heights, weights, horsepower, torque data, buying shortlists and direct model comparisons.</p>
       <p>Brand hubs, the all-model index, brake fitment and parts finders are in the <a href="../pages.html">Reference section</a>.</p>
       <div class="page-list">{items}</div>
+      <h2>Motorcycle comparisons</h2>
+      <p><a href="comparisons.html">Comparison hub</a> · {len(SEGMENT_COMPARISONS)} segment comparisons · {len(COMPARISONS)} head-to-head comparisons.</p>
+      <h3>Segment comparisons</h3>
+      <div class="page-list">{segment_cards}</div>
+      <h3>Head-to-head comparisons</h3>
+      {''.join(pair_sections)}
     """
     return guide_page(
         "index", "Motorcycle Specs Guides, Charts & Comparisons",
@@ -1922,6 +1941,86 @@ SEGMENT_COMPARISONS = [
             "honda-cbr650r-2024-present-global",
             "aprilia-rs-660-2020-present-global",
             "triumph-daytona-660-2024-present-global",
+        ],
+    },
+    {
+        "slug": "160cc-sporty-commuters",
+        "title": "160cc Sporty Commuters Compared",
+        "description": "150–210cc sporty commuters compared: Yamaha R15 V4, Hero Karizma XMR 210, TVS Apache RTR 160 4V, Bajaj Pulsar N160 and Hero Xtreme 160R 4V.",
+        "intro": "This group covers the 150–210cc sporty-commuter class. The table compares listed power, torque, weight, seat height, fuel capacity, suspension, brakes and tyres; model years differ across the group.",
+        "models": [
+            "yamaha-yzf-r15-v4-2021-present-global",
+            "hero-karizma-xmr-210-2023-present-india",
+            "tvs-apache-rtr-160-4v-2020-present-india",
+            "bajaj-pulsar-n160-2022-present-india",
+            "hero-xtreme-160r-4v-2023-present-india",
+        ],
+    },
+    {
+        "slug": "125cc-commuters",
+        "title": "125cc Commuter Motorcycles Compared",
+        "description": "100–125cc commuters compared: Hero Splendor Plus, Honda Shine 125, TVS Raider 125, Hero Glamour, Hero Passion Pro and Bajaj Platina 110.",
+        "intro": "This group covers the 100–125cc commuter class. The comparison focuses on seat height, weight, fuel capacity and listed output; model years differ across the group.",
+        "models": [
+            "hero-splendor-plus-2010-present-india",
+            "honda-shine-125-2018-present-india",
+            "tvs-raider-125-2021-present-india",
+            "hero-glamour-2020-present-india",
+            "hero-passion-pro-2020-present-india",
+            "bajaj-platina-110-2019-present-india",
+        ],
+    },
+    {
+        "slug": "250-400cc-naked-bikes",
+        "title": "250–400cc Naked Bikes Compared",
+        "description": "250–400cc naked bikes compared: KTM 390 Duke, Husqvarna Svartpilen 401, BMW G 310 R, Honda CB300R and KTM 250 Duke.",
+        "intro": "This group covers naked and roadster models from roughly 250 to 400cc. The table compares listed power, torque, weight, seat height, fuel capacity, suspension, brakes and tyres.",
+        "models": [
+            "ktm-390-duke-2021",
+            "husqvarna-svartpilen-401-2020-present-global",
+            "bmw-g310r-2015-2025-global",
+            "honda-cb300r-2018-present-global",
+            "ktm-250-duke-2015-present-global",
+        ],
+    },
+    {
+        "slug": "350-500cc-retro-motorcycles",
+        "title": "350–500cc Retro Motorcycles Compared",
+        "description": "350–500cc retro motorcycles compared: Royal Enfield Classic 350, Hunter 350, Bullet 350, Honda CB350, Jawa 42 and Benelli Imperiale 400.",
+        "intro": "This group covers retro roadsters and classic-styled models from roughly 350 to 500cc. The table compares listed power, torque, weight, seat height, fuel capacity, suspension, brakes and tyres.",
+        "models": [
+            "royal-enfield-classic-350-2021-present-global",
+            "royal-enfield-hunter-350-2022-present-global",
+            "royal-enfield-bullet-350-2023-present-global",
+            "honda-cb350-2021-present-india",
+            "jawa-42-2019-present-india",
+            "benelli-imperiale-400-2019-present-global",
+        ],
+    },
+    {
+        "slug": "300-500cc-cruisers",
+        "title": "300–500cc Cruisers Compared",
+        "description": "300–500cc cruisers compared: Honda Rebel 300, Honda Rebel 500, Kawasaki Eliminator 500, Royal Enfield Meteor 350 and Benelli 502C.",
+        "intro": "This group covers entry and mid-capacity cruisers from roughly 300 to 500cc. The comparison focuses on seat height, weight, tank size and listed output.",
+        "models": [
+            "honda-rebel-300-2017-present-global",
+            "honda-rebel-500-2017-present-global",
+            "kawasaki-eliminator-500-2023-present-global",
+            "royal-enfield-meteor-350-2021-present-global",
+            "benelli-502c-2021-present-global",
+        ],
+    },
+    {
+        "slug": "125cc-sportbikes",
+        "title": "125cc Sportbikes Compared",
+        "description": "125cc sportbikes compared: Yamaha YZF-R125, Aprilia RS 125, KTM RC 125, Kawasaki Ninja 125 and Suzuki GSX-R125.",
+        "intro": "This group covers the 125cc sportbike class. The table compares listed power, torque, weight, seat height, fuel capacity, suspension, brakes and tyres.",
+        "models": [
+            "yamaha-yzf-r125-2008-present-global",
+            "aprilia-rs-125-2021-present-global",
+            "ktm-rc-125-2014-present-global",
+            "kawasaki-ninja-125-2019-present-global",
+            "suzuki-gsx-r125-2017-present-global",
         ],
     },
 ]
