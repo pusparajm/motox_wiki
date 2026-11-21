@@ -16,6 +16,7 @@ import os
 import re
 from urllib.parse import quote
 
+from model_validation import require_valid_models
 from search_aliases import aliases_for
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -75,6 +76,7 @@ def esc(value):
 def load():
     with open(os.path.join(DATA, "motorcycles.json"), encoding="utf-8") as fh:
         bikes = [b for b in json.load(fh)["motorcycles"] if b.get("published") is not False]
+    require_valid_models(bikes)
     with open(os.path.join(DATA, "pages.json"), encoding="utf-8") as fh:
         pages = [p for p in json.load(fh)["pages"] if p.get("published") is not False]
     return bikes, pages

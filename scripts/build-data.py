@@ -17,6 +17,7 @@ import re
 from html import unescape
 from typing import Any
 
+from model_validation import require_valid_models
 from search_aliases import aliases_for, SUGGESTIONS
 
 SUMMARY_KEYS = (
@@ -130,6 +131,7 @@ def build_from_data_dir(data_dir: str) -> None:
     data_dir = os.path.realpath(data_dir)
     with open(os.path.join(data_dir, "motorcycles.json"), encoding="utf-8") as handle:
         motorcycles = json.load(handle).get("motorcycles") or []
+    require_valid_models(motorcycles)
     with open(os.path.join(data_dir, "pages.json"), encoding="utf-8") as handle:
         pages = json.load(handle).get("pages") or []
     with open(os.path.join(data_dir, "settings.json"), encoding="utf-8") as handle:

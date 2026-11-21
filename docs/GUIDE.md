@@ -465,6 +465,10 @@ After editing the data file, regenerate the derived files:
 npm run build:data
 ```
 
+The build rejects records with a missing, generic (`Edition`, `ABS`, `Left`,
+`Right`, etc.) or parenthetical-only model name. This stops fitment imports
+from creating empty model pages such as `honda-model-2012-2019-global`.
+
 ### Wiki pages (`data/pages.json`)
 
 Reference articles (e.g. torque conversion chart, oil grades guide).
