@@ -116,6 +116,16 @@
             "value": "NGK MR8E-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX12-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 10Ah"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "Brembo 07KA19"

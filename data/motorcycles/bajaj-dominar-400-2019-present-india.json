@@ -109,6 +109,11 @@
             "key": "service_interval",
             "label": "Service Interval",
             "value": "Oil change every 10,000 km; top-up every 5,000 km"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah VRLA"
           }
         ]
       },

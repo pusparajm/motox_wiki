@@ -144,6 +144,16 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "WP (46/18) Mono Tube Piggyback EDS — 2021"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
           }
         ]
       },

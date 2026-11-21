@@ -116,6 +116,16 @@
             "value": "LMAR8A-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ8V"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 7Ah"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC SFA705 · Brembo 07YA52"

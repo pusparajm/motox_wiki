@@ -116,6 +116,16 @@
             "value": "NGK LMAR8A-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8.6Ah"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA181X · SBS 671HS · Brembo 07BB04 · Vesrah VD-947"

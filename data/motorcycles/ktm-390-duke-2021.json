@@ -118,7 +118,12 @@
           {
             "key": "battery",
             "label": "Battery",
-            "value": "YTX9-BS"
+            "value": "ETZ9-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah"
           },
           {
             "key": "chain",

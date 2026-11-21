@@ -118,6 +118,16 @@
             "value": "NGK LKAR8A-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.1 L"

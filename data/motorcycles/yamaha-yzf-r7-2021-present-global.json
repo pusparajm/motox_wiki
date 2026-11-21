@@ -121,6 +121,11 @@
             "value": "YTZ7S"
           },
           {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 6Ah"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA252HH · SBS 198/634/639 · Brembo 07YA23 · Vesrah VD-274"

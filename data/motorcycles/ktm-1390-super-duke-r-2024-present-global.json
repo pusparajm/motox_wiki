@@ -119,6 +119,16 @@
             "key": "service_interval",
             "label": "Service Interval",
             "value": "15,000 km / 12 months"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
           }
         ]
       },

@@ -109,6 +109,16 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 108 links"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX7L-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 6Ah"
           }
         ]
       },

@@ -21,7 +21,18 @@ Public pages do not name or cite these sources. The battery code and rating are 
 
 `data/battery-fitment.json` contains the verified entries. `scripts/apply-battery-fitment.py` merges them into each model's Service Data section.
 
-Current coverage: 442 models — 430 with a verified code and 12 with a verified rating only. Coverage is deliberately partial. The application guides are US-market focused and do not cover every Indian, Chinese, electric or older model. Missing entries are not guessed. Add new entries only when the model, year and code are verified.
+Current coverage: 505 models — 478 with a verified code and 27 with a verified rating only. Coverage is deliberately partial. The application guides are US-market focused and do not cover every Indian, Chinese, electric or older model. Missing entries are not guessed. Add new entries only when the model, year and code are verified.
+
+## Recent additions
+
+- Indian commuter and roadster models: Hero Passion Pro, Bajaj Platina 110, Dominar 400, Pulsar N250/NS200/NS400Z, TVS Apache RTR 200 4V, TVS Ronin 225, Jawa 42.
+- Royal Enfield 650 twins and 450/350 platform models.
+- Honda CB350/CB350RS, Shine 125, CB650R, CBR650R, CB500F, NX500, CB300R, NC750X, Rebel 1100 and Gold Wing.
+- Yamaha MT-15, Tenere 700, XMAX 300, XSR700/900, Tracer 9 GT, YZF-R7, MT-03 and WR450F.
+- Suzuki Gixxer 250/SF 250, V-Strom 650/1050, GSX250R, GSX-8R/8S, Boulevard M109R, Hayabusa and GSX-S1000GT.
+- KTM 200/390 Duke, RC 200/390, 390 Adventure/Enduro/SMC, 790/890 and 1290/1390 models.
+- Kawasaki Versys 1000, Z900, W800, Vulcan 900, Ninja 650, ZX-6R, Ninja 400 and Z400.
+- Benelli Leoncino 500 and TRK 702; Voge 300 Rally.
 
 ## Fields
 

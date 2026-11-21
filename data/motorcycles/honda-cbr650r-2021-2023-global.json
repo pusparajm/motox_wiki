@@ -124,6 +124,16 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "EBC FA496 · SBS 881LS"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8.6Ah"
           }
         ]
       },

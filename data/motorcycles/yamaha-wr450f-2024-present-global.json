@@ -101,6 +101,16 @@
             "value": "NGK CR8E"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ7S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 6Ah"
+          },
+          {
             "key": "parts_note",
             "label": "Parts & Fitment Note",
             "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."

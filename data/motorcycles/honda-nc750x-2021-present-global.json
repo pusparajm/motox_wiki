@@ -121,9 +121,9 @@
             "value": "YTZ12S"
           },
           {
-            "key": "battery_options",
-            "label": "Battery Options",
-            "value": "''24"
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
           },
           {
             "key": "front_brake_pads",

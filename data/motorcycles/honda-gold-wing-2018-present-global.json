@@ -105,6 +105,16 @@
             "value": "NGK CR6HSB-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "GYZ20L"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 20Ah"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA717HH · SBS 952"

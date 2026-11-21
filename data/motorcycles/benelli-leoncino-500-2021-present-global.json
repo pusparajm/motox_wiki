@@ -106,6 +106,16 @@
             "value": "NGK CR8E"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 pitch, 116 links"

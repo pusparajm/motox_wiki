@@ -121,6 +121,11 @@
             "value": "YTX9-BS"
           },
           {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA158 · SBS 631 · Brembo 07KA13 · Vesrah VD-343"

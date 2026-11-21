@@ -121,6 +121,11 @@
             "value": "Replace every 20,000 km"
           },
           {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah VRLA"
+          },
+          {
             "key": "brake_fluid",
             "label": "Brake Fluid",
             "value": "DOT 4"

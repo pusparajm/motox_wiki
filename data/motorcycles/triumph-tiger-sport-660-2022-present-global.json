@@ -129,6 +129,11 @@
             "key": "battery",
             "label": "Battery",
             "value": "YTX9-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah"
           }
         ]
       },
