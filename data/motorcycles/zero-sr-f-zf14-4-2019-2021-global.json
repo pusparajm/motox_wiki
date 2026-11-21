@@ -162,6 +162,7 @@
     },
     "aliases": [
       "sr f",
+      "sr f zf14.4",
       "srf"
     ]
   }

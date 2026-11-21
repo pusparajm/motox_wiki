@@ -170,6 +170,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "crf 450 r s"
+    ]
   }
 }

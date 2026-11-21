@@ -69,6 +69,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "ty s 125 f trial"
+    ]
   }
 }

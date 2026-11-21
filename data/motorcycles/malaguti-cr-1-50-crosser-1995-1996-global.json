@@ -64,6 +64,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "cr 1 50 crosser"
+    ]
   }
 }

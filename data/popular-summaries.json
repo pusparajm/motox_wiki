@@ -57,7 +57,9 @@
       "oil_capacity": "2.6 L (2.7 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
-        "cp2"
+        "cp2",
+        "mt 07",
+        "mt07"
       ]
     },
     {
@@ -118,7 +120,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "gsx 8",
-        "gsx8"
+        "gsx 8s",
+        "gsx8",
+        "gsx8s"
       ]
     },
     {

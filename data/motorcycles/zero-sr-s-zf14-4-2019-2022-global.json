@@ -120,6 +120,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "sr s zf14.4"
+    ]
   }
 }

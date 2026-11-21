@@ -69,6 +69,9 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "ctx 700 nd abs w dct",
+      "wdct"
+    ]
   }
 }

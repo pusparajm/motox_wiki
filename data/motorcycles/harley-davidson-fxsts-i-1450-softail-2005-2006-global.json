@@ -70,6 +70,8 @@
       }
     },
     "aliases": [
+      "fxsts i 1450 softail",
+      "fxstsi",
       "harley",
       "hd"
     ]

@@ -227,7 +227,9 @@
     },
     "aliases": [
       "gsx s",
-      "gsxs"
+      "gsx s1000",
+      "gsxs",
+      "gsxs1000"
     ]
   }
 }

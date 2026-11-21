@@ -70,7 +70,9 @@
       }
     },
     "aliases": [
-      "exc"
+      "exc",
+      "exc f 450",
+      "excf"
     ]
   }
 }

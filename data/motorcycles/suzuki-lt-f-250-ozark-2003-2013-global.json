@@ -69,6 +69,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "lt f 250 ozark"
+    ]
   }
 }

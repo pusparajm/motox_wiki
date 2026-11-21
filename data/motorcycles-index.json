@@ -1750,6 +1750,8 @@
       "aliases": [
         "675 sr",
         "675sr",
+        "675sr r",
+        "675srr",
         "cf moto"
       ]
     },
@@ -1780,6 +1782,7 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "700 cl x",
+        "700cl x",
         "700clx",
         "cf moto"
       ]
@@ -2844,6 +2847,7 @@
       "aliases": [
         "48",
         "forty eight",
+        "fortyeight",
         "harley",
         "hd"
       ]
@@ -4341,6 +4345,8 @@
         "blade",
         "cbr 1000",
         "cbr1000",
+        "cbr1000rr r",
+        "cbr1000rrr",
         "fireblade"
       ]
     },
@@ -4374,6 +4380,8 @@
         "blade",
         "cbr 1000",
         "cbr1000",
+        "cbr1000rr r",
+        "cbr1000rrr",
         "fireblade"
       ]
     },
@@ -5181,6 +5189,7 @@
       "aliases": [
         "adv",
         "x adv",
+        "x adv 750",
         "xadv"
       ]
     },
@@ -6198,9 +6207,14 @@
       "oil_capacity": "3.7 L (3.9 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "10r",
         "kawi",
+        "ninja 10r",
+        "ninja zx 10r",
+        "ninja zx10r",
         "zx 10",
         "zx 10 r",
+        "zx 10r",
         "zx10",
         "zx10r"
       ]
@@ -6231,9 +6245,14 @@
       "oil_capacity": "3.7 L (3.9 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "10r",
         "kawi",
+        "ninja 10r",
+        "ninja zx 10r",
+        "ninja zx10r",
         "zx 10",
         "zx 10 r",
+        "zx 10r",
         "zx10",
         "zx10r"
       ]
@@ -6264,9 +6283,14 @@
       "oil_capacity": "3.7 L (3.9 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "10r",
         "kawi",
+        "ninja 10r",
+        "ninja zx 10r",
+        "ninja zx10r",
         "zx 10",
         "zx 10 r",
+        "zx 10r",
         "zx10",
         "zx10r"
       ]
@@ -6298,6 +6322,7 @@
       "oil_type": "SAE 10W-40, JASO MA/MA2",
       "aliases": [
         "kawi",
+        "ninja zx 14r",
         "zx 14",
         "zx14",
         "zx14r"
@@ -6330,6 +6355,7 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "kawi",
+        "ninja zx 25r",
         "zx 25",
         "zx25",
         "zx25r"
@@ -6362,6 +6388,7 @@
       "oil_type": "",
       "aliases": [
         "kawi",
+        "ninja zx 4r",
         "zx 4",
         "zx4",
         "zx4r"
@@ -6394,9 +6421,11 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "kawi",
+        "ninja zx 4rr",
         "zx 4",
         "zx4",
-        "zx4r"
+        "zx4r",
+        "zx4rr"
       ]
     },
     {
@@ -6426,6 +6455,7 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "kawi",
+        "ninja zx 6r",
         "zx 6",
         "zx 6 r",
         "zx6",
@@ -6459,6 +6489,7 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "kawi",
+        "ninja zx 6r",
         "zx 6",
         "zx 6 r",
         "zx6",
@@ -6492,6 +6523,7 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "kawi",
+        "ninja zx 6r",
         "zx 6",
         "zx 6 r",
         "zx6",
@@ -6525,6 +6557,7 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "kawi",
+        "ninja zx 6r",
         "zx 6",
         "zx 6 r",
         "zx6",
@@ -6798,7 +6831,9 @@
       "oil_type": "",
       "aliases": [
         "kawi",
-        "versys"
+        "versys",
+        "versys x 300",
+        "versysx"
       ]
     },
     {
@@ -7493,6 +7528,7 @@
       "oil_capacity": "1.0 L (1.05 US qt)",
       "oil_type": "SAE 10W-50, JASO MA2",
       "aliases": [
+        "250 sx f",
         "sx f",
         "sxf"
       ]
@@ -7552,7 +7588,9 @@
       "oil_capacity": "0.8 L (0.85 US qt)",
       "oil_type": "SAE 10W-50, JASO MA2",
       "aliases": [
-        "exc"
+        "350 exc f",
+        "exc",
+        "excf"
       ]
     },
     {
@@ -7812,6 +7850,7 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "450 sx f",
         "sx f",
         "sxf"
       ]
@@ -7842,7 +7881,9 @@
       "oil_capacity": "1.0 L (1.05 US qt)",
       "oil_type": "SAE 10W-50, JASO MA2",
       "aliases": [
-        "exc"
+        "500 exc f",
+        "exc",
+        "excf"
       ]
     },
     {
@@ -9215,7 +9256,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "dr z",
+        "dr z400sm",
         "drz",
+        "drz400sm",
         "z 400",
         "z400"
       ]
@@ -9305,7 +9348,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "gsx 8",
-        "gsx8"
+        "gsx 8r",
+        "gsx8",
+        "gsx8r"
       ]
     },
     {
@@ -9335,7 +9380,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "gsx 8",
-        "gsx8"
+        "gsx 8s",
+        "gsx8",
+        "gsx8s"
       ]
     },
     {
@@ -9366,7 +9413,9 @@
       "aliases": [
         "gixxer",
         "gsx r",
-        "gsxr"
+        "gsx r1000",
+        "gsxr",
+        "gsxr1000"
       ]
     },
     {
@@ -9397,7 +9446,9 @@
       "aliases": [
         "gixxer",
         "gsx r",
-        "gsxr"
+        "gsx r1000",
+        "gsxr",
+        "gsxr1000"
       ]
     },
     {
@@ -9428,7 +9479,9 @@
       "aliases": [
         "gixxer",
         "gsx r",
-        "gsxr"
+        "gsx r1000",
+        "gsxr",
+        "gsxr1000"
       ]
     },
     {
@@ -9459,7 +9512,9 @@
       "aliases": [
         "gixxer",
         "gsx r",
-        "gsxr"
+        "gsx r1000",
+        "gsxr",
+        "gsxr1000"
       ]
     },
     {
@@ -9490,7 +9545,9 @@
       "aliases": [
         "gixxer",
         "gsx r",
-        "gsxr"
+        "gsx r1000",
+        "gsxr",
+        "gsxr1000"
       ]
     },
     {
@@ -9521,7 +9578,9 @@
       "aliases": [
         "gixxer",
         "gsx r",
-        "gsxr"
+        "gsx r1000",
+        "gsxr",
+        "gsxr1000"
       ]
     },
     {
@@ -9552,7 +9611,9 @@
       "aliases": [
         "gixxer",
         "gsx r",
-        "gsxr"
+        "gsx r1000",
+        "gsxr",
+        "gsxr1000"
       ]
     },
     {
@@ -9583,7 +9644,9 @@
       "aliases": [
         "gixxer",
         "gsx r",
-        "gsxr"
+        "gsx r125",
+        "gsxr",
+        "gsxr125"
       ]
     },
     {
@@ -9614,7 +9677,9 @@
       "aliases": [
         "gixxer",
         "gsx r",
-        "gsxr"
+        "gsx r600",
+        "gsxr",
+        "gsxr600"
       ]
     },
     {
@@ -9645,7 +9710,9 @@
       "aliases": [
         "gixxer",
         "gsx r",
-        "gsxr"
+        "gsx r750",
+        "gsxr",
+        "gsxr750"
       ]
     },
     {
@@ -9675,7 +9742,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "gsx s",
-        "gsxs"
+        "gsx s1000",
+        "gsxs",
+        "gsxs1000"
       ]
     },
     {
@@ -9705,7 +9774,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "gsx s",
-        "gsxs"
+        "gsx s1000gt",
+        "gsxs",
+        "gsxs1000gt"
       ]
     },
     {
@@ -9735,7 +9806,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "gsx s",
-        "gsxs"
+        "gsx s750",
+        "gsxs",
+        "gsxs750"
       ]
     },
     {
@@ -9945,6 +10018,7 @@
       "aliases": [
         "strom",
         "v strom",
+        "v strom 1050",
         "vstrom"
       ]
     },
@@ -9976,6 +10050,7 @@
       "aliases": [
         "strom",
         "v strom",
+        "v strom 1050de",
         "vstrom"
       ]
     },
@@ -10007,6 +10082,7 @@
       "aliases": [
         "strom",
         "v strom",
+        "v strom 650",
         "vstrom"
       ]
     },
@@ -10038,6 +10114,7 @@
       "aliases": [
         "strom",
         "v strom",
+        "v strom 800",
         "vstrom"
       ]
     },
@@ -10069,6 +10146,7 @@
       "aliases": [
         "strom",
         "v strom",
+        "v strom sx 250",
         "vstrom"
       ]
     },
@@ -11259,7 +11337,8 @@
       "oil_capacity": "1.0 L",
       "oil_type": "SAE 10W-40, API SL, JASO MA",
       "aliases": [
-        "fz"
+        "fz",
+        "fz s fi v4"
       ]
     },
     {
@@ -11288,7 +11367,8 @@
       "oil_capacity": "1.0 L (1.05 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
-        "fz"
+        "fz",
+        "fz x 150"
       ]
     },
     {
@@ -11316,7 +11396,10 @@
       "fuel_capacity": "15 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
-      "aliases": []
+      "aliases": [
+        "mt 03",
+        "mt03"
+      ]
     },
     {
       "id": "yamaha-mt-03-2016",
@@ -11343,7 +11426,10 @@
       "fuel_capacity": "14 L",
       "oil_capacity": "2.4 L (2.5 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
-      "aliases": []
+      "aliases": [
+        "mt 03",
+        "mt03"
+      ]
     },
     {
       "id": "yamaha-mt-07-2018",
@@ -11371,7 +11457,9 @@
       "oil_capacity": "2.6 L (2.7 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
-        "cp2"
+        "cp2",
+        "mt 07",
+        "mt07"
       ]
     },
     {
@@ -11400,7 +11488,9 @@
       "oil_capacity": "3.2 L (3.4 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
-        "cp3"
+        "cp3",
+        "mt 09",
+        "mt09"
       ]
     },
     {
@@ -11428,7 +11518,10 @@
       "fuel_capacity": "17 L",
       "oil_capacity": "3.9 L (4.1 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
-      "aliases": []
+      "aliases": [
+        "mt 10",
+        "mt10"
+      ]
     },
     {
       "id": "yamaha-mt-125-2014-present-global",
@@ -11455,7 +11548,10 @@
       "fuel_capacity": "11 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
-      "aliases": []
+      "aliases": [
+        "mt 125",
+        "mt125"
+      ]
     },
     {
       "id": "yamaha-mt-15-2018-present-india",
@@ -11482,7 +11578,10 @@
       "fuel_capacity": "10 L",
       "oil_capacity": "1.0 L (1.05 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
-      "aliases": []
+      "aliases": [
+        "mt 15",
+        "mt15"
+      ]
     },
     {
       "id": "yamaha-mt-25-2015-present-global",
@@ -11509,7 +11608,10 @@
       "fuel_capacity": "14 L",
       "oil_capacity": "1.8 L drain; 2.1 L with filter; 2.4 L dry",
       "oil_type": "SAE 10W-40, JASO MA",
-      "aliases": []
+      "aliases": [
+        "mt 25",
+        "mt25"
+      ]
     },
     {
       "id": "yamaha-nmax-155-2020-present-global",
@@ -11893,7 +11995,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "r series",
-        "yzf"
+        "yzf",
+        "yzf r1",
+        "yzfr1"
       ]
     },
     {
@@ -11923,7 +12027,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "r series",
-        "yzf"
+        "yzf",
+        "yzf r125",
+        "yzfr125"
       ]
     },
     {
@@ -11953,7 +12059,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "r series",
-        "yzf"
+        "yzf",
+        "yzf r15 v4",
+        "yzfr15"
       ]
     },
     {
@@ -11983,7 +12091,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "r series",
-        "yzf"
+        "yzf",
+        "yzf r25",
+        "yzfr25"
       ]
     },
     {
@@ -12013,7 +12123,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "r series",
-        "yzf"
+        "yzf",
+        "yzf r3",
+        "yzfr3"
       ]
     },
     {
@@ -12043,7 +12155,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "r series",
-        "yzf"
+        "yzf",
+        "yzf r3",
+        "yzfr3"
       ]
     },
     {
@@ -12073,7 +12187,9 @@
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
         "r series",
-        "yzf"
+        "yzf",
+        "yzf r6",
+        "yzfr6"
       ]
     },
     {
@@ -12104,7 +12220,9 @@
       "aliases": [
         "cp2",
         "r series",
-        "yzf"
+        "yzf",
+        "yzf r7",
+        "yzfr7"
       ]
     },
     {
@@ -13087,7 +13205,9 @@
       "model_group": "aprilia-rs-4-50",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "rs 4 50"
+      ]
     },
     {
       "id": "aprilia-rs-4-50-replica-2016-2017-global",
@@ -13108,7 +13228,9 @@
       "model_group": "aprilia-rs-4-50-replica",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "rs 4 50 replica"
+      ]
     },
     {
       "id": "aprilia-sr-50-ditech-2001-2006-global",
@@ -13374,7 +13496,9 @@
       "model_group": "aprilia-rs-4-125-ajp-cal",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "rs 4 125 (ajp cal.)"
+      ]
     },
     {
       "id": "aprilia-rs-4-125-j-juan-cal-2011-2019-global",
@@ -13395,7 +13519,9 @@
       "model_group": "aprilia-rs-4-125-j-juan-cal",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "rs 4 125 (j.juan cal.)"
+      ]
     },
     {
       "id": "aprilia-sr-125-1999-2003-global",
@@ -14445,7 +14571,9 @@
       "oil_type": "",
       "aliases": [
         "rsv 4",
-        "rsv4"
+        "rsv4",
+        "rsv4 r 1000 ,abs aprc",
+        "rsv4r"
       ]
     },
     {
@@ -14476,7 +14604,9 @@
       "oil_type": "5W-40",
       "aliases": [
         "rsv 4",
-        "rsv4"
+        "rsv4",
+        "rsv4 rf 1000",
+        "rsv4rf"
       ]
     },
     {
@@ -14507,7 +14637,9 @@
       "oil_type": "5W-40",
       "aliases": [
         "rsv 4",
-        "rsv4"
+        "rsv4",
+        "rsv4 rr 1000",
+        "rsv4rr"
       ]
     },
     {
@@ -16272,7 +16404,10 @@
       "model_group": "beta-50-ajp-caliper-incl-pin-spring",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 ajp caliper incl. pin spring",
+        "pinspring"
+      ]
     },
     {
       "id": "beta-50-prorace-12-10-2004-2004-global",
@@ -16293,7 +16428,10 @@
       "model_group": "beta-50-prorace-12-10",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1210",
+        "50 prorace 12 10"
+      ]
     },
     {
       "id": "beta-50-rev-2000-2009-global",
@@ -16482,7 +16620,10 @@
       "model_group": "beta-alp-125-4-stroke",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "4stroke",
+        "alp 125 4 stroke"
+      ]
     },
     {
       "id": "beta-rr-125-2018-2019-global",
@@ -16717,7 +16858,10 @@
       "fuel_capacity": "6 L",
       "oil_capacity": "0.95 L",
       "oil_type": "10W-40",
-      "aliases": []
+      "aliases": [
+        "4stroke",
+        "alp 200 4 stroke"
+      ]
     },
     {
       "id": "beta-240-super-trial-1992-1992-global",
@@ -16801,7 +16945,9 @@
       "model_group": "beta-250-4-t-rev-3",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "250 4 t rev 3"
+      ]
     },
     {
       "id": "beta-250-evo-2-t-4-t-2009-2014-global",
@@ -16822,7 +16968,9 @@
       "model_group": "beta-250-evo-2-t-4-t",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "250 evo (2 t 4 t)"
+      ]
     },
     {
       "id": "beta-250-rev-3-2000-2009-global",
@@ -18689,7 +18837,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "r60 7 600",
+        "r607"
       ]
     },
     {
@@ -19117,7 +19267,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "r65 1 650",
+        "r651"
       ]
     },
     {
@@ -19301,7 +19453,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "r75 6 750",
+        "r756"
       ]
     },
     {
@@ -19324,7 +19478,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "r75 7 750",
+        "r757"
       ]
     },
     {
@@ -19525,7 +19681,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "p.d.",
+        "r80 800 g s p. d."
       ]
     },
     {
@@ -19663,7 +19821,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "r80 7 800",
+        "r807"
       ]
     },
     {
@@ -19895,7 +20055,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "r90 6 900",
+        "r906"
       ]
     },
     {
@@ -20263,7 +20425,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "r100 7 1000",
+        "r1007"
       ]
     },
     {
@@ -20407,7 +20571,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "k1100 1100 lt se",
+        "ltse"
       ]
     },
     {
@@ -21263,7 +21429,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "ninet",
+        "r 1200 nine t"
       ]
     },
     {
@@ -21286,7 +21454,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "ninet",
+        "r 1200 nine t pure"
       ]
     },
     {
@@ -21316,7 +21486,9 @@
       "oil_capacity": "4 L",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "ninet",
+        "r 1200 nine t racer"
       ]
     },
     {
@@ -21340,6 +21512,8 @@
       "oil_type": "",
       "aliases": [
         "bmw motorrad",
+        "ninet",
+        "r 1200 nine t scrambler",
         "scram",
         "scrambler"
       ]
@@ -21364,7 +21538,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "bmw motorrad"
+        "bmw motorrad",
+        "ninet",
+        "r 1200 nine t urban gs"
       ]
     },
     {
@@ -22279,7 +22455,10 @@
       "model_group": "cagiva-50-ajp-caliper-incl-pin-spring",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 ajp caliper incl. pin spring",
+        "pinspring"
+      ]
     },
     {
       "id": "cagiva-125-blues-1987-1993-global",
@@ -22510,7 +22689,10 @@
       "model_group": "cagiva-wmx-125-gp-replica",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gpreplica",
+        "wmx 125 gp replica"
+      ]
     },
     {
       "id": "cagiva-wrx-125-1985-1985-global",
@@ -23198,7 +23380,9 @@
       "fuel_capacity": "27 L",
       "oil_capacity": "3.9 L",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1330 spyder f3 s"
+      ]
     },
     {
       "id": "can-am-1330-spyder-f3-t-2016-2022-global",
@@ -23225,7 +23409,9 @@
       "fuel_capacity": "27 L",
       "oil_capacity": "3.9 L",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1330 spyder f3 t"
+      ]
     },
     {
       "id": "can-am-1330-spyder-rs-2014-2016-global",
@@ -23998,7 +24184,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "cf moto"
+        "450 g force l",
+        "cf moto",
+        "gforce"
       ]
     },
     {
@@ -24120,6 +24308,7 @@
       "oil_capacity": "2.2 L",
       "oil_type": "10W-40",
       "aliases": [
+        "700 cl x heritage",
         "cf moto",
         "heritage"
       ]
@@ -24151,6 +24340,7 @@
       "oil_capacity": "2.2 L",
       "oil_type": "10W-40",
       "aliases": [
+        "700 cl x sport",
         "cf moto"
       ]
     },
@@ -24703,7 +24893,10 @@
       "model_group": "cpi-125-x-large",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 x large",
+        "xlarge"
+      ]
     },
     {
       "id": "cpi-200-gtr-gts-2002-2003-global",
@@ -24747,7 +24940,10 @@
       "model_group": "cpi-200-x-large",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "200 x large",
+        "xlarge"
+      ]
     },
     {
       "id": "derbi-50-ajp-caliper-incl-pin-spring-1990-2019-global",
@@ -24768,7 +24964,10 @@
       "model_group": "derbi-50-ajp-caliper-incl-pin-spring",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 ajp caliper incl. pin spring",
+        "pinspring"
+      ]
     },
     {
       "id": "derbi-50-atlantis-1999-2008-global",
@@ -25342,7 +25541,10 @@
       "model_group": "derbi-50-senda-r-x-treme",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 senda r, x treme",
+        "xtreme"
+      ]
     },
     {
       "id": "derbi-50-senda-sm-drd-2003-2004-global",
@@ -25405,7 +25607,10 @@
       "model_group": "derbi-50-senda-sm-x-treme",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 senda sm, x treme",
+        "xtreme"
+      ]
     },
     {
       "id": "derbi-50-sonar-2010-2011-global",
@@ -25552,7 +25757,10 @@
       "model_group": "derbi-50-variant-sport-r",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 variant sport r",
+        "sportr"
+      ]
     },
     {
       "id": "derbi-50-x-race-r-2005-2009-global",
@@ -25573,7 +25781,10 @@
       "model_group": "derbi-50-x-race-r",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 x race r",
+        "xrace"
+      ]
     },
     {
       "id": "derbi-50-x-treme-r-2005-2005-global",
@@ -25594,7 +25805,10 @@
       "model_group": "derbi-50-x-treme-r",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 x treme r",
+        "xtreme"
+      ]
     },
     {
       "id": "derbi-ds-50-1988-1988-global",
@@ -26014,7 +26228,10 @@
       "model_group": "derbi-100-atlantis-o2-h2o",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "100 atlantis o2 h2o",
+        "o2h2o"
+      ]
     },
     {
       "id": "derbi-125-atmosphere-1999-1999-global",
@@ -26206,7 +26423,10 @@
       "model_group": "derbi-125-senda-x-treme-sm-4t",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 senda x treme sm 4t",
+        "xtreme"
+      ]
     },
     {
       "id": "derbi-125-terra-2007-2013-global",
@@ -30045,7 +30265,9 @@
       "model_group": "ducati-1000-6-mike-hailwood-replica",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1000 6 mike hailwood replica"
+      ]
     },
     {
       "id": "ducati-1000-biposto-2007-2008-global",
@@ -31756,6 +31978,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "1200 multistrada s d air",
+        "dair",
         "multi",
         "multistrada"
       ]
@@ -32040,6 +32264,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "1260 multistrada s d air",
+        "dair",
         "multi",
         "multistrada"
       ]
@@ -32962,7 +33188,10 @@
       "model_group": "fantic-250-k-roo",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "250 k roo",
+        "kroo"
+      ]
     },
     {
       "id": "fantic-250-raider-1985-1985-global",
@@ -35437,7 +35666,10 @@
       "model_group": "gilera-50-ajp-caliper-incl-pin-spring",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 ajp caliper incl. pin spring",
+        "pinspring"
+      ]
     },
     {
       "id": "gilera-50-sioux-1992-1992-global",
@@ -37228,7 +37460,9 @@
       "oil_type": "",
       "aliases": [
         "harley",
-        "hd"
+        "hd",
+        "vrod",
+        "vrsca 1130 v rod"
       ]
     },
     {
@@ -37252,7 +37486,9 @@
       "oil_type": "",
       "aliases": [
         "harley",
-        "hd"
+        "hd",
+        "vrod",
+        "vrscb 1130 v rod"
       ]
     },
     {
@@ -37801,7 +38037,9 @@
       "oil_type": "",
       "aliases": [
         "harley",
-        "hd"
+        "hd",
+        "seventytwo",
+        "xl 1200 v seventy two"
       ]
     },
     {
@@ -37833,8 +38071,10 @@
       "aliases": [
         "48",
         "forty eight",
+        "fortyeight",
         "harley",
-        "hd"
+        "hd",
+        "xl 1200 x forty eight"
       ]
     },
     {
@@ -37866,8 +38106,10 @@
       "aliases": [
         "48",
         "forty eight",
+        "fortyeight",
         "harley",
-        "hd"
+        "hd",
+        "xl 1200 x forty eight spec."
       ]
     },
     {
@@ -38060,7 +38302,9 @@
       "oil_type": "",
       "aliases": [
         "harley",
-        "hd"
+        "hd",
+        "vrod",
+        "vrscaw 1250 v rod"
       ]
     },
     {
@@ -38132,7 +38376,9 @@
       "oil_type": "",
       "aliases": [
         "harley",
-        "hd"
+        "hd",
+        "vrod",
+        "vrscx 1250 v rod"
       ]
     },
     {
@@ -38647,6 +38893,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "flt h 1340 series",
+        "flth",
         "harley",
         "hd"
       ]
@@ -39473,6 +39721,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "flhr i 1450 road king",
+        "flhri",
         "harley",
         "hd",
         "road king"
@@ -39524,6 +39774,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "flhrs i 1450 road king custom",
+        "flhrsi",
         "harley",
         "hd",
         "road king"
@@ -39549,6 +39801,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "flht i 1450 electra glide standard",
+        "flhti",
         "harley",
         "hd"
       ]
@@ -39574,6 +39828,8 @@
       "oil_type": "",
       "aliases": [
         "classic",
+        "flhtc i 1450 electra glide classic",
+        "flhtci",
         "harley",
         "hd"
       ]
@@ -39673,6 +39929,8 @@
       "oil_type": "",
       "aliases": [
         "classic",
+        "flstc i 1450 heritage softail classic",
+        "flstci",
         "harley",
         "hd",
         "heritage"
@@ -39750,6 +40008,8 @@
       "aliases": [
         "fat boy",
         "fatboy",
+        "flstf i 1450 fat boy",
+        "flstfi",
         "harley",
         "hd"
       ]
@@ -39825,6 +40085,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "flstn i 1450 softail deluxe",
+        "flstni",
         "harley",
         "hd"
       ]
@@ -39849,6 +40111,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "flsts i 1450 heritage springer",
+        "flstsi",
         "harley",
         "hd",
         "heritage"
@@ -39875,6 +40139,8 @@
       "oil_type": "",
       "aliases": [
         "classic",
+        "flstsc i 1450 springer softail classic",
+        "flstsci",
         "harley",
         "hd"
       ]
@@ -39900,6 +40166,8 @@
       "oil_type": "",
       "aliases": [
         "classic",
+        "fltr i 1450 road glide classic",
+        "fltri",
         "harley",
         "hd",
         "road glide"
@@ -39974,6 +40242,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "fxdc i 1450 dyna super glide custom",
+        "fxdci",
         "harley",
         "hd"
       ]
@@ -40216,8 +40486,10 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "fxdxt 1450 dyna super glide t sport",
         "harley",
-        "hd"
+        "hd",
+        "tsport"
       ]
     },
     {
@@ -40240,6 +40512,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "fxst i 1450 softail standard",
+        "fxsti",
         "harley",
         "hd"
       ]
@@ -40264,6 +40538,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "fxstb i 1450 night train",
+        "fxstbi",
         "harley",
         "hd"
       ]
@@ -40288,6 +40564,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "fxstd i 1450 softail deuce",
+        "fxstdi",
         "harley",
         "hd"
       ]
@@ -40312,6 +40590,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "fxsts i 1450 softail",
+        "fxstsi",
         "harley",
         "hd"
       ]
@@ -40336,6 +40616,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "fxsts i 1450 springer softail",
+        "fxstsi",
         "harley",
         "hd"
       ]
@@ -40686,6 +40968,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "flstsc i 1584 softail",
+        "flstsci",
         "harley",
         "hd"
       ]
@@ -43894,7 +44178,9 @@
       "model_group": "honda-ns-1-50",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "ns 1 50"
+      ]
     },
     {
       "id": "honda-nsc-50-vision-2010-2018-global",
@@ -43978,7 +44264,10 @@
       "model_group": "honda-pk-50-walaroo-dx-std",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "dxstd",
+        "pk 50 walaroo dx std"
+      ]
     },
     {
       "id": "honda-px-50-1982-1984-global",
@@ -44020,7 +44309,10 @@
       "model_group": "honda-qa-50-k1-k3",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "k1k3",
+        "qa 50 k1 k3"
+      ]
     },
     {
       "id": "honda-qr-50-1993-2003-global",
@@ -44379,7 +44671,9 @@
       "model_group": "honda-ns-1-75",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "ns 1 75"
+      ]
     },
     {
       "id": "honda-atc-80-1976-1978-global",
@@ -46153,7 +46447,10 @@
       "model_group": "honda-cb-175-k3-k7",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cb 175 k3 k7",
+        "k3k7"
+      ]
     },
     {
       "id": "honda-cd-175-all-models-1971-1978-global",
@@ -48296,7 +48593,9 @@
       "model_group": "honda-cb-1-400-cb-400-f",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cb 1 400 (cb 400 f)"
+      ]
     },
     {
       "id": "honda-cm-400-a-t-tz-1979-1979-global",
@@ -48464,7 +48763,9 @@
       "model_group": "honda-sw-t-400",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "sw t 400"
+      ]
     },
     {
       "id": "honda-sw-t-400-abs-2009-2014-global",
@@ -48485,7 +48786,9 @@
       "model_group": "honda-sw-t-400-abs",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "sw t 400 abs"
+      ]
     },
     {
       "id": "honda-xr-400-r-1996-2004-global",
@@ -48711,7 +49014,9 @@
       "fuel_capacity": "6.3 L",
       "oil_capacity": "1.8 L",
       "oil_type": "SAE 10W-30, JASO T 903",
-      "aliases": []
+      "aliases": [
+        "crf 450 r s"
+      ]
     },
     {
       "id": "honda-crf-450-rwe-2019-2023-global",
@@ -49653,7 +49958,9 @@
       "model_group": "honda-sw-t-600",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "sw t 600"
+      ]
     },
     {
       "id": "honda-vt-600-c-shadow-1988-2000-global",
@@ -50059,7 +50366,9 @@
       "model_group": "honda-nx-650-dominator-j-k",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "nx 650 dominator j k"
+      ]
     },
     {
       "id": "honda-xr-650-l-1993-2018-global",
@@ -50122,7 +50431,10 @@
       "model_group": "honda-dn-01-680",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "dn 01 680",
+        "dn01"
+      ]
     },
     {
       "id": "honda-cb-700-sc-1984-1986-global",
@@ -50185,7 +50497,10 @@
       "model_group": "honda-ctx-700-d-abs-w-dct",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "ctx 700 d abs w dct",
+        "wdct"
+      ]
     },
     {
       "id": "honda-model-2012-2019-global",
@@ -50247,7 +50562,10 @@
       "model_group": "honda-ctx-700-nd-abs-w-dct",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "ctx 700 nd abs w dct",
+        "wdct"
+      ]
     },
     {
       "id": "honda-nc-700-d-integra-2012-2013-global",
@@ -50415,7 +50733,10 @@
       "model_group": "honda-nm4-700-vultus-abs-w-dct",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "nm4 700 vultus abs w dct",
+        "wdct"
+      ]
     },
     {
       "id": "honda-nt-700-deauville-abs-2006-2012-global",
@@ -50804,7 +51125,10 @@
       "model_group": "honda-cb-750-k0-k6-four",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cb 750 k0 k6 four",
+        "k0k6"
+      ]
     },
     {
       "id": "honda-cb-750-kz-1982-1982-global",
@@ -51021,7 +51345,10 @@
       "fuel_capacity": "14.1 L",
       "oil_capacity": "3.7 L",
       "oil_type": "10W-40",
-      "aliases": []
+      "aliases": [
+        "nc 750 s w dct",
+        "wdct"
+      ]
     },
     {
       "id": "honda-nc-750-x-w-dct-2014-2019-global",
@@ -51042,7 +51369,10 @@
       "model_group": "honda-nc-750-x-w-dct",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "nc 750 x w dct",
+        "wdct"
+      ]
     },
     {
       "id": "honda-nc-750-xae-2014-2019-global",
@@ -51986,7 +52316,9 @@
       "fuel_capacity": "16.3 L",
       "oil_capacity": "3.3 L",
       "oil_type": "10W-40",
-      "aliases": []
+      "aliases": [
+        "cbr 1000 rr r sp fireblade"
+      ]
     },
     {
       "id": "honda-cbx-1000-1978-1982-global",
@@ -52177,7 +52509,10 @@
       "model_group": "honda-rc213v-s-1000",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "rc213v s 1000",
+        "rc213vs"
+      ]
     },
     {
       "id": "honda-rvt-1000-rc51-2000-2006-global",
@@ -52261,7 +52596,10 @@
       "model_group": "honda-vtr-1000-sp-1-sp-2",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "sp1,",
+        "vtr 1000 sp 1, sp 2"
+      ]
     },
     {
       "id": "honda-vtr-1000-super-hawk-1997-2007-global",
@@ -52408,7 +52746,9 @@
       "model_group": "honda-cb-1100-x-11",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cb 1100 x 11"
+      ]
     },
     {
       "id": "honda-cbr-1100-xx-super-blackbird-1996-2007-global",
@@ -52481,6 +52821,7 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "gl 1100 1, dlx gold wing",
         "gold wing",
         "goldwing"
       ]
@@ -52580,7 +52921,10 @@
       "model_group": "honda-st-1100-a6-abs-tcs-cbs",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "abstcscbs",
+        "st 1100 a6 abs tcs cbs"
+      ]
     },
     {
       "id": "honda-st-1100-abs-tcs-1992-1995-global",
@@ -52601,7 +52945,10 @@
       "model_group": "honda-st-1100-abs-tcs",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "abstcs",
+        "st 1100 abs tcs"
+      ]
     },
     {
       "id": "honda-vf-1100-c-1983-1986-global",
@@ -52862,7 +53209,10 @@
       "model_group": "honda-vfr-1200-f-w-dct",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vfr 1200 f w dct",
+        "wdct"
+      ]
     },
     {
       "id": "honda-vfr-1200-xc-crosstourer-2012-2019-global",
@@ -52904,7 +53254,10 @@
       "model_group": "honda-vfr-1200-xdc-crosstourer-w-dct",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vfr 1200 xdc crosstourer w dct",
+        "wdct"
+      ]
     },
     {
       "id": "honda-cb-1300-2005-2013-global",
@@ -54453,7 +54806,10 @@
       "model_group": "husqvarna-cr-rl-125",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cr rl 125",
+        "crrl"
+      ]
     },
     {
       "id": "husqvarna-cr-wr-125-1991-1991-global",
@@ -54474,7 +54830,10 @@
       "model_group": "husqvarna-cr-wr-125",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cr wr 125",
+        "crwr"
+      ]
     },
     {
       "id": "husqvarna-cx-125-1984-1985-global",
@@ -54684,7 +55043,10 @@
       "model_group": "husqvarna-wr-xc-125",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "wr xc 125",
+        "wrxc"
+      ]
     },
     {
       "id": "husqvarna-wre-125-1996-2013-global",
@@ -55070,7 +55432,10 @@
       "model_group": "husqvarna-wr-or-250",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "wr or 250",
+        "wror"
+      ]
     },
     {
       "id": "husqvarna-wr-xc-250-1981-1990-global",
@@ -55091,7 +55456,10 @@
       "model_group": "husqvarna-wr-xc-250",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "wr xc 250",
+        "wrxc"
+      ]
     },
     {
       "id": "husqvarna-wr-260-1990-1993-global",
@@ -55322,7 +55690,10 @@
       "model_group": "husqvarna-wr-or-390",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "wr or 390",
+        "wror"
+      ]
     },
     {
       "id": "husqvarna-wr-xc-390-1982-1982-global",
@@ -55343,7 +55714,10 @@
       "model_group": "husqvarna-wr-xc-390",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "wr xc 390",
+        "wrxc"
+      ]
     },
     {
       "id": "husqvarna-400-enduro-1985-1988-global",
@@ -55553,7 +55927,10 @@
       "model_group": "husqvarna-cr-wr-cs-430",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cr wr cs 430",
+        "crwrcs"
+      ]
     },
     {
       "id": "husqvarna-wr-430-1987-1989-global",
@@ -55854,7 +56231,10 @@
       "model_group": "husqvarna-cx-cr-500",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cx cr 500",
+        "cxcr"
+      ]
     },
     {
       "id": "husqvarna-tc-500-1986-1986-global",
@@ -55896,7 +56276,10 @@
       "model_group": "husqvarna-wr-xc-ae-500",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "wr xc ae 500",
+        "wrxcae"
+      ]
     },
     {
       "id": "husqvarna-xc-500-1987-1988-global",
@@ -57096,7 +57479,9 @@
       "model_group": "hyosung-125-ga-4",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 ga 4"
+      ]
     },
     {
       "id": "hyosung-125-grand-prix-1998-2004-global",
@@ -57625,7 +58010,10 @@
       "model_group": "hyosung-gd-250-exiv-r",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "exivr",
+        "gd 250 exiv r"
+      ]
     },
     {
       "id": "hyosung-gt-250-comet-2002-2008-global",
@@ -58087,7 +58475,9 @@
       "model_group": "hyosung-gt-650-ttc-custom-trendkiller",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gt 650 ttc custom trendkiller"
+      ]
     },
     {
       "id": "hyosung-gt-650-x-2007-2011-global",
@@ -59068,7 +59458,10 @@
       "model_group": "italjet-50-ajp-caliper-incl-pin-spring",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 ajp caliper incl. pin spring",
+        "pinspring"
+      ]
     },
     {
       "id": "italjet-50-bazooka-1993-2002-global",
@@ -59215,7 +59608,10 @@
       "model_group": "italjet-50-jet-set",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 jet set",
+        "jetset"
+      ]
     },
     {
       "id": "italjet-50-pista-2-1992-1997-global",
@@ -59530,7 +59926,10 @@
       "model_group": "italjet-125-jet-set",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 jet set",
+        "jetset"
+      ]
     },
     {
       "id": "italjet-125-jupiter-2002-2003-global",
@@ -59658,7 +60057,10 @@
       "model_group": "italjet-150-jet-set",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "150 jet set",
+        "jetset"
+      ]
     },
     {
       "id": "italjet-150-jupiter-2002-2003-global",
@@ -60602,8 +61004,10 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "dtracker",
         "kawi",
-        "klx"
+        "klx",
+        "klx 125 d tracker"
       ]
     },
     {
@@ -60774,8 +61178,10 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "dtracker",
         "kawi",
-        "klx"
+        "klx",
+        "klx 150 d tracker"
       ]
     },
     {
@@ -61820,7 +62226,9 @@
       "oil_type": "",
       "aliases": [
         "kawi",
-        "versys"
+        "kle 300 versys x",
+        "versys",
+        "versysx"
       ]
     },
     {
@@ -62944,6 +63352,7 @@
         "kawi",
         "zx 6",
         "zx 6 r",
+        "zx 6r 636 ninja krt abs",
         "zx6",
         "zx6r"
       ]
@@ -62978,6 +63387,7 @@
         "kawi",
         "zx 6",
         "zx 6 r",
+        "zx 6r 636 ninja upgrade ds",
         "zx6",
         "zx6r"
       ]
@@ -63473,7 +63883,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "kawi"
+        "kawi",
+        "kfx 700 v force",
+        "vforce"
       ]
     },
     {
@@ -63496,7 +63908,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "kawi"
+        "kawi",
+        "ksv 700 v force",
+        "vforce"
       ]
     },
     {
@@ -64213,7 +64627,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "kawi"
+        "kawi",
+        "zr 7s 750",
+        "zr7s"
       ]
     },
     {
@@ -65380,7 +65796,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "kawi"
+        "kawi",
+        "zx 10 1000",
+        "zx10"
       ]
     },
     {
@@ -65403,9 +65821,14 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "10r",
         "kawi",
+        "ninja 10r",
+        "ninja zx10r",
         "zx 10",
         "zx 10 r",
+        "zx 10r",
+        "zx 10r 1000 ninja krt",
         "zx10",
         "zx10r"
       ]
@@ -65437,9 +65860,14 @@
       "oil_capacity": "3.7 L (3.9 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "10r",
         "kawi",
+        "ninja 10r",
+        "ninja zx10r",
         "zx 10",
         "zx 10 r",
+        "zx 10r",
+        "zx 10r 1000 ninja se",
         "zx10",
         "zx10r"
       ]
@@ -65951,6 +66379,7 @@
       "aliases": [
         "kawi",
         "zx 14",
+        "zx 14r 1400 se",
         "zx14",
         "zx14r"
       ]
@@ -66505,7 +66934,10 @@
       "model_group": "keeway-f-nkd-50",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "f nkd 50",
+        "fnkd"
+      ]
     },
     {
       "id": "keeway-ry8-50-2007-2016-global",
@@ -66820,7 +67252,10 @@
       "model_group": "keeway-125-x-ray",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 x ray",
+        "xray"
+      ]
     },
     {
       "id": "keeway-tx-125-sm-2010-2016-global",
@@ -67128,7 +67563,9 @@
       "model_group": "ktm-e-sm-freeride",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "e sm freeride"
+      ]
     },
     {
       "id": "ktm-e-sx-freeride-2015-2016-global",
@@ -67150,6 +67587,7 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "e sx freeride",
         "sx f",
         "sxf"
       ]
@@ -67173,7 +67611,9 @@
       "model_group": "ktm-e-xc-freeride",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "e xc freeride"
+      ]
     },
     {
       "id": "ktm-sx-e-5-2019-2023-global",
@@ -67194,7 +67634,9 @@
       "model_group": "ktm-sx-e-5",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "sx e 5"
+      ]
     },
     {
       "id": "ktm-sm-50-supermoto-2006-2006-global",
@@ -67431,7 +67873,10 @@
       "model_group": "ktm-sx-85-19-16-wheels",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "(19\"16\"",
+        "sx 85 (19\" 16\" wheels)"
+      ]
     },
     {
       "id": "ktm-125-1983-1983-global",
@@ -67932,7 +68377,9 @@
       "model_group": "ktm-xc-w-200",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xc w 200"
+      ]
     },
     {
       "id": "ktm-250-baja-1986-1989-global",
@@ -68153,7 +68600,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "exc"
+        "exc",
+        "exc f 250",
+        "excf"
       ]
     },
     {
@@ -68389,7 +68838,9 @@
       "model_group": "ktm-xc-f-250",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xc f 250"
+      ]
     },
     {
       "id": "ktm-xc-w-250-2008-2017-global",
@@ -68410,7 +68861,9 @@
       "model_group": "ktm-xc-w-250",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xc w 250"
+      ]
     },
     {
       "id": "ktm-exc-300-enduro-1999-2008-global",
@@ -68607,7 +69060,9 @@
       "model_group": "ktm-xc-w-300",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xc w 300"
+      ]
     },
     {
       "id": "ktm-350-country-cross-1985-1985-global",
@@ -68842,6 +69297,7 @@
       "oil_type": "",
       "aliases": [
         "sx f",
+        "sx f 350",
         "sxf"
       ]
     },
@@ -68885,7 +69341,9 @@
       "model_group": "ktm-xc-f-350",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xc f 350"
+      ]
     },
     {
       "id": "ktm-xcf-w-350-2013-2017-global",
@@ -68906,7 +69364,10 @@
       "model_group": "ktm-xcf-w-350",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xcf w 350",
+        "xcfw"
+      ]
     },
     {
       "id": "ktm-mx-360-1996-1997-global",
@@ -69206,7 +69667,10 @@
       "model_group": "ktm-lc4-e-400-enduro",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lc4 e 400 enduro",
+        "lc4e"
+      ]
     },
     {
       "id": "ktm-sc-400-1999-2000-global",
@@ -69296,7 +69760,9 @@
       "model_group": "ktm-xc-w-400",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xc w 400"
+      ]
     },
     {
       "id": "ktm-gs-420-1984-1987-global",
@@ -69387,7 +69853,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "exc"
+        "exc",
+        "exc f 450",
+        "excf"
       ]
     },
     {
@@ -69456,7 +69924,9 @@
       "model_group": "ktm-xc-f-450",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xc f 450"
+      ]
     },
     {
       "id": "ktm-xcf-w-450-2007-2015-global",
@@ -69477,7 +69947,10 @@
       "model_group": "ktm-xcf-w-450",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xcf w 450",
+        "xcfw"
+      ]
     },
     {
       "id": "ktm-mc-495-leleu-1982-1983-global",
@@ -69666,7 +70139,10 @@
       "model_group": "ktm-xcf-w-500",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xcf w 500",
+        "xcfw"
+      ]
     },
     {
       "id": "ktm-sx-505-racing-2007-2009-global",
@@ -69708,7 +70184,9 @@
       "model_group": "ktm-xc-f-505",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xc f 505"
+      ]
     },
     {
       "id": "ktm-exc-520-racing-2000-2002-global",
@@ -69754,6 +70232,7 @@
       "oil_type": "",
       "aliases": [
         "sx f",
+        "sx f 520 racing",
         "sxf"
       ]
     },
@@ -69822,6 +70301,7 @@
       "oil_type": "",
       "aliases": [
         "sx f",
+        "sx f 525 racing",
         "sxf"
       ]
     },
@@ -69844,7 +70324,9 @@
       "model_group": "ktm-xc-f-525",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xc f 525"
+      ]
     },
     {
       "id": "ktm-xcf-w-525-2007-2007-global",
@@ -69865,7 +70347,10 @@
       "model_group": "ktm-xcf-w-525",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xcf w 525",
+        "xcfw"
+      ]
     },
     {
       "id": "ktm-exc-530-racing-2008-2011-global",
@@ -69909,7 +70394,10 @@
       "model_group": "ktm-xcf-w-530",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "xcf w 530",
+        "xcfw"
+      ]
     },
     {
       "id": "ktm-sxc-540-tiainen-replica-1999-2000-global",
@@ -70529,7 +71017,10 @@
       "model_group": "ktm-lc4-e-640-enduro",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lc4 e 640 enduro",
+        "lc4e"
+      ]
     },
     {
       "id": "ktm-lc4-e-640-supermoto-1999-2002-global",
@@ -70550,7 +71041,10 @@
       "model_group": "ktm-lc4-e-640-supermoto",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lc4 e 640 supermoto",
+        "lc4e"
+      ]
     },
     {
       "id": "ktm-lc4-660-rally-2001-2003-global",
@@ -71584,7 +72078,10 @@
       "model_group": "kymco-50-super-8",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 super 8",
+        "super8"
+      ]
     },
     {
       "id": "kymco-50-super-9-2000-2001-global",
@@ -71605,7 +72102,10 @@
       "model_group": "kymco-50-super-9",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 super 9",
+        "super9"
+      ]
     },
     {
       "id": "kymco-50-super-9-a-c-2002-2007-global",
@@ -71626,7 +72126,10 @@
       "model_group": "kymco-50-super-9-a-c",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 super 9 a c",
+        "super9"
+      ]
     },
     {
       "id": "kymco-50-super-9-l-c-2002-2007-global",
@@ -71647,7 +72150,10 @@
       "model_group": "kymco-50-super-9-l-c",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 super 9 l c",
+        "super9"
+      ]
     },
     {
       "id": "kymco-cx-50-curio-super-1994-1997-global",
@@ -71836,7 +72342,10 @@
       "model_group": "kymco-125-k-pipe",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 k pipe",
+        "kpipe"
+      ]
     },
     {
       "id": "kymco-125-like-2011-2016-global",
@@ -71983,7 +72492,10 @@
       "model_group": "kymco-125-super-8",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 super 8",
+        "super8"
+      ]
     },
     {
       "id": "kymco-125-super-9-2000-2001-global",
@@ -72004,7 +72516,10 @@
       "model_group": "kymco-125-super-9",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 super 9",
+        "super9"
+      ]
     },
     {
       "id": "kymco-125-x-town-ct-2020-2020-global",
@@ -72031,7 +72546,10 @@
       "fuel_capacity": "10.5 L",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 x town ct",
+        "xtown"
+      ]
     },
     {
       "id": "kymco-dt-125-x360-2022-2023-global",
@@ -72290,7 +72808,10 @@
       "model_group": "kymco-250-super-9",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "250 super 9",
+        "super9"
+      ]
     },
     {
       "id": "kymco-250-venox-2001-2014-global",
@@ -72480,7 +73001,10 @@
       "fuel_capacity": "13 L",
       "oil_capacity": "0.9 L",
       "oil_type": "10W-40",
-      "aliases": []
+      "aliases": [
+        "300 x town ct",
+        "xtown"
+      ]
     },
     {
       "id": "kymco-350-new-downtown-2016-2017-global",
@@ -72849,7 +73373,10 @@
       "model_group": "laverda-650-v-six",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "650 v six",
+        "vsix"
+      ]
     },
     {
       "id": "laverda-668-668-1996-1997-global",
@@ -73059,7 +73586,10 @@
       "model_group": "laverda-750-strike-black-strike",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "750 strike black strike",
+        "strikeblack"
+      ]
     },
     {
       "id": "laverda-750-t8-1998-2001-global",
@@ -73395,7 +73925,9 @@
       "model_group": "maico-250-motocross-enduro",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "250 motocross enduro"
+      ]
     },
     {
       "id": "maico-gm-250-lc-1985-1985-global",
@@ -73647,7 +74179,9 @@
       "model_group": "maico-500-motocross-enduro",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "500 motocross enduro"
+      ]
     },
     {
       "id": "maico-500-supermotard-1999-1999-global",
@@ -73815,7 +74349,10 @@
       "model_group": "malaguti-50-ajp-caliper-incl-pin-spring",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 ajp caliper incl. pin spring",
+        "pinspring"
+      ]
     },
     {
       "id": "malaguti-50-centro-1993-1996-global",
@@ -74067,7 +74604,9 @@
       "model_group": "malaguti-cr-1-50-crosser",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cr 1 50 crosser"
+      ]
     },
     {
       "id": "malaguti-el-50-crosser-1997-2000-global",
@@ -74130,7 +74669,9 @@
       "model_group": "malaguti-f-10-50",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "f 10 50"
+      ]
     },
     {
       "id": "malaguti-f-10-50-jet-line-1994-1998-global",
@@ -74151,7 +74692,10 @@
       "model_group": "malaguti-f-10-50-jet-line",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "f 10 50 jet line",
+        "jetline"
+      ]
     },
     {
       "id": "malaguti-f-12-50-phantom-1994-1998-global",
@@ -74172,7 +74716,9 @@
       "model_group": "malaguti-f-12-50-phantom",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "f 12 50 phantom"
+      ]
     },
     {
       "id": "malaguti-f-12-50-phantom-a-c-1999-2003-global",
@@ -74193,7 +74739,9 @@
       "model_group": "malaguti-f-12-50-phantom-a-c",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "f 12 50 phantom a.c."
+      ]
     },
     {
       "id": "malaguti-f-15-50-fire-fox-1996-2008-global",
@@ -74214,7 +74762,9 @@
       "model_group": "malaguti-f-15-50-fire-fox",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "f 15 50 fire fox"
+      ]
     },
     {
       "id": "malaguti-f-15-50-fire-fox-l-c-1996-2008-global",
@@ -74235,7 +74785,9 @@
       "model_group": "malaguti-f-15-50-fire-fox-l-c",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "f 15 50 fire fox l.c."
+      ]
     },
     {
       "id": "malaguti-mdx-50-1986-1987-global",
@@ -75075,6 +75627,7 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "240 4",
         "guzzi"
       ]
     },
@@ -75789,6 +76342,8 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "750 nevada, club base",
+        "clubbase",
         "guzzi"
       ]
     },
@@ -76488,7 +77043,9 @@
       "oil_type": "",
       "aliases": [
         "guzzi",
-        "v7"
+        "parisdakar",
+        "v7",
+        "v75 750 tt paris dakar"
       ]
     },
     {
@@ -76914,7 +77471,9 @@
       "oil_type": "",
       "aliases": [
         "guzzi",
-        "v9"
+        "v9",
+        "v9 850 x track",
+        "xtrack"
       ]
     },
     {
@@ -77913,7 +78472,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "guzzi"
+        "1200 mgs 01 corsa",
+        "guzzi",
+        "mgs01"
       ]
     },
     {
@@ -78284,7 +78845,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "guzzi"
+        "guzzi",
+        "mgx 21 1400 flying fortress",
+        "mgx21"
       ]
     },
     {
@@ -78762,7 +79325,10 @@
       "fuel_capacity": "18 L",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "649 x cape",
+        "xcape"
+      ]
     },
     {
       "id": "moto-morini-650-indiana-1988-1988-global",
@@ -78853,7 +79419,9 @@
       "model_group": "moto-morini-1200-11-1-2",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1200 11 1 2"
+      ]
     },
     {
       "id": "moto-morini-1200-9-1-2-2006-2009-global",
@@ -78874,7 +79442,9 @@
       "model_group": "moto-morini-1200-9-1-2",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1200 9 1 2"
+      ]
     },
     {
       "id": "moto-morini-1200-corsaro-2006-2013-global",
@@ -79152,7 +79722,10 @@
       "model_group": "motus-mst-r-1650",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "mst r 1650",
+        "mstr"
+      ]
     },
     {
       "id": "mv-agusta-675-brutale-2012-2015-global",
@@ -80597,7 +81170,9 @@
       "model_group": "norton-f-1-600",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "f 1 600"
+      ]
     },
     {
       "id": "norton-tt-600-1992-1992-global",
@@ -80849,7 +81424,10 @@
       "model_group": "ohvale-gp-01-110",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gp 01 110",
+        "gp01"
+      ]
     },
     {
       "id": "ohvale-gp-01-160-2017-2019-global",
@@ -80870,7 +81448,10 @@
       "model_group": "ohvale-gp-01-160",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gp 01 160",
+        "gp01"
+      ]
     },
     {
       "id": "ohvale-gp-01-190-2017-2019-global",
@@ -80891,7 +81472,10 @@
       "model_group": "ohvale-gp-01-190",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gp 01 190",
+        "gp01"
+      ]
     },
     {
       "id": "ohvale-gp-2-190-2021-2021-global",
@@ -80912,7 +81496,9 @@
       "model_group": "ohvale-gp-2-190",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gp 2 190"
+      ]
     },
     {
       "id": "ohvale-gp-01-212-2017-2019-global",
@@ -80933,7 +81519,10 @@
       "model_group": "ohvale-gp-01-212",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gp 01 212",
+        "gp01"
+      ]
     },
     {
       "id": "ossa-tr-125-i-2015-2015-global",
@@ -81080,7 +81669,10 @@
       "model_group": "peugeot-e-vivacity",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "e vivacity",
+        "evivacity"
+      ]
     },
     {
       "id": "peugeot-50-elyseo-2002-2005-global",
@@ -81248,7 +81840,9 @@
       "model_group": "peugeot-50-speedfight-2-a-c",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 speedfight 2 a c"
+      ]
     },
     {
       "id": "peugeot-50-speedfight-2-l-c-2001-2008-global",
@@ -81269,7 +81863,9 @@
       "model_group": "peugeot-50-speedfight-2-l-c",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 speedfight 2 l c"
+      ]
     },
     {
       "id": "peugeot-furious-206-wrc-2001-2002-global",
@@ -81416,7 +82012,10 @@
       "model_group": "peugeot-50-speedfight-lbd-lbdp",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 speedfight lbd lbdp",
+        "lbdlbdp"
+      ]
     },
     {
       "id": "peugeot-50-speedfight-lc-a-j-p-cal-1996-2015-global",
@@ -81521,7 +82120,10 @@
       "model_group": "peugeot-50-trekker-metal-x",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 trekker metal x",
+        "metalx"
+      ]
     },
     {
       "id": "peugeot-50-trekker-offroad-1999-2001-global",
@@ -81794,7 +82396,10 @@
       "model_group": "peugeot-100-speedfight-2-x-race",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "100 speedfight 2, x race",
+        "xrace"
+      ]
     },
     {
       "id": "peugeot-100-trekker-road-1999-2004-global",
@@ -83347,7 +83952,9 @@
       "model_group": "scorpa-ty-s-115-f-trial",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "ty s 115 f trial"
+      ]
     },
     {
       "id": "scorpa-125-twenty-trial-2016-2018-global",
@@ -83410,7 +84017,9 @@
       "model_group": "scorpa-ty-s-125-f-trial",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "ty s 125 f trial"
+      ]
     },
     {
       "id": "scorpa-250-t-ride-2008-2011-global",
@@ -83431,7 +84040,10 @@
       "model_group": "scorpa-250-t-ride",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "250 t ride",
+        "tride"
+      ]
     },
     {
       "id": "scorpa-250-twenty-trial-2016-2018-global",
@@ -83536,7 +84148,10 @@
       "model_group": "sherco-50-ajp-caliper-incl-pin-spring",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 ajp caliper incl. pin spring",
+        "pinspring"
+      ]
     },
     {
       "id": "sherco-80-0-8-2001-2003-global",
@@ -83599,7 +84214,9 @@
       "model_group": "sherco-se-r-125",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "se r 125"
+      ]
     },
     {
       "id": "sherco-st-125-formula-cal-2013-2014-global",
@@ -83725,7 +84342,9 @@
       "model_group": "sherco-se-250-f-f-r",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "se 250 f, f r"
+      ]
     },
     {
       "id": "sherco-se-250-i-ir-2012-2013-global",
@@ -83746,7 +84365,9 @@
       "model_group": "sherco-se-250-i-ir",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "se 250 i ir"
+      ]
     },
     {
       "id": "sherco-se-250-i-f-2013-2013-global",
@@ -83767,7 +84388,9 @@
       "model_group": "sherco-se-250-i-f",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "se 250 i f"
+      ]
     },
     {
       "id": "sherco-st-250-1999-2000-global",
@@ -83851,7 +84474,10 @@
       "model_group": "sherco-sx-250-2-5i-f",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "2.5if",
+        "sx 250 2.5i f"
+      ]
     },
     {
       "id": "sherco-st-290-formula-cal-2013-2014-global",
@@ -83914,7 +84540,10 @@
       "model_group": "sherco-scf-r-300",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "scf r 300",
+        "scfr"
+      ]
     },
     {
       "id": "sherco-se-300-r-2014-2019-global",
@@ -83956,7 +84585,10 @@
       "model_group": "sherco-se-300-3-0i-f",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "3.0if",
+        "se 300 3.0i f"
+      ]
     },
     {
       "id": "sherco-se-300-f-f-r-2014-2019-global",
@@ -83977,7 +84609,9 @@
       "model_group": "sherco-se-300-f-f-r",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "se 300 f, f r"
+      ]
     },
     {
       "id": "sherco-se-300-i-ir-2012-2013-global",
@@ -83998,7 +84632,9 @@
       "model_group": "sherco-se-300-i-ir",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "se 300 i ir"
+      ]
     },
     {
       "id": "sherco-se-300-i-f-2013-2013-global",
@@ -84019,7 +84655,9 @@
       "model_group": "sherco-se-300-i-f",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "se 300 i f"
+      ]
     },
     {
       "id": "sherco-st-300-2016-2019-global",
@@ -84124,7 +84762,9 @@
       "model_group": "sherco-se-450-f-f-r",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "se 450 f, f r"
+      ]
     },
     {
       "id": "sherco-se-450-ir-2012-2013-global",
@@ -84250,7 +84890,10 @@
       "model_group": "suzuki-50-ajp-caliper-incl-pin-spring",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 ajp caliper incl. pin spring",
+        "pinspring"
+      ]
     },
     {
       "id": "suzuki-ah-50-adress-1992-1995-global",
@@ -84315,6 +84958,7 @@
       "oil_type": "",
       "aliases": [
         "dr z",
+        "dr z 50",
         "drz"
       ]
     },
@@ -84400,7 +85044,9 @@
       "model_group": "suzuki-lt-a-50-quadmaster",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lt a 50 quadmaster"
+      ]
     },
     {
       "id": "suzuki-or-50-1979-1980-global",
@@ -84597,6 +85243,7 @@
       "oil_type": "10W-40",
       "aliases": [
         "dr z",
+        "dr z 70",
         "drz"
       ]
     },
@@ -84894,6 +85541,7 @@
       "oil_type": "",
       "aliases": [
         "dr z",
+        "dr z 110",
         "drz"
       ]
     },
@@ -85109,6 +85757,7 @@
       "oil_type": "",
       "aliases": [
         "dr z",
+        "dr z 125 k",
         "drz"
       ]
     },
@@ -85133,6 +85782,7 @@
       "oil_type": "",
       "aliases": [
         "dr z",
+        "dr z 125 l",
         "drz"
       ]
     },
@@ -85200,6 +85850,7 @@
       "aliases": [
         "gixxer",
         "gsx r",
+        "gsx r 125 rl",
         "gsxr"
       ]
     },
@@ -85225,6 +85876,7 @@
       "aliases": [
         "gixxer",
         "gsx r",
+        "gsx r 125 rlx",
         "gsxr"
       ]
     },
@@ -85249,6 +85901,7 @@
       "oil_type": "",
       "aliases": [
         "gsx s",
+        "gsx s 125 ml",
         "gsxs"
       ]
     },
@@ -85273,6 +85926,7 @@
       "oil_type": "",
       "aliases": [
         "gsx s",
+        "gsx s 125 mlx",
         "gsxs"
       ]
     },
@@ -85337,7 +85991,9 @@
       "model_group": "suzuki-lt-125-e-h",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lt 125 e h"
+      ]
     },
     {
       "id": "suzuki-rh-125-x-1987-1987-global",
@@ -85573,7 +86229,9 @@
       "model_group": "suzuki-lt-f-160",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lt f 160"
+      ]
     },
     {
       "id": "suzuki-pe-175-1982-1982-global",
@@ -85890,7 +86548,9 @@
       "model_group": "suzuki-lt-f-230",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lt f 230"
+      ]
     },
     {
       "id": "suzuki-an-250-burgman-1998-2006-global",
@@ -85935,6 +86595,7 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "dl 250 v strom",
         "strom",
         "v strom",
         "vstrom"
@@ -85982,6 +86643,7 @@
       "oil_type": "",
       "aliases": [
         "dr z",
+        "dr z 250",
         "drz"
       ]
     },
@@ -86130,7 +86792,9 @@
       "model_group": "suzuki-lt-f-250",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lt f 250"
+      ]
     },
     {
       "id": "suzuki-lt-f-250-ozark-2003-2013-global",
@@ -86151,7 +86815,9 @@
       "model_group": "suzuki-lt-f-250-ozark",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lt f 250 ozark"
+      ]
     },
     {
       "id": "suzuki-rh-250-1985-1987-global",
@@ -86235,7 +86901,9 @@
       "model_group": "suzuki-rmx-250-x-k1",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "rmx 250 x k1"
+      ]
     },
     {
       "id": "suzuki-rm-z-250-2004-2023-global",
@@ -86256,7 +86924,9 @@
       "model_group": "suzuki-rm-z-250",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "rm z 250"
+      ]
     },
     {
       "id": "suzuki-sp-250-1985-1985-global",
@@ -86382,7 +87052,9 @@
       "model_group": "suzuki-lt-f-300",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lt f 300"
+      ]
     },
     {
       "id": "suzuki-dr-350-1990-1999-global",
@@ -86533,6 +87205,7 @@
       "oil_type": "",
       "aliases": [
         "dr z",
+        "dr z 400 s e",
         "drz"
       ]
     },
@@ -86744,7 +87417,9 @@
       "model_group": "suzuki-rm-z-450",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "rm z 450"
+      ]
     },
     {
       "id": "suzuki-rm-465-1981-1982-global",
@@ -86849,7 +87524,9 @@
       "model_group": "suzuki-lt-a-500-f-vinson",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lt a 500 f vinson"
+      ]
     },
     {
       "id": "suzuki-lt-a-500-fy-quadmaster-2000-2008-global",
@@ -86870,7 +87547,9 @@
       "model_group": "suzuki-lt-a-500-fy-quadmaster",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lt a 500 fy quadmaster"
+      ]
     },
     {
       "id": "suzuki-lt-f-500-f-1998-2007-global",
@@ -86891,7 +87570,9 @@
       "model_group": "suzuki-lt-f-500-f",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "lt f 500 f"
+      ]
     },
     {
       "id": "suzuki-rm-500-1983-1989-global",
@@ -86996,7 +87677,9 @@
       "model_group": "suzuki-gsf-600-bandit-s-bandit",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gsf 600 bandit s bandit"
+      ]
     },
     {
       "id": "suzuki-gsr-600-2006-2010-global",
@@ -87222,6 +87905,7 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "dl 650 v strom",
         "strom",
         "v strom",
         "vstrom"
@@ -87247,6 +87931,7 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "dl 650 v strom xt",
         "strom",
         "v strom",
         "vstrom"
@@ -87313,7 +87998,9 @@
       "model_group": "suzuki-dr-650-se-t-w",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "dr 650 se t w"
+      ]
     },
     {
       "id": "suzuki-gr-650-1983-1984-global",
@@ -87460,7 +88147,9 @@
       "model_group": "suzuki-gsf-650-bandit-s-bandit",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gsf 650 bandit s bandit"
+      ]
     },
     {
       "id": "suzuki-gsf-650-bandit-s-bandit-abs-2006-2006-global",
@@ -87481,7 +88170,9 @@
       "model_group": "suzuki-gsf-650-bandit-s-bandit-abs",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gsf 650 bandit s bandit abs"
+      ]
     },
     {
       "id": "suzuki-right-2004-2006-global",
@@ -88078,6 +88769,7 @@
       "oil_type": "",
       "aliases": [
         "gsx s",
+        "gsx s 750 z",
         "gsxs"
       ]
     },
@@ -88150,6 +88842,7 @@
       "oil_capacity": "3.0 L (3.2 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "800 v strom de",
         "strom",
         "v strom",
         "vstrom"
@@ -88288,7 +88981,9 @@
       "model_group": "suzuki-vx-800-l-p",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vx 800 l p"
+      ]
     },
     {
       "id": "suzuki-vz-800-marauder-1997-2004-global",
@@ -88397,6 +89092,7 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "dl 1000 v strom",
         "strom",
         "v strom",
         "vstrom"
@@ -88422,6 +89118,7 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
+        "dl 1000 v strom xt",
         "strom",
         "v strom",
         "vstrom"
@@ -88449,6 +89146,7 @@
       "aliases": [
         "adv",
         "adventure",
+        "dl 1000 v strom xt adventure",
         "strom",
         "v strom",
         "vstrom"
@@ -88559,6 +89257,7 @@
       "oil_type": "",
       "aliases": [
         "gsx s",
+        "gsx s 1000 f",
         "gsxs"
       ]
     },
@@ -88583,6 +89282,7 @@
       "oil_type": "",
       "aliases": [
         "gsx s",
+        "gsx s 1000 katana",
         "gsxs",
         "katana"
       ]
@@ -88648,7 +89348,10 @@
       "model_group": "suzuki-tl-1000-s-v-twin",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "tl 1000 s v twin",
+        "vtwin"
+      ]
     },
     {
       "id": "suzuki-dl-1050-v-strom-2020-2023-global",
@@ -88677,6 +89380,7 @@
       "oil_capacity": "3.7 L (3.9 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "dl 1050 v strom",
         "strom",
         "v strom",
         "vstrom"
@@ -88709,6 +89413,7 @@
       "oil_capacity": "3.7 L (3.9 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "dl 1050 v strom de",
         "strom",
         "v strom",
         "vstrom"
@@ -88741,6 +89446,7 @@
       "oil_capacity": "3.7 L (3.9 US qt)",
       "oil_type": "SAE 10W-40, JASO MA2",
       "aliases": [
+        "dl 1050 v strom xt",
         "strom",
         "v strom",
         "vstrom"
@@ -89214,7 +89920,10 @@
       "model_group": "suzuki-1300-b-king",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1300 b king",
+        "bking"
+      ]
     },
     {
       "id": "suzuki-gsx-r-1300-hayabusa-1999-2023-global",
@@ -89238,6 +89947,7 @@
       "aliases": [
         "gixxer",
         "gsx r",
+        "gsx r 1300 hayabusa",
         "gsxr"
       ]
     },
@@ -89260,7 +89970,10 @@
       "model_group": "suzuki-1340-b-king",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1340 b king",
+        "bking"
+      ]
     },
     {
       "id": "suzuki-gl-1400-cavalcade-1987-1988-global",
@@ -90252,7 +90965,10 @@
       "model_group": "sym-50-feel-big",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 feel big",
+        "feelbig"
+      ]
     },
     {
       "id": "sym-50-fiddle-2009-2014-global",
@@ -93160,7 +93876,10 @@
       "model_group": "tgb-50-bull-t-rs-rr",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 bull&t rs rr",
+        "rsrr"
+      ]
     },
     {
       "id": "tgb-50-bullet-2009-2012-global",
@@ -93708,7 +94427,10 @@
       "model_group": "tgb-125-bull-t-rs-rr",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 bull&t rs rr",
+        "rsrr"
+      ]
     },
     {
       "id": "tgb-125-hook-2010-2010-global",
@@ -93750,7 +94472,10 @@
       "model_group": "tgb-125-x-large",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 x large",
+        "xlarge"
+      ]
     },
     {
       "id": "tgb-125-x-motion-2008-2012-global",
@@ -93771,7 +94496,10 @@
       "model_group": "tgb-125-x-motion",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "125 x motion",
+        "xmotion"
+      ]
     },
     {
       "id": "tgb-250-dynasty-2006-2006-global",
@@ -93813,7 +94541,10 @@
       "model_group": "tgb-250-x-motion",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "250 x motion",
+        "xmotion"
+      ]
     },
     {
       "id": "tgb-300-x-motion-2010-2012-global",
@@ -93834,7 +94565,10 @@
       "model_group": "tgb-300-x-motion",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "300 x motion",
+        "xmotion"
+      ]
     },
     {
       "id": "tm-80-cross-1996-2000-global",
@@ -98683,7 +99417,10 @@
       "model_group": "victory-1500-vegas-8-ball",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1500 vegas 8 ball",
+        "8ball"
+      ]
     },
     {
       "id": "victory-1634-hammer-2005-2008-global",
@@ -98830,7 +99567,10 @@
       "model_group": "victory-1634-vegas-8-ball",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1634 vegas 8 ball",
+        "8ball"
+      ]
     },
     {
       "id": "victory-1634-vegas-jackpot-2006-2008-global",
@@ -98914,7 +99654,10 @@
       "model_group": "victory-1731-cross-country-8-ball",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1731 cross country 8 ball",
+        "8ball"
+      ]
     },
     {
       "id": "victory-1731-cross-country-tour-2012-2017-global",
@@ -98977,7 +99720,10 @@
       "model_group": "victory-1731-cross-roads-8-ball",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1731 cross roads 8 ball",
+        "8ball"
+      ]
     },
     {
       "id": "victory-1731-cross-roads-classic-2014-2014-global",
@@ -99063,7 +99809,10 @@
       "model_group": "victory-1731-hammer-8-ball",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1731 hammer 8 ball",
+        "8ball"
+      ]
     },
     {
       "id": "victory-1731-hammer-s-2009-2017-global",
@@ -99105,7 +99854,10 @@
       "model_group": "victory-1731-hard-ball",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1731 hard ball",
+        "hardball"
+      ]
     },
     {
       "id": "victory-1731-high-ball-2012-2017-global",
@@ -99126,7 +99878,10 @@
       "model_group": "victory-1731-high-ball",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1731 high ball",
+        "highball"
+      ]
     },
     {
       "id": "victory-1731-jackpot-2010-2016-global",
@@ -99210,7 +99965,10 @@
       "model_group": "victory-1731-kingpin-8-ball",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1731 kingpin 8 ball",
+        "8ball"
+      ]
     },
     {
       "id": "victory-1731-magnum-2015-2017-global",
@@ -99252,7 +100010,9 @@
       "model_group": "victory-1731-magnum-x-1",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1731 magnum x 1"
+      ]
     },
     {
       "id": "victory-1731-vegas-2010-2017-global",
@@ -99294,7 +100054,10 @@
       "model_group": "victory-1731-vegas-8-ball",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "1731 vegas 8 ball",
+        "8ball"
+      ]
     },
     {
       "id": "victory-1731-vegas-jackpot-2009-2009-global",
@@ -99847,7 +100610,10 @@
       "model_group": "yamaha-50-ajp-caliper-incl-pin-spring",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "50 ajp caliper incl. pin spring",
+        "pinspring"
+      ]
     },
     {
       "id": "yamaha-50-axis-pro-foot-1992-1999-global",
@@ -100078,7 +100844,9 @@
       "model_group": "yamaha-cv-50-a-r-jog",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cv 50 a r jog"
+      ]
     },
     {
       "id": "yamaha-cv-50-jog-jog-zr-2001-2006-global",
@@ -100246,7 +101014,10 @@
       "model_group": "yamaha-jog-z-50",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "jog z 50",
+        "jogz"
+      ]
     },
     {
       "id": "yamaha-lb-50-chappy-1980-1983-global",
@@ -100503,7 +101274,9 @@
       "fuel_capacity": "3.1 L",
       "oil_capacity": "1 L",
       "oil_type": "10W-40",
-      "aliases": []
+      "aliases": [
+        "tt r 50"
+      ]
     },
     {
       "id": "yamaha-tzm-50-r-1994-1997-global",
@@ -100902,7 +101675,9 @@
       "model_group": "yamaha-tt-r-90",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "tt r 90"
+      ]
     },
     {
       "id": "yamaha-100-aerox-2000-2006-global",
@@ -100988,7 +101763,9 @@
       "model_group": "yamaha-rt-100-a-h",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "rt 100 a h"
+      ]
     },
     {
       "id": "yamaha-yz-100-1978-1983-global",
@@ -101097,7 +101874,9 @@
       "fuel_capacity": "4 L",
       "oil_capacity": "0.8 L",
       "oil_type": "10W-40",
-      "aliases": []
+      "aliases": [
+        "tt r 110"
+      ]
     },
     {
       "id": "yamaha-115-d-elight-2014-2020-global",
@@ -101188,7 +101967,10 @@
       "model_group": "yamaha-gpd-125-n-max",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gpd 125 n max",
+        "nmax"
+      ]
     },
     {
       "id": "yamaha-mw-125-tricity-2014-2019-global",
@@ -101272,7 +102054,9 @@
       "model_group": "yamaha-tt-r-125",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "tt r 125"
+      ]
     },
     {
       "id": "yamaha-tt-r-125-lw-2000-2020-global",
@@ -101300,7 +102084,9 @@
       "fuel_capacity": "6 L",
       "oil_capacity": "1 L",
       "oil_type": "SAE 10W-40",
-      "aliases": []
+      "aliases": [
+        "tt r 125 lw"
+      ]
     },
     {
       "id": "yamaha-tw-125-1999-2007-global",
@@ -101657,7 +102443,9 @@
       "model_group": "yamaha-yfa-125-1-g-m-breeze",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "yfa 125 1 g m breeze"
+      ]
     },
     {
       "id": "yamaha-yfa-125-1-w-a-b-breeze-1989-1991-global",
@@ -102024,7 +102812,10 @@
       "model_group": "yamaha-gpd-155-n-max",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "gpd 155 n max",
+        "nmax"
+      ]
     },
     {
       "id": "yamaha-xc-155-s-max-2015-2018-global",
@@ -102045,7 +102836,10 @@
       "model_group": "yamaha-xc-155-s-max",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "smax",
+        "xc 155 s max"
+      ]
     },
     {
       "id": "yamaha-dt-175-1995-2000-global",
@@ -102451,7 +103245,9 @@
       "model_group": "yamaha-ytm-200-k-n-tri-moto",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "ytm 200 k n tri moto"
+      ]
     },
     {
       "id": "yamaha-tt-225-s-t-1986-2000-global",
@@ -102493,7 +103289,9 @@
       "model_group": "yamaha-tt-r-225",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "tt r 225"
+      ]
     },
     {
       "id": "yamaha-xt-225-1992-2001-global",
@@ -102604,7 +103402,9 @@
       "fuel_capacity": "8 L",
       "oil_capacity": "1.1 L",
       "oil_type": "SAE 10W-40",
-      "aliases": []
+      "aliases": [
+        "tt r 230"
+      ]
     },
     {
       "id": "yamaha-250-morphus-2006-2006-global",
@@ -103244,7 +104044,10 @@
       "fuel_capacity": "9.46 L",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vstar",
+        "xvs 250 v star"
+      ]
     },
     {
       "id": "yamaha-ybr-250-2007-2011-global",
@@ -103391,7 +104194,10 @@
       "model_group": "yamaha-yp-250-majesty-dx-abs",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "dxabs",
+        "yp 250 majesty dx abs"
+      ]
     },
     {
       "id": "yamaha-yp-250-xmax-2005-2016-global",
@@ -103498,7 +104304,10 @@
       "model_group": "yamaha-yz-250-b1-j1",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "b1j1",
+        "yz 250 b1 j1"
+      ]
     },
     {
       "id": "yamaha-yz-250-f-2001-2023-global",
@@ -105535,7 +106344,10 @@
       "model_group": "yamaha-xvs-650-v-star",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vstar",
+        "xvs 650 v star"
+      ]
     },
     {
       "id": "yamaha-xvs-650-v-star-classic-1998-2006-global",
@@ -105557,7 +106369,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "classic"
+        "classic",
+        "vstar",
+        "xvs 650 v star classic"
       ]
     },
     {
@@ -105579,7 +106393,10 @@
       "model_group": "yamaha-xvs-650-v-star-custom",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vstar",
+        "xvs 650 v star custom"
+      ]
     },
     {
       "id": "yamaha-xvs-650-v-star-tourer-2009-2014-global",
@@ -105600,7 +106417,10 @@
       "model_group": "yamaha-xvs-650-v-star-tourer",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vstar",
+        "xvs 650 v star tourer"
+      ]
     },
     {
       "id": "yamaha-xt-660-r-2004-2011-global",
@@ -105737,7 +106557,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "fz"
+        "fz",
+        "fz 07 700",
+        "fz07"
       ]
     },
     {
@@ -105781,7 +106603,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "cp2"
+        "cp2",
+        "mt 07 700 moto cage",
+        "mt07"
       ]
     },
     {
@@ -105804,7 +106628,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "cp2"
+        "cp2",
+        "mt 07 700 sp",
+        "mt07"
       ]
     },
     {
@@ -105835,6 +106661,8 @@
       "oil_type": "SAE 10W-40",
       "aliases": [
         "cp2",
+        "mt 07 700 tracer",
+        "mt07",
         "tracer",
         "tracer 9"
       ]
@@ -105860,6 +106688,8 @@
       "oil_type": "",
       "aliases": [
         "cp2",
+        "mt 07 700 tracer gt",
+        "mt07",
         "tracer",
         "tracer 9"
       ]
@@ -106642,7 +107472,10 @@
       "model_group": "yamaha-fj-09-850",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "fj 09 850",
+        "fj09"
+      ]
     },
     {
       "id": "yamaha-fz-09-850-2014-2017-global",
@@ -106664,7 +107497,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "fz"
+        "fz",
+        "fz 09 850",
+        "fz09"
       ]
     },
     {
@@ -106792,7 +107627,9 @@
       "oil_capacity": "3.2 L",
       "oil_type": "SAE 10W-40",
       "aliases": [
-        "cp3"
+        "cp3",
+        "mt 09 900 sp",
+        "mt09"
       ]
     },
     {
@@ -106815,7 +107652,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "cp3"
+        "cp3",
+        "mt 09 900 sport tracker",
+        "mt09"
       ]
     },
     {
@@ -106838,7 +107677,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "cp3"
+        "cp3",
+        "mt 09 900 street rally",
+        "mt09"
       ]
     },
     {
@@ -106869,6 +107710,8 @@
       "oil_type": "SAE 10W-40",
       "aliases": [
         "cp3",
+        "mt 09 900 tracer",
+        "mt09",
         "tracer",
         "tracer 9"
       ]
@@ -106901,6 +107744,8 @@
       "oil_type": "SAE 10W-40",
       "aliases": [
         "cp3",
+        "mt 09 900 tracer gt",
+        "mt09",
         "tracer",
         "tracer 9"
       ]
@@ -107083,7 +107928,10 @@
       "model_group": "yamaha-xv-950-bolt-c-spec",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "cspec",
+        "xv 950 bolt c spec"
+      ]
     },
     {
       "id": "yamaha-xv-950-bolt-racer-2017-2018-global",
@@ -107132,7 +107980,10 @@
       "fuel_capacity": "13 L",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "rspec",
+        "xv 950 bolt r spec"
+      ]
     },
     {
       "id": "yamaha-xvs-950-a-midnight-star-2009-2013-global",
@@ -107196,7 +108047,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "fz"
+        "fz",
+        "fz 10 1000",
+        "fz10"
       ]
     },
     {
@@ -107325,7 +108178,10 @@
       "model_group": "yamaha-mt-10-1000-sp",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "mt 10 1000 sp",
+        "mt10"
+      ]
     },
     {
       "id": "yamaha-xv-1000-l-c-1984-1985-global",
@@ -107388,7 +108244,10 @@
       "model_group": "yamaha-yzf-1000-r1-4-pad",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "(4pad)",
+        "yzf 1000 r1 (4 pad)"
+      ]
     },
     {
       "id": "yamaha-yzf-1000-r1-4-pad-abs-2012-2014-global",
@@ -107409,7 +108268,10 @@
       "model_group": "yamaha-yzf-1000-r1-4-pad-abs",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "(4pad)",
+        "yzf 1000 r1 (4 pad) abs"
+      ]
     },
     {
       "id": "yamaha-yzf-1000-r1-le-2006-2006-global",
@@ -107689,7 +108551,10 @@
       "model_group": "yamaha-xvs-1100-v-star",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vstar",
+        "xvs 1100 v star"
+      ]
     },
     {
       "id": "yamaha-xvs-1100-v-star-classic-2000-2006-global",
@@ -107711,7 +108576,9 @@
       "oil_capacity": "",
       "oil_type": "",
       "aliases": [
-        "classic"
+        "classic",
+        "vstar",
+        "xvs 1100 v star classic"
       ]
     },
     {
@@ -107775,7 +108642,10 @@
       "model_group": "yamaha-v-max-1200",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "v max 1200",
+        "vmax"
+      ]
     },
     {
       "id": "yamaha-xt-1200-z-super-tenere-2014-2019-global",
@@ -108228,7 +109098,10 @@
       "model_group": "yamaha-xvs-1300-v-star",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vstar",
+        "xvs 1300 v star"
+      ]
     },
     {
       "id": "yamaha-xvs-1300-v-star-deluxe-2007-2014-global",
@@ -108249,7 +109122,10 @@
       "model_group": "yamaha-xvs-1300-v-star-deluxe",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vstar",
+        "xvs 1300 v star deluxe"
+      ]
     },
     {
       "id": "yamaha-xvs-1300-v-star-tourer-2007-2014-global",
@@ -108270,7 +109146,10 @@
       "model_group": "yamaha-xvs-1300-v-star-tourer",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vstar",
+        "xvs 1300 v star tourer"
+      ]
     },
     {
       "id": "yamaha-xvz-1300-a-royal-star-1996-2007-global",
@@ -108485,7 +109364,10 @@
       "model_group": "yamaha-vmx-1700-v-max",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "vmax",
+        "vmx 1700 v max"
+      ]
     },
     {
       "id": "yamaha-xv-1700-pc-road-star-warrior-2003-2007-global",
@@ -108986,6 +109868,7 @@
       "oil_type": "",
       "aliases": [
         "dsr x",
+        "dsr x zf17.3",
         "dsrx"
       ]
     },
@@ -109443,6 +110326,7 @@
       "oil_type": "",
       "aliases": [
         "sr f",
+        "sr f zf14.4",
         "srf"
       ]
     },
@@ -109471,7 +110355,9 @@
       "seat_height": "787 mm",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "sr s zf14.4"
+      ]
     },
     {
       "id": "zero-x-2010-2012-global",
@@ -109625,7 +110511,9 @@
       "model_group": "yamaha-yzf-600-r6-quick-change-front-wheel",
       "oil_capacity": "",
       "oil_type": "",
-      "aliases": []
+      "aliases": [
+        "yzf 600 r6 quick change front wheel"
+      ]
     }
   ]
 }

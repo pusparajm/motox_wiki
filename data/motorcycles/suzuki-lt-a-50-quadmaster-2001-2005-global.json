@@ -69,6 +69,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "lt a 50 quadmaster"
+    ]
   }
 }

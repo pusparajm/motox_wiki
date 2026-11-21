@@ -64,6 +64,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "rt 100 a h"
+    ]
   }
 }

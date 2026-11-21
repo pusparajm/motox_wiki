@@ -71,7 +71,9 @@
     },
     "aliases": [
       "rsv 4",
-      "rsv4"
+      "rsv4",
+      "rsv4 r 1000 ,abs aprc",
+      "rsv4r"
     ]
   }
 }

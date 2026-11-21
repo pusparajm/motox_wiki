@@ -1397,13 +1397,19 @@ def bike_faq(bike):
     front_brake = field(bike, "front_brake")
     rear_brake = field(bike, "rear_brake")
     interval = service(bike, "service_interval")
+    front_pads = service(bike, "front_brake_pads")
+    rear_pads = service(bike, "rear_brake_pads")
+    spark = service(bike, "spark_plug")
+    chain_value = service(bike, "chain") or field(bike, "chain")
+    final_drive = service(bike, "final_drive")
+    subject = faq_alias(bike)
 
     if power:
-        faq.append((f"How much power does the {full} make?", f"The {full} is rated at {power}."))
+        faq.append((f"How much horsepower (BHP) does the {subject} make?", f"The {full} is rated at {power}."))
     if torque:
         faq.append((f"What is the torque of the {full}?", f"Manufacturer-claimed peak torque is {torque}."))
     if top:
-        faq.append((f"What is the top speed of the {full}?", f"The listed top speed is {top}."))
+        faq.append((f"What is the top speed of the {subject}?", f"The listed top speed is {top}."))
     if disp:
         faq.append((f"What is the engine displacement of the {full}?", f"The {full} is listed with a {disp} engine."))
     if seat_height:
@@ -1487,7 +1493,7 @@ def bike_faq(bike):
     if fuel:
         faq.append((f"What is the fuel capacity of the {full}?", f"Fuel capacity is listed as {fuel}."))
     if usable(tyres):
-        faq.append((f"What tyres does the {full} use?", f"Tyre sizes are listed as {tyres}."))
+        faq.append((f"What tyres does the {subject} use?", f"Tyre sizes are listed as {tyres}."))
     if usable(abs_value):
         abs_lower = abs_value.lower()
         if abs_value.strip().lower() in ("yes", "no"):
@@ -1518,9 +1524,28 @@ def bike_faq(bike):
         if battery_rating:
             answer += f" Battery rating: {battery_rating}."
         answer += " Confirm terminal layout and case dimensions against the battery fitted to your machine."
-        faq.append((f"What battery does the {full} use?", answer))
+        faq.append((f"What battery does the {subject} use?", answer))
     elif battery_rating:
-        faq.append((f"What is the battery rating of the {full}?", f"The listed battery rating is {battery_rating}. The battery code is not yet verified for this entry."))
+        faq.append((f"What is the battery rating of the {subject}?", f"The listed battery rating is {battery_rating}. The battery code is not yet verified for this entry."))
+
+    if usable(front_pads) or usable(rear_pads):
+        answer = " ".join(part for part in [
+            f"Front: {front_pads}." if usable(front_pads) else "",
+            f"Rear: {rear_pads}." if usable(rear_pads) else "",
+        ] if part)
+        answer += " These are pad-shape references; confirm the compound and exact model year before ordering."
+        faq.append((f"What brake pads does the {subject} use?", answer))
+
+    if usable(spark):
+        faq.append((f"What spark plug does the {subject} use?", f"The listed spark plug is {spark}. Confirm the gap and heat range for your model year."))
+
+    if usable(chain_value):
+        faq.append((f"What chain does the {subject} use?", f"The listed chain or final drive is {chain_value}. Confirm the pitch, link count and adjustment procedure for your model year."))
+
+    sprocket_text = " ".join(part for part in [chain_value, field(bike, "transmission"), final_drive] if usable(part))
+    sprocket_match = re.search(r"\b\d{2}T\s*/\s*\d{2}T\b", sprocket_text, re.I)
+    if sprocket_match:
+        faq.append((f"What sprocket sizes does the {subject} use?", f"The listed final-drive sprocket sizes are {sprocket_match.group(0)}. Confirm the tooth count for your market and model year."))
 
     if oil:
         answer = f"Engine oil capacity is {oil}"
@@ -1553,7 +1578,14 @@ def bike_faq(bike):
     if usable(rear_shock):
         faq.append((f"What rear shock does the {full} use?", f"The listed rear shock is {rear_shock}."))
 
-    return faq[:20]
+    seen = set()
+    unique = []
+    for question, answer in faq:
+        if question in seen:
+            continue
+        seen.add(question)
+        unique.append((question, answer))
+    return unique[:26]
 
 
 ALIAS_NICKNAMES = {
@@ -1602,7 +1634,35 @@ def display_aliases(bike, aliases):
             score -= 2
         scored.append((score, alias))
     scored.sort(key=lambda item: (-item[0], item[1]))
-    return [alias_label(alias) for _, alias in scored[:5]]
+    return [alias_label(alias) for _, alias in scored[:7]]
+
+
+def faq_alias(bike):
+    """Pick a compact, model-specific alias for search-style FAQ questions."""
+    model = str(bike.get("model", "")).strip()
+    model_key = re.sub(r"[^a-z0-9]", "", model.lower())
+    compact_model = re.sub(r"[\s\-/]+", "", model.lower())
+    aliases = bike.get("aliases") or aliases_for(bike.get("make", ""), model)
+    candidates = []
+    for alias in aliases:
+        text = str(alias).strip()
+        low = text.lower()
+        if low in GENERIC_ALIASES:
+            continue
+        key = re.sub(r"[^a-z0-9]", "", low)
+        if not key or key == model_key:
+            continue
+        # Avoid family prefixes (CBR1000 for CBR1000RR-R) and word+number
+        # compact forms (HIMALAYAN450 for Himalayan 450).
+        if model_key.startswith(key) and len(key) < len(model_key):
+            continue
+        if key == compact_model and " " in model and "-" not in model:
+            continue
+        if any(ch.isdigit() for ch in text) and " " not in text and 4 <= len(text) <= 14:
+            candidates.append(text)
+    if candidates:
+        return alias_label(max(candidates, key=len))
+    return model
 
 
 def static_sections_html(bike):

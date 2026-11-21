@@ -64,6 +64,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "lt a 500 f vinson"
+    ]
   }
 }

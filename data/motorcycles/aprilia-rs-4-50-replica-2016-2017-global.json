@@ -69,6 +69,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "rs 4 50 replica"
+    ]
   }
 }

@@ -170,6 +170,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "cbr 1000 rr r sp fireblade"
+    ]
   }
 }

@@ -157,6 +157,7 @@
     },
     "aliases": [
       "dsr x",
+      "dsr x zf17.3",
       "dsrx"
     ]
   }

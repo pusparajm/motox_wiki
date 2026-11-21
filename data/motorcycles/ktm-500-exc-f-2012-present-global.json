@@ -216,7 +216,9 @@
       }
     },
     "aliases": [
-      "exc"
+      "500 exc f",
+      "exc",
+      "excf"
     ]
   }
 }

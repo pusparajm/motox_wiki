@@ -69,6 +69,9 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "f nkd 50",
+      "fnkd"
+    ]
   }
 }

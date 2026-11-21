@@ -1,5 +1,7 @@
 """Search aliases for motorcycle nicknames, family names and common shorthand."""
 
+import re
+
 MAKE_ALIASES = {
     "Harley-Davidson": ["harley", "hd"],
     "Royal Enfield": ["enfield", "royal enfield"],
@@ -75,7 +77,7 @@ ALIAS_RULES = [
     (("boulevard",), ("boulevard", "m109r")),
 
     # Kawasaki
-    (("zx-10r",), ("zx10", "zx 10", "zx10r", "zx 10 r")),
+    (("zx-10r",), ("zx10", "zx 10", "zx10r", "zx 10 r", "zx 10r", "ninja 10r", "ninja zx10r", "10r")),
     (("zx-6r",), ("zx6", "zx 6", "zx6r", "zx 6 r")),
     (("zx-4r",), ("zx4", "zx 4", "zx4r")),
     (("zx-25r",), ("zx25", "zx 25", "zx25r")),
@@ -262,6 +264,31 @@ def aliases_for(make, model):
     for needles, values in ALIAS_RULES:
         if any(needle in name for needle in needles):
             aliases.update(values)
+
+    # Common search forms for code-style model names. Avoid word+number
+    # compacts such as HIMALAYAN450 or 390DUKE.
+    tokens = model.split()
+    compacts = set()
+    for token in tokens:
+        has_code_shape = "-" in token or "/" in token or (
+            any(ch.isdigit() for ch in token) and any(ch.isalpha() for ch in token)
+        )
+        if not has_code_shape:
+            continue
+        compact = re.sub(r"[\s\-/]+", "", token).lower()
+        if 4 <= len(compact) <= 14 and compact != token.lower():
+            compacts.add(compact)
+    if len(tokens) == 1:
+        compact = re.sub(r"[\s\-/]+", "", model).lower()
+        if 4 <= len(compact) <= 18 and compact != name:
+            compacts.add(compact)
+    aliases.update(compacts)
+
+    if "-" in model or "/" in model:
+        spaced = re.sub(r"[-/]", " ", model)
+        spaced = re.sub(r"\s+", " ", spaced).strip().lower()
+        if spaced and spaced != name:
+            aliases.add(spaced)
     return sorted(aliases)
 
 

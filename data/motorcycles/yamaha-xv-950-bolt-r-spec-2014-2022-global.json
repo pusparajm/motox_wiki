@@ -135,6 +135,9 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "rspec",
+      "xv 950 bolt r spec"
+    ]
   }
 }

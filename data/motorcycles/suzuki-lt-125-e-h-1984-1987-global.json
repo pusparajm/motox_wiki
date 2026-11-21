@@ -64,6 +64,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "lt 125 e h"
+    ]
   }
 }

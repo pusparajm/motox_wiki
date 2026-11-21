@@ -84,6 +84,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "sx e 5"
+    ]
   }
 }

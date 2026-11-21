@@ -64,6 +64,9 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "200 x large",
+      "xlarge"
+    ]
   }
 }

@@ -172,7 +172,9 @@
     },
     "aliases": [
       "rsv 4",
-      "rsv4"
+      "rsv4",
+      "rsv4 rr 1000",
+      "rsv4rr"
     ]
   }
 }

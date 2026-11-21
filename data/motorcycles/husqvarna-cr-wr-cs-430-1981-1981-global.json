@@ -64,6 +64,9 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "cr wr cs 430",
+      "crwrcs"
+    ]
   }
 }

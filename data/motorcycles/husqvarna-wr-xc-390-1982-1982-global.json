@@ -64,6 +64,9 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "wr xc 390",
+      "wrxc"
+    ]
   }
 }

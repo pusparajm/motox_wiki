@@ -69,6 +69,8 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "gsf 600 bandit s bandit"
+    ]
   }
 }

@@ -165,6 +165,9 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "nc 750 s w dct",
+      "wdct"
+    ]
   }
 }

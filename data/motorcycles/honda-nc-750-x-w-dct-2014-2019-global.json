@@ -69,6 +69,9 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "nc 750 x w dct",
+      "wdct"
+    ]
   }
 }

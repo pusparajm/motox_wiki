@@ -69,6 +69,9 @@
         ]
       }
     },
-    "aliases": []
+    "aliases": [
+      "wr or 250",
+      "wror"
+    ]
   }
 }
