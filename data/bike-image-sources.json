@@ -52,6 +52,19 @@
       "alt": "Suzuki V-Strom 650 side view",
       "fit": "cover",
       "gravity": "center"
+    },
+    {
+      "modelId": "kawasaki-ninja-zx-10r",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kawasaki_Ninja_ZX10R_scf25.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawasaki_Ninja_ZX10R_scf25.jpg",
+      "credit": "Calreyn88, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "creditRequired": true,
+      "rightsApproved": true,
+      "alt": "Kawasaki Ninja ZX-10R side view",
+      "fit": "cover",
+      "gravity": "center"
     }
   ]
 }

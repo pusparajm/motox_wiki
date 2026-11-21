@@ -112,6 +112,35 @@
           "1200": "images/motorcycles/suzuki/v-strom-650/v-strom-650-09adfba8-1200.jpg"
         }
       }
+    },
+    "kawasaki-ninja-zx-10r": {
+      "source": "approved",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawasaki_Ninja_ZX10R_scf25.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "permissionReference": "",
+      "credit": "Calreyn88, via Wikimedia Commons",
+      "creditRequired": true,
+      "alt": "Kawasaki Ninja ZX-10R side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-800.avif",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-800.webp",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-800.jpg",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-1200.jpg"
+        }
+      }
     }
   }
 }
