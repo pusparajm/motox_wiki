@@ -177,7 +177,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not yet available for this model. Use the BMW workshop manual for fastener torque values."
           }
         ]

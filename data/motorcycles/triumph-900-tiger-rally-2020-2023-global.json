@@ -8,7 +8,7 @@
     "model_group": "triumph-900-tiger-rally",
     "category": "Adventure",
     "displacement": "900 cc",
-    "summary": "Triumph 900 Tiger Rally (2020–Present). 888 cc, 107 hp (79 kW), 90 Nm, 223 kg, 810/830 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Triumph 900 Tiger Rally (2020–Present). 888 cc, 107 hp (79 kW), 90 Nm, 223 kg, 810/830 mm seat.",
     "tags": [
       "triumph",
       "900-tiger-rally",
@@ -179,7 +179,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

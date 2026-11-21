@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-flhxs-1750-street-glide-special",
     "category": "Cruiser",
     "displacement": "1750 cc",
-    "summary": "Harley-Davidson FLHXS 1750 Street Glide Special (2017–2022). 1746 cc, 89 hp, 150.5 Nm, 376 kg, 663 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson FLHXS 1750 Street Glide Special (2017–2022). 1746 cc, 89 hp, 150.5 Nm, 376 kg, 663 mm seat.",
     "tags": [
       "harley-davidson",
       "flhxs-1750-street-glide-special",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

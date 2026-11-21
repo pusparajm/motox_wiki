@@ -8,7 +8,7 @@
     "model_group": "swm-rs-500-r",
     "category": "Naked",
     "displacement": "500 cc",
-    "summary": "SWM RS 500 R (2015–2020). 501 cc, 27 hp, 35 Nm, 129 kg, 955 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "SWM RS 500 R (2015–2020). 501 cc, 27 hp, 35 Nm, 129 kg, 955 mm seat.",
     "tags": [
       "swm",
       "rs-500-r",
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications compiled from SWM/1000PS data for the 2020 RS 500 R. Confirm model-year equipment against the owner's manual."
+            "value": "Specifications describe the 2020 RS 500 R. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

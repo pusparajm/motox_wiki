@@ -8,7 +8,7 @@
     "model_group": "voge-acx-500",
     "category": "Naked",
     "displacement": "500 cc",
-    "summary": "Voge ACX 500 (2023). 494 cc, 47.6 hp, 44.5 Nm, 185 kg, 820 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Voge ACX 500 (2023). 494 cc, 47.6 hp, 44.5 Nm, 185 kg, 820 mm seat.",
     "tags": [
       "voge",
       "acx-500",
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications compiled from Voge manufacturer data for the 494 cc 525 ACX scrambler. Dry weight is quoted by the manufacturer; confirm wet weight against the owner's manual."
+            "value": "Specifications describe the 494 cc 525 ACX scrambler. Dry weight is quoted; confirm wet weight against the owner's manual."
           }
         ]
       },
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

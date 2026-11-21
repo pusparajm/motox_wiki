@@ -8,7 +8,7 @@
     "model_group": "yamaha-mxt-850-niken",
     "category": "Scooter",
     "displacement": "850 cc",
-    "summary": "Yamaha MXT 850 Niken (2018–2022). 847 cc, 113.5 hp, 87.5 Nm, 267 kg, 835 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha MXT 850 Niken (2018–2022). 847 cc, 113.5 hp, 87.5 Nm, 267 kg, 835 mm seat.",
     "tags": [
       "yamaha",
       "mxt-850-niken",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

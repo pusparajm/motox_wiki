@@ -8,7 +8,7 @@
     "model_group": "kymco-s-400-xciting-i-tcs",
     "category": "Scooter",
     "displacement": "400 cc",
-    "summary": "Kymco S 400 Xciting i TCS (2022–Present). 400 cc, 35.5 hp, 37 Nm, 810 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Kymco S 400 Xciting i TCS (2022–Present). 400 cc, 35.5 hp, 37 Nm, 810 mm seat.",
     "tags": [
       "kymco",
       "s-400-xciting-i-tcs",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2020 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

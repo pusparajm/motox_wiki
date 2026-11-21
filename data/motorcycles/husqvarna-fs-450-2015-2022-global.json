@@ -8,7 +8,7 @@
     "model_group": "husqvarna-fs-450",
     "category": "Naked",
     "displacement": "450 cc",
-    "summary": "Husqvarna FS 450 (2015–2022). 449.9 cc, 61.7 hp (46 kW), 890 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Husqvarna FS 450 (2015–2022). 449.9 cc, 61.7 hp (46 kW), 890 mm seat.",
     "tags": [
       "husqvarna",
       "fs-450",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2022 model year; remaining specifications are still being compiled."
           },
           {
             "key": "fork_oil_volume",
@@ -179,7 +179,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

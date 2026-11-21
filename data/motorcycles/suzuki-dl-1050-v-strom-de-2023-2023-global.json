@@ -8,7 +8,7 @@
     "model_group": "suzuki-dl-1050-v-strom-de",
     "category": "Adventure",
     "displacement": "1050 cc",
-    "summary": "Suzuki DL 1050 V-Strom DE (2023). 1,037 cc, 107 hp (79 kW), 100 Nm, 252 kg, 880 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Suzuki DL 1050 V-Strom DE (2023). 1,037 cc, 107 hp (79 kW), 100 Nm, 252 kg, 880 mm seat.",
     "tags": [
       "suzuki",
       "dl-1050-v-strom-de",
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

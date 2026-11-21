@@ -8,7 +8,7 @@
     "model_group": "honda-cota-301-rr",
     "category": "Naked",
     "displacement": "301 cc",
-    "summary": "Honda Cota 301 RR (2020–Present). 298 cc, 678 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Honda Cota 301 RR (2020–Present). 298 cc, 678 mm seat.",
     "tags": [
       "honda",
       "cota-301-rr",
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the closest matching model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

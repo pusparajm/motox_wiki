@@ -8,7 +8,7 @@
     "model_group": "husqvarna-701-vitpilen",
     "category": "Naked",
     "displacement": "701 cc",
-    "summary": "Husqvarna 701 Vitpilen (2018–2020). 692.7 cc, 73.4 hp (54.7 kW), 74 Nm, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Husqvarna 701 Vitpilen (2018–2020). 692.7 cc, 73.4 hp (54.7 kW), 74 Nm, 830 mm seat.",
     "tags": [
       "husqvarna",
       "701-vitpilen",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2020 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2020 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

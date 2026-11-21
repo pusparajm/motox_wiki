@@ -8,7 +8,7 @@
     "model_group": "ducati-1100-scrambler-desert-x",
     "category": "Retro",
     "displacement": "1100 cc",
-    "summary": "Ducati 1100 Scrambler Desert X (2020). 436 cc, 27 hp, 65.2 Nm, 770 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 1100 Scrambler Desert X (2020). 436 cc, 27 hp, 65.2 Nm, 770 mm seat.",
     "tags": [
       "ducati",
       "1100-scrambler-desert-x",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Partial engine and chassis data is from the closest MotoSpecVault record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the closest matching model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

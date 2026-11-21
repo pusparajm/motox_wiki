@@ -8,7 +8,7 @@
     "model_group": "yamaha-tt-r-230",
     "category": "Naked",
     "displacement": "230 cc",
-    "summary": "Yamaha TT-R 230 (2005–2022). 223 cc, 18.6 Nm, 114 kg, 870 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "Yamaha TT-R 230 (2005–2022). 223 cc, 18.6 Nm, 114 kg, 870 mm seat.",
     "tags": [
       "yamaha",
       "tt-r-230",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Yamaha TT-R230 wet weight from the manufacturer. Yamaha does not publish a peak power figure. Confirm model-year equipment against the owner's manual."
+            "value": "Yamaha TT-R230 wet weight is recorded. A peak power figure is not published. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "yamaha-yzf-750-r7-ow02-race-kit",
     "category": "Supersport",
     "displacement": "750 cc",
-    "summary": "Yamaha YZF 750 R7 OW02 Race kit brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Yamaha YZF 750 R7 OW02 Race kit brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
     "tags": [
       "yamaha",
       "yzf-750-r7-ow02-race-kit",
@@ -49,7 +49,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
           }
         ]
       },
@@ -58,7 +58,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

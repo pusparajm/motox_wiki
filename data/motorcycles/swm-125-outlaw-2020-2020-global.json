@@ -8,7 +8,7 @@
     "model_group": "swm-125-outlaw",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "SWM 125 Outlaw (2020). 124.7 cc, 15 hp, 11 Nm, 150 kg, 720 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "SWM 125 Outlaw (2020). 124.7 cc, 15 hp, 11 Nm, 150 kg, 720 mm seat.",
     "tags": [
       "swm",
       "125-outlaw",
@@ -110,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "SWM Outlaw 125 data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "SWM Outlaw 125 specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -119,7 +119,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

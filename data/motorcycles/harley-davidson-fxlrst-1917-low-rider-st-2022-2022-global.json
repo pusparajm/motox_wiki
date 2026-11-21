@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-fxlrst-1917-low-rider-st",
     "category": "Cruiser",
     "displacement": "1917 cc",
-    "summary": "Harley-Davidson FXLRST 1917 Low Rider ST (2022). 1,923 cc, 103 hp (77 kW), 168 Nm, 308 kg, 720 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson FXLRST 1917 Low Rider ST (2022). 1,923 cc, 103 hp (77 kW), 168 Nm, 308 kg, 720 mm seat.",
     "tags": [
       "harley-davidson",
       "fxlrst-1917-low-rider-st",
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "zero-sr-f-zf14-4",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Zero SR/F ZF14.4 (2019–2021). —, 110 hp (82 kW), 190 Nm, 223 kg, 787 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Zero SR/F ZF14.4 (2019–2021). —, 110 hp (82 kW), 190 Nm, 223 kg, 787 mm seat.",
     "tags": [
       "zero",
       "sr-f-zf14-4",
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

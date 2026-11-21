@@ -8,7 +8,7 @@
     "model_group": "kawasaki-zx-10r-1000-ninja-se",
     "category": "Supersport",
     "displacement": "1000 cc",
-    "summary": "Kawasaki ZX-10R 1000 Ninja SE (2018–2022). 998 cc, 197 hp (147 kW), 113.5 Nm, 206 kg, 835 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Kawasaki ZX-10R 1000 Ninja SE (2018–2022). 998 cc, 197 hp (147 kW), 113.5 Nm, 206 kg, 835 mm seat.",
     "tags": [
       "kawasaki",
       "zx-10r-1000-ninja-se",
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

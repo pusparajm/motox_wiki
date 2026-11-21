@@ -8,7 +8,7 @@
     "model_group": "sym-465-maxsym-tl",
     "category": "Scooter",
     "displacement": "465 cc",
-    "summary": "SYM 465 Maxsym TL (2020). 465 cc, 40.2 hp, 42.5 Nm, 223 kg, 795 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "SYM 465 Maxsym TL (2020). 465 cc, 40.2 hp, 42.5 Nm, 223 kg, 795 mm seat.",
     "tags": [
       "sym",
       "465-maxsym-tl",
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

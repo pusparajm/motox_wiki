@@ -8,7 +8,7 @@
     "model_group": "moto-morini-1200-corsaro-zz",
     "category": "Naked",
     "displacement": "1200 cc",
-    "summary": "Moto Morini 1200 Corsaro ZZ (2018–2020). 1,187 cc, 139 hp, 112 Nm, 192 kg, 860 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Moto Morini 1200 Corsaro ZZ (2018–2020). 1,187 cc, 139 hp, 112 Nm, 192 kg, 860 mm seat.",
     "tags": [
       "moto-morini",
       "1200-corsaro-zz",
@@ -110,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Moto Morini Corsaro 1200 ZZ data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "Moto Morini Corsaro 1200 ZZ specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -119,7 +119,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

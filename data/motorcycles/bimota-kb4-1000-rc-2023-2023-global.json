@@ -8,7 +8,7 @@
     "model_group": "bimota-kb4-1000-rc",
     "category": "Naked",
     "displacement": "1000 cc",
-    "summary": "Bimota KB4 1000 RC (2023). 1,043 cc, 140 hp, 111 Nm, 194 kg, 810 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Bimota KB4 1000 RC (2023). 1,043 cc, 140 hp, 111 Nm, 194 kg, 810 mm seat.",
     "tags": [
       "bimota",
       "kb4-1000-rc",
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

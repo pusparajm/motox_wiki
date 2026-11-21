@@ -8,7 +8,7 @@
     "model_group": "kove-mx-250-off-road",
     "category": "Naked",
     "displacement": "250 cc",
-    "summary": "Kove MX 250 Off Road (2023). 249.9 cc, 40.2 hp, 27 Nm, 97 kg, 960 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Kove MX 250 Off Road (2023). 249.9 cc, 40.2 hp, 27 Nm, 97 kg, 960 mm seat.",
     "tags": [
       "kove",
       "mx-250-off-road",
@@ -110,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Kove MX250 data from the manufacturer. Weight is quoted ready to ride without fuel. Confirm model-year equipment against the owner's manual."
+            "value": "Kove MX250 specifications are recorded. Weight is quoted ready to ride without fuel. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -119,7 +119,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

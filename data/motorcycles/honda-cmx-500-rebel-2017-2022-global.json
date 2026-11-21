@@ -8,7 +8,7 @@
     "model_group": "honda-cmx-500-rebel",
     "category": "Cruiser",
     "displacement": "500 cc",
-    "summary": "Honda CMX 500 Rebel (2017–2022). 471 cc, 45.6 hp, 43.3 Nm, 191 kg, 690 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda CMX 500 Rebel (2017–2022). 471 cc, 45.6 hp, 43.3 Nm, 191 kg, 690 mm seat.",
     "tags": [
       "honda",
       "cmx-500-rebel",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

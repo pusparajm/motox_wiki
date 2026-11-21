@@ -8,7 +8,7 @@
     "model_group": "ducati-1158-multistrada-v4-pikes-peak",
     "category": "Adventure",
     "displacement": "1158 cc",
-    "summary": "Ducati 1158 Multistrada V4 Pikes Peak (2022–Present). 1158 cc, 170 hp, 125 Nm, 239 kg, 840 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 1158 Multistrada V4 Pikes Peak (2022–Present). 1158 cc, 170 hp, 125 Nm, 239 kg, 840 mm seat.",
     "tags": [
       "ducati",
       "1158-multistrada-v4-pikes-peak",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2023 record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the 2023 model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

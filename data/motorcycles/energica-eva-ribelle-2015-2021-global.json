@@ -8,7 +8,7 @@
     "model_group": "energica-eva-ribelle",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Energica Eva Ribelle (2015–2021). 144.4 hp (107.7 kW), 215 Nm, 260 kg, 790 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Energica Eva Ribelle (2015–2021). 144.4 hp (107.7 kW), 215 Nm, 260 kg, 790 mm seat.",
     "tags": [
       "energica",
       "eva-ribelle",
@@ -100,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2022 record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the 2022 model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -109,7 +109,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "yamaha-tt-r-110",
     "category": "Naked",
     "displacement": "110 cc",
-    "summary": "Yamaha TT-R 110 (2008–2021). 72 kg, 670 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "Yamaha TT-R 110 (2008–2021). 72 kg, 670 mm seat.",
     "tags": [
       "yamaha",
       "tt-r-110",
@@ -125,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Yamaha TT-R110E wet weight and seat height. Yamaha does not publish a peak power figure. Confirm model-year equipment against the owner's manual."
+            "value": "Yamaha TT-R110E wet weight and seat height. A peak power figure is not published. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

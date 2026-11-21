@@ -8,7 +8,7 @@
     "model_group": "indian-1768-pursuit-limited",
     "category": "Touring",
     "displacement": "1768 cc",
-    "summary": "Indian 1768 Pursuit Limited (2022–Present). 1,769 cc, 122 hp (91 kW), 178 Nm, 400 kg, 700 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Indian 1768 Pursuit Limited (2022–Present). 1,769 cc, 122 hp (91 kW), 178 Nm, 400 kg, 700 mm seat.",
     "tags": [
       "indian",
       "1768-pursuit-limited",
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

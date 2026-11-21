@@ -8,7 +8,7 @@
     "model_group": "kove-mx-250-supermoto",
     "category": "Naked",
     "displacement": "250 cc",
-    "summary": "Kove MX 250 Supermoto (2023). 249.9 cc, 40.2 hp, 27 Nm, 97 kg, 895 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Kove MX 250 Supermoto (2023). 249.9 cc, 40.2 hp, 27 Nm, 97 kg, 895 mm seat.",
     "tags": [
       "kove",
       "mx-250-supermoto",
@@ -110,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Kove MX250 supermoto data from the manufacturer. The supermoto variant uses 17-inch wheels and a lower seat. Confirm model-year equipment against the owner's manual."
+            "value": "Kove MX250 supermoto specifications are recorded. The supermoto variant uses 17-inch wheels and a lower seat. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -119,7 +119,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

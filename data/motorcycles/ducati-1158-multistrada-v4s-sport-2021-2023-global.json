@@ -8,7 +8,7 @@
     "model_group": "ducati-1158-multistrada-v4s-sport",
     "category": "Adventure",
     "displacement": "1158 cc",
-    "summary": "Ducati 1158 Multistrada V4S Sport (2021–Present). 170 hp, 125 Nm, 243.1 kg, 840 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 1158 Multistrada V4S Sport (2021–Present). 170 hp, 125 Nm, 243.1 kg, 840 mm seat.",
     "tags": [
       "ducati",
       "1158-multistrada-v4s-sport",
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2023 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

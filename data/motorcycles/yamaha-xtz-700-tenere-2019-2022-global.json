@@ -8,7 +8,7 @@
     "model_group": "yamaha-xtz-700-tenere",
     "category": "Adventure",
     "displacement": "700 cc",
-    "summary": "Yamaha XTZ 700 Tenere (2019–2022). 689 cc, 72 hp (53 kW), 68 Nm, 204 kg, 875 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha XTZ 700 Tenere (2019–2022). 689 cc, 72 hp (53 kW), 68 Nm, 204 kg, 875 mm seat.",
     "tags": [
       "yamaha",
       "xtz-700-tenere",
@@ -189,7 +189,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

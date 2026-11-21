@@ -8,7 +8,7 @@
     "model_group": "triumph-1200-thruxton-rs",
     "category": "Retro",
     "displacement": "1200 cc",
-    "summary": "Triumph 1200 Thruxton RS (2020–Present). 1200 cc, 104 hp, 112.6 Nm, 197 kg, 810 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Triumph 1200 Thruxton RS (2020–Present). 1200 cc, 104 hp, 112.6 Nm, 197 kg, 810 mm seat.",
     "tags": [
       "triumph",
       "1200-thruxton-rs",
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

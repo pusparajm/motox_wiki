@@ -8,7 +8,7 @@
     "model_group": "italjet-500-dragster",
     "category": "Naked",
     "displacement": "500 cc",
-    "summary": "Italjet 500 Dragster (2023). 450 cc, 43 hp, 43 Nm, 750 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "Italjet 500 Dragster (2023). 450 cc, 43 hp, 43 Nm, 750 mm seat.",
     "tags": [
       "italjet",
       "500-dragster",
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

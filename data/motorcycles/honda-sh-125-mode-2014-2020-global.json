@@ -8,7 +8,7 @@
     "model_group": "honda-sh-125-mode",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Honda SH 125 Mode (2014–2020). 125 cc, 11.3 hp, 12 Nm, 116 kg, 765 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda SH 125 Mode (2014–2020). 125 cc, 11.3 hp, 12 Nm, 116 kg, 765 mm seat.",
     "tags": [
       "honda",
       "sh-125-mode",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "ducati-950-multistrada-s",
     "category": "Adventure",
     "displacement": "950 cc",
-    "summary": "Ducati 950 Multistrada S (2019–2021). 937 cc, 113 hp, 96.2 Nm, 230 kg, 840 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 950 Multistrada S (2019–2021). 937 cc, 113 hp, 96.2 Nm, 230 kg, 840 mm seat.",
     "tags": [
       "ducati",
       "950-multistrada-s",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2021 record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the 2021 model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

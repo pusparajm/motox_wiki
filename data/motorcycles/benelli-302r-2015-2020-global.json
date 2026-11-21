@@ -97,7 +97,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not yet available for this model. The values below are single typical reference figures for common motorcycle fasteners — always confirm against the workshop manual before use."
           }
         ],

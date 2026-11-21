@@ -8,7 +8,7 @@
     "model_group": "swm-400-varez",
     "category": "Naked",
     "displacement": "400 cc",
-    "summary": "SWM 400 Varez (2020). 399 cc, 144 kg, 820 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "SWM 400 Varez (2020). 399 cc, 144 kg, 820 mm seat.",
     "tags": [
       "swm",
       "400-varez",
@@ -90,7 +90,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "SWM Varez 400 data compiled from manufacturer sources. Power and torque figures remain to be verified."
+            "value": "SWM Varez 400 specifications are recorded. Power and torque figures remain to be verified."
           }
         ]
       },
@@ -99,7 +99,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

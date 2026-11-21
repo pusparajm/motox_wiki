@@ -8,7 +8,7 @@
     "model_group": "kawasaki-zx-6r-636-ninja-upgrade-ds",
     "category": "Supersport",
     "displacement": "636 cc",
-    "summary": "Kawasaki ZX-6R 636 Ninja Upgrade DS (2013–2022). 636 cc, 130 hp (96 kW), 70.8 Nm, 196 kg, 830 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Kawasaki ZX-6R 636 Ninja Upgrade DS (2013–2022). 636 cc, 130 hp (96 kW), 70.8 Nm, 196 kg, 830 mm seat.",
     "tags": [
       "kawasaki",
       "zx-6r-636-ninja-upgrade-ds",
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

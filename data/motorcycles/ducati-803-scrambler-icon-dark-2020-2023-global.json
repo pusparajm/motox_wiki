@@ -8,7 +8,7 @@
     "model_group": "ducati-803-scrambler-icon-dark",
     "category": "Retro",
     "displacement": "803 cc",
-    "summary": "Ducati 803 Scrambler Icon Dark (2020–Present). 803 cc, 73 hp, 66.2 Nm, 189 kg, 798 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 803 Scrambler Icon Dark (2020–Present). 803 cc, 73 hp, 66.2 Nm, 189 kg, 798 mm seat.",
     "tags": [
       "ducati",
       "803-scrambler-icon-dark",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2022 record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the 2022 model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

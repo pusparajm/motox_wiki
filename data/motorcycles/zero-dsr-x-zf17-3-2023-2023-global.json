@@ -8,7 +8,7 @@
     "model_group": "zero-dsr-x-zf17-3",
     "category": "Adventure",
     "displacement": "—",
-    "summary": "Zero DSR/X ZF17.3 (2023). —, 100 hp (75 kW), 225 Nm, 247 kg, 828 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Zero DSR/X ZF17.3 (2023). —, 100 hp (75 kW), 225 Nm, 247 kg, 828 mm seat.",
     "tags": [
       "zero",
       "dsr-x-zf17-3",
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "yamaha-560-tmax-tech-max",
     "category": "Scooter",
     "displacement": "560 cc",
-    "summary": "Yamaha 560 TMAX Tech Max (2020). 562 cc, 46.9 hp, 55.7 Nm, 220 kg, 800 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha 560 TMAX Tech Max (2020). 562 cc, 46.9 hp, 55.7 Nm, 220 kg, 800 mm seat.",
     "tags": [
       "yamaha",
       "560-tmax-tech-max",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

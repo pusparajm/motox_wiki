@@ -8,7 +8,7 @@
     "model_group": "kymco-125-x-town-ct",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Kymco 125 X-Town CT (2020). 12.7 hp, 11 Nm, 179 kg, 765 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Kymco 125 X-Town CT (2020). 12.7 hp, 11 Nm, 179 kg, 765 mm seat.",
     "tags": [
       "kymco",
       "125-x-town-ct",
@@ -95,7 +95,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Kymco X-Town CT 125 data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "Kymco X-Town CT 125 specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -104,7 +104,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

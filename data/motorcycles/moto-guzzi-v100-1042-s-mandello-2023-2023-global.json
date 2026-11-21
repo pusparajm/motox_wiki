@@ -8,7 +8,7 @@
     "model_group": "moto-guzzi-v100-1042-s-mandello",
     "category": "Adventure",
     "displacement": "1042 cc",
-    "summary": "Moto Guzzi V100 1042 S Mandello (2023). 1042 cc, 115 hp, 105 Nm, 233 kg, 815 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Moto Guzzi V100 1042 S Mandello (2023). 1042 cc, 115 hp, 105 Nm, 233 kg, 815 mm seat.",
     "tags": [
       "moto-guzzi",
       "v100-1042-s-mandello",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2023 record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the 2023 model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

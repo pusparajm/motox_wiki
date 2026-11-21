@@ -36,7 +36,7 @@ MotoX Wiki is a **static website** for motorcycle technical reference:
 - Bolt & nut dimensions
 - Custom expandable spec sections
 
-The catalogue ships with **409 mass-produced models from 36 manufacturers** and is rebuilt from a single source file (`data/motorcycles.json`).
+The catalogue ships with **409 mass-produced models from 36 manufacturers** and is rebuilt from a single data file (`data/motorcycles.json`).
 
 **Tech stack (kept intentionally light):**
 
@@ -65,7 +65,7 @@ Two folders live side by side on your computer:
 │   ├── core.js            # Data loading, header, footer, ads
 │   └── search.js          # Client-side search
 ├── data/
-│   ├── motorcycles.json         # Source of truth: all motorcycle specs
+│   ├── motorcycles.json         # Canonical data: all motorcycle specs
 │   ├── motorcycles-index.json   # Generated compact browse/search summaries
 │   ├── motorcycles/<id>.json    # Generated per-bike detail files
 │   ├── pages.json               # Wiki articles
@@ -459,7 +459,7 @@ Each motorcycle entry supports:
 - **Torque specifications** — model-specific tables where verified, otherwise a clearly labelled general fastener reference
 - **Custom sections** — free-form HTML blocks
 
-After editing the source file, regenerate the derived files:
+After editing the data file, regenerate the derived files:
 
 ```bash
 npm run build:data

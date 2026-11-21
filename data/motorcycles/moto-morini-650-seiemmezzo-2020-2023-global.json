@@ -8,7 +8,7 @@
     "model_group": "moto-morini-650-seiemmezzo",
     "category": "Naked",
     "displacement": "650 cc",
-    "summary": "Moto Morini 650 Seiemmezzo (2020–Present). 649 cc, 60 hp, 56 Nm, 214 kg, 810 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Moto Morini 650 Seiemmezzo (2020–Present). 649 cc, 60 hp, 56 Nm, 214 kg, 810 mm seat.",
     "tags": [
       "moto-morini",
       "650-seiemmezzo",
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

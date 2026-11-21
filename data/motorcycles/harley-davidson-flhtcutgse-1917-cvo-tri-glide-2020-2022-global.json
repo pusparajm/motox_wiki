@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-flhtcutgse-1917-cvo-tri-glide",
     "category": "Naked",
     "displacement": "1917 cc",
-    "summary": "Harley-Davidson FLHTCUTGSE 1917 CVO Tri Glide (2020–2022). 121 hp, 169.5 Nm, 575.6 kg, 658 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Harley-Davidson FLHTCUTGSE 1917 CVO Tri Glide (2020–2022). 121 hp, 169.5 Nm, 575.6 kg, 658 mm seat.",
     "tags": [
       "harley-davidson",
       "flhtcutgse-1917-cvo-tri-glide",
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

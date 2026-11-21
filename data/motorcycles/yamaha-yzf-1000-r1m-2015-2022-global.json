@@ -8,7 +8,7 @@
     "model_group": "yamaha-yzf-1000-r1m",
     "category": "Supersport",
     "displacement": "1000 cc",
-    "summary": "Yamaha YZF 1000 R1M (2015–2022). 998 cc, 197.3 hp, 113.3 Nm, 202 kg, 860 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha YZF 1000 R1M (2015–2022). 998 cc, 197.3 hp, 113.3 Nm, 202 kg, 860 mm seat.",
     "tags": [
       "yamaha",
       "yzf-1000-r1m",
@@ -135,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

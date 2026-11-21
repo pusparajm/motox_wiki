@@ -8,7 +8,7 @@
     "model_group": "bmw-r18-1800-classic",
     "category": "Cruiser",
     "displacement": "1800 cc",
-    "summary": "BMW R18 1800 Classic (2021–Present). 1802 cc, 91 hp, 157.3 Nm, 365 kg, 711 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "BMW R18 1800 Classic (2021–Present). 1802 cc, 91 hp, 157.3 Nm, 365 kg, 711 mm seat.",
     "tags": [
       "bmw",
       "r18-1800-classic",
@@ -135,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2023 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

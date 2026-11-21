@@ -8,7 +8,7 @@
     "model_group": "triumph-1200-tiger-xcx",
     "category": "Adventure",
     "displacement": "1200 cc",
-    "summary": "Triumph 1200 Tiger XCX (2018–2020). 1,160 cc, 148 hp (110 kW), 130 Nm, 245 kg, 850/870 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Triumph 1200 Tiger XCX (2018–2020). 1,160 cc, 148 hp (110 kW), 130 Nm, 245 kg, 850/870 mm seat.",
     "tags": [
       "triumph",
       "1200-tiger-xcx",
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

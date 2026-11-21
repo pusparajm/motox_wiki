@@ -8,7 +8,7 @@
     "model_group": "ducati-1260-multistrada-enduro",
     "category": "Enduro",
     "displacement": "1260 cc",
-    "summary": "Ducati 1260 Multistrada Enduro (2019–2021). 1262 cc, 158 hp, 128 Nm, 254 kg, 840 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 1260 Multistrada Enduro (2019–2021). 1262 cc, 158 hp, 128 Nm, 254 kg, 840 mm seat.",
     "tags": [
       "ducati",
       "1260-multistrada-enduro",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2019 record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the 2019 model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

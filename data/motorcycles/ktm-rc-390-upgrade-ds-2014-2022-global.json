@@ -8,7 +8,7 @@
     "model_group": "ktm-rc-390-upgrade-ds",
     "category": "Sport",
     "displacement": "390 cc",
-    "summary": "KTM RC 390 Upgrade DS (2014–2022). 373.2 cc, 43.0 hp (32.1 kW), 37 Nm, 172 kg, 820 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "KTM RC 390 Upgrade DS (2014–2022). 373.2 cc, 43.0 hp (32.1 kW), 37 Nm, 172 kg, 820 mm seat.",
     "tags": [
       "ktm",
       "rc-390-upgrade-ds",
@@ -164,7 +164,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

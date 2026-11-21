@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-800-brutale-dragster-rc",
     "category": "Sport",
     "displacement": "800 cc",
-    "summary": "MV Agusta 800 Brutale Dragster RC (2017–2020). 798 cc, 140 hp, 86 Nm, 811 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "MV Agusta 800 Brutale Dragster RC (2017–2020). 798 cc, 140 hp, 86 Nm, 811 mm seat.",
     "tags": [
       "mv-agusta",
       "800-brutale-dragster-rc",
@@ -115,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2017 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2017 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

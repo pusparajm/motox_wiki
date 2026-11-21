@@ -8,7 +8,7 @@
     "model_group": "energica-ego",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Energica Ego (2015–2021). 147.0 hp (107.3 kW)), 222 Nm, 259.9 kg, 810 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Energica Ego (2015–2021). 147.0 hp (107.3 kW)), 222 Nm, 259.9 kg, 810 mm seat.",
     "tags": [
       "energica",
       "ego",
@@ -100,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -109,7 +109,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

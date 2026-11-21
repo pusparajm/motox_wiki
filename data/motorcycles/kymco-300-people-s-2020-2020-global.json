@@ -8,7 +8,7 @@
     "model_group": "kymco-300-people-s",
     "category": "Scooter",
     "displacement": "300 cc",
-    "summary": "Kymco 300 People S (2020). 27 hp, 27.8 Nm, 188 kg, 805 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Kymco 300 People S (2020). 27 hp, 27.8 Nm, 188 kg, 805 mm seat.",
     "tags": [
       "kymco",
       "300-people-s",
@@ -115,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Kymco People S 300 data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "Kymco People S 300 specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

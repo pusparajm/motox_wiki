@@ -8,7 +8,7 @@
     "model_group": "yamaha-mt-09-900-tracer",
     "category": "Adventure",
     "displacement": "900 cc",
-    "summary": "Yamaha MT-09 900 Tracer (2015–2020). 890 cc, 119 hp, 93 Nm, 189 kg, 825 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha MT-09 900 Tracer (2015–2020). 890 cc, 119 hp, 93 Nm, 189 kg, 825 mm seat.",
     "tags": [
       "yamaha",
       "mt-09-900-tracer",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

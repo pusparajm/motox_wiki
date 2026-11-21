@@ -8,7 +8,7 @@
     "model_group": "ktm-1290-super-duke-r-evo",
     "category": "Naked",
     "displacement": "1290 cc",
-    "summary": "KTM 1290 Super Duke R EVO (2022). 1301 cc, 173.3 hp (129.2 kW), 140 Nm, 210 kg, 835 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "KTM 1290 Super Duke R EVO (2022). 1301 cc, 173.3 hp (129.2 kW), 140 Nm, 210 kg, 835 mm seat.",
     "tags": [
       "ktm",
       "1290-super-duke-r-evo",
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

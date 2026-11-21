@@ -8,7 +8,7 @@
     "model_group": "swm-500-ace-of-spades",
     "category": "Naked",
     "displacement": "500 cc",
-    "summary": "SWM 500 Ace of Spades (2018–2021). 445 cc, 30 hp, 36 Nm, 145 kg, 805 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "SWM 500 Ace of Spades (2018–2021). 445 cc, 30 hp, 36 Nm, 145 kg, 805 mm seat.",
     "tags": [
       "swm",
       "500-ace-of-spades",
@@ -110,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "SWM 500 Ace of Spades / Gran Milano Outlaw data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "SWM 500 Ace of Spades / Gran Milano Outlaw specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -119,7 +119,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

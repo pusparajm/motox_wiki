@@ -8,7 +8,7 @@
     "model_group": "aprilia-660-tuono-factory",
     "category": "Naked",
     "displacement": "660 cc",
-    "summary": "Aprilia 660 Tuono Factory (2022–Present). 659 cc, 100 hp (74 kW), 67 Nm, 183 kg, 820 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Aprilia 660 Tuono Factory (2022–Present). 659 cc, 100 hp (74 kW), 67 Nm, 183 kg, 820 mm seat.",
     "tags": [
       "aprilia",
       "660-tuono-factory",
@@ -184,7 +184,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "kawasaki-kx-100",
     "category": "Motocross",
     "displacement": "100 cc",
-    "summary": "Kawasaki KX 100 (1988–2021). 99 cc, 40 Nm, 71 kg, 871 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Kawasaki KX 100 (1988–2021). 99 cc, 40 Nm, 71 kg, 871 mm seat.",
     "tags": [
       "kawasaki",
       "kx-100",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2011 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2011 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "triumph-1200-t120-bud-ekins",
     "category": "Retro",
     "displacement": "1200 cc",
-    "summary": "Triumph 1200 T120 Bud Ekins (2020). 1200 cc, 80 hp, 105 Nm, 236 kg, 790 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Triumph 1200 T120 Bud Ekins (2020). 1200 cc, 80 hp, 105 Nm, 236 kg, 790 mm seat.",
     "tags": [
       "triumph",
       "1200-t120-bud-ekins",
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

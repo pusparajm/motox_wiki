@@ -8,7 +8,7 @@
     "model_group": "moto-morini-1200-super-scrambler",
     "category": "Retro",
     "displacement": "1200 cc",
-    "summary": "Moto Morini 1200 Super Scrambler (2020). 1,187 cc, 116 hp, 108 Nm, 830 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "Moto Morini 1200 Super Scrambler (2020). 1,187 cc, 116 hp, 108 Nm, 830 mm seat.",
     "tags": [
       "moto-morini",
       "1200-super-scrambler",
@@ -115,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Moto Morini Super Scrambler data from the manufacturer. Dry weight is quoted; wet weight is not published."
+            "value": "Moto Morini Super Scrambler specifications are recorded. Dry weight is quoted; wet weight is not published."
           }
         ]
       },
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

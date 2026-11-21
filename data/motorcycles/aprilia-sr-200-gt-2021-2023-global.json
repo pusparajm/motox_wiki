@@ -8,7 +8,7 @@
     "model_group": "aprilia-sr-200-gt",
     "category": "Scooter",
     "displacement": "200 cc",
-    "summary": "Aprilia SR 200 GT (2021–Present). 17.4 hp, 16.5 Nm, 148 kg, 799 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Aprilia SR 200 GT (2021–Present). 17.4 hp, 16.5 Nm, 148 kg, 799 mm seat.",
     "tags": [
       "aprilia",
       "sr-200-gt",
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

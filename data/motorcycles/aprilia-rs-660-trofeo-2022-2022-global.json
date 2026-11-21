@@ -8,7 +8,7 @@
     "model_group": "aprilia-rs-660-trofeo",
     "category": "Naked",
     "displacement": "660 cc",
-    "summary": "Aprilia RS 660 Trofeo (2022). 659 cc, 100 hp, 67 Nm, 183 kg, 820 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Aprilia RS 660 Trofeo (2022). 659 cc, 100 hp, 67 Nm, 183 kg, 820 mm seat.",
     "tags": [
       "aprilia",
       "rs-660-trofeo",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2021 record. Trofeo is the track-kit version of the RS 660. Engine and chassis data is shared; race-kit equipment and settings differ. Confirm against the owner's manual."
+            "value": "Specifications describe the 2021 model year. Trofeo is the track-kit version of the RS 660. Engine and chassis data is shared; race-kit equipment and settings differ. Confirm against the owner's manual."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

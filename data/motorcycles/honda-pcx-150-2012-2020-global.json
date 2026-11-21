@@ -8,7 +8,7 @@
     "model_group": "honda-pcx-150",
     "category": "Scooter",
     "displacement": "150 cc",
-    "summary": "Honda PCX 150 (2012–2020). 149 cc, 15 hp, 14 Nm, 130 kg, 764 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Honda PCX 150 (2012–2020). 149 cc, 15 hp, 14 Nm, 130 kg, 764 mm seat.",
     "tags": [
       "honda",
       "pcx-150",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Honda PCX150 data from the manufacturer for the 2018-generation model. Confirm the exact model year against the owner's manual."
+            "value": "Honda PCX150 specifications are recorded for the 2018-generation model. Confirm the exact model year against the owner's manual."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "husqvarna-tc-50-mini",
     "category": "Motocross",
     "displacement": "50 cc",
-    "summary": "Husqvarna TC 50 Mini (2022–Present). 49 cc, 558 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Husqvarna TC 50 Mini (2022–Present). 49 cc, 558 mm seat.",
     "tags": [
       "husqvarna",
       "tc-50-mini",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2023 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

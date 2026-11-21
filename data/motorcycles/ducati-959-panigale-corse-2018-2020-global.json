@@ -8,7 +8,7 @@
     "model_group": "ducati-959-panigale-corse",
     "category": "Supersport",
     "displacement": "959 cc",
-    "summary": "Ducati 959 Panigale Corse (2018–2020). 955 cc, 157 hp (115 kW), 107 Nm, 200 kg, 830 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 959 Panigale Corse (2018–2020). 955 cc, 157 hp (115 kW), 107 Nm, 200 kg, 830 mm seat.",
     "tags": [
       "ducati",
       "959-panigale-corse",
@@ -179,7 +179,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

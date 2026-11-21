@@ -19,7 +19,7 @@ Every entry has a **General Specifications** section (engine, power, torque, tra
 
 Manufacturers covered include Aprilia, Ather, Bajaj, Benelli, BMW, BSA, CFMOTO, Ducati, Energica, Harley-Davidson, Hero, Honda, Husqvarna, Indian, Jawa, Kawasaki, KTM, Kove, Kymco, LiveWire, Moto Guzzi, Ola, Piaggio, QJMotor, Royal Enfield, Stark, Suzuki, SYM, Triumph, TVS, Ultraviolette, Vespa, Voge, Yamaha, Zero and Zontes.
 
-> Specifications are manufacturer-claimed, compiled from public model data, and can vary by model year and market. Always confirm service limits and torque values against the owner's or workshop manual before working on a motorcycle. The site shows service data only where a reliable figure is available rather than filling gaps with generic values.
+> Specifications are manufacturer-claimed, based on public model data, and can vary by model year and market. Always confirm service limits and torque values against the owner's or workshop manual before working on a motorcycle. The site shows service data only where a reliable figure is available rather than filling gaps with generic values.
 
 ## Features
 
@@ -95,7 +95,7 @@ npm run setup:hooks        # install git hooks (also runs on npm install)
 Git hooks (auto-rebuild `js/dist/`):
 
 - **pre-commit** — runs `npm run build:web` when `js/shield.js`, `js/core.js`, or `js/search.js` are staged or newer than `js/dist/`, then stages `js/dist/*.js`
-- **post-merge** — rebuilds after `git pull` if sources are newer than dist
+- **post-merge** — rebuilds after `git pull` if files are newer than dist
 
 Enable once per clone:
 
@@ -112,7 +112,7 @@ npm run setup:hooks
 ### Option A — edit JSON directly
 
 Edit files in `data/`:
-- `motorcycles.json` — source of truth for bike specs
+- `motorcycles.json` — canonical bike specification data
 - `pages.json` — wiki articles
 - `settings.json` — site title, ads, navigation, featured models
 
@@ -211,7 +211,7 @@ Field keys in `general_specs` (`power`, `torque`, `weight`, `seat_height`, `engi
 
 The search strategy and page map are documented in [docs/SEO.md](docs/SEO.md). Static guide pages target oil capacity, seat height, weight, horsepower, torque, A2, beginner, 125cc, scooter, adventure, cruiser, electric and comparison queries.
 
-## Data Sources & Accuracy
+## Data Accuracy
 
 The catalogue was rebuilt from public manufacturer specifications and model data. It deliberately avoids filling every bike with the same generic values.
 

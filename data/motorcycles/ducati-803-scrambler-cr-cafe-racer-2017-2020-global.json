@@ -8,7 +8,7 @@
     "model_group": "ducati-803-scrambler-cr-cafe-racer",
     "category": "Retro",
     "displacement": "803 cc",
-    "summary": "Ducati 803 Scrambler CR Cafe Racer (2017–2020). 803 cc, 75 hp, 68 Nm, 188 kg, 805 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 803 Scrambler CR Cafe Racer (2017–2020). 803 cc, 75 hp, 68 Nm, 188 kg, 805 mm seat.",
     "tags": [
       "ducati",
       "803-scrambler-cr-cafe-racer",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2017 record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the 2017 model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

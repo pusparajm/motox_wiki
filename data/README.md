@@ -11,7 +11,7 @@ npm run build:data
 
 | File | Generated? | Purpose |
 |------|------------|---------|
-| `motorcycles.json` | No | Full catalogue source: basic info, general specs, service data, torque tables |
+| `motorcycles.json` | No | Full catalogue data: basic info, general specs, service data, torque tables |
 | `motorcycles-index.json` | Yes | Compact summaries for browse cards and sorting |
 | `motorcycles/<id>.json` | Yes | One lazy-loaded file per bike detail page |
 | `pages.json` | No | Wiki article source |

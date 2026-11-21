@@ -8,7 +8,7 @@
     "model_group": "aprilia-sr-50-motard",
     "category": "Scooter",
     "displacement": "50 cc",
-    "summary": "Aprilia SR 50 Motard (2018–2022). 49.9 cc, 4.6 hp, 3.8 Nm, 108 kg, 820 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Aprilia SR 50 Motard (2018–2022). 49.9 cc, 4.6 hp, 3.8 Nm, 108 kg, 820 mm seat.",
     "tags": [
       "aprilia",
       "sr-50-motard",
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

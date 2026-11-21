@@ -8,7 +8,7 @@
     "model_group": "honda-750-hornet",
     "category": "Naked",
     "displacement": "750 cc",
-    "summary": "Honda 750 Hornet (2023). 755 cc, 89.9 hp, 74 Nm, 190 kg, 795 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda 750 Hornet (2023). 755 cc, 89.9 hp, 74 Nm, 190 kg, 795 mm seat.",
     "tags": [
       "honda",
       "750-hornet",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

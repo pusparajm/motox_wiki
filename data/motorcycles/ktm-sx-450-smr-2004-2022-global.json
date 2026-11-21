@@ -8,7 +8,7 @@
     "model_group": "ktm-sx-450-smr",
     "category": "Motocross",
     "displacement": "450 cc",
-    "summary": "KTM SX 450 SMR (2004–2022). 449.4 cc, 43 Nm, 855 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM SX 450 SMR (2004–2022). 449.4 cc, 43 Nm, 855 mm seat.",
     "tags": [
       "ktm",
       "sx-450-smr",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2004 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2004 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

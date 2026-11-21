@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-1000-rush",
     "category": "Naked",
     "displacement": "1000 cc",
-    "summary": "MV Agusta 1000 Rush (2020). 998 cc, 208 hp, 116.5 Nm, 210 kg, 845 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "MV Agusta 1000 Rush (2020). 998 cc, 208 hp, 116.5 Nm, 210 kg, 845 mm seat.",
     "tags": [
       "mv-agusta",
       "1000-rush",
@@ -125,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

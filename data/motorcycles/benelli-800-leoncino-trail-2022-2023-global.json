@@ -8,7 +8,7 @@
     "model_group": "benelli-800-leoncino-trail",
     "category": "Scrambler",
     "displacement": "800 cc",
-    "summary": "Benelli 800 Leoncino Trail (2022–Present). 754 cc, 76 hp (56 kW), 67 Nm, 205 kg, 815 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Benelli 800 Leoncino Trail (2022–Present). 754 cc, 76 hp (56 kW), 67 Nm, 205 kg, 815 mm seat.",
     "tags": [
       "benelli",
       "800-leoncino-trail",
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

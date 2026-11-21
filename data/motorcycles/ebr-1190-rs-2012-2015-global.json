@@ -8,7 +8,7 @@
     "model_group": "ebr-1190-rs",
     "category": "Naked",
     "displacement": "1190 cc",
-    "summary": "EBR 1190 RS brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "EBR 1190 RS brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
     "tags": [
       "ebr",
       "1190-rs",
@@ -54,7 +54,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
           }
         ]
       },
@@ -63,7 +63,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

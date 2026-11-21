@@ -8,7 +8,7 @@
     "model_group": "honda-vt-1100-c2-shadow-a-c-e",
     "category": "Naked",
     "displacement": "1100 cc",
-    "summary": "Honda VT 1100 C2 Shadow A.C.E. brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Honda VT 1100 C2 Shadow A.C.E. brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
     "tags": [
       "honda",
       "vt-1100-c2-shadow-a-c-e",
@@ -54,7 +54,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
           }
         ]
       },
@@ -63,7 +63,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

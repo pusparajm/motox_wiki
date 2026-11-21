@@ -8,7 +8,7 @@
     "model_group": "mbp-1000-t1002v",
     "category": "Naked",
     "displacement": "1002 cc",
-    "summary": "MBP 1000 T1002V (2023). 997 cc, 88.5 hp, 89 Nm, 265 kg, 820 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "MBP 1000 T1002V (2023). 997 cc, 88.5 hp, 89 Nm, 265 kg, 820 mm seat.",
     "tags": [
       "mbp",
       "1000-t1002v",
@@ -110,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "MBP T1002V data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "MBP T1002V specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -119,7 +119,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

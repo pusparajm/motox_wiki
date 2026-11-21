@@ -8,7 +8,7 @@
     "model_group": "fantic-xef-250",
     "category": "Naked",
     "displacement": "250 cc",
-    "summary": "Fantic XEF 250 (2022–Present). 250 cc, 106 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "Fantic XEF 250 (2022–Present). 250 cc, 106 kg, 955 mm seat.",
     "tags": [
       "fantic",
       "xef-250",
@@ -90,7 +90,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Fantic XEF 250 enduro data from the manufacturer manual. Power and torque figures are not published in the sourced material and remain to be verified."
+            "value": "Fantic XEF 250 enduro specifications are recorded. Power and torque figures are not published and remain to be verified."
           },
           {
             "key": "fork_oil_grade",
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "ducati-937-multistrada-v2-s",
     "category": "Adventure",
     "displacement": "937 cc",
-    "summary": "Ducati 937 Multistrada V2 S (2022–Present). 113 hp, 94 Nm, 225 kg, 790 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 937 Multistrada V2 S (2022–Present). 113 hp, 94 Nm, 225 kg, 790 mm seat.",
     "tags": [
       "ducati",
       "937-multistrada-v2-s",
@@ -125,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2023 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

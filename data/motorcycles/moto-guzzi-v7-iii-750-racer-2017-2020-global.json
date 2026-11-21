@@ -8,7 +8,7 @@
     "model_group": "moto-guzzi-v7-iii-750-racer",
     "category": "Naked",
     "displacement": "750 cc",
-    "summary": "Moto Guzzi V7 III 750 Racer (2017–2020). 744 cc, 52 hp, 60 Nm, 209 kg, 770 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Moto Guzzi V7 III 750 Racer (2017–2020). 744 cc, 52 hp, 60 Nm, 209 kg, 770 mm seat.",
     "tags": [
       "moto-guzzi",
       "v7-iii-750-racer",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2020 record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the 2020 model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

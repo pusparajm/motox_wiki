@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-rh-975-nightster",
     "category": "Cruiser",
     "displacement": "975 cc",
-    "summary": "Harley-Davidson RH 975 Nightster (2022–Present). 975 cc, 90 hp (67 kW), 95 Nm, 218 kg, 705 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson RH 975 Nightster (2022–Present). 975 cc, 90 hp (67 kW), 95 Nm, 218 kg, 705 mm seat.",
     "tags": [
       "harley-davidson",
       "rh-975-nightster",
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

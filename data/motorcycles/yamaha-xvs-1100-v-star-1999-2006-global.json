@@ -8,7 +8,7 @@
     "model_group": "yamaha-xvs-1100-v-star",
     "category": "Cruiser",
     "displacement": "1100 cc",
-    "summary": "Yamaha XVS 1100 V-Star brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Yamaha XVS 1100 V-Star brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
     "tags": [
       "yamaha",
       "xvs-1100-v-star",
@@ -54,7 +54,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
           },
           {
             "key": "fork_oil_grade",
@@ -88,7 +88,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

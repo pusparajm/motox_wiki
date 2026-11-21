@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-fxst-1750-softail-standard",
     "category": "Cruiser",
     "displacement": "1750 cc",
-    "summary": "Harley-Davidson FXST 1750 Softail Standard (2022). 1340 cc, 56 hp, 116.6 Nm, 302.4 kg, 720 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson FXST 1750 Softail Standard (2022). 1340 cc, 56 hp, 116.6 Nm, 302.4 kg, 720 mm seat.",
     "tags": [
       "harley-davidson",
       "fxst-1750-softail-standard",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

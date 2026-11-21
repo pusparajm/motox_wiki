@@ -8,7 +8,7 @@
     "model_group": "kymco-ak-550-st",
     "category": "Scooter",
     "displacement": "550 cc",
-    "summary": "Kymco AK 550 ST (2022–Present). 550.4 cc, 53 hp, 55.1 Nm, 226 kg, 785 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Kymco AK 550 ST (2022–Present). 550.4 cc, 53 hp, 55.1 Nm, 226 kg, 785 mm seat.",
     "tags": [
       "kymco",
       "ak-550-st",
@@ -135,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

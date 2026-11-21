@@ -8,7 +8,7 @@
     "model_group": "moto-guzzi-v85-850-tt-guardia-donore",
     "category": "Adventure",
     "displacement": "850 cc",
-    "summary": "Moto Guzzi V85 850 TT Guardia d’Onore (2022–Present). 853 cc, 76 hp, 82 Nm, 240 kg, 830 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Moto Guzzi V85 850 TT Guardia d’Onore (2022–Present). 853 cc, 76 hp, 82 Nm, 240 kg, 830 mm seat.",
     "tags": [
       "moto-guzzi",
       "v85-850-tt-guardia-donore",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "honda-cmx-1100-rebel",
     "category": "Cruiser",
     "displacement": "1100 cc",
-    "summary": "Honda CMX 1100 Rebel (2021–2022). 1,084 cc, 86 hp (64 kW), 98 Nm, 223 kg, 700 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda CMX 1100 Rebel (2021–2022). 1,084 cc, 86 hp (64 kW), 98 Nm, 223 kg, 700 mm seat.",
     "tags": [
       "honda",
       "cmx-1100-rebel",
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

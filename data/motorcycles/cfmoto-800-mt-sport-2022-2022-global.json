@@ -8,7 +8,7 @@
     "model_group": "cfmoto-800-mt-sport",
     "category": "Cruiser",
     "displacement": "800 cc",
-    "summary": "CFMOTO 800 MT Sport (2022). 799 cc, 89.9 hp, 75 Nm, 231 kg, 825 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "CFMOTO 800 MT Sport (2022). 799 cc, 89.9 hp, 75 Nm, 231 kg, 825 mm seat.",
     "tags": [
       "cfmoto",
       "800-mt-sport",
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

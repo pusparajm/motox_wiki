@@ -8,7 +8,7 @@
     "model_group": "malaguti-mlx-50-enduro",
     "category": "Enduro",
     "displacement": "50 cc",
-    "summary": "Malaguti MLX 50 Enduro brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Malaguti MLX 50 Enduro brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
     "tags": [
       "malaguti",
       "mlx-50-enduro",
@@ -54,7 +54,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
           }
         ]
       },
@@ -63,7 +63,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

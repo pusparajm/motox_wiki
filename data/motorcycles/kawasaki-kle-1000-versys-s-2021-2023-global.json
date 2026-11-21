@@ -8,7 +8,7 @@
     "model_group": "kawasaki-kle-1000-versys-s",
     "category": "Adventure",
     "displacement": "1000 cc",
-    "summary": "Kawasaki KLE 1000 Versys S (2021–Present). 1,043 cc, 120 hp (88 kW), 102 Nm, 255 kg, 840 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Kawasaki KLE 1000 Versys S (2021–Present). 1,043 cc, 120 hp (88 kW), 102 Nm, 255 kg, 840 mm seat.",
     "tags": [
       "kawasaki",
       "kle-1000-versys-s",
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

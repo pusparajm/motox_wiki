@@ -8,7 +8,7 @@
     "model_group": "zero-dsrbf-zf14-4",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Zero DSRBF ZF14.4 (2019–2021). 14.4 kWh, 70 hp, 146 Nm, 222 kg, 843 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Zero DSRBF ZF14.4 (2019–2021). 14.4 kWh, 70 hp, 146 Nm, 222 kg, 843 mm seat.",
     "tags": [
       "zero",
       "dsrbf-zf14-4",
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Zero DSR Black Forest Edition data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "Zero DSR Black Forest Edition specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

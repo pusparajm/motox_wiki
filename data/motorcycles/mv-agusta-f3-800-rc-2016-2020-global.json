@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-f3-800-rc",
     "category": "Sport",
     "displacement": "800 cc",
-    "summary": "MV Agusta F3 800 RC (2016–2020). 798 cc, 148 hp, 88 Nm, 805 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "MV Agusta F3 800 RC (2016–2020). 798 cc, 148 hp, 88 Nm, 805 mm seat.",
     "tags": [
       "mv-agusta",
       "f3-800-rc",
@@ -125,7 +125,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2017 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2017 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "indian-1800-challenger-limited",
     "category": "Touring",
     "displacement": "1800 cc",
-    "summary": "Indian 1800 Challenger Limited (2020–Present). 1,769 cc, 122 hp (91 kW), 178 Nm, 365 kg, 690 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Indian 1800 Challenger Limited (2020–Present). 1,769 cc, 122 hp (91 kW), 178 Nm, 365 kg, 690 mm seat.",
     "tags": [
       "indian",
       "1800-challenger-limited",
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

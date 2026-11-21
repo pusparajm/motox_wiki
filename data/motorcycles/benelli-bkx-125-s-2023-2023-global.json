@@ -8,7 +8,7 @@
     "model_group": "benelli-bkx-125-s",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "Benelli BKX 125 S (2023). 125 cc, 15 hp, 12.1 Nm, 860 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "Benelli BKX 125 S (2023). 125 cc, 15 hp, 12.1 Nm, 860 mm seat.",
     "tags": [
       "benelli",
       "bkx-125-s",
@@ -115,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Benelli BKX 125 data from the manufacturer. Dry weight is quoted; wet weight is not published. Confirm model-year equipment against the owner's manual."
+            "value": "Benelli BKX 125 specifications are recorded. Dry weight is quoted; wet weight is not published. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

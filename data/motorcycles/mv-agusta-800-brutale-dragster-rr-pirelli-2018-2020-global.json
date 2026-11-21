@@ -8,7 +8,7 @@
     "model_group": "mv-agusta-800-brutale-dragster-rr-pirelli",
     "category": "Sport",
     "displacement": "800 cc",
-    "summary": "MV Agusta 800 Brutale Dragster RR Pirelli (2018–2020). 87 Nm, 830 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "MV Agusta 800 Brutale Dragster RR Pirelli (2018–2020). 87 Nm, 830 mm seat.",
     "tags": [
       "mv-agusta",
       "800-brutale-dragster-rr-pirelli",
@@ -100,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2019 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2019 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -109,7 +109,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "moto-morini-649-x-cape",
     "category": "Naked",
     "displacement": "649 cc",
-    "summary": "Moto Morini 649 X-Cape (2020–Present). 649 cc, 60 hp, 56 Nm, 227 kg, 820 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Moto Morini 649 X-Cape (2020–Present). 649 cc, 60 hp, 56 Nm, 227 kg, 820 mm seat.",
     "tags": [
       "moto-morini",
       "649-x-cape",
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Moto Morini X-Cape 650 data from the manufacturer. The seat is adjustable to 845 mm; dry weight is quoted as approximately 213 kg. Confirm model-year equipment against the owner's manual."
+            "value": "Moto Morini X-Cape 650 specifications are recorded. The seat is adjustable to 845 mm; dry weight is quoted as approximately 213 kg. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

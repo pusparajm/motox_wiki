@@ -8,7 +8,7 @@
     "model_group": "fantic-xef-125-competition",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "Fantic XEF 125 Competition (2022). 125 cc, 15 hp, 106 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "Fantic XEF 125 Competition (2022). 125 cc, 15 hp, 106 kg, 955 mm seat.",
     "tags": [
       "fantic",
       "xef-125-competition",
@@ -104,7 +104,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-flrt-1870-freewheeler",
     "category": "Naked",
     "displacement": "1870 cc",
-    "summary": "Harley-Davidson FLRT 1870 Freewheeler (2019–2022). 1868 cc, 100 hp, 165.4 Nm, 507.1 kg, 700 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson FLRT 1870 Freewheeler (2019–2022). 1868 cc, 100 hp, 165.4 Nm, 507.1 kg, 700 mm seat.",
     "tags": [
       "harley-davidson",
       "flrt-1870-freewheeler",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

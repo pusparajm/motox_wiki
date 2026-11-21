@@ -8,7 +8,7 @@
     "model_group": "swm-125-ace-of-spades",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "SWM 125 Ace of Spades (2020). 124.7 cc, 15 hp, 11 Nm, 150 kg, 720 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "SWM 125 Ace of Spades (2020). 124.7 cc, 15 hp, 11 Nm, 150 kg, 720 mm seat.",
     "tags": [
       "swm",
       "125-ace-of-spades",
@@ -90,7 +90,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications compiled from SWM/1000PS data for the 125 cc Ace of Spades and Gran Milano Outlaw. Confirm model-year equipment against the owner's manual."
+            "value": "Specifications describe the 125 cc Ace of Spades and Gran Milano Outlaw. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -99,7 +99,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

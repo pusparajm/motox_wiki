@@ -8,7 +8,7 @@
     "model_group": "bimota-kb4-1000",
     "category": "Naked",
     "displacement": "1000 cc",
-    "summary": "Bimota KB4 1000 (2023). 1,043 cc, 140 hp, 111 Nm, 194 kg, 810 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Bimota KB4 1000 (2023). 1,043 cc, 140 hp, 111 Nm, 194 kg, 810 mm seat.",
     "tags": [
       "bimota",
       "kb4-1000",
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Bimota KB4 data from the manufacturer and published specifications. Kerb weight is quoted with a partially filled tank; dry weight is 189 kg. Confirm equipment against the owner's manual."
+            "value": "Bimota KB4 specifications are recorded. Kerb weight is quoted with a partially filled tank; dry weight is 189 kg. Confirm equipment against the owner's manual."
           }
         ]
       },
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

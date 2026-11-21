@@ -8,7 +8,7 @@
     "model_group": "honda-sports",
     "category": "Naked",
     "displacement": "—",
-    "summary": "Honda Sports (2018–2021). 109.5 cc, 7.7 hp, 9 Nm, 105 kg, 650 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda Sports (2018–2021). 109.5 cc, 7.7 hp, 9 Nm, 105 kg, 650 mm seat.",
     "tags": [
       "honda",
       "sports",
@@ -115,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

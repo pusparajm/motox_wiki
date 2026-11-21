@@ -8,7 +8,7 @@
     "model_group": "yamaha-yz-450-fx",
     "category": "Motocross",
     "displacement": "450 cc",
-    "summary": "Yamaha YZ 450 FX (2016–2022). 449.7 cc, 115.2 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "Yamaha YZ 450 FX (2016–2022). 449.7 cc, 115.2 kg, 955 mm seat.",
     "tags": [
       "yamaha",
       "yz-450-fx",
@@ -164,7 +164,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

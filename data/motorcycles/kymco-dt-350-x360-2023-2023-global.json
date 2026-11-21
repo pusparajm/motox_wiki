@@ -8,7 +8,7 @@
     "model_group": "kymco-dt-350-x360",
     "category": "Naked",
     "displacement": "360 cc",
-    "summary": "Kymco DT 350 X360 (2023). 321 cc, 28.6 hp, 30.8 Nm, 194 kg, 800 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Kymco DT 350 X360 (2023). 321 cc, 28.6 hp, 30.8 Nm, 194 kg, 800 mm seat.",
     "tags": [
       "kymco",
       "dt-350-x360",
@@ -110,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Kymco DT X360 350 data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "Kymco DT X360 350 specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -119,7 +119,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

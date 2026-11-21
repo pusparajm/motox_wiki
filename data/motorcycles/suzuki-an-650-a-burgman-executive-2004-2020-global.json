@@ -8,7 +8,7 @@
     "model_group": "suzuki-an-650-a-burgman-executive",
     "category": "Scooter",
     "displacement": "650 cc",
-    "summary": "Suzuki AN 650 A Burgman Executive (2004–2020). 638 cc, 56 hp, 62 Nm, 277 kg, 760 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Suzuki AN 650 A Burgman Executive (2004–2020). 638 cc, 56 hp, 62 Nm, 277 kg, 760 mm seat.",
     "tags": [
       "suzuki",
       "an-650-a-burgman-executive",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2020 record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the 2020 model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

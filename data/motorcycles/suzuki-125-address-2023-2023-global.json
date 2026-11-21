@@ -8,7 +8,7 @@
     "model_group": "suzuki-125-address",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Suzuki 125 Address (2023). 124 cc, 8.7 hp, 10 Nm, 105 kg, 770 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Suzuki 125 Address (2023). 124 cc, 8.7 hp, 10 Nm, 105 kg, 770 mm seat.",
     "tags": [
       "suzuki",
       "125-address",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Suzuki Address 125 data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "Suzuki Address 125 specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

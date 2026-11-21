@@ -8,7 +8,7 @@
     "model_group": "husqvarna-fe-701-enduro",
     "category": "Enduro",
     "displacement": "701 cc",
-    "summary": "Husqvarna FE 701 Enduro (2017–2020). 692.7 cc, 67 hp, 67 Nm, 147 kg, 950 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Husqvarna FE 701 Enduro (2017–2020). 692.7 cc, 67 hp, 67 Nm, 147 kg, 950 mm seat.",
     "tags": [
       "husqvarna",
       "fe-701-enduro",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

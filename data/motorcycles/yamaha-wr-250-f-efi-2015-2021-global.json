@@ -8,7 +8,7 @@
     "model_group": "yamaha-wr-250-f-efi",
     "category": "Enduro",
     "displacement": "250 cc",
-    "summary": "Yamaha WR 250 F Efi (2015–2021). 250 cc, 15.2 hp, 21.6 Nm, 115.2 kg, 965 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Yamaha WR 250 F Efi (2015–2021). 250 cc, 15.2 hp, 21.6 Nm, 115.2 kg, 965 mm seat.",
     "tags": [
       "yamaha",
       "wr-250-f-efi",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

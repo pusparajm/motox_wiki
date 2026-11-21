@@ -8,7 +8,7 @@
     "model_group": "honda-nsc-110-vision",
     "category": "Naked",
     "displacement": "110 cc",
-    "summary": "Honda NSC 110 Vision (2010–2020). 108 cc, 8.3 hp, 8.7 Nm, 102 kg, 770 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Honda NSC 110 Vision (2010–2020). 108 cc, 8.3 hp, 8.7 Nm, 102 kg, 770 mm seat.",
     "tags": [
       "honda",
       "nsc-110-vision",
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

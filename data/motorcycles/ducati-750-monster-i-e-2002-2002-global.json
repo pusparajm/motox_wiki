@@ -8,7 +8,7 @@
     "model_group": "ducati-750-monster-i-e",
     "category": "Retro",
     "displacement": "750 cc",
-    "summary": "Ducati 750 Monster i.e. brake-fitment entry from the SBS catalogue. Full engine, chassis and service specifications are being compiled.",
+    "summary": "Ducati 750 Monster i.e. brake-pad fitment is recorded. Full engine, chassis and service specifications are being compiled.",
     "tags": [
       "ducati",
       "750-monster-i-e",
@@ -54,7 +54,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from the SBS catalogue. Full service capacities, fluid grades and torque values are still being compiled."
+            "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
           }
         ]
       },
@@ -63,7 +63,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

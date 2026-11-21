@@ -8,7 +8,7 @@
     "model_group": "ducati-1299-panigale-r-final-edition",
     "category": "Supersport",
     "displacement": "1299 cc",
-    "summary": "Ducati 1299 Panigale R Final Edition (2017–2020). 1285 cc, 209 hp, 142 Nm, 190 kg, 830 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 1299 Panigale R Final Edition (2017–2020). 1285 cc, 209 hp, 142 Nm, 190 kg, 830 mm seat.",
     "tags": [
       "ducati",
       "1299-panigale-r-final-edition",
@@ -115,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

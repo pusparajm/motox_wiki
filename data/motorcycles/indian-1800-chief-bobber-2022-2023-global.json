@@ -8,7 +8,7 @@
     "model_group": "indian-1800-chief-bobber",
     "category": "Cruiser",
     "displacement": "1800 cc",
-    "summary": "Indian 1800 Chief Bobber (2022–Present). 1,811 cc, 74 hp (55 kW), 146 Nm, 304 kg, 665 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Indian 1800 Chief Bobber (2022–Present). 1,811 cc, 74 hp (55 kW), 146 Nm, 304 kg, 665 mm seat.",
     "tags": [
       "indian",
       "1800-chief-bobber",
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

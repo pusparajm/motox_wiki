@@ -8,7 +8,7 @@
     "model_group": "fantic-xx-125",
     "category": "Naked",
     "displacement": "125 cc",
-    "summary": "Fantic XX 125 (2020–Present). 125 cc, 90 kg, 975 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "Fantic XX 125 (2020–Present). 125 cc, 90 kg, 975 mm seat.",
     "tags": [
       "fantic",
       "xx-125",
@@ -90,7 +90,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Fantic XX 125 motocross data from the manufacturer manual and catalogue. Power and torque figures are not published in the sourced material and remain to be verified."
+            "value": "Fantic XX 125 motocross specifications are recorded. Power and torque figures are not published and remain to be verified."
           },
           {
             "key": "fork_oil_grade",
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

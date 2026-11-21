@@ -8,7 +8,7 @@
     "model_group": "kawasaki-kx-250-x",
     "category": "Motocross",
     "displacement": "250 cc",
-    "summary": "Kawasaki KX 250 X (2021–Present). 249 cc, 109 kg, 945 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Kawasaki KX 250 X (2021–Present). 249 cc, 109 kg, 945 mm seat.",
     "tags": [
       "kawasaki",
       "kx-250-x",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2023 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

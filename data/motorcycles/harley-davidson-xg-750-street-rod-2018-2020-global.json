@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-xg-750-street-rod",
     "category": "Cruiser",
     "displacement": "750 cc",
-    "summary": "Harley-Davidson XG 750 Street Rod (2018–2020). 749 cc, 68 hp (51 kW), 65 Nm, 238 kg, 765 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson XG 750 Street Rod (2018–2020). 749 cc, 68 hp (51 kW), 65 Nm, 238 kg, 765 mm seat.",
     "tags": [
       "harley-davidson",
       "xg-750-street-rod",
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

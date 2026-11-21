@@ -177,7 +177,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "Service-manual reference values. Torque figures can vary by model year, market and fastener condition — confirm against the workshop manual."
           }
         ],

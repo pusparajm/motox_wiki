@@ -8,7 +8,7 @@
     "model_group": "italjet-200-dragster",
     "category": "Naked",
     "displacement": "200 cc",
-    "summary": "Italjet 200 Dragster (2020–Present). 181 cc, 17.5 hp, 15.5 Nm, 133 kg, 770 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "Italjet 200 Dragster (2020–Present). 181 cc, 17.5 hp, 15.5 Nm, 133 kg, 770 mm seat.",
     "tags": [
       "italjet",
       "200-dragster",
@@ -110,7 +110,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Italjet Dragster 200 data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "Italjet Dragster 200 specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -119,7 +119,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

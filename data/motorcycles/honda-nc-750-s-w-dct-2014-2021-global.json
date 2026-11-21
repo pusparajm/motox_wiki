@@ -8,7 +8,7 @@
     "model_group": "honda-nc-750-s-w-dct",
     "category": "Naked",
     "displacement": "750 cc",
-    "summary": "Honda NC 750 S w/DCT (2014–2021). 745 cc, 54 hp, 68 Nm, 217 kg, 790 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda NC 750 S w/DCT (2014–2021). 745 cc, 54 hp, 68 Nm, 217 kg, 790 mm seat.",
     "tags": [
       "honda",
       "nc-750-s-w-dct",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

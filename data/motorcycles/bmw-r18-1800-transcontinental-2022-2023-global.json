@@ -8,7 +8,7 @@
     "model_group": "bmw-r18-1800-transcontinental",
     "category": "Naked",
     "displacement": "1800 cc",
-    "summary": "BMW R18 1800 Transcontinental (2022–Present). 1802 cc, 91 hp, 157.3 Nm, 427.3 kg, 739 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "BMW R18 1800 Transcontinental (2022–Present). 1802 cc, 91 hp, 157.3 Nm, 427.3 kg, 739 mm seat.",
     "tags": [
       "bmw",
       "r18-1800-transcontinental",
@@ -135,7 +135,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2023 record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the 2023 model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

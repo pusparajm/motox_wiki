@@ -8,7 +8,7 @@
     "model_group": "honda-pcx-125-nissin-cal",
     "category": "Scooter",
     "displacement": "125 cc",
-    "summary": "Honda PCX 125 (Nissin cal.) (2018–2020). 125 cc, 11.5 hp, 12 Nm, 130 kg, 760 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda PCX 125 (Nissin cal.) (2018–2020). 125 cc, 11.5 hp, 12 Nm, 130 kg, 760 mm seat.",
     "tags": [
       "honda",
       "pcx-125-nissin-cal",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

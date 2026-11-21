@@ -8,7 +8,7 @@
     "model_group": "ducati-803-scrambler-urban-motard",
     "category": "Retro",
     "displacement": "803 cc",
-    "summary": "Ducati 803 Scrambler Urban Motard (2022–Present). 73 hp, 66.2 Nm, 196 kg, 805 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Ducati 803 Scrambler Urban Motard (2022–Present). 73 hp, 66.2 Nm, 196 kg, 805 mm seat.",
     "tags": [
       "ducati",
       "803-scrambler-urban-motard",
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2022 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

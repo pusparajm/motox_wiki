@@ -8,7 +8,7 @@
     "model_group": "yamaha-yz-250-fx",
     "category": "Motocross",
     "displacement": "250 cc",
-    "summary": "Yamaha YZ 250 FX (2015–2021). 250 cc, 111 kg, 955 mm seat. Partial specifications compiled from manufacturer data.",
+    "summary": "Yamaha YZ 250 FX (2015–2021). 250 cc, 111 kg, 955 mm seat.",
     "tags": [
       "yamaha",
       "yz-250-fx",
@@ -169,7 +169,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

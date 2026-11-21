@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-fltrk-1870-road-glide-limited",
     "category": "Cruiser",
     "displacement": "1870 cc",
-    "summary": "Harley-Davidson FLTRK 1870 Road Glide Limited (2020–2022). 1746 cc, 89 hp, 150.5 Nm, 388 kg, 658 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson FLTRK 1870 Road Glide Limited (2020–2022). 1746 cc, 89 hp, 150.5 Nm, 388 kg, 658 mm seat.",
     "tags": [
       "harley-davidson",
       "fltrk-1870-road-glide-limited",
@@ -150,7 +150,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

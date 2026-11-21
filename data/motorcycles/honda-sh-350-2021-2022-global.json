@@ -8,7 +8,7 @@
     "model_group": "honda-sh-350",
     "category": "Scooter",
     "displacement": "350 cc",
-    "summary": "Honda SH 350 (2021–2022). 329.2 cc, 29 hp, 32 Nm, 172 kg, 805 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda SH 350 (2021–2022). 329.2 cc, 29 hp, 32 Nm, 172 kg, 805 mm seat.",
     "tags": [
       "honda",
       "sh-350",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

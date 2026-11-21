@@ -8,7 +8,7 @@
     "model_group": "honda-ct-125-trail",
     "category": "Mini",
     "displacement": "125 cc",
-    "summary": "Honda CT 125 Trail (2021). 124 cc, 8.7 hp (6.5 kW), 11 Nm, 118 kg, 800 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda CT 125 Trail (2021). 124 cc, 8.7 hp (6.5 kW), 11 Nm, 118 kg, 800 mm seat.",
     "tags": [
       "honda",
       "ct-125-trail",
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

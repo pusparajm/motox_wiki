@@ -8,7 +8,7 @@
     "model_group": "cfmoto-700-cl-x-heritage",
     "category": "Cruiser",
     "displacement": "700 cc",
-    "summary": "CFMOTO 700 CL-X Heritage (2022). 693 cc, 70.1 hp, 60.9 Nm, 196 kg, 800 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "CFMOTO 700 CL-X Heritage (2022). 693 cc, 70.1 hp, 60.9 Nm, 196 kg, 800 mm seat.",
     "tags": [
       "cfmoto",
       "700-cl-x-heritage",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

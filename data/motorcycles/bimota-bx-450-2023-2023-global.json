@@ -8,7 +8,7 @@
     "model_group": "bimota-bx-450",
     "category": "Naked",
     "displacement": "450 cc",
-    "summary": "Bimota BX 450 (2023). 449 cc, 110.2 kg. Partial specifications compiled from manufacturer data.",
+    "summary": "Bimota BX 450 (2023). 449 cc, 110.2 kg.",
     "tags": [
       "bimota",
       "bx-450",
@@ -104,7 +104,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

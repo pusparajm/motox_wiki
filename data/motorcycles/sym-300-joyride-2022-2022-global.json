@@ -8,7 +8,7 @@
     "model_group": "sym-300-joyride",
     "category": "Naked",
     "displacement": "300 cc",
-    "summary": "SYM 300 Joyride (2022). 25 hp, 26 Nm, 186 kg, 770 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "SYM 300 Joyride (2022). 25 hp, 26 Nm, 186 kg, 770 mm seat.",
     "tags": [
       "sym",
       "300-joyride",
@@ -100,7 +100,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "SYM Joyride 300 data from the manufacturer. Confirm model-year equipment against the owner's manual."
+            "value": "SYM Joyride 300 specifications are recorded. Confirm model-year equipment against the owner's manual."
           }
         ]
       },
@@ -109,7 +109,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

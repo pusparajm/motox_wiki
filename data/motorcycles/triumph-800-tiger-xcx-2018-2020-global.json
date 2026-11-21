@@ -8,7 +8,7 @@
     "model_group": "triumph-800-tiger-xcx",
     "category": "Adventure",
     "displacement": "800 cc",
-    "summary": "Triumph 800 Tiger XCX (2018–2020). 800 cc, 95 hp, 79 Nm, 220 kg, 760 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Triumph 800 Tiger XCX (2018–2020). 800 cc, 95 hp, 79 Nm, 220 kg, 760 mm seat.",
     "tags": [
       "triumph",
       "800-tiger-xcx",
@@ -145,7 +145,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -154,7 +154,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

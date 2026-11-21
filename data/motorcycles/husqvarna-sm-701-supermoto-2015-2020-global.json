@@ -8,7 +8,7 @@
     "model_group": "husqvarna-sm-701-supermoto",
     "category": "Supermoto",
     "displacement": "701 cc",
-    "summary": "Husqvarna SM 701 Supermoto (2015–2020). 692 cc, 74 hp (55 kW), 73.5 Nm, 147 kg, 890 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Husqvarna SM 701 Supermoto (2015–2020). 692 cc, 74 hp (55 kW), 73.5 Nm, 147 kg, 890 mm seat.",
     "tags": [
       "husqvarna",
       "sm-701-supermoto",
@@ -144,7 +144,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

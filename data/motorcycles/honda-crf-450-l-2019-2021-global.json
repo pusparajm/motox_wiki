@@ -8,7 +8,7 @@
     "model_group": "honda-crf-450-l",
     "category": "Enduro",
     "displacement": "450 cc",
-    "summary": "Honda CRF 450 L (2019–2021). 449 cc, 53 hp, 48 Nm, 131.1 kg, 942 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda CRF 450 L (2019–2021). 449 cc, 53 hp, 48 Nm, 131.1 kg, 942 mm seat.",
     "tags": [
       "honda",
       "crf-450-l",
@@ -155,7 +155,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the closest MotoSpecVault model-year record. Confirm variant-specific equipment and service limits against the owner's manual."
+            "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
           }
         ]
       },
@@ -164,7 +164,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

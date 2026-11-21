@@ -8,7 +8,7 @@
     "model_group": "honda-vt-1300-cxa-a-fury-abs",
     "category": "Naked",
     "displacement": "1300 cc",
-    "summary": "Honda VT 1300 CXA A Fury ABS (2010–2022). 1312 cc, 57 hp, 107 Nm, 309 kg, 685 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Honda VT 1300 CXA A Fury ABS (2010–2022). 1312 cc, 57 hp, 107 Nm, 309 kg, 685 mm seat.",
     "tags": [
       "honda",
       "vt-1300-cxa-a-fury-abs",
@@ -140,7 +140,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Specifications are from the MotoSpecVault 2019 record. ABS variant of the VT1300CX Fury. Specifications are shared; ABS equipment differs. Confirm against the owner's manual."
+            "value": "Specifications describe the 2019 model year. ABS variant of the VT1300CX Fury. Specifications are shared; ABS equipment differs. Confirm against the owner's manual."
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

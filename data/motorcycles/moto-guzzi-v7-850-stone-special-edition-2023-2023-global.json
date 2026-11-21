@@ -8,7 +8,7 @@
     "model_group": "moto-guzzi-v7-850-stone-special-edition",
     "category": "Retro",
     "displacement": "850 cc",
-    "summary": "Moto Guzzi V7 850 Stone Special Edition (2023). 853 cc, 65 hp (48 kW), 73 Nm, 218 kg, 780 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Moto Guzzi V7 850 Stone Special Edition (2023). 853 cc, 65 hp (48 kW), 73 Nm, 218 kg, 780 mm seat.",
     "tags": [
       "moto-guzzi",
       "v7-850-stone-special-edition",
@@ -149,7 +149,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

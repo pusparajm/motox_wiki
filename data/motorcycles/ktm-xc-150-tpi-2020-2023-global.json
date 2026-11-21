@@ -8,7 +8,7 @@
     "model_group": "ktm-xc-150-tpi",
     "category": "Enduro",
     "displacement": "150 cc",
-    "summary": "KTM XC 150 TPI (2020–Present). 144 cc, 950 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM XC 150 TPI (2020–Present). 144 cc, 950 mm seat.",
     "tags": [
       "ktm",
       "xc-150-tpi",
@@ -115,7 +115,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2022 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -124,7 +124,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

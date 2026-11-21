@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-ra-1250-pan-america-special",
     "category": "Adventure",
     "displacement": "1250 cc",
-    "summary": "Harley-Davidson RA 1250 Pan America Special (2021–2022). 1,252 cc, 150 hp (112 kW), 128 Nm, 245 kg, 850 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson RA 1250 Pan America Special (2021–2022). 1,252 cc, 150 hp (112 kW), 128 Nm, 245 kg, 850 mm seat.",
     "tags": [
       "harley-davidson",
       "ra-1250-pan-america-special",
@@ -134,7 +134,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

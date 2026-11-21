@@ -8,7 +8,7 @@
     "model_group": "can-am-1330-spyder-f3",
     "category": "Sport",
     "displacement": "1330 cc",
-    "summary": "Can-Am 1330 Spyder F3 (2015–2022). 130.1 Nm, 675 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "Can-Am 1330 Spyder F3 (2015–2022). 130.1 Nm, 675 mm seat.",
     "tags": [
       "can-am",
       "1330-spyder-f3",
@@ -105,7 +105,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2023 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2023 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -114,7 +114,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

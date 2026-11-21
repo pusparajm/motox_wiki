@@ -8,7 +8,7 @@
     "model_group": "ktm-1090-super-adventure-r",
     "category": "Adventure",
     "displacement": "1090 cc",
-    "summary": "KTM 1090 Super Adventure R (2017–2020). 1050 cc, 122.3 hp (91.2 kW), 230 kg, 890 mm seat. Specifications compiled from manufacturer data.",
+    "summary": "KTM 1090 Super Adventure R (2017–2020). 1050 cc, 122.3 hp (91.2 kW), 230 kg, 890 mm seat.",
     "tags": [
       "ktm",
       "1090-super-adventure-r",
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

@@ -8,7 +8,7 @@
     "model_group": "ktm-rc8-890-c",
     "category": "Sport",
     "displacement": "890 cc",
-    "summary": "KTM RC8 890 C (2022). 889 cc, 126.1 hp, 101 Nm, 820 mm seat. Partial specifications compiled from MotoSpecVault.",
+    "summary": "KTM RC8 890 C (2022). 889 cc, 126.1 hp, 101 Nm, 820 mm seat.",
     "tags": [
       "ktm",
       "rc8-890-c",
@@ -120,7 +120,7 @@
           {
             "key": "note",
             "label": "Note",
-            "value": "Brake pad fitment is from SBS. Engine and chassis data is from the MotoSpecVault 2022 record; remaining specifications are still being compiled."
+            "value": "Brake-pad fitment and partial engine/chassis data describe the 2022 model year; remaining specifications are still being compiled."
           }
         ]
       },
@@ -129,7 +129,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

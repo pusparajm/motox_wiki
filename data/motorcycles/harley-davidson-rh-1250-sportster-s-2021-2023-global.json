@@ -8,7 +8,7 @@
     "model_group": "harley-davidson-rh-1250-sportster-s",
     "category": "Cruiser",
     "displacement": "1250 cc",
-    "summary": "Harley-Davidson RH 1250 Sportster S (2021–Present). 1,252 cc, 121 hp (90 kW), 125 Nm, 228 kg, 755 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Harley-Davidson RH 1250 Sportster S (2021–Present). 1,252 cc, 121 hp (90 kW), 125 Nm, 228 kg, 755 mm seat.",
     "tags": [
       "harley-davidson",
       "rh-1250-sportster-s",
@@ -159,7 +159,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]

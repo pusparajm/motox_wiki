@@ -8,7 +8,7 @@
     "model_group": "kawasaki-zx-1000-h2-ninja",
     "category": "Supersport",
     "displacement": "1000 cc",
-    "summary": "Kawasaki ZX 1000 H2 Ninja (2015–2021). 998 cc, 228 hp (170 kW), 141.7 Nm, 238 kg, 825 mm seat. Specifications compiled from MotoSpecVault.",
+    "summary": "Kawasaki ZX 1000 H2 Ninja (2015–2021). 998 cc, 228 hp (170 kW), 141.7 Nm, 238 kg, 825 mm seat.",
     "tags": [
       "kawasaki",
       "zx-1000-h2-ninja",
@@ -139,7 +139,7 @@
         "fields": [
           {
             "key": "note",
-            "label": "Source / verification",
+            "label": "Verification note",
             "value": "A verified model-specific torque table is not available for this fitment entry. Use the workshop manual for fastener torque values."
           }
         ]
