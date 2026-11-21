@@ -284,6 +284,11 @@
               "value": "NGK MR9DI-7"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 X-ring, 15T front / 43T rear"
@@ -2925,6 +2930,11 @@
               "key": "note",
               "label": "Note",
               "value": "Early 2022 N160 manuals specified SAE 10W-40; later BS6 manuals specify 20W-50."
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
             }
           ]
         },
@@ -3730,6 +3740,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 pitch, 116 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -3897,6 +3917,16 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA196"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -12904,6 +12934,11 @@
               "value": "NGK MAR9A-J"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12B-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA630HH · SBS 900 · Vesrah VD-9070"
@@ -18352,6 +18387,16 @@
               "value": "NGK CR8E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 12Ah"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA209/2 · SBS 176/674/1005 · Vesrah VD-958"
@@ -19481,6 +19526,16 @@
               "value": "NGK CPR6EA-9 / Federal Mogul RG8YC"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ5"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
+            },
+            {
               "key": "service_interval",
               "label": "Service Interval",
               "value": "6,000 km"
@@ -19656,6 +19711,16 @@
               "key": "note",
               "label": "Note",
               "value": "Capacity is for the 210 cc Hero engine family; confirm the final level on the dipstick."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ7"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah"
             }
           ]
         },
@@ -20488,6 +20553,16 @@
               "value": "Champion REK6YC"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ7"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah"
+            },
+            {
               "key": "service_interval",
               "label": "Service Interval",
               "value": "6,000 km (12,000 km with Hero Xotic+)"
@@ -20997,6 +21072,16 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "6,000 km (12,000 km with Hero Xotic+)"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ7"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah"
             }
           ]
         },
@@ -22762,6 +22847,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 108 links"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -29560,6 +29650,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "428 O-ring, 118 links"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
             }
           ]
         },
@@ -31415,6 +31510,11 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -33484,6 +33584,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 112 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             }
           ]
         },
@@ -44350,6 +44455,16 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "EBC FA213 · SBS 675LS"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -51317,6 +51432,11 @@
               "value": "520 O-ring, 108 links"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
               "key": "battery_rating",
               "label": "Battery Rating",
               "value": "12V 8Ah"
@@ -51639,6 +51759,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 110 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 12Ah"
             }
           ]
         },
@@ -52307,6 +52437,11 @@
               "key": "battery",
               "label": "Battery",
               "value": "YTX9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -52636,6 +52771,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 108 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             },
             {
               "key": "battery_rating",
@@ -53461,6 +53601,16 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 12Ah"
             }
           ]
         },
@@ -53648,6 +53798,16 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 12Ah"
             }
           ]
         },
@@ -56938,6 +57098,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK MR8E-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ6V"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 5Ah"
             },
             {
               "key": "front_brake_pads",
@@ -64188,6 +64358,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 110 links"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
             }
           ]
         },
@@ -65194,6 +65369,11 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "6,000 km"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
             }
           ]
         },
@@ -71191,6 +71371,16 @@
               "value": "NGK CR8E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ6V"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 5Ah"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "428 O-ring, 126 links"
@@ -71356,6 +71546,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "428 O-ring, 126 links"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 4Ah"
             }
           ]
         },
@@ -400474,6 +400669,11 @@
               "value": "13 N·m (9.6 lb·ft)"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
               "key": "coolant",
               "label": "Coolant",
               "value": "1.6 L"
@@ -404399,6 +404599,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "13 N·m (9.6 lb·ft)"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "coolant",

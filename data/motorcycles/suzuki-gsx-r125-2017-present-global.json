@@ -106,6 +106,16 @@
             "value": "NGK MR8E-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ6V"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 5Ah"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA715 · SBS 951 · Brembo 07SU33 · Vesrah VD-360"

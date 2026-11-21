@@ -114,6 +114,11 @@
             "key": "note",
             "label": "Note",
             "value": "Early 2022 N160 manuals specified SAE 10W-40; later BS6 manuals specify 20W-50."
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 4Ah"
           }
         ]
       },

@@ -124,6 +124,16 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "EBC FA213 · SBS 675LS"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "ETZ9-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah"
           }
         ]
       },

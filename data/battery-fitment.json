@@ -1689,8 +1689,9 @@
       "raw": "853 V9Bobber,Roamer '16-'19 GYZ16H YTX14H-BS* YTX14-BS"
     },
     "royal-enfield-bullet-350-2023-present-global": {
+      "code": "YTX9-BS",
       "rating": "12V 8Ah",
-      "source": "manufacturer"
+      "source": "fitment"
     },
     "royal-enfield-classic-350-2021-present-global": {
       "code": "YTX9-BS",
@@ -1708,16 +1709,17 @@
     },
     "royal-enfield-himalayan-411-2015-2023-global": {
       "code": "YTX9-BS",
-      "years": "2017-2022",
-      "raw": "411 Himalayan '17-'22 - - YTX9-BS -"
+      "rating": "12V 8Ah",
+      "source": "guide"
     },
     "royal-enfield-himalayan-450": {
       "code": "YTX9-BS",
       "source": "fitment"
     },
     "royal-enfield-hunter-350-2022-present-global": {
+      "code": "YTX9-BS",
       "rating": "12V 8Ah",
-      "source": "manufacturer"
+      "source": "fitment"
     },
     "royal-enfield-meteor-350-2021-present-global": {
       "code": "YTX9-BS",
@@ -2551,6 +2553,119 @@
     },
     "suzuki-v-strom-sx-250-2022-present-india": {
       "rating": "12V 6Ah",
+      "source": "manufacturer"
+    },
+    "royal-enfield-super-meteor-650-2023-present-global": {
+      "code": "YTX14-BS",
+      "rating": "12V 12Ah",
+      "source": "fitment"
+    },
+    "royal-enfield-shotgun-650-2024-present-global": {
+      "code": "YTX14-BS",
+      "rating": "12V 12Ah",
+      "source": "fitment"
+    },
+    "royal-enfield-classic-650-2025-present-global": {
+      "code": "YTX14-BS",
+      "rating": "12V 12Ah",
+      "source": "fitment"
+    },
+    "hero-glamour-2020-present-india": {
+      "code": "ETZ5",
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
+    },
+    "tvs-raider-125-2021-present-india": {
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
+    },
+    "bajaj-pulsar-n160-2022-present-india": {
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
+    },
+    "honda-shine-125-2018-present-india": {
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
+    },
+    "benelli-502c-2021-present-global": {
+      "code": "YTX9-BS",
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
+    },
+    "benelli-imperiale-400-2019-present-global": {
+      "code": "YTX9-BS",
+      "rating": "12V 8Ah",
+      "source": "fitment"
+    },
+    "harley-davidson-street-2013-2021-global": {
+      "code": "YTX14-BS",
+      "rating": "12V 12Ah",
+      "source": "fitment"
+    },
+    "yamaha-yzf-r125-2008-present-global": {
+      "code": "YTZ6V",
+      "rating": "12V 5Ah",
+      "source": "manufacturer"
+    },
+    "suzuki-gsx-r125-2017-present-global": {
+      "code": "YTZ6V",
+      "rating": "12V 5Ah",
+      "source": "fitment"
+    },
+    "ktm-250-duke-2015-present-global": {
+      "code": "ETZ9-BS",
+      "rating": "12V 8Ah",
+      "source": "fitment"
+    },
+    "husqvarna-svartpilen-401-2020-present-global": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "ducati-monster-821-2014-2020-global": {
+      "code": "YT12B-BS",
+      "source": "guide"
+    },
+    "kawasaki-eliminator-500-2023-present-global": {
+      "code": "YTZ10S",
+      "source": "fitment"
+    },
+    "yamaha-mt-07-700-tracer-2016-2020-global": {
+      "code": "YTZ10S",
+      "source": "fitment"
+    },
+    "yamaha-mt-09-900-tracer-2015-2020-global": {
+      "code": "YTZ10S",
+      "source": "fitment"
+    },
+    "aprilia-rs-457-2023-present-global": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "honda-cb350-2021-present-india": {
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
+    },
+    "hero-karizma-xmr-210-2023-present-india": {
+      "code": "ETZ7",
+      "rating": "12V 6Ah",
+      "source": "manufacturer"
+    },
+    "hero-xtreme-160r-4v-2023-present-india": {
+      "code": "ETZ7",
+      "rating": "12V 6Ah",
+      "source": "manufacturer"
+    },
+    "hero-xpulse-200-4v-2022-present-global": {
+      "code": "ETZ7",
+      "rating": "12V 6Ah",
+      "source": "manufacturer"
+    },
+    "yamaha-yzf-r15-v4-2021-present-global": {
+      "rating": "12V 4Ah",
+      "source": "manufacturer"
+    },
+    "tvs-apache-rtr-160-4v-2020-present-india": {
+      "rating": "12V 4Ah",
       "source": "manufacturer"
     }
   }

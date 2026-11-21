@@ -129,6 +129,16 @@
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
             "value": "41.00/43.00 mm — 2026"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX14-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 12Ah"
           }
         ]
       },

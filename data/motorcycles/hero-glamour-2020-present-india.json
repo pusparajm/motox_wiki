@@ -111,6 +111,16 @@
             "value": "NGK CPR6EA-9 / Federal Mogul RG8YC"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "ETZ5"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 4Ah"
+          },
+          {
             "key": "service_interval",
             "label": "Service Interval",
             "value": "6,000 km"

@@ -111,6 +111,11 @@
             "value": "520 O-ring, 108 links"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
+          },
+          {
             "key": "battery_rating",
             "label": "Battery Rating",
             "value": "12V 8Ah"

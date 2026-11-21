@@ -114,6 +114,16 @@
             "key": "note",
             "label": "Note",
             "value": "Capacity is for the 210 cc Hero engine family; confirm the final level on the dipstick."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "ETZ7"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 6Ah"
           }
         ]
       },

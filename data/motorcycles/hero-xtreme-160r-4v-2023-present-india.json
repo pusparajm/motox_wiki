@@ -109,6 +109,16 @@
             "key": "service_interval",
             "label": "Service Interval",
             "value": "6,000 km (12,000 km with Hero Xotic+)"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "ETZ7"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 6Ah"
           }
         ]
       },

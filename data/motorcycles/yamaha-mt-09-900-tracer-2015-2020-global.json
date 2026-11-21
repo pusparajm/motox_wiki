@@ -118,6 +118,11 @@
             "value": "13 N·m (9.6 lb·ft)"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.72 L"

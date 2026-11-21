@@ -21,7 +21,7 @@ Public pages do not name or cite these sources. The battery code and rating are 
 
 `data/battery-fitment.json` contains the verified entries. `scripts/apply-battery-fitment.py` merges them into each model's Service Data section.
 
-Current coverage is deliberately partial. The application guides are US-market focused and do not cover every Indian, Chinese, electric or older model. Missing entries are not guessed. Add new entries only when the model, year and code are verified.
+Current coverage: 442 models — 430 with a verified code and 12 with a verified rating only. Coverage is deliberately partial. The application guides are US-market focused and do not cover every Indian, Chinese, electric or older model. Missing entries are not guessed. Add new entries only when the model, year and code are verified.
 
 ## Fields
 

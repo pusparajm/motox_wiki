@@ -116,6 +116,11 @@
             "value": "NGK MR9DI-7"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 X-ring, 15T front / 43T rear"
