@@ -1,0 +1,1014 @@
+{
+  "pages": [
+    {
+      "slug": "brand-adly",
+      "title": "ADLY Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All ADLY motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "ADLY Motorcycles",
+      "subtitle": "Every ADLY model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-adly.html"
+    },
+    {
+      "slug": "brand-aprilia",
+      "title": "Aprilia Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Aprilia motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Aprilia Motorcycles",
+      "subtitle": "Every Aprilia model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-aprilia.html"
+    },
+    {
+      "slug": "brand-armstrong",
+      "title": "Armstrong Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Armstrong motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Armstrong Motorcycles",
+      "subtitle": "Every Armstrong model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-armstrong.html"
+    },
+    {
+      "slug": "brand-ather",
+      "title": "Ather Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Ather motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Ather Motorcycles",
+      "subtitle": "Every Ather model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-ather.html"
+    },
+    {
+      "slug": "brand-bajaj",
+      "title": "Bajaj Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Bajaj motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Bajaj Motorcycles",
+      "subtitle": "Every Bajaj model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-bajaj.html"
+    },
+    {
+      "slug": "brand-benda",
+      "title": "Benda Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Benda motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Benda Motorcycles",
+      "subtitle": "Every Benda model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-benda.html"
+    },
+    {
+      "slug": "brand-benelli",
+      "title": "Benelli Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Benelli motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Benelli Motorcycles",
+      "subtitle": "Every Benelli model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-benelli.html"
+    },
+    {
+      "slug": "brand-beta",
+      "title": "Beta Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Beta motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Beta Motorcycles",
+      "subtitle": "Every Beta model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-beta.html"
+    },
+    {
+      "slug": "brand-bimota",
+      "title": "Bimota Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Bimota motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Bimota Motorcycles",
+      "subtitle": "Every Bimota model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-bimota.html"
+    },
+    {
+      "slug": "brand-bmw",
+      "title": "BMW Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All BMW motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "BMW Motorcycles",
+      "subtitle": "Every BMW model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-bmw.html"
+    },
+    {
+      "slug": "brand-brammo",
+      "title": "Brammo Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Brammo motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Brammo Motorcycles",
+      "subtitle": "Every Brammo model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-brammo.html"
+    },
+    {
+      "slug": "brand-bsa",
+      "title": "BSA Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All BSA motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "BSA Motorcycles",
+      "subtitle": "Every BSA model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-bsa.html"
+    },
+    {
+      "slug": "brand-buell",
+      "title": "Buell Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Buell motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Buell Motorcycles",
+      "subtitle": "Every Buell model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-buell.html"
+    },
+    {
+      "slug": "brand-cagiva",
+      "title": "Cagiva Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Cagiva motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Cagiva Motorcycles",
+      "subtitle": "Every Cagiva model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-cagiva.html"
+    },
+    {
+      "slug": "brand-can-am",
+      "title": "Can-Am Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Can-Am motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Can-Am Motorcycles",
+      "subtitle": "Every Can-Am model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-can-am.html"
+    },
+    {
+      "slug": "brand-cannondale",
+      "title": "Cannondale Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Cannondale motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Cannondale Motorcycles",
+      "subtitle": "Every Cannondale model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-cannondale.html"
+    },
+    {
+      "slug": "brand-ccm",
+      "title": "Ccm Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Ccm motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Ccm Motorcycles",
+      "subtitle": "Every Ccm model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-ccm.html"
+    },
+    {
+      "slug": "brand-cfmoto",
+      "title": "CFMOTO Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All CFMOTO motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "CFMOTO Motorcycles",
+      "subtitle": "Every CFMOTO model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-cfmoto.html"
+    },
+    {
+      "slug": "brand-cobra",
+      "title": "Cobra Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Cobra motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Cobra Motorcycles",
+      "subtitle": "Every Cobra model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-cobra.html"
+    },
+    {
+      "slug": "brand-cpi",
+      "title": "CPI Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All CPI motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "CPI Motorcycles",
+      "subtitle": "Every CPI model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-cpi.html"
+    },
+    {
+      "slug": "brand-derbi",
+      "title": "Derbi Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Derbi motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Derbi Motorcycles",
+      "subtitle": "Every Derbi model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-derbi.html"
+    },
+    {
+      "slug": "brand-ducati",
+      "title": "Ducati Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Ducati motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Ducati Motorcycles",
+      "subtitle": "Every Ducati model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-ducati.html"
+    },
+    {
+      "slug": "brand-e-ton",
+      "title": "E-Ton Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All E-Ton motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "E-Ton Motorcycles",
+      "subtitle": "Every E-Ton model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-e-ton.html"
+    },
+    {
+      "slug": "brand-ebr",
+      "title": "EBR Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All EBR motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "EBR Motorcycles",
+      "subtitle": "Every EBR model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-ebr.html"
+    },
+    {
+      "slug": "brand-energica",
+      "title": "Energica Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Energica motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Energica Motorcycles",
+      "subtitle": "Every Energica model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-energica.html"
+    },
+    {
+      "slug": "brand-excelsior-henderson",
+      "title": "Excelsior-Henderson Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Excelsior-Henderson motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Excelsior-Henderson Motorcycles",
+      "subtitle": "Every Excelsior-Henderson model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-excelsior-henderson.html"
+    },
+    {
+      "slug": "brand-fantic",
+      "title": "Fantic Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Fantic motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Fantic Motorcycles",
+      "subtitle": "Every Fantic model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-fantic.html"
+    },
+    {
+      "slug": "brand-gasgas",
+      "title": "GasGas Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All GasGas motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "GasGas Motorcycles",
+      "subtitle": "Every GasGas model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-gasgas.html"
+    },
+    {
+      "slug": "brand-gilera",
+      "title": "Gilera Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Gilera motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Gilera Motorcycles",
+      "subtitle": "Every Gilera model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-gilera.html"
+    },
+    {
+      "slug": "brand-goes",
+      "title": "Goes Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Goes motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Goes Motorcycles",
+      "subtitle": "Every Goes model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-goes.html"
+    },
+    {
+      "slug": "brand-harley-davidson",
+      "title": "Harley-Davidson Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Harley-Davidson motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Harley-Davidson Motorcycles",
+      "subtitle": "Every Harley-Davidson model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-harley-davidson.html"
+    },
+    {
+      "slug": "brand-hero",
+      "title": "Hero Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Hero motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Hero Motorcycles",
+      "subtitle": "Every Hero model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-hero.html"
+    },
+    {
+      "slug": "brand-highland",
+      "title": "Highland Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Highland motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Highland Motorcycles",
+      "subtitle": "Every Highland model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-highland.html"
+    },
+    {
+      "slug": "brand-honda",
+      "title": "Honda Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Honda motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Honda Motorcycles",
+      "subtitle": "Every Honda model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-honda.html"
+    },
+    {
+      "slug": "brand-horex",
+      "title": "Horex Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Horex motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Horex Motorcycles",
+      "subtitle": "Every Horex model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-horex.html"
+    },
+    {
+      "slug": "brand-husaberg",
+      "title": "Husaberg Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Husaberg motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Husaberg Motorcycles",
+      "subtitle": "Every Husaberg model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-husaberg.html"
+    },
+    {
+      "slug": "brand-husqvarna",
+      "title": "Husqvarna Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Husqvarna motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Husqvarna Motorcycles",
+      "subtitle": "Every Husqvarna model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-husqvarna.html"
+    },
+    {
+      "slug": "brand-hyosung",
+      "title": "Hyosung Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Hyosung motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Hyosung Motorcycles",
+      "subtitle": "Every Hyosung model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-hyosung.html"
+    },
+    {
+      "slug": "brand-indian",
+      "title": "Indian Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Indian motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Indian Motorcycles",
+      "subtitle": "Every Indian model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-indian.html"
+    },
+    {
+      "slug": "brand-italjet",
+      "title": "Italjet Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Italjet motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Italjet Motorcycles",
+      "subtitle": "Every Italjet model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-italjet.html"
+    },
+    {
+      "slug": "brand-jawa",
+      "title": "Jawa Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Jawa motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Jawa Motorcycles",
+      "subtitle": "Every Jawa model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-jawa.html"
+    },
+    {
+      "slug": "brand-jotagas",
+      "title": "Jotagas Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Jotagas motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Jotagas Motorcycles",
+      "subtitle": "Every Jotagas model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-jotagas.html"
+    },
+    {
+      "slug": "brand-kawasaki",
+      "title": "Kawasaki Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Kawasaki motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Kawasaki Motorcycles",
+      "subtitle": "Every Kawasaki model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-kawasaki.html"
+    },
+    {
+      "slug": "brand-keeway",
+      "title": "Keeway Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Keeway motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Keeway Motorcycles",
+      "subtitle": "Every Keeway model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-keeway.html"
+    },
+    {
+      "slug": "brand-kove",
+      "title": "Kove Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Kove motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Kove Motorcycles",
+      "subtitle": "Every Kove model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-kove.html"
+    },
+    {
+      "slug": "brand-ktm",
+      "title": "KTM Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All KTM motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "KTM Motorcycles",
+      "subtitle": "Every KTM model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-ktm.html"
+    },
+    {
+      "slug": "brand-kymco",
+      "title": "Kymco Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Kymco motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Kymco Motorcycles",
+      "subtitle": "Every Kymco model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-kymco.html"
+    },
+    {
+      "slug": "brand-laverda",
+      "title": "Laverda Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Laverda motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Laverda Motorcycles",
+      "subtitle": "Every Laverda model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-laverda.html"
+    },
+    {
+      "slug": "brand-lem",
+      "title": "Lem Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Lem motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Lem Motorcycles",
+      "subtitle": "Every Lem model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-lem.html"
+    },
+    {
+      "slug": "brand-livewire",
+      "title": "LiveWire Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All LiveWire motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "LiveWire Motorcycles",
+      "subtitle": "Every LiveWire model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-livewire.html"
+    },
+    {
+      "slug": "brand-maico",
+      "title": "Maico Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Maico motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Maico Motorcycles",
+      "subtitle": "Every Maico model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-maico.html"
+    },
+    {
+      "slug": "brand-malaguti",
+      "title": "Malaguti Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Malaguti motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Malaguti Motorcycles",
+      "subtitle": "Every Malaguti model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-malaguti.html"
+    },
+    {
+      "slug": "brand-mbp",
+      "title": "MBP Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All MBP motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "MBP Motorcycles",
+      "subtitle": "Every MBP model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-mbp.html"
+    },
+    {
+      "slug": "brand-mondial",
+      "title": "Mondial Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Mondial motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Mondial Motorcycles",
+      "subtitle": "Every Mondial model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-mondial.html"
+    },
+    {
+      "slug": "brand-montesa",
+      "title": "Montesa Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Montesa motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Montesa Motorcycles",
+      "subtitle": "Every Montesa model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-montesa.html"
+    },
+    {
+      "slug": "brand-moriwaki",
+      "title": "Moriwaki Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Moriwaki motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Moriwaki Motorcycles",
+      "subtitle": "Every Moriwaki model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-moriwaki.html"
+    },
+    {
+      "slug": "brand-moto-guzzi",
+      "title": "Moto Guzzi Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Moto Guzzi motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Moto Guzzi Motorcycles",
+      "subtitle": "Every Moto Guzzi model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-moto-guzzi.html"
+    },
+    {
+      "slug": "brand-moto-morini",
+      "title": "Moto Morini Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Moto Morini motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Moto Morini Motorcycles",
+      "subtitle": "Every Moto Morini model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-moto-morini.html"
+    },
+    {
+      "slug": "brand-motus",
+      "title": "Motus Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Motus motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Motus Motorcycles",
+      "subtitle": "Every Motus model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-motus.html"
+    },
+    {
+      "slug": "brand-mv-agusta",
+      "title": "MV Agusta Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All MV Agusta motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "MV Agusta Motorcycles",
+      "subtitle": "Every MV Agusta model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-mv-agusta.html"
+    },
+    {
+      "slug": "brand-mz",
+      "title": "Mz Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Mz motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Mz Motorcycles",
+      "subtitle": "Every Mz model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-mz.html"
+    },
+    {
+      "slug": "brand-norton",
+      "title": "Norton Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Norton motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Norton Motorcycles",
+      "subtitle": "Every Norton model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-norton.html"
+    },
+    {
+      "slug": "brand-ohvale",
+      "title": "Ohvale Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Ohvale motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Ohvale Motorcycles",
+      "subtitle": "Every Ohvale model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-ohvale.html"
+    },
+    {
+      "slug": "brand-ola",
+      "title": "Ola Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Ola motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Ola Motorcycles",
+      "subtitle": "Every Ola model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-ola.html"
+    },
+    {
+      "slug": "brand-ossa",
+      "title": "Ossa Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Ossa motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Ossa Motorcycles",
+      "subtitle": "Every Ossa model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-ossa.html"
+    },
+    {
+      "slug": "brand-peugeot",
+      "title": "Peugeot Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Peugeot motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Peugeot Motorcycles",
+      "subtitle": "Every Peugeot model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-peugeot.html"
+    },
+    {
+      "slug": "brand-piaggio",
+      "title": "Piaggio Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Piaggio motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Piaggio Motorcycles",
+      "subtitle": "Every Piaggio model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-piaggio.html"
+    },
+    {
+      "slug": "brand-polini",
+      "title": "Polini Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Polini motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Polini Motorcycles",
+      "subtitle": "Every Polini model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-polini.html"
+    },
+    {
+      "slug": "brand-qjmotor",
+      "title": "QJMotor Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All QJMotor motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "QJMotor Motorcycles",
+      "subtitle": "Every QJMotor model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-qjmotor.html"
+    },
+    {
+      "slug": "brand-rewaco",
+      "title": "Rewaco Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Rewaco motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Rewaco Motorcycles",
+      "subtitle": "Every Rewaco model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-rewaco.html"
+    },
+    {
+      "slug": "brand-royal-enfield",
+      "title": "Royal Enfield Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Royal Enfield motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Royal Enfield Motorcycles",
+      "subtitle": "Every Royal Enfield model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-royal-enfield.html"
+    },
+    {
+      "slug": "brand-sachs",
+      "title": "Sachs Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Sachs motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Sachs Motorcycles",
+      "subtitle": "Every Sachs model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-sachs.html"
+    },
+    {
+      "slug": "brand-scorpa",
+      "title": "Scorpa Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Scorpa motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Scorpa Motorcycles",
+      "subtitle": "Every Scorpa model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-scorpa.html"
+    },
+    {
+      "slug": "brand-sherco",
+      "title": "Sherco Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Sherco motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Sherco Motorcycles",
+      "subtitle": "Every Sherco model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-sherco.html"
+    },
+    {
+      "slug": "brand-stark",
+      "title": "Stark Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Stark motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Stark Motorcycles",
+      "subtitle": "Every Stark model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-stark.html"
+    },
+    {
+      "slug": "brand-suzuki",
+      "title": "Suzuki Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Suzuki motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Suzuki Motorcycles",
+      "subtitle": "Every Suzuki model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-suzuki.html"
+    },
+    {
+      "slug": "brand-swm",
+      "title": "SWM Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All SWM motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "SWM Motorcycles",
+      "subtitle": "Every SWM model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-swm.html"
+    },
+    {
+      "slug": "brand-sym",
+      "title": "SYM Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All SYM motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "SYM Motorcycles",
+      "subtitle": "Every SYM model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-sym.html"
+    },
+    {
+      "slug": "brand-tgb",
+      "title": "TGB Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All TGB motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "TGB Motorcycles",
+      "subtitle": "Every TGB model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-tgb.html"
+    },
+    {
+      "slug": "brand-tm",
+      "title": "TM Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All TM motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "TM Motorcycles",
+      "subtitle": "Every TM model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-tm.html"
+    },
+    {
+      "slug": "brand-tomos",
+      "title": "Tomos Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Tomos motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Tomos Motorcycles",
+      "subtitle": "Every Tomos model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-tomos.html"
+    },
+    {
+      "slug": "brand-triumph",
+      "title": "Triumph Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Triumph motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Triumph Motorcycles",
+      "subtitle": "Every Triumph model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-triumph.html"
+    },
+    {
+      "slug": "brand-trs",
+      "title": "Trs Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Trs motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Trs Motorcycles",
+      "subtitle": "Every Trs model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-trs.html"
+    },
+    {
+      "slug": "brand-tvs",
+      "title": "TVS Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All TVS motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "TVS Motorcycles",
+      "subtitle": "Every TVS model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-tvs.html"
+    },
+    {
+      "slug": "brand-ultraviolette",
+      "title": "Ultraviolette Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Ultraviolette motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Ultraviolette Motorcycles",
+      "subtitle": "Every Ultraviolette model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-ultraviolette.html"
+    },
+    {
+      "slug": "brand-vertemati",
+      "title": "Vertemati Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Vertemati motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Vertemati Motorcycles",
+      "subtitle": "Every Vertemati model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-vertemati.html"
+    },
+    {
+      "slug": "brand-vertigo",
+      "title": "Vertigo Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Vertigo motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Vertigo Motorcycles",
+      "subtitle": "Every Vertigo model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-vertigo.html"
+    },
+    {
+      "slug": "brand-vespa",
+      "title": "Vespa Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Vespa motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Vespa Motorcycles",
+      "subtitle": "Every Vespa model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-vespa.html"
+    },
+    {
+      "slug": "brand-victory",
+      "title": "Victory Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Victory motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Victory Motorcycles",
+      "subtitle": "Every Victory model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-victory.html"
+    },
+    {
+      "slug": "brand-voge",
+      "title": "Voge Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Voge motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Voge Motorcycles",
+      "subtitle": "Every Voge model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-voge.html"
+    },
+    {
+      "slug": "brand-vor",
+      "title": "Vor Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Vor motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Vor Motorcycles",
+      "subtitle": "Every Vor model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-vor.html"
+    },
+    {
+      "slug": "brand-yamaha",
+      "title": "Yamaha Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Yamaha motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Yamaha Motorcycles",
+      "subtitle": "Every Yamaha model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-yamaha.html"
+    },
+    {
+      "slug": "brand-zero",
+      "title": "Zero Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Zero motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Zero Motorcycles",
+      "subtitle": "Every Zero model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-zero.html"
+    },
+    {
+      "slug": "brand-zontes",
+      "title": "Zontes Motorcycles — Specs, Oil Capacity & Service Data",
+      "description": "All Zontes motorcycle models with engine specifications, power, weight, seat height and oil capacity.",
+      "h1": "Zontes Motorcycles",
+      "subtitle": "Every Zontes model in the MotoX Wiki database.",
+      "group": "Brand hub",
+      "hasOverride": false,
+      "path": "reference/brand-zontes.html"
+    },
+    {
+      "slug": "all-models",
+      "title": "All Motorcycle Models A–Z",
+      "description": "Complete index of 4734 motorcycle models by manufacturer, linking to specifications, oil capacity and service data.",
+      "h1": "All Motorcycle Models",
+      "subtitle": "4734 models from 94 manufacturers.",
+      "group": "Reference tool",
+      "hasOverride": false,
+      "path": "reference/all-models.html"
+    },
+    {
+      "slug": "pad-shape-cross-reference",
+      "title": "Brake Pad Shape Cross-Reference",
+      "description": "Cross-compatible motorcycle brake pad shapes from EBC, SBS, Ferodo, Dunlopad, Emgo and Vesrah.",
+      "h1": "Brake Pad Shape Cross-Reference",
+      "subtitle": "EBC, SBS, Ferodo, Dunlopad, Emgo and Vesrah shape equivalents.",
+      "group": "Reference tool",
+      "hasOverride": false,
+      "path": "reference/pad-shape-cross-reference.html"
+    },
+    {
+      "slug": "battery-finder",
+      "title": "Motorcycle Battery Code Finder",
+      "description": "Battery codes for 591 motorcycle models, with alternative codes and battery ratings where verified.",
+      "h1": "Motorcycle Battery Code Finder",
+      "subtitle": "591 models with verified battery data.",
+      "group": "Reference tool",
+      "hasOverride": false,
+      "path": "reference/battery-finder.html"
+    },
+    {
+      "slug": "brake-pad-fitment",
+      "title": "Motorcycle Brake Pad Fitment Table",
+      "description": "Front and rear brake pad fitment codes for individual motorcycle models, with links to the matching pad shape cross-reference.",
+      "h1": "Motorcycle Brake Pad Fitment Table",
+      "subtitle": "Front and rear brake pad codes by motorcycle model.",
+      "group": "Reference tool",
+      "hasOverride": false,
+      "path": "reference/brake-pad-fitment.html"
+    },
+    {
+      "slug": "brands",
+      "title": "Motorcycle Brand Directory",
+      "description": "Motorcycle manufacturers and model counts, with links to every brand hub and model specification page.",
+      "h1": "Motorcycle Brand Directory",
+      "subtitle": "94 motorcycle manufacturers in the catalogue.",
+      "group": "Reference tool",
+      "hasOverride": false,
+      "path": "reference/brands.html"
+    },
+    {
+      "slug": "fork-seal-finder",
+      "title": "Motorcycle Fork Seal & Rear Shock Finder",
+      "description": "Fork oil seal, dust seal, slide bush, circlip and rear shock sizes for 325 motorcycle models.",
+      "h1": "Motorcycle Fork Seal & Rear Shock Finder",
+      "subtitle": "Fork seal, dust seal, bush and rear-shock data by model.",
+      "group": "Reference tool",
+      "hasOverride": false,
+      "path": "reference/fork-seal-finder.html"
+    },
+    {
+      "slug": "tyre-size-finder",
+      "title": "Motorcycle Tyre Size Finder",
+      "description": "Front and rear tyre sizes for 804 motorcycle models, with links to full specifications and service data.",
+      "h1": "Motorcycle Tyre Size Finder",
+      "subtitle": "Front and rear tyre sizes by model.",
+      "group": "Reference tool",
+      "hasOverride": false,
+      "path": "reference/tyre-size-finder.html"
+    }
+  ]
+}

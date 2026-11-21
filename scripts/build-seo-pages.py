@@ -41,6 +41,8 @@ FEATURES = OPTIONS.get("features") or {}
 FAQ_OPTIONS = OPTIONS.get("faq") or {}
 IMAGE_OPTIONS = OPTIONS.get("images") or {}
 THIRD_PARTY = SETTINGS.get("third_party") or {}
+REFERENCE_OVERRIDES = read_json("reference-pages.json", {}).get("pages", {})
+REFERENCE_PAGE_META = {}
 ADS_ENABLED = (SETTINGS.get("ads") or {}).get("enabled", True)
 
 ADSENSE_HEAD = """  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465"
@@ -257,7 +259,35 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
     return canonical
 
 
+def reference_group(slug):
+    if slug.startswith("brand-"):
+        return "Brand hub"
+    if slug in {
+        "all-models", "brands", "battery-finder", "brake-pad-fitment",
+        "pad-shape-cross-reference", "tyre-size-finder", "fork-seal-finder",
+    }:
+        return "Reference tool"
+    return "Reference"
+
+
 def reference_page(slug, page_title, description, h1, subtitle, content, breadcrumb, extra_json=None):
+    override = REFERENCE_OVERRIDES.get(slug) or {}
+    page_title = override.get("title") or page_title
+    description = override.get("description") or description
+    h1 = override.get("h1") or h1
+    subtitle = override.get("subtitle") or subtitle
+    breadcrumb = override.get("breadcrumb") or breadcrumb
+    content = f"{override.get('intro') or ''}{content}{override.get('footer') or ''}"
+    REFERENCE_PAGE_META[slug] = {
+        "slug": slug,
+        "title": page_title,
+        "description": description,
+        "h1": h1,
+        "subtitle": subtitle,
+        "group": reference_group(slug),
+        "hasOverride": bool(override),
+        "path": f"reference/{slug}.html",
+    }
     canonical = f"{SITE}/reference/{slug}.html"
     jsonld = {
         "@context": "https://schema.org",
@@ -2564,6 +2594,14 @@ def main():
             fh.write(f"  <url><loc>{url}</loc><lastmod>{LAST_MOD}</lastmod><priority>{priority}</priority>{image_xml}</url>\n")
         fh.write("</urlset>\n")
     injected = inject_third_party_codes()
+    with open(os.path.join(DATA, "reference-pages-index.json"), "w", encoding="utf-8") as fh:
+        json.dump(
+            {"pages": sorted(REFERENCE_PAGE_META.values(), key=lambda item: (item["group"], item["title"].lower()))},
+            fh,
+            ensure_ascii=False,
+            indent=2,
+        )
+        fh.write("\n")
     print(f"Generated {len(urls)} sitemap URLs, {len(os.listdir(GUIDES))} guide files, {len(os.listdir(REFERENCE))} reference pages and {model_count} model pages")
     if injected:
         print(f"Injected third-party code into {injected} pages")
