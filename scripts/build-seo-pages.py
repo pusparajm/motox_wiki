@@ -922,7 +922,7 @@ def bike_faq(bike):
         if oil_grade:
             answer += f" and the recommended grade is {oil_grade}"
         answer += ". Confirm the exact fill procedure in the owner's or workshop manual."
-        faq.append((f"What engine oil does the {full} take?", answer))
+        faq.append((f"What is the engine oil capacity of the {full}?", answer))
     elif oil_grade:
         faq.append((f"What engine oil grade does the {full} use?", f"The recommended grade is {oil_grade}. Confirm the exact fill procedure in the owner's or workshop manual."))
 
@@ -1038,7 +1038,14 @@ def static_sections_html(bike):
 
 def model_page(bike, related, guide_links):
     url = f"{SITE}/motorcycle/{quote(bike['id'])}.html"
-    seo_title = f"{name(bike)} ({bike.get('year', '')}) Specs & Torque"
+    oil_capacity = service(bike, "oil_capacity")
+    oil_grade = service(bike, "oil_grade")
+    if oil_capacity:
+        seo_title = f"{name(bike)} ({bike.get('year', '')}) Oil Capacity, Specs & Torque"
+    elif oil_grade:
+        seo_title = f"{name(bike)} ({bike.get('year', '')}) Oil Grade, Specs & Torque"
+    else:
+        seo_title = f"{name(bike)} ({bike.get('year', '')}) Specs & Torque"
 
     def short(value):
         return re.sub(r"\([^)]*\)", "", str(value or "").split("@")[0]).strip()
@@ -1052,7 +1059,21 @@ def model_page(bike, related, guide_links):
         bits.append(field(bike, "weight"))
     if field(bike, "seat_height"):
         bits.append(f"{field(bike, 'seat_height')} seat")
-    description = f"{name(bike)} specs: {', '.join(bits)}. Torque values, service data and dimensions."
+    if oil_capacity:
+        oil_parts = [part.strip() for part in str(oil_capacity).split(";") if part.strip()]
+        oil_first = next((part for part in oil_parts if "with filter" in part.lower()), oil_parts[0] if oil_parts else str(oil_capacity))
+        oil_desc = f"{name(bike)} ({bike.get('year', '')}) engine oil capacity: {oil_first}."
+        if oil_grade:
+            oil_desc += f" Recommended grade: {oil_grade}."
+        description = f"{oil_desc} Full specs, service data, torque values and dimensions."
+    else:
+        description = f"{name(bike)} specs: {', '.join(bits)}. Torque values, service data and dimensions."
+    oil_quick = ""
+    if oil_capacity:
+        oil_quick = f'<p class="data-note"><strong>Engine oil capacity:</strong> {esc(oil_capacity)}'
+        if oil_grade:
+            oil_quick += f' · <strong>Recommended grade:</strong> {esc(oil_grade)}'
+        oil_quick += "</p>"
     faq = bike_faq(bike)
 
     def qty(value, unit):
@@ -1152,6 +1173,7 @@ def model_page(bike, related, guide_links):
       <h1>{esc(title(bike))}</h1>
       <p class="bike-subtitle">{esc(bike.get('category', ''))}{' · ' if bike.get('category') and bike.get('displacement') else ''}{esc(bike.get('displacement', ''))}</p>
       <p>{esc(bike.get('summary', ''))}</p>
+      {oil_quick}
       {alias_html}
       <div class="hero-stats">{hero}</div>
     </div>
