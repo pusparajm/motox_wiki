@@ -28,8 +28,6 @@ DEFAULT_WIDTHS = (400, 800, 1200)
 ASPECT = 2 / 3
 USER_AGENT = "MotoXWikiImagePipeline/1.0 (+https://motoxref.com)"
 MAX_BYTES = 20 * 1024 * 1024
-MIN_SOURCE_WIDTH = 1200
-MIN_SOURCE_HEIGHT = 800
 
 
 def slug(value):
@@ -195,6 +193,13 @@ def main():
             skipped += 1
             continue
 
+        try:
+            entry_max_width = int(entry.get("maxWidth") or max_width)
+        except (TypeError, ValueError):
+            entry_max_width = max_width
+        entry_max_width = min(entry_max_width, max_width)
+        entry_widths = tuple(width for width in widths if width <= entry_max_width) or (widths[0],)
+
         make_slug = slug(model.get("make"))
         model_slug = slug(model.get("model"))
         directory = IMAGES / make_slug / model_slug
@@ -204,7 +209,7 @@ def main():
         if existing and not args.force:
             expected = [
                 directory / f"{stem}-{width}.{fmt}"
-                for width in widths
+                for width in entry_widths
                 for fmt in ("avif", "webp", "jpg")
             ]
             if all(path.exists() for path in expected):
@@ -222,10 +227,12 @@ def main():
             try:
                 prepare_source(image_url, Path(tmp.name))
                 width, height = identify(tmp.name)
-                if width < MIN_SOURCE_WIDTH or height < MIN_SOURCE_HEIGHT:
+                required_width = max(entry_max_width, 400)
+                required_height = round(required_width * ASPECT)
+                if width < required_width or height < required_height:
                     raise ValueError(
-                        f"source image is {width}x{height}; minimum is "
-                        f"{MIN_SOURCE_WIDTH}x{MIN_SOURCE_HEIGHT}"
+                        f"source image is {width}x{height}; minimum for this entry is "
+                        f"{required_width}x{required_height} (set maxWidth below the source size)"
                     )
                 variants = make_variants(
                     tmp.name,
@@ -233,7 +240,7 @@ def main():
                     stem,
                     entry.get("fit", "cover"),
                     entry.get("gravity", "center"),
-                    widths,
+                    entry_widths,
                     qualities,
                 )
             except Exception as exc:
@@ -250,8 +257,8 @@ def main():
             "credit": entry.get("credit", ""),
             "creditRequired": bool(entry.get("creditRequired")),
             "alt": entry.get("alt") or f"{model.get('make', '')} {model.get('model', '')}",
-            "width": max_width,
-            "height": round(max_width * ASPECT),
+            "width": entry_max_width,
+            "height": round(entry_max_width * ASPECT),
             "variants": variants,
         }
         downloaded += 1

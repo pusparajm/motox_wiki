@@ -115,30 +115,56 @@
     },
     "kawasaki-ninja-zx-10r": {
       "source": "approved",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawasaki_Ninja_ZX10R_scf25.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawasaki_Ninja_ZX-10_R_Modelljahr_2024.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "permissionReference": "",
-      "credit": "Calreyn88, via Wikimedia Commons",
-      "creditRequired": true,
-      "alt": "Kawasaki Ninja ZX-10R side view",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Ninja ZX-10R 2024 side view",
       "width": 1200,
       "height": 800,
       "variants": {
         "avif": {
-          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-400.avif",
-          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-800.avif",
-          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-1200.avif"
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-dcdc1f5b-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-dcdc1f5b-800.avif",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-dcdc1f5b-1200.avif"
         },
         "webp": {
-          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-400.webp",
-          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-800.webp",
-          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-1200.webp"
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-dcdc1f5b-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-dcdc1f5b-800.webp",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-dcdc1f5b-1200.webp"
         },
         "jpg": {
-          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-400.jpg",
-          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-800.jpg",
-          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-44816220-1200.jpg"
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-dcdc1f5b-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-dcdc1f5b-800.jpg",
+          "1200": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-dcdc1f5b-1200.jpg"
+        }
+      }
+    },
+    "kawasaki-ninja-zx-10r-2016-2020-global": {
+      "source": "approved",
+      "sourcePage": "https://www.bikedekho.com/kawasaki/ninja-zx-10r/specifications",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Kawasaki Ninja ZX-10R side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-13213a48-400.avif",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-13213a48-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-13213a48-400.webp",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-13213a48-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-13213a48-400.jpg",
+          "800": "images/motorcycles/kawasaki/ninja-zx-10r/ninja-zx-10r-13213a48-800.jpg"
         }
       }
     }

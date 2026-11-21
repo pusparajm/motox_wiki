@@ -3,7 +3,12 @@
 ## Status
 
 Phase 1 is complete: the image pipeline, manifest, responsive markup, social metadata
-and image sitemap entries are in place. Five free-licence images are live as the pilot: Royal Enfield Himalayan 411, Honda CBR1000RR-R, Kawasaki Ninja 400, Suzuki V-Strom 650 and Kawasaki Ninja ZX-10R.
+and image sitemap entries are in place. Six images are live as the pilot: Royal Enfield
+Himalayan 411, Honda CBR1000RR-R, Kawasaki Ninja 400, Suzuki V-Strom 650 and two
+Kawasaki Ninja ZX-10R generations (2016–2020 and 2021–2025).
+
+Where the licence or written permission does not require public credit, no credit line
+is rendered. Source, licence and permission details remain in the manifest for audit.
 
 All other models have no image until a licensed source is supplied. The pipeline does
 not scrape third-party pages and will not publish an image without an explicit licence
@@ -44,8 +49,11 @@ and rights approval.
 - **Do not remove watermarks.** If a rights holder requires watermark removal, ask them
   to supply an unwatermarked original. The pipeline also rejects entries marked
   `watermark: true` or `watermarkRemovalRequired: true`.
-- **Minimum source size is 1200 × 800 px.** Smaller files are rejected rather than
-  upscaled; a 204 × 134 thumbnail cannot become a 1200 px hero image.
+- **Default source size is 1200 × 800 px.** If an approved original is smaller, set a
+  per-source `maxWidth` (for example `800` for a 930 × 620 studio image). The pipeline then
+  generates only 400 px and 800 px variants instead of upscaling to 1200 px. A 204 × 134
+  thumbnail is still rejected.
+- Per-source `maxWidth` must be one of the configured variant widths (400, 800 or 1200).
 
 ### Example written-permission entry
 

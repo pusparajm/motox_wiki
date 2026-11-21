@@ -55,16 +55,31 @@
     },
     {
       "modelId": "kawasaki-ninja-zx-10r",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kawasaki_Ninja_ZX10R_scf25.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawasaki_Ninja_ZX10R_scf25.jpg",
-      "credit": "Calreyn88, via Wikimedia Commons",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "creditRequired": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Kawasaki_Ninja_ZX-10_R_Modelljahr_2024.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawasaki_Ninja_ZX-10_R_Modelljahr_2024.jpg",
+      "credit": "",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creditRequired": false,
+      "rightsApproved": true,
+      "alt": "Kawasaki Ninja ZX-10R 2024 side view",
+      "fit": "cover",
+      "gravity": "center"
+    },
+    {
+      "modelId": "kawasaki-ninja-zx-10r-2016-2020-global",
+      "imageUrl": "https://cdn.bikedekho.com/processedimages/kawasaki/kawasaki-ninja-zx-10r/source/kawasaki-ninja-zx-10r68e8e427b3819.jpg",
+      "sourcePage": "https://www.bikedekho.com/kawasaki/ninja-zx-10r/specifications",
+      "credit": "",
+      "license": "Written permission — BikeDekho",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "creditRequired": false,
       "rightsApproved": true,
       "alt": "Kawasaki Ninja ZX-10R side view",
       "fit": "cover",
-      "gravity": "center"
+      "gravity": "center",
+      "maxWidth": 800
     }
   ]
 }
