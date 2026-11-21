@@ -1119,7 +1119,7 @@ def comparison(item, a, b):
     )
 
 
-def segment_leaders(models):
+def segment_leaders(models, electric=False):
     leaders = []
 
     def pick(label, value_fn, value_text, higher=True):
@@ -1133,7 +1133,10 @@ def segment_leaders(models):
     pick("Most torque", lambda model: numeric(field(model, "torque")), lambda model: field(model, "torque"))
     pick("Lightest", weight, lambda model: field(model, "weight"), higher=False)
     pick("Lowest seat", seat, lambda model: field(model, "seat_height"), higher=False)
-    pick("Largest fuel tank", lambda model: numeric(field(model, "fuel_capacity")), lambda model: field(model, "fuel_capacity"))
+    if electric:
+        pick("Largest battery capacity", lambda model: numeric(field(model, "fuel_capacity")), lambda model: field(model, "fuel_capacity"))
+    else:
+        pick("Largest fuel tank", lambda model: numeric(field(model, "fuel_capacity")), lambda model: field(model, "fuel_capacity"))
 
     ratios = [(hp(model) * 1000 / weight(model), model) for model in models if hp(model) and weight(model)]
     if ratios:
@@ -1164,7 +1167,7 @@ def segment_leaders(models):
     return leaders
 
 
-def segment_faqs(models):
+def segment_faqs(models, electric=False):
     faqs = []
 
     def addq(question, answer):
@@ -1190,7 +1193,10 @@ def segment_faqs(models):
     tanks = [(numeric(field(model, "fuel_capacity")), model) for model in models if numeric(field(model, "fuel_capacity"))]
     if tanks:
         _, best = max(tanks, key=lambda pair: pair[0])
-        addq("Which model has the largest fuel tank?", f"The {name(best)} lists {field(best, 'fuel_capacity')}.")
+        if electric:
+            addq("Which model has the largest battery capacity?", f"The {name(best)} lists {field(best, 'fuel_capacity')}.")
+        else:
+            addq("Which model has the largest fuel tank?", f"The {name(best)} lists {field(best, 'fuel_capacity')}.")
     a2 = [
         model for model in models
         if hp(model) and weight(model)
@@ -1233,10 +1239,11 @@ def segment_comparison(item, models):
             esc(field(model, "rear_brake")),
             esc(field(model, "tyres")),
         ])
-    engine_headers = ["Model", "Year", "Engine", "Power", "Torque", "Weight", "Seat", "Fuel"]
+    electric = item["slug"] == "electric-motorcycles"
+    engine_headers = ["Model", "Year", "Engine", "Power", "Torque", "Weight", "Seat", "Battery" if electric else "Fuel"]
     chassis_headers = ["Model", "Front suspension", "Rear suspension", "Front brake", "Rear brake", "Tyres"]
-    leaders = segment_leaders(models)
-    faqs = segment_faqs(models)
+    leaders = segment_leaders(models, electric)
+    faqs = segment_faqs(models, electric)
     faq_html = "".join(
         f'<div class="faq-item"><h3 class="faq-question">{esc(question)}</h3><p class="faq-answer">{esc(answer)}</p></div>'
         for question, answer in faqs
@@ -1265,7 +1272,7 @@ def segment_comparison(item, models):
       <h2>Segment leaders</h2>
       <ul>{''.join(leaders) if leaders else '<li>Not enough listed data for a leader summary.</li>'}</ul>
       <h2>How to shortlist</h2>
-      <p>Start with seat height and kerb weight, then compare tank size and listed power. For off-road use, check front suspension travel, tyre sizes and brake specification; for touring, prioritise fuel capacity, seat height and weather protection. The table links every model to its full specification and service data.</p>
+      <p>Start with seat height and kerb weight, then compare {'battery capacity' if electric else 'tank size'} and listed power. For off-road use, check front suspension travel, tyre sizes and brake specification; for touring, prioritise {'battery capacity' if electric else 'fuel capacity'}, seat height and weather protection. The table links every model to its full specification and service data.</p>
       {f'<section class="faq-section"><h2>Frequently Asked Questions</h2>{faq_html}</section>' if faq_html else ''}
       {related_guides(related)}
     """
@@ -2021,6 +2028,85 @@ SEGMENT_COMPARISONS = [
             "ktm-rc-125-2014-present-global",
             "kawasaki-ninja-125-2019-present-global",
             "suzuki-gsx-r125-2017-present-global",
+        ],
+    },
+    {
+        "slug": "250-450cc-dual-sport",
+        "title": "250–450cc Dual-Sport Motorcycles Compared",
+        "description": "250–450cc dual-sport bikes compared: Honda CRF300L, CRF300 Rally, Kawasaki KLX300, Kove 450 Rally and Voge 300 Rally.",
+        "intro": "This group covers lightweight dual-sport models from roughly 250 to 450cc. The table compares listed power, torque, weight, seat height, fuel capacity, suspension, brakes and tyres. Tall seats and long suspension travel are central to this class.",
+        "models": [
+            "honda-crf300l-2021-present-global",
+            "honda-crf300-rally-2021-present-global",
+            "kawasaki-klx300-2021-present-global",
+            "kove-450-rally-2023-present-global",
+            "voge-300-rally-2022-present-global",
+        ],
+    },
+    {
+        "slug": "650-900cc-naked-bikes",
+        "title": "650–900cc Naked Bikes Compared",
+        "description": "650–900cc naked bikes compared: Yamaha MT-07 and MT-09, Triumph Street Triple 765, Ducati Monster 821, Suzuki SV650, Kawasaki Z650 and Honda CB650R.",
+        "intro": "This group covers roadster and naked models from roughly 650 to 900cc. The table compares listed power, torque, weight, seat height, fuel capacity, suspension, brakes and tyres.",
+        "models": [
+            "yamaha-mt-07-2018",
+            "yamaha-mt-09-2015-2018-global",
+            "triumph-street-triple-765-2023-present-global",
+            "ducati-monster-821-2014-2020-global",
+            "suzuki-sv650-2016-present-global",
+            "kawasaki-z650-2017-present-global",
+            "honda-cb650r-2019-present-global",
+        ],
+    },
+    {
+        "slug": "650-900cc-adventure",
+        "title": "650–900cc Adventure Motorcycles Compared",
+        "description": "650–900cc adventure bikes compared: Kawasaki Versys 650, Suzuki V-Strom 650, Aprilia Tuareg 660, Honda NC750X and Yamaha Tracer 900.",
+        "intro": "This group covers middleweight adventure and adventure-touring models from roughly 650 to 900cc. The table compares listed power, torque, weight, seat height, fuel capacity, suspension, brakes and tyres.",
+        "models": [
+            "kawasaki-versys-650-2022-present-global",
+            "suzuki-v-strom-650-2017-present-global",
+            "aprilia-tuareg-660-2022-present-global",
+            "honda-nc750x-2021-present-global",
+            "yamaha-mt-09-900-tracer-2015-2020-global",
+        ],
+    },
+    {
+        "slug": "sport-touring-650-900",
+        "title": "650–900cc Sport-Touring Motorcycles Compared",
+        "description": "650–900cc sport-tourers compared: Kawasaki Ninja 650, Honda CBR650R, Triumph Tiger Sport 660 and Yamaha Tracer 700.",
+        "intro": "This group covers road-biased sport-touring models from roughly 650 to 900cc. The comparison focuses on seat height, weight, tank size, weather protection and listed output rather than off-road hardware.",
+        "models": [
+            "kawasaki-ninja-650-2021-present",
+            "honda-cbr650r-2024-present-global",
+            "triumph-tiger-sport-660-2022-present-global",
+            "yamaha-mt-07-700-tracer-2016-2020-global",
+        ],
+    },
+    {
+        "slug": "650-900cc-cruisers",
+        "title": "650–900cc Cruisers Compared",
+        "description": "650–900cc cruisers compared: Kawasaki Vulcan S, Royal Enfield Super Meteor 650, Royal Enfield Shotgun 650 and Harley-Davidson Street 750.",
+        "intro": "This group covers middleweight cruisers from roughly 650 to 900cc. The comparison focuses on seat height, weight, tank size and listed output. It complements the separate 300–500cc cruiser comparison.",
+        "models": [
+            "kawasaki-vulcan-s-2015-present-global",
+            "royal-enfield-super-meteor-650-2023-present-global",
+            "royal-enfield-shotgun-650-2024-present-global",
+            "harley-davidson-street-2013-2021-global",
+        ],
+    },
+    {
+        "slug": "electric-motorcycles",
+        "title": "Electric Motorcycles Compared",
+        "description": "Electric motorcycles compared: Zero SR/F, LiveWire S2 Del Mar, Energica Eva Ribelle, Zero DSR/X, Energica Experia and Stark Varg.",
+        "intro": "This group covers electric road, adventure and off-road motorcycles. The table compares listed power, torque, weight, seat height, suspension, brakes and tyres; battery capacity and range are not compared because the catalogue does not hold consistent battery data for every model.",
+        "models": [
+            "zero-sr-f-2020-present-global",
+            "livewire-s2-del-mar-2023-present-global",
+            "energica-eva-ribelle-2015-2021-global",
+            "zero-dsr-x-2022-present-global",
+            "energica-experia-2022-present-global",
+            "stark-varg-2023-present-global",
         ],
     },
 ]

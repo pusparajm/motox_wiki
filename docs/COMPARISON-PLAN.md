@@ -46,12 +46,12 @@ Public pages do not name or cite these outlets. They are research inputs only.
 | 11 | 300–500cc cruisers | `300-500cc-cruisers` | Rebel 300, Rebel 500, Eliminator 500, Meteor 350, Benelli 502C |
 | 12 | 125cc sportbikes | `125cc-sportbikes` | YZF-R125, RS 125, RC 125, Ninja 125, GSX-R125 |
 
-### Phase 3 — US/global and premium segments (planned)
+### Phase 3 — US/global and premium segments (implemented)
 
 | # | Segment | Slug | Candidate models |
 |---|---|---|---|
 | 13 | 250–450cc dual-sport | `250-450cc-dual-sport` | CRF300L, KLX300, WR250R, DR-Z400S, XT250 |
-| 14 | Beginner cruisers | `beginner-cruisers` | Rebel 300, Rebel 500, Meteor 350, Eliminator 500, V-Star 250 |
+| 14 | 650–900cc cruisers | `650-900cc-cruisers` | Vulcan S, Super Meteor 650, Shotgun 650, Street 750 |
 | 15 | 650–900cc naked bikes | `650-900cc-naked-bikes` | MT-07, MT-09, Street Triple, Duke 790, Monster 821 |
 | 16 | 650–900cc adventure | `650-900cc-adventure` | Tenere 700, Versys 650, V-Strom 650, Tiger Sport 660, Tuareg 660 |
 | 17 | Sport-touring 650–900 | `sport-touring-650-900` | Ninja 650, CBR650R, Tiger Sport 660, Tracer 7, Versys 650 |
