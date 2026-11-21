@@ -24,6 +24,8 @@ const MotoXShield = (() => {
     'show-more-bike-road', 'show-more-bike-wheel', 'spec-source', 'sr-only', 'tag', 'toolbar', 'toolbar-count'
   ];
 
+  const KEEP_IDS = new Set(['browse']);
+
   const DEAD_SNIPPETS = [
     '<div class="{c}" data-mx-dead hidden aria-hidden="true"><span>{t}</span></div>',
     '<template data-mx-dead><nav><a href="{b}data/export.json">{t}</a></nav></template>',
@@ -246,7 +248,7 @@ const MotoXShield = (() => {
     scope.querySelectorAll('[data-mx-ref]').forEach(el => {
       const name = el.getAttribute('data-mx-ref');
       if (!name) return;
-      el.id = idFor(name);
+      if (!(KEEP_IDS.has(name) && el.id)) el.id = idFor(name);
       refCache.set(name, el);
       el.removeAttribute('data-mx-ref');
     });

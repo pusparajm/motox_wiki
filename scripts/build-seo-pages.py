@@ -672,6 +672,44 @@ def make_slug(make):
     return re.sub(r"[^a-z0-9]+", "-", str(make).lower()).strip("-")
 
 
+def sync_reference_index(bikes, pages):
+    """Keep the static Reference index in sync with generated brand and reference pages."""
+    path = os.path.join(ROOT, "pages.html")
+    with open(path, encoding="utf-8") as fh:
+        page_html = fh.read()
+
+    makes = sorted({bike.get("make", "") for bike in bikes if bike.get("make")}, key=str.lower)
+    brand_links = "\n".join(
+        f'      <a href="reference/brand-{make_slug(make)}.html">{esc(make)}</a>'
+        for make in makes
+    )
+    brand_block = (
+        '    <div class="home-guide-links" aria-label="Motorcycle brands">\n'
+        f'      <strong>{len(makes)} brands:</strong>\n'
+        f'{brand_links}\n'
+        '    </div>'
+    )
+
+    general_cards = "\n".join(
+        f'      <a class="page-item" href="pages.html?slug={quote(page.get("slug") or page["id"])}">'
+        f'<h2>{esc(page.get("title", ""))}</h2><p>{esc(page.get("summary", ""))}</p></a>'
+        for page in sorted(pages, key=lambda item: (item.get("order", 0), item.get("title", "")))
+    )
+
+    for start, end, block, indent in (
+        ("<!-- BRAND-INDEX:START -->", "<!-- BRAND-INDEX:END -->", brand_block, "    "),
+        ("<!-- GENERAL-REFERENCE:START -->", "<!-- GENERAL-REFERENCE:END -->", general_cards, "      "),
+    ):
+        if start not in page_html or end not in page_html:
+            raise SystemExit(f"Reference index markers missing: {start}")
+        before, rest = page_html.split(start, 1)
+        _, after = rest.split(end, 1)
+        page_html = before + start + "\n" + block + "\n" + indent + end + after
+
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(page_html)
+
+
 def build_brand_pages(bikes):
     by_make = {}
     for bike in bikes:
@@ -1257,7 +1295,8 @@ def model_page(bike, related, guide_links, brand_href):
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
             {"@type": "ListItem", "position": 2, "name": "Browse", "item": SITE + "/#browse"},
-            {"@type": "ListItem", "position": 3, "name": title(bike), "item": url}
+            {"@type": "ListItem", "position": 3, "name": bike.get("make", ""), "item": f"{SITE}/reference/brand-{make_slug(bike.get('make', ''))}.html"},
+            {"@type": "ListItem", "position": 4, "name": title(bike), "item": url}
         ]
     }]
     if faq:
@@ -1323,7 +1362,7 @@ def model_page(bike, related, guide_links, brand_href):
   </header>
   <main class="container">
     <div class="bike-header">
-      <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#browse">Browse</a> / {esc(name(bike))}</div>
+      <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#browse">Browse</a> / <a href="{brand_href}">{esc(bike.get('make', ''))}</a> / {esc(name(bike))}</div>
       <h1>{esc(title(bike))}</h1>
       <p class="bike-subtitle">{esc(bike.get('category', ''))}{' · ' if bike.get('category') and bike.get('displacement') else ''}{esc(bike.get('displacement', ''))}</p>
       <p>{esc(bike.get('summary', ''))}</p>
@@ -1518,6 +1557,7 @@ def main():
         urls.append(comparison(slug, h1, desc, h1, f"{name(a)} vs {name(b)}", a, b, verdict))
 
     build_brake_redirect()
+    sync_reference_index(bikes, pages)
 
     # Sitemap
     model_urls = [f"{SITE}/motorcycle/{quote(b['id'])}.html" for b in bikes]
