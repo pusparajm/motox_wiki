@@ -21,7 +21,7 @@ Public pages do not name or cite these sources. The battery code and rating are 
 
 `data/battery-fitment.json` contains the verified entries. `scripts/apply-battery-fitment.py` merges them into each model's Service Data section.
 
-Current coverage: 563 models — 520 with a verified code and 43 with a verified rating only. Coverage is deliberately partial. The application guides are US-market focused and do not cover every Indian, Chinese, electric or older model. Missing entries are not guessed. Add new entries only when the model, year and code are verified.
+Current coverage: 571 models — 523 with a verified code and 48 with a verified rating only. Coverage is deliberately partial. The application guides are US-market focused and do not cover every Indian, Chinese, electric or older model. Missing entries are not guessed. Add new entries only when the model, year and code are verified.
 
 ## Recent additions
 
@@ -38,6 +38,7 @@ Current coverage: 563 models — 520 with a verified code and 43 with a verified
 - Indian scooters and commuters: Honda Activa 6G and SP 125; TVS Jupiter 110/125 and Ntorq 125; Hero Destini 125, Xoom 125, Xtreme 125R and Xtreme 250R; Bajaj Avenger 220 and Freedom 125; Suzuki Access 125 and Burgman Street 125.
 - Yamaha scooters and small-capacity models: Aerox 155, NMAX 155, Fascino 125, FZ-S Fi V4, FZ-X 150, MT-25, XSR125, XSR155 and TMAX 560.
 - Honda CB750 Hornet and Africa Twin CRF1100L; KTM 125 Duke/RC 125, 790 Adventure R Rally, 890 SMT and 1290 Super Duke R EVO/Black.
+- CFMOTO 250SR/300SR; Voge 500 R/AC 500/ACX 500; Benda LFS 700; Honda CBR1000RR-R (2020–2023 and 2024–Present).
 
 ## Fields
 

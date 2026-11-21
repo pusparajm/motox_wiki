@@ -98,6 +98,11 @@
       "rating": "12V 8Ah VRLA",
       "source": "manufacturer"
     },
+    "benda-lfs-700-2023-2023-global": {
+      "code": "MG14L-BS-C",
+      "rating": "12V 14Ah",
+      "source": "manufacturer"
+    },
     "benelli-502c-2021-present-global": {
       "code": "YTX9-BS",
       "rating": "12V 8Ah",
@@ -546,6 +551,14 @@
       "years": "2002-2003",
       "raw": "440 C440,E440,S440,X440,X440S '02-'03 - YTZ7S YTX5L-BS -"
     },
+    "cfmoto-250sr-2020-present-global": {
+      "rating": "12V 9Ah",
+      "source": "manufacturer"
+    },
+    "cfmoto-300sr-2020-present-global": {
+      "rating": "12V 9Ah",
+      "source": "manufacturer"
+    },
     "cfmoto-450mt-2024-present-global": {
       "code": "YTZ14S",
       "rating": "12V 11.2Ah",
@@ -961,6 +974,16 @@
       "code": "YTZ7S",
       "years": "2008-2024",
       "raw": "CBR1000RR '08-'24 - YTZ7S - -"
+    },
+    "honda-cbr1000rr-r-2020-2023": {
+      "code": "YTZ7S",
+      "rating": "12V 6Ah",
+      "source": "manufacturer"
+    },
+    "honda-cbr1000rr-r-2024-present": {
+      "code": "HJ12L",
+      "rating": "12V 2.3Ah lithium-ion",
+      "source": "manufacturer"
     },
     "honda-cbr500r-2022-present-global": {
       "code": "YTZ8V",
@@ -2703,8 +2726,20 @@
       "rating": "12V 7Ah",
       "source": "manufacturer"
     },
+    "voge-500-r-2023-2023-global": {
+      "rating": "12V 10Ah",
+      "source": "manufacturer"
+    },
     "voge-900dsx-2023-present-global": {
       "rating": "12V 12Ah lithium",
+      "source": "manufacturer"
+    },
+    "voge-ac-500-2023-2023-global": {
+      "rating": "12V 10Ah",
+      "source": "manufacturer"
+    },
+    "voge-acx-500-2023-2023-global": {
+      "rating": "12V 10Ah",
       "source": "manufacturer"
     },
     "voge-ds-500-2023-2023-global": {

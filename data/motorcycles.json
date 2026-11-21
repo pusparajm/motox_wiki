@@ -9337,6 +9337,11 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA181"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 9Ah"
             }
           ]
         },
@@ -9504,6 +9509,11 @@
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA181"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 9Ah"
             }
           ]
         },
@@ -25548,6 +25558,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "530 O-ring, 116 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah"
             }
           ]
         },
@@ -25705,6 +25725,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "530 O-ring, 116 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "HJ12L"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 2.3Ah lithium-ion"
             }
           ]
         },
@@ -85567,6 +85597,16 @@
               "key": "note",
               "label": "Note",
               "value": "Benda LFS 700 specifications are recorded. Confirm model-year equipment against the owner’s manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "MG14L-BS-C"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 14Ah"
             }
           ]
         },
@@ -378421,6 +378461,11 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the 471 cc 500 R. Confirm model-year equipment against the owner's manual."
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 10Ah"
             }
           ]
         },
@@ -378543,6 +378588,11 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the 471 cc 500 AC. Confirm model-year equipment against the owner's manual."
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 10Ah"
             }
           ]
         },
@@ -378665,6 +378715,11 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the 494 cc 525 ACX scrambler. Dry weight is quoted; confirm wet weight against the owner's manual."
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 10Ah"
             }
           ]
         },

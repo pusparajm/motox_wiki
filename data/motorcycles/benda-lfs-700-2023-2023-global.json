@@ -111,6 +111,16 @@
             "key": "note",
             "label": "Note",
             "value": "Benda LFS 700 specifications are recorded. Confirm model-year equipment against the owner’s manual."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "MG14L-BS-C"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 14Ah"
           }
         ]
       },

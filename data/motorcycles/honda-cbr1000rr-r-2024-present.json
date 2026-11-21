@@ -109,6 +109,16 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "530 O-ring, 116 links"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "HJ12L"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 2.3Ah lithium-ion"
           }
         ]
       },
