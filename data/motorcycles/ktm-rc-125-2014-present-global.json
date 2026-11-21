@@ -124,6 +124,21 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 118 links"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ8V"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "YTZ7S (2014–2016)"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 7Ah (2017+)"
           }
         ]
       },

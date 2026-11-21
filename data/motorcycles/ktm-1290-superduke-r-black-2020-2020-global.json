@@ -151,6 +151,16 @@
             "key": "note",
             "label": "Note",
             "value": "Black colour variant of the 1290 Super Duke R. Wet weight shown; KTM quotes 189 kg dry."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
           }
         ]
       },

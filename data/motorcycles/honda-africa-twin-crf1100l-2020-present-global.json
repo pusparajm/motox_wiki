@@ -149,6 +149,21 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "Showa (46/14) Mono Tube Piggyback — 2026"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "12V 6Ah lithium (2024+)"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah (2020–2023)"
           }
         ]
       },

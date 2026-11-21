@@ -146,6 +146,16 @@
             "key": "note",
             "label": "Note",
             "value": "KTM 1290 Super Duke R EVO wet weight. KTM quotes 189 kg dry; confirm equipment against the owner's manual."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
           }
         ]
       },

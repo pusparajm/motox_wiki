@@ -22127,6 +22127,21 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/14) Mono Tube Piggyback — 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "12V 6Ah lithium (2024+)"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah (2020–2023)"
             }
           ]
         },
@@ -24234,6 +24249,16 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "Brembo 07HO52"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             }
           ]
         },
@@ -43848,6 +43873,21 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 118 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S (2011–2016)"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 7Ah (2017+)"
             }
           ]
         },
@@ -48895,6 +48935,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 116 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             }
           ]
         },
@@ -49224,6 +49274,21 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 118 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S (2014–2016)"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 7Ah (2017+)"
             }
           ]
         },
@@ -279561,6 +279626,16 @@
               "value": "NGK LMAR9AI-10"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 116 links"
@@ -282008,6 +282083,16 @@
               "key": "note",
               "label": "Note",
               "value": "KTM 1290 Super Duke R EVO wet weight. KTM quotes 189 kg dry; confirm equipment against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -282175,6 +282260,16 @@
               "key": "note",
               "label": "Note",
               "value": "Black colour variant of the 1290 Super Duke R. Wet weight shown; KTM quotes 189 kg dry."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },

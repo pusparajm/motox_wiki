@@ -750,6 +750,14 @@
       "rating": "12V 8.6Ah",
       "source": "manufacturer"
     },
+    "honda-africa-twin-crf1100l-2020-present-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah (2020–2023)",
+      "options": [
+        "12V 6Ah lithium (2024+)"
+      ],
+      "source": "manufacturer"
+    },
     "honda-atc-200-m-1984-1985-global": {
       "code": "YTX14AH-BS",
       "options": [
@@ -876,6 +884,11 @@
       "code": "YTZ10S",
       "rating": "12V 8.6Ah",
       "source": "guide"
+    },
+    "honda-cb750-hornet-2023-present-global": {
+      "code": "YTZ10S",
+      "rating": "12V 8.6Ah",
+      "source": "manufacturer"
     },
     "honda-cbr-250-r-abs-nissin-cal-2011-2013-global": {
       "code": "YTX7L-BS",
@@ -1969,12 +1982,30 @@
       "years": "2002-2005",
       "raw": "ZZR1200 '02-'05 GYZ16H YTX14H-BS YTX14-BS -"
     },
+    "ktm-125-duke-2011-present-global": {
+      "code": "YTZ8V",
+      "rating": "12V 7Ah (2017+)",
+      "options": [
+        "YTZ7S (2011–2016)"
+      ],
+      "source": "manufacturer"
+    },
     "ktm-1290-super-adventure-s-2021-present-global": {
       "code": "YTZ14S",
       "rating": "12V 11.2Ah",
       "source": "guide"
     },
     "ktm-1290-super-duke-gt-2016-present-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "guide"
+    },
+    "ktm-1290-super-duke-r-evo-2022-2022-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "guide"
+    },
+    "ktm-1290-superduke-r-black-2020-2020-global": {
       "code": "YTZ14S",
       "rating": "12V 11.2Ah",
       "source": "guide"
@@ -2043,6 +2074,11 @@
       "rating": "12V 8.6Ah",
       "source": "guide"
     },
+    "ktm-790-adventure-r-rally-2020-2020-global": {
+      "code": "YTZ10S",
+      "rating": "12V 8.6Ah",
+      "source": "guide"
+    },
     "ktm-790-duke-2018-2023-global": {
       "code": "YTZ10S",
       "rating": "12V 8.6Ah",
@@ -2054,6 +2090,11 @@
       "source": "guide"
     },
     "ktm-890-duke-r-2020-present-global": {
+      "code": "YTZ10S",
+      "rating": "12V 8.6Ah",
+      "source": "guide"
+    },
+    "ktm-890-smt-2023-present-global": {
       "code": "YTZ10S",
       "rating": "12V 8.6Ah",
       "source": "guide"
@@ -2072,6 +2113,14 @@
       "code": "YTX9-BS",
       "rating": "12V 8Ah",
       "source": "fitment"
+    },
+    "ktm-rc-125-2014-present-global": {
+      "code": "YTZ8V",
+      "rating": "12V 7Ah (2017+)",
+      "options": [
+        "YTZ7S (2014–2016)"
+      ],
+      "source": "manufacturer"
     },
     "ktm-rc-200-2014-present-global": {
       "code": "YTX9-BS",
