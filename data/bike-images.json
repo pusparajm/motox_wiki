@@ -2035,6 +2035,342 @@
           "800": "images/motorcycles/honda/cbr-1000-rr-r-sp-fireblade/cbr-1000-rr-r-sp-fireblade-c9c82cf3-800.jpg"
         }
       }
+    },
+    "yamaha-mt-03-2016": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/yamaha_mt03_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2020 Yamaha MT-03 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/mt-03/mt-03-39b6c2cc-400.avif",
+          "800": "images/motorcycles/yamaha/mt-03/mt-03-39b6c2cc-800.avif",
+          "1200": "images/motorcycles/yamaha/mt-03/mt-03-39b6c2cc-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/mt-03/mt-03-39b6c2cc-400.webp",
+          "800": "images/motorcycles/yamaha/mt-03/mt-03-39b6c2cc-800.webp",
+          "1200": "images/motorcycles/yamaha/mt-03/mt-03-39b6c2cc-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/mt-03/mt-03-39b6c2cc-400.jpg",
+          "800": "images/motorcycles/yamaha/mt-03/mt-03-39b6c2cc-800.jpg",
+          "1200": "images/motorcycles/yamaha/mt-03/mt-03-39b6c2cc-1200.jpg"
+        }
+      }
+    },
+    "yamaha-mt-07-2018": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/yamaha_mt%2007_18.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2018 Yamaha MT-07 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/mt-07/mt-07-be021832-400.avif",
+          "800": "images/motorcycles/yamaha/mt-07/mt-07-be021832-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/mt-07/mt-07-be021832-400.webp",
+          "800": "images/motorcycles/yamaha/mt-07/mt-07-be021832-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/mt-07/mt-07-be021832-400.jpg",
+          "800": "images/motorcycles/yamaha/mt-07/mt-07-be021832-800.jpg"
+        }
+      }
+    },
+    "yamaha-mt-09-2015-2018-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/yamaha_mt-09_15.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2015 Yamaha MT-09 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/mt-09/mt-09-98bd4205-400.avif",
+          "800": "images/motorcycles/yamaha/mt-09/mt-09-98bd4205-800.avif",
+          "1200": "images/motorcycles/yamaha/mt-09/mt-09-98bd4205-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/mt-09/mt-09-98bd4205-400.webp",
+          "800": "images/motorcycles/yamaha/mt-09/mt-09-98bd4205-800.webp",
+          "1200": "images/motorcycles/yamaha/mt-09/mt-09-98bd4205-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/mt-09/mt-09-98bd4205-400.jpg",
+          "800": "images/motorcycles/yamaha/mt-09/mt-09-98bd4205-800.jpg",
+          "1200": "images/motorcycles/yamaha/mt-09/mt-09-98bd4205-1200.jpg"
+        }
+      }
+    },
+    "yamaha-mt-10-2016-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/Yamaha_MT-10_16.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2016 Yamaha MT-10 / FZ-10 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/mt-10/mt-10-98d1e828-400.avif",
+          "800": "images/motorcycles/yamaha/mt-10/mt-10-98d1e828-800.avif",
+          "1200": "images/motorcycles/yamaha/mt-10/mt-10-98d1e828-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/mt-10/mt-10-98d1e828-400.webp",
+          "800": "images/motorcycles/yamaha/mt-10/mt-10-98d1e828-800.webp",
+          "1200": "images/motorcycles/yamaha/mt-10/mt-10-98d1e828-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/mt-10/mt-10-98d1e828-400.jpg",
+          "800": "images/motorcycles/yamaha/mt-10/mt-10-98d1e828-800.jpg",
+          "1200": "images/motorcycles/yamaha/mt-10/mt-10-98d1e828-1200.jpg"
+        }
+      }
+    },
+    "yamaha-xsr900-2022-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/yamaha_xsr900_22.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2022 Yamaha XSR 900 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/xsr900/xsr900-fd7749f2-400.avif",
+          "800": "images/motorcycles/yamaha/xsr900/xsr900-fd7749f2-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/xsr900/xsr900-fd7749f2-400.webp",
+          "800": "images/motorcycles/yamaha/xsr900/xsr900-fd7749f2-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/xsr900/xsr900-fd7749f2-400.jpg",
+          "800": "images/motorcycles/yamaha/xsr900/xsr900-fd7749f2-800.jpg"
+        }
+      }
+    },
+    "yamaha-560-tmax-tech-max-2020-2020-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/yamaha_tmax_560_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2020 Yamaha TMAX 560 / TMAX Tech MAX side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/560-tmax-tech-max/560-tmax-tech-max-5aec21cf-400.avif",
+          "800": "images/motorcycles/yamaha/560-tmax-tech-max/560-tmax-tech-max-5aec21cf-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/560-tmax-tech-max/560-tmax-tech-max-5aec21cf-400.webp",
+          "800": "images/motorcycles/yamaha/560-tmax-tech-max/560-tmax-tech-max-5aec21cf-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/560-tmax-tech-max/560-tmax-tech-max-5aec21cf-400.jpg",
+          "800": "images/motorcycles/yamaha/560-tmax-tech-max/560-tmax-tech-max-5aec21cf-800.jpg"
+        }
+      }
+    },
+    "yamaha-r3-2015-2018-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/Yamaha%20YZF-R3%2015.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2015 Yamaha YZF-R3 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3ac2f405-400.avif",
+          "800": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3ac2f405-800.avif",
+          "1200": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3ac2f405-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3ac2f405-400.webp",
+          "800": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3ac2f405-800.webp",
+          "1200": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3ac2f405-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3ac2f405-400.jpg",
+          "800": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3ac2f405-800.jpg",
+          "1200": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3ac2f405-1200.jpg"
+        }
+      }
+    },
+    "yamaha-r3-2019-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/Yamaha_YZF-R3_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2019 Yamaha YZF-R3 / ABS side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3af14606-400.avif",
+          "800": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3af14606-800.avif",
+          "1200": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3af14606-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3af14606-400.webp",
+          "800": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3af14606-800.webp",
+          "1200": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3af14606-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3af14606-400.jpg",
+          "800": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3af14606-800.jpg",
+          "1200": "images/motorcycles/yamaha/yzf-r3/yzf-r3-3af14606-1200.jpg"
+        }
+      }
+    },
+    "yamaha-yzf-r7-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/yamaha_r7_22.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2022 Yamaha YZF-R7 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/yzf-r7/yzf-r7-67a69447-400.avif",
+          "800": "images/motorcycles/yamaha/yzf-r7/yzf-r7-67a69447-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/yzf-r7/yzf-r7-67a69447-400.webp",
+          "800": "images/motorcycles/yamaha/yzf-r7/yzf-r7-67a69447-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/yzf-r7/yzf-r7-67a69447-400.jpg",
+          "800": "images/motorcycles/yamaha/yzf-r7/yzf-r7-67a69447-800.jpg"
+        }
+      }
+    },
+    "yamaha-tracer-9-gt-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/yamaha_tracer_9gt_21.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2021 Yamaha Tracer 9 GT side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/tracer-9-gt/tracer-9-gt-2e6ddffb-400.avif",
+          "800": "images/motorcycles/yamaha/tracer-9-gt/tracer-9-gt-2e6ddffb-800.avif",
+          "1200": "images/motorcycles/yamaha/tracer-9-gt/tracer-9-gt-2e6ddffb-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/tracer-9-gt/tracer-9-gt-2e6ddffb-400.webp",
+          "800": "images/motorcycles/yamaha/tracer-9-gt/tracer-9-gt-2e6ddffb-800.webp",
+          "1200": "images/motorcycles/yamaha/tracer-9-gt/tracer-9-gt-2e6ddffb-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/tracer-9-gt/tracer-9-gt-2e6ddffb-400.jpg",
+          "800": "images/motorcycles/yamaha/tracer-9-gt/tracer-9-gt-2e6ddffb-800.jpg",
+          "1200": "images/motorcycles/yamaha/tracer-9-gt/tracer-9-gt-2e6ddffb-1200.jpg"
+        }
+      }
+    },
+    "yamaha-xsr700-2016-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/Yamaha%20XSR700%2016.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2016 Yamaha XSR700 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/xsr700/xsr700-f56b21b7-400.avif",
+          "800": "images/motorcycles/yamaha/xsr700/xsr700-f56b21b7-800.avif",
+          "1200": "images/motorcycles/yamaha/xsr700/xsr700-f56b21b7-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/xsr700/xsr700-f56b21b7-400.webp",
+          "800": "images/motorcycles/yamaha/xsr700/xsr700-f56b21b7-800.webp",
+          "1200": "images/motorcycles/yamaha/xsr700/xsr700-f56b21b7-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/xsr700/xsr700-f56b21b7-400.jpg",
+          "800": "images/motorcycles/yamaha/xsr700/xsr700-f56b21b7-800.jpg",
+          "1200": "images/motorcycles/yamaha/xsr700/xsr700-f56b21b7-1200.jpg"
+        }
+      }
+    },
+    "yamaha-xmax-300-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/yamaha/yamaha_X-Max_300_17.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2017 Yamaha X-Max 300 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/yamaha/xmax-300/xmax-300-ae10ba98-400.avif",
+          "800": "images/motorcycles/yamaha/xmax-300/xmax-300-ae10ba98-800.avif",
+          "1200": "images/motorcycles/yamaha/xmax-300/xmax-300-ae10ba98-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/yamaha/xmax-300/xmax-300-ae10ba98-400.webp",
+          "800": "images/motorcycles/yamaha/xmax-300/xmax-300-ae10ba98-800.webp",
+          "1200": "images/motorcycles/yamaha/xmax-300/xmax-300-ae10ba98-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/yamaha/xmax-300/xmax-300-ae10ba98-400.jpg",
+          "800": "images/motorcycles/yamaha/xmax-300/xmax-300-ae10ba98-800.jpg",
+          "1200": "images/motorcycles/yamaha/xmax-300/xmax-300-ae10ba98-1200.jpg"
+        }
+      }
     }
   }
 }
