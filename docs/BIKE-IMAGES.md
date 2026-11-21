@@ -3,7 +3,7 @@
 ## Status
 
 Phase 1 is complete: the image pipeline, manifest, responsive markup, social metadata
-and image sitemap entries are in place. Four free-licence images are live as the pilot: Royal Enfield Himalayan 411, Honda CBR1000RR-R, Kawasaki Ninja 400 and Suzuki V-Strom 650.
+and image sitemap entries are in place. Five free-licence images are live as the pilot: Royal Enfield Himalayan 411, Honda CBR1000RR-R, Kawasaki Ninja 400, Suzuki V-Strom 650 and Kawasaki Ninja ZX-10R.
 
 All other models have no image until a licensed source is supplied. The pipeline does
 not scrape third-party pages and will not publish an image without an explicit licence
