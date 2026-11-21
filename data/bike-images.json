@@ -4628,6 +4628,345 @@
           "1200": "images/motorcycles/royal-enfield/classic-650/classic-650-b58f7259-1200.jpg"
         }
       }
+    },
+    "harley-davidson-fxbb-1750-street-bob-2018-2022-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_street_bob_18.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2018-2019 Harley Davidson Softail Street Bob side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/fxbb-1750-street-bob/fxbb-1750-street-bob-4b3becef-400.avif",
+          "800": "images/motorcycles/harley-davidson/fxbb-1750-street-bob/fxbb-1750-street-bob-4b3becef-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/fxbb-1750-street-bob/fxbb-1750-street-bob-4b3becef-400.webp",
+          "800": "images/motorcycles/harley-davidson/fxbb-1750-street-bob/fxbb-1750-street-bob-4b3becef-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/fxbb-1750-street-bob/fxbb-1750-street-bob-4b3becef-400.jpg",
+          "800": "images/motorcycles/harley-davidson/fxbb-1750-street-bob/fxbb-1750-street-bob-4b3becef-800.jpg"
+        }
+      }
+    },
+    "harley-davidson-fxbr-1750-breakout-2018-2019-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/Harley_Davidson_softail_Breakout_18.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley Davidson Softail Breakout 2018 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/fxbr-1750-breakout/fxbr-1750-breakout-56270138-400.avif",
+          "800": "images/motorcycles/harley-davidson/fxbr-1750-breakout/fxbr-1750-breakout-56270138-800.avif",
+          "1200": "images/motorcycles/harley-davidson/fxbr-1750-breakout/fxbr-1750-breakout-56270138-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/fxbr-1750-breakout/fxbr-1750-breakout-56270138-400.webp",
+          "800": "images/motorcycles/harley-davidson/fxbr-1750-breakout/fxbr-1750-breakout-56270138-800.webp",
+          "1200": "images/motorcycles/harley-davidson/fxbr-1750-breakout/fxbr-1750-breakout-56270138-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/fxbr-1750-breakout/fxbr-1750-breakout-56270138-400.jpg",
+          "800": "images/motorcycles/harley-davidson/fxbr-1750-breakout/fxbr-1750-breakout-56270138-800.jpg",
+          "1200": "images/motorcycles/harley-davidson/fxbr-1750-breakout/fxbr-1750-breakout-56270138-1200.jpg"
+        }
+      }
+    },
+    "harley-davidson-fltru-1750-road-glide-ultra-2017-2019-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_road_glide_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley Davidson FLTRU Road Glide Ultra 2017 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/fltru-1750-road-glide-ultra/fltru-1750-road-glide-ultra-9a3bcec3-400.avif",
+          "800": "images/motorcycles/harley-davidson/fltru-1750-road-glide-ultra/fltru-1750-road-glide-ultra-9a3bcec3-800.avif",
+          "1200": "images/motorcycles/harley-davidson/fltru-1750-road-glide-ultra/fltru-1750-road-glide-ultra-9a3bcec3-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/fltru-1750-road-glide-ultra/fltru-1750-road-glide-ultra-9a3bcec3-400.webp",
+          "800": "images/motorcycles/harley-davidson/fltru-1750-road-glide-ultra/fltru-1750-road-glide-ultra-9a3bcec3-800.webp",
+          "1200": "images/motorcycles/harley-davidson/fltru-1750-road-glide-ultra/fltru-1750-road-glide-ultra-9a3bcec3-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/fltru-1750-road-glide-ultra/fltru-1750-road-glide-ultra-9a3bcec3-400.jpg",
+          "800": "images/motorcycles/harley-davidson/fltru-1750-road-glide-ultra/fltru-1750-road-glide-ultra-9a3bcec3-800.jpg",
+          "1200": "images/motorcycles/harley-davidson/fltru-1750-road-glide-ultra/fltru-1750-road-glide-ultra-9a3bcec3-1200.jpg"
+        }
+      }
+    },
+    "aprilia-rsv4-rf-1000-2015-2020-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-rsv-4rf-15.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2015 Aprilia RSV4 RF side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rsv4-rf-1000/rsv4-rf-1000-3531acc0-400.avif",
+          "800": "images/motorcycles/aprilia/rsv4-rf-1000/rsv4-rf-1000-3531acc0-800.avif",
+          "1200": "images/motorcycles/aprilia/rsv4-rf-1000/rsv4-rf-1000-3531acc0-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rsv4-rf-1000/rsv4-rf-1000-3531acc0-400.webp",
+          "800": "images/motorcycles/aprilia/rsv4-rf-1000/rsv4-rf-1000-3531acc0-800.webp",
+          "1200": "images/motorcycles/aprilia/rsv4-rf-1000/rsv4-rf-1000-3531acc0-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rsv4-rf-1000/rsv4-rf-1000-3531acc0-400.jpg",
+          "800": "images/motorcycles/aprilia/rsv4-rf-1000/rsv4-rf-1000-3531acc0-800.jpg",
+          "1200": "images/motorcycles/aprilia/rsv4-rf-1000/rsv4-rf-1000-3531acc0-1200.jpg"
+        }
+      }
+    },
+    "aprilia-sl-750-shiver-abs-2007-2018-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-shiver-750-15.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2015 Aprilia SL 750 Shiver side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/sl-750-shiver-abs/sl-750-shiver-abs-db891da8-400.avif",
+          "800": "images/motorcycles/aprilia/sl-750-shiver-abs/sl-750-shiver-abs-db891da8-800.avif",
+          "1200": "images/motorcycles/aprilia/sl-750-shiver-abs/sl-750-shiver-abs-db891da8-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/sl-750-shiver-abs/sl-750-shiver-abs-db891da8-400.webp",
+          "800": "images/motorcycles/aprilia/sl-750-shiver-abs/sl-750-shiver-abs-db891da8-800.webp",
+          "1200": "images/motorcycles/aprilia/sl-750-shiver-abs/sl-750-shiver-abs-db891da8-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/sl-750-shiver-abs/sl-750-shiver-abs-db891da8-400.jpg",
+          "800": "images/motorcycles/aprilia/sl-750-shiver-abs/sl-750-shiver-abs-db891da8-800.jpg",
+          "1200": "images/motorcycles/aprilia/sl-750-shiver-abs/sl-750-shiver-abs-db891da8-1200.jpg"
+        }
+      }
+    },
+    "aprilia-smv-750-dorsoduro-2008-2018-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-sm-750-dorsoduro-15.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2015 Aprilia SMV 750 Dorsoduro side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/smv-750-dorsoduro/smv-750-dorsoduro-13c97829-400.avif",
+          "800": "images/motorcycles/aprilia/smv-750-dorsoduro/smv-750-dorsoduro-13c97829-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/smv-750-dorsoduro/smv-750-dorsoduro-13c97829-400.webp",
+          "800": "images/motorcycles/aprilia/smv-750-dorsoduro/smv-750-dorsoduro-13c97829-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/smv-750-dorsoduro/smv-750-dorsoduro-13c97829-400.jpg",
+          "800": "images/motorcycles/aprilia/smv-750-dorsoduro/smv-750-dorsoduro-13c97829-800.jpg"
+        }
+      }
+    },
+    "aprilia-sx-125-2018-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-sx-125-21.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2021 Aprilia SX 125 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/sx-125/sx-125-35f82cf3-400.avif",
+          "800": "images/motorcycles/aprilia/sx-125/sx-125-35f82cf3-800.avif",
+          "1200": "images/motorcycles/aprilia/sx-125/sx-125-35f82cf3-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/sx-125/sx-125-35f82cf3-400.webp",
+          "800": "images/motorcycles/aprilia/sx-125/sx-125-35f82cf3-800.webp",
+          "1200": "images/motorcycles/aprilia/sx-125/sx-125-35f82cf3-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/sx-125/sx-125-35f82cf3-400.jpg",
+          "800": "images/motorcycles/aprilia/sx-125/sx-125-35f82cf3-800.jpg",
+          "1200": "images/motorcycles/aprilia/sx-125/sx-125-35f82cf3-1200.jpg"
+        }
+      }
+    },
+    "aprilia-tuono-125-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-tuono-125-21.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2021 Aprilia Tuono 125 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/tuono-125/tuono-125-56d75c06-400.avif",
+          "800": "images/motorcycles/aprilia/tuono-125/tuono-125-56d75c06-800.avif",
+          "1200": "images/motorcycles/aprilia/tuono-125/tuono-125-56d75c06-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/tuono-125/tuono-125-56d75c06-400.webp",
+          "800": "images/motorcycles/aprilia/tuono-125/tuono-125-56d75c06-800.webp",
+          "1200": "images/motorcycles/aprilia/tuono-125/tuono-125-56d75c06-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/tuono-125/tuono-125-56d75c06-400.jpg",
+          "800": "images/motorcycles/aprilia/tuono-125/tuono-125-56d75c06-800.jpg",
+          "1200": "images/motorcycles/aprilia/tuono-125/tuono-125-56d75c06-1200.jpg"
+        }
+      }
+    },
+    "aprilia-rsv-1000-tuono-v4-r-2011-2014-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-tuono-v4r-12.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2012 Aprilia Tuono V4 R side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rsv-1000-tuono-v4-r/rsv-1000-tuono-v4-r-ed3ec7ed-400.avif",
+          "800": "images/motorcycles/aprilia/rsv-1000-tuono-v4-r/rsv-1000-tuono-v4-r-ed3ec7ed-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rsv-1000-tuono-v4-r/rsv-1000-tuono-v4-r-ed3ec7ed-400.webp",
+          "800": "images/motorcycles/aprilia/rsv-1000-tuono-v4-r/rsv-1000-tuono-v4-r-ed3ec7ed-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rsv-1000-tuono-v4-r/rsv-1000-tuono-v4-r-ed3ec7ed-400.jpg",
+          "800": "images/motorcycles/aprilia/rsv-1000-tuono-v4-r/rsv-1000-tuono-v4-r-ed3ec7ed-800.jpg"
+        }
+      }
+    },
+    "aprilia-rsv-1100-tuono-v4-rr-2015-2019-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-tuono-v4-1100rr-2015.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2015 Aprilia Tuono V4 1100 4RR side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rsv-1100-tuono-v4-rr/rsv-1100-tuono-v4-rr-139e77de-400.avif",
+          "800": "images/motorcycles/aprilia/rsv-1100-tuono-v4-rr/rsv-1100-tuono-v4-rr-139e77de-800.avif",
+          "1200": "images/motorcycles/aprilia/rsv-1100-tuono-v4-rr/rsv-1100-tuono-v4-rr-139e77de-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rsv-1100-tuono-v4-rr/rsv-1100-tuono-v4-rr-139e77de-400.webp",
+          "800": "images/motorcycles/aprilia/rsv-1100-tuono-v4-rr/rsv-1100-tuono-v4-rr-139e77de-800.webp",
+          "1200": "images/motorcycles/aprilia/rsv-1100-tuono-v4-rr/rsv-1100-tuono-v4-rr-139e77de-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rsv-1100-tuono-v4-rr/rsv-1100-tuono-v4-rr-139e77de-400.jpg",
+          "800": "images/motorcycles/aprilia/rsv-1100-tuono-v4-rr/rsv-1100-tuono-v4-rr-139e77de-800.jpg",
+          "1200": "images/motorcycles/aprilia/rsv-1100-tuono-v4-rr/rsv-1100-tuono-v4-rr-139e77de-1200.jpg"
+        }
+      }
+    },
+    "aprilia-rsv-1100-tuono-v4-factory-2015-2018-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/aprilia/aprilia-tuono-v4-1100-factory-2015.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2015 Aprilia Tuono V4 1100 RR Factory side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/aprilia/rsv-1100-tuono-v4-factory/rsv-1100-tuono-v4-factory-fa63020f-400.avif",
+          "800": "images/motorcycles/aprilia/rsv-1100-tuono-v4-factory/rsv-1100-tuono-v4-factory-fa63020f-800.avif",
+          "1200": "images/motorcycles/aprilia/rsv-1100-tuono-v4-factory/rsv-1100-tuono-v4-factory-fa63020f-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/aprilia/rsv-1100-tuono-v4-factory/rsv-1100-tuono-v4-factory-fa63020f-400.webp",
+          "800": "images/motorcycles/aprilia/rsv-1100-tuono-v4-factory/rsv-1100-tuono-v4-factory-fa63020f-800.webp",
+          "1200": "images/motorcycles/aprilia/rsv-1100-tuono-v4-factory/rsv-1100-tuono-v4-factory-fa63020f-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/aprilia/rsv-1100-tuono-v4-factory/rsv-1100-tuono-v4-factory-fa63020f-400.jpg",
+          "800": "images/motorcycles/aprilia/rsv-1100-tuono-v4-factory/rsv-1100-tuono-v4-factory-fa63020f-800.jpg",
+          "1200": "images/motorcycles/aprilia/rsv-1100-tuono-v4-factory/rsv-1100-tuono-v4-factory-fa63020f-1200.jpg"
+        }
+      }
+    },
+    "harley-davidson-fxdf-1690-dyna-wide-glide-2012-2017-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/h-d/harley_davidson_fxdwg%20dyna%2016.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Harley Davidson FXDWG Dyna Wide Glide side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/harley-davidson/fxdf-1690-dyna-wide-glide/fxdf-1690-dyna-wide-glide-93bbad2e-400.avif",
+          "800": "images/motorcycles/harley-davidson/fxdf-1690-dyna-wide-glide/fxdf-1690-dyna-wide-glide-93bbad2e-800.avif",
+          "1200": "images/motorcycles/harley-davidson/fxdf-1690-dyna-wide-glide/fxdf-1690-dyna-wide-glide-93bbad2e-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/harley-davidson/fxdf-1690-dyna-wide-glide/fxdf-1690-dyna-wide-glide-93bbad2e-400.webp",
+          "800": "images/motorcycles/harley-davidson/fxdf-1690-dyna-wide-glide/fxdf-1690-dyna-wide-glide-93bbad2e-800.webp",
+          "1200": "images/motorcycles/harley-davidson/fxdf-1690-dyna-wide-glide/fxdf-1690-dyna-wide-glide-93bbad2e-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/harley-davidson/fxdf-1690-dyna-wide-glide/fxdf-1690-dyna-wide-glide-93bbad2e-400.jpg",
+          "800": "images/motorcycles/harley-davidson/fxdf-1690-dyna-wide-glide/fxdf-1690-dyna-wide-glide-93bbad2e-800.jpg",
+          "1200": "images/motorcycles/harley-davidson/fxdf-1690-dyna-wide-glide/fxdf-1690-dyna-wide-glide-93bbad2e-1200.jpg"
+        }
+      }
     }
   }
 }

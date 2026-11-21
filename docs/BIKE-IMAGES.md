@@ -3,9 +3,9 @@
 ## Status
 
 Phase 1 is complete: the image pipeline, manifest, responsive markup, social metadata
-and image sitemap entries are in place. One hundred and seventy-two approved images are live:
+and image sitemap entries are in place. One hundred and eighty-four approved images are live:
 61 from BikeDekho across current Aprilia, Bajaj, BMW, BSA, CFMOTO, Ducati,
-Harley-Davidson, Hero, Honda, Indian, Kawasaki and Royal Enfield models, plus 111 from
+Harley-Davidson, Hero, Honda, Indian, Kawasaki and Royal Enfield models, plus 123 from
 MotorcycleSpecs covering older Honda, Yamaha, Suzuki, Kawasaki, Ducati, BMW, KTM,
 Triumph, Royal Enfield, Harley-Davidson and Aprilia generations, plus the 2016–2020
 Kawasaki Ninja ZX-10R. More batches are being added as model matches are verified.
