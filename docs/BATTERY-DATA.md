@@ -21,7 +21,7 @@ Public pages do not name or cite these sources. The battery code and rating are 
 
 `data/battery-fitment.json` contains the verified entries. `scripts/apply-battery-fitment.py` merges them into each model's Service Data section.
 
-Current coverage: 586 models — 538 with a verified code and 48 with a verified rating only. Coverage is deliberately partial. The application guides are US-market focused and do not cover every Indian, Chinese, electric or older model. Missing entries are not guessed. Add new entries only when the model, year and code are verified.
+Current coverage: 591 models — 543 with a verified code and 48 with a verified rating only. Coverage is deliberately partial. The application guides are US-market focused and do not cover every Indian, Chinese, electric or older model. Missing entries are not guessed. Add new entries only when the model, year and code are verified.
 
 ## Recent additions
 
@@ -40,6 +40,7 @@ Current coverage: 586 models — 538 with a verified code and 48 with a verified
 - Honda CB750 Hornet and Africa Twin CRF1100L; KTM 125 Duke/RC 125, 790 Adventure R Rally, 890 SMT and 1290 Super Duke R EVO/Black.
 - CFMOTO 250SR/300SR; Voge 500 R/AC 500/ACX 500; Benda LFS 700; Honda CBR1000RR-R (2020–2023 and 2024–Present).
 - CFMOTO 700CL-X Heritage/Sport and 800MT Sport/Touring; Husqvarna Norden 901, 701 Supermoto/Svartpilen and Vitpilen 401; Benelli TNT 135 and 302R/BN 302 R/S; Royal Enfield 535 Continental GT and 500 Classic/Bullet.
+- Husqvarna 701 Enduro LR, FE 701 Enduro and SM 701 Supermoto; Benelli TNT 125 and TNT 600i.
 
 ## Fields
 

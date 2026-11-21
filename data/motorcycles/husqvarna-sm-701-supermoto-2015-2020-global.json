@@ -136,6 +136,16 @@
             "key": "note",
             "label": "Note",
             "value": "Specifications are shared with the Husqvarna 701 Supermoto. Variant-specific equipment may differ; confirm against the owner's manual."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8.6Ah"
           }
         ]
       },

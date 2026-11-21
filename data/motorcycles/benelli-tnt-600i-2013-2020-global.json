@@ -111,6 +111,16 @@
             "value": "NGK CR9E"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah"
+          },
+          {
             "key": "service_interval",
             "label": "Service Interval",
             "value": "Oil change every 5,000 km (first at 500–1,000 km)"

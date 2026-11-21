@@ -4505,6 +4505,16 @@
               "value": "NGK CR9E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
+            },
+            {
               "key": "service_interval",
               "label": "Service Interval",
               "value": "Oil change every 5,000 km (first at 500–1,000 km)"
@@ -86063,6 +86073,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7A-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah"
             }
           ]
         },
@@ -231363,6 +231383,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             }
           ]
         },
@@ -231783,6 +231813,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             }
           ]
         },
@@ -231935,6 +231975,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications are shared with the Husqvarna 701 Supermoto. Variant-specific equipment may differ; confirm against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             }
           ]
         },

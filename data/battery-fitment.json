@@ -151,10 +151,20 @@
       "rating": "12V 11Ah",
       "source": "manufacturer"
     },
+    "benelli-tnt-125-2017-2019-global": {
+      "code": "YTX7A-BS",
+      "rating": "12V 6Ah",
+      "source": "fitment"
+    },
     "benelli-tnt-135-2018-2019-global": {
       "code": "YTX7A-BS",
       "rating": "12V 6Ah",
       "source": "guide"
+    },
+    "benelli-tnt-600i-2013-2020-global": {
+      "code": "YTX9-BS",
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
     },
     "benelli-trk-502-2017-present-global": {
       "code": "YTX9-BS",
@@ -1587,6 +1597,11 @@
       "years": "1993-2018",
       "raw": "XR650L ’93-’18 – – YTX9-BS –"
     },
+    "husqvarna-701-enduro-lr-2020-2020-global": {
+      "code": "YTZ10S",
+      "rating": "12V 8.6Ah",
+      "source": "manufacturer"
+    },
     "husqvarna-701-supermoto-2016-present-global": {
       "code": "YTZ10S",
       "rating": "12V 8.6Ah",
@@ -1602,9 +1617,19 @@
       "years": "2018-2021",
       "raw": "701Vitpilen,Svartpilen '18-'21 - YTZ10S - -"
     },
+    "husqvarna-fe-701-enduro-2017-2020-global": {
+      "code": "YTZ10S",
+      "rating": "12V 8.6Ah",
+      "source": "manufacturer"
+    },
     "husqvarna-norden-901-2022-present-global": {
       "code": "HTZ12A-BS",
       "rating": "12V 10Ah",
+      "source": "manufacturer"
+    },
+    "husqvarna-sm-701-supermoto-2015-2020-global": {
+      "code": "YTZ10S",
+      "rating": "12V 8.6Ah",
       "source": "manufacturer"
     },
     "husqvarna-svartpilen-401-2020-present-global": {
