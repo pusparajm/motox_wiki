@@ -2371,6 +2371,362 @@
           "1200": "images/motorcycles/yamaha/xmax-300/xmax-300-ae10ba98-1200.jpg"
         }
       }
+    },
+    "suzuki-gsx-r1000-2001-2002-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_gsxr1000%2001.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2001 Suzuki GSX-R 1000 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-2b871710-400.avif",
+          "800": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-2b871710-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-2b871710-400.webp",
+          "800": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-2b871710-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-2b871710-400.jpg",
+          "800": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-2b871710-800.jpg"
+        }
+      }
+    },
+    "suzuki-gsx-r1000-2005-2006-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_gsxr1000%2005.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2005 Suzuki GSX-R 1000 K5 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-e06455bb-400.avif",
+          "800": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-e06455bb-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-e06455bb-400.webp",
+          "800": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-e06455bb-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-e06455bb-400.jpg",
+          "800": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-e06455bb-800.jpg"
+        }
+      }
+    },
+    "suzuki-gsx-r1000-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/Suzuki_GSX-R_1000_17.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2017 Suzuki GSX-R 1000 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-20c0447d-400.avif",
+          "800": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-20c0447d-800.avif",
+          "1200": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-20c0447d-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-20c0447d-400.webp",
+          "800": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-20c0447d-800.webp",
+          "1200": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-20c0447d-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-20c0447d-400.jpg",
+          "800": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-20c0447d-800.jpg",
+          "1200": "images/motorcycles/suzuki/gsx-r1000/gsx-r1000-20c0447d-1200.jpg"
+        }
+      }
+    },
+    "suzuki-gsx-r600-2011-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_gsxR600%2011.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2011 Suzuki GSX-R600 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/gsx-r600/gsx-r600-5cf7039e-400.avif",
+          "800": "images/motorcycles/suzuki/gsx-r600/gsx-r600-5cf7039e-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/gsx-r600/gsx-r600-5cf7039e-400.webp",
+          "800": "images/motorcycles/suzuki/gsx-r600/gsx-r600-5cf7039e-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/gsx-r600/gsx-r600-5cf7039e-400.jpg",
+          "800": "images/motorcycles/suzuki/gsx-r600/gsx-r600-5cf7039e-800.jpg"
+        }
+      }
+    },
+    "suzuki-gsx-r750-2011-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_gsxr750%2011.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2011 Suzuki GSX-R 750 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/gsx-r750/gsx-r750-b3427cec-400.avif",
+          "800": "images/motorcycles/suzuki/gsx-r750/gsx-r750-b3427cec-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/gsx-r750/gsx-r750-b3427cec-400.webp",
+          "800": "images/motorcycles/suzuki/gsx-r750/gsx-r750-b3427cec-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/gsx-r750/gsx-r750-b3427cec-400.jpg",
+          "800": "images/motorcycles/suzuki/gsx-r750/gsx-r750-b3427cec-800.jpg"
+        }
+      }
+    },
+    "suzuki-gsx-r125-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_gsxr125%2017.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2017 - 2018 Suzuki GSX-R 125 side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/gsx-r125/gsx-r125-4ab58a7a-400.avif",
+          "800": "images/motorcycles/suzuki/gsx-r125/gsx-r125-4ab58a7a-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/gsx-r125/gsx-r125-4ab58a7a-400.webp",
+          "800": "images/motorcycles/suzuki/gsx-r125/gsx-r125-4ab58a7a-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/gsx-r125/gsx-r125-4ab58a7a-400.jpg",
+          "800": "images/motorcycles/suzuki/gsx-r125/gsx-r125-4ab58a7a-800.jpg"
+        }
+      }
+    },
+    "suzuki-gsx-s1000-2021-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_gsx-s1000_21.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2021 Suzuki GSX-S 1000 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/gsx-s1000/gsx-s1000-a950621d-400.avif",
+          "800": "images/motorcycles/suzuki/gsx-s1000/gsx-s1000-a950621d-800.avif",
+          "1200": "images/motorcycles/suzuki/gsx-s1000/gsx-s1000-a950621d-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/gsx-s1000/gsx-s1000-a950621d-400.webp",
+          "800": "images/motorcycles/suzuki/gsx-s1000/gsx-s1000-a950621d-800.webp",
+          "1200": "images/motorcycles/suzuki/gsx-s1000/gsx-s1000-a950621d-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/gsx-s1000/gsx-s1000-a950621d-400.jpg",
+          "800": "images/motorcycles/suzuki/gsx-s1000/gsx-s1000-a950621d-800.jpg",
+          "1200": "images/motorcycles/suzuki/gsx-s1000/gsx-s1000-a950621d-1200.jpg"
+        }
+      }
+    },
+    "suzuki-gsx-s750-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_gsx-s750_18.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2018 Suzuki GSX-S 750 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/gsx-s750/gsx-s750-7c9561be-400.avif",
+          "800": "images/motorcycles/suzuki/gsx-s750/gsx-s750-7c9561be-800.avif",
+          "1200": "images/motorcycles/suzuki/gsx-s750/gsx-s750-7c9561be-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/gsx-s750/gsx-s750-7c9561be-400.webp",
+          "800": "images/motorcycles/suzuki/gsx-s750/gsx-s750-7c9561be-800.webp",
+          "1200": "images/motorcycles/suzuki/gsx-s750/gsx-s750-7c9561be-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/gsx-s750/gsx-s750-7c9561be-400.jpg",
+          "800": "images/motorcycles/suzuki/gsx-s750/gsx-s750-7c9561be-800.jpg",
+          "1200": "images/motorcycles/suzuki/gsx-s750/gsx-s750-7c9561be-1200.jpg"
+        }
+      }
+    },
+    "suzuki-katana-2019-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/Suzuki_Katana_19.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2019 Suzuki Katana side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/katana/katana-497d681c-400.avif",
+          "800": "images/motorcycles/suzuki/katana/katana-497d681c-800.avif",
+          "1200": "images/motorcycles/suzuki/katana/katana-497d681c-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/katana/katana-497d681c-400.webp",
+          "800": "images/motorcycles/suzuki/katana/katana-497d681c-800.webp",
+          "1200": "images/motorcycles/suzuki/katana/katana-497d681c-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/katana/katana-497d681c-400.jpg",
+          "800": "images/motorcycles/suzuki/katana/katana-497d681c-800.jpg",
+          "1200": "images/motorcycles/suzuki/katana/katana-497d681c-1200.jpg"
+        }
+      }
+    },
+    "suzuki-gsx1300r-2008-2020": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_gsxr1300r%2008.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2008 Suzuki GSX 1300R Hayabusa side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/gsx1300r/gsx1300r-e4e80e64-400.avif",
+          "800": "images/motorcycles/suzuki/gsx1300r/gsx1300r-e4e80e64-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/gsx1300r/gsx1300r-e4e80e64-400.webp",
+          "800": "images/motorcycles/suzuki/gsx1300r/gsx1300r-e4e80e64-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/gsx1300r/gsx1300r-e4e80e64-400.jpg",
+          "800": "images/motorcycles/suzuki/gsx1300r/gsx1300r-e4e80e64-800.jpg"
+        }
+      }
+    },
+    "suzuki-gsx1300r-2021-present": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_gsxr1300r_21.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "2021 Suzuki GSX 1300R Hayabusa side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/gsx1300r/gsx1300r-86d3c17e-400.avif",
+          "800": "images/motorcycles/suzuki/gsx1300r/gsx1300r-86d3c17e-800.avif",
+          "1200": "images/motorcycles/suzuki/gsx1300r/gsx1300r-86d3c17e-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/gsx1300r/gsx1300r-86d3c17e-400.webp",
+          "800": "images/motorcycles/suzuki/gsx1300r/gsx1300r-86d3c17e-800.webp",
+          "1200": "images/motorcycles/suzuki/gsx1300r/gsx1300r-86d3c17e-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/gsx1300r/gsx1300r-86d3c17e-400.jpg",
+          "800": "images/motorcycles/suzuki/gsx1300r/gsx1300r-86d3c17e-800.jpg",
+          "1200": "images/motorcycles/suzuki/gsx1300r/gsx1300r-86d3c17e-1200.jpg"
+        }
+      }
+    },
+    "suzuki-v-strom-1050-2020-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_V-Strom_1050_20.html",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Suzuki V-Strom 1050 2020 side view",
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/v-strom-1050/v-strom-1050-00d76fcf-400.avif",
+          "800": "images/motorcycles/suzuki/v-strom-1050/v-strom-1050-00d76fcf-800.avif",
+          "1200": "images/motorcycles/suzuki/v-strom-1050/v-strom-1050-00d76fcf-1200.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/v-strom-1050/v-strom-1050-00d76fcf-400.webp",
+          "800": "images/motorcycles/suzuki/v-strom-1050/v-strom-1050-00d76fcf-800.webp",
+          "1200": "images/motorcycles/suzuki/v-strom-1050/v-strom-1050-00d76fcf-1200.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/v-strom-1050/v-strom-1050-00d76fcf-400.jpg",
+          "800": "images/motorcycles/suzuki/v-strom-1050/v-strom-1050-00d76fcf-800.jpg",
+          "1200": "images/motorcycles/suzuki/v-strom-1050/v-strom-1050-00d76fcf-1200.jpg"
+        }
+      }
+    },
+    "suzuki-burgman-400-2017-present-global": {
+      "source": "approved",
+      "sourcePage": "https://www.motorcyclespecs.co.za/model/suzu/suzuki_burgman%20400_18.htm",
+      "license": "Written permission — MotorcycleSpecs",
+      "licenseUrl": "",
+      "permissionReference": "Owner-supplied written permission email, 2026-11-22 (on file)",
+      "credit": "",
+      "creditRequired": false,
+      "alt": "Suzuki AN 400 Burgman side view",
+      "width": 800,
+      "height": 533,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/suzuki/burgman-400/burgman-400-00e83aa8-400.avif",
+          "800": "images/motorcycles/suzuki/burgman-400/burgman-400-00e83aa8-800.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/suzuki/burgman-400/burgman-400-00e83aa8-400.webp",
+          "800": "images/motorcycles/suzuki/burgman-400/burgman-400-00e83aa8-800.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/suzuki/burgman-400/burgman-400-00e83aa8-400.jpg",
+          "800": "images/motorcycles/suzuki/burgman-400/burgman-400-00e83aa8-800.jpg"
+        }
+      }
     }
   }
 }

@@ -3,12 +3,13 @@
 ## Status
 
 Phase 1 is complete: the image pipeline, manifest, responsive markup, social metadata
-and image sitemap entries are in place. Eighty-nine approved images are live:
+and image sitemap entries are in place. One hundred and two approved images are live:
 61 from BikeDekho across current Aprilia, Bajaj, BMW, BSA, CFMOTO, Ducati,
-Harley-Davidson, Hero, Honda, Indian, Kawasaki and Royal Enfield models, plus 28 from
+Harley-Davidson, Hero, Honda, Indian, Kawasaki and Royal Enfield models, plus 41 from
 MotorcycleSpecs covering older Honda CBR, CB and Africa Twin generations, current
-Yamaha MT, XSR, TMAX, XMAX, Tracer and YZF-R models, and the 2016–2020 Kawasaki
-Ninja ZX-10R. More batches are being added as model matches are verified.
+Yamaha MT, XSR, TMAX, XMAX, Tracer and YZF-R models, current Suzuki GSX-R, GSX-S,
+Katana, Hayabusa, V-Strom and Burgman models, and the 2016–2020 Kawasaki Ninja ZX-10R.
+More batches are being added as model matches are verified.
 
 Where the licence or written permission does not require public credit, no credit line
 is rendered. Source, licence and permission details remain in the manifest for audit.
