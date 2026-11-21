@@ -5049,6 +5049,11 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "EBC FA266 · SBS 730LS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             }
           ]
         },
@@ -21910,6 +21915,16 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 193MS"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             }
           ]
         },
@@ -23790,6 +23805,11 @@
               "key": "battery",
               "label": "Battery",
               "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             },
             {
               "key": "front_brake_pads",
@@ -26630,6 +26650,16 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             }
           ]
         },
@@ -27926,6 +27956,11 @@
               "value": "NGK LMAR8L-9"
             },
             {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 9.1Ah"
+            },
+            {
               "key": "transmission_oil",
               "label": "Transmission Oil",
               "value": "0.17 L"
@@ -28116,6 +28151,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 114 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11Ah"
             }
           ]
         },
@@ -28479,6 +28524,16 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ5S-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 3.5Ah"
             }
           ]
         },
@@ -28646,6 +28701,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CPR6EA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ5S-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 3.7Ah"
             },
             {
               "key": "front_brake_pads",
@@ -29202,6 +29267,16 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 7Ah"
             }
           ]
         },
@@ -30231,6 +30306,16 @@
               "value": "NGK CPR6EA-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ5S-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 3.5Ah"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA691 · SBS 925 · Vesrah VD-186"
@@ -30401,6 +30486,16 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MA"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ5S-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 3.5Ah"
             }
           ]
         },
@@ -30608,6 +30703,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (40/14) Mono Tube (Dividing Piston) — 2020"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11Ah"
             }
           ]
         },
@@ -85600,6 +85705,11 @@
               "key": "note",
               "label": "Note",
               "value": "Benelli BKX 125 specifications are recorded. Dry weight is quoted; wet weight is not published. Confirm model-year equipment against the owner's manual."
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -378582,6 +378692,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the 471 cc 500 DS. Confirm model-year equipment against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 10Ah"
             }
           ]
         },
@@ -378704,6 +378824,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the 471 cc 500 DSX. Confirm model-year equipment and seat height against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 10Ah"
             }
           ]
         },

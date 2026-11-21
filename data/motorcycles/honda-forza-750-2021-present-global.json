@@ -114,6 +114,16 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 114 links"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ12S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11Ah"
           }
         ]
       },

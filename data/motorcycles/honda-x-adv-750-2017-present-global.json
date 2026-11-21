@@ -154,6 +154,16 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "Showa (40/14) Mono Tube (Dividing Piston) — 2020"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ12S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11Ah"
           }
         ]
       },

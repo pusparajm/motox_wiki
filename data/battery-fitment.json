@@ -112,6 +112,10 @@
       "rating": "12V 11Ah",
       "source": "manufacturer"
     },
+    "benelli-bkx-125-2023-2023-global": {
+      "rating": "12V 11.2Ah",
+      "source": "manufacturer"
+    },
     "benelli-imperiale-400-2019-present-global": {
       "code": "YTX9-BS",
       "rating": "12V 8Ah",
@@ -140,6 +144,10 @@
     "benelli-trk-702-2023-present-global": {
       "code": "YTZ14S",
       "rating": "12V 11.2Ah",
+      "source": "manufacturer"
+    },
+    "benelli-trk-800-2021-present-global": {
+      "rating": "12V 8.6Ah",
       "source": "manufacturer"
     },
     "bmw-c-600-sport-2012-2015-global": {
@@ -737,6 +745,11 @@
       "years": "2024-2024",
       "raw": "160 ADV160ABS '24-'24 - YTZ8V - -"
     },
+    "honda-adv-350-2022-present-global": {
+      "code": "YTZ10S",
+      "rating": "12V 8.6Ah",
+      "source": "manufacturer"
+    },
     "honda-atc-200-m-1984-1985-global": {
       "code": "YTX14AH-BS",
       "options": [
@@ -856,8 +869,8 @@
     },
     "honda-cb650f-2017-2018": {
       "code": "YTZ10S",
-      "years": "2018-2018",
-      "raw": "CB650F,FA '18 - YTZ10S - -"
+      "rating": "12V 8.6Ah",
+      "source": "guide"
     },
     "honda-cb650r-2019-present-global": {
       "code": "YTZ10S",
@@ -955,6 +968,11 @@
       "code": "YTZ10S",
       "years": "2014-2020",
       "raw": "CBR650F,RA '14-'20 - YTZ10S - -"
+    },
+    "honda-cbr650r-2019-2020": {
+      "code": "YTZ10S",
+      "rating": "12V 8.6Ah",
+      "source": "guide"
     },
     "honda-cbr650r-2021-2023-global": {
       "code": "YTZ10S",
@@ -1138,6 +1156,15 @@
       "years": "1989-1990",
       "raw": "400 FL400RPilot '89-'90 GYZ16H YTX14H-BS YTX14-BS -"
     },
+    "honda-forza-350-2021-present-global": {
+      "rating": "12V 9.1Ah",
+      "source": "manufacturer"
+    },
+    "honda-forza-750-2021-present-global": {
+      "code": "YTZ12S",
+      "rating": "12V 11Ah",
+      "source": "manufacturer"
+    },
     "honda-fsc-600-silverwing-2001-2018-global": {
       "code": "YTZ12S",
       "years": "2002-2015",
@@ -1185,6 +1212,16 @@
       "code": "GYZ20L",
       "rating": "12V 20Ah",
       "source": "guide"
+    },
+    "honda-grom-2021-present-global": {
+      "code": "YTZ5S-BS",
+      "rating": "12V 3.5Ah",
+      "source": "guide"
+    },
+    "honda-monkey-125-2018-present-global": {
+      "code": "YTZ5S-BS",
+      "rating": "12V 3.7Ah",
+      "source": "manufacturer"
     },
     "honda-msx-125-grom-2014-2023-global": {
       "code": "YTX4L-BS",
@@ -1261,6 +1298,11 @@
       "years": "2015-2019",
       "raw": "PCX150 '15-'19 - YTZ8V - -"
     },
+    "honda-pcx125-2021-present-global": {
+      "code": "YTZ8V",
+      "rating": "12V 7Ah",
+      "source": "manufacturer"
+    },
     "honda-rebel-1100-2021-present-global": {
       "code": "YTZ14S",
       "rating": "12V 11.2Ah",
@@ -1304,6 +1346,16 @@
       "code": "YTZ14S",
       "years": "2003-2012",
       "raw": "ST1300,A,P '03-'12 - YTZ14S - -"
+    },
+    "honda-super-cub-c125-2018-present-global": {
+      "code": "YTZ5S-BS",
+      "rating": "12V 3.5Ah",
+      "source": "manufacturer"
+    },
+    "honda-trail-125-2020-present-global": {
+      "code": "YTZ5S-BS",
+      "rating": "12V 3.5Ah",
+      "source": "guide"
     },
     "honda-vf-1000-r-1984-1987-global": {
       "code": "YB16B-A",
@@ -1395,6 +1447,11 @@
       ],
       "years": "2003-2012",
       "raw": "VTX1300C,R,S,Retro '03-'12 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "honda-x-adv-750-2017-present-global": {
+      "code": "YTZ12S",
+      "rating": "12V 11Ah",
+      "source": "guide"
     },
     "honda-xl-125-s-1979-1984-global": {
       "code": "6N4-2A-4",
@@ -2600,6 +2657,16 @@
     "voge-900dsx-2023-present-global": {
       "rating": "12V 12Ah lithium",
       "source": "manufacturer"
+    },
+    "voge-ds-500-2023-2023-global": {
+      "code": "YT12A-BS",
+      "rating": "12V 10Ah",
+      "source": "fitment"
+    },
+    "voge-dsx-500-2023-2023-global": {
+      "code": "YT12A-BS",
+      "rating": "12V 10Ah",
+      "source": "fitment"
     },
     "yamaha-aerox-155-2021-present-global": {
       "code": "YTZ7V",

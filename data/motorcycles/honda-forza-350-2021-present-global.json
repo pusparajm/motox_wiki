@@ -116,6 +116,11 @@
             "value": "NGK LMAR8L-9"
           },
           {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 9.1Ah"
+          },
+          {
             "key": "transmission_oil",
             "label": "Transmission Oil",
             "value": "0.17 L"

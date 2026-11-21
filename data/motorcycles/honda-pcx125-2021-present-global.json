@@ -119,6 +119,16 @@
             "key": "parts_note",
             "label": "Parts & Fitment Note",
             "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ8V"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 7Ah"
           }
         ]
       },

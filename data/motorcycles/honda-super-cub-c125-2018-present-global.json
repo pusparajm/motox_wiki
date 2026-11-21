@@ -111,6 +111,16 @@
             "value": "NGK CPR6EA-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ5S-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 3.5Ah"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA691 · SBS 925 · Vesrah VD-186"

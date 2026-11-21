@@ -104,6 +104,16 @@
             "key": "oil_grade",
             "label": "Oil Grade",
             "value": "SAE 10W-30, JASO MA"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ5S-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 3.5Ah"
           }
         ]
       },

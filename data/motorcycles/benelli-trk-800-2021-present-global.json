@@ -119,6 +119,11 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "EBC FA266 · SBS 730LS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8.6Ah"
           }
         ]
       },

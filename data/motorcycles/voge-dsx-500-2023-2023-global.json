@@ -106,6 +106,16 @@
             "key": "note",
             "label": "Note",
             "value": "Specifications describe the 471 cc 500 DSX. Confirm model-year equipment and seat height against the owner's manual."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YT12A-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 10Ah"
           }
         ]
       },
