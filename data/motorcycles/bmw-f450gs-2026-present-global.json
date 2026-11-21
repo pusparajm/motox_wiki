@@ -99,6 +99,11 @@
             "key": "note",
             "label": "Note",
             "value": "Service data for this new model is still being compiled. Use the owner’s manual supplied with the bike for oil capacity, fluid grades and service intervals."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
           }
         ]
       },

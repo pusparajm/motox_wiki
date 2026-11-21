@@ -119,6 +119,11 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "SBS 675LS"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
           }
         ]
       },

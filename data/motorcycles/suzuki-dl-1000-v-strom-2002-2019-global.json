@@ -80,6 +80,16 @@
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
             "value": "41.00/43.00 mm — 2013"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX14-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "GYZ16H, YTX14H-BS"
           }
         ]
       },

@@ -116,6 +116,11 @@
             "value": "NGK MR8E-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YT12A-BS"
+          },
+          {
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "EBC FA496 · SBS 881 · Vesrah VD-147/2"

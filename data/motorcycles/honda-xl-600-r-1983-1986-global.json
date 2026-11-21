@@ -65,6 +65,11 @@
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
             "value": "39.00 × 53.00 × 5.60/15.00 mm (SHOWA) — 1986"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YB3L-A"
           }
         ]
       },

@@ -80,6 +80,11 @@
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
             "value": "41.00/43.00 mm — 1994–1995"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YB12AL-A2"
           }
         ]
       },

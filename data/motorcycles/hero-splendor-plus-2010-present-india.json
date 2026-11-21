@@ -114,6 +114,16 @@
             "key": "note",
             "label": "Note",
             "value": "Earlier and XTEC editions use different sump capacities; confirm against the dipstick."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "ETZ4"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 3Ah"
           }
         ]
       },

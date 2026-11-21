@@ -85,6 +85,16 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "Showa (40/14) Mono Tube (Emulsion) — 2015"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX7L-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "YTZ8V"
           }
         ]
       },

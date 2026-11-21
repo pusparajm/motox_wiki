@@ -116,6 +116,11 @@
             "value": "NGK CR9E"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX12-BS"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA188 · SBS 686 · Brembo 07SU19 · Vesrah VD-349"

@@ -106,6 +106,11 @@
             "value": "NGK LMAR9AI-8"
           },
           {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 2Ah lithium-ion"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "Brembo 07BB04"

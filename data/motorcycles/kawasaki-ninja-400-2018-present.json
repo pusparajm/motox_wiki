@@ -116,6 +116,11 @@
             "value": "NGK LMAR9G"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "SBS 955HS · Brembo 07KA31"

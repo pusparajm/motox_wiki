@@ -116,6 +116,11 @@
             "value": "CR10EK"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ7S"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA380HH · Brembo 07YA23"

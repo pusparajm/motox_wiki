@@ -60,6 +60,16 @@
             "key": "fork_oil_grade",
             "label": "Fork Oil Grade",
             "value": "7.5W — 2009, 2014"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX14-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "GYZ16H, YTX14H-BS"
           }
         ]
       },

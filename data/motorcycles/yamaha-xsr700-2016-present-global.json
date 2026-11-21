@@ -116,6 +116,11 @@
             "value": "NGK LMAR8A-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "Brembo 07YA23"

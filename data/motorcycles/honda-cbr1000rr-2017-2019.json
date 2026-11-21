@@ -116,6 +116,11 @@
             "value": "VUH27ES (DENSO)"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ7S"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "Brembo 07HO63"

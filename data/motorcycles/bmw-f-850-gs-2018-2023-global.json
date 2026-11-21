@@ -116,6 +116,11 @@
             "value": "NGK LMAR8J-9E"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX12-BS"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.90 L (2.01 US qt)"

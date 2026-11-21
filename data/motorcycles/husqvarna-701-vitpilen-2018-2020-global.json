@@ -151,6 +151,11 @@
             "key": "note",
             "label": "Note",
             "value": "Brake-pad fitment and partial engine/chassis data describe the 2020 model year; remaining specifications are still being compiled."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
           }
         ]
       },

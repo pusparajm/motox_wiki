@@ -118,6 +118,11 @@
             "value": "NGK CR6HSB-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "GYZ20L"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "3.53 L"

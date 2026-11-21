@@ -75,6 +75,11 @@
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
             "value": "36.70 × 20.00 × 1.00 mm — 1996–1997"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YB5L-B"
           }
         ]
       },

@@ -90,6 +90,16 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "Showa (46/14) Mono Tube Piggyback — 2008"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX14-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "GYZ16H, YTX14H-BS"
           }
         ]
       },

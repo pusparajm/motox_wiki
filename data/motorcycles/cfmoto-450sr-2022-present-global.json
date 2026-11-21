@@ -151,6 +151,11 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "Brembo 07HO61"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 12Ah"
           }
         ]
       }

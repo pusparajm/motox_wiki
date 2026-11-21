@@ -118,6 +118,11 @@
             "value": "NGK CR9EIA-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "2.4 L"

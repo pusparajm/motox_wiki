@@ -116,6 +116,16 @@
             "value": "NGK LMAR8AI-10"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "GYZ16H"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.50 L (1.59 US qt)"

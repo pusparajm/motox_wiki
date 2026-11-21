@@ -80,6 +80,11 @@
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
             "value": "41.00/43.00 mm — 1993"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX12-BS"
           }
         ]
       },

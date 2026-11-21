@@ -118,6 +118,11 @@
             "value": "NGK CR8E"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX12-BS"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 pitch, 104 links"

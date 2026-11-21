@@ -85,6 +85,11 @@
             "key": "fork_seal_circlip",
             "label": "Fork Seal Circlip",
             "value": "41.00/43.00 mm — 2014, 2019"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ12S"
           }
         ]
       },

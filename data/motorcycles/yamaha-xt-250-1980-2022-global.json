@@ -93,6 +93,11 @@
             "value": "NGK BPR7ES"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ7S"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 pitch, 98 links"

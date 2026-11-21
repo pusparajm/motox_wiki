@@ -124,6 +124,11 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 116 links"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YT12B-BS"
           }
         ]
       },

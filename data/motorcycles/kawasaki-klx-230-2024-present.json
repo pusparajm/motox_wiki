@@ -119,6 +119,11 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "SBS 536HF"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX7A-BS"
           }
         ]
       },

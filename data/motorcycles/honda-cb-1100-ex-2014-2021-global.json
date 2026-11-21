@@ -118,6 +118,11 @@
             "value": "NGK LMAR8A-9S"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "530 pitch, 110 links"

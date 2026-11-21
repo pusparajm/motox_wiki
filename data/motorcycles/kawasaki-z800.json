@@ -116,6 +116,11 @@
             "value": "NGK CR9EK"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "Brembo 07KA23"

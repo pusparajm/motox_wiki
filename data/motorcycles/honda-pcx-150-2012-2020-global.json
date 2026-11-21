@@ -141,6 +141,11 @@
             "key": "note",
             "label": "Note",
             "value": "Honda PCX150 specifications are recorded for the 2018-generation model. Confirm the exact model year against the owner's manual."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ8V"
           }
         ]
       },

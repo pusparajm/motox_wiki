@@ -1,0 +1,2557 @@
+{
+  "generated": "2026-11-21",
+  "models": {
+    "aprilia-rs-4-125-ajp-cal-2011-2019-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2011-2013",
+      "raw": "RS4125 '11-'13 - YTZ8V YTX7L-BS -"
+    },
+    "aprilia-rs-4-125-j-juan-cal-2011-2019-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2011-2013",
+      "raw": "RS4125 '11-'13 - YTZ8V YTX7L-BS -"
+    },
+    "aprilia-rs-4-50-2012-2019-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2011-2013",
+      "raw": "RS450 '11-'13 - YTZ7S YTX5L-BS -"
+    },
+    "aprilia-rs-660-2020-present-global": {
+      "code": "YTZ10S",
+      "source": "fitment"
+    },
+    "aprilia-rsv-1000-r-2000-2007-global": {
+      "code": "YTX12-BS",
+      "years": "2000-2009",
+      "raw": "RSV1000Mille,R '00-'09 - - YTX12-BS -"
+    },
+    "aprilia-rsv-1000-r-factory-2004-2008-global": {
+      "code": "YTX12-BS",
+      "years": "2004-2011",
+      "raw": "RSV1000R,Factory '04-'11 - - YTX12-BS -"
+    },
+    "aprilia-rxv-450-2006-2013-global": {
+      "code": "YTX7A-BS",
+      "years": "2010-2010",
+      "raw": "450 RXV450 -'10 - - YTX7A-BS -"
+    },
+    "aprilia-rxv-550-2006-2013-global": {
+      "code": "YTX7A-BS",
+      "years": "2010-2010",
+      "raw": "550 RXV550 -'10 - - YTX7A-BS -"
+    },
+    "aprilia-sr-50-ditech-2001-2006-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2001-2005",
+      "raw": "SR50Ditech '01-'05 - YTZ7S YTX5L-BS -"
+    },
+    "aprilia-tuareg-660-2022-present-global": {
+      "code": "YTZ10S",
+      "source": "fitment"
+    },
+    "benelli-trk-502-2017-present-global": {
+      "code": "YTX9-BS",
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
+    },
+    "bmw-c-600-sport-2012-2015-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2013-2016",
+      "raw": "600 C600,Sport '13-'16 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-c-650-gt-2012-2021-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2011-2018",
+      "raw": "650 C650GT,Sport '11-'18 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-ce-04-2022-present-global": {
+      "code": "YTZ6V",
+      "years": "2023-2024",
+      "raw": "CE04 '23-'24 - YTZ6V - -"
+    },
+    "bmw-f-650-gs-2008-2012-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2007-2012",
+      "raw": "F650GS ’07-’12 GYZ16H YTX14H-BS YTX14-BS –"
+    },
+    "bmw-f-650-gs-abs-2001-2012-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "YB12AL-A"
+      ],
+      "years": "2001-2008",
+      "raw": "F650GS '01-'08 - YTX14AHL-BS- - YB12AL-A"
+    },
+    "bmw-f-700-gs-2013-2016-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2011-2018",
+      "raw": "798 F700GS '11-'18 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-f-800-gt-2013-2020-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2007-2018",
+      "raw": "800 F800ST,GS,GT,R,ADV '07-'18 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-f-800-r-2009-2018-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2007-2018",
+      "raw": "800 F800ST,GS,GT,R,ADV '07-'18 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-f-800-st-2006-2012-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2007-2018",
+      "raw": "800 F800ST,GS,GT,R,ADV '07-'18 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-f-850-gs-2018-2023-global": {
+      "code": "YTX12-BS",
+      "years": "2016-2020",
+      "raw": "F850GS '16-'20 - - YTX12-BS -"
+    },
+    "bmw-f-900-r-2020-present-global": {
+      "code": "YTX12-BS",
+      "years": "2020-2020",
+      "raw": "F900R,XR '20 - - YTX12-BS -"
+    },
+    "bmw-f-900-xr-2020-present-global": {
+      "code": "YTX12-BS",
+      "years": "2020-2020",
+      "raw": "F900R,XR '20 - - YTX12-BS -"
+    },
+    "bmw-f450gs-2026-present-global": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "bmw-g-310-gs-2018-present-global": {
+      "code": "YTX9-BS",
+      "years": "2016-2019",
+      "raw": "310 G310R,GS '16-'19 - - YTX9-BS -"
+    },
+    "bmw-g-650-gs-2009-2015-global": {
+      "code": "YB12AL-A",
+      "years": "1993-2016",
+      "raw": "650 F650,G650GS '93-'16 - - - YB12AL-A"
+    },
+    "bmw-g310r-2015-2025-global": {
+      "code": "YTX9-BS",
+      "years": "2016-2019",
+      "raw": "310 G310R,GS '16-'19 - - YTX9-BS -"
+    },
+    "bmw-k-1200-lt-1999-2000-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "1999-2005",
+      "raw": "K1200LT,GT,RS,S '99-'05 - - YT19BL-BS 51913"
+    },
+    "bmw-k-1200-r-2005-2008-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2005-2009",
+      "raw": "1200 K1200R,S '05-'09 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-k-1200-rs-1997-2005-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "1997-2005",
+      "raw": "K1200RS '97-'05 - - YT19BL-BS 51913"
+    },
+    "bmw-k-1200-s-2005-2008-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2005-2009",
+      "raw": "1200 K1200R,S '05-'09 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-k-1300-gt-2009-2010-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "2009-2011",
+      "raw": "1300 K1300GT '09-'11 - - YT19BL-BS 51913"
+    },
+    "bmw-k-1300-r-2009-2015-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2009-2016",
+      "raw": "K1300R,S '09-'16 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-k-1300-s-2009-2015-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2009-2016",
+      "raw": "K1300R,S '09-'16 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-k-1600-gt-2011-2023-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "2011-2017",
+      "raw": "1600 K1600GT,GTL '11-'17 - - YT19BL-BS 51913"
+    },
+    "bmw-k-1600-gtl-2011-2023-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "2011-2017",
+      "raw": "1600 K1600GT,GTL '11-'17 - - YT19BL-BS 51913"
+    },
+    "bmw-r-1100-gs-1994-2001-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "1994-2000",
+      "raw": "R1100GS '94-'00 - - YT19BL-BS 51913"
+    },
+    "bmw-r-1100-s-1999-2000-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "1998-2005",
+      "raw": "R1100S,ABS '98-'05 - - YT19BL-BS 51913"
+    },
+    "bmw-r-1150-gs-2000-2001-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "2000-2005",
+      "raw": "1150 R1150GS,R '00-'05 - - YT19BL-BS 51913"
+    },
+    "bmw-r-1150-gs-brembo-cal-2002-2005-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "2000-2005",
+      "raw": "1150 R1150GS,R '00-'05 - - YT19BL-BS 51913"
+    },
+    "bmw-r-1150-r-2001-2006-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "2001-2006",
+      "raw": "R1150R,RS,RT '01-'06 - - YT19BL-BS 51913"
+    },
+    "bmw-r-1150-rs-2001-2004-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "2001-2006",
+      "raw": "R1150R,RS,RT '01-'06 - - YT19BL-BS 51913"
+    },
+    "bmw-r-1200-c-1998-2002-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "1998-2005",
+      "raw": "R1200C '98-'05 - - YT19BL-BS 51913"
+    },
+    "bmw-r-1200-gs-2004-2018-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2005-2013",
+      "raw": "R1200GS ’05-’13 GYZ16H YTX14H-BS YTX14-BS –"
+    },
+    "bmw-r-1200-gs-adventure-2008-2018-global": {
+      "code": "YTZ14S",
+      "years": "2008-2017",
+      "raw": "R1200GSAdventure ’08-’17 – YTZ14S – –"
+    },
+    "bmw-r-1200-r-2007-2018-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2005-2016",
+      "raw": "R1200S,R '05-'16 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-r-1200-rs-2014-2018-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2014-2018",
+      "raw": "R1200RS '14-'18 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-r-1200-rt-2006-2018-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "2005-2013",
+      "raw": "R1200RT '05-'13 - - YT19BL-BS 51913"
+    },
+    "bmw-r-1200-s-2006-2007-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2005-2016",
+      "raw": "R1200S,R '05-'16 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-r-1200-st-2006-2007-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2005-2007",
+      "raw": "R1200ST '05-'07 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-r-1250-gs-2019-present-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2019-2022",
+      "raw": "1250 R1250GS '19-'22 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "bmw-r-1250-r-2019-2023-global": {
+      "code": "YTZ14S",
+      "options": [
+        "GYZ16H"
+      ],
+      "years": "2019-2022",
+      "raw": "R1250RT,R,RS '19-'22 GYZ16Hs YTZ14Ss - -"
+    },
+    "bmw-r-1250-rs-2019-present-global": {
+      "code": "YTZ14S",
+      "options": [
+        "GYZ16H"
+      ],
+      "years": "2019-2022",
+      "raw": "R1250RT,R,RS '19-'22 GYZ16Hs YTZ14Ss - -"
+    },
+    "bmw-r-1250-rt-2019-present-global": {
+      "code": "YTZ14S",
+      "options": [
+        "GYZ16H"
+      ],
+      "years": "2019-2022",
+      "raw": "R1250RT,R,RS '19-'22 GYZ16Hs YTZ14Ss - -"
+    },
+    "bmw-r-18-2020-present-global": {
+      "code": "YIX30L-BS",
+      "options": [
+        "GYZ32HL"
+      ],
+      "years": "2021-2024",
+      "raw": "2500 R18 '21-'24 GYZ32HL YIX30L-BS - -"
+    },
+    "bmw-r-850-r-1996-2007-global": {
+      "code": "YT19BL-BS",
+      "options": [
+        "51913"
+      ],
+      "years": "1995-1997",
+      "raw": "850 R850R '95-'97 - - YT19BL-BS 51913"
+    },
+    "bmw-s-1000-rr-2008-2016-global": {
+      "code": "YTZ10S",
+      "years": "2009-2013",
+      "raw": "S1000RR '09-'13 - YTZ10S - -"
+    },
+    "buell-1125-cr-2009-2010-global": {
+      "code": "YTX14L",
+      "options": [
+        "GYZ16HL",
+        "FA"
+      ],
+      "years": "2008-2010",
+      "raw": "1125 1125R,1125CR '08-'10 GYZ16HL - YTX14L FA"
+    },
+    "buell-1125-r-2008-2010-global": {
+      "code": "YTX14L",
+      "options": [
+        "GYZ16HL",
+        "FA"
+      ],
+      "years": "2008-2010",
+      "raw": "1125 1125R,1125CR '08-'10 GYZ16HL - YTX14L FA"
+    },
+    "cannondale-mx-400-2000-2003-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2000-2001",
+      "raw": "EX400,MX400,XC400 '00-'01 - YTZ7S YTX5L-BS -"
+    },
+    "cannondale-s-440-2003-2003-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2002-2003",
+      "raw": "440 C440,E440,S440,X440,X440S '02-'03 - YTZ7S YTX5L-BS -"
+    },
+    "cannondale-x-440-2003-2003-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2002-2003",
+      "raw": "440 C440,E440,S440,X440,X440S '02-'03 - YTZ7S YTX5L-BS -"
+    },
+    "cfmoto-450mt-2024-present-global": {
+      "rating": "12V 11.2Ah",
+      "source": "manufacturer"
+    },
+    "cfmoto-450sr-2022-present-global": {
+      "rating": "12V 12Ah",
+      "source": "manufacturer"
+    },
+    "ducati-1098-2007-2008-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2007-2007",
+      "raw": "1098 1098 '07 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "ducati-1198-2009-2013-global": {
+      "code": "YT12B-BS",
+      "years": "2009-2011",
+      "raw": "1198 1198,MY08,SP,R '09-'11 - - YT12B-BS -"
+    },
+    "ducati-1199-panigale-2012-2014-global": {
+      "code": "YT7B-BS",
+      "years": "2011-2014",
+      "raw": "1199 1199,Panigale(S) '11-'14 - - YT7B-BS -"
+    },
+    "ducati-749-r-2004-2007-global": {
+      "code": "YT12B-BS",
+      "years": "2004-2006",
+      "raw": "749 749R '04-'06 - - YT12B-BS -"
+    },
+    "ducati-848-2008-2013": {
+      "code": "YT12B-BS",
+      "years": "2008-2013",
+      "raw": "848 848,CorseSE '08-'13 - - YT12B-BS -"
+    },
+    "ducati-851-superbike-1990-1990-global": {
+      "code": "YB16AL-A2",
+      "years": "1990-1991",
+      "raw": "851 851Superbike '90-'91 - - - YB16AL-A2"
+    },
+    "ducati-916-biposto-1994-1998-global": {
+      "code": "YB16AL-A2",
+      "years": "1994-1998",
+      "raw": "916 916Biposto,Senna,Strada '94-'98 - - - YB16AL-A2"
+    },
+    "ducati-959-panigale-2016-2019": {
+      "code": "YT7B-BS",
+      "years": "2016-2020",
+      "raw": "959 959Panigale '16-'20 - - YT7B-BS -"
+    },
+    "ducati-996-1999-2001-global": {
+      "code": "YB16AL-A2",
+      "years": "1999-2000",
+      "raw": "996 996,S,SPS '99-'00 - - - YB16AL-A2"
+    },
+    "ducati-998-2002-2004-global": {
+      "code": "YT12B-BS",
+      "years": "2002-2007",
+      "raw": "998 998,999 '02-'07 - - YT12B-BS -"
+    },
+    "ducati-999-2003-2007-global": {
+      "code": "YT12B-BS",
+      "years": "2002-2007",
+      "raw": "998 998,999 '02-'07 - - YT12B-BS -"
+    },
+    "ducati-monster-1200-2014-2020-global": {
+      "code": "YT12B-BS",
+      "years": "2014-2020",
+      "raw": "Monster1200 '14-'20 - - YT12B-BS"
+    },
+    "ducati-multistrada-v4-2021-present-global": {
+      "code": "YT12B-BS",
+      "years": "2021-2022",
+      "raw": "MultistradaV4 '21-'22 - - YT12B-BS -"
+    },
+    "ducati-panigale-v4-2020-2022": {
+      "code": "YT7B-BS",
+      "years": "2021-2022",
+      "raw": "PanigaleV4,StreetFighter,S '21-'22 - - YT7B-BS -"
+    },
+    "ducati-panigale-v4-2022-2023": {
+      "code": "YT7B-BS",
+      "years": "2021-2022",
+      "raw": "PanigaleV4,StreetFighter,S '21-'22 - - YT7B-BS -"
+    },
+    "harley-davidson-xr-1000-1985-1985-global": {
+      "code": "YTX20H-BSC",
+      "years": "1983-1985",
+      "raw": "1000XLX-61,XR1000 '83-'85 - YTX20H-BSC"
+    },
+    "harley-davidson-xr-1200-x-2010-2013-global": {
+      "code": "YTX14L-BS",
+      "options": [
+        "GYZ16HL"
+      ],
+      "years": "2004-2025",
+      "raw": "XL,XLH,XR1200X(Sportster) '04-'25 GYZ16HL - YTX14L-BS -"
+    },
+    "hero-splendor-plus-2010-present-india": {
+      "code": "ETZ4",
+      "rating": "12V 3Ah",
+      "source": "manufacturer"
+    },
+    "hero-xpulse-210-2025-present-global": {
+      "code": "ETZ7",
+      "rating": "12V 6Ah",
+      "source": "manufacturer"
+    },
+    "honda-adv-160-2022-present-global": {
+      "code": "YTZ8V",
+      "years": "2024-2024",
+      "raw": "160 ADV160ABS '24-'24 - YTZ8V - -"
+    },
+    "honda-atc-200-m-1984-1985-global": {
+      "code": "YTX14AH-BS",
+      "options": [
+        "YB14A-A2"
+      ],
+      "years": "1984-1985",
+      "raw": "200 ATC200M '84-'85 - YTX14AH-BS - YB14A-A2"
+    },
+    "honda-cb-1100-2013-2021-global": {
+      "code": "YTZ14S",
+      "years": "2010-2014",
+      "raw": "CB1100 '10-'14 - YTZ14S - -"
+    },
+    "honda-cb-1100-ex-2014-2021-global": {
+      "code": "YTZ14S",
+      "years": "2017-2017",
+      "raw": "CB1100EX '17- - YTZ14S - -"
+    },
+    "honda-cb-250-nighthawk-1991-2002-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "1991-2009",
+      "raw": "CB250Nighthawk ’91-’09 – YTZ8V YTX7L-BS –"
+    },
+    "honda-cb-360-g-t-1973-1976-global": {
+      "code": "YB12A-A",
+      "years": "1974-1976",
+      "raw": "360 CB360,G,T '74-'76 - - - YB12A-A*"
+    },
+    "honda-cb-400-a-1977-1981-global": {
+      "code": "YB12A-A",
+      "years": "1978-1978",
+      "raw": "400 CB400A '78 - - - YB12A-A"
+    },
+    "honda-cb-450-sc-nighthawk-1982-1986-global": {
+      "code": "YB12A-A",
+      "years": "1982-1986",
+      "raw": "CB450SCNighthawk,T '82-'86 - - - YB12A-A"
+    },
+    "honda-cb-500-x-2013-2023-global": {
+      "code": "YTZ10S",
+      "years": "2013-2018",
+      "raw": "CB500X,F '13-'18 - YTZ10S - -"
+    },
+    "honda-cb-550-k-1974-1978-global": {
+      "code": "YB12A-A",
+      "years": "1974-1978",
+      "raw": "550 CB550Four,K,SS '74-'78 - - - YB12A-A*"
+    },
+    "honda-cb-650-1979-1985-global": {
+      "code": "YB12A-A",
+      "years": "1979-1982",
+      "raw": "650 CB650,Custom '79-'82 - - - YB12A-A"
+    },
+    "honda-cb-650-sc-nighthawk-1983-1985-global": {
+      "code": "YB12AL-A2",
+      "years": "1983-1985",
+      "raw": "CB650SCNighthawk ’83-’85 – – – YB12AL-A2"
+    },
+    "honda-cb-750-k-four-1977-1978-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1969-1982",
+      "raw": "CB750KFour '69-'82 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "honda-cb-750-nighthawk-1991-2002-global": {
+      "code": "YTX14AH-BS",
+      "options": [
+        "YB14-A2"
+      ],
+      "years": "1991-2003",
+      "raw": "750 CB750Nighthawk '91-'03 - YTX14AH-BS - YB14-A2"
+    },
+    "honda-cb-900-c-1982-1982-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1980-1982",
+      "raw": "900 CB900C,F '80-'82 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "honda-cb-900-f-1978-1980-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1980-1982",
+      "raw": "900 CB900C,F '80-'82 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "honda-cb1000r-2018-present-global": {
+      "code": "YTZ10S",
+      "years": "2009-2018",
+      "raw": "CB1000R '09-'18 - YTZ10S - -"
+    },
+    "honda-cb300r-2018-present-global": {
+      "code": "YTZ8V",
+      "years": "2019-2020",
+      "raw": "CB300R,RA '19-'20 - YTZ8V - -"
+    },
+    "honda-cb650f-2017-2018": {
+      "code": "YTZ10S",
+      "years": "2018-2018",
+      "raw": "CB650F,FA '18 - YTZ10S - -"
+    },
+    "honda-cb650r-2019-present-global": {
+      "code": "YTZ10S",
+      "years": "2019-2020",
+      "raw": "CB650R,RA '19-'20 - YTZ10S – –"
+    },
+    "honda-cbr-250-r-abs-nissin-cal-2011-2013-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2011-2013",
+      "raw": "CBR250R ’11-’13 – YTZ8V YTX7L-BS –"
+    },
+    "honda-cbr-250-r-bybre-cal-2011-2011-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2011-2013",
+      "raw": "CBR250R ’11-’13 – YTZ8V YTX7L-BS –"
+    },
+    "honda-cbr-250-r-nissin-cal-2011-2013-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2011-2013",
+      "raw": "CBR250R ’11-’13 – YTZ8V YTX7L-BS –"
+    },
+    "honda-cbr-300-r-2014-2021-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2015-2020",
+      "raw": "CBR300R,RA ’15-’20 – YTZ8V YTX7L-BS –"
+    },
+    "honda-cbr-929-rr-2000-2001-global": {
+      "code": "YTZ10S",
+      "years": "2000-2001",
+      "raw": "929 CBR929RR,RE '00-'01 - YTZ10S - -"
+    },
+    "honda-cbr-954-rr-2002-2003-global": {
+      "code": "YTZ10S",
+      "years": "2002-2003",
+      "raw": "954 CBR954RR '02-'03 - YTZ10S - -"
+    },
+    "honda-cbr1000rr-2004-2005": {
+      "code": "YTZ10S",
+      "years": "2004-2007",
+      "raw": "CBR1000RR '04-'07 - YTZ10S - -"
+    },
+    "honda-cbr1000rr-2006-2007": {
+      "code": "YTZ10S",
+      "years": "2004-2007",
+      "raw": "CBR1000RR '04-'07 - YTZ10S - -"
+    },
+    "honda-cbr1000rr-2008-2011": {
+      "code": "YTZ7S",
+      "years": "2008-2024",
+      "raw": "CBR1000RR '08-'24 - YTZ7S - -"
+    },
+    "honda-cbr1000rr-2012-2016": {
+      "code": "YTZ7S",
+      "years": "2008-2024",
+      "raw": "CBR1000RR '08-'24 - YTZ7S - -"
+    },
+    "honda-cbr1000rr-2017-2019": {
+      "code": "YTZ7S",
+      "years": "2008-2024",
+      "raw": "CBR1000RR '08-'24 - YTZ7S - -"
+    },
+    "honda-cbr1000rr-2020-present": {
+      "code": "YTZ7S",
+      "years": "2008-2024",
+      "raw": "CBR1000RR '08-'24 - YTZ7S - -"
+    },
+    "honda-cbr500r-2022-present-global": {
+      "code": "YTZ8V",
+      "rating": "12V 7.4Ah",
+      "source": "fitment"
+    },
+    "honda-cbr600rr-2013": {
+      "code": "YTZ10S",
+      "years": "2005-2024",
+      "raw": "CBR600RR,RA '05-'24 - YTZ10S - -"
+    },
+    "honda-cbr650f-2013-2016-global": {
+      "code": "YTZ10S",
+      "years": "2014-2020",
+      "raw": "CBR650F,RA '14-'20 - YTZ10S - -"
+    },
+    "honda-cbr650f-2017-2018-global": {
+      "code": "YTZ10S",
+      "years": "2014-2020",
+      "raw": "CBR650F,RA '14-'20 - YTZ10S - -"
+    },
+    "honda-ch-250-elite-1985-1990-global": {
+      "code": "YTX9-BS",
+      "years": "1985-1990",
+      "raw": "250 CH250Elite '85-'90 - - YTX9-BS -"
+    },
+    "honda-chf-50-metropolitan-2002-2005-global": {
+      "code": "YTZ7S",
+      "years": "2002-2013",
+      "raw": "50 CHF50Metropolitan,II,SP '02-'13 - YTZ7S - -"
+    },
+    "honda-cmx-250-c-rebel-1996-2000-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "1996-2016",
+      "raw": "CMX250CRebel '96-'16 - YTZ8V YTX7L-BS -"
+    },
+    "honda-crf-1000-l-africa-twin-2016-2019-global": {
+      "code": "YTZ14S",
+      "years": "2016-2017",
+      "raw": "CRF1000LAfricaTwin '16-17 - YTZ14S - -"
+    },
+    "honda-crf-110-f-2013-2023-global": {
+      "code": "YTX4L-BS",
+      "options": [
+        "YTZ5S-BS"
+      ],
+      "years": "2013-2018",
+      "raw": "110 CRF110F ’13-’18 – YTZ5S-BS YTX4L-BS –"
+    },
+    "honda-crf-125-f-2014-2023-global": {
+      "code": "YTX4L-BS",
+      "options": [
+        "YTZ5S-BS"
+      ],
+      "years": "2014-2018",
+      "raw": "CRF125F '14-'18 - YTZ5S-BS YTX4L-BS -"
+    },
+    "honda-crf-150-f-2003-2006-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2006-2016",
+      "raw": "150 CRF150F '06-'16 - YTZ7S YTX5L-BS -"
+    },
+    "honda-crf-150-r-2007-2023-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2006-2017",
+      "raw": "150 CRF150F,R ’06-’17 – YTZ7S YTX5L-BS –"
+    },
+    "honda-crf-230-l-2008-2010-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2008-2013",
+      "raw": "CRF230L,M '08-'13 - YTZ7S YTX5L-BS -"
+    },
+    "honda-crf-230-m-2009-2012-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2008-2013",
+      "raw": "CRF230L,M '08-'13 - YTZ7S YTX5L-BS -"
+    },
+    "honda-crf-250-f-2019-2023-global": {
+      "code": "YTZ7S",
+      "years": "2020-2024",
+      "raw": "CRF250F '20-'24 - YTZ7S - -"
+    },
+    "honda-crf-250-l-2013-2015-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2013-2019",
+      "raw": "CRF250L '13-'19 - YTZ8V YTX7L-BS"
+    },
+    "honda-crf-250-l-abs-2017-2021-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2013-2019",
+      "raw": "CRF250L '13-'19 - YTZ8V YTX7L-BS"
+    },
+    "honda-crf-250-x-2004-2019-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2004-2018",
+      "raw": "CRF250X, ’04-’18 – YTZ7S YTX5L-BS –"
+    },
+    "honda-crf-450-x-2005-2023-global": {
+      "code": "YTZ7S",
+      "years": "2005-2017",
+      "raw": "CRF450X '05-'17 - YTZ7S - -"
+    },
+    "honda-crf300-rally-2021-present-global": {
+      "code": "YTZ8V",
+      "source": "guide"
+    },
+    "honda-crf300l-2021-present-global": {
+      "code": "YTZ8V",
+      "source": "guide"
+    },
+    "honda-ct-70-1991-1994-global": {
+      "code": "YTX4L-BS",
+      "options": [
+        "YTZ5S-BS"
+      ],
+      "years": "1991-1994",
+      "raw": "CT70 '91-'94 - YTZ5S-BS YTX4L-BS -"
+    },
+    "honda-ctx-1300-2014-2018-global": {
+      "code": "YTZ14S",
+      "years": "2014-2014",
+      "raw": "1300 CTX1300 '14 - YTZ14S - -"
+    },
+    "honda-ctx-700-2014-2018-global": {
+      "code": "YTZ12S",
+      "years": "2014-2018",
+      "raw": "CTX700 '14-'18 - YTZ12S - -"
+    },
+    "honda-cx-500-1978-1981-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1978-1982",
+      "raw": "CX500,C,D,T '78-'82 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "honda-cx-500-c-1981-1982-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1978-1982",
+      "raw": "CX500,C,D,T '78-'82 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "honda-ez-90-cub-1990-1995-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "1991-1996",
+      "raw": "EZ90Cub '91-'96 - YTZ7S YTX5L-BS -"
+    },
+    "honda-fl-350-r-odyssey-1985-1987-global": {
+      "code": "YTX12-BS",
+      "years": "1985-1985",
+      "raw": "350 FL350ROdyssey '85 - - YTX12-BS -"
+    },
+    "honda-fl-400-r-pilot-1989-1990-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "1989-1990",
+      "raw": "400 FL400RPilot '89-'90 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "honda-fsc-600-silverwing-2001-2018-global": {
+      "code": "YTZ12S",
+      "years": "2002-2015",
+      "raw": "600 FSC600SilverWing '02-'15 - YTZ12S - -"
+    },
+    "honda-gl-1100-gold-wing-1982-1983-global": {
+      "code": "YTX24HL-BS",
+      "options": [
+        "Y50-N18L-A-CX"
+      ],
+      "years": "1980-1983",
+      "raw": "GL1100GoldWing '80-'83 - YTX24HL-BS - Y50-N18L-A-CX"
+    },
+    "honda-gl-1200-gold-wing-1984-1986-global": {
+      "code": "YTX24HL-BS",
+      "options": [
+        "Y50-N18L-A-CX"
+      ],
+      "years": "1984-1987",
+      "raw": "1200 GL1200GoldWing '84-'87 - YTX24HL-BS - Y50-N18L-A-CX"
+    },
+    "honda-gl-1500-valkyrie-1996-2003-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "1997-2003",
+      "raw": "GL1500Valkyrie '97-'03 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "honda-gl-1800-gold-wing-2001-2021-global": {
+      "code": "GYZ20L",
+      "years": "2009-2024",
+      "raw": "GL1800GoldWing,F6B,F6C '09-'24 GYZ20L - - -"
+    },
+    "honda-gl-500-1982-1982-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1981-1982",
+      "raw": "GL500,ISilverWing '81-'82 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "honda-msx-125-grom-2014-2023-global": {
+      "code": "YTX4L-BS",
+      "options": [
+        "YTZ5S-BS"
+      ],
+      "years": "2014-2020",
+      "raw": "MSX125Grom ’14-’20 – YTZ5S-BS YTX4L-BS –"
+    },
+    "honda-nc-50-express-1977-1983-global": {
+      "code": "6N4-2A-6",
+      "years": "1980-1983",
+      "raw": "NC50Express '80-'83 - - - 6N4-2A-6"
+    },
+    "honda-nc-700-x-2012-2013-global": {
+      "code": "YTZ12S",
+      "years": "2012-2017",
+      "raw": "NC700X '12-'17 - YTZ12S - -"
+    },
+    "honda-nc750x-2021-present-global": {
+      "code": "YTZ12S",
+      "options": [
+        "''24"
+      ],
+      "years": "2021-2021",
+      "raw": "NC750X,XD '21-''24 - YTZ12S - -"
+    },
+    "honda-nh-80-aero-1985-1985-global": {
+      "code": "YTZ7S",
+      "years": "1985-1985",
+      "raw": "NH80Aero '85 - YTZ7S - -"
+    },
+    "honda-nn-50-md-gyro-1984-1984-global": {
+      "code": "YB4L-B",
+      "years": "1984-1984",
+      "raw": "NN50MDGyro '84 - - - YB4L-B"
+    },
+    "honda-nrx-1800-valkyrie-rune-2004-2005-global": {
+      "code": "YTX20L-BS",
+      "options": [
+        "GYZ20HL-C",
+        "YTX20HL-BS"
+      ],
+      "years": "2004-2005",
+      "raw": "NRX1800ValkyrieRune '04-'05 GYZ20HL-C YTX20HL-BS YTX20L-BS -"
+    },
+    "honda-nss-250-reflex-2001-2007-global": {
+      "code": "YTZ12S",
+      "years": "2001-2009",
+      "raw": "NSS250Reflex '01-'09 - YTZ12S - -"
+    },
+    "honda-nt-650-hawk-gt-1988-1991-global": {
+      "code": "YTX9-BS",
+      "years": "1988-1991",
+      "raw": "NT650HawkGT '88-'91 - - YTX9-BS -"
+    },
+    "honda-nx-250-1988-1990-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "1988-1990",
+      "raw": "NX250 '88-'90 - YTZ8V YTX7L-BS -"
+    },
+    "honda-nx500-2023-present-global": {
+      "code": "YTZ8V",
+      "source": "fitment"
+    },
+    "honda-pc-800-pacific-coast-1989-1997-global": {
+      "code": "YTX12-BS",
+      "years": "1989-1998",
+      "raw": "800 PC800PacificCoast '89-'98 - - YTX12-BS -"
+    },
+    "honda-pcx-150-2012-2020-global": {
+      "code": "YTZ8V",
+      "years": "2015-2019",
+      "raw": "PCX150 '15-'19 - YTZ8V - -"
+    },
+    "honda-rebel-300-2017-present-global": {
+      "code": "YTZ8V",
+      "source": "fitment"
+    },
+    "honda-rebel-500-2017-present-global": {
+      "code": "YTZ8V",
+      "source": "fitment"
+    },
+    "honda-sb-50-1988-1989-global": {
+      "code": "YTX4L-BS",
+      "options": [
+        "YTZ5S-BS"
+      ],
+      "years": "1988-1990",
+      "raw": "SB50(All) '88-'90 - YTZ5S-BS YTX4L-BS -"
+    },
+    "honda-sh-125-2002-2020-global": {
+      "code": "YTZ7S",
+      "years": "2013-2013",
+      "raw": "SH125 '13 - YTZ7S -"
+    },
+    "honda-sh-150-2002-2018-global": {
+      "code": "YTZ7S",
+      "years": "2013-2013",
+      "raw": "SH150 '13 - YTZ7S - -"
+    },
+    "honda-st-1300-abs-2002-2013-global": {
+      "code": "YTZ14S",
+      "years": "2003-2012",
+      "raw": "ST1300,A,P '03-'12 - YTZ14S - -"
+    },
+    "honda-vf-1000-r-1984-1987-global": {
+      "code": "YB16B-A",
+      "years": "1984-1986",
+      "raw": "VF1000R,F '84-'86 - - - YB16B-A"
+    },
+    "honda-vf-700-c-magna-1984-1987-global": {
+      "code": "YTX14AH-BS",
+      "options": [
+        "YB14-A2"
+      ],
+      "years": "1984-1986",
+      "raw": "VF700CMagna '84-'86 - YTX14AH-BS - YB14-A2"
+    },
+    "honda-vf-700-f-interceptor-1984-1985-global": {
+      "code": "YTX14AH-BS",
+      "options": [
+        "YB14-A2"
+      ],
+      "years": "1984-1985",
+      "raw": "VF700FInterceptor '84-'85 - YTX14AH-BS - YB14-A2"
+    },
+    "honda-vfr-1200-f-2010-2019-global": {
+      "code": "YTZ14S",
+      "years": "2010-2014",
+      "raw": "VFR1200F '10-'14 - YTZ14S - -"
+    },
+    "honda-vfr-750-f-1986-1998-global": {
+      "code": "YTX12-BS",
+      "years": "1990-1997",
+      "raw": "VFR750F '90-'97 - - YTX12-BS -"
+    },
+    "honda-vfr-750-r-1988-1993-global": {
+      "code": "YTX9-BS",
+      "years": "1990-1990",
+      "raw": "VFR750R(RC30) '90 - - YTX9-BS -"
+    },
+    "honda-vfr-800-interceptor-1998-2018-global": {
+      "code": "YTZ12S",
+      "years": "2014-2016",
+      "raw": "VFR800Interceptor ’14-’16 – YTZ12S – –"
+    },
+    "honda-vfr-800-interceptor-abs-2006-2018-global": {
+      "code": "YTZ12S",
+      "years": "2014-2016",
+      "raw": "VFR800Interceptor ’14-’16 – YTZ12S – –"
+    },
+    "honda-vt-1100-c2-shadow-a-c-e-1995-2004-global": {
+      "code": "HYB16A-AB",
+      "years": "1995-1999",
+      "raw": "VT1100C2ShadowA.C.E. '95-'99 - - - HYB16A-AB"
+    },
+    "honda-vt-1100-c2-shadow-sabre-2000-2005-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2000-2007",
+      "raw": "VT1100C2ShadowSabre '00-'07 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "honda-vt-500-c-shadow-1983-1986-global": {
+      "code": "YB12A-A",
+      "years": "1983-1986",
+      "raw": "VT500CShadow '83-'86 - - - YB12A-A"
+    },
+    "honda-vt-700-c-shadow-1984-1987-global": {
+      "code": "YTX14AH-BS",
+      "options": [
+        "YB14-B2"
+      ],
+      "years": "1986-1987",
+      "raw": "VT700CShadow '86-'87 - YTX14AH-BS - YB14-B2"
+    },
+    "honda-vtx-1300-c-2004-2009-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2003-2012",
+      "raw": "VTX1300C,R,S,Retro '03-'12 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "honda-vtx-1300-s-2003-2007-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2003-2012",
+      "raw": "VTX1300C,R,S,Retro '03-'12 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "honda-xl-125-s-1979-1984-global": {
+      "code": "6N4-2A-4",
+      "years": "1979-1984",
+      "raw": "XL125S '79-'84 - - - 6N4-2A-4"
+    },
+    "honda-xl-185-s-1979-1983-global": {
+      "code": "6N4-2A-4",
+      "years": "1979-1983",
+      "raw": "XL185S '79-'83 - - - 6N4-2A-4"
+    },
+    "honda-xl-200-r-1983-1984-global": {
+      "code": "YB3L-A",
+      "years": "1983-1984",
+      "raw": "XL200R '83-'84 - - - YB3L-A"
+    },
+    "honda-xl-250-r-1982-1987-global": {
+      "code": "YB3L-A",
+      "years": "1982-1987",
+      "raw": "XL250R '82-'87 - - - YB3L-A"
+    },
+    "honda-xl-250-s-1978-1981-global": {
+      "code": "6N4-2A-4",
+      "years": "1978-1981",
+      "raw": "XL250S '78-'81 - - - 6N4-2A-4"
+    },
+    "honda-xl-350-1976-1978-global": {
+      "code": "6N6-3B",
+      "years": "1974-1978",
+      "raw": "XL350 '74-'78 - - - 6N6-3B"
+    },
+    "honda-xl-350-r-1984-1987-global": {
+      "code": "YB3L-A",
+      "years": "1984-1985",
+      "raw": "XL350R '84-'85 - - YB3L-A"
+    },
+    "honda-xl-600-r-1983-1986-global": {
+      "code": "YB3L-A",
+      "years": "1983-1987",
+      "raw": "XL600R '83-'87 - - - YB3L-A"
+    },
+    "honda-xl-600-v-transalp-1987-1990-global": {
+      "code": "YB12A-B",
+      "years": "1989-1990",
+      "raw": "XL600VTransalp '89-'90 - - - YB12A-B"
+    },
+    "honda-xr-250-l-1991-1997-global": {
+      "code": "YTX4L-BS",
+      "options": [
+        "YTZ5S-BS"
+      ],
+      "years": "1991-1996",
+      "raw": "XR250L '91-'96 - YTZ5S-BS YTX4L-BS -"
+    },
+    "honda-xr-650-l-1993-2018-global": {
+      "code": "YTX9-BS",
+      "years": "1993-2018",
+      "raw": "XR650L ’93-’18 – – YTX9-BS –"
+    },
+    "husqvarna-701-vitpilen-2018-2020-global": {
+      "code": "YTZ10S",
+      "years": "2018-2021",
+      "raw": "701Vitpilen,Svartpilen '18-'21 - YTZ10S - -"
+    },
+    "hyosung-gt-250-r-2007-2012-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2009-2016",
+      "raw": "250 GT250,R '09-'16 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "hyosung-gt-650-2004-2012-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2009-2016",
+      "raw": "650 GT650,R,S '09-'16 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "hyosung-gt-650-r-2005-2013-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2009-2016",
+      "raw": "650 GT650,R,S '09-'16 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "hyosung-gt-650-s-2005-2013-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2009-2016",
+      "raw": "650 GT650,R,S '09-'16 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "hyosung-gv-250-2002-2018-global": {
+      "code": "YTX9-BS",
+      "years": "2009-2016",
+      "raw": "GV250 '09-'16 - - YTX9-BS -"
+    },
+    "indian-chief-2022-present-global": {
+      "code": "GYZ20HL-C",
+      "years": "2025-2025",
+      "raw": "1819 Chief,Chieftain,Roadmaster '25-'25 GYZ20HL-C - - -"
+    },
+    "indian-chieftain-2014-present-global": {
+      "code": "GYZ20HL-C",
+      "years": "2025-2025",
+      "raw": "1819 Chief,Chieftain,Roadmaster '25-'25 GYZ20HL-C - - -"
+    },
+    "indian-ftr-1200-2019-present-global": {
+      "code": "YTX14H-BS",
+      "options": [
+        "GYZ16H"
+      ],
+      "years": "2019-2025",
+      "raw": "1203 FTR1200 '19-'25 GYZ16H YTX14H-BS -"
+    },
+    "indian-scout-2015-present-global": {
+      "code": "YTX14AH",
+      "years": "2015-2025",
+      "raw": "1133 Scout,Bobber '15-'25 - YTX14AH - -"
+    },
+    "indian-scout-bobber-2018-present-global": {
+      "code": "YTX14AH",
+      "years": "2015-2025",
+      "raw": "1133 Scout,Bobber '15-'25 - YTX14AH - -"
+    },
+    "indian-scout-sixty-2016-present-global": {
+      "code": "YTX14AH",
+      "years": "2016-2025",
+      "raw": "999 ScoutSixty '16-'25 - YTX14AH - -"
+    },
+    "kawasaki-el-250-1991-1994-global": {
+      "code": "YB9L-A2",
+      "years": "1988-1993",
+      "raw": "EL250,HS '88-'93 - - - YB9L-A2"
+    },
+    "kawasaki-kl-250-1978-1984-global": {
+      "code": "6N6-1D-2",
+      "years": "1978-1984",
+      "raw": "KL250 '78-'84 - - - 6N6-1D-2"
+    },
+    "kawasaki-kl-250-super-sherpa-2000-2002-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2000-2010",
+      "raw": "KL250SuperSherpa ’00-’10 – YTZ8V YTX7L-BS –"
+    },
+    "kawasaki-kle-650-versys-2007-2023-global": {
+      "code": "YTX12-BS",
+      "years": "2008-2024",
+      "raw": "KLE650Versys '08-'24 - - YTX12-BS -"
+    },
+    "kawasaki-kle-650-versys-abs-2007-2023-global": {
+      "code": "YTX12-BS",
+      "years": "2008-2024",
+      "raw": "KLE650Versys '08-'24 - - YTX12-BS -"
+    },
+    "kawasaki-klr650-2022-present-global": {
+      "code": "YTX9-BS",
+      "years": "2022-2024",
+      "raw": "KLR650,Adv.,Trav. '22-'24 - - YTX9-BS -"
+    },
+    "kawasaki-klx-110-2002-2023-global": {
+      "code": "YTX4L-BS",
+      "options": [
+        "YTZ5S-BS"
+      ],
+      "years": "2003-2024",
+      "raw": "110 KLX110,L '03-'24 - YTZ5S-BS YTX4L-BS -"
+    },
+    "kawasaki-klx-140-l-2008-2023-global": {
+      "code": "YTX7L",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2008-2024",
+      "raw": "140 KLX140,G,L '08-'24 - YTZ8V YTX7L -"
+    },
+    "kawasaki-klx-230-2024-present": {
+      "code": "YTX7A-BS",
+      "years": "2020-2024",
+      "raw": "230 KLX230,S,SE,SM,ABS '20-'24 - - YTX7A-BS -"
+    },
+    "kawasaki-klx-230-r-2022-2023-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2020-2024",
+      "raw": "KLX230R '20-'24 - YTZ7S YTX5L-BS -"
+    },
+    "kawasaki-klx-230-se-2022-2022-global": {
+      "code": "YTX7A-BS",
+      "years": "2020-2024",
+      "raw": "230 KLX230,S,SE,SM,ABS '20-'24 - - YTX7A-BS -"
+    },
+    "kawasaki-klx-250-s-2009-2014-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2006-2020",
+      "raw": "KLX250S,SF,Camo ’06-’20 – YTZ8V YTX7L-BS –"
+    },
+    "kawasaki-klx-250-sf-2009-2010-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2006-2020",
+      "raw": "KLX250S,SF,Camo ’06-’20 – YTZ8V YTX7L-BS –"
+    },
+    "kawasaki-klx-400-r-2003-2004-global": {
+      "code": "YT7B-BS",
+      "years": "2003-2003",
+      "raw": "KLX400R,KLX400SR '03 - - YT7B-BS -"
+    },
+    "kawasaki-klx-400-sr-2003-2004-global": {
+      "code": "YT7B-BS",
+      "years": "2003-2003",
+      "raw": "KLX400R,KLX400SR '03 - - YT7B-BS -"
+    },
+    "kawasaki-klx-450-r-2007-2023-global": {
+      "code": "YTZ7S",
+      "years": "2008-2019",
+      "raw": "KLX450R ’08-’19 – YTZ7S – –"
+    },
+    "kawasaki-klx-650-r-1993-1995-global": {
+      "code": "YTX9-BS",
+      "years": "1993-1996",
+      "raw": "KLX650C,R '93-'96 - - YTX9-BS -"
+    },
+    "kawasaki-klx300-2021-present-global": {
+      "code": "YTZ7S",
+      "years": "2023-2024",
+      "raw": "KLX300,SM '23-'24 - YTZ7S - -",
+      "source": "guide"
+    },
+    "kawasaki-kz-1000-1976-2001-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1977-1980",
+      "raw": "KZ1000,LTD '77-'80 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "kawasaki-kz-1000-ltd-1981-1984-global": {
+      "code": "YTX20L-BS",
+      "options": [
+        "GYZ20HL",
+        "YTX20HL-BS",
+        "YB18L-A"
+      ],
+      "years": "1981-1983",
+      "raw": "KZ1000,LTD,CSR '81-'83 GYZ20HL YTX20HL-BS YTX20L-BS YB18L-A"
+    },
+    "kawasaki-kz-550-1981-1983-global": {
+      "code": "YB12A-A",
+      "years": "1980-1983",
+      "raw": "550 KZ550,LTD,GP '80-'83 - - - YB12A-A"
+    },
+    "kawasaki-kz-750-e-1980-1981-global": {
+      "code": "YB12A-A",
+      "years": "1980-1983",
+      "raw": "KZ750-E,H,LLTD '80-'83 - - - YB12A-A"
+    },
+    "kawasaki-kz-900-1976-1977-global": {
+      "code": "YB10L-A2",
+      "years": "1976-1977",
+      "raw": "900 KZ900,LTD '76-'77 - - - YB10L-A2"
+    },
+    "kawasaki-ninja-1000sx-2020-present-global": {
+      "code": "YTX9-BS",
+      "years": "2022-2024",
+      "raw": "Ninja1000SX '22-'24 - - YTX9-BS -"
+    },
+    "kawasaki-ninja-400-2018-present": {
+      "code": "YTX9-BS",
+      "years": "2008-2024",
+      "raw": "400 Ninja400,ABS '08-'24 - - YTX9-BS -"
+    },
+    "kawasaki-ninja-500-2024-present": {
+      "code": "YTZ10S",
+      "source": "manufacturer"
+    },
+    "kawasaki-ninja-650-2017-2020": {
+      "code": "YTZ10S",
+      "years": "2017-2024",
+      "raw": "Ninja650,ABS '17-'24 - YTZ10S - -"
+    },
+    "kawasaki-ninja-650-2021-present": {
+      "code": "YTZ10S",
+      "years": "2017-2024",
+      "raw": "Ninja650,ABS '17-'24 - YTZ10S - -"
+    },
+    "kawasaki-ninja-h2-2015-present-global": {
+      "code": "YTZ10S",
+      "years": "2015-2024",
+      "raw": "NinjaH2,H2R,Carbon,SXSE '15-'24 - YTZ10S - -"
+    },
+    "kawasaki-ninja-h2-sx-2018-present-global": {
+      "code": "YTZ10S",
+      "years": "2015-2024",
+      "raw": "NinjaH2,H2R,Carbon,SXSE '15-'24 - YTZ10S - -"
+    },
+    "kawasaki-ninja-zx-14r-2012-present-global": {
+      "code": "YTX14H-BS",
+      "options": [
+        "GYZ16H"
+      ],
+      "years": "2006-2024",
+      "raw": "1400 NinjaZX-14R,ABS '06-'24 GYZ16H YTX14H-BS - -"
+    },
+    "kawasaki-versys-1000-2012-2015-global": {
+      "code": "YTX9-BS",
+      "years": "2015-2023",
+      "raw": "Versys1000,LT '15-'23 - - YTX9-BS -"
+    },
+    "kawasaki-versys-1000-2015-2018-global": {
+      "code": "YTX9-BS",
+      "years": "2015-2023",
+      "raw": "Versys1000,LT '15-'23 - - YTX9-BS -"
+    },
+    "kawasaki-versys-1000-2019-2021-global": {
+      "code": "YTX9-BS",
+      "years": "2015-2023",
+      "raw": "Versys1000,LT '15-'23 - - YTX9-BS -"
+    },
+    "kawasaki-versys-650-2022-present-global": {
+      "code": "YTX12-BS",
+      "source": "fitment"
+    },
+    "kawasaki-versys-x-300-2017-present-global": {
+      "code": "YTX9-BS",
+      "years": "2017-2024",
+      "raw": "Versys-X300,ABSKLE300C) '17-'24 - - YTX9-BS -"
+    },
+    "kawasaki-vulcan-s-2015-present-global": {
+      "code": "YTZ10S",
+      "years": "2015-2024",
+      "raw": "VulcanSABS,CAFÉ,SE '15-'24 - YTZ10S - -",
+      "source": "fitment"
+    },
+    "kawasaki-w-650-1999-2005-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2000-2002",
+      "raw": "W650 '00-'02 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "kawasaki-w-800-cafe-2019-2022-global": {
+      "code": "YTX12-BS",
+      "years": "2019-2019",
+      "raw": "W800Cafe '19 – – YTX12-BS –"
+    },
+    "kawasaki-w800-2019-present-global": {
+      "code": "YTX12-BS",
+      "years": "2019-2024",
+      "raw": "W800Café '19-'24 - - YTX12-BS -"
+    },
+    "kawasaki-z-1000-se-2014-2016-global": {
+      "code": "YT12A-BS",
+      "years": "2014-2016",
+      "raw": "Z1000,ABS ’14-’16 – – YT12A-BS –"
+    },
+    "kawasaki-z-125-pro-2017-2022-global": {
+      "code": "YTX4L-BS",
+      "options": [
+        "YTZ5S-BS"
+      ],
+      "years": "2017-2024",
+      "raw": "Z125PRO '17-'24 - YTZ5S-BS YTX4L-BS -"
+    },
+    "kawasaki-z-900-rs-se-2022-2023-global": {
+      "code": "YTX9-BS",
+      "years": "2017-2024",
+      "raw": "Z900ABS,Z900RSABS,Café '17-'24 - - YTX9-BS -"
+    },
+    "kawasaki-z-900-se-2022-2023-global": {
+      "code": "YTX9-BS",
+      "years": "2017-2024",
+      "raw": "Z900ABS,Z900RSABS,Café '17-'24 - - YTX9-BS -"
+    },
+    "kawasaki-z-h2-2020-present-global": {
+      "code": "YTX9-BS",
+      "years": "2022-2024",
+      "raw": "ZH2 '22-'24 - - YTX9-BS -"
+    },
+    "kawasaki-z1000-2014-2016-global": {
+      "code": "YT12A-BS",
+      "years": "2014-2016",
+      "raw": "Z1000,ABS ’14-’16 – – YT12A-BS –"
+    },
+    "kawasaki-z400-2019-present-global": {
+      "code": "YTX9-BS",
+      "years": "2019-2024",
+      "raw": "Z400ABS '19-'24 - - YTX9-BS -"
+    },
+    "kawasaki-z500-2024-present-global": {
+      "code": "YTZ10S",
+      "years": "2024-2024",
+      "raw": "Z500 '24 - YTZ10S - -"
+    },
+    "kawasaki-z650-2017-present-global": {
+      "code": "YTZ10S",
+      "years": "2017-2024",
+      "raw": "Z650ABS '17-'24 - YTZ10S - -",
+      "source": "fitment"
+    },
+    "kawasaki-z800": {
+      "code": "YTX9-BS",
+      "years": "2013-2016",
+      "raw": "Z800,ABS '13-'16 - - YTX9-BS -"
+    },
+    "kawasaki-z900": {
+      "code": "YTX9-BS",
+      "years": "2017-2024",
+      "raw": "Z900ABS,Z900RSABS,Café '17-'24 - - YTX9-BS -"
+    },
+    "kawasaki-z900rs-2018-present-global": {
+      "code": "YTX9-BS",
+      "years": "2017-2024",
+      "raw": "Z900ABS,Z900RSABS,Café '17-'24 - - YTX9-BS -"
+    },
+    "kawasaki-zg-1400-concours-2007-2010-global": {
+      "code": "YTX14H-BS",
+      "options": [
+        "GYZ16H"
+      ],
+      "years": "2008-2022",
+      "raw": "ZG1400Concours,ABS '08-'22 GYZ16H YTX14H-BS - -"
+    },
+    "kawasaki-zl-600-1985-1991-global": {
+      "code": "YB12A-A",
+      "years": "1986-1997",
+      "raw": "ZL600(All) '86-'97 - - - YB12A-A"
+    },
+    "kawasaki-zrx-1100-1996-2000-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "1999-2000",
+      "raw": "ZRX1100 '99-'00 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "kawasaki-zrx-1200-r-2001-2008-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2001-2005",
+      "raw": "ZRX1200R '01-'05 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "kawasaki-zzr-1200-2002-2004-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2002-2005",
+      "raw": "ZZR1200 '02-'05 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "ktm-390-duke-2021": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "ktm-adventure-390-2025-present-global": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "ktm-rc-390": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "moto-guzzi-v9-bobber-2016-present-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2016-2019",
+      "raw": "853 V9Bobber,Roamer '16-'19 GYZ16H YTX14H-BS* YTX14-BS"
+    },
+    "royal-enfield-bullet-350-2023-present-global": {
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
+    },
+    "royal-enfield-classic-350-2021-present-global": {
+      "code": "YTX9-BS",
+      "years": "2021-2025",
+      "raw": "Classic350,Meteor350 '21-'25 - - YTX9-BS -"
+    },
+    "royal-enfield-continental-gt-650-2019-present-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2019-2020",
+      "raw": "650 Int650,ContinentalGT650 '19-'20 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "royal-enfield-himalayan-411-2015-2023-global": {
+      "code": "YTX9-BS",
+      "years": "2017-2022",
+      "raw": "411 Himalayan '17-'22 - - YTX9-BS -"
+    },
+    "royal-enfield-himalayan-450": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "royal-enfield-hunter-350-2022-present-global": {
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
+    },
+    "royal-enfield-meteor-350-2021-present-global": {
+      "code": "YTX9-BS",
+      "years": "2021-2025",
+      "raw": "Classic350,Meteor350 '21-'25 - - YTX9-BS -"
+    },
+    "suzuki-an-400-burgman-1999-2006-global": {
+      "code": "YTX9",
+      "options": [
+        "YTZ14S"
+      ],
+      "years": "2003-2024",
+      "raw": "400 AN400Burgman '03-'24 - YTZ14S YTX9* -"
+    },
+    "suzuki-an-650-burgman-2002-2019-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2003-2017",
+      "raw": "650 AN650Burgman '03-'17 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "suzuki-dl-1000-v-strom-2002-2019-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "2002-2016",
+      "raw": "1000 DL1000V-Strom,Adventure '02-'16 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "suzuki-dl-650-v-strom-2004-2023-global": {
+      "code": "YTX12-BS",
+      "years": "2004-2024",
+      "raw": "650 DL650V-StromABS,Adventure '04-'24 - - YTX12-BS -"
+    },
+    "suzuki-dr-125-1982-2002-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "1994-1996",
+      "raw": "125 DR125,SE,SES '94-'96 - YTZ8V YTX7L-BS -"
+    },
+    "suzuki-dr-200-s-2015-2017-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2015-2020",
+      "raw": "DR200S '15-'20 - YTZ8V YTX7L-BS -"
+    },
+    "suzuki-dr-200-se-1996-2013-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "1996-2013",
+      "raw": "200 DR200SE ’96-’13 – YTZ8V YTX7L-BS –"
+    },
+    "suzuki-dr-350-1990-1999-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "1994-1999",
+      "raw": "DR350SE '94-'99 - YTZ8V YTX7L-BS -"
+    },
+    "suzuki-dr-z-250-2001-2007-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2001-2007",
+      "raw": "DR-Z250 '01-'07 - YTZ7S YTX5L-BS -"
+    },
+    "suzuki-dr-z-50-2019-2023-global": {
+      "code": "YT4B-BS",
+      "years": "2019-2023",
+      "raw": "DR-Z50 '19-'23 - - YT4B-BS -"
+    },
+    "suzuki-dr-z-70-2008-2020-global": {
+      "code": "YT4B-BS",
+      "years": "2015-2017",
+      "raw": "DR-Z70 '15-'17 - - YT4B-BS -"
+    },
+    "suzuki-dr-z400sm-2000-present-global": {
+      "code": "YT7B-BS",
+      "years": "2000-2024",
+      "raw": "400 DR-Z400,E,S,SM '00-'24 - - YT7B-BS -"
+    },
+    "suzuki-gn-125-1991-2004-global": {
+      "code": "YB7-A",
+      "years": "1991-1996",
+      "raw": "GN125,E '91-'96 - - - YB7-A*"
+    },
+    "suzuki-gn-250-1986-1997-global": {
+      "code": "YB10L-A2",
+      "years": "1982-1988",
+      "raw": "GN250 '82-'88 - - - YB10L-A2"
+    },
+    "suzuki-gr-650-x-1983-1984-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1983-1983",
+      "raw": "GR650Tempter,X '83 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "suzuki-gs-1000-1978-1981-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1978-1982",
+      "raw": "GS1000 '78-'82 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "suzuki-gs-1150-es-1984-1985-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "YB14L-B2"
+      ],
+      "years": "1983-1986",
+      "raw": "1150 GS1150E,S '83-'86 - YTX14AHL-BS - YB14L-B2"
+    },
+    "suzuki-gs-400-1977-1982-global": {
+      "code": "YB10L-A2",
+      "years": "1977-1978",
+      "raw": "GS400 '77-'78 - - - YB10L-A2"
+    },
+    "suzuki-gs-425-1979-1980-global": {
+      "code": "YB10L-A2",
+      "years": "1979-1979",
+      "raw": "425 GS425,GS425E,L '79 - - - YB10L-A2"
+    },
+    "suzuki-gs-450-1980-1990-global": {
+      "code": "YB12B-B2",
+      "years": "1983-1988",
+      "raw": "450 GS450 '83-'88 - - - YB12B-B2"
+    },
+    "suzuki-gs-500-f-2004-2008-global": {
+      "code": "YB10L-B2",
+      "years": "2001-2011",
+      "raw": "500 GS500,F '01-'11 - - - YB10L-B2"
+    },
+    "suzuki-gs-650-1981-1983-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1981-1983",
+      "raw": "GS650(All) '81-'83 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "suzuki-gs-750-1976-1979-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1977-1983",
+      "raw": "750 GS750,Katana '77-'83 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "suzuki-gs-850-g-1983-1986-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "YB14L-A2"
+      ],
+      "years": "1979-1983",
+      "raw": "850 GS850G,GL '79-'83 - YTX14AHL-BS - YB14L-A2"
+    },
+    "suzuki-gsf-1200-s-bandit-2001-2006-global": {
+      "code": "YTX12-BS",
+      "years": "1997-2005",
+      "raw": "1200 GSF1200,SBandit '97-'05 - - YTX12-BS -"
+    },
+    "suzuki-gsf-400-bandit-1991-1997-global": {
+      "code": "YTX9-BS",
+      "years": "1991-1993",
+      "raw": "GSF400Bandit '91-'93 - - YTX9-BS -"
+    },
+    "suzuki-gsx-650-f-2008-2018-global": {
+      "code": "YTX9-BS",
+      "years": "2008-2011",
+      "raw": "GSX650F '08-'11 - - YTX9-BS -"
+    },
+    "suzuki-gsx-r1000-2001-2002-global": {
+      "code": "YTX12-BS",
+      "years": "2001-2004",
+      "raw": "GSX-R1000,Z '01-'04 - - YTX12-BS -"
+    },
+    "suzuki-gsx-r1000-2003-2004-global": {
+      "code": "YTX12-BS",
+      "years": "2001-2004",
+      "raw": "GSX-R1000,Z '01-'04 - - YTX12-BS -"
+    },
+    "suzuki-gsx-r1000-2005-2006-global": {
+      "code": "YT12A-BS",
+      "years": "2005-2016",
+      "raw": "GSX-R1000,A '05-'16 - - YT12A-BS -"
+    },
+    "suzuki-gsx-r1000-2007-2008-global": {
+      "code": "YT12A-BS",
+      "years": "2005-2016",
+      "raw": "GSX-R1000,A '05-'16 - - YT12A-BS -"
+    },
+    "suzuki-gsx-r1000-2009-2011-global": {
+      "code": "YT12A-BS",
+      "years": "2005-2016",
+      "raw": "GSX-R1000,A '05-'16 - - YT12A-BS -"
+    },
+    "suzuki-gsx-r1000-2012-2016-global": {
+      "code": "YT12A-BS",
+      "years": "2005-2016",
+      "raw": "GSX-R1000,A '05-'16 - - YT12A-BS -"
+    },
+    "suzuki-gsx-r600-2011-present-global": {
+      "code": "YTX9-BS",
+      "years": "1997-2024",
+      "raw": "GSX-R600 '97-'24 - - YTX9-BS -"
+    },
+    "suzuki-gsx-r750-2011-present-global": {
+      "code": "YT12A-BS",
+      "years": "2000-2024",
+      "raw": "GSX-R750 '00-'24 - - YT12A-BS -"
+    },
+    "suzuki-gsx-s-1000-f-2015-2023-global": {
+      "code": "YT12A-BS",
+      "options": [
+        "YTZ14S"
+      ],
+      "years": "2016-2023",
+      "raw": "GSX-S1000,A,F,FA '16-'23 - YTZ14S YT12A-BS -"
+    },
+    "suzuki-gsx-s1000-2021-present-global": {
+      "code": "YT12A-BS",
+      "options": [
+        "YTZ14S"
+      ],
+      "years": "2016-2023",
+      "raw": "GSX-S1000,A,F,FA '16-'23 - YTZ14S YT12A-BS -"
+    },
+    "suzuki-gsx-s750-2017-present-global": {
+      "code": "YT12A-BS",
+      "years": "2015-2019",
+      "raw": "GSX-S750 '15-'19 - - YT12A-BS -"
+    },
+    "suzuki-gsx1300r-2008-2020": {
+      "code": "YTX12-BS",
+      "years": "2008-2020",
+      "raw": "GSX1300R,ZHayabusa '08-'20 - - YTX12-BS -"
+    },
+    "suzuki-lt-f-250-ozark-2003-2013-global": {
+      "code": "YTX12-BS",
+      "years": "2002-2016",
+      "raw": "250 LT-F250,Ozark '02-'16 - - YTX12-BS -"
+    },
+    "suzuki-or-50-1979-1980-global": {
+      "code": "6N4B-2A",
+      "years": "1979-1980",
+      "raw": "OR50 '79-'80 - - - 6N4B-2A"
+    },
+    "suzuki-rf-600-r-1993-1996-global": {
+      "code": "YTX9-BS",
+      "years": "1994-1996",
+      "raw": "RF600R,S '94-'96 - - YTX9-BS -"
+    },
+    "suzuki-sfv-650-gladius-2009-2016-global": {
+      "code": "YT12A-BS",
+      "years": "2009-2015",
+      "raw": "SFV650Gladius '09-'15 - - YT12A-BS -"
+    },
+    "suzuki-sp-125-1982-1988-global": {
+      "code": "6N4-2A",
+      "years": "1986-1988",
+      "raw": "SP125 '86-'88 - - - 6N4-2A"
+    },
+    "suzuki-sp-200-1986-1988-global": {
+      "code": "YB4L-B",
+      "years": "1986-1988",
+      "raw": "SP200 '86-'88 - - - YB4L-B"
+    },
+    "suzuki-sp-250-1985-1985-global": {
+      "code": "6N4B-2A",
+      "years": "1982-1985",
+      "raw": "SP250 '82-'85 - - - 6N4B-2A"
+    },
+    "suzuki-sp-370-1977-1979-global": {
+      "code": "6N4B-2A",
+      "years": "1978-1979",
+      "raw": "370 SP370 '78-'79 - - - 6N4B-2A"
+    },
+    "suzuki-sp-400-1980-1982-global": {
+      "code": "6N4B-2A",
+      "years": "1980-1980",
+      "raw": "SP400 '80 - - - 6N4B-2A"
+    },
+    "suzuki-sv-1000-s-2003-2007-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H"
+      ],
+      "years": "2003-2007",
+      "raw": "SV1000,S '03-'07 GYZ16H YTX14H YTX14-BS -"
+    },
+    "suzuki-sv-650-s-1999-2012-global": {
+      "code": "YTX12-BS",
+      "years": "2003-2013",
+      "raw": "SV650,S '03-'13 - - YTX12-BS -"
+    },
+    "suzuki-sv-650-s-abs-2007-2018-global": {
+      "code": "YTX12-BS",
+      "years": "2003-2013",
+      "raw": "SV650,S '03-'13 - - YTX12-BS -"
+    },
+    "suzuki-sv650-2016-present-global": {
+      "code": "YT12A-BS",
+      "years": "2017-2024",
+      "raw": "SV650,A,XA '17-'24 - - YT12A-BS -"
+    },
+    "suzuki-tu-250-x-2009-2019-global": {
+      "code": "YTX7L-BS",
+      "options": [
+        "YTZ8V"
+      ],
+      "years": "2009-2019",
+      "raw": "TU250X '09-'19 - YTZ8V YTX7L-BS -"
+    },
+    "suzuki-vz-800-marauder-1997-2004-global": {
+      "code": "YTX12-BS",
+      "years": "1997-2008",
+      "raw": "VZ800Marauder,Boulevard '97-'08 - - YTX12-BS -"
+    },
+    "triumph-bonneville-t100-2016-present-global": {
+      "code": "YTX12-BS",
+      "years": "2011-2018",
+      "raw": "BonnevilleT100,SE,FI ’11-’18 – – YTX12-BS –"
+    },
+    "triumph-daytona-660-2024-present-global": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "triumph-street-triple-765-2023-present-global": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "triumph-tiger-sport-660-2022-present-global": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "triumph-tt-600-2000-2003-global": {
+      "code": "YTX12-BS",
+      "years": "2000-2003",
+      "raw": "TT600 '00-'03 - - YTX12-BS -"
+    },
+    "tvs-apache-rr-310-2020-present-india": {
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
+    },
+    "yamaha-fj-1100-1983-1985-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1984-1985",
+      "raw": "1100 FJ1100 '84-'85 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-fj-1200-1986-1990-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1986-1990",
+      "raw": "FJ1200 '86-'90 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-fj-1200-abs-1991-1993-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H-BS"
+      ],
+      "years": "1991-1993",
+      "raw": "1200 FJ1200(All) '91-'93 GYZ16H YTX14H-BS YTX14-BS -"
+    },
+    "yamaha-fj-600-1984-1985-global": {
+      "code": "YB12A-A",
+      "years": "1984-1985",
+      "raw": "600 FJ600 '84-'85 - - - YB12A-A*"
+    },
+    "yamaha-fjr-1300-2001-2003-global": {
+      "code": "YT14B-BS",
+      "years": "2003-2024",
+      "raw": "1300 FJR1300,A,ES '03-'24 - - YT14B-BS -"
+    },
+    "yamaha-fjr-1300-a-2013-2020-global": {
+      "code": "YT14B-BS",
+      "years": "2003-2024",
+      "raw": "1300 FJR1300,A,ES '03-'24 - - YT14B-BS -"
+    },
+    "yamaha-fjr-1300-abs-2003-2012-global": {
+      "code": "YT14B-BS",
+      "years": "2003-2024",
+      "raw": "1300 FJR1300,A,ES '03-'24 - - YT14B-BS -"
+    },
+    "yamaha-fz-600-1986-1987-global": {
+      "code": "YB12A-A",
+      "years": "1986-1988",
+      "raw": "FZ600 '86-'88 - - - YB12A-A*"
+    },
+    "yamaha-fz-700-1987-1988-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1986-1987",
+      "raw": "700 FZ700,Fazer '86-'87 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-fz-750-1985-1986-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1985-1988",
+      "raw": "750 FZ750,FZR750 '85-'88 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-fzr-1000-1994-1995-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H"
+      ],
+      "years": "1991-1995",
+      "raw": "1000 FZR1000 '91-'95 GYZ16H YTX14H YTX14-BS -"
+    },
+    "yamaha-fzr-600-1989-1989-global": {
+      "code": "YB12AL-A2",
+      "years": "1989-1999",
+      "raw": "FZR600/R '89-'99 - - - YB12AL-A2"
+    },
+    "yamaha-fzr-600-r-1990-1995-global": {
+      "code": "YB12AL-A2",
+      "years": "1989-1999",
+      "raw": "FZR600/R '89-'99 - - - YB12AL-A2"
+    },
+    "yamaha-gts-1000-1993-1999-global": {
+      "code": "YTX14-BS",
+      "options": [
+        "GYZ16H",
+        "YTX14H"
+      ],
+      "years": "1993-1994",
+      "raw": "GTS1000 '93-'94 GYZ16H YTX14H YTX14-BS -"
+    },
+    "yamaha-mt-03-2016": {
+      "code": "YTZ8V",
+      "years": "2020-2024",
+      "raw": "300 MT03 '20-'24 - YTZ8V - -"
+    },
+    "yamaha-mt-07-2018": {
+      "code": "YTZ10S",
+      "years": "2018-2024",
+      "raw": "MT07 '18-'24 - YTZ10S - -",
+      "source": "fitment"
+    },
+    "yamaha-mt-09-2015-2018-global": {
+      "code": "YTZ10S",
+      "years": "2018-2024",
+      "raw": "MT09 '18-'24 - YTZ10S - -",
+      "source": "fitment"
+    },
+    "yamaha-mt-10-2016-present-global": {
+      "code": "YTZ10S",
+      "years": "2018-2020",
+      "raw": "MT-10 '18-'20 - YTZ10S - -"
+    },
+    "yamaha-qt-50-yamahopper-1979-1987-global": {
+      "code": "6N4-2A-5",
+      "years": "1979-1987",
+      "raw": "QT50Yamahopper '79-'87 - - - 6N4-2A-5"
+    },
+    "yamaha-r1-2020-2024-global": {
+      "code": "YTZ7S",
+      "years": "2015-2024",
+      "raw": "YZF-R1,M,S '15-'24 - YTZ7S - -"
+    },
+    "yamaha-r3-2015-2018-global": {
+      "code": "YTZ8V",
+      "years": "2015-2024",
+      "raw": "321 YZF-R3 '15-'24 - YTZ8V - -"
+    },
+    "yamaha-r3-2019-present-global": {
+      "code": "YTZ8V",
+      "years": "2015-2024",
+      "raw": "321 YZF-R3 '15-'24 - YTZ8V - -"
+    },
+    "yamaha-rd-250-1973-1979-global": {
+      "code": "12N5.5A-3B",
+      "years": "1973-1975",
+      "raw": "RD250 '73-'75 - - - 12N5.5A-3B"
+    },
+    "yamaha-rd-350-1973-1979-global": {
+      "code": "12N5.5A-3B",
+      "years": "1973-1975",
+      "raw": "RD350 '73-'75 - - - 12N5.5A-3B"
+    },
+    "yamaha-rd-60-1973-1975-global": {
+      "code": "6N4A-4D",
+      "years": "1973-1975",
+      "raw": "RD60 '73-'75 - - - 6N4A-4D"
+    },
+    "yamaha-rs-100-1975-1980-global": {
+      "code": "6N4A-4D",
+      "years": "1975-1976",
+      "raw": "RS100 '75-'76 - - - 6N4A-4D"
+    },
+    "yamaha-rz-350-1984-1988-global": {
+      "code": "12N5.5-3B",
+      "years": "1984-1985",
+      "raw": "RZ350 '84-'85 - - - 12N5.5-3B"
+    },
+    "yamaha-sr-500-1978-1998-global": {
+      "code": "YB7L-B",
+      "years": "1978-1999",
+      "raw": "500 SR500 '78-'99 - - - YB7L-B"
+    },
+    "yamaha-srx-600-1986-1999-global": {
+      "code": "YB5L-B",
+      "years": "1986-1986",
+      "raw": "SRX600 '86 - - - YB5L-B*"
+    },
+    "yamaha-tdm-850-1991-2001-global": {
+      "code": "YTX12-BS",
+      "years": "1992-1993",
+      "raw": "850 TDM850 ’92-’93 – – YTX12-BS –"
+    },
+    "yamaha-tt-r-225-2001-2004-global": {
+      "code": "YB7B-B",
+      "years": "1999-2005",
+      "raw": "225 TTR225 '99-'05 - - - YB7B-B"
+    },
+    "yamaha-tt-r-230-2005-2022-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2005-2024",
+      "raw": "230 TTR230 '05-'24 - YTZ7S YTX5L-BS -"
+    },
+    "yamaha-tw-200-1987-2022-global": {
+      "code": "YB7C-A",
+      "years": "1987-2024",
+      "raw": "TW200 '87-'24 - - - YB7C-A"
+    },
+    "yamaha-tx-650-1972-1973-global": {
+      "code": "YB12A-A",
+      "years": "1973-1973",
+      "raw": "TX650 '73 - - - YB12A-A*"
+    },
+    "yamaha-tx-750-1973-1974-global": {
+      "code": "YTX20L-BS",
+      "options": [
+        "GYZ20HL",
+        "YTX20HL-BS",
+        "YB16L-B"
+      ],
+      "years": "1973-1974",
+      "raw": "TX750 '73-'74 GYZ20HL YTX20HL-BS YTX20L-BS YB16L-B"
+    },
+    "yamaha-wr-250-f-2001-2013-global": {
+      "code": "YTZ7S",
+      "years": "2008-2024",
+      "raw": "WR250F '08-'24 - YTZ7S - -"
+    },
+    "yamaha-wr-250-r-2008-2020-global": {
+      "code": "YTZ7S",
+      "years": "2008-2020",
+      "raw": "WR250R,X,RL '08-'20 - YTZ7S - -"
+    },
+    "yamaha-wr-250-x-2008-2016-global": {
+      "code": "YTZ7S",
+      "years": "2008-2020",
+      "raw": "WR250R,X,RL '08-'20 - YTZ7S - -"
+    },
+    "yamaha-xc-200-riva-1987-1991-global": {
+      "code": "YB10L-B2",
+      "years": "1987-1991",
+      "raw": "200 XC200Riva '87-'91 - - - YB10L-B2"
+    },
+    "yamaha-xj-550-maxim-1981-1983-global": {
+      "code": "YB12A-A",
+      "years": "1981-1983",
+      "raw": "550 XJ550Maxim,RSeca '81-'83 - - - YB12A-A*"
+    },
+    "yamaha-xj-650-1980-1983-global": {
+      "code": "YB12A-A",
+      "years": "1980-1983",
+      "raw": "XJ650(All) '80-'83 - - - YB12A-A*"
+    },
+    "yamaha-xj-700-maxim-1985-1989-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1985-1986",
+      "raw": "XJ700Maxim,XJ700X '85-'86 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-xj-750-maxim-1982-1982-global": {
+      "code": "SYB14L-A2",
+      "years": "1982-1983",
+      "raw": "XJ750Maxim '82-'83 - - - SYB14L-A2†"
+    },
+    "yamaha-xs-400-1977-1985-global": {
+      "code": "YB12A-A",
+      "years": "1980-1983",
+      "raw": "XS400(All) '80-'83 - - - YB12A-A*"
+    },
+    "yamaha-xs-400-se-1980-1981-global": {
+      "code": "YB12A-A",
+      "years": "1980-1983",
+      "raw": "XS400(All) '80-'83 - - - YB12A-A*"
+    },
+    "yamaha-xs-500-1975-1981-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1975-1978",
+      "raw": "XS500 '75-'78 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-xs-650-1975-1985-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1975-1983",
+      "raw": "XS650 '75-'83 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-xs-650-se-1980-1982-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1975-1983",
+      "raw": "XS650 '75-'83 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-xs-750-1977-1980-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1977-1979",
+      "raw": "XS750(All) '77-'79 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-xs-750-se-1979-1980-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1977-1979",
+      "raw": "XS750(All) '77-'79 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-xs-850-1980-1981-global": {
+      "code": "YTX14AHL-BS",
+      "options": [
+        "SYB14L-A2"
+      ],
+      "years": "1980-1981",
+      "raw": "XS850(All) '80-'81 - YTX14AHL-BS - SYB14L-A2†"
+    },
+    "yamaha-xsr700-2016-present-global": {
+      "code": "YTZ10S",
+      "years": "2018-2024",
+      "raw": "XSR700 '18-'24 - YTZ10S - -"
+    },
+    "yamaha-xsr900-2022-present-global": {
+      "code": "YTZ10S",
+      "years": "2016-2024",
+      "raw": "XSR900 '16-'24 - YTZ10S - -"
+    },
+    "yamaha-xt-1200-z-super-tenere-2014-2019-global": {
+      "code": "YTZ12S",
+      "years": "2012-2020",
+      "raw": "XT1200ZSuperTenere ’12-’20 – YTZ12S – –"
+    },
+    "yamaha-xt-125-1982-1986-global": {
+      "code": "6N4A-4D",
+      "years": "1982-1983",
+      "raw": "XT125 '82-'83 - - - 6N4A-4D"
+    },
+    "yamaha-xt-225-1992-2001-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2001-2007",
+      "raw": "XT225 '01-'07 - YTZ7S YTX5L-BS -"
+    },
+    "yamaha-xt-250-1980-2022-global": {
+      "code": "YTZ7S",
+      "years": "2008-2024",
+      "raw": "XT250 '08-'24 - YTZ7S - -"
+    },
+    "yamaha-xt-350-1985-1996-global": {
+      "code": "YB3L-B",
+      "years": "1985-2000",
+      "raw": "XT350 '85-'00 - - - YB3L-B"
+    },
+    "yamaha-xt-500-1976-1989-global": {
+      "code": "6N6-3B-1",
+      "years": "1976-1981",
+      "raw": "XT500 '76-'81 - - - 6N6-3B-1"
+    },
+    "yamaha-xt-550-1982-1983-global": {
+      "code": "YB5L-B",
+      "years": "1982-1983",
+      "raw": "XT550 '82-'83 - - - YB5L-B"
+    },
+    "yamaha-xt-600-1983-1986-global": {
+      "code": "YB5L-B",
+      "years": "1984-1989",
+      "raw": "XT600 '84-'89 - - - YB5L-B*"
+    },
+    "yamaha-xv-1100-virago-1986-1999-global": {
+      "code": "YTX24HL-BS",
+      "options": [
+        "Y50-N18L-A-CX"
+      ],
+      "years": "1986-1999",
+      "raw": "XV1100Virago(All) '86-'99 - YTX24HL-BS - Y50-N18L-A-CX"
+    },
+    "yamaha-xv-1600-road-star-1999-2007-global": {
+      "code": "YTX20L-BS",
+      "options": [
+        "GYZ20HL",
+        "YTX20HL-BS"
+      ],
+      "years": "1999-2003",
+      "raw": "1600 XV1600RoadStar '99-'03 GYZ20HL YTX20HL-BS YTX20L-BS -"
+    },
+    "yamaha-xv-535-virago-1987-1997-global": {
+      "code": "YB12AL-A2",
+      "years": "1987-1999",
+      "raw": "535 XV535Virago '87-'99 - - - YB12AL-A2"
+    },
+    "yamaha-xv-700-virago-1987-1987-global": {
+      "code": "YB16AL-A2",
+      "years": "1984-1987",
+      "raw": "XV700Virago '84-'87 - - - YB16AL-A2"
+    },
+    "yamaha-xv-750-virago-1993-1997-global": {
+      "code": "YB16AL-A2",
+      "years": "1981-1996",
+      "raw": "XV750Virago(All) '81-'96 - - - YB16AL-A2"
+    },
+    "yamaha-xvs-1100-v-star-1999-2006-global": {
+      "code": "YT14B-BS",
+      "years": "1999-2010",
+      "raw": "XVS1100V-Star(All) ’99-’10 – – YT14B-BS –"
+    },
+    "yamaha-xvs-650-v-star-2009-2014-global": {
+      "code": "YT12B-BS",
+      "years": "1998-2016",
+      "raw": "XVS650V-Star(All) '98-'16 - - YT12B-BS -"
+    },
+    "yamaha-yp-400-majesty-2004-2013-global": {
+      "code": "YT9B-BS",
+      "years": "2004-2014",
+      "raw": "400 YP400Majesty '04-'14 - - YT9B-BS -"
+    },
+    "yamaha-ysr-50-1987-1992-global": {
+      "code": "6N4-2A-5",
+      "years": "1987-1992",
+      "raw": "YSR50 '87-'92 - - - 6N4-2A-5"
+    },
+    "yamaha-yx-600-radian-1987-1990-global": {
+      "code": "YB12A-A",
+      "years": "1986-1990",
+      "raw": "YX600Radian '86-'90 - - - YB12A-A*"
+    },
+    "yamaha-yz-250-fx-2015-2021-global": {
+      "code": "YTX5L-BS",
+      "options": [
+        "YTZ7S"
+      ],
+      "years": "2015-2018",
+      "raw": "YZ250FX '15-'18 - YTZ7S YTX5L-BS -"
+    },
+    "yamaha-yz-450-fx-2016-2022-global": {
+      "code": "YTZ7S",
+      "years": "2016-2018",
+      "raw": "YZ450FX '16-'18 - YTZ7S - -"
+    },
+    "yamaha-yzf-r6-2017-2020-global": {
+      "code": "YTZ7S",
+      "years": "2017-2022",
+      "raw": "YZF-R6(Excl.R6S) '17-'22 - YTZ7S - -"
+    },
+    "yamaha-yzf-r7-2021-present-global": {
+      "code": "YTZ7S",
+      "years": "2021-2024",
+      "raw": "YZF-R7 '21-'24 - YTZ7S - -"
+    },
+    "honda-cbr650r-2024-present-global": {
+      "code": "YTZ10S",
+      "source": "fitment"
+    },
+    "kawasaki-ninja-zx-6r": {
+      "code": "YTX9-BS",
+      "source": "fitment"
+    },
+    "honda-crf450r-2021-present-global": {
+      "code": "YTZ7S",
+      "source": "fitment"
+    },
+    "yamaha-yz450f-2023-present-global": {
+      "code": "YTZ7S",
+      "source": "fitment"
+    },
+    "kawasaki-kx450-2024-present-global": {
+      "rating": "12V lithium-ion",
+      "source": "manufacturer"
+    },
+    "ktm-450-sx-f-2022-present-global": {
+      "rating": "12V 2Ah lithium-ion",
+      "source": "manufacturer"
+    },
+    "ktm-250-adventure-2020-present-global": {
+      "code": "ETZ9-BS",
+      "rating": "12V 8Ah",
+      "source": "manufacturer"
+    },
+    "suzuki-v-strom-sx-250-2022-present-india": {
+      "rating": "12V 6Ah",
+      "source": "manufacturer"
+    }
+  }
+}

@@ -90,6 +90,11 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "KYB (46/16) Mono Tube Piggyback — 2008, 2020"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ7S"
           }
         ]
       },

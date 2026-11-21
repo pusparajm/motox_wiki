@@ -80,6 +80,11 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "Ohlins (46/16) Mono Tube Piggyback — 2007"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YT12B-BS"
           }
         ]
       },

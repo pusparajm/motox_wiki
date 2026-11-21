@@ -111,6 +111,11 @@
             "value": "BN8RTI"
           },
           {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.30 L + 0.24 L reservoir"

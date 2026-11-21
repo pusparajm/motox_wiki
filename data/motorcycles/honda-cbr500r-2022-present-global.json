@@ -116,6 +116,16 @@
             "value": "NGK CPR8EA-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ8V"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 7.4Ah"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 112 links"

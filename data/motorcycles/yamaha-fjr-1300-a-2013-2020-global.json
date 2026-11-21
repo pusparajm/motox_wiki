@@ -113,6 +113,11 @@
             "value": "NGK LMAR9E-J"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YT14B-BS"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "2.25 L"

@@ -123,6 +123,16 @@
             "key": "parts_note",
             "label": "Parts & Fitment Note",
             "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YIX30L-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "GYZ32HL"
           }
         ]
       },

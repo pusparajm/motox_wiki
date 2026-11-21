@@ -113,6 +113,11 @@
             "value": "NGK CPR7EA-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ7S"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "0.47 L"

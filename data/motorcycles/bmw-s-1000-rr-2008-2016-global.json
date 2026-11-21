@@ -116,6 +116,11 @@
             "value": "NGK LMAR9D-J"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA604/4HH · SBS 870 · Brembo 07BB33 · Vesrah VD-9053"

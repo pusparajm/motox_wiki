@@ -118,6 +118,11 @@
             "value": "NGK DR8EA"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YB7C-A"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "428 pitch, 120 links"

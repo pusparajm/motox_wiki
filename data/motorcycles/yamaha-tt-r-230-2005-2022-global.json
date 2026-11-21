@@ -118,6 +118,16 @@
             "value": "18 N·m (13 lb·ft)"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX5L-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "YTZ7S"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 pitch, 106 links"

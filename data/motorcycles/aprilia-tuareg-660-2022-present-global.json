@@ -159,6 +159,11 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "KYB (40/14) Mono Tube Piggyback — 2026"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
           }
         ]
       },

@@ -116,6 +116,11 @@
             "value": "NGK CR9EIA-9"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YT12A-BS"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "Brembo 07BB37"

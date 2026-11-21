@@ -118,6 +118,16 @@
             "value": "NGK DCPR 8 E"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX14-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "GYZ16H, YTX14H-BS"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "Belt"

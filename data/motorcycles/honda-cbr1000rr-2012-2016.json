@@ -116,6 +116,11 @@
             "value": "NGK IMR9E-9HES"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ7S"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA447HH · SBS 841/901 · Brembo 07HO50 · Vesrah VD-9031"

@@ -111,6 +111,11 @@
             "value": "VUH27ES (DENSO)"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
+          },
+          {
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 118 links"

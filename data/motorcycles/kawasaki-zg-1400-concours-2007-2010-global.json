@@ -55,6 +55,16 @@
             "key": "note",
             "label": "Note",
             "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX14H-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "GYZ16H"
           }
         ]
       },

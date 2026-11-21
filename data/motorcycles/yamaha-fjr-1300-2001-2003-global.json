@@ -80,6 +80,11 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "Soqi (44/14) Mono Tube (Dividing Piston) — 2002"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YT14B-BS"
           }
         ]
       },

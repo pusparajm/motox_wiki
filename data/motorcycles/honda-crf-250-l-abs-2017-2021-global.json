@@ -118,6 +118,16 @@
             "value": "SIMR8A9 (NGK)"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX7L-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "YTZ8V"
+          },
+          {
             "key": "coolant",
             "label": "Coolant",
             "value": "1.02 L"

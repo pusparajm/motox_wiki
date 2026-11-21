@@ -164,6 +164,11 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "KYB (32/12.5) Mono Tube (Emulsion) — 2016–2017, 2019"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX12-BS"
           }
         ]
       },

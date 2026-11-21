@@ -65,6 +65,16 @@
             "key": "fork_dust_seal",
             "label": "Fork Dust Seal Size",
             "value": "31.00 × 46.00 × 5.60/13.50 mm (SHOWA) — 2026"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX4L-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "YTZ5S-BS"
           }
         ]
       },

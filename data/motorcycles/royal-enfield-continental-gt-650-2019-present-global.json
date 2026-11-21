@@ -119,6 +119,16 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "525 O-ring, 110 links"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX14-BS"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "GYZ16H, YTX14H-BS"
           }
         ]
       },

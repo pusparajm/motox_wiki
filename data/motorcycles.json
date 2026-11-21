@@ -506,6 +506,11 @@
               "value": "NGK MR9DI-7"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA630HH · SBS 900HS · Brembo 07BB38 · Vesrah VD-9070"
@@ -1277,6 +1282,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "KYB (40/14) Mono Tube Piggyback — 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             }
           ]
         },
@@ -4557,6 +4567,16 @@
               "value": "NGK CR8E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA322/4HH · SBS 762/782 · Brembo 07BB33 · Vesrah VD-986"
@@ -5277,6 +5297,11 @@
               "key": "note",
               "label": "Note",
               "value": "BMW also specifies transmission-oil changes every 10,000 km or 24 months. The battery and motor use a separate coolant circuit; check the level at each service."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ6V"
             }
           ]
         },
@@ -5419,6 +5444,11 @@
               "key": "note",
               "label": "Note",
               "value": "Service data for this new model is still being compiled. Use the owner’s manual supplied with the bike for oil capacity, fluid grades and service intervals."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -5935,6 +5965,11 @@
               "key": "fork_slide_bushes",
               "label": "Fork Slide Bushes",
               "value": "43.70 × 20.00 × 1.00 mm — 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -6107,6 +6142,11 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -6259,6 +6299,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR9D-J"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             },
             {
               "key": "front_brake_pads",
@@ -6431,6 +6476,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR9D-J"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             },
             {
               "key": "front_brake_pads",
@@ -7397,6 +7447,16 @@
               "value": "NGK LMAR8AI-10"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA724HH · SBS 960 · Brembo 07GR90 · Vesrah VD-9088"
@@ -7566,6 +7626,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR8AI-10"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H"
             },
             {
               "key": "front_brake_pads",
@@ -7893,6 +7963,16 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YIX30L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ32HL"
             }
           ]
         },
@@ -8227,6 +8307,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR9D-J"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -9478,6 +9563,11 @@
               "value": "BN8RTI"
             },
             {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
+            },
+            {
               "key": "coolant",
               "label": "Coolant",
               "value": "1.30 L + 0.24 L reservoir"
@@ -9700,6 +9790,11 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "Brembo 07HO61"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 12Ah"
             }
           ]
         }
@@ -10677,6 +10772,11 @@
               "value": "NGK MAR9A-J"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT7B-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
@@ -11089,6 +11189,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK MAR10A-J"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12B-BS"
             },
             {
               "key": "front_brake_pads",
@@ -11513,6 +11618,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK MAR9A-J"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT7B-BS"
             },
             {
               "key": "front_brake_pads",
@@ -12582,6 +12692,11 @@
               "value": "NGK MAR9A-J"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12B-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA630HH · SBS 900 · Brembo 07BB38 · Vesrah VD-9070"
@@ -13333,6 +13448,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 116 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12B-BS"
             }
           ]
         },
@@ -14018,6 +14138,11 @@
               "value": "NGK LMDR10A-JS"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT7B-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
@@ -14188,6 +14313,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMDR10A-JS"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT7B-BS"
             },
             {
               "key": "front_brake_pads",
@@ -19860,6 +19990,16 @@
               "key": "note",
               "label": "Note",
               "value": "Earlier and XTEC editions use different sump capacities; confirm against the dipstick."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ4"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 3Ah"
             }
           ]
         },
@@ -20513,6 +20653,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "BOSCH VR5NEU"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ7"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah"
             },
             {
               "key": "service_interval",
@@ -21323,6 +21473,11 @@
               "key": "oil_grade",
               "label": "Oil Grade",
               "value": "SAE 10W-30, JASO MB"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -21854,6 +22009,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK IMR9E-9HES"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -22415,6 +22575,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK SIMR8A9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
             },
             {
               "key": "front_brake_pads",
@@ -23327,6 +23492,11 @@
               "value": "NGK CR9EH-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA142 · SBS 183/242/627 · Brembo 07HO30 · Vesrah VD-156"
@@ -23582,6 +23752,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (44/14) Mono Tube (Emulsion) — 2019, 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             }
           ]
         },
@@ -23908,6 +24083,11 @@
               "value": "NGK IMR9C-9HES"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA390HH · SBS 809 · Brembo 07HO50 · Vesrah VD-170"
@@ -24088,6 +24268,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK IMR9C-9HES"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -24272,6 +24457,11 @@
               "value": "NGK IMR9E-9HES"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA390HH · SBS 809 · Brembo 07HO50 · Vesrah VD-170"
@@ -24454,6 +24644,11 @@
               "value": "NGK IMR9E-9HES"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA447HH · SBS 841/901 · Brembo 07HO50 · Vesrah VD-9031"
@@ -24634,6 +24829,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "VUH27ES (DENSO)"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             },
             {
               "key": "front_brake_pads",
@@ -24831,6 +25031,11 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -25319,6 +25524,16 @@
               "value": "NGK CPR8EA-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 7.4Ah"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 112 links"
@@ -25499,6 +25714,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK IMR9E-9HES"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -25723,6 +25943,11 @@
               "value": "NGK CR9EH-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA142 · SBS 183/242/627 · Brembo 07HO30 · Vesrah VD-156"
@@ -25903,6 +26128,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EH-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -26431,6 +26661,11 @@
               "value": "VUH27ES (DENSO)"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 118 links"
@@ -26616,6 +26851,11 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -26828,6 +27068,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (40/14) Mono Tube (Emulsion) — 2022–2023, 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -26985,6 +27230,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK SILMAR9A9S"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             },
             {
               "key": "front_brake_pads",
@@ -28260,6 +28510,16 @@
               "value": "NGK IFR6G-11K"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "''24"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA196 · SBS 654/700 · Vesrah VD-156/2"
@@ -28435,6 +28695,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "CPR8EA-9 (NGK)"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
             },
             {
               "key": "chain",
@@ -28946,6 +29211,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 108 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -29128,6 +29398,11 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -31765,6 +32040,11 @@
               "value": "Replace every 24,000 km"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "GYZ20HL-C"
+            },
+            {
               "key": "brake_fluid",
               "label": "Brake Fluid",
               "value": "DOT 4"
@@ -31967,6 +32247,11 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "Brembo 07HO31"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "GYZ20HL-C"
             }
           ]
         }
@@ -32114,6 +32399,16 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "Brembo 07BB20"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14H-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H"
             }
           ]
         }
@@ -32413,6 +32708,11 @@
               "value": "Replace every 24,000 km"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AH"
+            },
+            {
               "key": "brake_fluid",
               "label": "Brake Fluid",
               "value": "DOT 4"
@@ -32625,6 +32925,11 @@
               "value": "Replace every 24,000 km"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AH"
+            },
+            {
               "key": "brake_fluid",
               "label": "Brake Fluid",
               "value": "DOT 4"
@@ -32830,6 +33135,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "Replace every 24,000 km"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AH"
             },
             {
               "key": "brake_fluid",
@@ -33356,6 +33666,11 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 586SI"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -33528,6 +33843,11 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 536HF"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7A-BS"
             }
           ]
         },
@@ -33867,6 +34187,11 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -34019,6 +34344,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CPR8EB-9"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V lithium-ion"
             },
             {
               "key": "front_brake_pads",
@@ -34201,6 +34531,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             },
             {
               "key": "front_brake_pads",
@@ -35103,6 +35438,11 @@
               "value": "NGK LMAR9G"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "SBS 955HS · Brembo 07KA31"
@@ -35328,6 +35668,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 112 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             }
           ]
         },
@@ -35500,6 +35845,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -35692,6 +36042,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -35906,6 +36261,11 @@
               "value": "NGK SILMAR9B9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA447HH · SBS 841/901 · Brembo 07BB37 · Vesrah VD-9031"
@@ -36076,6 +36436,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK SILMAR9E9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -36784,6 +37149,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14H-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H"
             },
             {
               "key": "coolant",
@@ -38050,6 +38425,11 @@
               "value": "NGK CR9E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 110 links"
@@ -38220,6 +38600,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             },
             {
               "key": "front_brake_pads",
@@ -38409,6 +38794,11 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA158 · SBS 631 · Brembo 07KA13 · Vesrah VD-343"
@@ -38594,6 +38984,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             },
             {
               "key": "front_brake_pads",
@@ -39521,6 +39916,11 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "Brembo 07HO30"
@@ -39701,6 +40101,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR8E"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             },
             {
               "key": "front_brake_pads",
@@ -40072,6 +40477,11 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "Brembo 07HO42"
@@ -40264,6 +40674,11 @@
               "value": "NGK CR8E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "Brembo 07KA18"
@@ -40439,6 +40854,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK SILMAR9E9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             },
             {
               "key": "front_brake_pads",
@@ -40661,6 +41081,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
             },
             {
               "key": "front_brake_pads",
@@ -41187,6 +41612,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 106 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -41354,6 +41784,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 112 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             }
           ]
         },
@@ -41526,6 +41961,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -41967,6 +42407,11 @@
               "value": "NGK CR9EK"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "Brembo 07KA23"
@@ -42177,6 +42622,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             },
             {
               "key": "front_brake_pads",
@@ -42444,6 +42894,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (40/14) Mono Tube (Emulsion) — 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -43713,6 +44168,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 118 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "ETZ9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -44870,6 +45335,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 118 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -45560,6 +46030,11 @@
               "value": "NGK LKAR8A-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 118 links"
@@ -46059,6 +46534,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR9AI-8"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 2Ah lithium-ion"
             },
             {
               "key": "front_brake_pads",
@@ -48350,6 +48830,11 @@
               "value": "NGK LKAR8A-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "Brembo 07GR18"
@@ -49670,6 +50155,16 @@
               "value": "NGK CPR8EB-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
+            },
+            {
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
@@ -50820,6 +51315,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 108 links"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -50982,6 +51482,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 108 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -51296,6 +51801,16 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 110 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -51787,6 +52302,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 110 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -51951,6 +52471,11 @@
               "value": "Replace every 20,000 km"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
               "key": "brake_fluid",
               "label": "Brake Fluid",
               "value": "DOT 4"
@@ -52111,6 +52636,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 108 links"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -52445,6 +52975,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 108 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -54144,6 +54679,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 110 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT7B-BS"
             }
           ]
         },
@@ -55006,6 +55546,11 @@
               "value": "NGK CR9E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA188 · SBS 686 · Brembo 07SU19 · Vesrah VD-349"
@@ -55186,6 +55731,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9E"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             },
             {
               "key": "front_brake_pads",
@@ -55370,6 +55920,11 @@
               "value": "NGK CR9E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA379HH · SBS 806 · Brembo 07SU27 · Vesrah VD-355"
@@ -55550,6 +56105,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9E"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
             },
             {
               "key": "front_brake_pads",
@@ -55764,6 +56324,11 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA379HH · SBS 806 · Brembo 07SU27 · Vesrah VD-355"
@@ -55944,6 +56509,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
             },
             {
               "key": "front_brake_pads",
@@ -56557,6 +57127,11 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "Brembo 07BB37"
@@ -56774,6 +57349,11 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "Brembo 07BB37"
@@ -56989,6 +57569,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ14S"
             },
             {
               "key": "front_brake_pads",
@@ -57415,6 +58005,11 @@
               "value": "NGK CR9EIA-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA347HH · SBS 782 · Vesrah VD-443"
@@ -57772,6 +58367,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "530 O-ring, 118 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -58465,6 +59065,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK MR8E-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
             },
             {
               "key": "rear_brake_pads",
@@ -59350,6 +59955,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 O-ring, 108 links"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah"
             }
           ]
         },
@@ -60305,6 +60915,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "KYB (32/12.5) Mono Tube (Emulsion) — 2016–2017, 2019"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -60694,6 +61309,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (40/14) Mono Tube (Dividing Piston) — 2025"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -62354,6 +62974,11 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "SBS 675LS"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -62860,6 +63485,11 @@
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 112 links"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -63391,6 +64021,11 @@
               "key": "service_interval",
               "label": "Service Interval",
               "value": "5,000 km / 6 months"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -66731,6 +67366,11 @@
               "value": "NGK CR8E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA663 · SBS 931 · Brembo 07YA52 · Vesrah VD-289"
@@ -66936,6 +67576,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR8A-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -67148,6 +67793,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CPR9EA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -67365,6 +68015,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR9E-J"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             },
             {
               "key": "front_brake_pads",
@@ -69653,6 +70308,11 @@
               "value": "NGK LMAR8A-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "Brembo 07YA23"
@@ -69870,6 +70530,11 @@
               "value": "LMAR9A-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "525 O-ring, 110 links"
@@ -70075,6 +70740,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR8E"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             },
             {
               "key": "front_brake_pads",
@@ -70297,6 +70967,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "LMAR9E-J"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             },
             {
               "key": "front_brake_pads",
@@ -71012,6 +71687,11 @@
               "value": "CR8E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
+            },
+            {
               "key": "front_brake_pads",
               "label": "Front Brake Pads",
               "value": "EBC FA663 · SBS 931 · Brembo 07YA52 · Vesrah VD-289"
@@ -71192,6 +71872,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "CR8E"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
             },
             {
               "key": "front_brake_pads",
@@ -71389,6 +72074,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "CR10EK"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             },
             {
               "key": "front_brake_pads",
@@ -71606,6 +72296,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "LMAR8A-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             },
             {
               "key": "front_brake_pads",
@@ -72616,6 +73311,11 @@
               "value": "NGK LMAR8J-9E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
+            },
+            {
               "key": "coolant",
               "label": "Coolant",
               "value": "1.90 L (2.01 US qt)"
@@ -72799,6 +73499,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR8AI-10"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H"
             },
             {
               "key": "coolant",
@@ -75324,6 +76034,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -75466,6 +76186,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -76369,6 +77099,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -76440,6 +77180,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -77505,6 +78255,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7A-BS"
             }
           ]
         },
@@ -77718,6 +78473,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7A-BS"
             }
           ]
         },
@@ -79764,6 +80524,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Sachs (46/16) Mono Tube Piggyback — 2004"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -79860,6 +80625,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Ohlins (46/16) Mono Tube Piggyback — 2008"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -95007,6 +95777,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -95276,6 +96056,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR8D-J"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             },
             {
               "key": "chain",
@@ -95696,6 +96486,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/14) Mono Tube (Dividing Piston) — 2012"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -95767,6 +96567,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YB12AL-A"
             }
           ]
         },
@@ -96051,6 +96861,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12AL-A"
             }
           ]
         },
@@ -96690,6 +97505,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -97443,6 +98268,16 @@
               "value": "NGK DCPR 8 E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "Belt"
@@ -97552,6 +98387,16 @@
               "key": "fork_oil_grade",
               "label": "Fork Oil Grade",
               "value": "7.5W — 2009, 2014"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -97744,6 +98589,16 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2012"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -98662,6 +99517,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -100903,6 +101768,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -101258,6 +102133,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -101542,6 +102427,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -101613,6 +102508,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -101755,6 +102660,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -101897,6 +102812,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -102394,6 +103319,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -102536,6 +103471,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -102678,6 +103623,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -102749,6 +103704,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -102820,6 +103785,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -103180,6 +104155,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/16) Mono Tube (Dividing Piston) — 2012"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -103251,6 +104236,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
             }
           ]
         },
@@ -103839,6 +104829,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -103910,6 +104910,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -103981,6 +104991,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -104077,6 +105097,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Ohlins (46/16) Mono Tube Piggyback — 2007"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -104148,6 +105178,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -104290,6 +105330,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H"
             }
           ]
         },
@@ -104538,6 +105588,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "WP (46/14) Mono Tube Piggyback EDS — 2010"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -104609,6 +105669,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -104751,6 +105821,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -104964,6 +106044,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -105035,6 +106125,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT19BL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "51913"
             }
           ]
         },
@@ -105978,6 +107078,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14L"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16HL, FA"
             }
           ]
         },
@@ -106049,6 +107159,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14L"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16HL, FA"
             }
           ]
         },
@@ -111402,6 +112522,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -111970,6 +113100,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -112041,6 +113181,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -124128,6 +125278,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Ohlins (46/16) Mono Tube Piggyback — 2007"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12B-BS"
             }
           ]
         },
@@ -128193,6 +129348,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB16AL-A2"
             }
           ]
         },
@@ -130064,6 +131224,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/14) Mono Tube Piggyback — 1998"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB16AL-A2"
             }
           ]
         },
@@ -132732,6 +133897,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/14) Mono Tube Piggyback — 2001"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB16AL-A2"
             }
           ]
         },
@@ -133259,6 +134429,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12B-BS"
             }
           ]
         },
@@ -133871,6 +135046,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/14) Mono Tube Piggyback — 2006"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12B-BS"
             }
           ]
         },
@@ -135609,6 +136789,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/14) Mono Tube Piggyback — 2008"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -139731,6 +140921,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/14) Mono Tube Piggyback — 2011"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12B-BS"
             }
           ]
         },
@@ -160077,6 +161272,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX20H-BSC"
             }
           ]
         },
@@ -162678,6 +163878,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16HL"
             }
           ]
         },
@@ -181158,6 +182368,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -181711,6 +182926,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4-2A-6"
             }
           ]
         },
@@ -181990,6 +183210,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB4L-B"
             }
           ]
         },
@@ -183025,6 +184250,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX4L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ5S-BS"
             }
           ]
         },
@@ -183619,6 +184854,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX4L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ5S-BS"
             }
           ]
         },
@@ -184578,6 +185823,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -185121,6 +186371,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -185857,6 +187117,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX4L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ5S-BS"
             }
           ]
         },
@@ -187160,6 +188430,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX4L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ5S-BS"
             }
           ]
         },
@@ -187454,6 +188734,16 @@
               "key": "fork_dust_seal",
               "label": "Fork Dust Seal Size",
               "value": "31.00 × 46.00 × 5.60/13.50 mm (SHOWA) — 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX4L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ5S-BS"
             }
           ]
         },
@@ -188313,6 +189603,11 @@
               "value": "NGK CPR7EA-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
+            },
+            {
               "key": "coolant",
               "label": "Coolant",
               "value": "0.47 L"
@@ -188777,6 +190072,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4-2A-4"
             }
           ]
         },
@@ -189198,6 +190498,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -189269,6 +190579,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -189634,6 +190954,11 @@
               "key": "note",
               "label": "Note",
               "value": "Honda PCX150 specifications are recorded for the 2018-generation model. Confirm the exact model year against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -189847,6 +191172,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -190258,6 +191588,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4-2A-4"
             }
           ]
         },
@@ -190542,6 +191877,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AH-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YB14A-A2"
             }
           ]
         },
@@ -191095,6 +192440,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB3L-A"
             }
           ]
         },
@@ -191435,6 +192785,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -191506,6 +192866,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -191932,6 +193302,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -192069,6 +193449,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -192140,6 +193530,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -192211,6 +193611,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -192474,6 +193884,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -192616,6 +194031,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -193396,6 +194821,11 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -193497,6 +194927,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (40/14) Mono Tube (Emulsion) — 2015"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -193629,6 +195069,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "SIMR8A9 (NGK)"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             },
             {
               "key": "coolant",
@@ -194149,6 +195599,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (50/16) Mono Tube Piggyback — 2004, 2014"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -194423,6 +195883,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
             }
           ]
         },
@@ -194494,6 +195959,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -194935,6 +196410,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB3L-A"
             }
           ]
         },
@@ -195006,6 +196486,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4-2A-4"
             }
           ]
         },
@@ -195173,6 +196658,16 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 1991, 1996"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX4L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ5S-BS"
             }
           ]
         },
@@ -195939,6 +197434,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK SIMR8A9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             },
             {
               "key": "coolant",
@@ -196847,6 +198352,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -197080,6 +198590,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N6-3B"
             }
           ]
         },
@@ -197151,6 +198666,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB3L-A"
             }
           ]
         },
@@ -197293,6 +198813,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -197430,6 +198955,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -198206,6 +199736,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -198738,6 +200278,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -199679,6 +201224,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (50/16) Mono Tube Piggyback — 2011, 2020"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -199892,6 +201442,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             }
           ]
         },
@@ -200535,6 +202090,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -200606,6 +202171,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -201017,6 +202592,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -201296,6 +202881,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -201955,6 +203545,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -202736,6 +204331,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
             }
           ]
         },
@@ -203030,6 +204630,11 @@
               "key": "fork_dust_seal",
               "label": "Fork Dust Seal Size",
               "value": "39.00 × 53.00 × 5.60/15.00 mm (SHOWA) — 1986"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB3L-A"
             }
           ]
         },
@@ -203101,6 +204706,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-B"
             }
           ]
         },
@@ -203278,6 +204888,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -203587,6 +205202,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12AL-A2"
             }
           ]
         },
@@ -204150,6 +205770,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -204398,6 +206023,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/14) Mono Tube (Hose Reservoir) — 1998, 2016"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -204712,6 +206342,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
             }
           ]
         },
@@ -205341,6 +206976,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
             }
           ]
         },
@@ -205767,6 +207407,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AH-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YB14-A2"
             }
           ]
         },
@@ -205838,6 +207488,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AH-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YB14-A2"
             }
           ]
         },
@@ -206122,6 +207782,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AH-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YB14-B2"
             }
           ]
         },
@@ -206776,6 +208446,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -207131,6 +208811,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AH-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YB14-A2"
             }
           ]
         },
@@ -208287,6 +209977,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -208358,6 +210053,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -209362,6 +211062,11 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 1997"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -209646,6 +211351,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
             }
           ]
         },
@@ -209717,6 +211427,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
             }
           ]
         },
@@ -209925,6 +211640,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -209991,6 +211716,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -210275,6 +212010,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             }
           ]
         },
@@ -210346,6 +212086,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             }
           ]
         },
@@ -211303,6 +213048,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/14) Mono Tube Piggyback — 2019"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
             }
           ]
         },
@@ -211983,6 +213733,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB16B-A"
             }
           ]
         },
@@ -212317,6 +214072,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (36/12.5) Mono Tube (Emulsion) — 2013, 2016"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
             }
           ]
         },
@@ -212449,6 +214209,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR8A-9S"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
             },
             {
               "key": "chain",
@@ -213254,6 +215019,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX24HL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "Y50-N18L-A-CX"
             }
           ]
         },
@@ -213847,6 +215622,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "HYB16A-AB"
             }
           ]
         },
@@ -213918,6 +215698,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -214273,6 +216063,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX24HL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "Y50-N18L-A-CX"
             }
           ]
         },
@@ -214379,6 +216179,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (46/14) Mono Tube (Dividing Piston) — 2019"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
             }
           ]
         },
@@ -214911,6 +216716,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
             }
           ]
         },
@@ -214982,6 +216792,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
             }
           ]
         },
@@ -215580,6 +217395,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -215651,6 +217476,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -215859,6 +217694,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -216064,6 +217909,11 @@
               "value": "NGK CR6HSB-9"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "GYZ20L"
+            },
+            {
               "key": "coolant",
               "label": "Coolant",
               "value": "3.53 L"
@@ -216259,6 +218109,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX20L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ20HL-C, YTX20HL-BS"
             }
           ]
         },
@@ -228256,6 +230116,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment and partial engine/chassis data describe the 2020 model year; remaining specifications are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
             }
           ]
         },
@@ -232082,6 +233947,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -232153,6 +234028,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -232787,6 +234667,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -233142,6 +235032,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -233213,6 +235113,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -241554,6 +243464,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX4L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ5S-BS"
             }
           ]
         },
@@ -242304,6 +244224,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX4L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ5S-BS"
             }
           ]
         },
@@ -242517,6 +244447,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -243521,6 +245461,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment and partial engine/chassis data describe the 2023 model year; remaining specifications are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -243668,6 +245618,11 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications are shared with the Kawasaki KLX 230. Variant-specific equipment may differ; confirm against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7A-BS"
             }
           ]
         },
@@ -243739,6 +245694,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB9L-A2"
             }
           ]
         },
@@ -244236,6 +246196,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N6-1D-2"
             }
           ]
         },
@@ -244378,6 +246343,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -244804,6 +246779,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -244875,6 +246860,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -246882,6 +248877,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT7B-BS"
             }
           ]
         },
@@ -246953,6 +248953,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT7B-BS"
             }
           ]
         },
@@ -247840,6 +249845,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "KYB (46/16) Mono Tube Piggyback — 2008, 2020"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -248807,6 +250817,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -249441,6 +251456,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -250384,6 +252404,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -250455,6 +252480,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -250810,6 +252840,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -251231,6 +253266,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -252205,6 +254250,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -253941,6 +255991,11 @@
               "value": "NGK CR8E"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 pitch, 104 links"
@@ -254344,6 +256399,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB10L-A2"
             }
           ]
         },
@@ -255119,6 +257179,11 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -255251,6 +257316,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR9EIA-9"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             },
             {
               "key": "coolant",
@@ -256006,6 +258076,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -256432,6 +258512,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX20L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ20HL, YTX20HL-BS, YB18L-A"
             }
           ]
         },
@@ -257020,6 +259110,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
             }
           ]
         },
@@ -258703,6 +260798,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -259159,6 +261264,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "KYB (36/12.5) Mono Tube Piggyback — 2006"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -259336,6 +261451,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -259610,6 +261735,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14H-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H"
             }
           ]
         },
@@ -322412,6 +324547,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT4B-BS"
             }
           ]
         },
@@ -322752,6 +324892,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4B-2A"
             }
           ]
         },
@@ -323391,6 +325536,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK CR7HSA"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT4B-BS"
             },
             {
               "key": "chain",
@@ -325146,6 +327296,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -325354,6 +327514,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB7-A"
             }
           ]
         },
@@ -326221,6 +328386,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4-2A"
             }
           ]
         },
@@ -327185,6 +329355,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -327256,6 +329436,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -327464,6 +329654,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB4L-B"
             }
           ]
         },
@@ -328052,6 +330247,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -328123,6 +330328,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB10L-A2"
             }
           ]
         },
@@ -328615,6 +330825,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -329101,6 +331316,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4B-2A"
             }
           ]
         },
@@ -329233,6 +331453,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -329542,6 +331772,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (40/14) Mono Tube (Hose Reservoir) — 1994, 1997"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ8V"
             }
           ]
         },
@@ -329679,6 +331919,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4B-2A"
             }
           ]
         },
@@ -329917,6 +332162,16 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2006"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ14S"
             }
           ]
         },
@@ -330130,6 +332385,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB10L-A2"
             }
           ]
         },
@@ -330231,6 +332491,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (40/14) Mono Tube (Emulsion) — 1994"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -330434,6 +332699,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4B-2A"
             }
           ]
         },
@@ -330505,6 +332775,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB10L-A2"
             }
           ]
         },
@@ -330576,6 +332851,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12B-B2"
             }
           ]
         },
@@ -330860,6 +333140,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB10L-B2"
             }
           ]
         },
@@ -332040,6 +334325,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -332354,6 +334644,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "KYB (32/12.5) Mono Tube (Emulsion) — 2019"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -332521,6 +334821,11 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2009, 2011"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -332972,6 +335277,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -333043,6 +335358,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -333783,6 +336108,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
             }
           ]
         },
@@ -334097,6 +336427,11 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2016"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
             }
           ]
         },
@@ -334168,6 +336503,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -334239,6 +336579,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -334655,6 +337000,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -336247,6 +338602,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -336389,6 +338749,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YB14L-A2"
             }
           ]
         },
@@ -336556,6 +338926,16 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2013"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -336840,6 +339220,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -337088,6 +339478,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "KYB (40/14) Mono Tube (Emulsion) — 2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12A-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ14S"
             }
           ]
         },
@@ -337230,6 +339630,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H"
             }
           ]
         },
@@ -338629,6 +341039,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YB14L-B2"
             }
           ]
         },
@@ -338806,6 +341226,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Showa (40/14) Mono Tube (Emulsion) — 2006"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -358383,6 +360808,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -378016,6 +380446,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4-2A-5"
             }
           ]
         },
@@ -379066,6 +381501,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4-2A-5"
             }
           ]
         },
@@ -379269,6 +381709,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4A-4D"
             }
           ]
         },
@@ -380192,6 +382637,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4A-4D"
             }
           ]
         },
@@ -382388,6 +384838,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N4A-4D"
             }
           ]
         },
@@ -384956,6 +387411,11 @@
               "value": "NGK DR8EA"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB7C-A"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "428 pitch, 120 links"
@@ -385126,6 +387586,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB10L-B2"
             }
           ]
         },
@@ -385537,6 +388002,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB7B-B"
             }
           ]
         },
@@ -385608,6 +388078,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -385943,6 +388423,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "18 N·m (13 lb·ft)"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
             },
             {
               "key": "chain",
@@ -386460,6 +388950,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "12N5.5A-3B"
             }
           ]
         },
@@ -387129,6 +389624,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "KYB (46/16) Mono Tube Piggyback — 2003, 2013"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -387501,6 +390001,11 @@
               "value": "13 N·m (9.6 lb·ft)"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
+            },
+            {
               "key": "coolant",
               "label": "Coolant",
               "value": "0.65 L"
@@ -387640,6 +390145,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             }
           ]
         },
@@ -388031,6 +390541,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK BPR7ES"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
             },
             {
               "key": "chain",
@@ -389523,6 +392038,16 @@
               "value": "13 N·m (9.4 lb·ft)"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX5L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "YTZ7S"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 pitch, 114 links"
@@ -390174,6 +392699,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "12N5.5A-3B"
             }
           ]
         },
@@ -390245,6 +392775,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "12N5.5-3B"
             }
           ]
         },
@@ -390458,6 +392993,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB3L-B"
             }
           ]
         },
@@ -391056,6 +393596,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -391198,6 +393743,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -391406,6 +393956,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT9B-BS"
             }
           ]
         },
@@ -392299,6 +394854,11 @@
               "value": "13 N·m (9.6 lb·ft)"
             },
             {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ7S"
+            },
+            {
               "key": "chain",
               "label": "Chain / Final Drive",
               "value": "520 pitch, 114 links"
@@ -392778,6 +395338,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB7L-B"
             }
           ]
         },
@@ -393204,6 +395769,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -393275,6 +395850,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "6N6-3B-1"
             }
           ]
         },
@@ -393914,6 +396494,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12AL-A2"
             }
           ]
         },
@@ -393985,6 +396570,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -394122,6 +396712,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB5L-B"
             }
           ]
         },
@@ -394538,6 +397133,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -394604,6 +397204,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -395238,6 +397843,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12AL-A2"
             }
           ]
         },
@@ -395334,6 +397944,11 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 1994–1995"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12AL-A2"
             }
           ]
         },
@@ -395592,6 +398207,11 @@
               "key": "fork_slide_bushes",
               "label": "Fork Slide Bushes",
               "value": "36.70 × 20.00 × 1.00 mm — 1996–1997"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB5L-B"
             }
           ]
         },
@@ -395901,6 +398521,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB5L-B"
             }
           ]
         },
@@ -395972,6 +398597,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -396144,6 +398774,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -396215,6 +398850,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB12A-A"
             }
           ]
         },
@@ -396499,6 +399139,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -396565,6 +399215,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -396798,6 +399458,11 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2014"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT12B-BS"
             }
           ]
         },
@@ -397386,6 +400051,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -398040,6 +400715,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -398546,6 +401231,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB16AL-A2"
             }
           ]
         },
@@ -398947,6 +401637,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -399297,6 +401997,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX20L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ20HL, YTX20HL-BS, YB16L-B"
             }
           ]
         },
@@ -399647,6 +402357,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -399784,6 +402499,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -399926,6 +402651,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -400210,6 +402945,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YB16AL-A2"
             }
           ]
         },
@@ -401132,6 +403872,11 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 1993"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX12-BS"
             }
           ]
         },
@@ -401203,6 +403948,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -402992,6 +405747,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H"
             }
           ]
         },
@@ -403311,6 +406076,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H"
             }
           ]
         },
@@ -404208,6 +406983,16 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 1985"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -404629,6 +407414,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX24HL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "Y50-N18L-A-CX"
             }
           ]
         },
@@ -404725,6 +407520,11 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2006"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT14B-BS"
             }
           ]
         },
@@ -404897,6 +407697,16 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 1990"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "SYB14L-A2"
             }
           ]
         },
@@ -404968,6 +407778,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ16H, YTX14H-BS"
             }
           ]
         },
@@ -405140,6 +407960,11 @@
               "key": "fork_seal_circlip",
               "label": "Fork Seal Circlip",
               "value": "41.00/43.00 mm — 2014, 2019"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ12S"
             }
           ]
         },
@@ -405713,6 +408538,11 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "Soqi (44/14) Mono Tube (Dividing Piston) — 2002"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT14B-BS"
             }
           ]
         },
@@ -405840,6 +408670,11 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR9E-J"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT14B-BS"
             },
             {
               "key": "coolant",
@@ -405971,6 +408806,11 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YT14B-BS"
             }
           ]
         },
@@ -407320,6 +410160,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX20L-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "GYZ20HL, YTX20HL-BS"
             }
           ]
         },

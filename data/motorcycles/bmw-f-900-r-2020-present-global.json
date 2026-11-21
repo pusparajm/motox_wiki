@@ -149,6 +149,11 @@
             "key": "fork_slide_bushes",
             "label": "Fork Slide Bushes",
             "value": "43.70 × 20.00 × 1.00 mm — 2026"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX12-BS"
           }
         ]
       },

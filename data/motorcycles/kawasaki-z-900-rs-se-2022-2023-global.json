@@ -146,6 +146,11 @@
             "key": "note",
             "label": "Note",
             "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
           }
         ]
       },

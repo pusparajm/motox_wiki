@@ -59,6 +59,10 @@ def service(bike, key):
     return ""
 
 
+def battery_value(bike):
+    return service(bike, "battery") or service(bike, "battery_rating")
+
+
 def numeric(value):
     if not value:
         return 0.0
@@ -318,7 +322,7 @@ def build_index(bikes):
         ("weight-chart", "Motorcycle Weight Chart", "Kerb weights across every model, useful for A2, garage and touring decisions."),
         ("horsepower-chart", "Motorcycle Horsepower Chart", "Power and torque figures sorted from highest to lowest."),
         ("torque-specs", "Motorcycle Torque Specifications", "Fastener torque tables and links to model-specific torque data."),
-        ("parts-fitment-codes", "Motorcycle Parts & Fitment Codes", "Spark plug, brake pad, wheel bearing, steering head bearing and fork seal codes by model."),
+        ("parts-fitment-codes", "Motorcycle Parts & Fitment Codes", "Spark plug, battery, brake pad, wheel bearing, steering head bearing and fork seal codes by model."),
         ("best-beginner-motorcycles", "Best Beginner Motorcycles", "A data-driven shortlist based on power, seat height and weight."),
         ("a2-motorcycles", "A2 Motorcycles", "Motorcycles within the 35 kW / 0.2 kW-per-kg A2 envelope."),
         ("best-125cc-motorcycles", "Best 125cc Motorcycles", "125–155 cc commuters, sportbikes and mini-bikes."),
@@ -539,7 +543,7 @@ def build_parts_fitment(bikes):
         <li>Use the workshop manual for torque values, fluid volumes and bed-in procedure.</li>
       </ol>
       <p>Codes can change when a manufacturer revises a compound or kit. Treat this page as a starting point and confirm the part against your exact machine before ordering.</p>
-      {related_guides([("oil-capacity-chart.html", "Motorcycle oil capacity chart"), ("torque-specs.html", "Motorcycle torque specifications"), ("seat-height-chart.html", "Motorcycle seat height chart"), ("../reference/brake-pad-fitment.html", "Brake pad fitment table"), ("../reference/pad-shape-cross-reference.html", "Brake pad shape cross-reference")])}
+      {related_guides([("oil-capacity-chart.html", "Motorcycle oil capacity chart"), ("torque-specs.html", "Motorcycle torque specifications"), ("seat-height-chart.html", "Motorcycle seat height chart"), ("../reference/brake-pad-fitment.html", "Brake pad fitment table"), ("../reference/battery-finder.html", "Motorcycle battery code finder"), ("../reference/pad-shape-cross-reference.html", "Brake pad shape cross-reference")])}
     """
     return guide_page(
         "parts-fitment-codes", "Motorcycle Parts & Fitment Codes",
@@ -772,6 +776,7 @@ def build_brand_pages(bikes):
           <ul>
             <li><a href="tyre-size-finder.html">Motorcycle tyre size finder</a></li>
             <li><a href="fork-seal-finder.html">Fork seal and suspension finder</a></li>
+            <li><a href="battery-finder.html">Motorcycle battery code finder</a></li>
             <li><a href="brake-pad-fitment.html">Motorcycle brake pad fitment table</a></li>
           </ul>
         """
@@ -881,6 +886,42 @@ def build_fork_seal_finder(bikes):
         "Fork seal, dust seal, bush and rear-shock data by model.",
         content,
         "Fork Seal & Suspension Finder",
+    )
+
+
+def build_battery_finder(bikes):
+    rows = []
+    for bike in sorted(bikes, key=name):
+        code = service(bike, "battery")
+        options = service(bike, "battery_options")
+        rating = service(bike, "battery_rating")
+        if not (code or rating):
+            continue
+        rows.append([
+            bike_link(bike),
+            esc(bike.get("year", "")),
+            esc(bike.get("category", "")),
+            esc(code),
+            esc(options),
+            esc(rating),
+        ])
+    content = f"""
+      <p>Battery codes for {len(rows)} motorcycle models, from verified fitment data. Codes are listed only where a fitment has been confirmed for the model entry; blank cells are deliberate.</p>
+      <p>Battery case dimensions, terminal layout and hold-down can differ within the same model family. Confirm the code, dimensions and polarity against the battery fitted to your machine before ordering.</p>
+      <p><a href="all-models.html">All models</a> · <a href="tyre-size-finder.html">Tyre size finder</a> · <a href="fork-seal-finder.html">Fork seal finder</a> · <a href="../guides/parts-fitment-codes.html">Parts and fitment codes</a></p>
+      {table(["Model", "Year", "Category", "Battery", "Options", "Rating"], rows)}
+      <h2>Reading a battery code</h2>
+      <p>Codes such as YTX9-BS, YTZ10S and GYZ16H identify case size, terminal layout and performance class. They are not interchangeable just because the voltage matches. A larger-capacity code may not fit the battery box, and a different terminal layout can prevent the leads from reaching.</p>
+      <p>For models without a listed code, use the battery currently fitted as the primary reference, then check the owner's or workshop manual for the specified capacity and dimensions.</p>
+    """
+    return reference_page(
+        "battery-finder",
+        "Motorcycle Battery Code Finder",
+        f"Battery codes for {len(rows)} motorcycle models, with alternative codes and battery ratings where verified.",
+        "Motorcycle Battery Code Finder",
+        f"{len(rows)} models with verified battery data.",
+        content,
+        "Battery Code Finder",
     )
 
 
@@ -1072,6 +1113,7 @@ def comparison(item, a, b):
         ("Rear brake", lambda x: field(x, "rear_brake")),
         ("Tyres", lambda x: field(x, "tyres")),
         ("Oil capacity", lambda x: service(x, "oil_capacity")),
+        ("Battery", lambda x: battery_value(x)),
     ]
     rows = "".join(
         f"<tr><th>{esc(label)}</th><td>{esc(fn(a))}</td><td>{esc(fn(b))}</td></tr>"
@@ -1237,11 +1279,12 @@ def segment_comparison(item, models):
             esc(field(model, "rear_suspension")),
             esc(field(model, "front_brake")),
             esc(field(model, "rear_brake")),
+            esc(battery_value(model)),
             esc(field(model, "tyres")),
         ])
     electric = item["slug"] == "electric-motorcycles"
     engine_headers = ["Model", "Year", "Engine", "Power", "Torque", "Weight", "Seat", "Battery" if electric else "Fuel"]
-    chassis_headers = ["Model", "Front suspension", "Rear suspension", "Front brake", "Rear brake", "Tyres"]
+    chassis_headers = ["Model", "Front suspension", "Rear suspension", "Front brake", "Rear brake", "Battery", "Tyres"]
     leaders = segment_leaders(models, electric)
     faqs = segment_faqs(models, electric)
     faq_html = "".join(
@@ -1341,6 +1384,9 @@ def bike_faq(bike):
     kerb = field(bike, "weight")
     oil = service(bike, "oil_capacity")
     oil_grade = service(bike, "oil_grade")
+    battery = service(bike, "battery")
+    battery_options = service(bike, "battery_options")
+    battery_rating = service(bike, "battery_rating")
     top = field(bike, "top_speed")
     fuel = field(bike, "fuel_capacity")
     disp = bike.get("displacement") or field(bike, "displacement")
@@ -1464,6 +1510,17 @@ def bike_faq(bike):
         faq.append((f"What brakes does the {full} use?", answer))
     if usable(interval):
         faq.append((f"What is the service interval for the {full}?", f"The listed service interval is {interval}. Confirm the schedule for your market and model year."))
+
+    if battery:
+        answer = f"The listed battery code is {battery}."
+        if battery_options:
+            answer += f" Alternative listed codes: {battery_options}."
+        if battery_rating:
+            answer += f" Battery rating: {battery_rating}."
+        answer += " Confirm terminal layout and case dimensions against the battery fitted to your machine."
+        faq.append((f"What battery does the {full} use?", answer))
+    elif battery_rating:
+        faq.append((f"What is the battery rating of the {full}?", f"The listed battery rating is {battery_rating}. The battery code is not yet verified for this entry."))
 
     if oil:
         answer = f"Engine oil capacity is {oil}"
@@ -2192,6 +2249,7 @@ def main():
     urls.append(build_pad_shape_crossref(bikes))
     urls.append(build_tyre_finder(bikes))
     urls.append(build_fork_seal_finder(bikes))
+    urls.append(build_battery_finder(bikes))
     urls.append(build_beginner(bikes))
     urls.append(build_a2(bikes))
     urls.append(build_125(bikes))

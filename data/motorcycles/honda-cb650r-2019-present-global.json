@@ -154,6 +154,11 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "Showa (44/14) Mono Tube (Emulsion) — 2019, 2026"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
           }
         ]
       },

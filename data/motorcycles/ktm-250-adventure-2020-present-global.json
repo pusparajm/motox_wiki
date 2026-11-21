@@ -109,6 +109,16 @@
             "key": "chain",
             "label": "Chain / Final Drive",
             "value": "520 O-ring, 118 links"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "ETZ9-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah"
           }
         ]
       },

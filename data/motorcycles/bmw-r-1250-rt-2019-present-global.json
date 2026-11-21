@@ -115,6 +115,16 @@
             "value": "NGK LMAR8AI-10"
           },
           {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_options",
+            "label": "Battery Options",
+            "value": "GYZ16H"
+          },
+          {
             "key": "front_brake_pads",
             "label": "Front Brake Pads",
             "value": "EBC FA724HH · SBS 960 · Brembo 07GR90 · Vesrah VD-9088"

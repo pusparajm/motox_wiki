@@ -90,6 +90,11 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "Showa (46/14) Mono Tube (Hose Reservoir) — 1998, 2016"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
           }
         ]
       },

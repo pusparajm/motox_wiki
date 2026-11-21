@@ -123,6 +123,11 @@
             "key": "note",
             "label": "Note",
             "value": "BMW also specifies transmission-oil changes every 10,000 km or 24 months. The battery and motor use a separate coolant circuit; check the level at each service."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ6V"
           }
         ]
       },
