@@ -151,6 +151,16 @@
             "key": "rear_brake_pads",
             "label": "Rear Brake Pads",
             "value": "Brembo 07GR93"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX9-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8Ah"
           }
         ]
       }

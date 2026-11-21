@@ -116,6 +116,16 @@
             "key": "note",
             "label": "Note",
             "value": "Specifications are shared with the CFMOTO 800 MT Touring. Variant-specific equipment may differ; confirm against the owner's manual."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
           }
         ]
       },

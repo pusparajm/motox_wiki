@@ -103,6 +103,11 @@
       "rating": "12V 14Ah",
       "source": "manufacturer"
     },
+    "benelli-302r-2015-2020-global": {
+      "code": "YTX9-BS",
+      "rating": "12V 8Ah",
+      "source": "fitment"
+    },
     "benelli-502c-2021-present-global": {
       "code": "YTX9-BS",
       "rating": "12V 8Ah",
@@ -121,6 +126,16 @@
       "rating": "12V 11.2Ah",
       "source": "manufacturer"
     },
+    "benelli-bn-302-r-2017-2019-global": {
+      "code": "YTX9-BS",
+      "rating": "12V 8Ah",
+      "source": "fitment"
+    },
+    "benelli-bn-302-s-2018-2019-global": {
+      "code": "YTX9-BS",
+      "rating": "12V 8Ah",
+      "source": "fitment"
+    },
     "benelli-imperiale-400-2019-present-global": {
       "code": "YTX9-BS",
       "rating": "12V 8Ah",
@@ -135,6 +150,11 @@
       "code": "YTX12-BS",
       "rating": "12V 11Ah",
       "source": "manufacturer"
+    },
+    "benelli-tnt-135-2018-2019-global": {
+      "code": "YTX7A-BS",
+      "rating": "12V 6Ah",
+      "source": "guide"
     },
     "benelli-trk-502-2017-present-global": {
       "code": "YTX9-BS",
@@ -578,10 +598,30 @@
       "rating": "12V 11.2Ah",
       "source": "fitment"
     },
+    "cfmoto-700-cl-x-heritage-2022-2022-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "manufacturer"
+    },
+    "cfmoto-700-cl-x-sport-2022-2022-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "manufacturer"
+    },
     "cfmoto-700cl-x-2021-present-global": {
       "code": "YTZ14S",
       "rating": "12V 11.2Ah",
       "source": "fitment"
+    },
+    "cfmoto-800-mt-sport-2022-2022-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "manufacturer"
+    },
+    "cfmoto-800-mt-touring-2022-2022-global": {
+      "code": "YTZ14S",
+      "rating": "12V 11.2Ah",
+      "source": "manufacturer"
     },
     "cfmoto-800mt-2021-present-global": {
       "code": "YTZ14S",
@@ -1547,14 +1587,37 @@
       "years": "1993-2018",
       "raw": "XR650L ’93-’18 – – YTX9-BS –"
     },
+    "husqvarna-701-supermoto-2016-present-global": {
+      "code": "YTZ10S",
+      "rating": "12V 8.6Ah",
+      "source": "manufacturer"
+    },
+    "husqvarna-701-svartpilen-2018-2019-global": {
+      "code": "YTZ10S",
+      "rating": "12V 8.6Ah",
+      "source": "guide"
+    },
     "husqvarna-701-vitpilen-2018-2020-global": {
       "code": "YTZ10S",
       "years": "2018-2021",
       "raw": "701Vitpilen,Svartpilen '18-'21 - YTZ10S - -"
     },
+    "husqvarna-norden-901-2022-present-global": {
+      "code": "HTZ12A-BS",
+      "rating": "12V 10Ah",
+      "source": "manufacturer"
+    },
     "husqvarna-svartpilen-401-2020-present-global": {
       "code": "YTX9-BS",
       "source": "fitment"
+    },
+    "husqvarna-vitpilen-401-2020-present-global": {
+      "code": "YTX9-BS",
+      "rating": "12V 8Ah",
+      "options": [
+        "ETZ-9-BS (2020–2023)"
+      ],
+      "source": "manufacturer"
     },
     "hyosung-gt-250-r-2007-2012-global": {
       "code": "YTX14-BS",
@@ -2178,6 +2241,21 @@
       "code": "YTZ14S",
       "rating": "12V 11.2Ah",
       "source": "manufacturer"
+    },
+    "royal-enfield-500-bullet-2020-2020-global": {
+      "code": "YTX14AHL-BS",
+      "rating": "12V 12Ah",
+      "source": "guide"
+    },
+    "royal-enfield-500-classic-2019-2019-global": {
+      "code": "YTX14AHL-BS",
+      "rating": "12V 12Ah",
+      "source": "guide"
+    },
+    "royal-enfield-535-continental-gt-2014-2017-global": {
+      "code": "YTX14AHL-BS",
+      "rating": "12V 12Ah",
+      "source": "guide"
     },
     "royal-enfield-bear-650-2025-present-global": {
       "rating": "12V 12Ah VRLA",

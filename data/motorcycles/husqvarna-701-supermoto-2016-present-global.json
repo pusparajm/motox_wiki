@@ -149,6 +149,16 @@
             "key": "rear_shock",
             "label": "Rear Shock Absorber",
             "value": "WP (46/18) Mono Tube XPLOR 5746 Piggyback — 2025–2026"
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ10S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 8.6Ah"
           }
         ]
       },

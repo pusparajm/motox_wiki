@@ -3665,6 +3665,16 @@
               "key": "rear_brake_pads",
               "label": "Rear Brake Pads",
               "value": "Brembo 07GR93"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         }
@@ -30970,6 +30980,16 @@
               "key": "rear_shock",
               "label": "Rear Shock Absorber",
               "value": "WP (46/18) Mono Tube XPLOR 5746 Piggyback — 2025–2026"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             }
           ]
         },
@@ -31536,6 +31556,16 @@
               "key": "spark_plug",
               "label": "Spark Plug",
               "value": "NGK LMAR9AI-10"
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "HTZ12A-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 10Ah"
             },
             {
               "key": "coolant",
@@ -32239,6 +32269,21 @@
               "key": "parts_note",
               "label": "Parts & Fitment Note",
               "value": "Bearing and fork-seal codes are model/year-specific. Check the fitment guide before ordering."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
+              "key": "battery_options",
+              "label": "Battery Options",
+              "value": "ETZ-9-BS (2020–2023)"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -86084,6 +86129,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX7A-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 6Ah"
             }
           ]
         },
@@ -86419,6 +86474,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -86490,6 +86555,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX9-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8Ah"
             }
           ]
         },
@@ -115854,6 +115929,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -116011,6 +116096,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -116143,6 +116238,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications are shared with the CFMOTO 800 MT Touring. Variant-specific equipment may differ; confirm against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -116275,6 +116380,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ14S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 11.2Ah"
             }
           ]
         },
@@ -231319,6 +231434,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTZ10S"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 8.6Ah"
             }
           ]
         },
@@ -322046,6 +322171,16 @@
               "key": "note",
               "label": "Note",
               "value": "Specifications describe the 2019 model year. Confirm variant-specific equipment and service limits against the owner's manual."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 12Ah"
             }
           ]
         },
@@ -322229,6 +322364,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 12Ah"
             }
           ]
         },
@@ -322300,6 +322445,16 @@
               "key": "note",
               "label": "Note",
               "value": "Brake-pad fitment is recorded for this model. Full service capacities, fluid grades and torque values are still being compiled."
+            },
+            {
+              "key": "battery",
+              "label": "Battery",
+              "value": "YTX14AHL-BS"
+            },
+            {
+              "key": "battery_rating",
+              "label": "Battery Rating",
+              "value": "12V 12Ah"
             }
           ]
         },

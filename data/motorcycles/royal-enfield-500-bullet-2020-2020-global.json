@@ -131,6 +131,16 @@
             "key": "note",
             "label": "Note",
             "value": "Specifications describe the 2019 model year. Confirm variant-specific equipment and service limits against the owner's manual."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTX14AHL-BS"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 12Ah"
           }
         ]
       },

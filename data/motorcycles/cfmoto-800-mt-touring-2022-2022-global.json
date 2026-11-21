@@ -116,6 +116,16 @@
             "key": "note",
             "label": "Note",
             "value": "Specifications describe the closest matching model year. Confirm variant-specific equipment and service limits against the owner's manual."
+          },
+          {
+            "key": "battery",
+            "label": "Battery",
+            "value": "YTZ14S"
+          },
+          {
+            "key": "battery_rating",
+            "label": "Battery Rating",
+            "value": "12V 11.2Ah"
           }
         ]
       },
