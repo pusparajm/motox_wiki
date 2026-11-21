@@ -3,9 +3,9 @@
 ## Status
 
 Phase 1 is complete: the image pipeline, manifest, responsive markup, social metadata
-and image sitemap entries are in place. Six images are live as the pilot: Royal Enfield
-Himalayan 411, Honda CBR1000RR-R, Kawasaki Ninja 400, Suzuki V-Strom 650 and two
-Kawasaki Ninja ZX-10R generations (2016–2020 and 2021–2025).
+and image sitemap entries are in place. The current approved image is the Kawasaki Ninja
+ZX-10R 2016–2020 from BikeDekho. All other model images were removed while approved
+sources are collected.
 
 Where the licence or written permission does not require public credit, no credit line
 is rendered. Source, licence and permission details remain in the manifest for audit.
