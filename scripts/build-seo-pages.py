@@ -840,6 +840,68 @@ def bike_faq(bike):
             f"Using the listed {power_for_ratio} and {kerb}, the calculated ratio is about {per_tonne:,} hp per tonne ({kw_per_kg:.2f} kW/kg)."
         ))
 
+    if hp_value and kg_value and seat_height:
+        beginner_categories = {"Supersport", "Sport", "Motocross", "Enduro"}
+        fits_power = hp_value <= 50
+        fits_weight = kg_value <= 200
+        fits_seat = seat(bike) <= 800
+        category_ok = (bike.get("category") or "") not in beginner_categories
+        if fits_power and fits_weight and fits_seat and category_ok:
+            faq.append((
+                f"Is the {full} suitable for beginners?",
+                f"On the site's beginner shortlist criteria (50 hp or less, 200 kg or less and an 800 mm seat or lower), "
+                f"the {full} qualifies at {power}, {kerb} and {seat_height}. Rider training and individual fit still matter."
+            ))
+        else:
+            reasons = []
+            if not fits_power:
+                reasons.append(f"{power} is above the 50 hp limit")
+            if not fits_weight:
+                reasons.append(f"{kerb} is above the 200 kg limit")
+            if not fits_seat:
+                reasons.append(f"{seat_height} is above the 800 mm seat limit")
+            if not category_ok:
+                reasons.append(f"its {bike.get('category')} category is excluded from the shortlist")
+            faq.append((
+                f"Is the {full} suitable for beginners?",
+                "It falls outside the site's beginner shortlist criteria: " + "; ".join(reasons) +
+                ". The criteria are 50 hp or less, 200 kg or less, an 800 mm seat or lower, and a non-sport, non-competition category."
+            ))
+
+    if hp_value and kg_value:
+        kw_value = hp_value * 0.7457
+        kw_per_kg = kw_value / kg_value
+        fits_a2 = kw_value <= 35 and kw_per_kg <= 0.2
+        if fits_a2:
+            faq.append((
+                f"Is the {full} A2-legal?",
+                f"On the listed figures it fits the European A2 limits: about {kw_value:.1f} kW and {kw_per_kg:.2f} kW/kg. "
+                "Market-specific approval and restricted variants can differ."
+            ))
+        else:
+            faq.append((
+                f"Is the {full} A2-legal?",
+                f"On the listed figures it exceeds the European A2 limits: about {kw_value:.1f} kW and {kw_per_kg:.2f} kW/kg "
+                "(limits: 35 kW and 0.2 kW/kg). A restricted version may be available; check local approval."
+            ))
+
+    if seat_height:
+        seat_mm = seat(bike)
+        if seat_mm <= 760:
+            band = "low"
+        elif seat_mm <= 800:
+            band = "moderate"
+        elif seat_mm <= 830:
+            band = "tall"
+        else:
+            band = "very tall"
+        faq.append((
+            f"Is the {full} suitable for shorter riders?",
+            f"The seat is listed at {seat_height}, which is {band} by the site's seat-height bands "
+            "(760 mm or lower low, 761–800 mm moderate, 801–830 mm tall, above 830 mm very tall). "
+            "Seat width, suspension sag and rider inseam also affect reach."
+        ))
+
     if fuel:
         faq.append((f"What is the fuel capacity of the {full}?", f"Fuel capacity is listed as {fuel}."))
     if usable(tyres):
@@ -898,7 +960,7 @@ def bike_faq(bike):
     if usable(rear_shock):
         faq.append((f"What rear shock does the {full} use?", f"The listed rear shock is {rear_shock}."))
 
-    return faq[:17]
+    return faq[:20]
 
 
 ALIAS_NICKNAMES = {

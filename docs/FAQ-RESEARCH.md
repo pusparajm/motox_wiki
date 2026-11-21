@@ -56,6 +56,9 @@ Suitable where we hold the data:
 - Fork-oil grade, quantity or air gap
 - Fork seal, dust seal and slide-bush sizes
 - Rear shock type
+- Beginner-shortlist fit, using the site's power, weight, seat-height and category rules
+- European A2 power and power-to-weight limits
+- Seat-height band for shorter-rider context
 - Brake fluid and coolant
 - Common reliability or used-buying checks
 
@@ -103,6 +106,9 @@ The model-page FAQ generator now produces data-backed answers for:
 - Fork oil data
 - Fork seal size
 - Rear shock type
+- Beginner-shortlist fit, using the site's power, weight, seat-height and category rules
+- European A2 power and power-to-weight limits
+- Seat-height band for shorter-rider context
 
 The generator only emits a question when the underlying field exists and is not a placeholder value.
 
