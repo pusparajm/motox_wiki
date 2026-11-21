@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "modelId": "royal-enfield-himalayan-411-2015-2023-global",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Royal_Enfield_Himalayan_DB2K5442.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Royal_Enfield_Himalayan_DB2K5442.jpg",
+      "credit": "Ashley Pomeroy, CC0, via Wikimedia Commons",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creditRequired": false,
+      "rightsApproved": true,
+      "alt": "Royal Enfield Himalayan 411 on a gravel road",
+      "fit": "cover",
+      "gravity": "center"
+    },
+    {
+      "modelId": "honda-cbr1000rr-r-2020-2023",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/2024_Honda_CBR1000RR-R_Fireblade_SP.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2024_Honda_CBR1000RR-R_Fireblade_SP.jpg",
+      "credit": "Chanokchon, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "creditRequired": true,
+      "rightsApproved": true,
+      "alt": "Honda CBR1000RR-R Fireblade SP side view at a motor show",
+      "fit": "cover",
+      "gravity": "south"
+    }
+  ]
+}

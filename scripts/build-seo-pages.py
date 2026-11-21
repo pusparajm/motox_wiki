@@ -30,6 +30,16 @@ ADSENSE_HEAD = """  <script async src="https://pagead2.googlesyndication.com/pag
      crossorigin="anonymous"></script>"""
 
 
+def load_bike_images():
+    path = os.path.join(DATA, "bike-images.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as fh:
+        return json.load(fh).get("images", {})
+
+
+BIKE_IMAGES = load_bike_images()
+
 
 def esc(value):
     return html.escape(str(value or ""), quote=True)
@@ -1665,6 +1675,60 @@ def faq_alias(bike):
     return model
 
 
+def bike_image_entry(bike):
+    return BIKE_IMAGES.get(bike["id"])
+
+
+def bike_image_srcset(entry, fmt):
+    variants = (entry.get("variants") or {}).get(fmt) or {}
+    return ", ".join(
+        f"../{path} {width}w"
+        for width, path in sorted(variants.items(), key=lambda item: int(item[0]))
+    )
+
+
+def bike_image_url(bike, fmt="jpg", width="1200"):
+    entry = bike_image_entry(bike)
+    if not entry:
+        return ""
+    variants = (entry.get("variants") or {}).get(fmt) or {}
+    path = variants.get(str(width)) or variants.get("1200") or variants.get("1600") or variants.get("800")
+    return f"{SITE}/{path}" if path else ""
+
+
+def bike_image_html(bike):
+    entry = bike_image_entry(bike)
+    if not entry:
+        return ""
+    jpg = (entry.get("variants") or {}).get("jpg") or {}
+    fallback = jpg.get("1200") or jpg.get("800") or jpg.get("1600") or jpg.get("400")
+    if not fallback:
+        return ""
+    sources = ""
+    avif = bike_image_srcset(entry, "avif")
+    webp = bike_image_srcset(entry, "webp")
+    if avif:
+        sources += f'<source type="image/avif" srcset="{avif}" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 92vw, 960px">'
+    if webp:
+        sources += f'<source type="image/webp" srcset="{webp}" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 92vw, 960px">'
+    alt = esc(entry.get("alt") or f"{bike.get('make', '')} {bike.get('model', '')}")
+    credit = ""
+    if entry.get("creditRequired") and entry.get("credit"):
+        credit_text = esc(entry["credit"])
+        if entry.get("licenseUrl"):
+            credit_text = (
+                f'{credit_text} · <a href="{esc(entry["licenseUrl"])}" rel="license nofollow">'
+                f'{esc(entry.get("license", ""))}</a>'
+            )
+        credit = f"<figcaption>{credit_text}</figcaption>"
+    return (
+        '<figure class="bike-photo"><picture>'
+        f'{sources}<img src="../{fallback}" alt="{alt}" width="{entry.get("width", 1600)}" '
+        f'height="{entry.get("height", 1067)}" loading="eager" fetchpriority="high" decoding="async">'
+        f'</picture>{credit}</figure>'
+    )
+
+
 def static_sections_html(bike):
     parts = []
     for key, section in (bike.get("sections") or {}).items():
@@ -1740,6 +1804,12 @@ def model_page(bike, related, guide_links, brand_href):
             oil_quick += f' · <strong>Recommended grade:</strong> {esc(oil_grade)}'
         oil_quick += "</p>"
     faq = bike_faq(bike)
+    bike_photo = bike_image_html(bike)
+    bike_photo_block = f"\n      {bike_photo}" if bike_photo else ""
+    og_image = bike_image_url(bike, "jpg", "1200")
+    og_image_meta = f'\n  <meta property="og:image" content="{esc(og_image)}">' if og_image else ""
+    twitter_card = "summary_large_image" if og_image else "summary"
+    twitter_image_meta = f'\n  <meta name="twitter:image" content="{esc(og_image)}">' if og_image else ""
 
     def qty(value, unit):
         number = numeric(value)
@@ -1772,6 +1842,8 @@ def model_page(bike, related, guide_links, brand_href):
             {"@type": "ListItem", "position": 4, "name": title(bike), "item": url}
         ]
     }]
+    if og_image:
+        graph[0]["image"] = [og_image]
     if faq:
         graph.append({"@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
@@ -1815,8 +1887,8 @@ def model_page(bike, related, guide_links, brand_href):
   <meta property="og:site_name" content="MotoX Wiki">
   <meta property="og:title" content="{esc(seo_title)} | MotoX Wiki">
   <meta property="og:description" content="{esc(description)}">
-  <meta property="og:url" content="{url}">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:url" content="{url}">{og_image_meta}
+  <meta name="twitter:card" content="{twitter_card}">{twitter_image_meta}
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../css/site.min.css?v=10" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
@@ -1837,7 +1909,7 @@ def model_page(bike, related, guide_links, brand_href):
     <div class="bike-header">
       <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#browse">Browse</a> / <a href="{brand_href}">{esc(bike.get('make', ''))}</a> / {esc(name(bike))}</div>
       <h1>{esc(title(bike))}</h1>
-      <p class="bike-subtitle">{esc(bike.get('category', ''))}{' · ' if bike.get('category') and bike.get('displacement') else ''}{esc(bike.get('displacement', ''))}</p>
+      <p class="bike-subtitle">{esc(bike.get('category', ''))}{' · ' if bike.get('category') and bike.get('displacement') else ''}{esc(bike.get('displacement', ''))}</p>{bike_photo_block}
       <p>{esc(bike.get('summary', ''))}</p>
       {oil_quick}
       <p class="bike-alias"><strong>Brand:</strong> <a href="{brand_href}">All {esc(bike.get('make', ''))} models</a> · <a href="../reference/all-models.html">All models A–Z</a></p>
@@ -2382,11 +2454,19 @@ def main():
     model_urls = [f"{SITE}/motorcycle/{quote(b['id'])}.html" for b in bikes]
     page_urls = [f"{SITE}/pages.html?slug={quote(p.get('slug') or p['id'])}" for p in pages]
     urls = [f"{SITE}/", f"{SITE}/pages.html"] + page_urls + [f"{SITE}/guides/"] + urls + model_urls
+    image_map = {}
+    for bike in bikes:
+        image_url = bike_image_url(bike, "jpg", "1200")
+        if image_url:
+            image_map[f"{SITE}/motorcycle/{quote(bike['id'])}.html"] = image_url
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as fh:
-        fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
+        fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n')
         for url in sorted(set(urls)):
             priority = "1.0" if url == f"{SITE}/" else "0.7" if "/motorcycle.html" in url else "0.6"
-            fh.write(f"  <url><loc>{url}</loc><lastmod>{LAST_MOD}</lastmod><priority>{priority}</priority></url>\n")
+            image_xml = ""
+            if url in image_map:
+                image_xml = f"<image:image><image:loc>{image_map[url]}</image:loc></image:image>"
+            fh.write(f"  <url><loc>{url}</loc><lastmod>{LAST_MOD}</lastmod><priority>{priority}</priority>{image_xml}</url>\n")
         fh.write("</urlset>\n")
     print(f"Generated {len(urls)} sitemap URLs, {len(os.listdir(GUIDES))} guide files, {len(os.listdir(REFERENCE))} reference pages and {model_count} model pages")
 

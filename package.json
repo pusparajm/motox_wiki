@@ -11,7 +11,8 @@
     "setup:hooks": "bash scripts/setup-git-hooks.sh",
     "prepare": "bash scripts/setup-git-hooks.sh",
     "build:seo": "python3 scripts/build-seo-pages.py",
-    "build:css": "node scripts/build-css.mjs"
+    "build:css": "node scripts/build-css.mjs",
+    "fetch:images": "python3 scripts/fetch-bike-images.py"
   },
   "devDependencies": {
     "javascript-obfuscator": "^4.1.1"

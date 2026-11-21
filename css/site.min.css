@@ -782,6 +782,34 @@ h2 {
   margin-bottom: 0.25rem;
 }
 
+.bike-photo {
+  margin: 0.65rem 0 0.5rem;
+  border: 1px solid var(--motox-border);
+  border-radius: var(--motox-radius);
+  overflow: hidden;
+  background: var(--pico-card-sectioning-background-color);
+}
+
+.bike-photo picture {
+  display: block;
+}
+
+.bike-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.bike-photo figcaption {
+  padding: 0.35rem 0.55rem;
+  border-top: 1px solid var(--motox-border);
+  font-size: 0.66rem;
+  line-height: 1.4;
+  color: var(--pico-muted-color);
+}
+
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://motoxref.com/</loc><lastmod>2026-11-21</lastmod><priority>1.0</priority></url>
   <url><loc>https://motoxref.com/guides/</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
   <url><loc>https://motoxref.com/guides/125cc-commuters.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
@@ -1657,7 +1657,7 @@
   <url><loc>https://motoxref.com/motorcycle/honda-cbr1000rr-2012-2016.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
   <url><loc>https://motoxref.com/motorcycle/honda-cbr1000rr-2017-2019.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
   <url><loc>https://motoxref.com/motorcycle/honda-cbr1000rr-2020-present.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
-  <url><loc>https://motoxref.com/motorcycle/honda-cbr1000rr-r-2020-2023.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
+  <url><loc>https://motoxref.com/motorcycle/honda-cbr1000rr-r-2020-2023.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority><image:image><image:loc>https://motoxref.com/images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1200.jpg</image:loc></image:image></url>
   <url><loc>https://motoxref.com/motorcycle/honda-cbr1000rr-r-2024-present.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
   <url><loc>https://motoxref.com/motorcycle/honda-cbr500r-2022-present-global.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
   <url><loc>https://motoxref.com/motorcycle/honda-cbr600rr-2013.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
@@ -3439,7 +3439,7 @@
   <url><loc>https://motoxref.com/motorcycle/royal-enfield-continental-gt-650-2019-present-global.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
   <url><loc>https://motoxref.com/motorcycle/royal-enfield-goan-classic-350-2024-present-global.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
   <url><loc>https://motoxref.com/motorcycle/royal-enfield-guerrilla-450-2020-present-global.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
-  <url><loc>https://motoxref.com/motorcycle/royal-enfield-himalayan-411-2015-2023-global.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
+  <url><loc>https://motoxref.com/motorcycle/royal-enfield-himalayan-411-2015-2023-global.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority><image:image><image:loc>https://motoxref.com/images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1200.jpg</image:loc></image:image></url>
   <url><loc>https://motoxref.com/motorcycle/royal-enfield-himalayan-450.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
   <url><loc>https://motoxref.com/motorcycle/royal-enfield-hunter-350-2022-present-global.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>
   <url><loc>https://motoxref.com/motorcycle/royal-enfield-interceptor-650-2018-present-global.html</loc><lastmod>2026-11-21</lastmod><priority>0.6</priority></url>

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "images": {
+    "royal-enfield-himalayan-411-2015-2023-global": {
+      "source": "approved",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Royal_Enfield_Himalayan_DB2K5442.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Ashley Pomeroy, CC0, via Wikimedia Commons",
+      "creditRequired": false,
+      "alt": "Royal Enfield Himalayan 411 on a gravel road",
+      "width": 1600,
+      "height": 1067,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-400.avif",
+          "800": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-800.avif",
+          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1200.avif",
+          "1600": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1600.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-400.webp",
+          "800": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-800.webp",
+          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1200.webp",
+          "1600": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1600.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-400.jpg",
+          "800": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-800.jpg",
+          "1200": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1200.jpg",
+          "1600": "images/motorcycles/royal-enfield/himalayan-411/himalayan-411-d1bafade-1600.jpg"
+        }
+      }
+    },
+    "honda-cbr1000rr-r-2020-2023": {
+      "source": "approved",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2024_Honda_CBR1000RR-R_Fireblade_SP.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "Chanokchon, via Wikimedia Commons",
+      "creditRequired": true,
+      "alt": "Honda CBR1000RR-R Fireblade SP side view at a motor show",
+      "width": 1600,
+      "height": 1067,
+      "variants": {
+        "avif": {
+          "400": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-400.avif",
+          "800": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-800.avif",
+          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1200.avif",
+          "1600": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1600.avif"
+        },
+        "webp": {
+          "400": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-400.webp",
+          "800": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-800.webp",
+          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1200.webp",
+          "1600": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1600.webp"
+        },
+        "jpg": {
+          "400": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-400.jpg",
+          "800": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-800.jpg",
+          "1200": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1200.jpg",
+          "1600": "images/motorcycles/honda/cbr1000rr-r/cbr1000rr-r-6946922b-1600.jpg"
+        }
+      }
+    }
+  }
+}

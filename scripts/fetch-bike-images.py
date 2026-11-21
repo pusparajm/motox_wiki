@@ -1,0 +1,212 @@
+#!/usr/bin/env python3
+"""Download approved motorcycle images and build responsive local variants.
+
+Only entries with explicit rights approval and a licence are processed. The
+script never scrapes a page: it fetches a direct image URL from the approved
+source list and records the source page, licence and credit in the manifest.
+"""
+
+import argparse
+import hashlib
+import json
+import re
+import subprocess
+import sys
+import tempfile
+import urllib.request
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+IMAGES = ROOT / "images" / "motorcycles"
+SOURCES = DATA / "bike-image-sources.json"
+MANIFEST = DATA / "bike-images.json"
+MOTORCYCLES = DATA / "motorcycles.json"
+
+WIDTHS = (400, 800, 1200, 1600)
+ASPECT = 2 / 3
+USER_AGENT = "MotoXWikiImagePipeline/1.0 (+https://motoxref.com)"
+MAX_BYTES = 20 * 1024 * 1024
+
+
+def slug(value):
+    value = str(value or "").lower()
+    value = re.sub(r"[^a-z0-9]+", "-", value).strip("-")
+    return value or "model"
+
+
+def load_json(path, default):
+    if not path.exists():
+        return default
+    with path.open(encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def save_json(path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as fh:
+        json.dump(data, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+
+
+def run(cmd):
+    subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+
+
+def identify(path):
+    out = subprocess.check_output(
+        ["identify", "-format", "%w %h", str(path)], stderr=subprocess.STDOUT
+    ).decode("utf-8", "replace").strip()
+    width, height = out.split()[:2]
+    return int(width), int(height)
+
+
+def download(url, destination):
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=60) as response:
+        content_type = response.headers.get("Content-Type", "").split(";")[0].strip()
+        if not content_type.startswith("image/"):
+            raise ValueError(f"unexpected content type: {content_type or 'unknown'}")
+        data = response.read(MAX_BYTES + 1)
+    if len(data) > MAX_BYTES:
+        raise ValueError("image exceeds the 20 MB download limit")
+    destination.write_bytes(data)
+
+
+def make_variants(source, directory, stem, fit, gravity):
+    variants = {}
+    for width in WIDTHS:
+        height = round(width * ASPECT)
+        for fmt, quality in (("avif", "55"), ("webp", "82"), ("jpg", "82")):
+            target = directory / f"{stem}-{width}.{fmt}"
+            cmd = [
+                "convert",
+                str(source),
+                "-auto-orient",
+                "-strip",
+                "-background",
+                "#f4f4f5",
+                "-alpha",
+                "remove",
+                "-alpha",
+                "off",
+            ]
+            if fit == "contain":
+                cmd += ["-resize", f"{width}x{height}", "-gravity", gravity, "-extent", f"{width}x{height}"]
+            else:
+                cmd += ["-resize", f"{width}x{height}^", "-gravity", gravity, "-extent", f"{width}x{height}"]
+            if fmt == "jpg":
+                cmd += ["-quality", quality, "-interlace", "Plane", str(target)]
+            else:
+                cmd += ["-quality", quality, str(target)]
+            run(cmd)
+            relative = target.relative_to(ROOT).as_posix()
+            variants.setdefault(fmt, {})[str(width)] = relative
+    return variants
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--force", action="store_true", help="replace existing variants")
+    parser.add_argument("--dry-run", action="store_true", help="validate sources without downloading")
+    args = parser.parse_args()
+
+    motorcycles = {
+        item["id"]: item
+        for item in load_json(MOTORCYCLES, {"motorcycles": []}).get("motorcycles", [])
+    }
+    source_doc = load_json(SOURCES, {"sources": []})
+    manifest = load_json(MANIFEST, {"version": 1, "images": {}})
+    images = manifest.setdefault("images", {})
+
+    downloaded = 0
+    skipped = 0
+    generated = 0
+
+    for entry in source_doc.get("sources", []):
+        model_id = entry.get("modelId", "")
+        model = motorcycles.get(model_id)
+        if not model:
+            print(f"skip {model_id or '(no id)'}: model not in catalogue", file=sys.stderr)
+            skipped += 1
+            continue
+        if not entry.get("rightsApproved") or not entry.get("license"):
+            print(f"skip {model_id}: rights not approved or licence missing", file=sys.stderr)
+            skipped += 1
+            continue
+        image_url = entry.get("imageUrl", "")
+        if not image_url.startswith("https://"):
+            print(f"skip {model_id}: image URL must use HTTPS", file=sys.stderr)
+            skipped += 1
+            continue
+        source_page = entry.get("sourcePage", "")
+        if not source_page:
+            print(f"skip {model_id}: source page missing", file=sys.stderr)
+            skipped += 1
+            continue
+
+        make_slug = slug(model.get("make"))
+        model_slug = slug(model.get("model"))
+        directory = IMAGES / make_slug / model_slug
+        digest = hashlib.sha1(image_url.encode("utf-8")).hexdigest()[:8]
+        stem = f"{model_slug}-{digest}"
+        existing = images.get(model_id)
+        if existing and not args.force:
+            expected = [
+                directory / f"{stem}-{width}.{fmt}"
+                for width in WIDTHS
+                for fmt in ("avif", "webp", "jpg")
+            ]
+            if all(path.exists() for path in expected):
+                print(f"ok   {model_id}: variants already present")
+                skipped += 1
+                continue
+
+        if args.dry_run:
+            print(f"plan {model_id}: {image_url}")
+            downloaded += 1
+            continue
+
+        directory.mkdir(parents=True, exist_ok=True)
+        with tempfile.NamedTemporaryFile(suffix=".img", delete=True) as tmp:
+            try:
+                download(image_url, Path(tmp.name))
+                width, height = identify(tmp.name)
+                variants = make_variants(
+                    tmp.name,
+                    directory,
+                    stem,
+                    entry.get("fit", "cover"),
+                    entry.get("gravity", "center"),
+                )
+            except Exception as exc:
+                print(f"fail {model_id}: {exc}", file=sys.stderr)
+                skipped += 1
+                continue
+
+        images[model_id] = {
+            "source": "approved",
+            "sourcePage": source_page,
+            "license": entry["license"],
+            "licenseUrl": entry.get("licenseUrl", ""),
+            "credit": entry.get("credit", ""),
+            "creditRequired": bool(entry.get("creditRequired")),
+            "alt": entry.get("alt") or f"{model.get('make', '')} {model.get('model', '')}",
+            "width": 1600,
+            "height": round(1600 * ASPECT),
+            "variants": variants,
+        }
+        downloaded += 1
+        generated += sum(len(widths) for widths in variants.values())
+        print(f"done {model_id}: {width}x{height} source -> {generated} variants")
+
+    if not args.dry_run:
+        save_json(MANIFEST, manifest)
+    print(
+        f"processed={downloaded} skipped={skipped} variants={generated} "
+        f"manifest_entries={len(images)}"
+    )
+
+
+if __name__ == "__main__":
+    main()
