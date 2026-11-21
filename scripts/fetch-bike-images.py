@@ -28,6 +28,8 @@ DEFAULT_WIDTHS = (400, 800, 1200)
 ASPECT = 2 / 3
 USER_AGENT = "MotoXWikiImagePipeline/1.0 (+https://motoxref.com)"
 MAX_BYTES = 20 * 1024 * 1024
+MIN_SOURCE_WIDTH = 1200
+MIN_SOURCE_HEIGHT = 800
 
 
 def slug(value):
@@ -174,6 +176,14 @@ def main():
             print(f"skip {model_id}: rights not approved or licence missing", file=sys.stderr)
             skipped += 1
             continue
+        if entry.get("watermark") or entry.get("watermarkRemovalRequired"):
+            print(f"skip {model_id}: watermarked source; supply an unwatermarked original", file=sys.stderr)
+            skipped += 1
+            continue
+        if "permission" in str(entry.get("license") or "").lower() and not entry.get("permissionReference"):
+            print(f"skip {model_id}: written permission reference missing", file=sys.stderr)
+            skipped += 1
+            continue
         image_url = entry.get("imageUrl", "")
         if not (image_url.startswith("https://") or image_url.startswith("image-uploads/")):
             print(f"skip {model_id}: image URL must be HTTPS or an admin upload", file=sys.stderr)
@@ -212,6 +222,11 @@ def main():
             try:
                 prepare_source(image_url, Path(tmp.name))
                 width, height = identify(tmp.name)
+                if width < MIN_SOURCE_WIDTH or height < MIN_SOURCE_HEIGHT:
+                    raise ValueError(
+                        f"source image is {width}x{height}; minimum is "
+                        f"{MIN_SOURCE_WIDTH}x{MIN_SOURCE_HEIGHT}"
+                    )
                 variants = make_variants(
                     tmp.name,
                     directory,
@@ -231,6 +246,7 @@ def main():
             "sourcePage": source_page,
             "license": entry["license"],
             "licenseUrl": entry.get("licenseUrl", ""),
+            "permissionReference": entry.get("permissionReference", ""),
             "credit": entry.get("credit", ""),
             "creditRequired": bool(entry.get("creditRequired")),
             "alt": entry.get("alt") or f"{model.get('make', '')} {model.get('model', '')}",

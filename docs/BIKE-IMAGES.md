@@ -39,6 +39,30 @@ and rights approval.
   recorded in the manifest.
 - Manufacturer press images are processed only when the manufacturer's terms or written
   permission allow this use. Public availability alone is not treated as a licence.
+- **Written permission** entries must include a `permissionReference` (email date and
+  subject, signed letter reference, or PDF filename). A verbal agreement is not enough.
+- **Do not remove watermarks.** If a rights holder requires watermark removal, ask them
+  to supply an unwatermarked original. The pipeline also rejects entries marked
+  `watermark: true` or `watermarkRemovalRequired: true`.
+- **Minimum source size is 1200 × 800 px.** Smaller files are rejected rather than
+  upscaled; a 204 × 134 thumbnail cannot become a 1200 px hero image.
+
+### Example written-permission entry
+
+```json
+{
+  "modelId": "kawasaki-ninja-zx-10r-2021-2025",
+  "imageUrl": "image-uploads/kawasaki-ninja-zx-10r.jpg",
+  "sourcePage": "https://www.carbike360.com/bikes/kawasaki/ninja-zx-10r/abs",
+  "credit": "Photo: CarBike360",
+  "license": "Written permission — CarBike360",
+  "licenseUrl": "",
+  "permissionReference": "Email from CarBike360, 2026-11-22, subject: MotoX Wiki image use",
+  "creditRequired": true,
+  "rightsApproved": true,
+  "alt": "Kawasaki Ninja ZX-10R side view"
+}
+```
 
 ## Phase plan
 
