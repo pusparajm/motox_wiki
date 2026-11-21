@@ -329,7 +329,7 @@ def build_index(bikes):
         ("low-seat-height-motorcycles", "Low Seat Height Motorcycles", "Bikes with a seat height of 800 mm or less, for shorter riders."),
         ("best-commuter-motorcycles", "Best Commuter Motorcycles", "Practical, economical bikes for daily transport."),
         ("best-retro-motorcycles", "Best Retro Motorcycles", "Modern classics, retro roadsters and scramblers."),
-        ("comparisons", "Motorcycle Model Comparisons", f"{len(COMPARISONS)} head-to-head comparisons across 450 motocross, sport, naked, adventure and retro classes."),
+        ("comparisons", "Motorcycle Comparisons", f"{len(SEGMENT_COMPARISONS)} segment comparisons and {len(COMPARISONS)} head-to-head comparisons across adventure, touring, sport, motocross and retro classes."),
     ]
     items = "".join(f'<a class="page-item" href="{slug}.html"><h2>{esc(t)}</h2><p>{esc(d)}</p></a>' for slug, t, d in cards)
     content = f"""
@@ -1100,29 +1100,196 @@ def comparison(item, a, b):
     )
 
 
+def segment_leaders(models):
+    leaders = []
+
+    def pick(label, value_fn, value_text, higher=True):
+        candidates = [(value_fn(model), model) for model in models if value_fn(model)]
+        if not candidates:
+            return
+        best_value, best_model = (max(candidates, key=lambda pair: pair[0]) if higher else min(candidates, key=lambda pair: pair[0]))
+        leaders.append(f"<li><strong>{label}:</strong> {bike_link(best_model)} — {esc(value_text(best_model))}.</li>")
+
+    pick("Most power", hp, lambda model: field(model, "power"))
+    pick("Most torque", lambda model: numeric(field(model, "torque")), lambda model: field(model, "torque"))
+    pick("Lightest", weight, lambda model: field(model, "weight"), higher=False)
+    pick("Lowest seat", seat, lambda model: field(model, "seat_height"), higher=False)
+    pick("Largest fuel tank", lambda model: numeric(field(model, "fuel_capacity")), lambda model: field(model, "fuel_capacity"))
+
+    ratios = [(hp(model) * 1000 / weight(model), model) for model in models if hp(model) and weight(model)]
+    if ratios:
+        ratio, best_model = max(ratios, key=lambda pair: pair[0])
+        leaders.append(f"<li><strong>Highest power-to-weight:</strong> {bike_link(best_model)} — about {ratio:,.0f} hp per tonne (calculated).</li>")
+
+    low_seat = [model for model in models if seat(model) and seat(model) <= 800]
+    if low_seat:
+        leaders.append("<li><strong>800 mm seat or lower:</strong> " + " · ".join(bike_link(model) for model in low_seat) + ".</li>")
+
+    a2 = [
+        model for model in models
+        if hp(model) and weight(model)
+        and hp(model) * 0.7457 <= 35
+        and (hp(model) * 0.7457) / weight(model) <= 0.2
+    ]
+    if a2:
+        leaders.append("<li><strong>A2-friendly on listed figures:</strong> " + " · ".join(bike_link(model) for model in a2) + ".</li>")
+
+    travel_values = []
+    for model in models:
+        numbers = [int(value) for value in re.findall(r"(\d{2,3})\s*mm\s+travel", field(model, "front_suspension"), re.I)]
+        if numbers:
+            travel_values.append(max(numbers))
+    if len(travel_values) >= 2:
+        leaders.append(f"<li><strong>Listed front suspension travel:</strong> {min(travel_values)}–{max(travel_values)} mm across the group.</li>")
+
+    return leaders
+
+
+def segment_faqs(models):
+    faqs = []
+
+    def addq(question, answer):
+        if question and answer:
+            faqs.append((question, answer))
+
+    power = [(hp(model), model) for model in models if hp(model)]
+    if power:
+        _, best = max(power, key=lambda pair: pair[0])
+        addq("Which model has the most power?", f"The {name(best)} lists {field(best, 'power')}.")
+    torque = [(numeric(field(model, "torque")), model) for model in models if numeric(field(model, "torque"))]
+    if torque:
+        _, best = max(torque, key=lambda pair: pair[0])
+        addq("Which model has the most torque?", f"The {name(best)} lists {field(best, 'torque')}.")
+    weights = [(weight(model), model) for model in models if weight(model)]
+    if weights:
+        _, best = min(weights, key=lambda pair: pair[0])
+        addq("Which model is the lightest?", f"The {name(best)} lists {field(best, 'weight')}.")
+    seats = [(seat(model), model) for model in models if seat(model)]
+    if seats:
+        _, best = min(seats, key=lambda pair: pair[0])
+        addq("Which model has the lowest seat?", f"The {name(best)} lists {field(best, 'seat_height')}.")
+    tanks = [(numeric(field(model, "fuel_capacity")), model) for model in models if numeric(field(model, "fuel_capacity"))]
+    if tanks:
+        _, best = max(tanks, key=lambda pair: pair[0])
+        addq("Which model has the largest fuel tank?", f"The {name(best)} lists {field(best, 'fuel_capacity')}.")
+    a2 = [
+        model for model in models
+        if hp(model) and weight(model)
+        and hp(model) * 0.7457 <= 35
+        and (hp(model) * 0.7457) / weight(model) <= 0.2
+    ]
+    if a2:
+        addq(
+            "Which models are A2-friendly on listed figures?",
+            ", ".join(name(model) for model in a2) + ". Market-specific approval and restricted variants can differ."
+        )
+    addq(
+        "How were these models selected?",
+        "They are catalogue entries in this segment with listed power, torque, weight, seat height and chassis data. The table uses those listed figures; model years and market variants can differ."
+    )
+    return faqs
+
+
+def segment_comparison(item, models):
+    models = sorted(models, key=lambda model: (displacement(model), name(model)))
+    engine_rows = []
+    chassis_rows = []
+    for model in models:
+        model_cell = bike_link(model)
+        engine_rows.append([
+            model_cell,
+            esc(model.get("year", "")),
+            esc(field(model, "engine")),
+            esc(field(model, "power")),
+            esc(field(model, "torque")),
+            esc(field(model, "weight")),
+            esc(field(model, "seat_height")),
+            esc(field(model, "fuel_capacity")),
+        ])
+        chassis_rows.append([
+            model_cell,
+            esc(field(model, "front_suspension")),
+            esc(field(model, "rear_suspension")),
+            esc(field(model, "front_brake")),
+            esc(field(model, "rear_brake")),
+            esc(field(model, "tyres")),
+        ])
+    engine_headers = ["Model", "Year", "Engine", "Power", "Torque", "Weight", "Seat", "Fuel"]
+    chassis_headers = ["Model", "Front suspension", "Rear suspension", "Front brake", "Rear brake", "Tyres"]
+    leaders = segment_leaders(models)
+    faqs = segment_faqs(models)
+    faq_html = "".join(
+        f'<div class="faq-item"><h3 class="faq-question">{esc(question)}</h3><p class="faq-answer">{esc(answer)}</p></div>'
+        for question, answer in faqs
+    )
+    faq_json = {
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": question, "acceptedAnswer": {"@type": "Answer", "text": answer}}
+            for question, answer in faqs
+        ],
+    } if faqs else None
+    related = [(f"{segment['slug']}.html", segment["title"]) for segment in SEGMENT_COMPARISONS if segment["slug"] != item["slug"]][:3]
+    related += [
+        ("comparisons.html", "All model comparisons"),
+        ("seat-height-chart.html", "Motorcycle seat height chart"),
+        ("parts-fitment-codes.html", "Parts and fitment codes"),
+    ]
+    content = f"""
+      <p>{esc(item["intro"])}</p>
+      <p class="data-note">This is a segment comparison using listed catalogue data, not a ride review. Model years and market variants can differ; confirm the exact machine before ordering parts.</p>
+      <h2>Engine, weight and dimensions</h2>
+      <p>Sorted by engine size, then model name.</p>
+      {table(engine_headers, engine_rows)}
+      <h2>Chassis and running gear</h2>
+      {table(chassis_headers, chassis_rows)}
+      <h2>Segment leaders</h2>
+      <ul>{''.join(leaders) if leaders else '<li>Not enough listed data for a leader summary.</li>'}</ul>
+      <h2>How to shortlist</h2>
+      <p>Start with seat height and kerb weight, then compare tank size and listed power. For off-road use, check front suspension travel, tyre sizes and brake specification; for touring, prioritise fuel capacity, seat height and weather protection. The table links every model to its full specification and service data.</p>
+      {f'<section class="faq-section"><h2>Frequently Asked Questions</h2>{faq_html}</section>' if faq_html else ''}
+      {related_guides(related)}
+    """
+    return guide_page(
+        item["slug"],
+        f"{item['title']} — Specs & Comparison",
+        item["description"],
+        item["title"],
+        f"{len(models)} models compared · listed specifications",
+        content,
+        item["title"],
+        [faq_json] if faq_json else None,
+        parents=[("Model Comparisons", "comparisons.html")],
+    )
+
+
 def build_comparisons_hub():
+    segment_cards = "".join(
+        f'<a class="page-item" href="{item["slug"]}.html"><h2>{esc(item["title"])}</h2><p>{esc(item["description"])}</p></a>'
+        for item in SEGMENT_COMPARISONS
+    )
     groups = {}
     for item in COMPARISONS:
         groups.setdefault(item["group"], []).append(item)
-    sections = []
+    sections = [f'<h2>Segment comparisons</h2><div class="page-list">{segment_cards}</div>', '<h2>Head-to-head comparisons</h2>']
     for group, items in groups.items():
         cards = "".join(
             f'<a class="page-item" href="{item["slug"]}.html"><h2>{esc(item["title"])}</h2><p>{esc(item["description"])}</p></a>'
             for item in items
         )
-        sections.append(f'<h2>{esc(group)}</h2><div class="page-list">{cards}</div>')
+        sections.append(f'<h3>{esc(group)}</h3><div class="page-list">{cards}</div>')
     content = f"""
-      <p>Head-to-head comparisons built from the catalogue's listed specifications. Each page shows power, torque, weight, seat height, suspension, brakes, tyres and service data, followed by the main on-paper differences.</p>
+      <p>Segment comparisons and head-to-head pages built from the catalogue's listed specifications. Each page shows power, torque, weight, seat height, suspension, brakes, tyres and service data, followed by the main on-paper differences.</p>
       <p>These are specification comparisons, not ride reviews. Model-year and market variants can differ, so confirm the exact machine before ordering parts.</p>
       {''.join(sections)}
       {related_guides([("parts-fitment-codes.html", "Parts and fitment codes"), ("seat-height-chart.html", "Seat height chart"), ("torque-specs.html", "Torque specifications"), ("oil-capacity-chart.html", "Oil capacity chart")])}
     """
     return guide_page(
         "comparisons",
-        "Motorcycle Model Comparisons — Specs & Differences",
-        f"{len(COMPARISONS)} motorcycle head-to-head comparisons across 450 motocross, sport, naked, adventure and retro classes.",
-        "Motorcycle Model Comparisons",
-        f"{len(COMPARISONS)} head-to-head specification comparisons.",
+        "Motorcycle Comparisons — Segments & Head-to-Head",
+        f"{len(SEGMENT_COMPARISONS)} segment comparisons and {len(COMPARISONS)} head-to-head comparisons for adventure, touring, sport, motocross and retro motorcycles.",
+        "Motorcycle Comparisons",
+        f"{len(SEGMENT_COMPARISONS)} segment comparisons and {len(COMPARISONS)} head-to-head comparisons.",
         content,
         "Model Comparisons",
     )
@@ -1663,11 +1830,113 @@ COMPARISONS = [
     },
 ]
 
+SEGMENT_COMPARISONS = [
+    {
+        "slug": "under-500cc-adventure-motorcycles",
+        "title": "Under 500cc Adventure Motorcycles Compared",
+        "description": "Under-500cc adventure bikes compared: Xpulse 210, KTM 250 and 390 Adventure, V-Strom SX 250, Versys-X 300, G 310 GS, Himalayan 450, NX500, 450MT, F 450 GS and TRK 502.",
+        "intro": "This group covers adventure and adventure-styled motorcycles up to 500cc. The table compares listed power, torque, weight, seat height, fuel capacity, suspension, brakes and tyres. Use it to narrow the class by size, seat height and tank range before a test ride.",
+        "models": [
+            "hero-xpulse-210-2025-present-global",
+            "ktm-250-adventure-2020-present-global",
+            "suzuki-v-strom-sx-250-2022-present-india",
+            "kawasaki-versys-x-300-2017-present-global",
+            "bmw-g-310-gs-2018-present-global",
+            "ktm-adventure-390-2025-present-global",
+            "royal-enfield-himalayan-450",
+            "cfmoto-450mt-2024-present-global",
+            "bmw-f450gs-2026-present-global",
+            "honda-nx500-2023-present-global",
+            "benelli-trk-502-2017-present-global",
+        ],
+    },
+    {
+        "slug": "under-500cc-tourers",
+        "title": "Under 500cc Touring Motorcycles Compared",
+        "description": "Under-500cc tourers compared: Honda NX500, Benelli TRK 502, Kawasaki Versys-X 300, Suzuki V-Strom SX 250, BMW G 310 GS, KTM 390 Adventure and Royal Enfield Himalayan 450.",
+        "intro": "These are the road-biased touring options in the sub-500cc class. The comparison focuses on seat height, fuel capacity, weight and highway-friendly power rather than hard off-road hardware.",
+        "models": [
+            "suzuki-v-strom-sx-250-2022-present-india",
+            "kawasaki-versys-x-300-2017-present-global",
+            "bmw-g-310-gs-2018-present-global",
+            "ktm-adventure-390-2025-present-global",
+            "royal-enfield-himalayan-450",
+            "honda-nx500-2023-present-global",
+            "benelli-trk-502-2017-present-global",
+        ],
+    },
+    {
+        "slug": "budget-tourers",
+        "title": "Budget Touring Motorcycles Compared",
+        "description": "Budget-focused 200–500cc tourers compared: Xpulse 200 4V, Xpulse 210, KTM 250 Adventure, V-Strom SX 250, Versys-X 300, Himalayan 411 and BMW G 310 GS.",
+        "intro": "This page groups the smaller-capacity touring and adventure-styled models. It compares specifications, not live prices: taxes, local pricing and equipment vary by market. Use the table to shortlist by seat height, weight, tank size and output.",
+        "models": [
+            "hero-xpulse-200-4v-2022-present-global",
+            "hero-xpulse-210-2025-present-global",
+            "ktm-250-adventure-2020-present-global",
+            "suzuki-v-strom-sx-250-2022-present-india",
+            "kawasaki-versys-x-300-2017-present-global",
+            "royal-enfield-himalayan-411-2015-2023-global",
+            "bmw-g-310-gs-2018-present-global",
+        ],
+    },
+    {
+        "slug": "under-500cc-twin-cylinder-sportbikes",
+        "title": "Under 500cc Twin-Cylinder Sportbikes Compared",
+        "description": "Twin-cylinder sportbikes under 500cc compared: Yamaha R3, Kawasaki Ninja 400 and 500, Honda CBR500R, CFMOTO 450SR and Aprilia RS 457.",
+        "intro": "This group covers parallel-twin sportbikes below 500cc. The table compares claimed power and torque, weight, seat height, fuel capacity, suspension, brakes and tyres so the class can be compared on like-for-like listed data.",
+        "models": [
+            "yamaha-r3-2019-present-global",
+            "kawasaki-ninja-400-2018-present",
+            "kawasaki-ninja-500-2024-present",
+            "honda-cbr500r-2022-present-global",
+            "cfmoto-450sr-2022-present-global",
+            "aprilia-rs-457-2023-present-global",
+        ],
+    },
+    {
+        "slug": "single-cylinder-sportbikes",
+        "title": "Single-Cylinder Sportbikes Compared",
+        "description": "Single-cylinder sportbikes compared: Yamaha R15 V4, KTM RC 200 and RC 390, TVS Apache RR 310, BMW G 310 RR, Honda CBR300R and Hero Karizma XMR 210.",
+        "intro": "This group covers single-cylinder sport and sporty-commuter models. The comparison includes lightweight 150–200cc machines alongside 300–390cc sportbikes, so seat height and weight matter as much as peak power.",
+        "models": [
+            "yamaha-yzf-r15-v4-2021-present-global",
+            "ktm-rc-200-2014-present-global",
+            "ktm-rc-390",
+            "tvs-apache-rr-310-2020-present-india",
+            "bmw-g310rr-2015-2025",
+            "honda-cbr-300-r-2014-2021-global",
+            "hero-karizma-xmr-210-2023-present-india",
+        ],
+    },
+    {
+        "slug": "600cc-sportbikes",
+        "title": "600cc Sportbikes Compared",
+        "description": "600-class sportbikes compared: CBR600RR, GSX-R600, YZF-R6, Ninja ZX-6R, CBR650R, Aprilia RS 660 and Triumph Daytona 660.",
+        "intro": "This page covers the 599–660cc sportbike class, including traditional inline-four supersports and newer twin- and triple-cylinder alternatives. Model years differ across the group; the table lists the catalogue entry for each machine.",
+        "models": [
+            "honda-cbr600rr-2013",
+            "suzuki-gsx-r600-2011-present-global",
+            "yamaha-yzf-r6-2017-2020-global",
+            "kawasaki-ninja-zx-6r",
+            "honda-cbr650r-2024-present-global",
+            "aprilia-rs-660-2020-present-global",
+            "triumph-daytona-660-2024-present-global",
+        ],
+    },
+]
+
 COMPARISON_LINKS = {}
 for _comparison in COMPARISONS:
     _link = (f"{_comparison['slug']}.html", _comparison["title"])
     for _key in ("a", "b"):
         COMPARISON_LINKS.setdefault(_comparison[_key], []).append(_link)
+
+SEGMENT_LINKS = {}
+for _segment in SEGMENT_COMPARISONS:
+    _segment_link = (f"{_segment['slug']}.html", _segment["title"])
+    for _model_id in _segment["models"]:
+        SEGMENT_LINKS.setdefault(_model_id, []).append(_segment_link)
 
 
 def build_model_pages(bikes, brand_links):
@@ -1694,7 +1963,7 @@ def build_model_pages(bikes, brand_links):
             ("best-beginner-motorcycles.html", "Best beginner motorcycles"),
             ("torque-specs.html", "Motorcycle torque specs")
         ]
-        comparisons = COMPARISON_LINKS.get(bike["id"], [])
+        comparisons = SEGMENT_LINKS.get(bike["id"], []) + COMPARISON_LINKS.get(bike["id"], [])
         if comparisons:
             guides = comparisons + guides
         if category == "scooter":
@@ -1798,6 +2067,9 @@ def main():
     for item in COMPARISONS:
         a, b = id_map[item["a"]], id_map[item["b"]]
         urls.append(comparison(item, a, b))
+    for item in SEGMENT_COMPARISONS:
+        models = [id_map[model_id] for model_id in item["models"]]
+        urls.append(segment_comparison(item, models))
     urls.append(build_comparisons_hub())
 
     build_brake_redirect()
