@@ -10,6 +10,7 @@ import argparse
 import hashlib
 import json
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -23,7 +24,7 @@ SOURCES = DATA / "bike-image-sources.json"
 MANIFEST = DATA / "bike-images.json"
 MOTORCYCLES = DATA / "motorcycles.json"
 
-WIDTHS = (400, 800, 1200)
+DEFAULT_WIDTHS = (400, 800, 1200)
 ASPECT = 2 / 3
 USER_AGENT = "MotoXWikiImagePipeline/1.0 (+https://motoxref.com)"
 MAX_BYTES = 20 * 1024 * 1024
@@ -61,6 +62,43 @@ def identify(path):
     return int(width), int(height)
 
 
+def image_options():
+    settings = load_json(DATA / "settings.json", {})
+    options = (settings.get("options") or {}).get("images") or {}
+    try:
+        max_width = int(options.get("maxWidth", 1200))
+    except (TypeError, ValueError):
+        max_width = 1200
+    max_width = 1200 if max_width >= 1200 else 800
+    widths = tuple(width for width in DEFAULT_WIDTHS if width <= max_width)
+    try:
+        avif_quality = max(30, min(70, int(options.get("avifQuality", 55))))
+    except (TypeError, ValueError):
+        avif_quality = 55
+    try:
+        webp_quality = max(50, min(95, int(options.get("webpQuality", 82))))
+    except (TypeError, ValueError):
+        webp_quality = 82
+    try:
+        jpg_quality = max(50, min(95, int(options.get("jpegQuality", 82))))
+    except (TypeError, ValueError):
+        jpg_quality = 82
+    return widths, max_width, avif_quality, webp_quality, jpg_quality
+
+
+def prepare_source(image_url, destination):
+    if image_url.startswith("https://"):
+        download(image_url, destination)
+        return
+    if image_url.startswith("image-uploads/"):
+        source = DATA / image_url
+        if not source.exists():
+            raise FileNotFoundError(f"uploaded image not found: {image_url}")
+        shutil.copyfile(source, destination)
+        return
+    raise ValueError("image URL must be HTTPS or an admin upload path")
+
+
 def download(url, destination):
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=60) as response:
@@ -73,11 +111,11 @@ def download(url, destination):
     destination.write_bytes(data)
 
 
-def make_variants(source, directory, stem, fit, gravity):
+def make_variants(source, directory, stem, fit, gravity, widths, qualities):
     variants = {}
-    for width in WIDTHS:
+    for width in widths:
         height = round(width * ASPECT)
-        for fmt, quality in (("avif", "55"), ("webp", "82"), ("jpg", "82")):
+        for fmt, quality in (("avif", qualities[0]), ("webp", qualities[1]), ("jpg", qualities[2])):
             target = directory / f"{stem}-{width}.{fmt}"
             cmd = [
                 "convert",
@@ -111,6 +149,8 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="validate sources without downloading")
     args = parser.parse_args()
 
+    widths, max_width, avif_quality, webp_quality, jpg_quality = image_options()
+    qualities = (str(avif_quality), str(webp_quality), str(jpg_quality))
     motorcycles = {
         item["id"]: item
         for item in load_json(MOTORCYCLES, {"motorcycles": []}).get("motorcycles", [])
@@ -135,8 +175,8 @@ def main():
             skipped += 1
             continue
         image_url = entry.get("imageUrl", "")
-        if not image_url.startswith("https://"):
-            print(f"skip {model_id}: image URL must use HTTPS", file=sys.stderr)
+        if not (image_url.startswith("https://") or image_url.startswith("image-uploads/")):
+            print(f"skip {model_id}: image URL must be HTTPS or an admin upload", file=sys.stderr)
             skipped += 1
             continue
         source_page = entry.get("sourcePage", "")
@@ -154,7 +194,7 @@ def main():
         if existing and not args.force:
             expected = [
                 directory / f"{stem}-{width}.{fmt}"
-                for width in WIDTHS
+                for width in widths
                 for fmt in ("avif", "webp", "jpg")
             ]
             if all(path.exists() for path in expected):
@@ -170,7 +210,7 @@ def main():
         directory.mkdir(parents=True, exist_ok=True)
         with tempfile.NamedTemporaryFile(suffix=".img", delete=True) as tmp:
             try:
-                download(image_url, Path(tmp.name))
+                prepare_source(image_url, Path(tmp.name))
                 width, height = identify(tmp.name)
                 variants = make_variants(
                     tmp.name,
@@ -178,6 +218,8 @@ def main():
                     stem,
                     entry.get("fit", "cover"),
                     entry.get("gravity", "center"),
+                    widths,
+                    qualities,
                 )
             except Exception as exc:
                 print(f"fail {model_id}: {exc}", file=sys.stderr)
@@ -192,8 +234,8 @@ def main():
             "credit": entry.get("credit", ""),
             "creditRequired": bool(entry.get("creditRequired")),
             "alt": entry.get("alt") or f"{model.get('make', '')} {model.get('model', '')}",
-            "width": 1200,
-            "height": round(1200 * ASPECT),
+            "width": max_width,
+            "height": round(max_width * ASPECT),
             "variants": variants,
         }
         downloaded += 1

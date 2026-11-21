@@ -26,8 +26,25 @@ MODELS = os.path.join(ROOT, "motorcycle")
 SITE = "https://motoxref.com"
 LAST_MOD = "2026-11-21"
 
+
+def read_json(name, default):
+    path = os.path.join(DATA, name)
+    if not os.path.exists(path):
+        return default
+    with open(path, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+SETTINGS = read_json("settings.json", {})
+OPTIONS = SETTINGS.get("options") or {}
+FEATURES = OPTIONS.get("features") or {}
+FAQ_OPTIONS = OPTIONS.get("faq") or {}
+IMAGE_OPTIONS = OPTIONS.get("images") or {}
+THIRD_PARTY = SETTINGS.get("third_party") or {}
+ADS_ENABLED = (SETTINGS.get("ads") or {}).get("enabled", True)
+
 ADSENSE_HEAD = """  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3716738858398465"
-     crossorigin="anonymous"></script>"""
+     crossorigin="anonymous"></script>""" if ADS_ENABLED else ""
 
 
 def load_bike_images():
@@ -1383,6 +1400,14 @@ def property_table(rows):
 
 
 def bike_faq(bike):
+    if not FEATURES.get("modelFaq", True):
+        return []
+    try:
+        max_faq = max(0, min(50, int(FAQ_OPTIONS.get("maxPerModel", 26))))
+    except (TypeError, ValueError):
+        max_faq = 26
+    if not max_faq:
+        return []
     full = name(bike)
     faq = []
 
@@ -1412,7 +1437,7 @@ def bike_faq(bike):
     spark = service(bike, "spark_plug")
     chain_value = service(bike, "chain") or field(bike, "chain")
     final_drive = service(bike, "final_drive")
-    subject = faq_alias(bike)
+    subject = faq_alias(bike) if FAQ_OPTIONS.get("aliasVariants", True) else full
 
     if power:
         faq.append((f"How much horsepower (BHP) does the {subject} make?", f"The {full} is rated at {power}."))
@@ -1538,7 +1563,7 @@ def bike_faq(bike):
     elif battery_rating:
         faq.append((f"What is the battery rating of the {subject}?", f"The listed battery rating is {battery_rating}. The battery code is not yet verified for this entry."))
 
-    if usable(front_pads) or usable(rear_pads):
+    if FAQ_OPTIONS.get("brakePads", True) and (usable(front_pads) or usable(rear_pads)):
         answer = " ".join(part for part in [
             f"Front: {front_pads}." if usable(front_pads) else "",
             f"Rear: {rear_pads}." if usable(rear_pads) else "",
@@ -1546,15 +1571,15 @@ def bike_faq(bike):
         answer += " These are pad-shape references; confirm the compound and exact model year before ordering."
         faq.append((f"What brake pads does the {subject} use?", answer))
 
-    if usable(spark):
+    if FAQ_OPTIONS.get("sparkPlug", True) and usable(spark):
         faq.append((f"What spark plug does the {subject} use?", f"The listed spark plug is {spark}. Confirm the gap and heat range for your model year."))
 
-    if usable(chain_value):
+    if FAQ_OPTIONS.get("chain", True) and usable(chain_value):
         faq.append((f"What chain does the {subject} use?", f"The listed chain or final drive is {chain_value}. Confirm the pitch, link count and adjustment procedure for your model year."))
 
     sprocket_text = " ".join(part for part in [chain_value, field(bike, "transmission"), final_drive] if usable(part))
     sprocket_match = re.search(r"\b\d{2}T\s*/\s*\d{2}T\b", sprocket_text, re.I)
-    if sprocket_match:
+    if FAQ_OPTIONS.get("sprocket", True) and sprocket_match:
         faq.append((f"What sprocket sizes does the {subject} use?", f"The listed final-drive sprocket sizes are {sprocket_match.group(0)}. Confirm the tooth count for your market and model year."))
 
     if oil:
@@ -1595,7 +1620,7 @@ def bike_faq(bike):
             continue
         seen.add(question)
         unique.append((question, answer))
-    return unique[:26]
+    return unique[:max_faq]
 
 
 ALIAS_NICKNAMES = {
@@ -1688,6 +1713,8 @@ def bike_image_srcset(entry, fmt):
 
 
 def bike_image_url(bike, fmt="jpg", width="1200"):
+    if not FEATURES.get("modelImages", True):
+        return ""
     entry = bike_image_entry(bike)
     if not entry:
         return ""
@@ -1697,6 +1724,8 @@ def bike_image_url(bike, fmt="jpg", width="1200"):
 
 
 def bike_image_html(bike):
+    if not FEATURES.get("modelImages", True):
+        return ""
     entry = bike_image_entry(bike)
     if not entry:
         return ""
@@ -2354,6 +2383,72 @@ def build_model_pages(bikes, brand_links):
     return len(bikes)
 
 
+def inject_third_party_codes():
+    head_parts = [
+        str(THIRD_PARTY.get("verification") or "").strip(),
+        f"<style>{str(THIRD_PARTY.get('customCss') or '').strip()}</style>" if str(THIRD_PARTY.get("customCss") or "").strip() else "",
+        str(THIRD_PARTY.get("head") or "").strip(),
+    ]
+    head_parts = [part for part in head_parts if part]
+    body_start = str(THIRD_PARTY.get("bodyStart") or "").strip()
+    body_end = str(THIRD_PARTY.get("bodyEnd") or "").strip()
+
+    head_block = (
+        "<!-- MX-HEAD-START -->\n" + "\n".join(head_parts) + "\n<!-- MX-HEAD-END -->"
+        if head_parts else ""
+    )
+    body_start_block = (
+        "<!-- MX-BODY-START -->\n" + body_start + "\n<!-- MX-BODY-END -->"
+        if body_start else ""
+    )
+    body_end_block = (
+        "<!-- MX-BODY-END-START -->\n" + body_end + "\n<!-- MX-BODY-END-END -->"
+        if body_end else ""
+    )
+
+    paths = []
+    for directory in (GUIDES, REFERENCE, MODELS):
+        paths.extend(
+            os.path.join(directory, name)
+            for name in os.listdir(directory)
+            if name.endswith(".html")
+        )
+    for name in ("index.html", "pages.html"):
+        path = os.path.join(ROOT, name)
+        if os.path.exists(path):
+            paths.append(path)
+
+    persistent_markers = {
+        os.path.join(ROOT, "index.html"),
+        os.path.join(ROOT, "pages.html"),
+    }
+
+    changed = 0
+    for path in paths:
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+        updated = re.sub(r"<!-- MX-HEAD-START -->.*?<!-- MX-HEAD-END -->\n?", "", text, flags=re.S)
+        updated = re.sub(r"<!-- MX-BODY-START -->.*?<!-- MX-BODY-END -->\n?", "", updated, flags=re.S)
+        updated = re.sub(r"<!-- MX-BODY-END-START -->.*?<!-- MX-BODY-END-END -->\n?", "", updated, flags=re.S)
+        persistent = path in persistent_markers
+        head_value = head_block or ("<!-- MX-HEAD-START --><!-- MX-HEAD-END -->" if persistent else "")
+        body_start_value = body_start_block or ("<!-- MX-BODY-START --><!-- MX-BODY-END -->" if persistent else "")
+        body_end_value = body_end_block or ("<!-- MX-BODY-END-START --><!-- MX-BODY-END-END -->" if persistent else "")
+        if head_value and "</head>" in updated:
+            updated = updated.replace("</head>", head_value + "\n</head>", 1)
+        if body_start_value:
+            match = re.search(r"<body[^>]*>", updated)
+            if match:
+                updated = updated[:match.end()] + "\n" + body_start_value + updated[match.end():]
+        if body_end_value and "</body>" in updated:
+            updated = updated.replace("</body>", body_end_value + "\n</body>", 1)
+        if updated != text:
+            with open(path, "w", encoding="utf-8") as fh:
+                fh.write(updated)
+            changed += 1
+    return changed
+
+
 def main():
     global bikes
     bikes, pages = load()
@@ -2468,7 +2563,10 @@ def main():
                 image_xml = f"<image:image><image:loc>{image_map[url]}</image:loc></image:image>"
             fh.write(f"  <url><loc>{url}</loc><lastmod>{LAST_MOD}</lastmod><priority>{priority}</priority>{image_xml}</url>\n")
         fh.write("</urlset>\n")
+    injected = inject_third_party_codes()
     print(f"Generated {len(urls)} sitemap URLs, {len(os.listdir(GUIDES))} guide files, {len(os.listdir(REFERENCE))} reference pages and {model_count} model pages")
+    if injected:
+        print(f"Injected third-party code into {injected} pages")
 
 
 if __name__ == "__main__":

@@ -72,5 +72,37 @@
       "yamaha-tenere-700-2019-present-global"
     ],
     "page_size": 24
+  },
+  "options": {
+    "features": {
+      "modelImages": true,
+      "modelFaq": true
+    },
+    "faq": {
+      "maxPerModel": 26,
+      "aliasVariants": true,
+      "brakePads": true,
+      "sparkPlug": true,
+      "chain": true,
+      "sprocket": true
+    },
+    "images": {
+      "maxWidth": 1200,
+      "avifQuality": 55,
+      "webpQuality": 82,
+      "jpegQuality": 82,
+      "lazyLoad": true,
+      "creditRequired": false
+    },
+    "publishing": {
+      "autoBuild": false
+    }
+  },
+  "third_party": {
+    "head": "",
+    "bodyStart": "",
+    "bodyEnd": "",
+    "verification": "",
+    "customCss": ""
   }
 }
