@@ -2788,7 +2788,7 @@ def inject_third_party_codes():
             for name in os.listdir(directory)
             if name.endswith(".html")
         )
-    for name in ("index.html", "pages.html"):
+    for name in ("index.html", "pages.html", "motorcycle.html", "search.html"):
         path = os.path.join(ROOT, name)
         if os.path.exists(path):
             paths.append(path)

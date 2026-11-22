@@ -104,7 +104,7 @@
     }
   },
   "third_party": {
-    "head": "",
+    "head": "<script async src=\"https://www.googletagmanager.com/gtm.js?id=GTM-NJ8DQQHN\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n</script>",
     "bodyStart": "",
     "bodyEnd": "",
     "verification": "<meta name=\"yandex-verification\" content=\"3973b3f49095619f\" />",
