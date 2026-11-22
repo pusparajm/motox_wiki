@@ -1,0 +1,3869 @@
+{
+  "make": "Yamaha",
+  "eligible_models": 409,
+  "only_sbs_before": 409,
+  "fixed_models": 262,
+  "fixed_positions": 405,
+  "remaining_models": 147,
+  "fixed": [
+    {
+      "id": "yamaha-1100-se-maxim-1981-1981-global",
+      "make": "Yamaha",
+      "model": "1100 SE, Maxim",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA70",
+          "before": "SBS 547HF",
+          "after": "EBC FA70 · SBS 547HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-750-maxim-1981-1981-global",
+      "make": "Yamaha",
+      "model": "750 Maxim",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA70",
+          "before": "SBS 547HF",
+          "after": "EBC FA70 · SBS 547HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-800-fazer-8-2010-2015-global",
+      "make": "Yamaha",
+      "model": "800 Fazer 8",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-bt-1100-bulldog-2002-2006-global",
+      "make": "Yamaha",
+      "model": "BT 1100 Bulldog",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-dt-175-1995-2000-global",
+      "make": "Yamaha",
+      "model": "DT 175",
+      "changes": {
+        "rear_brake_pads": {
+          "ebc": "FA275",
+          "before": "SBS 728HF",
+          "after": "EBC FA275 · SBS 728HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fj-09-850-2015-2017-global",
+      "make": "Yamaha",
+      "model": "FJ-09 850",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fj-1100-1983-1985-global",
+      "make": "Yamaha",
+      "model": "FJ 1100",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fj-1200-1986-1990-global",
+      "make": "Yamaha",
+      "model": "FJ 1200",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 613HF",
+          "after": "EBC FA123 · SBS 613HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fj-1200-abs-1991-1993-global",
+      "make": "Yamaha",
+      "model": "FJ 1200 ABS",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 613HS",
+          "after": "EBC FA123 · SBS 613HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fj-600-1984-1985-global",
+      "make": "Yamaha",
+      "model": "FJ 600",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fjr-1300-2001-2003-global",
+      "make": "Yamaha",
+      "model": "FJR 1300",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fjr-1300-a-2013-2020-global",
+      "make": "Yamaha",
+      "model": "FJR 1300 A",
+      "changes": {
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fjr-1300-abs-2003-2012-global",
+      "make": "Yamaha",
+      "model": "FJR 1300 ABS",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fjr-1300-ae-2016-2019-global",
+      "make": "Yamaha",
+      "model": "FJR 1300 AE",
+      "changes": {
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fjr-1300-as-2013-2019-global",
+      "make": "Yamaha",
+      "model": "FJR 1300 AS",
+      "changes": {
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz-07-700-2014-2017-global",
+      "make": "Yamaha",
+      "model": "FZ-07 700",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz-09-850-2014-2017-global",
+      "make": "Yamaha",
+      "model": "FZ-09 850",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz-10-1000-2016-2017-global",
+      "make": "Yamaha",
+      "model": "FZ-10 1000",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz-250-phazer-n-s-1985-1986-global",
+      "make": "Yamaha",
+      "model": "FZ 250 Phazer N, S",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz-250-r-1985-1985-global",
+      "make": "Yamaha",
+      "model": "FZ 250 R",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA104",
+          "before": "SBS 570HF",
+          "after": "EBC FA104 · SBS 570HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz-600-1986-1987-global",
+      "make": "Yamaha",
+      "model": "FZ 600",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz-600-s-sc-1986-1989-global",
+      "make": "Yamaha",
+      "model": "FZ 600 S, SC",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA104",
+          "before": "SBS 570HF",
+          "after": "EBC FA104 · SBS 570HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz-700-1987-1988-global",
+      "make": "Yamaha",
+      "model": "FZ 700",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz-750-1985-1986-global",
+      "make": "Yamaha",
+      "model": "FZ 750",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz-750-genesis-1986-1992-global",
+      "make": "Yamaha",
+      "model": "FZ 750 Genesis",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA104",
+          "before": "SBS 570HF",
+          "after": "EBC FA104 · SBS 570HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz1-1000-fazer-2006-2016-global",
+      "make": "Yamaha",
+      "model": "FZ1 1000 Fazer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz25-250-2019-2019-global",
+      "make": "Yamaha",
+      "model": "FZ25 250",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA181",
+          "before": "SBS 671HF",
+          "after": "EBC FA181 · SBS 671HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA152",
+          "before": "SBS 632HF",
+          "after": "EBC FA152 · SBS 632HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz6-600-2004-2008-global",
+      "make": "Yamaha",
+      "model": "FZ6 600",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz6-600-fazer-2004-2008-global",
+      "make": "Yamaha",
+      "model": "FZ6 600 Fazer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz6-600-fazer-s2-2007-2009-global",
+      "make": "Yamaha",
+      "model": "FZ6 600 Fazer S2",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz6-600-fazer-s2-abs-2007-2009-global",
+      "make": "Yamaha",
+      "model": "FZ6 600 Fazer S2 ABS",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz6-600-s2-2007-2009-global",
+      "make": "Yamaha",
+      "model": "FZ6 600 S2",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz6-600-s2-abs-2007-2009-global",
+      "make": "Yamaha",
+      "model": "FZ6 600 S2 ABS",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz6r-600-2009-2014-global",
+      "make": "Yamaha",
+      "model": "FZ6R 600",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA140",
+          "before": "SBS 614LS",
+          "after": "EBC FA140 · SBS 614LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fz8-800-2010-2014-global",
+      "make": "Yamaha",
+      "model": "FZ8 800",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzr-1000-1994-1995-global",
+      "make": "Yamaha",
+      "model": "FZR 1000",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA190",
+          "before": "SBS 683HS",
+          "after": "EBC FA190 · SBS 683HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzr-1000-ex-up-1990-1993-global",
+      "make": "Yamaha",
+      "model": "FZR 1000 EX UP",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 645HS",
+          "after": "EBC FA123 · SBS 645HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzr-1000-genesis-1987-1989-global",
+      "make": "Yamaha",
+      "model": "FZR 1000 Genesis",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 613HF",
+          "after": "EBC FA123 · SBS 613HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzr-400-a-1990-1990-global",
+      "make": "Yamaha",
+      "model": "FZR 400 A",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 613HS",
+          "after": "EBC FA123 · SBS 613HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA104",
+          "before": "SBS 570LS",
+          "after": "EBC FA104 · SBS 570LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzr-600-1989-1989-global",
+      "make": "Yamaha",
+      "model": "FZR 600",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzr-600-r-1990-1995-global",
+      "make": "Yamaha",
+      "model": "FZR 600 R",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 645HS",
+          "after": "EBC FA123 · SBS 645HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzr-750-r-1989-1992-global",
+      "make": "Yamaha",
+      "model": "FZR 750 R",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA145",
+          "before": "SBS 624HS",
+          "after": "EBC FA145 · SBS 624HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzr-750-r-genesis-1987-1988-global",
+      "make": "Yamaha",
+      "model": "FZR 750 R Genesis",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 613HF",
+          "after": "EBC FA123 · SBS 613HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzs-1000-fazer-2001-2005-global",
+      "make": "Yamaha",
+      "model": "FZS 1000 Fazer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA348",
+          "before": "SBS 770LS",
+          "after": "EBC FA348 · SBS 770LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzs-600-fazer-1998-2003-global",
+      "make": "Yamaha",
+      "model": "FZS 600 Fazer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA104",
+          "before": "SBS 570LS",
+          "after": "EBC FA104 · SBS 570LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzs-600-s-fazer-2001-2003-global",
+      "make": "Yamaha",
+      "model": "FZS 600 S Fazer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA104",
+          "before": "SBS 570LS",
+          "after": "EBC FA104 · SBS 570LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzx-700-fazer-1987-1988-global",
+      "make": "Yamaha",
+      "model": "FZX 700 Fazer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-fzx-750-fazer-1986-1990-global",
+      "make": "Yamaha",
+      "model": "FZX 750 Fazer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-gts-1000-1993-1999-global",
+      "make": "Yamaha",
+      "model": "GTS 1000",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA191",
+          "before": "SBS 682HF",
+          "after": "EBC FA191 · SBS 682HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-it-200-1984-1986-global",
+      "make": "Yamaha",
+      "model": "IT 200",
+      "changes": {
+        "rear_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575SI",
+          "after": "EBC FA101 · SBS 575SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mt-07-700-moto-cage-2015-2017-global",
+      "make": "Yamaha",
+      "model": "MT-07 700 Moto Cage",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mt-07-700-sp-2018-2018-global",
+      "make": "Yamaha",
+      "model": "MT-07 700 SP",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mt-07-700-tracer-2016-2020-global",
+      "make": "Yamaha",
+      "model": "MT-07 700 Tracer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mt-07-700-tracer-gt-2019-2019-global",
+      "make": "Yamaha",
+      "model": "MT-07 700 Tracer GT",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mt-09-900-sp-2018-2020-global",
+      "make": "Yamaha",
+      "model": "MT-09 900 SP",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mt-09-900-sport-tracker-2015-2016-global",
+      "make": "Yamaha",
+      "model": "MT-09 900 Sport Tracker",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mt-09-900-street-rally-2014-2016-global",
+      "make": "Yamaha",
+      "model": "MT-09 900 Street Rally",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mt-09-900-tracer-2015-2020-global",
+      "make": "Yamaha",
+      "model": "MT-09 900 Tracer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mt-09-900-tracer-gt-2018-2022-global",
+      "make": "Yamaha",
+      "model": "MT-09 900 Tracer GT",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mt-10-1000-sp-2017-2019-global",
+      "make": "Yamaha",
+      "model": "MT-10 1000 SP",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mxt-850-niken-2018-2022-global",
+      "make": "Yamaha",
+      "model": "MXT 850 Niken",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-mxt-850-niken-gt-2019-2022-global",
+      "make": "Yamaha",
+      "model": "MXT 850 Niken GT",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-rd-250-1973-1979-global",
+      "make": "Yamaha",
+      "model": "RD 250",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA11",
+          "before": "SBS 504HF",
+          "after": "EBC FA11 · SBS 504HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-rd-350-1973-1979-global",
+      "make": "Yamaha",
+      "model": "RD 350",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA11",
+          "before": "SBS 504HF",
+          "after": "EBC FA11 · SBS 504HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-rd-50-mx-1981-1987-global",
+      "make": "Yamaha",
+      "model": "RD 50 MX",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA70",
+          "before": "SBS 547HF",
+          "after": "EBC FA70 · SBS 547HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-rt-180-1990-1996-global",
+      "make": "Yamaha",
+      "model": "RT 180",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA118",
+          "before": "SBS 596HF",
+          "after": "EBC FA118 · SBS 596HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-rz-350-1984-1988-global",
+      "make": "Yamaha",
+      "model": "RZ 350",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-scr-950-scrambler-2017-2019-global",
+      "make": "Yamaha",
+      "model": "SCR 950 Scrambler",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-sr-500-1978-1998-global",
+      "make": "Yamaha",
+      "model": "SR 500",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-srx-250-t-tc-1987-1987-global",
+      "make": "Yamaha",
+      "model": "SRX 250 T,TC",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA104",
+          "before": "SBS 570HF",
+          "after": "EBC FA104 · SBS 570HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-srx-600-1986-1999-global",
+      "make": "Yamaha",
+      "model": "SRX 600",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA104",
+          "before": "SBS 570HF",
+          "after": "EBC FA104 · SBS 570HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590HF",
+          "after": "EBC FA123 · SBS 590HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tdm-850-1991-2001-global",
+      "make": "Yamaha",
+      "model": "TDM 850",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590HS",
+          "after": "EBC FA123 · SBS 590HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tt-200-1986-1989-global",
+      "make": "Yamaha",
+      "model": "TT 200",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575HF",
+          "after": "EBC FA101 · SBS 575HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tt-225-s-t-1986-2000-global",
+      "make": "Yamaha",
+      "model": "TT 225 S,T",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575HF",
+          "after": "EBC FA101 · SBS 575HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tt-250-1987-2003-global",
+      "make": "Yamaha",
+      "model": "TT 250",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA105",
+          "before": "SBS 580HF",
+          "after": "EBC FA105 · SBS 580HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tt-350-1986-2000-global",
+      "make": "Yamaha",
+      "model": "TT 350",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA105",
+          "before": "SBS 580SI",
+          "after": "EBC FA105 · SBS 580SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tt-600-1985-1992-global",
+      "make": "Yamaha",
+      "model": "TT 600",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575HF",
+          "after": "EBC FA101 · SBS 575HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tt-r-125-lw-2000-2020-global",
+      "make": "Yamaha",
+      "model": "TT-R 125 LW",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA119",
+          "before": "SBS 589SI",
+          "after": "EBC FA119 · SBS 589SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tt-r-225-2001-2004-global",
+      "make": "Yamaha",
+      "model": "TT-R 225",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575SI",
+          "after": "EBC FA101 · SBS 575SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tt-r-230-2005-2022-global",
+      "make": "Yamaha",
+      "model": "TT-R 230",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA135",
+          "before": "SBS 611SI",
+          "after": "EBC FA135 · SBS 611SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tw-125-1999-2007-global",
+      "make": "Yamaha",
+      "model": "TW 125",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA275",
+          "before": "SBS 728HF",
+          "after": "EBC FA275 · SBS 728HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tx-500-a-b-1974-1977-global",
+      "make": "Yamaha",
+      "model": "TX 500 A, B",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA11",
+          "before": "SBS 504HF",
+          "after": "EBC FA11 · SBS 504HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tx-650-1972-1973-global",
+      "make": "Yamaha",
+      "model": "TX 650",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA11",
+          "before": "SBS 504HF",
+          "after": "EBC FA11 · SBS 504HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tx-750-1973-1974-global",
+      "make": "Yamaha",
+      "model": "TX 750",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA11",
+          "before": "SBS 504HF",
+          "after": "EBC FA11 · SBS 504HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tx-750-a-1973-1976-global",
+      "make": "Yamaha",
+      "model": "TX 750 A",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA11",
+          "before": "SBS 504HF",
+          "after": "EBC FA11 · SBS 504HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tz-125-1997-2000-global",
+      "make": "Yamaha",
+      "model": "TZ 125",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA145",
+          "before": "SBS 624DC",
+          "after": "EBC FA145 · SBS 624DC"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA162",
+          "before": "SBS 659RQ",
+          "after": "EBC FA162 · SBS 659RQ"
+        }
+      }
+    },
+    {
+      "id": "yamaha-tz-250-1982-2005-global",
+      "make": "Yamaha",
+      "model": "TZ 250",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA145",
+          "before": "SBS 624DC",
+          "after": "EBC FA145 · SBS 624DC"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA162",
+          "before": "SBS 659RQ",
+          "after": "EBC FA162 · SBS 659RQ"
+        }
+      }
+    },
+    {
+      "id": "yamaha-v-max-1200-1985-2003-global",
+      "make": "Yamaha",
+      "model": "V-MAX 1200",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HS",
+          "after": "EBC FA88 · SBS 555HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-vf-750-virago-1988-1988-global",
+      "make": "Yamaha",
+      "model": "VF 750 Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-vmx-1700-v-max-2009-2018-global",
+      "make": "Yamaha",
+      "model": "VMX 1700 V-Max",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA442/4",
+          "before": "SBS 839HS",
+          "after": "EBC FA442/4 · SBS 839HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-125-1991-2002-global",
+      "make": "Yamaha",
+      "model": "WR 125",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA135",
+          "before": "SBS 611SI",
+          "after": "EBC FA135 · SBS 611SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA152",
+          "before": "SBS 632SI",
+          "after": "EBC FA152 · SBS 632SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-125-r-xy-2009-2016-global",
+      "make": "Yamaha",
+      "model": "WR 125 R, XY",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA142",
+          "before": "SBS 627HF",
+          "after": "EBC FA142 · SBS 627HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-200-1991-1992-global",
+      "make": "Yamaha",
+      "model": "WR 200",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA135",
+          "before": "SBS 611SI",
+          "after": "EBC FA135 · SBS 611SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA152",
+          "before": "SBS 632SI",
+          "after": "EBC FA152 · SBS 632SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-250-1990-2002-global",
+      "make": "Yamaha",
+      "model": "WR 250",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA135",
+          "before": "SBS 611SI",
+          "after": "EBC FA135 · SBS 611SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA152",
+          "before": "SBS 632SI",
+          "after": "EBC FA152 · SBS 632SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-250-f-2001-2013-global",
+      "make": "Yamaha",
+      "model": "WR 250 F",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA185",
+          "before": "SBS 694SI",
+          "after": "EBC FA185 · SBS 694SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA131",
+          "before": "SBS 604SI",
+          "after": "EBC FA131 · SBS 604SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-250-f-efi-2015-2021-global",
+      "make": "Yamaha",
+      "model": "WR 250 F Efi",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA185",
+          "before": "SBS 694SI",
+          "after": "EBC FA185 · SBS 694SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA367",
+          "before": "SBS 790SI",
+          "after": "EBC FA367 · SBS 790SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-250-f-enduro-gp-2018-2018-global",
+      "make": "Yamaha",
+      "model": "WR 250 F Enduro GP",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA450",
+          "before": "SBS 840SI",
+          "after": "EBC FA450 · SBS 840SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA367",
+          "before": "SBS 790SI",
+          "after": "EBC FA367 · SBS 790SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-250-r-2008-2020-global",
+      "make": "Yamaha",
+      "model": "WR 250 R",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA185",
+          "before": "SBS 694HS",
+          "after": "EBC FA185 · SBS 694HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA367",
+          "before": "SBS 790LS",
+          "after": "EBC FA367 · SBS 790LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-250-x-2008-2016-global",
+      "make": "Yamaha",
+      "model": "WR 250 X",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA142",
+          "before": "SBS 627HS",
+          "after": "EBC FA142 · SBS 627HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA367",
+          "before": "SBS 790LS",
+          "after": "EBC FA367 · SBS 790LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-400-f-1998-2000-global",
+      "make": "Yamaha",
+      "model": "WR 400 F",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA185",
+          "before": "SBS 694SI",
+          "after": "EBC FA185 · SBS 694SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA152",
+          "before": "SBS 648SI",
+          "after": "EBC FA152 · SBS 648SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-426-f-2001-2002-global",
+      "make": "Yamaha",
+      "model": "WR 426 F",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA185",
+          "before": "SBS 694SI",
+          "after": "EBC FA185 · SBS 694SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA131",
+          "before": "SBS 604SI",
+          "after": "EBC FA131 · SBS 604SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-450-f-efi-2016-2021-global",
+      "make": "Yamaha",
+      "model": "WR 450 F Efi",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA450",
+          "before": "SBS 840SI",
+          "after": "EBC FA450 · SBS 840SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA367",
+          "before": "SBS 790SI",
+          "after": "EBC FA367 · SBS 790SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-450-f-enduro-gp-2018-2018-global",
+      "make": "Yamaha",
+      "model": "WR 450 F Enduro GP",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA450",
+          "before": "SBS 840SI",
+          "after": "EBC FA450 · SBS 840SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA367",
+          "before": "SBS 790SI",
+          "after": "EBC FA367 · SBS 790SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-500-b-1991-1991-global",
+      "make": "Yamaha",
+      "model": "WR 500 B",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA135",
+          "before": "SBS 611SI",
+          "after": "EBC FA135 · SBS 611SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575SI",
+          "after": "EBC FA101 · SBS 575SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr-500-zd-ze-1992-1993-global",
+      "make": "Yamaha",
+      "model": "WR 500 ZD,ZE",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA135",
+          "before": "SBS 611SI",
+          "after": "EBC FA135 · SBS 611SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA152",
+          "before": "SBS 632SI",
+          "after": "EBC FA152 · SBS 632SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-wr450f-2024-present-global",
+      "make": "Yamaha",
+      "model": "WR450F",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA185",
+          "before": "SBS 694SI",
+          "after": "EBC FA185 · SBS 694SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA367",
+          "before": "SBS 790SI",
+          "after": "EBC FA367 · SBS 790SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xg-250-tricker-2005-2011-global",
+      "make": "Yamaha",
+      "model": "XG 250 Tricker",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA275",
+          "before": "SBS 728HF",
+          "after": "EBC FA275 · SBS 728HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA152",
+          "before": "SBS 632HF",
+          "after": "EBC FA152 · SBS 632HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-1100-1981-1981-global",
+      "make": "Yamaha",
+      "model": "XJ 1100",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA70",
+          "before": "SBS 547HF",
+          "after": "EBC FA70 · SBS 547HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA41",
+          "before": "SBS 528HF",
+          "after": "EBC FA41 · SBS 528HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-400-s-seca-ii-1993-1993-global",
+      "make": "Yamaha",
+      "model": "XJ 400 S Seca II",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA104",
+          "before": "SBS 570LS",
+          "after": "EBC FA104 · SBS 570LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-550-maxim-1981-1983-global",
+      "make": "Yamaha",
+      "model": "XJ 550 Maxim",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA70",
+          "before": "SBS 547HF",
+          "after": "EBC FA70 · SBS 547HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-550-seca-1981-1983-global",
+      "make": "Yamaha",
+      "model": "XJ 550 Seca",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA70",
+          "before": "SBS 547HF",
+          "after": "EBC FA70 · SBS 547HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-600-seca-ii-1992-1996-global",
+      "make": "Yamaha",
+      "model": "XJ 600 SECA II",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA104",
+          "before": "SBS 570LS",
+          "after": "EBC FA104 · SBS 570LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-650-1980-1983-global",
+      "make": "Yamaha",
+      "model": "XJ 650",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-650-g-h-sh-1980-1983-global",
+      "make": "Yamaha",
+      "model": "XJ 650 G, H, SH",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA61",
+          "before": "SBS 545HF",
+          "after": "EBC FA61 · SBS 545HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-650-rj-seca-1981-1983-global",
+      "make": "Yamaha",
+      "model": "XJ 650 RJ Seca",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-650-turbo-1981-1982-global",
+      "make": "Yamaha",
+      "model": "XJ 650 Turbo",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-700-1986-1989-global",
+      "make": "Yamaha",
+      "model": "XJ 700",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-700-maxim-1985-1989-global",
+      "make": "Yamaha",
+      "model": "XJ 700 Maxim",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-750-1983-1987-global",
+      "make": "Yamaha",
+      "model": "XJ 750",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-750-e-1981-1983-global",
+      "make": "Yamaha",
+      "model": "XJ 750 E",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-750-maxim-1982-1982-global",
+      "make": "Yamaha",
+      "model": "XJ 750 Maxim",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-750-seca-1981-1983-global",
+      "make": "Yamaha",
+      "model": "XJ 750 Seca",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA70",
+          "before": "SBS 547HF",
+          "after": "EBC FA70 · SBS 547HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xj-900-1983-1993-global",
+      "make": "Yamaha",
+      "model": "XJ 900",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xjr-1300-racer-2015-2019-global",
+      "make": "Yamaha",
+      "model": "XJR 1300 Racer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA348",
+          "before": "SBS 770LS",
+          "after": "EBC FA348 · SBS 770LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xjr-1300-sp-2001-2001-global",
+      "make": "Yamaha",
+      "model": "XJR 1300 SP",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-1100-e-f-g-h-1978-1981-global",
+      "make": "Yamaha",
+      "model": "XS 1100 E,F,G,H",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-1100-lh-midnight-1981-1981-global",
+      "make": "Yamaha",
+      "model": "XS 1100 LH Midnight",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA70",
+          "before": "SBS 547HF",
+          "after": "EBC FA70 · SBS 547HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA41",
+          "before": "SBS 528HF",
+          "after": "EBC FA41 · SBS 528HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-1100-sf-sg-sh-lg-1979-1981-global",
+      "make": "Yamaha",
+      "model": "XS 1100 SF, SG, SH, LG",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA61",
+          "before": "SBS 545HF",
+          "after": "EBC FA61 · SBS 545HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-250-c-1977-1981-global",
+      "make": "Yamaha",
+      "model": "XS 250 C",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-250-d-e-1979-1980-global",
+      "make": "Yamaha",
+      "model": "XS 250 D, E",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-250-se-sf-1980-1981-global",
+      "make": "Yamaha",
+      "model": "XS 250 SE, SF",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA41",
+          "before": "SBS 528HF",
+          "after": "EBC FA41 · SBS 528HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-360-b-1976-1976-global",
+      "make": "Yamaha",
+      "model": "XS 360 B",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA11",
+          "before": "SBS 504HF",
+          "after": "EBC FA11 · SBS 504HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-360-c-d-1977-1977-global",
+      "make": "Yamaha",
+      "model": "XS 360 C, D",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-400-1977-1985-global",
+      "make": "Yamaha",
+      "model": "XS 400",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-400-dohc-1982-1982-global",
+      "make": "Yamaha",
+      "model": "XS 400 DOHC",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-400-se-1980-1981-global",
+      "make": "Yamaha",
+      "model": "XS 400 SE",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA61",
+          "before": "SBS 545HF",
+          "after": "EBC FA61 · SBS 545HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-400-sg-sh-sf-1980-1981-global",
+      "make": "Yamaha",
+      "model": "XS 400 SG, SH, SF",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA41",
+          "before": "SBS 528HF",
+          "after": "EBC FA41 · SBS 528HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-400-z-1983-1983-global",
+      "make": "Yamaha",
+      "model": "XS 400 Z",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-500-1975-1981-global",
+      "make": "Yamaha",
+      "model": "XS 500",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA11",
+          "before": "SBS 504HF",
+          "after": "EBC FA11 · SBS 504HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-650-1975-1985-global",
+      "make": "Yamaha",
+      "model": "XS 650",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA11",
+          "before": "SBS 504HF",
+          "after": "EBC FA11 · SBS 504HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-650-se-1980-1982-global",
+      "make": "Yamaha",
+      "model": "XS 650 SE",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-650-sj-sk-1982-1982-global",
+      "make": "Yamaha",
+      "model": "XS 650 SJ, SK",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-650-sk-heritage-1983-1983-global",
+      "make": "Yamaha",
+      "model": "XS 650 SK, Heritage",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-750-1977-1980-global",
+      "make": "Yamaha",
+      "model": "XS 750",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-750-h-j-k-1981-1982-global",
+      "make": "Yamaha",
+      "model": "XS 750 H, J, K",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA61",
+          "before": "SBS 545HF",
+          "after": "EBC FA61 · SBS 545HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-750-se-1979-1980-global",
+      "make": "Yamaha",
+      "model": "XS 750 SE",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA61",
+          "before": "SBS 545HF",
+          "after": "EBC FA61 · SBS 545HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xs-850-1980-1981-global",
+      "make": "Yamaha",
+      "model": "XS 850",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA61",
+          "before": "SBS 545HF",
+          "after": "EBC FA61 · SBS 545HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xsr-700-xtribute-2019-2022-global",
+      "make": "Yamaha",
+      "model": "XSR 700 XTribute",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xsr-900-abarth-2017-2022-global",
+      "make": "Yamaha",
+      "model": "XSR 900 Abarth",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xt-1200-z-super-tenere-2014-2019-global",
+      "make": "Yamaha",
+      "model": "XT 1200 Z Super Tenere",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xt-1200-ze-super-tenere-2014-2019-global",
+      "make": "Yamaha",
+      "model": "XT 1200 ZE Super Tenere",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xt-1200-ze-super-tenere-raid-ed-2018-2019-global",
+      "make": "Yamaha",
+      "model": "XT 1200 ZE Super Tenere Raid Ed.",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xt-225-1992-2001-global",
+      "make": "Yamaha",
+      "model": "XT 225",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575HF",
+          "after": "EBC FA101 · SBS 575HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xt-225-serow-1986-1986-global",
+      "make": "Yamaha",
+      "model": "XT 225 Serow",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575HF",
+          "after": "EBC FA101 · SBS 575HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xt-250-1980-2022-global",
+      "make": "Yamaha",
+      "model": "XT 250",
+      "changes": {
+        "rear_brake_pads": {
+          "ebc": "FA275",
+          "before": "SBS 728HF",
+          "after": "EBC FA275 · SBS 728HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xt-350-1985-1996-global",
+      "make": "Yamaha",
+      "model": "XT 350",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575HF",
+          "after": "EBC FA101 · SBS 575HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xt-600-1983-1986-global",
+      "make": "Yamaha",
+      "model": "XT 600",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xt-660-z-tenere-2008-2015-global",
+      "make": "Yamaha",
+      "model": "XT 660 Z Tenere",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA181",
+          "before": "SBS 671HS",
+          "after": "EBC FA181 · SBS 671HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xt-660-z-tenere-abs-2011-2015-global",
+      "make": "Yamaha",
+      "model": "XT 660 Z Tenere ABS",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA181",
+          "before": "SBS 671HS",
+          "after": "EBC FA181 · SBS 671HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xtz-1200-super-tenere-2010-2013-global",
+      "make": "Yamaha",
+      "model": "XTZ 1200 Super Tenere",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xtz-700-tenere-2019-2022-global",
+      "make": "Yamaha",
+      "model": "XTZ 700 Tenere",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA181",
+          "before": "SBS 671HS",
+          "after": "EBC FA181 · SBS 671HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1000-l-c-1984-1985-global",
+      "make": "Yamaha",
+      "model": "XV 1000 L, C",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1100-1994-1997-global",
+      "make": "Yamaha",
+      "model": "XV 1100",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HS",
+          "after": "EBC FA88 · SBS 555HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1100-virago-1986-1999-global",
+      "make": "Yamaha",
+      "model": "XV 1100 Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1200-1984-1987-global",
+      "make": "Yamaha",
+      "model": "XV 1200",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1200-venture-royale-1985-1985-global",
+      "make": "Yamaha",
+      "model": "XV 1200 Venture Royale",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1200-z12t-1984-1987-global",
+      "make": "Yamaha",
+      "model": "XV 1200 Z12T",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1600-midnight-star-1999-2007-global",
+      "make": "Yamaha",
+      "model": "XV 1600 Midnight Star",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1600-road-star-1999-2007-global",
+      "make": "Yamaha",
+      "model": "XV 1600 Road Star",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1600-silverado-1999-2007-global",
+      "make": "Yamaha",
+      "model": "XV 1600 Silverado",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1700-pc-road-star-warrior-2003-2007-global",
+      "make": "Yamaha",
+      "model": "XV 1700 PC Road Star Warrior",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1700-road-star-s-2008-2014-global",
+      "make": "Yamaha",
+      "model": "XV 1700 Road Star S",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1700-road-star-silverado-s-2011-2014-global",
+      "make": "Yamaha",
+      "model": "XV 1700 Road Star Silverado S",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1700-road-star-warrior-2002-2002-global",
+      "make": "Yamaha",
+      "model": "XV 1700 Road Star Warrior",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1900-raider-2008-2014-global",
+      "make": "Yamaha",
+      "model": "XV 1900 Raider",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1900-raider-bullet-cowl-2015-2015-global",
+      "make": "Yamaha",
+      "model": "XV 1900 Raider Bullet Cowl",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1900-raider-s-2008-2014-global",
+      "make": "Yamaha",
+      "model": "XV 1900 Raider S",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1900-raider-scl-2012-2014-global",
+      "make": "Yamaha",
+      "model": "XV 1900 Raider SCL",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1900-roadliner-2006-2014-global",
+      "make": "Yamaha",
+      "model": "XV 1900 Roadliner",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1900-roadliner-s-2006-2014-global",
+      "make": "Yamaha",
+      "model": "XV 1900 Roadliner S",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1900-stratoliner-2006-2009-global",
+      "make": "Yamaha",
+      "model": "XV 1900 Stratoliner",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1900-stratoliner-deluxe-2011-2014-global",
+      "make": "Yamaha",
+      "model": "XV 1900 Stratoliner Deluxe",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-1900-stratoliner-s-2006-2014-global",
+      "make": "Yamaha",
+      "model": "XV 1900 Stratoliner S",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-250-route-66-1988-1997-global",
+      "make": "Yamaha",
+      "model": "XV 250 Route 66",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-250-s-virago-1995-2007-global",
+      "make": "Yamaha",
+      "model": "XV 250 S Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-250-virago-1988-1994-global",
+      "make": "Yamaha",
+      "model": "XV 250 Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-500-k-virago-1983-1983-global",
+      "make": "Yamaha",
+      "model": "XV 500 K,Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-500-se-1983-1983-global",
+      "make": "Yamaha",
+      "model": "XV 500 SE",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-535-dx-virago-1998-2003-global",
+      "make": "Yamaha",
+      "model": "XV 535 DX Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-535-s-virago-1996-2003-global",
+      "make": "Yamaha",
+      "model": "XV 535 S Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-535-virago-1987-1997-global",
+      "make": "Yamaha",
+      "model": "XV 535 Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA136",
+          "before": "SBS 616HF",
+          "after": "EBC FA136 · SBS 616HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-700-l-lc-1984-1987-global",
+      "make": "Yamaha",
+      "model": "XV 700 L, LC",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-700-virago-1987-1987-global",
+      "make": "Yamaha",
+      "model": "XV 700 Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-750-1989-1992-global",
+      "make": "Yamaha",
+      "model": "XV 750",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HS",
+          "after": "EBC FA88 · SBS 555HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-750-mk-1983-1983-global",
+      "make": "Yamaha",
+      "model": "XV 750 MK",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA41",
+          "before": "SBS 528HF",
+          "after": "EBC FA41 · SBS 528HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-750-se-1981-1983-global",
+      "make": "Yamaha",
+      "model": "XV 750 SE",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA61",
+          "before": "SBS 545HF",
+          "after": "EBC FA61 · SBS 545HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-750-virago-1993-1997-global",
+      "make": "Yamaha",
+      "model": "XV 750 Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HS",
+          "after": "EBC FA88 · SBS 555HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-920-1981-1982-global",
+      "make": "Yamaha",
+      "model": "XV 920",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA34",
+          "before": "SBS 507HF",
+          "after": "EBC FA34 · SBS 507HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-920-j-1982-1982-global",
+      "make": "Yamaha",
+      "model": "XV 920 J",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA70",
+          "before": "SBS 547HF",
+          "after": "EBC FA70 · SBS 547HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-920-k-mk-virago-1983-1983-global",
+      "make": "Yamaha",
+      "model": "XV 920 K, MK,Virago",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA61",
+          "before": "SBS 545HF",
+          "after": "EBC FA61 · SBS 545HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-950-bolt-2014-2018-global",
+      "make": "Yamaha",
+      "model": "XV 950 Bolt",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-950-bolt-c-spec-2015-2018-global",
+      "make": "Yamaha",
+      "model": "XV 950 Bolt C-Spec",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-950-bolt-r-spec-2014-2022-global",
+      "make": "Yamaha",
+      "model": "XV 950 Bolt R-Spec",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xv-950-bolt-racer-2017-2018-global",
+      "make": "Yamaha",
+      "model": "XV 950 Bolt Racer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-1100-v-star-1999-2006-global",
+      "make": "Yamaha",
+      "model": "XVS 1100 V-Star",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-1100-v-star-classic-2000-2006-global",
+      "make": "Yamaha",
+      "model": "XVS 1100 V-Star Classic",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-1300-a-midnight-star-2007-2011-global",
+      "make": "Yamaha",
+      "model": "XVS 1300 A Midnight Star",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-1300-custom-2014-2016-global",
+      "make": "Yamaha",
+      "model": "XVS 1300 Custom",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-1300-stryker-2011-2014-global",
+      "make": "Yamaha",
+      "model": "XVS 1300 Stryker",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-1300-stryker-bullet-cowl-2015-2015-global",
+      "make": "Yamaha",
+      "model": "XVS 1300 Stryker Bullet Cowl",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-1300-v-star-2007-2014-global",
+      "make": "Yamaha",
+      "model": "XVS 1300 V-Star",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-1300-v-star-deluxe-2007-2014-global",
+      "make": "Yamaha",
+      "model": "XVS 1300 V-Star Deluxe",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-1300-v-star-tourer-2007-2014-global",
+      "make": "Yamaha",
+      "model": "XVS 1300 V-Star Tourer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-250-v-star-2008-2022-global",
+      "make": "Yamaha",
+      "model": "XVS 250 V-Star",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA199",
+          "before": "SBS 691HS",
+          "after": "EBC FA199 · SBS 691HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-650-v-star-2009-2014-global",
+      "make": "Yamaha",
+      "model": "XVS 650 V-Star",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-650-v-star-classic-1998-2006-global",
+      "make": "Yamaha",
+      "model": "XVS 650 V-Star Classic",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-650-v-star-custom-1998-2006-global",
+      "make": "Yamaha",
+      "model": "XVS 650 V-Star Custom",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-650-v-star-tourer-2009-2014-global",
+      "make": "Yamaha",
+      "model": "XVS 650 V-Star Tourer",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvs-950-a-midnight-star-2009-2013-global",
+      "make": "Yamaha",
+      "model": "XVS 950 A Midnight Star",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA319/2",
+          "before": "SBS 769LS",
+          "after": "EBC FA319/2 · SBS 769LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvt-1200-t-vent-royale-1984-1985-global",
+      "make": "Yamaha",
+      "model": "XVT 1200 T,Vent. Royale",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvz-1300-a-royal-star-1996-2007-global",
+      "make": "Yamaha",
+      "model": "XVZ 1300 A Royal Star",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 613HS",
+          "after": "EBC FA123 · SBS 613HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvz-1300-at-royal-star-tour-classic-1997-2007-global",
+      "make": "Yamaha",
+      "model": "XVZ 1300 AT Royal Star Tour Classic",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 613HS",
+          "after": "EBC FA123 · SBS 613HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvz-1300-royal-star-boulevard-1999-2001-global",
+      "make": "Yamaha",
+      "model": "XVZ 1300 Royal Star Boulevard",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 613HS",
+          "after": "EBC FA123 · SBS 613HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvz-1300-royal-star-venture-s-2008-2013-global",
+      "make": "Yamaha",
+      "model": "XVZ 1300 Royal Star Venture S",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvz-1300-tf-royal-star-venture-1999-2001-global",
+      "make": "Yamaha",
+      "model": "XVZ 1300 TF Royal Star Venture",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA179",
+          "before": "SBS 663HS",
+          "after": "EBC FA179 · SBS 663HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590LS",
+          "after": "EBC FA123 · SBS 590LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xvz-1300-venture-royale-1986-1995-global",
+      "make": "Yamaha",
+      "model": "XVZ 1300 Venture Royale",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 613HF",
+          "after": "EBC FA123 · SBS 613HF"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA123",
+          "before": "SBS 590HF",
+          "after": "EBC FA123 · SBS 590HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xz-550-1982-1984-global",
+      "make": "Yamaha",
+      "model": "XZ 550",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA70",
+          "before": "SBS 547HF",
+          "after": "EBC FA70 · SBS 547HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xz-550-rj-rk-1982-1983-global",
+      "make": "Yamaha",
+      "model": "XZ 550 RJ, RK",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-xz-550-s-1983-1984-global",
+      "make": "Yamaha",
+      "model": "XZ 550 S",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA81",
+          "before": "SBS 550HF",
+          "after": "EBC FA81 · SBS 550HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-ybr-125-2006-2016-global",
+      "make": "Yamaha",
+      "model": "YBR 125",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575HF",
+          "after": "EBC FA101 · SBS 575HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-ybr-250-2007-2011-global",
+      "make": "Yamaha",
+      "model": "YBR 250",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA165",
+          "before": "SBS 638HF",
+          "after": "EBC FA165 · SBS 638HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-ysr-50-1987-1992-global",
+      "make": "Yamaha",
+      "model": "YSR 50",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575HF",
+          "after": "EBC FA101 · SBS 575HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yt-125-tri-moto-1980-1985-global",
+      "make": "Yamaha",
+      "model": "YT 125 Tri Moto",
+      "changes": {
+        "rear_brake_pads": {
+          "ebc": "FA21",
+          "before": "SBS 576HF",
+          "after": "EBC FA21 · SBS 576HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yt-175-tri-moto-1982-1983-global",
+      "make": "Yamaha",
+      "model": "YT 175 Tri Moto",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA21",
+          "before": "SBS 576HF",
+          "after": "EBC FA21 · SBS 576HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-ytm-200-ek-el-tri-moto-1983-1984-global",
+      "make": "Yamaha",
+      "model": "YTM 200 EK, EL Tri Moto",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA21",
+          "before": "SBS 576HF",
+          "after": "EBC FA21 · SBS 576HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-ytm-200-ern-tri-moto-1985-1985-global",
+      "make": "Yamaha",
+      "model": "YTM 200 ERN Tri Moto",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA21",
+          "before": "SBS 576HF",
+          "after": "EBC FA21 · SBS 576HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-ytm-200-k-n-tri-moto-1983-1985-global",
+      "make": "Yamaha",
+      "model": "YTM 200 K-N Tri Moto",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA21",
+          "before": "SBS 576HF",
+          "after": "EBC FA21 · SBS 576HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-ytm-225-drn-drs-tri-moto-1985-1986-global",
+      "make": "Yamaha",
+      "model": "YTM 225 DRN, DRS Tri Moto",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA21",
+          "before": "SBS 576HF",
+          "after": "EBC FA21 · SBS 576HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-ytm-225-dxk-dxn-tri-moto-1983-1985-global",
+      "make": "Yamaha",
+      "model": "YTM 225 DXK, DXN Tri Moto",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA21",
+          "before": "SBS 576HF",
+          "after": "EBC FA21 · SBS 576HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-ytz-250-tri-moto-1985-1986-global",
+      "make": "Yamaha",
+      "model": "YTZ 250 Tri Moto",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA101",
+          "before": "SBS 575SI",
+          "after": "EBC FA101 · SBS 575SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yx-600-radian-1987-1990-global",
+      "make": "Yamaha",
+      "model": "YX 600 Radian",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555HF",
+          "after": "EBC FA88 · SBS 555HF"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yz-250-a-1990-1990-global",
+      "make": "Yamaha",
+      "model": "YZ 250 A",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA135",
+          "before": "SBS 611RSI",
+          "after": "EBC FA135 · SBS 611RSI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA152",
+          "before": "SBS 632RSI",
+          "after": "EBC FA152 · SBS 632RSI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yz-250-b1-j1-1991-1997-global",
+      "make": "Yamaha",
+      "model": "YZ 250 B1-J1",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA135",
+          "before": "SBS 611RSI",
+          "after": "EBC FA135 · SBS 611RSI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA152",
+          "before": "SBS 648RSI",
+          "after": "EBC FA152 · SBS 648RSI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yz-250-f-2001-2023-global",
+      "make": "Yamaha",
+      "model": "YZ 250 F",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA185",
+          "before": "SBS 694RSI",
+          "after": "EBC FA185 · SBS 694RSI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA131",
+          "before": "SBS 604RSI",
+          "after": "EBC FA131 · SBS 604RSI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yz-250-fx-2015-2021-global",
+      "make": "Yamaha",
+      "model": "YZ 250 FX",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA450",
+          "before": "SBS 840SI",
+          "after": "EBC FA450 · SBS 840SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA367",
+          "before": "SBS 790SI",
+          "after": "EBC FA367 · SBS 790SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yz-250-wra-wrb-1990-1991-global",
+      "make": "Yamaha",
+      "model": "YZ 250 WRA,WRB",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA135",
+          "before": "SBS 611RSI",
+          "after": "EBC FA135 · SBS 611RSI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA152",
+          "before": "SBS 632RSI",
+          "after": "EBC FA152 · SBS 632RSI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yz-250-x-2016-2022-global",
+      "make": "Yamaha",
+      "model": "YZ 250 X",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA450",
+          "before": "SBS 840SI",
+          "after": "EBC FA450 · SBS 840SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA367",
+          "before": "SBS 790SI",
+          "after": "EBC FA367 · SBS 790SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yz-426-f-2000-2002-global",
+      "make": "Yamaha",
+      "model": "YZ 426 F",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA185",
+          "before": "SBS 694RSI",
+          "after": "EBC FA185 · SBS 694RSI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA131",
+          "before": "SBS 604RSI",
+          "after": "EBC FA131 · SBS 604RSI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yz-450-fx-2016-2022-global",
+      "make": "Yamaha",
+      "model": "YZ 450 FX",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA450",
+          "before": "SBS 840SI",
+          "after": "EBC FA450 · SBS 840SI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA367",
+          "before": "SBS 790SI",
+          "after": "EBC FA367 · SBS 790SI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yz-65-2019-2023-global",
+      "make": "Yamaha",
+      "model": "YZ 65",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA119",
+          "before": "SBS 589RSI",
+          "after": "EBC FA119 · SBS 589RSI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA84",
+          "before": "SBS 592RSI",
+          "after": "EBC FA84 · SBS 592RSI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yz-85-lw-2002-2023-global",
+      "make": "Yamaha",
+      "model": "YZ 85 , LW",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA119",
+          "before": "SBS 589RSI",
+          "after": "EBC FA119 · SBS 589RSI"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA84",
+          "before": "SBS 592RSI",
+          "after": "EBC FA84 · SBS 592RSI"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-1000-r-thunder-ace-1996-1999-global",
+      "make": "Yamaha",
+      "model": "YZF 1000 R Thunder Ace",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-1000-r1-4-pad-2007-2014-global",
+      "make": "Yamaha",
+      "model": "YZF 1000 R1 (4-pad)",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA442/4",
+          "before": "SBS 839HS",
+          "after": "EBC FA442/4 · SBS 839HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-1000-r1-4-pad-abs-2012-2014-global",
+      "make": "Yamaha",
+      "model": "YZF 1000 R1 (4-pad) ABS",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA442/4",
+          "before": "SBS 839HS",
+          "after": "EBC FA442/4 · SBS 839HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-1000-r1-le-2006-2006-global",
+      "make": "Yamaha",
+      "model": "YZF 1000 R1 LE",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA174",
+          "before": "SBS 657LS",
+          "after": "EBC FA174 · SBS 657LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-1000-r1m-2015-2022-global",
+      "make": "Yamaha",
+      "model": "YZF 1000 R1M",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA436",
+          "before": "SBS 834LS",
+          "after": "EBC FA436 · SBS 834LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-1000-r1s-2016-2016-global",
+      "make": "Yamaha",
+      "model": "YZF 1000 R1S",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA436",
+          "before": "SBS 834LS",
+          "after": "EBC FA436 · SBS 834LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-600-r-thunder-cat-1996-2003-global",
+      "make": "Yamaha",
+      "model": "YZF 600 R Thunder Cat",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-600-r6-quick-change-front-wheel-2017-2023-global",
+      "make": "Yamaha",
+      "model": "YZF 600 R6 Quick change / Front wheel",
+      "changes": {
+        "rear_brake_pads": {
+          "ebc": "FA436",
+          "before": "SBS 834",
+          "after": "EBC FA436 · SBS 834"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-750-r-sp-1993-1997-global",
+      "make": "Yamaha",
+      "model": "YZF 750 R, SP",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA190",
+          "before": "SBS 683HS",
+          "after": "EBC FA190 · SBS 683HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA88",
+          "before": "SBS 555LS",
+          "after": "EBC FA88 · SBS 555LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-750-r7-ow02-1999-2002-global",
+      "make": "Yamaha",
+      "model": "YZF 750 R7 OW02",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA252",
+          "before": "SBS 634HS",
+          "after": "EBC FA252 · SBS 634HS"
+        },
+        "rear_brake_pads": {
+          "ebc": "FA267",
+          "before": "SBS 733LS",
+          "after": "EBC FA267 · SBS 733LS"
+        }
+      }
+    },
+    {
+      "id": "yamaha-yzf-750-r7-ow02-race-kit-1999-2001-global",
+      "make": "Yamaha",
+      "model": "YZF 750 R7 OW02 Race kit",
+      "changes": {
+        "front_brake_pads": {
+          "ebc": "FA249",
+          "before": "SBS 729HS",
+          "after": "EBC FA249 · SBS 729HS"
+        }
+      }
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 # EBC brake-pad shape coverage
 
-Snapshot: 2026-11-22 (after Aprilia phase 1)
+Snapshot: 2026-11-22 (after Honda/Yamaha phase 2)
 
 ## Summary
 
 | Status | Models |
 |---|---:|
-| EBC shape available | 211 |
+| EBC shape available | 738 |
 | EBC code present, shape missing from the 2024 guide | 17 |
-| Brake data present, but no EBC code | 4,346 |
+| Brake data present, but no EBC code | 3,819 |
 | No brake-pad data | 145 |
 | **Total catalogue** | **4,719** |
 

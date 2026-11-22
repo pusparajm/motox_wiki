@@ -304,7 +304,7 @@
   },
   "honda-africa-twin-crf1100l-2020-present-global": {
     "front_brake_pads": "SBS 940HS",
-    "rear_brake_pads": "SBS 657LS"
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
   },
   "honda-cb1000r-2018-present-global": {
     "front_brake_pads": "EBC FA700HH · SBS 947 · Brembo 07HO63 · Vesrah VD-189",
@@ -1248,5 +1248,2050 @@
   },
   "aprilia-trv-1000-2009-2014-global": {
     "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "honda-cr-80-r-1986-1991-global": {
+    "front_brake_pads": "EBC FA84/2 · SBS 584SI",
+    "rear_brake_pads": "SBS 2043"
+  },
+  "honda-cr-80-r-rb-1992-2002-global": {
+    "front_brake_pads": "EBC FA84/2 · SBS 584RSI",
+    "rear_brake_pads": "EBC FA131 · SBS 604RSI"
+  },
+  "honda-cr-85-r-r-expert-2003-2012-global": {
+    "front_brake_pads": "EBC FA84 · SBS 592RSI",
+    "rear_brake_pads": "EBC FA131 · SBS 604RSI"
+  },
+  "honda-nsf-100-2006-2006-global": {
+    "front_brake_pads": "EBC FA197 · SBS 688DC",
+    "rear_brake_pads": "EBC FA131 · SBS 604HF"
+  },
+  "honda-cr-125-re-rf-1984-1985-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI",
+    "rear_brake_pads": "SBS 2042"
+  },
+  "honda-cr-125-rg-1986-1986-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI",
+    "rear_brake_pads": "SBS 2047"
+  },
+  "honda-cr-125-rh-rj-rk-1987-1994-global": {
+    "front_brake_pads": "EBC FA125 · SBS 603RSI",
+    "rear_brake_pads": "EBC FA131 · SBS 604RSI"
+  },
+  "honda-cre-125-2002-2007-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA346 · SBS 777SI"
+  },
+  "honda-cre-125-rr-2011-2011-global": {
+    "front_brake_pads": "SBS 859SI",
+    "rear_brake_pads": "EBC FA346 · SBS 777SI"
+  },
+  "honda-crf-125-f-2014-2023-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "SBS 2057"
+  },
+  "honda-mt-125-r-1977-1978-global": {
+    "front_brake_pads": "EBC FA40 · SBS 525HF",
+    "rear_brake_pads": "SBS 2013"
+  },
+  "honda-rs-125-1995-2003-global": {
+    "front_brake_pads": "EBC FA95 · SBS 566DC",
+    "rear_brake_pads": "SBS 618RQ"
+  },
+  "honda-rs-125-r-1991-1994-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HF",
+    "rear_brake_pads": "SBS 618HF"
+  },
+  "honda-xlr-125-r-1998-2001-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694HF",
+    "rear_brake_pads": "SBS 2013"
+  },
+  "honda-xr-125-l-2003-2007-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694HF",
+    "rear_brake_pads": "SBS 2013"
+  },
+  "honda-crf-150-f-2003-2006-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "SBS 2013"
+  },
+  "honda-crf-150-r-2007-2023-global": {
+    "front_brake_pads": "EBC FA84 · SBS 592RSI",
+    "rear_brake_pads": "EBC FA346 · SBS 777RSI"
+  },
+  "honda-nsr-150-2002-2002-global": {
+    "front_brake_pads": "EBC FA197 · SBS 688HF",
+    "rear_brake_pads": "EBC FA135 · SBS 611HF"
+  },
+  "honda-atc-200-x-1983-1987-global": {
+    "front_brake_pads": "EBC FA84 · SBS 592SI",
+    "rear_brake_pads": "EBC FA84 · SBS 562SI"
+  },
+  "honda-ctx-200-2004-2006-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "SBS 2013"
+  },
+  "honda-crf-230-2004-2009-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "SBS 2013"
+  },
+  "honda-crf-230-l-2008-2010-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA131 · SBS 604SI"
+  },
+  "honda-crf-230-m-2009-2012-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA131 · SBS 604SI"
+  },
+  "honda-sl-230-1997-2001-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694HF",
+    "rear_brake_pads": "EBC FA131 · SBS 604HF"
+  },
+  "honda-atc-250-r-1981-1986-global": {
+    "front_brake_pads": "EBC FA54 · SBS 536SI",
+    "rear_brake_pads": "SBS 2014"
+  },
+  "honda-atc-250-x-1985-1985-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI",
+    "rear_brake_pads": "EBC FA84 · SBS 562SI"
+  },
+  "honda-ca-250-rebel-1990-1995-global": {
+    "front_brake_pads": "EBC FA165 · SBS 638HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-cbf-250-2004-2008-global": {
+    "front_brake_pads": "EBC FA197 · SBS 688HF"
+  },
+  "honda-cbr-250-r-nissin-cal-2011-2013-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-cbr-250-r-abs-nissin-cal-2011-2013-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-cbr-250-rr-2017-2021-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-cmx-250-c-rebel-1996-2000-global": {
+    "front_brake_pads": "EBC FA228 · SBS 713HF",
+    "rear_brake_pads": "SBS 2069"
+  },
+  "honda-cmx-250-rebel-1985-2012-global": {
+    "front_brake_pads": "EBC FA86 · SBS 551HF",
+    "rear_brake_pads": "SBS 2069"
+  },
+  "honda-cr-250-re-rf-1984-1985-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI",
+    "rear_brake_pads": "SBS 2042"
+  },
+  "honda-cr-250-rg-1986-1986-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI",
+    "rear_brake_pads": "SBS 2047"
+  },
+  "honda-cre-250-2002-2007-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA346 · SBS 777SI"
+  },
+  "honda-crf-250-f-2019-2023-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA346 · SBS 777SI"
+  },
+  "honda-crf-250-r-2004-2023-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694RSI",
+    "rear_brake_pads": "EBC FA346 · SBS 777RSI"
+  },
+  "honda-crf-250-rx-2019-2023-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA346 · SBS 777SI"
+  },
+  "honda-crf-250-x-2004-2019-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA346 · SBS 777SI"
+  },
+  "honda-fl-250-odyssey-1977-1984-global": {
+    "front_brake_pads": "EBC FA40 · SBS 525HF",
+    "rear_brake_pads": "SBS 2019"
+  },
+  "honda-mtx-250-r-1986-1986-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI"
+  },
+  "honda-nx-250-1988-1990-global": {
+    "front_brake_pads": "EBC FA125 · SBS 603HF",
+    "rear_brake_pads": "SBS 2029"
+  },
+  "honda-rs-250-r-1991-1993-global": {
+    "front_brake_pads": "EBC FA187 · SBS 622DC",
+    "rear_brake_pads": "EBC FA140 · SBS 614HF"
+  },
+  "honda-vtr-250-1988-2002-global": {
+    "front_brake_pads": "EBC FA80 · SBS 552HF",
+    "rear_brake_pads": "SBS 2068"
+  },
+  "honda-xr-250-l-1991-1997-global": {
+    "front_brake_pads": "EBC FA125 · SBS 603HF",
+    "rear_brake_pads": "EBC FA131 · SBS 604HF"
+  },
+  "honda-xr-250-s-1996-2000-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694HF",
+    "rear_brake_pads": "EBC FA131 · SBS 604HF"
+  },
+  "honda-cb-300-2010-2010-global": {
+    "front_brake_pads": "EBC FA197 · SBS 688HF"
+  },
+  "honda-cbr-300-f-2014-2016-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-cbr-300-f-abs-2014-2017-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-cbr-300-r-2014-2021-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-cmx-300-rebel-2017-2018-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-atc-350-odyssey-1985-1985-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI",
+    "rear_brake_pads": "EBC FA84 · SBS 562SI"
+  },
+  "honda-atc-350-x-1985-1989-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI",
+    "rear_brake_pads": "EBC FA84 · SBS 562SI"
+  },
+  "honda-cb-350-f-f1-1973-1976-global": {
+    "front_brake_pads": "EBC FA13 · SBS 501HF",
+    "rear_brake_pads": "SBS 2024"
+  },
+  "honda-xl-350-r-1984-1987-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558HF",
+    "rear_brake_pads": "SBS 2029"
+  },
+  "honda-cb-360-g-t-1973-1976-global": {
+    "front_brake_pads": "EBC FA13 · SBS 501HF",
+    "rear_brake_pads": "SBS 2024"
+  },
+  "honda-cb-400-1981-1982-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-cb-400-a-1977-1981-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-cb-400-f-f1-f2-1975-1979-global": {
+    "front_brake_pads": "EBC FA13 · SBS 501HF",
+    "rear_brake_pads": "SBS 2024"
+  },
+  "honda-cb-400-hawk-1981-1985-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-cb-400-n-t-hawk-1978-1982-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-cb-400-t1-t2-1977-1978-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-cb-1-400-cb-400-f-1989-1990-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA140 · SBS 614LS"
+  },
+  "honda-cm-400-a-t-tz-1979-1979-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-cm-400-c-1981-1981-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-cm-400-t-1979-1984-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-rvf-400-rr-nc35-1990-1996-global": {
+    "front_brake_pads": "EBC FA187 · SBS 622HF",
+    "rear_brake_pads": "EBC FA143 · SBS 623HF"
+  },
+  "honda-xr-400-r-1996-2004-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA131 · SBS 604SI"
+  },
+  "honda-xr-440-r-2000-2003-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA131 · SBS 604SI"
+  },
+  "honda-cb-450-k5-k6-k7-1972-1977-global": {
+    "front_brake_pads": "EBC FA13 · SBS 501HF",
+    "rear_brake_pads": "SBS 2072"
+  },
+  "honda-cb-450-sc-nighthawk-1982-1986-global": {
+    "front_brake_pads": "EBC FA90 · SBS 561HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-cm-450-a-c-1982-1986-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-cmx-450-rebel-1986-1988-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-cre-450-f-2002-2006-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA346 · SBS 777SI"
+  },
+  "honda-crf-450-l-2019-2021-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694RSI",
+    "rear_brake_pads": "EBC FA346 · SBS 777RSI"
+  },
+  "honda-crf-450-r-s-2022-2023-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694RSI",
+    "rear_brake_pads": "EBC FA346 · SBS 777RSI"
+  },
+  "honda-crf-450-rwe-2019-2023-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694RSI",
+    "rear_brake_pads": "EBC FA346 · SBS 777RSI"
+  },
+  "honda-crf-450-rx-2017-2023-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA346 · SBS 777SI"
+  },
+  "honda-crf-450-x-2005-2023-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA346 · SBS 777SI"
+  },
+  "honda-cb-500-t-1975-1978-global": {
+    "front_brake_pads": "EBC FA13 · SBS 501HF",
+    "rear_brake_pads": "SBS 2072"
+  },
+  "honda-cb-500-x-2013-2023-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-cmx-500-rebel-2017-2022-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-cmx-500-rebel-s-2020-2020-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-cr-500-r-1987-2001-global": {
+    "front_brake_pads": "EBC FA125 · SBS 603RSI",
+    "rear_brake_pads": "EBC FA131 · SBS 604RSI"
+  },
+  "honda-cr-500-re-rf-1984-1985-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI",
+    "rear_brake_pads": "SBS 2042"
+  },
+  "honda-cr-500-rg-1986-1986-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI",
+    "rear_brake_pads": "SBS 2047"
+  },
+  "honda-cx-500-1978-1981-global": {
+    "front_brake_pads": "EBC FA31 · SBS 517HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-cx-500-c-1981-1982-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-cx-500-silver-w-turbo-1983-1985-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-cx-500-turbo-1982-1983-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "EBC FA69/2 · SBS 572HF"
+  },
+  "honda-ft-500-1982-1984-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-gb-500-t-t-1988-1992-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-gl-500-1982-1982-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-gl-500-d-1981-1982-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-gl-500-i-1981-1982-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-vf-500-f-fii-1984-1986-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-vt-500-c-shadow-1983-1986-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-vt-500-ed-1982-1982-global": {
+    "front_brake_pads": "EBC FA80 · SBS 552HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-xl-500-r-1983-1987-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558HF",
+    "rear_brake_pads": "SBS 2026"
+  },
+  "honda-cb-550-f-1975-1979-global": {
+    "front_brake_pads": "EBC FA13 · SBS 501HF",
+    "rear_brake_pads": "SBS 2072"
+  },
+  "honda-cb-550-k-1974-1978-global": {
+    "front_brake_pads": "EBC FA13 · SBS 501HF",
+    "rear_brake_pads": "SBS 2072"
+  },
+  "honda-cb-550-sc-1983-1984-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2058"
+  },
+  "honda-cbx-550-f-f2-1982-1986-global": {
+    "front_brake_pads": "EBC FA80 · SBS 552HF",
+    "rear_brake_pads": "EBC FA80/2 · SBS 571HF"
+  },
+  "honda-cb-599-2004-2004-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cb-600-hornet-abs-2007-2012-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cbr-600-f-2011-2013-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA436 · SBS 834LS"
+  },
+  "honda-cbr-600-f-abs-2011-2013-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cbr-600-f-hurricane-1987-1990-global": {
+    "front_brake_pads": "EBC FA121 · SBS 593HS",
+    "rear_brake_pads": "EBC FA69 · SBS 542LS"
+  },
+  "honda-cbr-600-f-super-sport-1991-1994-global": {
+    "front_brake_pads": "EBC FA121 · SBS 593HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cbr-600-f3-1995-1998-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cbr-600-f4-f4-sport-1999-2006-global": {
+    "front_brake_pads": "EBC FA265 · SBS 734HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vt-600-c-shadow-1988-2000-global": {
+    "front_brake_pads": "EBC FA124/2 · SBS 647HS",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-vt-600-cd-shadow-vlx-1994-2000-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-xl-600-r-1983-1986-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558HF",
+    "rear_brake_pads": "SBS 2026"
+  },
+  "honda-xl-600-v-transalp-1987-1990-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HS",
+    "rear_brake_pads": "SBS 2026"
+  },
+  "honda-xr-600-r-1983-2000-global": {
+    "front_brake_pads": "EBC FA92 · SBS 558SI",
+    "rear_brake_pads": "SBS 2013"
+  },
+  "honda-cb-650-1979-1985-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-650-c-1980-1985-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-650-sc-nighthawk-1983-1985-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-cb-650-scc-nighthawk-1982-1982-global": {
+    "front_brake_pads": "EBC FA90 · SBS 561HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-650-z-1978-1981-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cx-650-c-1983-1986-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-cx-650-e-1983-1986-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-cx-650-turbo-1983-1986-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-fmx-650-rally-2005-2008-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA140 · SBS 614LS"
+  },
+  "honda-gl-650-d-1983-1984-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-nt-650-hawk-gt-1988-1991-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA140 · SBS 614LS"
+  },
+  "honda-nt-650-v-deauville-1998-2005-global": {
+    "front_brake_pads": "SBS 674HS",
+    "rear_brake_pads": "EBC FA140 · SBS 614LS"
+  },
+  "honda-nx-650-dominator-j-k-1988-1992-global": {
+    "front_brake_pads": "EBC FA124/2 · SBS 647HS",
+    "rear_brake_pads": "EBC FA140 · SBS 614LS"
+  },
+  "honda-xr-650-l-1993-2018-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694HF",
+    "rear_brake_pads": "EBC FA131 · SBS 604HF"
+  },
+  "honda-xr-650-r-2000-2011-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA131 · SBS 604SI"
+  },
+  "honda-dn-01-680-2008-2011-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA196 · SBS 630LS"
+  },
+  "honda-cb-700-sc-1984-1986-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-ctx-700-2014-2018-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-ctx-700-d-abs-w-dct-2013-2015-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-ctx-700-n-2014-2018-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-ctx-700-nd-abs-w-dct-2014-2015-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-nc-700-d-integra-2012-2013-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-nc-700-s-2012-2013-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA140 · SBS 614LS"
+  },
+  "honda-nc-700-sa-abs-2012-2013-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-nc-700-sd-abs-2012-2013-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-nc-700-x-2012-2013-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA140 · SBS 614LS"
+  },
+  "honda-nc-700-xa-abs-2012-2013-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-nc-700-xd-abs-2012-2013-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-nm4-700-vultus-abs-w-dct-2015-2015-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-nt-700-deauville-abs-2006-2012-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "SBS 736LS"
+  },
+  "honda-nt-700-v-varadero-abs-2010-2013-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "SBS 736LS"
+  },
+  "honda-vf-700-c-magna-1984-1987-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-vf-700-f-interceptor-1984-1985-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-vf-700-s-1984-1985-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-vfr-700-f-interceptor-1988-1989-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA140 · SBS 614LS"
+  },
+  "honda-vfr-700-f-f2-1986-1987-global": {
+    "front_brake_pads": "EBC FA124 · SBS 600HS",
+    "rear_brake_pads": "EBC FA69 · SBS 542LS"
+  },
+  "honda-vt-700-c-shadow-1984-1987-global": {
+    "front_brake_pads": "EBC FA90 · SBS 561HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-cb-750-a-1976-1978-global": {
+    "front_brake_pads": "EBC FA13 · SBS 501HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-750-c-1980-1984-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-750-c-f-fii-k-1985-1986-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-750-f-1977-1982-global": {
+    "front_brake_pads": "EBC FA31 · SBS 517HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-cb-750-f1-1975-1976-global": {
+    "front_brake_pads": "EBC FA13 · SBS 501HF",
+    "rear_brake_pads": "EBC FA32 · SBS 509HF"
+  },
+  "honda-cb-750-k-1981-1982-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-cb-750-k-four-1977-1978-global": {
+    "front_brake_pads": "EBC FA13 · SBS 501HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-750-k-l-1979-1980-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-750-k0-k6-four-1970-1976-global": {
+    "front_brake_pads": "EBC FA12 · SBS 502HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-750-kz-1982-1982-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-750-n-f-seven-fifty-1992-1995-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cb-750-nighthawk-1991-2002-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-cb-750-pz-1981-1984-global": {
+    "front_brake_pads": "EBC FA45 · SBS 526HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-750-sc-1982-1983-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "SBS 2027"
+  },
+  "honda-cb-750-ss-1977-1979-global": {
+    "front_brake_pads": "EBC FA29 · SBS 508HF",
+    "rear_brake_pads": "EBC FA31 · SBS 517HF"
+  },
+  "honda-nc-750-d-integra-2014-2019-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-nc-750-integra-2016-2018-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-nc-750-integra-dct-abs-2014-2019-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-nc-750-s-w-dct-2014-2021-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-nc-750-x-w-dct-2014-2019-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-nc-750-xae-2014-2019-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 881LS"
+  },
+  "honda-vf-750-c-1982-1984-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-vf-750-c-cd-magna-1994-1998-global": {
+    "front_brake_pads": "EBC FA196 · SBS 630HS",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-vf-750-c-magna-1988-1993-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-vf-750-f-1983-1984-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-vf-750-sport-1982-1983-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-vfr-750-f-1986-1998-global": {
+    "front_brake_pads": "EBC FA124 · SBS 600HS",
+    "rear_brake_pads": "EBC FA69 · SBS 542LS"
+  },
+  "honda-vfr-750-r-1988-1993-global": {
+    "front_brake_pads": "EBC FA187 · SBS 622HS",
+    "rear_brake_pads": "EBC FA143 · SBS 623LS"
+  },
+  "honda-vt-750-black-widow-2001-2003-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-vt-750-c-1983-1985-global": {
+    "front_brake_pads": "EBC FA90 · SBS 561HF",
+    "rear_brake_pads": "SBS 2059"
+  },
+  "honda-vt-750-c-shadow-1986-1996-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-vt-750-c2-shadow-a-c-e-1997-2003-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-vt-750-c2-shadow-spirit-2007-2011-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-vt-750-c2b-2011-2018-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS"
+  },
+  "honda-vt-750-c2b-phantom-2010-2018-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-vt-750-c2s-abs-2013-2014-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA254 · SBS 715LS"
+  },
+  "honda-vt-750-c4-shadow-2004-2005-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-vt-750-cs-abs-2013-2014-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA254 · SBS 715LS"
+  },
+  "honda-vt-750-rs-2011-2013-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS"
+  },
+  "honda-vt-750-s-2011-2012-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS"
+  },
+  "honda-vt-750-shadow-aero-2013-2018-global": {
+    "front_brake_pads": "EBC FA196 · SBS 700HS",
+    "rear_brake_pads": "EBC FA254 · SBS 715LS"
+  },
+  "honda-pc-800-pacific-coast-1989-1997-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-vfr-800-crossrunner-2011-2013-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "SBS 862LS"
+  },
+  "honda-vfr-800-f-2014-2019-global": {
+    "front_brake_pads": "EBC FA390 · SBS 809HS",
+    "rear_brake_pads": "SBS 862LS"
+  },
+  "honda-vfr-800-interceptor-abs-2006-2018-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "SBS 736LS"
+  },
+  "honda-vfr-800-x-crossrunner-2015-2018-global": {
+    "front_brake_pads": "EBC FA390 · SBS 809HS",
+    "rear_brake_pads": "SBS 862LS"
+  },
+  "honda-vt-800-c-1988-1994-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-cb-900-c-1982-1982-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-cb-900-f-1978-1980-global": {
+    "front_brake_pads": "EBC FA31 · SBS 517HF"
+  },
+  "honda-cb-900-f-f2-1981-1984-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-cbr-900-rr-fireblade-1992-2003-global": {
+    "front_brake_pads": "EBC FA187 · SBS 622HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-919-2002-2002-global": {
+    "front_brake_pads": "EBC FA187 · SBS 622HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cbr-929-rr-2000-2001-global": {
+    "front_brake_pads": "EBC FA265 · SBS 734HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cbr-954-rr-2002-2003-global": {
+    "front_brake_pads": "EBC FA265 · SBS 734HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cb-1000-c-1983-1984-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-cb-1000-f-big-one-1993-1997-global": {
+    "front_brake_pads": "EBC FA187 · SBS 622HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cbr-1000-f-1987-1992-global": {
+    "front_brake_pads": "EBC FA124 · SBS 600HS",
+    "rear_brake_pads": "EBC FA69 · SBS 542LS"
+  },
+  "honda-cbr-1000-f-fp-1993-1999-global": {
+    "front_brake_pads": "EBC FA189 · SBS 685HS",
+    "rear_brake_pads": "EBC FA189 · SBS 685LS"
+  },
+  "honda-cbr-1000-rr-sp-2014-2022-global": {
+    "front_brake_pads": "SBS 901HS",
+    "rear_brake_pads": "EBC FA436 · SBS 834LS"
+  },
+  "honda-cbr-1000-rr-sp2-2017-2019-global": {
+    "front_brake_pads": "SBS 901HS",
+    "rear_brake_pads": "EBC FA436 · SBS 834LS"
+  },
+  "honda-cbr-1000-rr-r-sp-fireblade-2020-2022-global": {
+    "front_brake_pads": "SBS 901HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "honda-cbx-1000-1978-1982-global": {
+    "front_brake_pads": "EBC FA31 · SBS 517HF",
+    "rear_brake_pads": "EBC FA69/2 · SBS 572HF"
+  },
+  "honda-crf-1000-l-africa-twin-2016-2019-global": {
+    "front_brake_pads": "SBS 940HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-sports-2018-2021-global": {
+    "front_brake_pads": "SBS 940HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-gl-1000-gold-wing-1981-1981-global": {
+    "front_brake_pads": "EBC FA31 · SBS 517HF"
+  },
+  "honda-gl-1000-gr-tour-gold-wing-1981-1982-global": {
+    "front_brake_pads": "EBC FA31 · SBS 517HF"
+  },
+  "honda-gl-1000-k1-k2-gold-wing-1975-1977-global": {
+    "front_brake_pads": "EBC FA29 · SBS 508HF",
+    "rear_brake_pads": "EBC FA32 · SBS 509HF"
+  },
+  "honda-gl-1000-k3-gold-wing-1978-1979-global": {
+    "front_brake_pads": "EBC FA31 · SBS 517HF",
+    "rear_brake_pads": "EBC FA32 · SBS 509HF"
+  },
+  "honda-rc213v-s-1000-2016-2018-global": {
+    "front_brake_pads": "SBS 901HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "honda-rvt-1000-rc51-2000-2006-global": {
+    "front_brake_pads": "EBC FA265 · SBS 734HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vf-1000-f-fii-1984-1986-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-vf-1000-r-1984-1987-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-vtr-1000-sp-1-sp-2-2000-2006-global": {
+    "front_brake_pads": "EBC FA265 · SBS 734HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vtr-1000-super-hawk-1997-2007-global": {
+    "front_brake_pads": "EBC FA187 · SBS 622HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cb-1100-2013-2021-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cb-1100-ex-2014-2021-global": {
+    "front_brake_pads": "EBC FA265 · SBS 734HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cb-1100-f-1983-1985-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-cb-1100-rs-abs-2017-2021-global": {
+    "front_brake_pads": "SBS 947HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-gl-1100-1-dlx-gold-wing-1981-1987-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-gl-1100-a-gold-wing-1979-1983-global": {
+    "front_brake_pads": "EBC FA31 · SBS 517HF"
+  },
+  "honda-gl-1100-gold-wing-1982-1983-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-nt-1100-2022-2022-global": {
+    "front_brake_pads": "SBS 940HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-st-1100-abs-tcs-1992-1995-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA196 · SBS 654LS"
+  },
+  "honda-vf-1100-c-1983-1986-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-vf-1100-s-1984-1985-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-vt-1100-c-shadow-1987-1996-global": {
+    "front_brake_pads": "EBC FA69 · SBS 542HF",
+    "rear_brake_pads": "SBS 2046"
+  },
+  "honda-vt-1100-c2-shadow-a-c-e-1995-2004-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vt-1100-c2-shadow-sabre-2000-2005-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vt-1100-c3-shadow-aero-1998-2004-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vt-1100-t-shadow-1998-2004-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-gl-1200-a-i-gold-wing-1984-1986-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-gl-1200-dx-gold-wing-1986-1987-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-gl-1200-gold-wing-1984-1986-global": {
+    "front_brake_pads": "EBC FA69/2 · SBS 572HF",
+    "rear_brake_pads": "EBC FA69 · SBS 542HF"
+  },
+  "honda-vfr-1200-xc-crosstourer-2012-2019-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "SBS 892LS"
+  },
+  "honda-vfr-1200-xdc-crosstourer-w-dct-2012-2019-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "SBS 892LS"
+  },
+  "honda-cb-1300-2005-2013-global": {
+    "front_brake_pads": "EBC FA265 · SBS 734HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-cb-1300-r-2002-2004-global": {
+    "front_brake_pads": "EBC FA265 · SBS 734HS",
+    "rear_brake_pads": "EBC FA254 · SBS 715LS"
+  },
+  "honda-cb-1300-s-2011-2015-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-ctx-1300-2014-2018-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "EBC FA196 · SBS 630LS"
+  },
+  "honda-vt-1300-cx-a-fury-2010-2022-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vt-1300-cxa-a-fury-abs-2010-2022-global": {
+    "front_brake_pads": "EBC FA388 · SBS 828HS",
+    "rear_brake_pads": "SBS 736LS"
+  },
+  "honda-vt-1300-interstate-2011-2015-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vt-1300-sabre-2011-2013-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vt-1300-stateline-2011-2016-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vtx-1300-c-2004-2009-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-vtx-1300-s-2003-2007-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "honda-interstate-se-1994-2000-global": {
+    "front_brake_pads": "EBC FA124/2 · SBS 647HS",
+    "rear_brake_pads": "EBC FA69 · SBS 542LS"
+  },
+  "honda-gl-1500-gold-wing-gold-wing-se-1988-1999-global": {
+    "front_brake_pads": "EBC FA124/2 · SBS 647HS",
+    "rear_brake_pads": "EBC FA69 · SBS 542LS"
+  },
+  "honda-gl-1500-valkyrie-1996-2003-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA196 · SBS 630LS"
+  },
+  "honda-gl-1800-c-valkyrie-2014-2015-global": {
+    "front_brake_pads": "EBC FA265 · SBS 734HS",
+    "rear_brake_pads": "SBS 880LS"
+  },
+  "yamaha-wr450f-2024-present-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA367 · SBS 790SI"
+  },
+  "yamaha-rd-50-mx-1981-1987-global": {
+    "front_brake_pads": "EBC FA70 · SBS 547HF",
+    "rear_brake_pads": "SBS 2032"
+  },
+  "yamaha-ysr-50-1987-1992-global": {
+    "front_brake_pads": "EBC FA101 · SBS 575HF",
+    "rear_brake_pads": "SBS 2028"
+  },
+  "yamaha-yz-65-2019-2023-global": {
+    "front_brake_pads": "EBC FA119 · SBS 589RSI",
+    "rear_brake_pads": "EBC FA84 · SBS 592RSI"
+  },
+  "yamaha-yz-85-lw-2002-2023-global": {
+    "front_brake_pads": "EBC FA119 · SBS 589RSI",
+    "rear_brake_pads": "EBC FA84 · SBS 592RSI"
+  },
+  "yamaha-tt-r-125-lw-2000-2020-global": {
+    "front_brake_pads": "EBC FA119 · SBS 589SI",
+    "rear_brake_pads": "SBS 2028"
+  },
+  "yamaha-tw-125-1999-2007-global": {
+    "front_brake_pads": "EBC FA275 · SBS 728HF",
+    "rear_brake_pads": "SBS 2028"
+  },
+  "yamaha-tz-125-1997-2000-global": {
+    "front_brake_pads": "EBC FA145 · SBS 624DC",
+    "rear_brake_pads": "EBC FA162 · SBS 659RQ"
+  },
+  "yamaha-wr-125-1991-2002-global": {
+    "front_brake_pads": "EBC FA135 · SBS 611SI",
+    "rear_brake_pads": "EBC FA152 · SBS 632SI"
+  },
+  "yamaha-wr-125-r-xy-2009-2016-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HF",
+    "rear_brake_pads": "SBS 675HF"
+  },
+  "yamaha-ybr-125-2006-2016-global": {
+    "front_brake_pads": "EBC FA101 · SBS 575HF",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-yt-125-tri-moto-1980-1985-global": {
+    "front_brake_pads": "SBS 617HF",
+    "rear_brake_pads": "EBC FA21 · SBS 576HF"
+  },
+  "yamaha-dt-175-1995-2000-global": {
+    "front_brake_pads": "SBS 2034",
+    "rear_brake_pads": "EBC FA275 · SBS 728HF"
+  },
+  "yamaha-yt-175-tri-moto-1982-1983-global": {
+    "front_brake_pads": "EBC FA21 · SBS 576HF"
+  },
+  "yamaha-rt-180-1990-1996-global": {
+    "front_brake_pads": "EBC FA118 · SBS 596HF",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-it-200-1984-1986-global": {
+    "front_brake_pads": "SBS 2049",
+    "rear_brake_pads": "EBC FA101 · SBS 575SI"
+  },
+  "yamaha-tt-200-1986-1989-global": {
+    "front_brake_pads": "EBC FA101 · SBS 575HF",
+    "rear_brake_pads": "SBS 2028"
+  },
+  "yamaha-wr-200-1991-1992-global": {
+    "front_brake_pads": "EBC FA135 · SBS 611SI",
+    "rear_brake_pads": "EBC FA152 · SBS 632SI"
+  },
+  "yamaha-ytm-200-ek-el-tri-moto-1983-1984-global": {
+    "front_brake_pads": "EBC FA21 · SBS 576HF"
+  },
+  "yamaha-ytm-200-ern-tri-moto-1985-1985-global": {
+    "front_brake_pads": "EBC FA21 · SBS 576HF"
+  },
+  "yamaha-ytm-200-k-n-tri-moto-1983-1985-global": {
+    "front_brake_pads": "EBC FA21 · SBS 576HF"
+  },
+  "yamaha-tt-225-s-t-1986-2000-global": {
+    "front_brake_pads": "EBC FA101 · SBS 575HF",
+    "rear_brake_pads": "SBS 2028"
+  },
+  "yamaha-tt-r-225-2001-2004-global": {
+    "front_brake_pads": "EBC FA101 · SBS 575SI",
+    "rear_brake_pads": "SBS 2028"
+  },
+  "yamaha-xt-225-1992-2001-global": {
+    "front_brake_pads": "EBC FA101 · SBS 575HF",
+    "rear_brake_pads": "SBS 2028"
+  },
+  "yamaha-xt-225-serow-1986-1986-global": {
+    "front_brake_pads": "EBC FA101 · SBS 575HF",
+    "rear_brake_pads": "SBS 2028"
+  },
+  "yamaha-ytm-225-drn-drs-tri-moto-1985-1986-global": {
+    "front_brake_pads": "EBC FA21 · SBS 576HF"
+  },
+  "yamaha-ytm-225-dxk-dxn-tri-moto-1983-1985-global": {
+    "front_brake_pads": "EBC FA21 · SBS 576HF"
+  },
+  "yamaha-tt-r-230-2005-2022-global": {
+    "front_brake_pads": "EBC FA135 · SBS 611SI",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-fz-250-phazer-n-s-1985-1986-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-fz-250-r-1985-1985-global": {
+    "front_brake_pads": "EBC FA104 · SBS 570HF"
+  },
+  "yamaha-fz25-250-2019-2019-global": {
+    "front_brake_pads": "EBC FA181 · SBS 671HF",
+    "rear_brake_pads": "EBC FA152 · SBS 632HF"
+  },
+  "yamaha-rd-250-1973-1979-global": {
+    "front_brake_pads": "EBC FA11 · SBS 504HF",
+    "rear_brake_pads": "SBS 2064"
+  },
+  "yamaha-srx-250-t-tc-1987-1987-global": {
+    "front_brake_pads": "EBC FA104 · SBS 570HF",
+    "rear_brake_pads": "SBS 2037"
+  },
+  "yamaha-tt-250-1987-2003-global": {
+    "front_brake_pads": "EBC FA105 · SBS 580HF",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-tz-250-1982-2005-global": {
+    "front_brake_pads": "EBC FA145 · SBS 624DC",
+    "rear_brake_pads": "EBC FA162 · SBS 659RQ"
+  },
+  "yamaha-wr-250-1990-2002-global": {
+    "front_brake_pads": "EBC FA135 · SBS 611SI",
+    "rear_brake_pads": "EBC FA152 · SBS 632SI"
+  },
+  "yamaha-wr-250-f-2001-2013-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA131 · SBS 604SI"
+  },
+  "yamaha-wr-250-f-efi-2015-2021-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA367 · SBS 790SI"
+  },
+  "yamaha-wr-250-f-enduro-gp-2018-2018-global": {
+    "front_brake_pads": "EBC FA450 · SBS 840SI",
+    "rear_brake_pads": "EBC FA367 · SBS 790SI"
+  },
+  "yamaha-wr-250-r-2008-2020-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694HS",
+    "rear_brake_pads": "EBC FA367 · SBS 790LS"
+  },
+  "yamaha-wr-250-x-2008-2016-global": {
+    "front_brake_pads": "EBC FA142 · SBS 627HS",
+    "rear_brake_pads": "EBC FA367 · SBS 790LS"
+  },
+  "yamaha-xg-250-tricker-2005-2011-global": {
+    "front_brake_pads": "EBC FA275 · SBS 728HF",
+    "rear_brake_pads": "EBC FA152 · SBS 632HF"
+  },
+  "yamaha-xs-250-c-1977-1981-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF",
+    "rear_brake_pads": "SBS 2113"
+  },
+  "yamaha-xs-250-d-e-1979-1980-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF",
+    "rear_brake_pads": "SBS 2066"
+  },
+  "yamaha-xs-250-se-sf-1980-1981-global": {
+    "front_brake_pads": "EBC FA41 · SBS 528HF",
+    "rear_brake_pads": "SBS 2066"
+  },
+  "yamaha-xt-250-1980-2022-global": {
+    "front_brake_pads": "SBS 2034",
+    "rear_brake_pads": "EBC FA275 · SBS 728HF"
+  },
+  "yamaha-xv-250-route-66-1988-1997-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-xv-250-s-virago-1995-2007-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-xv-250-virago-1988-1994-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-xvs-250-v-star-2008-2022-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-ybr-250-2007-2011-global": {
+    "front_brake_pads": "EBC FA165 · SBS 638HF"
+  },
+  "yamaha-ytz-250-tri-moto-1985-1986-global": {
+    "front_brake_pads": "EBC FA101 · SBS 575SI"
+  },
+  "yamaha-yz-250-a-1990-1990-global": {
+    "front_brake_pads": "EBC FA135 · SBS 611RSI",
+    "rear_brake_pads": "EBC FA152 · SBS 632RSI"
+  },
+  "yamaha-yz-250-b1-j1-1991-1997-global": {
+    "front_brake_pads": "EBC FA135 · SBS 611RSI",
+    "rear_brake_pads": "EBC FA152 · SBS 648RSI"
+  },
+  "yamaha-yz-250-f-2001-2023-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694RSI",
+    "rear_brake_pads": "EBC FA131 · SBS 604RSI"
+  },
+  "yamaha-yz-250-fx-2015-2021-global": {
+    "front_brake_pads": "EBC FA450 · SBS 840SI",
+    "rear_brake_pads": "EBC FA367 · SBS 790SI"
+  },
+  "yamaha-yz-250-wra-wrb-1990-1991-global": {
+    "front_brake_pads": "EBC FA135 · SBS 611RSI",
+    "rear_brake_pads": "EBC FA152 · SBS 632RSI"
+  },
+  "yamaha-yz-250-x-2016-2022-global": {
+    "front_brake_pads": "EBC FA450 · SBS 840SI",
+    "rear_brake_pads": "EBC FA367 · SBS 790SI"
+  },
+  "yamaha-rd-350-1973-1979-global": {
+    "front_brake_pads": "EBC FA11 · SBS 504HF",
+    "rear_brake_pads": "SBS 2064"
+  },
+  "yamaha-rz-350-1984-1988-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-tt-350-1986-2000-global": {
+    "front_brake_pads": "EBC FA105 · SBS 580SI",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-xt-350-1985-1996-global": {
+    "front_brake_pads": "EBC FA101 · SBS 575HF",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-xs-360-b-1976-1976-global": {
+    "front_brake_pads": "EBC FA11 · SBS 504HF",
+    "rear_brake_pads": "SBS 2064"
+  },
+  "yamaha-xs-360-c-d-1977-1977-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF"
+  },
+  "yamaha-fzr-400-a-1990-1990-global": {
+    "front_brake_pads": "EBC FA123 · SBS 613HS",
+    "rear_brake_pads": "EBC FA104 · SBS 570LS"
+  },
+  "yamaha-wr-400-f-1998-2000-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA152 · SBS 648SI"
+  },
+  "yamaha-xj-400-s-seca-ii-1993-1993-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA104 · SBS 570LS"
+  },
+  "yamaha-xs-400-1977-1985-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF",
+    "rear_brake_pads": "SBS 2113"
+  },
+  "yamaha-xs-400-dohc-1982-1982-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "SBS 2066"
+  },
+  "yamaha-xs-400-se-1980-1981-global": {
+    "front_brake_pads": "EBC FA61 · SBS 545HF",
+    "rear_brake_pads": "SBS 2066"
+  },
+  "yamaha-xs-400-sg-sh-sf-1980-1981-global": {
+    "front_brake_pads": "EBC FA41 · SBS 528HF",
+    "rear_brake_pads": "SBS 2066"
+  },
+  "yamaha-xs-400-z-1983-1983-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-wr-426-f-2001-2002-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA131 · SBS 604SI"
+  },
+  "yamaha-yz-426-f-2000-2002-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694RSI",
+    "rear_brake_pads": "EBC FA131 · SBS 604RSI"
+  },
+  "yamaha-wr-450-f-efi-2016-2021-global": {
+    "front_brake_pads": "EBC FA450 · SBS 840SI",
+    "rear_brake_pads": "EBC FA367 · SBS 790SI"
+  },
+  "yamaha-wr-450-f-enduro-gp-2018-2018-global": {
+    "front_brake_pads": "EBC FA450 · SBS 840SI",
+    "rear_brake_pads": "EBC FA367 · SBS 790SI"
+  },
+  "yamaha-yz-450-fx-2016-2022-global": {
+    "front_brake_pads": "EBC FA450 · SBS 840SI",
+    "rear_brake_pads": "EBC FA367 · SBS 790SI"
+  },
+  "yamaha-sr-500-1978-1998-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF",
+    "rear_brake_pads": "SBS 2037"
+  },
+  "yamaha-tx-500-a-b-1974-1977-global": {
+    "front_brake_pads": "EBC FA11 · SBS 504HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-wr-500-b-1991-1991-global": {
+    "front_brake_pads": "EBC FA135 · SBS 611SI",
+    "rear_brake_pads": "EBC FA101 · SBS 575SI"
+  },
+  "yamaha-wr-500-zd-ze-1992-1993-global": {
+    "front_brake_pads": "EBC FA135 · SBS 611SI",
+    "rear_brake_pads": "EBC FA152 · SBS 632SI"
+  },
+  "yamaha-xs-500-1975-1981-global": {
+    "front_brake_pads": "EBC FA11 · SBS 504HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-xv-500-k-virago-1983-1983-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-xv-500-se-1983-1983-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-xv-535-dx-virago-1998-2003-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xv-535-s-virago-1996-2003-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xv-535-virago-1987-1997-global": {
+    "front_brake_pads": "EBC FA136 · SBS 616HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xj-550-maxim-1981-1983-global": {
+    "front_brake_pads": "EBC FA70 · SBS 547HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-xj-550-seca-1981-1983-global": {
+    "front_brake_pads": "EBC FA70 · SBS 547HF",
+    "rear_brake_pads": "SBS 2066"
+  },
+  "yamaha-xz-550-1982-1984-global": {
+    "front_brake_pads": "EBC FA70 · SBS 547HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-xz-550-rj-rk-1982-1983-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-xz-550-s-1983-1984-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-fj-600-1984-1985-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-fz-600-1986-1987-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-fz-600-s-sc-1986-1989-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "EBC FA104 · SBS 570HF"
+  },
+  "yamaha-fz6-600-2004-2008-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fz6-600-fazer-2004-2008-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fz6-600-fazer-s2-2007-2009-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fz6-600-fazer-s2-abs-2007-2009-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fz6-600-s2-2007-2009-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fz6-600-s2-abs-2007-2009-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fz6r-600-2009-2014-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "EBC FA140 · SBS 614LS"
+  },
+  "yamaha-fzr-600-1989-1989-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-fzr-600-r-1990-1995-global": {
+    "front_brake_pads": "EBC FA123 · SBS 645HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-fzs-600-fazer-1998-2003-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA104 · SBS 570LS"
+  },
+  "yamaha-fzs-600-s-fazer-2001-2003-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA104 · SBS 570LS"
+  },
+  "yamaha-srx-600-1986-1999-global": {
+    "front_brake_pads": "EBC FA104 · SBS 570HF",
+    "rear_brake_pads": "EBC FA123 · SBS 590HF"
+  },
+  "yamaha-tt-600-1985-1992-global": {
+    "front_brake_pads": "EBC FA101 · SBS 575HF",
+    "rear_brake_pads": "SBS 2034"
+  },
+  "yamaha-xj-600-seca-ii-1992-1996-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA104 · SBS 570LS"
+  },
+  "yamaha-xt-600-1983-1986-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "SBS 2037"
+  },
+  "yamaha-yx-600-radian-1987-1990-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-yzf-600-r-thunder-cat-1996-2003-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-tx-650-1972-1973-global": {
+    "front_brake_pads": "EBC FA11 · SBS 504HF"
+  },
+  "yamaha-xj-650-1980-1983-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xj-650-g-h-sh-1980-1983-global": {
+    "front_brake_pads": "EBC FA61 · SBS 545HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xj-650-rj-seca-1981-1983-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xj-650-turbo-1981-1982-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xs-650-1975-1985-global": {
+    "front_brake_pads": "EBC FA11 · SBS 504HF",
+    "rear_brake_pads": "SBS 2064"
+  },
+  "yamaha-xs-650-se-1980-1982-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF"
+  },
+  "yamaha-xs-650-sj-sk-1982-1982-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF",
+    "rear_brake_pads": "SBS 2064"
+  },
+  "yamaha-xs-650-sk-heritage-1983-1983-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF"
+  },
+  "yamaha-xvs-650-v-star-2009-2014-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xvs-650-v-star-classic-1998-2006-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xvs-650-v-star-custom-1998-2006-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xvs-650-v-star-tourer-2009-2014-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xt-660-z-tenere-2008-2015-global": {
+    "front_brake_pads": "EBC FA181 · SBS 671HS",
+    "rear_brake_pads": "SBS 675LS"
+  },
+  "yamaha-xt-660-z-tenere-abs-2011-2015-global": {
+    "front_brake_pads": "EBC FA181 · SBS 671HS",
+    "rear_brake_pads": "SBS 675LS"
+  },
+  "yamaha-fz-700-1987-1988-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-fz-07-700-2014-2017-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fzx-700-fazer-1987-1988-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-mt-07-700-moto-cage-2015-2017-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-mt-07-700-sp-2018-2018-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-mt-07-700-tracer-2016-2020-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-mt-07-700-tracer-gt-2019-2019-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-xj-700-1986-1989-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xj-700-maxim-1985-1989-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-xsr-700-xtribute-2019-2022-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-xtz-700-tenere-2019-2022-global": {
+    "front_brake_pads": "EBC FA181 · SBS 671HS",
+    "rear_brake_pads": "SBS 675LS"
+  },
+  "yamaha-xv-700-l-lc-1984-1987-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xv-700-virago-1987-1987-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-750-maxim-1981-1981-global": {
+    "front_brake_pads": "EBC FA70 · SBS 547HF",
+    "rear_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-fz-750-1985-1986-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-fz-750-genesis-1986-1992-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "EBC FA104 · SBS 570HF"
+  },
+  "yamaha-fzr-750-r-1989-1992-global": {
+    "front_brake_pads": "EBC FA145 · SBS 624HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-fzr-750-r-genesis-1987-1988-global": {
+    "front_brake_pads": "EBC FA123 · SBS 613HF",
+    "rear_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-fzx-750-fazer-1986-1990-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-tx-750-1973-1974-global": {
+    "front_brake_pads": "EBC FA11 · SBS 504HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-tx-750-a-1973-1976-global": {
+    "front_brake_pads": "EBC FA11 · SBS 504HF",
+    "rear_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-vf-750-virago-1988-1988-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xj-750-1983-1987-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-xj-750-e-1981-1983-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xj-750-maxim-1982-1982-global": {
+    "front_brake_pads": "EBC FA81 · SBS 550HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xj-750-seca-1981-1983-global": {
+    "front_brake_pads": "EBC FA70 · SBS 547HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xs-750-1977-1980-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF"
+  },
+  "yamaha-xs-750-h-j-k-1981-1982-global": {
+    "front_brake_pads": "EBC FA61 · SBS 545HF",
+    "rear_brake_pads": "EBC FA34 · SBS 507HF"
+  },
+  "yamaha-xs-750-se-1979-1980-global": {
+    "front_brake_pads": "EBC FA61 · SBS 545HF",
+    "rear_brake_pads": "EBC FA34 · SBS 507HF"
+  },
+  "yamaha-xv-750-1989-1992-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HS",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xv-750-mk-1983-1983-global": {
+    "front_brake_pads": "EBC FA41 · SBS 528HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-xv-750-se-1981-1983-global": {
+    "front_brake_pads": "EBC FA61 · SBS 545HF",
+    "rear_brake_pads": "SBS 2063"
+  },
+  "yamaha-xv-750-virago-1993-1997-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HS",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-yzf-750-r-sp-1993-1997-global": {
+    "front_brake_pads": "EBC FA190 · SBS 683HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-yzf-750-r7-ow02-1999-2002-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA267 · SBS 733LS"
+  },
+  "yamaha-yzf-750-r7-ow02-race-kit-1999-2001-global": {
+    "front_brake_pads": "EBC FA249 · SBS 729HS"
+  },
+  "yamaha-800-fazer-8-2010-2015-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fz8-800-2010-2014-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fj-09-850-2015-2017-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fz-09-850-2014-2017-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-mxt-850-niken-2018-2022-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "SBS 991LS"
+  },
+  "yamaha-mxt-850-niken-gt-2019-2022-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "SBS 991LS"
+  },
+  "yamaha-tdm-850-1991-2001-global": {
+    "front_brake_pads": "EBC FA123 · SBS 590HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-xs-850-1980-1981-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF",
+    "rear_brake_pads": "EBC FA61 · SBS 545HF"
+  },
+  "yamaha-mt-09-900-sp-2018-2020-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-mt-09-900-sport-tracker-2015-2016-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-mt-09-900-street-rally-2014-2016-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-mt-09-900-tracer-2015-2020-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-mt-09-900-tracer-gt-2018-2022-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-xj-900-1983-1993-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-xsr-900-abarth-2017-2022-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-xv-920-1981-1982-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF"
+  },
+  "yamaha-xv-920-j-1982-1982-global": {
+    "front_brake_pads": "EBC FA70 · SBS 547HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xv-920-k-mk-virago-1983-1983-global": {
+    "front_brake_pads": "EBC FA61 · SBS 545HF",
+    "rear_brake_pads": "EBC FA81 · SBS 550HF"
+  },
+  "yamaha-scr-950-scrambler-2017-2019-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-950-bolt-2014-2018-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-950-bolt-c-spec-2015-2018-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-950-bolt-racer-2017-2018-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-950-bolt-r-spec-2014-2022-global": {
+    "front_brake_pads": "EBC FA319/2 · SBS 769LS",
+    "rear_brake_pads": "EBC FA179 · SBS 663HS"
+  },
+  "yamaha-xvs-950-a-midnight-star-2009-2013-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-fz1-1000-fazer-2006-2016-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fz-10-1000-2016-2017-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-fzr-1000-1994-1995-global": {
+    "front_brake_pads": "EBC FA190 · SBS 683HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-fzr-1000-ex-up-1990-1993-global": {
+    "front_brake_pads": "EBC FA123 · SBS 645HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-fzr-1000-genesis-1987-1989-global": {
+    "front_brake_pads": "EBC FA123 · SBS 613HF",
+    "rear_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-fzs-1000-fazer-2001-2005-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA348 · SBS 770LS"
+  },
+  "yamaha-gts-1000-1993-1999-global": {
+    "front_brake_pads": "EBC FA191 · SBS 682HF",
+    "rear_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-mt-10-1000-sp-2017-2019-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-xv-1000-l-c-1984-1985-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-yzf-1000-r-thunder-ace-1996-1999-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-yzf-1000-r1-4-pad-2007-2014-global": {
+    "front_brake_pads": "EBC FA442/4 · SBS 839HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-yzf-1000-r1-4-pad-abs-2012-2014-global": {
+    "front_brake_pads": "EBC FA442/4 · SBS 839HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-yzf-1000-r1-le-2006-2006-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA174 · SBS 657LS"
+  },
+  "yamaha-yzf-1000-r1m-2015-2022-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA436 · SBS 834LS"
+  },
+  "yamaha-yzf-1000-r1s-2016-2016-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA436 · SBS 834LS"
+  },
+  "yamaha-1100-se-maxim-1981-1981-global": {
+    "front_brake_pads": "EBC FA70 · SBS 547HF"
+  },
+  "yamaha-bt-1100-bulldog-2002-2006-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-fj-1100-1983-1985-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-xj-1100-1981-1981-global": {
+    "front_brake_pads": "EBC FA70 · SBS 547HF",
+    "rear_brake_pads": "EBC FA41 · SBS 528HF"
+  },
+  "yamaha-xs-1100-e-f-g-h-1978-1981-global": {
+    "front_brake_pads": "EBC FA34 · SBS 507HF"
+  },
+  "yamaha-xs-1100-lh-midnight-1981-1981-global": {
+    "front_brake_pads": "EBC FA70 · SBS 547HF",
+    "rear_brake_pads": "EBC FA41 · SBS 528HF"
+  },
+  "yamaha-xs-1100-sf-sg-sh-lg-1979-1981-global": {
+    "front_brake_pads": "EBC FA61 · SBS 545HF",
+    "rear_brake_pads": "EBC FA34 · SBS 507HF"
+  },
+  "yamaha-xv-1100-1994-1997-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HS",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xv-1100-virago-1986-1999-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "SBS 2065"
+  },
+  "yamaha-xvs-1100-v-star-1999-2006-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-xvs-1100-v-star-classic-2000-2006-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-fj-1200-1986-1990-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "EBC FA123 · SBS 613HF"
+  },
+  "yamaha-fj-1200-abs-1991-1993-global": {
+    "front_brake_pads": "EBC FA123 · SBS 613HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-v-max-1200-1985-2003-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF",
+    "rear_brake_pads": "EBC FA88 · SBS 555HS"
+  },
+  "yamaha-xt-1200-z-super-tenere-2014-2019-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xt-1200-ze-super-tenere-2014-2019-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xt-1200-ze-super-tenere-raid-ed-2018-2019-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xtz-1200-super-tenere-2010-2013-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1200-1984-1987-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-xv-1200-venture-royale-1985-1985-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-xv-1200-z12t-1984-1987-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-xvt-1200-t-vent-royale-1984-1985-global": {
+    "front_brake_pads": "EBC FA88 · SBS 555HF"
+  },
+  "yamaha-fjr-1300-2001-2003-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-fjr-1300-a-2013-2020-global": {
+    "front_brake_pads": "SBS 740HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-fjr-1300-abs-2003-2012-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-fjr-1300-ae-2016-2019-global": {
+    "front_brake_pads": "SBS 740HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-fjr-1300-as-2013-2019-global": {
+    "front_brake_pads": "SBS 740HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xjr-1300-racer-2015-2019-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA348 · SBS 770LS"
+  },
+  "yamaha-xjr-1300-sp-2001-2001-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA88 · SBS 555LS"
+  },
+  "yamaha-xvs-1300-a-midnight-star-2007-2011-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xvs-1300-custom-2014-2016-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xvs-1300-stryker-2011-2014-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xvs-1300-stryker-bullet-cowl-2015-2015-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xvs-1300-v-star-2007-2014-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xvs-1300-v-star-deluxe-2007-2014-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xvs-1300-v-star-tourer-2007-2014-global": {
+    "front_brake_pads": "EBC FA199 · SBS 691HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xvz-1300-a-royal-star-1996-2007-global": {
+    "front_brake_pads": "EBC FA123 · SBS 613HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-xvz-1300-at-royal-star-tour-classic-1997-2007-global": {
+    "front_brake_pads": "EBC FA123 · SBS 613HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-xvz-1300-royal-star-boulevard-1999-2001-global": {
+    "front_brake_pads": "EBC FA123 · SBS 613HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-xvz-1300-royal-star-venture-s-2008-2013-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-xvz-1300-tf-royal-star-venture-1999-2001-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-xvz-1300-venture-royale-1986-1995-global": {
+    "front_brake_pads": "EBC FA123 · SBS 613HF",
+    "rear_brake_pads": "EBC FA123 · SBS 590HF"
+  },
+  "yamaha-xv-1600-midnight-star-1999-2007-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-xv-1600-road-star-1999-2007-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-xv-1600-silverado-1999-2007-global": {
+    "front_brake_pads": "EBC FA179 · SBS 663HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-vmx-1700-v-max-2009-2018-global": {
+    "front_brake_pads": "EBC FA442/4 · SBS 839HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1700-pc-road-star-warrior-2003-2007-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1700-road-star-s-2008-2014-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-xv-1700-road-star-silverado-s-2011-2014-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-xv-1700-road-star-warrior-2002-2002-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA123 · SBS 590LS"
+  },
+  "yamaha-xv-1900-raider-2008-2014-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1900-raider-bullet-cowl-2015-2015-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1900-raider-s-2008-2014-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1900-raider-scl-2012-2014-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1900-roadliner-2006-2014-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1900-roadliner-s-2006-2014-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1900-stratoliner-2006-2009-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1900-stratoliner-deluxe-2011-2014-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-xv-1900-stratoliner-s-2006-2014-global": {
+    "front_brake_pads": "EBC FA252 · SBS 634HS",
+    "rear_brake_pads": "EBC FA319/2 · SBS 769LS"
+  },
+  "yamaha-yzf-600-r6-quick-change-front-wheel-2017-2023-global": {
+    "front_brake_pads": "SBS 966",
+    "rear_brake_pads": "EBC FA436 · SBS 834"
   }
 }

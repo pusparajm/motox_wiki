@@ -73,6 +73,11 @@ def map_text(text, reverse, shapes):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--make", required=True)
+    parser.add_argument(
+        "--report",
+        type=Path,
+        default=DATA / "ebc-alternates-report.json",
+    )
     args = parser.parse_args()
 
     catalog = load("motorcycles.json")
@@ -149,7 +154,10 @@ def main():
         "remaining_models": len(eligible) - len(fixed),
         "fixed": sorted(fixed, key=lambda item: item["id"]),
     }
-    save("ebc-alternates-report.json", report)
+    args.report.parent.mkdir(parents=True, exist_ok=True)
+    with args.report.open("w", encoding="utf-8") as handle:
+        json.dump(report, handle, ensure_ascii=False, indent=2)
+        handle.write("\n")
     print(
         f"{args.make}: eligible={len(eligible)} only_sbs={only_sbs_before} "
         f"fixed_models={len(fixed)} fixed_positions={positions} "
