@@ -125,10 +125,21 @@ def pad_shape_ref(value, show_code=True):
     code = shape.get("requestedCode") or shape.get("code") or ""
     dimensions = str(shape.get("dimensions") or "").replace(" x ", " × ")
     code_html = f'<span class="pad-shape-code">{esc(code)}</span>' if show_code else ""
+    diagram = ""
+    if shape.get("diagram"):
+        diagram = (
+            f'<img class="pad-shape-img" src="../{esc(shape["diagram"])}" '
+            f'alt="EBC {esc(code)} brake pad shape diagram" '
+            f'width="{esc(shape.get("diagramWidth", 120))}" height="{esc(shape.get("diagramHeight", 80))}" '
+            'loading="lazy" decoding="async">'
+        )
     return (
         '<span class="pad-shape-ref">'
+        f"{diagram}"
+        '<span class="pad-shape-text">'
         f"{code_html}"
         f'<span class="pad-shape-dim">{esc(dimensions)}</span>'
+        "</span>"
         "</span>"
     )
 
@@ -332,7 +343,7 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
   <meta name="twitter:description" content="{esc(description)}">
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../css/site.min.css?v=10" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
+  <link rel="stylesheet" href="../css/site.min.css?v=11" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
   <script type="application/ld+json">{json.dumps(graph, ensure_ascii=False)}</script>
   {ADSENSE_HEAD}
 </head>
@@ -445,7 +456,7 @@ def reference_page(slug, page_title, description, h1, subtitle, content, breadcr
   <meta name="twitter:description" content="{esc(description)}">
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../css/site.min.css?v=10" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
+  <link rel="stylesheet" href="../css/site.min.css?v=11" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
   <script type="application/ld+json">{json.dumps(graph, ensure_ascii=False)}</script>
   {ADSENSE_HEAD}
 </head>
@@ -805,7 +816,7 @@ def build_brake_fitment(bikes):
       <p>For the cross-brand equivalents of each shape, use the <a href="pad-shape-cross-reference.html">pad shape cross-reference</a>.</p>
 
       <h2 id="model-fitments">Motorcycle fitment table</h2>
-      <p>EBC shape badges show the shape code and the published pad dimensions. The EBC line drawings themselves are not reproduced here.</p>
+      <p>EBC shape badges show the actual pad diagram, shape code and published dimensions. Diagrams reproduced with written permission from EBC.</p>
       {table(["Model", "Front brake pads", "Rear brake pads", "EBC shape reference"], model_rows)}
 
       <h2>How to use the table</h2>
@@ -842,7 +853,7 @@ def build_pad_shape_crossref(bikes):
 
       <h2 id="shape-cross-reference">Pad shape cross-reference</h2>
       <p>The table lists the EBC shape against the equivalent SBS, Ferodo, Dunlopad, Emgo and Vesrah references. A single EBC shape can list several numbers when the same backing plate is offered in different thicknesses or compounds. Treat those as shape-family references, not as “any of these will fit every model”.</p>
-      <p>Shape data and dimensions are extracted from the EBC Buyers Guide. The EBC line drawings are not reproduced here.</p>
+      <p>Shape diagrams and dimensions are extracted from the EBC Buyers Guide and reproduced with written permission from EBC.</p>
       {table(["EBC", "Shape data", "SBS", "Ferodo", "Dunlopad", "Emgo sintered", "Emgo full metal", "Vesrah"], shape_rows)}
 
       <h2>Why one shape fits several models</h2>
@@ -1955,7 +1966,7 @@ def static_sections_html(bike):
         if field_rows:
             body += property_table(field_rows, shape_extras)
         if shape_extras:
-            body += '<p class="spec-note pad-shape-note">EBC shape badges show the code and published dimensions. EBC line drawings are not reproduced here.</p>'
+            body += '<p class="spec-note pad-shape-note">EBC shape badges show the actual pad diagram, code and published dimensions. Diagrams reproduced with written permission from EBC.</p>'
         if section.get("table"):
             rows = section["table"]
             headers = list(rows[0].keys())
@@ -2081,7 +2092,7 @@ def maintenance_page(bike):
       <p class="data-note">The model page remains the primary specification reference. This service page is a focused maintenance view of the same verified catalogue data.</p>
       <h2>Service data at a glance</h2>
       {property_table(service_fields, service_extras)}
-      {f'<p class="spec-note pad-shape-note">EBC shape badges show the code and published dimensions. EBC line drawings are not reproduced here.</p>' if service_extras else ''}
+      {f'<p class="spec-note pad-shape-note">EBC shape badges show the actual pad diagram, code and published dimensions. Diagrams reproduced with written permission from EBC.</p>' if service_extras else ''}
       <h2>Torque specifications</h2>
       {torque_html}
       <h2>Maintenance checklist</h2>
@@ -2275,7 +2286,7 @@ def model_page(bike, related, guide_links, brand_href):
   <meta name="twitter:card" content="{twitter_card}">{twitter_image_meta}
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../css/site.min.css?v=10" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
+  <link rel="stylesheet" href="../css/site.min.css?v=11" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
   <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)}</script>
   {ADSENSE_HEAD}
 </head>
