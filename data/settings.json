@@ -107,7 +107,7 @@
     "head": "<script async src=\"https://www.googletagmanager.com/gtm.js?id=GTM-NJ8DQQHN\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n</script>",
     "bodyStart": "",
     "bodyEnd": "",
-    "verification": "<meta name=\"yandex-verification\" content=\"3973b3f49095619f\" />",
+    "verification": "<meta name=\"yandex-verification\" content=\"3973b3f49095619f\" />\n<meta name=\"msvalidate.01\" content=\"8FF9AA03DE7ADA878A45E50290B9863D\" />",
     "customCss": ""
   }
 }
