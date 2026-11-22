@@ -96,6 +96,11 @@
     },
     "publishing": {
       "autoBuild": false
+    },
+    "indexing": {
+      "minModelCompleteness": 8,
+      "minImageModelCompleteness": 6,
+      "noindexBelowThreshold": true
     }
   },
   "third_party": {

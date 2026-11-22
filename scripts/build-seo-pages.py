@@ -41,6 +41,16 @@ OPTIONS = SETTINGS.get("options") or {}
 FEATURES = OPTIONS.get("features") or {}
 FAQ_OPTIONS = OPTIONS.get("faq") or {}
 IMAGE_OPTIONS = OPTIONS.get("images") or {}
+INDEX_OPTIONS = OPTIONS.get("indexing") or {}
+try:
+    MIN_MODEL_COMPLETENESS = max(0, int(INDEX_OPTIONS.get("minModelCompleteness", 8)))
+except (TypeError, ValueError):
+    MIN_MODEL_COMPLETENESS = 8
+try:
+    MIN_IMAGE_MODEL_COMPLETENESS = max(0, int(INDEX_OPTIONS.get("minImageModelCompleteness", 6)))
+except (TypeError, ValueError):
+    MIN_IMAGE_MODEL_COMPLETENESS = 6
+NOINDEX_BELOW_THRESHOLD = bool(INDEX_OPTIONS.get("noindexBelowThreshold", True))
 THIRD_PARTY = SETTINGS.get("third_party") or {}
 REFERENCE_OVERRIDES = read_json("reference-pages.json", {}).get("pages", {})
 REFERENCE_PAGE_META = {}
@@ -88,6 +98,47 @@ def service(bike, key):
         if item.get("key") == key:
             return item.get("value", "")
     return ""
+
+
+def model_completeness(bike):
+    """Return a small, explainable data score used for indexation decisions.
+
+    The score counts published specification fields, service fields, a capped
+    number of torque rows, the hero image and the summary. Catalogue metadata
+    such as the model-year label and the "data pending" note do not count.
+    """
+    sections = bike.get("sections") or {}
+    general = (sections.get("general_specs") or {}).get("fields") or []
+    service_fields = (sections.get("service") or {}).get("fields") or []
+    torque_rows = (sections.get("torque_specs") or {}).get("table") or []
+    ignored_general = {"data_status"}
+    ignored_service = {"note"}
+    score = sum(
+        1 for item in general
+        if item.get("value") and item.get("key") not in ignored_general
+    )
+    score += sum(
+        1 for item in service_fields
+        if item.get("value") and item.get("key") not in ignored_service
+    )
+    score += min(len(torque_rows), 5)
+    if bike.get("id") in BIKE_IMAGES:
+        score += 1
+    if str(bike.get("summary") or "").strip():
+        score += 1
+    return score
+
+
+def model_is_indexable(bike):
+    if not NOINDEX_BELOW_THRESHOLD:
+        return True
+    score = model_completeness(bike)
+    if score >= MIN_MODEL_COMPLETENESS:
+        return True
+    # A unique hero image materially improves an otherwise thin fitment entry.
+    if bike.get("id") in BIKE_IMAGES and score >= MIN_IMAGE_MODEL_COMPLETENESS:
+        return True
+    return False
 
 
 def battery_value(bike):
@@ -414,6 +465,10 @@ def build_index(bikes):
             for item in group_items
         )
         pair_sections.append(f'<h4>{esc(group)}</h4><div class="page-list">{cards_html}</div>')
+    service_cards = "".join(
+        f'<a class="page-item" href="{maintenance_slug(bike)}.html"><h2>{esc(name(bike))} service data</h2><p>Oil capacity, oil grade, chain, battery, brake pads, torque values and a maintenance checklist.</p></a>'
+        for bike in bikes if bike["id"] in MAINTENANCE_MODELS
+    )
     content = f"""
       <p>These guides turn the MotoX Wiki catalogue into practical answers: oil capacities, seat heights, weights, horsepower, torque data, buying shortlists and direct model comparisons.</p>
       <p>Brand hubs, the all-model index, brake fitment and parts finders are in the <a href="../pages.html">Reference section</a>.</p>
@@ -424,6 +479,9 @@ def build_index(bikes):
       <div class="page-list">{segment_cards}</div>
       <h3>Head-to-head comparisons</h3>
       {''.join(pair_sections)}
+      <h2 id="service-data">Model service data</h2>
+      <p>Oil capacities, torque specs and maintenance references for popular models.</p>
+      <div class="page-list">{service_cards}</div>
     """
     return guide_page(
         "index", "Motorcycle Specs Guides, Charts & Comparisons",
@@ -1838,8 +1896,129 @@ def static_sections_html(bike):
     return f'<div class="spec-section-grid">{"".join(parts)}</div>'
 
 
+def maintenance_slug(bike):
+    base = str(bike.get("id") or "").strip()
+    if base.endswith("-global"):
+        base = base[:-7]
+    return f"{base}-service-data"
+
+
+def maintenance_page(bike):
+    slug = maintenance_slug(bike)
+    title_text = name(bike)
+    service_fields = [
+        (item.get("label", ""), item.get("value", ""))
+        for item in ((bike.get("sections") or {}).get("service") or {}).get("fields") or []
+        if item.get("key") != "note" and item.get("value")
+    ]
+    torque_section = (bike.get("sections") or {}).get("torque_specs") or {}
+    torque_rows = torque_section.get("table") or []
+    torque_note = next(
+        (item.get("value", "") for item in torque_section.get("fields") or [] if item.get("key") == "note"),
+        "",
+    )
+    torque_html = ""
+    if torque_rows:
+        headers = list(torque_rows[0].keys())
+        labels = {"component": "Component", "torque": "Torque", "notes": "Notes"}
+        torque_html = table(
+            [labels.get(header, header.replace("_", " ").title()) for header in headers],
+            [[esc(row.get(header, "")) for header in headers] for row in torque_rows],
+        )
+        if torque_note:
+            torque_html = f'<p class="spec-note">{esc(torque_note)}</p>' + torque_html
+    else:
+        torque_html = (
+            f'<p class="spec-note">{esc(torque_note or "A verified model-specific torque table is not available. Use the workshop manual for fastener torque values.")}</p>'
+        )
+
+    faq_keywords = ("oil", "service", "chain", "battery", "brake", "torque", "tyre", "valve", "coolant", "spark", "maintenance")
+    faq = [qa for qa in bike_faq(bike) if any(word in qa[0].lower() for word in faq_keywords)]
+
+    def add_faq(question, answer, topic=""):
+        if answer and all(question != existing[0] for existing in faq):
+            if not topic or all(topic not in existing[0].lower() for existing in faq):
+                faq.append((question, answer))
+
+    add_faq(f"What is the engine oil capacity of the {title_text}?", service(bike, "oil_capacity"), "oil capacity")
+    add_faq(f"What oil grade does the {title_text} use?", service(bike, "oil_grade"), "oil grade")
+    add_faq(f"What chain does the {title_text} use?", service(bike, "chain") or field(bike, "chain"), "chain")
+    add_faq(f"What battery does the {title_text} use?", battery_value(bike), "battery")
+    pad_bits = []
+    if service(bike, "front_brake_pads"):
+        pad_bits.append(f"front {service(bike, 'front_brake_pads')}")
+    if service(bike, "rear_brake_pads"):
+        pad_bits.append(f"rear {service(bike, 'rear_brake_pads')}")
+    add_faq(
+        f"What brake pads does the {title_text} use?",
+        ("The listed fitment is " + " and ".join(pad_bits) + ". Confirm the pad shape and compound for the exact model year and market.") if pad_bits else "",
+        "brake pads",
+    )
+    faq = faq[:8]
+    faq_html = "".join(
+        f'<div class="faq-item"><h3 class="faq-question">{esc(question)}</h3><p class="faq-answer">{esc(answer)}</p></div>'
+        for question, answer in faq
+    )
+    faq_json = {
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": question, "acceptedAnswer": {"@type": "Answer", "text": answer}}
+            for question, answer in faq
+        ],
+    } if faq else None
+
+    engine = (field(bike, "engine") or "").lower()
+    checklist = [
+        "Engine oil — check the level and condition; replace it at the interval in the owner's manual.",
+        "Oil filter — replace it with the oil change where the manual specifies a filter change.",
+        "Chain and sprockets — check slack, lubrication and wear.",
+        "Tyres — check pressures, tread depth and sidewall condition.",
+        "Brakes — check pad thickness, disc condition and fluid level.",
+        "Battery — check terminals, charge and the hold-down.",
+        "Fasteners — check axle, caliper and handlebar clamp bolts.",
+    ]
+    if "liquid" in engine or "coolant" in engine:
+        checklist.append("Cooling system — check the coolant level and hoses when the engine is cold.")
+    checklist.append("Valve clearance — check at the manufacturer's stated interval.")
+    checklist_html = "".join(f"<li>{esc(item)}</li>" for item in checklist)
+
+    description = (
+        f"{title_text} service data: oil capacity, oil grade, chain, battery, brake pads, "
+        "torque specs and a maintenance checklist."
+    )
+    if len(description) > 160:
+        description = description[:157].rstrip() + "."
+
+    content = f"""
+      {bike_image_html(bike)}
+      <p>This page collects the service data recorded for the {bike_link(bike)}. It covers fluid capacities, wear parts, battery and brake-pad references, torque values and a practical maintenance checklist. Always confirm the exact model year and market against the workshop manual before ordering parts or tightening fasteners.</p>
+      <p class="data-note">The model page remains the primary specification reference. This service page is a focused maintenance view of the same verified catalogue data.</p>
+      <h2>Service data at a glance</h2>
+      {property_table(service_fields)}
+      <h2>Torque specifications</h2>
+      {torque_html}
+      <h2>Maintenance checklist</h2>
+      <ul>{checklist_html}</ul>
+      {f'<section class="faq-section"><h2>Frequently Asked Questions</h2>{faq_html}</section>' if faq_html else ''}
+      {related_guides([("oil-capacity-chart.html", "Motorcycle oil capacity chart"), ("torque-specs.html", "Motorcycle torque specifications"), ("parts-fitment-codes.html", "Parts and fitment codes"), ("../reference/brake-pad-fitment.html", "Brake pad fitment table")])}
+    """
+    return guide_page(
+        slug,
+        f"{title_text} Service Data — Oil Capacity, Torque Specs & Maintenance",
+        description,
+        f"{title_text} Service Data & Maintenance",
+        f"{bike.get('year', '')} · {bike.get('category', '')} · {bike.get('displacement', '')}",
+        content,
+        f"{title_text} service data",
+        [faq_json] if faq_json else None,
+        parents=[("Model Service Data", "index.html#service-data")],
+    )
+
+
 def model_page(bike, related, guide_links, brand_href):
     url = f"{SITE}/motorcycle/{quote(bike['id'])}.html"
+    indexable = model_is_indexable(bike)
+    robots = "index,follow,max-image-preview:large" if indexable else "noindex,follow"
     oil_capacity = service(bike, "oil_capacity")
     oil_grade = service(bike, "oil_grade")
     front_pads = service(bike, "front_brake_pads")
@@ -1999,7 +2178,7 @@ def model_page(bike, related, guide_links, brand_href):
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>{esc(seo_title)} | MotoX Wiki</title>
   <meta name="description" content="{esc(description)}">
-  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="robots" content="{robots}">
   <link rel="canonical" href="{url}">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="MotoX Wiki">
@@ -2161,6 +2340,109 @@ COMPARISONS = [
         "b": "royal-enfield-continental-gt-650-2019-present-global",
         "group": "Retro",
     },
+    {
+        "slug": "honda-cb350-vs-royal-enfield-classic-350",
+        "title": "Honda CB350 vs Royal Enfield Classic 350",
+        "description": "Honda CB350 vs Royal Enfield Classic 350: 20.8 hp vs 20.2 hp, 181 kg vs 195 kg and 800 mm vs 805 mm seat height. Compare specs and service data.",
+        "verdict": "The Honda CB350 lists 20.8 hp, 181 kg and seat height 800 mm; the Royal Enfield Classic 350 lists 20.2 hp, 195 kg and seat height 805 mm. The table compares the full specifications and service data.",
+        "a": "honda-cb350-2021-present-india",
+        "b": "royal-enfield-classic-350-2021-present-global",
+        "group": "Retro 350",
+    },
+    {
+        "slug": "honda-cb350-vs-royal-enfield-hunter-350",
+        "title": "Honda CB350 vs Royal Enfield Hunter 350",
+        "description": "Honda CB350 vs Royal Enfield Hunter 350: 20.8 hp vs 20.2 hp, 181 kg vs 181 kg and 800 mm vs 800 mm seat height. Compare specs and service data.",
+        "verdict": "The Honda CB350 lists 20.8 hp, 181 kg and seat height 800 mm; the Royal Enfield Hunter 350 lists 20.2 hp, 181 kg and seat height 800 mm. The table compares the full specifications and service data.",
+        "a": "honda-cb350-2021-present-india",
+        "b": "royal-enfield-hunter-350-2022-present-global",
+        "group": "Retro 350",
+    },
+    {
+        "slug": "ktm-390-duke-vs-honda-cb300r",
+        "title": "KTM 390 Duke vs Honda CB300R",
+        "description": "KTM 390 Duke vs Honda CB300R: 44.5 hp vs 31 hp, 165 kg vs 144 kg and 820 mm vs 799 mm seat height. Compare specs and service data.",
+        "verdict": "The KTM 390 Duke lists 44.5 hp, 165 kg and seat height 820 mm; the Honda CB300R lists 31 hp, 144 kg and seat height 799 mm. The table compares the full specifications and service data.",
+        "a": "ktm-390-duke-2021",
+        "b": "honda-cb300r-2018-present-global",
+        "group": "Naked 300-400",
+    },
+    {
+        "slug": "yamaha-mt-03-vs-kawasaki-z400",
+        "title": "Yamaha MT-03 vs Kawasaki Z400",
+        "description": "Yamaha MT-03 vs Kawasaki Z400: 42 hp vs 45 hp, 169 kg vs 167 kg and 780 mm vs 785 mm seat height. Compare specs and service data.",
+        "verdict": "The Yamaha MT-03 lists 42 hp, 169 kg and seat height 780 mm; the Kawasaki Z400 lists 45 hp, 167 kg and seat height 785 mm. The table compares the full specifications and service data.",
+        "a": "yamaha-mt-03-2016",
+        "b": "kawasaki-z400-2019-present-global",
+        "group": "Naked 300-400",
+    },
+    {
+        "slug": "royal-enfield-himalayan-450-vs-ktm-390-adventure",
+        "title": "Royal Enfield Himalayan 450 vs KTM 390 Adventure",
+        "description": "Royal Enfield Himalayan 450 vs KTM 390 Adventure: 40 hp vs 43 hp, 196 kg vs 172 kg and 825/845 mm vs 855 mm seat height. Compare specs and service data.",
+        "verdict": "The Royal Enfield Himalayan 450 lists 40 hp, 196 kg and seat height 825/845 mm; the KTM 390 Adventure lists 43 hp, 172 kg and seat height 855 mm. The table compares the full specifications and service data.",
+        "a": "royal-enfield-himalayan-450",
+        "b": "ktm-adventure-390-2020-2024",
+        "group": "Adventure 400",
+    },
+    {
+        "slug": "kawasaki-ninja-400-vs-yamaha-yzf-r3",
+        "title": "Kawasaki Ninja 400 vs Yamaha YZF-R3",
+        "description": "Kawasaki Ninja 400 vs Yamaha YZF-R3: 44.8 hp vs 42 hp, 168 kg vs 169 kg and 785 mm vs 780 mm seat height. Compare specs and service data.",
+        "verdict": "The Kawasaki Ninja 400 lists 44.8 hp, 168 kg and seat height 785 mm; the Yamaha YZF-R3 lists 42 hp, 169 kg and seat height 780 mm. The table compares the full specifications and service data.",
+        "a": "kawasaki-ninja-400-2018-present",
+        "b": "yamaha-r3-2019-present-global",
+        "group": "Sport 300-400",
+    },
+    {
+        "slug": "honda-cb750-hornet-vs-yamaha-mt-07",
+        "title": "Honda CB750 Hornet vs Yamaha MT-07",
+        "description": "Honda CB750 Hornet vs Yamaha MT-07: 90.5 hp vs 74 hp, 190 kg vs 184 kg and 795 mm vs 805 mm seat height. Compare specs and service data.",
+        "verdict": "The Honda CB750 Hornet lists 90.5 hp, 190 kg and seat height 795 mm; the Yamaha MT-07 lists 74 hp, 184 kg and seat height 805 mm. The table compares the full specifications and service data.",
+        "a": "honda-cb750-hornet-2023-present-global",
+        "b": "yamaha-mt-07-2018",
+        "group": "Naked 700-750",
+    },
+    {
+        "slug": "suzuki-gsx-8s-vs-yamaha-mt-09",
+        "title": "Suzuki GSX-8S vs Yamaha MT-09",
+        "description": "Suzuki GSX-8S vs Yamaha MT-09: 82 hp vs 115 hp, 202 kg vs 193 kg and 810 mm vs 815 mm seat height. Compare specs and service data.",
+        "verdict": "The Suzuki GSX-8S lists 82 hp, 202 kg and seat height 810 mm; the Yamaha MT-09 lists 115 hp, 193 kg and seat height 815 mm. The table compares the full specifications and service data.",
+        "a": "suzuki-gsx-8s-2023-present-global",
+        "b": "yamaha-mt-09-2015-2018-global",
+        "group": "Naked 800-900",
+    },
+    {
+        "slug": "triumph-trident-660-vs-honda-cb650r",
+        "title": "Triumph Trident 660 vs Honda CB650R",
+        "description": "Triumph Trident 660 vs Honda CB650R: 80 hp vs 94 hp, 189 kg vs 208 kg and 805 mm vs 810 mm seat height. Compare specs and service data.",
+        "verdict": "The Triumph Trident 660 lists 80 hp, 189 kg and seat height 805 mm; the Honda CB650R lists 94 hp, 208 kg and seat height 810 mm. The table compares the full specifications and service data.",
+        "a": "triumph-trident-660-2021-present-global",
+        "b": "honda-cb650r-2019-present-global",
+        "group": "Naked 650",
+    },
+    {
+        "slug": "bmw-r-1250-gs-vs-honda-africa-twin-crf1100l",
+        "title": "BMW R 1250 GS vs Honda Africa Twin CRF1100L",
+        "description": "BMW R 1250 GS vs Honda Africa Twin CRF1100L: 136 hp vs 101 hp, 249 kg vs 226 kg and 850/870 mm vs 850/870 mm seat height. Compare specs and service data.",
+        "verdict": "The BMW R 1250 GS lists 136 hp, 249 kg and seat height 850/870 mm; the Honda Africa Twin CRF1100L lists 101 hp, 226 kg and seat height 850/870 mm. The table compares the full specifications and service data.",
+        "a": "bmw-r-1250-gs-2019-present-global",
+        "b": "honda-africa-twin-crf1100l-2020-present-global",
+        "group": "Adventure 1100-1250",
+    },
+]
+
+MAINTENANCE_MODELS = [
+    "royal-enfield-classic-350-2021-present-global",
+    "honda-cb350-2021-present-india",
+    "bajaj-pulsar-n250-2021-present-india",
+    "hero-xtreme-250r-2025-present-india",
+    "yamaha-mt-07-2018",
+    "kawasaki-ninja-400-2018-present",
+    "bmw-r-1250-gs-2019-present-global",
+    "triumph-trident-660-2021-present-global",
+    "ducati-monster-937-2021-present-global",
+    "suzuki-gsx-8s-2023-present-global",
 ]
 
 SEGMENT_COMPARISONS = [
@@ -2442,9 +2724,11 @@ def build_model_pages(bikes, brand_links):
         if group:
             by_group.setdefault(group, []).append(bike)
     for bike in bikes:
-        related = [b for b in by_group.get(bike.get("model_group") or "", []) if b["id"] != bike["id"]][:6]
+        related = [b for b in by_group.get(bike.get("model_group") or "", []) if b["id"] != bike["id"]]
         if not related:
-            related = [b for b in bikes if b["id"] != bike["id"] and b.get("make") == bike.get("make") and b.get("category") == bike.get("category")][:6]
+            related = [b for b in bikes if b["id"] != bike["id"] and b.get("make") == bike.get("make") and b.get("category") == bike.get("category")]
+        related.sort(key=lambda b: (-model_completeness(b), name(b)))
+        related = related[:6]
         category = (bike.get("category") or "").lower()
         guides = [
             ("parts-fitment-codes.html", "Parts and fitment codes"),
@@ -2458,6 +2742,8 @@ def build_model_pages(bikes, brand_links):
         comparisons = SEGMENT_LINKS.get(bike["id"], []) + COMPARISON_LINKS.get(bike["id"], [])
         if comparisons:
             guides = comparisons + guides
+        if bike["id"] in MAINTENANCE_MODELS:
+            guides.insert(0, (f"{maintenance_slug(bike)}.html", "Service data & maintenance"))
         if category == "scooter":
             guides.insert(0, ("best-scooters.html", "Best scooters"))
         elif category in ("adventure", "dual sport"):
@@ -2536,6 +2822,48 @@ def inject_third_party_codes():
                 fh.write(updated)
             changed += 1
     return changed
+
+
+def write_urlset(filename, urls, image_map=None):
+    image_map = image_map or {}
+    path = os.path.join(ROOT, filename)
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+            'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
+        )
+        for url in sorted(set(urls)):
+            if url == f"{SITE}/":
+                priority = "1.0"
+            elif "/motorcycle/" in url:
+                priority = "0.7"
+            else:
+                priority = "0.6"
+            image_xml = ""
+            if url in image_map:
+                image_xml = f"<image:image><image:loc>{image_map[url]}</image:loc></image:image>"
+            fh.write(
+                f"  <url><loc>{url}</loc><lastmod>{LAST_MOD}</lastmod>"
+                f"<priority>{priority}</priority>{image_xml}</url>\n"
+            )
+        fh.write("</urlset>\n")
+    return len(set(urls))
+
+
+def write_sitemap_index(filename, sitemap_names):
+    path = os.path.join(ROOT, filename)
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        )
+        for name in sitemap_names:
+            fh.write(
+                f"  <sitemap><loc>{SITE}/{name}</loc>"
+                f"<lastmod>{LAST_MOD}</lastmod></sitemap>\n"
+            )
+        fh.write("</sitemapindex>\n")
 
 
 def main():
@@ -2629,29 +2957,34 @@ def main():
     for item in SEGMENT_COMPARISONS:
         models = [id_map[model_id] for model_id in item["models"]]
         urls.append(segment_comparison(item, models))
+    for model_id in MAINTENANCE_MODELS:
+        bike = id_map.get(model_id)
+        if bike:
+            urls.append(maintenance_page(bike))
     urls.append(build_comparisons_hub())
 
     build_brake_redirect()
     sync_reference_index(bikes, pages)
 
-    # Sitemap
-    model_urls = [f"{SITE}/motorcycle/{quote(b['id'])}.html" for b in bikes]
+    # Sitemap index with separate core, model, guide and reference files.
+    indexed_models = [bike for bike in bikes if model_is_indexable(bike)]
+    model_urls = [f"{SITE}/motorcycle/{quote(bike['id'])}.html" for bike in indexed_models]
     page_urls = [f"{SITE}/pages.html?slug={quote(p.get('slug') or p['id'])}" for p in pages]
-    urls = [f"{SITE}/", f"{SITE}/pages.html"] + page_urls + [f"{SITE}/guides/"] + urls + model_urls
+    core_urls = [f"{SITE}/", f"{SITE}/pages.html"] + page_urls
+    guide_urls = [url for url in urls if "/guides/" in url]
+    reference_urls = [url for url in urls if "/reference/" in url]
     image_map = {}
-    for bike in bikes:
+    for bike in indexed_models:
         image_url = bike_image_url(bike, "jpg", "1200")
         if image_url:
             image_map[f"{SITE}/motorcycle/{quote(bike['id'])}.html"] = image_url
-    with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as fh:
-        fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n')
-        for url in sorted(set(urls)):
-            priority = "1.0" if url == f"{SITE}/" else "0.7" if "/motorcycle.html" in url else "0.6"
-            image_xml = ""
-            if url in image_map:
-                image_xml = f"<image:image><image:loc>{image_map[url]}</image:loc></image:image>"
-            fh.write(f"  <url><loc>{url}</loc><lastmod>{LAST_MOD}</lastmod><priority>{priority}</priority>{image_xml}</url>\n")
-        fh.write("</urlset>\n")
+    sitemap_counts = {
+        "sitemap-core.xml": write_urlset("sitemap-core.xml", core_urls),
+        "sitemap-models.xml": write_urlset("sitemap-models.xml", model_urls, image_map),
+        "sitemap-guides.xml": write_urlset("sitemap-guides.xml", guide_urls),
+        "sitemap-reference.xml": write_urlset("sitemap-reference.xml", reference_urls),
+    }
+    write_sitemap_index("sitemap.xml", list(sitemap_counts))
     injected = inject_third_party_codes()
     with open(os.path.join(DATA, "reference-pages-index.json"), "w", encoding="utf-8") as fh:
         json.dump(
@@ -2661,7 +2994,13 @@ def main():
             indent=2,
         )
         fh.write("\n")
-    print(f"Generated {len(urls)} sitemap URLs, {len(os.listdir(GUIDES))} guide files, {len(os.listdir(REFERENCE))} reference pages and {model_count} model pages")
+    total_sitemap_urls = sum(sitemap_counts.values())
+    print(
+        f"Generated {total_sitemap_urls} sitemap URLs in {len(sitemap_counts)} files, "
+        f"{len(os.listdir(GUIDES))} guide files, {len(os.listdir(REFERENCE))} reference pages, "
+        f"{model_count} model pages ({len(indexed_models)} indexable, "
+        f"{model_count - len(indexed_models)} noindex)"
+    )
     if injected:
         print(f"Injected third-party code into {injected} pages")
 

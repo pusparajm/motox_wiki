@@ -12,7 +12,7 @@ Snapshot: 2026-11-22
 | Models still missing an image | 4,527 | 4,075 |
 | Approved image sources | 192 | 644 |
 
-This batch added **452** MotorcycleSpecs images. The public site now has **644** model pages with a hero image, **644** image-sitemap entries and **0** broken internal links.
+This batch added **452** MotorcycleSpecs images. The public site now has **644** model pages with a hero image and **0** broken internal links. Of those, **627** sit on indexable model pages and are listed in the model image sitemap; the other **17** are on fitment-only pages that use `noindex,follow` until they meet the data-completeness threshold.
 
 ## Batch funnel
 

@@ -201,8 +201,9 @@ Each guide includes:
 
 ### Technical SEO
 
-- `sitemap.xml` includes all static model pages, reference pages, guides and the homepage (4,874 URLs).
-- `robots.txt` points to the sitemap.
+- `sitemap.xml` is a sitemap index for `sitemap-core.xml`, `sitemap-models.xml`, `sitemap-guides.xml` and `sitemap-reference.xml`.
+- Only model pages that meet the data-completeness threshold are included in the model sitemap. Thin fitment-only pages remain live and linked but use `noindex,follow` until they are enriched. See `docs/INDEXATION.md`.
+- `robots.txt` points to the sitemap index.
 - `search.html` is `noindex,follow` to avoid indexing thin search-result pages.
 - Guide, reference and model pages are static HTML so they do not depend on JavaScript rendering.
 - Internal links from guides, brand hubs, the brake reference pages and model pages help crawlers discover the catalogue.
