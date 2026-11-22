@@ -7,8 +7,7 @@ The EBC PDF is not stored in this repository. Download it from the URL in
     python3 scripts/extract-ebc-shapes.py /path/to/EBC_UK_MC_Pad_Buyers_Guide_203.pdf
 
 The script keeps factual shape codes, dimensions and the PDF page number. It
-does not extract or redistribute EBC's copyrighted line drawings; the site
-links to the official PDF page instead.
+does not extract or redistribute EBC's copyrighted line drawings.
 """
 
 from __future__ import annotations
@@ -28,7 +27,7 @@ SOURCE = "https://www.ebcbrakes.com/wp-content/uploads/2024/01/EBC_UK_MC_Pad_Buy
 SOURCE_LABEL = "EBC UK MC Pad Buyers Guide 203"
 NOTE = (
     "Shape codes and dimensions extracted from the EBC Buyers Guide. "
-    "EBC line drawings are not reproduced; each card links to the official PDF page."
+    "EBC line drawings are not reproduced; only the factual shape codes and dimensions are stored."
 )
 
 

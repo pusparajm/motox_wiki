@@ -25,17 +25,18 @@ The site renders a compact shape reference beside EBC pad codes on:
 - `guides/parts-fitment-codes.html`
 - Model service-data pages
 
-Each badge links to the exact EBC PDF page.
+The badge shows the shape code and dimensions only.
 
 ## Copyright
 
 EBC's catalogue footer reserves the copyright in its photos, illustrations and
 line drawings. The site therefore does **not** copy or redistribute the EBC
-line drawings. It stores the factual codes, dimensions and page references and
-links users to the official EBC page.
+line drawings. It stores only the factual codes and dimensions. The PDF page
+number is kept in the data for internal verification.
 
 If written permission is obtained from EBC, the badges can be extended to show
-the official drawings. Do not add the drawings without that permission.
+the official drawings or original redrawn diagrams. Do not add them without
+that permission.
 
 ## Updating the data
 

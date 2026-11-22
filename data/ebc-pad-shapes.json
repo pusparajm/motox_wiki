@@ -1,7 +1,7 @@
 {
   "source": "https://www.ebcbrakes.com/wp-content/uploads/2024/01/EBC_UK_MC_Pad_Buyers_Guide_203.pdf",
   "sourceLabel": "EBC UK MC Pad Buyers Guide 203",
-  "note": "Shape codes and dimensions extracted from the EBC Buyers Guide. EBC line drawings are not reproduced; each card links to the official PDF page.",
+  "note": "Shape codes and dimensions extracted from the EBC Buyers Guide. EBC line drawings are not reproduced; only the factual shape codes and dimensions are stored.",
   "shapes": {
     "FA100": {
       "code": "FA100",

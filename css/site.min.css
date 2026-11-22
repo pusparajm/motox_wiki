@@ -1024,16 +1024,6 @@ h2 {
   white-space: nowrap;
 }
 
-.pad-shape-link {
-  font-weight: 600;
-  text-decoration: underline;
-  white-space: nowrap;
-}
-
-.pad-shape-link:hover {
-  text-decoration-thickness: 2px;
-}
-
 .spec-table .pad-shape-ref {
   margin-left: 0;
 }
