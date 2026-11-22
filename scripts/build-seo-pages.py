@@ -343,7 +343,7 @@ def guide_page(slug, page_title, description, h1, subtitle, content, breadcrumb,
   <meta name="twitter:description" content="{esc(description)}">
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../css/site.min.css?v=11" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
+  <link rel="stylesheet" href="../css/site.min.css?v=12" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
   <script type="application/ld+json">{json.dumps(graph, ensure_ascii=False)}</script>
   {ADSENSE_HEAD}
 </head>
@@ -456,7 +456,7 @@ def reference_page(slug, page_title, description, h1, subtitle, content, breadcr
   <meta name="twitter:description" content="{esc(description)}">
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../css/site.min.css?v=11" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
+  <link rel="stylesheet" href="../css/site.min.css?v=12" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
   <script type="application/ld+json">{json.dumps(graph, ensure_ascii=False)}</script>
   {ADSENSE_HEAD}
 </head>
@@ -2286,7 +2286,7 @@ def model_page(bike, related, guide_links, brand_href):
   <meta name="twitter:card" content="{twitter_card}">{twitter_image_meta}
   <meta name="theme-color" content="#c2410c">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../css/site.min.css?v=11" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
+  <link rel="stylesheet" href="../css/site.min.css?v=12" id="mx-main-css" data-mx-shield-css="../css/main.css?v=39" fetchpriority="high">
   <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)}</script>
   {ADSENSE_HEAD}
 </head>

@@ -9,8 +9,8 @@
       "dimensions": "39 x 9 mm",
       "pdfPage": 21,
       "diagram": "images/pad-shapes/fa100.png",
-      "diagramWidth": 836,
-      "diagramHeight": 144,
+      "diagramWidth": 171,
+      "diagramHeight": 127,
       "diagramPage": 21
     },
     "FA101": {
@@ -19,8 +19,8 @@
       "dimensions": "70.5 x 36 x 9 mm",
       "pdfPage": 21,
       "diagram": "images/pad-shapes/fa101.png",
-      "diagramWidth": 743,
-      "diagramHeight": 135,
+      "diagramWidth": 217,
+      "diagramHeight": 118,
       "diagramPage": 21
     },
     "FA102": {
@@ -29,8 +29,8 @@
       "dimensions": "58 x 48 x 9 mm",
       "pdfPage": 22,
       "diagram": "images/pad-shapes/fa102.png",
-      "diagramWidth": 772,
-      "diagramHeight": 164,
+      "diagramWidth": 180,
+      "diagramHeight": 150,
       "diagramPage": 22
     },
     "FA103": {
@@ -39,8 +39,8 @@
       "dimensions": "58 x 54 x 9 mm",
       "pdfPage": 22,
       "diagram": "images/pad-shapes/fa103.png",
-      "diagramWidth": 772,
-      "diagramHeight": 187,
+      "diagramWidth": 182,
+      "diagramHeight": 170,
       "diagramPage": 22
     },
     "FA104": {
@@ -49,8 +49,8 @@
       "dimensions": "68 x 56 x 9 mm",
       "pdfPage": 22,
       "diagram": "images/pad-shapes/fa104.png",
-      "diagramWidth": 791,
-      "diagramHeight": 194,
+      "diagramWidth": 211,
+      "diagramHeight": 177,
       "diagramPage": 22
     },
     "FA105": {
@@ -59,8 +59,8 @@
       "dimensions": "91 x 30 x 8 mm",
       "pdfPage": 22,
       "diagram": "images/pad-shapes/fa105.png",
-      "diagramWidth": 790,
-      "diagramHeight": 118,
+      "diagramWidth": 278,
+      "diagramHeight": 99,
       "diagramPage": 22
     },
     "FA106": {
@@ -69,8 +69,8 @@
       "dimensions": "77 x 54 x 8 mm",
       "pdfPage": 23,
       "diagram": "images/pad-shapes/fa106.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 211,
+      "diagramWidth": 237,
+      "diagramHeight": 172,
       "diagramPage": 23
     },
     "FA106/2": {
@@ -79,8 +79,8 @@
       "dimensions": "77 x 54 x 9.5 mm",
       "pdfPage": 23,
       "diagram": "images/pad-shapes/fa106-2.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 211,
+      "diagramWidth": 237,
+      "diagramHeight": 172,
       "diagramPage": 23
     },
     "FA109": {
@@ -89,8 +89,8 @@
       "dimensions": "50 x 55.5 x 11.5 mm",
       "pdfPage": 23,
       "diagram": "images/pad-shapes/fa109.png",
-      "diagramWidth": 769,
-      "diagramHeight": 183,
+      "diagramWidth": 156,
+      "diagramHeight": 174,
       "diagramPage": 23
     },
     "FA11": {
@@ -99,8 +99,8 @@
       "dimensions": "48 x 9 mm",
       "pdfPage": 1,
       "diagram": "images/pad-shapes/fa11.png",
-      "diagramWidth": 1046,
-      "diagramHeight": 237,
+      "diagramWidth": 152,
+      "diagramHeight": 211,
       "diagramPage": 1
     },
     "FA110": {
@@ -109,8 +109,8 @@
       "dimensions": "52.5 x 44 x 7.5 mm",
       "pdfPage": 23,
       "diagram": "images/pad-shapes/fa110.png",
-      "diagramWidth": 771,
-      "diagramHeight": 153,
+      "diagramWidth": 164,
+      "diagramHeight": 141,
       "diagramPage": 23
     },
     "FA111": {
@@ -119,8 +119,8 @@
       "dimensions": "65 x 57 x 9 mm",
       "pdfPage": 23,
       "diagram": "images/pad-shapes/fa111.png",
-      "diagramWidth": 768,
-      "diagramHeight": 196,
+      "diagramWidth": 203,
+      "diagramHeight": 181,
       "diagramPage": 23
     },
     "FA115": {
@@ -139,8 +139,8 @@
       "dimensions": "31.5 x 57 x 5.5 mm",
       "pdfPage": 25,
       "diagram": "images/pad-shapes/fa116.png",
-      "diagramWidth": 1459,
-      "diagramHeight": 197,
+      "diagramWidth": 104,
+      "diagramHeight": 180,
       "diagramPage": 25
     },
     "FA118": {
@@ -149,8 +149,8 @@
       "dimensions": "71 x 39.5 x 10 mm",
       "pdfPage": 26,
       "diagram": "images/pad-shapes/fa118.png",
-      "diagramWidth": 1432,
-      "diagramHeight": 139,
+      "diagramWidth": 217,
+      "diagramHeight": 123,
       "diagramPage": 26
     },
     "FA119": {
@@ -159,8 +159,8 @@
       "dimensions": "82.5 x 21.5 x 7 mm",
       "pdfPage": 26,
       "diagram": "images/pad-shapes/fa119.png",
-      "diagramWidth": 790,
-      "diagramHeight": 119,
+      "diagramWidth": 256,
+      "diagramHeight": 78,
       "diagramPage": 26
     },
     "FA12": {
@@ -169,8 +169,8 @@
       "dimensions": "50 x 13/20 mm",
       "pdfPage": 1,
       "diagram": "images/pad-shapes/fa12.png",
-      "diagramWidth": 768,
-      "diagramHeight": 169,
+      "diagramWidth": 307,
+      "diagramHeight": 160,
       "diagramPage": 1
     },
     "FA121": {
@@ -179,8 +179,8 @@
       "dimensions": "81 x 42 x 9 mm",
       "pdfPage": 26,
       "diagram": "images/pad-shapes/fa121.png",
-      "diagramWidth": 769,
-      "diagramHeight": 151,
+      "diagramWidth": 247,
+      "diagramHeight": 134,
       "diagramPage": 26
     },
     "FA122": {
@@ -189,8 +189,8 @@
       "dimensions": "55 x 52.5 x 9.5 mm",
       "pdfPage": 26,
       "diagram": "images/pad-shapes/fa122.png",
-      "diagramWidth": 769,
-      "diagramHeight": 181,
+      "diagramWidth": 177,
+      "diagramHeight": 172,
       "diagramPage": 26
     },
     "FA123": {
@@ -199,8 +199,8 @@
       "dimensions": "75 x 54 x 10 mm",
       "pdfPage": 26,
       "diagram": "images/pad-shapes/fa123.png",
-      "diagramWidth": 790,
-      "diagramHeight": 185,
+      "diagramWidth": 232,
+      "diagramHeight": 170,
       "diagramPage": 26
     },
     "FA124": {
@@ -209,8 +209,8 @@
       "dimensions": "88 x 46.5 x 8.5 mm",
       "pdfPage": 26,
       "diagram": "images/pad-shapes/fa124.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 164,
+      "diagramWidth": 270,
+      "diagramHeight": 147,
       "diagramPage": 26
     },
     "FA124/2": {
@@ -219,8 +219,8 @@
       "dimensions": "88 x 46.5 x 10 mm",
       "pdfPage": 26,
       "diagram": "images/pad-shapes/fa124-2.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 164,
+      "diagramWidth": 270,
+      "diagramHeight": 147,
       "diagramPage": 26
     },
     "FA125": {
@@ -229,8 +229,8 @@
       "dimensions": "94 x 32 x 7.5 mm",
       "pdfPage": 27,
       "diagram": "images/pad-shapes/fa125.png",
-      "diagramWidth": 769,
-      "diagramHeight": 119,
+      "diagramWidth": 288,
+      "diagramHeight": 104,
       "diagramPage": 27
     },
     "FA128": {
@@ -239,7 +239,7 @@
       "dimensions": "85 x 37 x 8 mm",
       "pdfPage": 27,
       "diagram": "images/pad-shapes/fa128.png",
-      "diagramWidth": 1420,
+      "diagramWidth": 477,
       "diagramHeight": 120,
       "diagramPage": 27
     },
@@ -249,8 +249,8 @@
       "dimensions": "141.5 x 41 x 10 mm",
       "pdfPage": 27,
       "diagram": "images/pad-shapes/fa129.png",
-      "diagramWidth": 817,
-      "diagramHeight": 140,
+      "diagramWidth": 421,
+      "diagramHeight": 132,
       "diagramPage": 27
     },
     "FA13": {
@@ -259,8 +259,8 @@
       "dimensions": "52 x 13/20 mm",
       "pdfPage": 1,
       "diagram": "images/pad-shapes/fa13.png",
-      "diagramWidth": 769,
-      "diagramHeight": 185,
+      "diagramWidth": 307,
+      "diagramHeight": 167,
       "diagramPage": 1
     },
     "FA130": {
@@ -269,8 +269,8 @@
       "dimensions": "74 x 49 x 7 mm",
       "pdfPage": 28,
       "diagram": "images/pad-shapes/fa130.png",
-      "diagramWidth": 2238,
-      "diagramHeight": 649,
+      "diagramWidth": 445,
+      "diagramHeight": 197,
       "diagramPage": 28
     },
     "FA131": {
@@ -329,8 +329,8 @@
       "dimensions": "80 x 42.5 x 9.5 mm",
       "pdfPage": 30,
       "diagram": "images/pad-shapes/fa136.png",
-      "diagramWidth": 790,
-      "diagramHeight": 153,
+      "diagramWidth": 233,
+      "diagramHeight": 136,
       "diagramPage": 30
     },
     "FA137": {
@@ -339,8 +339,8 @@
       "dimensions": "47 x 45 x 7.5 mm",
       "pdfPage": 30,
       "diagram": "images/pad-shapes/fa137.png",
-      "diagramWidth": 1418,
-      "diagramHeight": 160,
+      "diagramWidth": 151,
+      "diagramHeight": 145,
       "diagramPage": 30
     },
     "FA140": {
@@ -359,8 +359,8 @@
       "dimensions": "106 x 38.5 x 9 mm",
       "pdfPage": 31,
       "diagram": "images/pad-shapes/fa141.png",
-      "diagramWidth": 1415,
-      "diagramHeight": 134,
+      "diagramWidth": 548,
+      "diagramHeight": 125,
       "diagramPage": 31
     },
     "FA142": {
@@ -379,8 +379,8 @@
       "dimensions": "94 x 32 x 10 mm",
       "pdfPage": 33,
       "diagram": "images/pad-shapes/fa143.png",
-      "diagramWidth": 773,
-      "diagramHeight": 121,
+      "diagramWidth": 288,
+      "diagramHeight": 103,
       "diagramPage": 33
     },
     "FA145": {
@@ -389,8 +389,8 @@
       "dimensions": "70 x 55 x 8 mm",
       "pdfPage": 33,
       "diagram": "images/pad-shapes/fa145.png",
-      "diagramWidth": 1435,
-      "diagramHeight": 189,
+      "diagramWidth": 217,
+      "diagramHeight": 172,
       "diagramPage": 33
     },
     "FA146": {
@@ -399,8 +399,8 @@
       "dimensions": "59 x 57.5 x 9 mm",
       "pdfPage": 33,
       "diagram": "images/pad-shapes/fa146.png",
-      "diagramWidth": 771,
-      "diagramHeight": 195,
+      "diagramWidth": 184,
+      "diagramHeight": 181,
       "diagramPage": 33
     },
     "FA147": {
@@ -409,7 +409,7 @@
       "dimensions": "118 x 48 x 8.5 mm",
       "pdfPage": 33,
       "diagram": "images/pad-shapes/fa147.png",
-      "diagramWidth": 773,
+      "diagramWidth": 357,
       "diagramHeight": 155,
       "diagramPage": 33
     },
@@ -419,8 +419,8 @@
       "dimensions": "59 x 57.5 x 9 mm",
       "pdfPage": 33,
       "diagram": "images/pad-shapes/fa150.png",
-      "diagramWidth": 772,
-      "diagramHeight": 192,
+      "diagramWidth": 182,
+      "diagramHeight": 183,
       "diagramPage": 33
     },
     "FA151": {
@@ -429,8 +429,8 @@
       "dimensions": "52 x 37 x 8.5 mm",
       "pdfPage": 33,
       "diagram": "images/pad-shapes/fa151.png",
-      "diagramWidth": 769,
-      "diagramHeight": 136,
+      "diagramWidth": 163,
+      "diagramHeight": 119,
       "diagramPage": 33
     },
     "FA152": {
@@ -439,8 +439,8 @@
       "dimensions": "62 x 41 x 8.5 mm",
       "pdfPage": 34,
       "diagram": "images/pad-shapes/fa152.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 160,
+      "diagramWidth": 193,
+      "diagramHeight": 130,
       "diagramPage": 34
     },
     "FA152/2": {
@@ -449,8 +449,8 @@
       "dimensions": "62 x 41 x 11 mm",
       "pdfPage": 34,
       "diagram": "images/pad-shapes/fa152-2.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 160,
+      "diagramWidth": 193,
+      "diagramHeight": 130,
       "diagramPage": 34
     },
     "FA153": {
@@ -459,8 +459,8 @@
       "dimensions": "75 x 40.5 x 8 mm",
       "pdfPage": 34,
       "diagram": "images/pad-shapes/fa153.png",
-      "diagramWidth": 769,
-      "diagramHeight": 141,
+      "diagramWidth": 232,
+      "diagramHeight": 130,
       "diagramPage": 34
     },
     "FA155": {
@@ -469,7 +469,7 @@
       "dimensions": "37 x 7.8 mm",
       "pdfPage": 34,
       "diagram": "images/pad-shapes/fa155.png",
-      "diagramWidth": 788,
+      "diagramWidth": 281,
       "diagramHeight": 131,
       "diagramPage": 34
     },
@@ -479,8 +479,8 @@
       "dimensions": "56 x 45.5 x 6 mm",
       "pdfPage": 34,
       "diagram": "images/pad-shapes/fa156.png",
-      "diagramWidth": 1420,
-      "diagramHeight": 160,
+      "diagramWidth": 175,
+      "diagramHeight": 151,
       "diagramPage": 34
     },
     "FA157": {
@@ -489,8 +489,8 @@
       "dimensions": "99.5 x 43.5 x 7.5 mm",
       "pdfPage": 35,
       "diagram": "images/pad-shapes/fa157.png",
-      "diagramWidth": 1434,
-      "diagramHeight": 160,
+      "diagramWidth": 609,
+      "diagramHeight": 151,
       "diagramPage": 35
     },
     "FA158": {
@@ -499,8 +499,8 @@
       "dimensions": "70 x 46 x 8 mm",
       "pdfPage": 35,
       "diagram": "images/pad-shapes/fa158.png",
-      "diagramWidth": 803,
-      "diagramHeight": 163,
+      "diagramWidth": 217,
+      "diagramHeight": 146,
       "diagramPage": 35
     },
     "FA159": {
@@ -509,8 +509,8 @@
       "dimensions": "97.5 x 39.5 x 8 mm",
       "pdfPage": 35,
       "diagram": "images/pad-shapes/fa159.png",
-      "diagramWidth": 1434,
-      "diagramHeight": 141,
+      "diagramWidth": 296,
+      "diagramHeight": 128,
       "diagramPage": 35
     },
     "FA16": {
@@ -519,8 +519,8 @@
       "dimensions": "60 x 51.5 x 10 mm",
       "pdfPage": 1,
       "diagram": "images/pad-shapes/fa16.png",
-      "diagramWidth": 1188,
-      "diagramHeight": 181,
+      "diagramWidth": 187,
+      "diagramHeight": 163,
       "diagramPage": 1
     },
     "FA160": {
@@ -529,8 +529,8 @@
       "dimensions": "75 x 54 x 10 mm",
       "pdfPage": 35,
       "diagram": "images/pad-shapes/fa160.png",
-      "diagramWidth": 792,
-      "diagramHeight": 190,
+      "diagramWidth": 231,
+      "diagramHeight": 170,
       "diagramPage": 35
     },
     "FA161": {
@@ -539,8 +539,8 @@
       "dimensions": "52.5 x 52.5 x 8 mm",
       "pdfPage": 36,
       "diagram": "images/pad-shapes/fa161.png",
-      "diagramWidth": 818,
-      "diagramHeight": 185,
+      "diagramWidth": 166,
+      "diagramHeight": 169,
       "diagramPage": 36
     },
     "FA162": {
@@ -549,8 +549,8 @@
       "dimensions": "48 x 44.5 x 7.5 mm",
       "pdfPage": 36,
       "diagram": "images/pad-shapes/fa162.png",
-      "diagramWidth": 790,
-      "diagramHeight": 154,
+      "diagramWidth": 154,
+      "diagramHeight": 142,
       "diagramPage": 36
     },
     "FA163": {
@@ -559,8 +559,8 @@
       "dimensions": "100 x 52 x 8 mm",
       "pdfPage": 36,
       "diagram": "images/pad-shapes/fa163.png",
-      "diagramWidth": 1427,
-      "diagramHeight": 182,
+      "diagramWidth": 303,
+      "diagramHeight": 165,
       "diagramPage": 36
     },
     "FA164": {
@@ -569,8 +569,8 @@
       "dimensions": "74.5 x 40.5 x 6.5 mm",
       "pdfPage": 36,
       "diagram": "images/pad-shapes/fa164.png",
-      "diagramWidth": 743,
-      "diagramHeight": 145,
+      "diagramWidth": 231,
+      "diagramHeight": 131,
       "diagramPage": 36
     },
     "FA165": {
@@ -599,8 +599,8 @@
       "dimensions": "100 x 47 x 7.5 mm",
       "pdfPage": 37,
       "diagram": "images/pad-shapes/fa166.png",
-      "diagramWidth": 1433,
-      "diagramHeight": 168,
+      "diagramWidth": 303,
+      "diagramHeight": 150,
       "diagramPage": 37
     },
     "FA167": {
@@ -619,8 +619,8 @@
       "dimensions": "58 x 53.5 x 9 mm",
       "pdfPage": 39,
       "diagram": "images/pad-shapes/fa171.png",
-      "diagramWidth": 744,
-      "diagramHeight": 186,
+      "diagramWidth": 181,
+      "diagramHeight": 169,
       "diagramPage": 39
     },
     "FA172": {
@@ -629,7 +629,7 @@
       "dimensions": "104 x 46.5 x 10 mm",
       "pdfPage": 39,
       "diagram": "images/pad-shapes/fa172.png",
-      "diagramWidth": 788,
+      "diagramWidth": 621,
       "diagramHeight": 148,
       "diagramPage": 39
     },
@@ -639,8 +639,8 @@
       "dimensions": "85.5 x 42.5 x 7.5 mm",
       "pdfPage": 39,
       "diagram": "images/pad-shapes/fa173.png",
-      "diagramWidth": 1431,
-      "diagramHeight": 149,
+      "diagramWidth": 494,
+      "diagramHeight": 141,
       "diagramPage": 39
     },
     "FA174": {
@@ -659,8 +659,8 @@
       "dimensions": "33.5 x 51 x 7 mm",
       "pdfPage": 40,
       "diagram": "images/pad-shapes/fa175.png",
-      "diagramWidth": 1746,
-      "diagramHeight": 173,
+      "diagramWidth": 110,
+      "diagramHeight": 156,
       "diagramPage": 40
     },
     "FA177": {
@@ -669,8 +669,8 @@
       "dimensions": "87 x 52 x 7.5 mm",
       "pdfPage": 40,
       "diagram": "images/pad-shapes/fa177.png",
-      "diagramWidth": 1433,
-      "diagramHeight": 184,
+      "diagramWidth": 266,
+      "diagramHeight": 167,
       "diagramPage": 40
     },
     "FA179": {
@@ -679,8 +679,8 @@
       "dimensions": "102 x 41 x 10 mm",
       "pdfPage": 41,
       "diagram": "images/pad-shapes/fa179.png",
-      "diagramWidth": 794,
-      "diagramHeight": 149,
+      "diagramWidth": 317,
+      "diagramHeight": 132,
       "diagramPage": 41
     },
     "FA18": {
@@ -689,8 +689,8 @@
       "dimensions": "56 x 55 x 9 mm",
       "pdfPage": 1,
       "diagram": "images/pad-shapes/fa18.png",
-      "diagramWidth": 1115,
-      "diagramHeight": 187,
+      "diagramWidth": 175,
+      "diagramHeight": 169,
       "diagramPage": 1
     },
     "FA180": {
@@ -699,8 +699,8 @@
       "dimensions": "59 x 43.5 x 8 mm",
       "pdfPage": 41,
       "diagram": "images/pad-shapes/fa180.png",
-      "diagramWidth": 1777,
-      "diagramHeight": 154,
+      "diagramWidth": 185,
+      "diagramHeight": 138,
       "diagramPage": 41
     },
     "FA181": {
@@ -719,8 +719,8 @@
       "dimensions": "75 x 54 x 10 mm",
       "pdfPage": 43,
       "diagram": "images/pad-shapes/fa182.png",
-      "diagramWidth": 790,
-      "diagramHeight": 179,
+      "diagramWidth": 231,
+      "diagramHeight": 170,
       "diagramPage": 43
     },
     "FA184": {
@@ -729,8 +729,8 @@
       "dimensions": "30.5 x 46.5 x 7 mm",
       "pdfPage": 43,
       "diagram": "images/pad-shapes/fa184.png",
-      "diagramWidth": 1046,
-      "diagramHeight": 154,
+      "diagramWidth": 101,
+      "diagramHeight": 144,
       "diagramPage": 43
     },
     "FA185": {
@@ -749,8 +749,8 @@
       "dimensions": "68 x 54 x 8 mm",
       "pdfPage": 45,
       "diagram": "images/pad-shapes/fa187.png",
-      "diagramWidth": 770,
-      "diagramHeight": 187,
+      "diagramWidth": 214,
+      "diagramHeight": 172,
       "diagramPage": 45
     },
     "FA188": {
@@ -759,8 +759,8 @@
       "dimensions": "89.5 x 53 x 9 mm",
       "pdfPage": 45,
       "diagram": "images/pad-shapes/fa188.png",
-      "diagramWidth": 817,
-      "diagramHeight": 184,
+      "diagramWidth": 275,
+      "diagramHeight": 166,
       "diagramPage": 45
     },
     "FA189": {
@@ -769,8 +769,8 @@
       "dimensions": "125.5 x 44 x 9 mm",
       "pdfPage": 45,
       "diagram": "images/pad-shapes/fa189.png",
-      "diagramWidth": 790,
-      "diagramHeight": 155,
+      "diagramWidth": 380,
+      "diagramHeight": 146,
       "diagramPage": 45
     },
     "FA190": {
@@ -779,8 +779,8 @@
       "dimensions": "99 x 49.5 x 10 mm",
       "pdfPage": 45,
       "diagram": "images/pad-shapes/fa190.png",
-      "diagramWidth": 1444,
-      "diagramHeight": 173,
+      "diagramWidth": 303,
+      "diagramHeight": 158,
       "diagramPage": 45
     },
     "FA191": {
@@ -789,8 +789,8 @@
       "dimensions": "131.5 x 81 x 9.5 mm",
       "pdfPage": 46,
       "diagram": "images/pad-shapes/fa191.png",
-      "diagramWidth": 790,
-      "diagramHeight": 262,
+      "diagramWidth": 400,
+      "diagramHeight": 253,
       "diagramPage": 46
     },
     "FA192": {
@@ -799,8 +799,8 @@
       "dimensions": "89.5 x 51 x 8.5 mm",
       "pdfPage": 46,
       "diagram": "images/pad-shapes/fa192.png",
-      "diagramWidth": 795,
-      "diagramHeight": 175,
+      "diagramWidth": 487,
+      "diagramHeight": 167,
       "diagramPage": 46
     },
     "FA194": {
@@ -829,8 +829,8 @@
       "dimensions": "97 x 42 x 9 mm",
       "pdfPage": 50,
       "diagram": "images/pad-shapes/fa197.png",
-      "diagramWidth": 2264,
-      "diagramHeight": 744,
+      "diagramWidth": 597,
+      "diagramHeight": 386,
       "diagramPage": 50
     },
     "FA199": {
@@ -839,8 +839,8 @@
       "dimensions": "94 x 40.5 x 10 mm",
       "pdfPage": 51,
       "diagram": "images/pad-shapes/fa199.png",
-      "diagramWidth": 790,
-      "diagramHeight": 153,
+      "diagramWidth": 295,
+      "diagramHeight": 136,
       "diagramPage": 51
     },
     "FA200": {
@@ -849,8 +849,8 @@
       "dimensions": "103 x 62 x 11.5 mm",
       "pdfPage": 52,
       "diagram": "images/pad-shapes/fa200.png",
-      "diagramWidth": 2238,
-      "diagramHeight": 679,
+      "diagramWidth": 313,
+      "diagramHeight": 248,
       "diagramPage": 52
     },
     "FA201": {
@@ -859,7 +859,7 @@
       "dimensions": "103 x 62 x 11.5 mm",
       "pdfPage": 52,
       "diagram": "images/pad-shapes/fa201.png",
-      "diagramWidth": 916,
+      "diagramWidth": 314,
       "diagramHeight": 200,
       "diagramPage": 52
     },
@@ -869,8 +869,8 @@
       "dimensions": "81 x 42 x 9.5 mm",
       "pdfPage": 52,
       "diagram": "images/pad-shapes/fa203.png",
-      "diagramWidth": 769,
-      "diagramHeight": 151,
+      "diagramWidth": 247,
+      "diagramHeight": 133,
       "diagramPage": 52
     },
     "FA208": {
@@ -899,8 +899,8 @@
       "dimensions": "47 x 16.2 mm",
       "pdfPage": 2,
       "diagram": "images/pad-shapes/fa21.png",
-      "diagramWidth": 790,
-      "diagramHeight": 160,
+      "diagramWidth": 217,
+      "diagramHeight": 151,
       "diagramPage": 2
     },
     "FA210": {
@@ -909,8 +909,8 @@
       "dimensions": "112 x 56 x 11 mm",
       "pdfPage": 54,
       "diagram": "images/pad-shapes/fa210.png",
-      "diagramWidth": 1874,
-      "diagramHeight": 193,
+      "diagramWidth": 346,
+      "diagramHeight": 177,
       "diagramPage": 54
     },
     "FA211": {
@@ -919,8 +919,8 @@
       "dimensions": "78 x 45.5 x 9 mm",
       "pdfPage": 54,
       "diagram": "images/pad-shapes/fa211.png",
-      "diagramWidth": 1061,
-      "diagramHeight": 160,
+      "diagramWidth": 243,
+      "diagramHeight": 146,
       "diagramPage": 54
     },
     "FA213": {
@@ -939,8 +939,8 @@
       "dimensions": "96.5 x 43.5 x 7.5 mm",
       "pdfPage": 56,
       "diagram": "images/pad-shapes/fa214.png",
-      "diagramWidth": 798,
-      "diagramHeight": 170,
+      "diagramWidth": 585,
+      "diagramHeight": 141,
       "diagramPage": 56
     },
     "FA214/2": {
@@ -949,8 +949,8 @@
       "dimensions": "96.5 x 43.5 x 9.5 mm",
       "pdfPage": 56,
       "diagram": "images/pad-shapes/fa214-2.png",
-      "diagramWidth": 798,
-      "diagramHeight": 170,
+      "diagramWidth": 585,
+      "diagramHeight": 141,
       "diagramPage": 56
     },
     "FA215": {
@@ -979,8 +979,8 @@
       "dimensions": "69 x 50.5 x 10.5 mm",
       "pdfPage": 57,
       "diagram": "images/pad-shapes/fa216-2.png",
-      "diagramWidth": 1859,
-      "diagramHeight": 189,
+      "diagramWidth": 218,
+      "diagramHeight": 161,
       "diagramPage": 57
     },
     "FA216/3": {
@@ -989,8 +989,8 @@
       "dimensions": "69 x 50.5 x 8 mm",
       "pdfPage": 57,
       "diagram": "images/pad-shapes/fa216-3.png",
-      "diagramWidth": 1859,
-      "diagramHeight": 189,
+      "diagramWidth": 218,
+      "diagramHeight": 161,
       "diagramPage": 57
     },
     "FA217": {
@@ -999,8 +999,8 @@
       "dimensions": "106 x 31.5 x 8.5 mm",
       "pdfPage": 57,
       "diagram": "images/pad-shapes/fa217.png",
-      "diagramWidth": 1442,
-      "diagramHeight": 112,
+      "diagramWidth": 322,
+      "diagramHeight": 103,
       "diagramPage": 57
     },
     "FA22": {
@@ -1009,8 +1009,8 @@
       "dimensions": "72 x 35 mm",
       "pdfPage": 2,
       "diagram": "images/pad-shapes/fa22.png",
-      "diagramWidth": 744,
-      "diagramHeight": 318,
+      "diagramWidth": 394,
+      "diagramHeight": 277,
       "diagramPage": 2
     },
     "FA220": {
@@ -1019,8 +1019,8 @@
       "dimensions": "69 x 50.5 x 8.5 mm",
       "pdfPage": 57,
       "diagram": "images/pad-shapes/fa220.png",
-      "diagramWidth": 792,
-      "diagramHeight": 179,
+      "diagramWidth": 214,
+      "diagramHeight": 163,
       "diagramPage": 57
     },
     "FA222": {
@@ -1029,8 +1029,8 @@
       "dimensions": "52.5 x 56.5 x 9 mm",
       "pdfPage": 57,
       "diagram": "images/pad-shapes/fa222.png",
-      "diagramWidth": 774,
-      "diagramHeight": 188,
+      "diagramWidth": 169,
+      "diagramHeight": 179,
       "diagramPage": 57
     },
     "FA226": {
@@ -1039,8 +1039,8 @@
       "dimensions": "102 x 39 x 9 mm",
       "pdfPage": 57,
       "diagram": "images/pad-shapes/fa226.png",
-      "diagramWidth": 769,
-      "diagramHeight": 141,
+      "diagramWidth": 310,
+      "diagramHeight": 125,
       "diagramPage": 57
     },
     "FA228": {
@@ -1059,8 +1059,8 @@
       "dimensions": "133.5 x 37.5 x 8.5 mm",
       "pdfPage": 59,
       "diagram": "images/pad-shapes/fa229.png",
-      "diagramWidth": 821,
-      "diagramHeight": 281,
+      "diagramWidth": 412,
+      "diagramHeight": 273,
       "diagramPage": 59
     },
     "FA230": {
@@ -1069,8 +1069,8 @@
       "dimensions": "99 x 39.5 x 7.5 mm",
       "pdfPage": 60,
       "diagram": "images/pad-shapes/fa230.png",
-      "diagramWidth": 1414,
-      "diagramHeight": 146,
+      "diagramWidth": 583,
+      "diagramHeight": 138,
       "diagramPage": 60
     },
     "FA231": {
@@ -1079,8 +1079,8 @@
       "dimensions": "133.5 x 37.5 x 8.5 mm",
       "pdfPage": 61,
       "diagram": "images/pad-shapes/fa231-2.png",
-      "diagramWidth": 775,
-      "diagramHeight": 144,
+      "diagramWidth": 696,
+      "diagramHeight": 143,
       "diagramPage": 60
     },
     "FA231/2": {
@@ -1089,8 +1089,8 @@
       "dimensions": "133.5 x 37.5 x 10.5 mm",
       "pdfPage": 61,
       "diagram": "images/pad-shapes/fa231-2.png",
-      "diagramWidth": 775,
-      "diagramHeight": 144,
+      "diagramWidth": 696,
+      "diagramHeight": 143,
       "diagramPage": 60
     },
     "FA231/3": {
@@ -1099,8 +1099,8 @@
       "dimensions": "133.5 x 37.5 x 11.5 mm",
       "pdfPage": 60,
       "diagram": "images/pad-shapes/fa231-2.png",
-      "diagramWidth": 775,
-      "diagramHeight": 144,
+      "diagramWidth": 696,
+      "diagramHeight": 143,
       "diagramPage": 60
     },
     "FA232": {
@@ -1109,8 +1109,8 @@
       "dimensions": "72.5 x 43.5 x 7 mm",
       "pdfPage": 61,
       "diagram": "images/pad-shapes/fa232.png",
-      "diagramWidth": 1433,
-      "diagramHeight": 154,
+      "diagramWidth": 230,
+      "diagramHeight": 140,
       "diagramPage": 61
     },
     "FA236": {
@@ -1129,8 +1129,8 @@
       "dimensions": "69.5 x 52 x 8 mm",
       "pdfPage": 63,
       "diagram": "images/pad-shapes/fa239.png",
-      "diagramWidth": 937,
-      "diagramHeight": 175,
+      "diagramWidth": 225,
+      "diagramHeight": 166,
       "diagramPage": 63
     },
     "FA24/2": {
@@ -1139,8 +1139,8 @@
       "dimensions": "113.5 x 67 x 7 mm",
       "pdfPage": 2,
       "diagram": "images/pad-shapes/fa24-2.png",
-      "diagramWidth": 1555,
-      "diagramHeight": 214,
+      "diagramWidth": 348,
+      "diagramHeight": 206,
       "diagramPage": 2
     },
     "FA243": {
@@ -1149,8 +1149,8 @@
       "dimensions": "98.5 x 49.5 x 8.5 mm",
       "pdfPage": 63,
       "diagram": "images/pad-shapes/fa243.png",
-      "diagramWidth": 955,
-      "diagramHeight": 167,
+      "diagramWidth": 303,
+      "diagramHeight": 158,
       "diagramPage": 63
     },
     "FA244": {
@@ -1169,8 +1169,8 @@
       "dimensions": "91.5 x 51.5 x 10 mm",
       "pdfPage": 64,
       "diagram": "images/pad-shapes/fa249.png",
-      "diagramWidth": 1533,
-      "diagramHeight": 199,
+      "diagramWidth": 285,
+      "diagramHeight": 163,
       "diagramPage": 64
     },
     "FA251": {
@@ -1179,8 +1179,8 @@
       "dimensions": "85 x 43 x 8 mm",
       "pdfPage": 65,
       "diagram": "images/pad-shapes/fa251.png",
-      "diagramWidth": 759,
-      "diagramHeight": 153,
+      "diagramWidth": 458,
+      "diagramHeight": 138,
       "diagramPage": 65
     },
     "FA252": {
@@ -1199,8 +1199,8 @@
       "dimensions": "60 x 57 x 8 mm",
       "pdfPage": 65,
       "diagram": "images/pad-shapes/fa254.png",
-      "diagramWidth": 1417,
-      "diagramHeight": 198,
+      "diagramWidth": 191,
+      "diagramHeight": 179,
       "diagramPage": 65
     },
     "FA256": {
@@ -1219,8 +1219,8 @@
       "dimensions": "119.5 x 26.5 x 7 mm",
       "pdfPage": 67,
       "diagram": "images/pad-shapes/fa258.png",
-      "diagramWidth": 1418,
-      "diagramHeight": 98,
+      "diagramWidth": 367,
+      "diagramHeight": 89,
       "diagramPage": 67
     },
     "FA26": {
@@ -1229,7 +1229,7 @@
       "dimensions": "78 x 52.5 x 6 mm",
       "pdfPage": 2,
       "diagram": "images/pad-shapes/fa26.png",
-      "diagramWidth": 928,
+      "diagramWidth": 230,
       "diagramHeight": 148,
       "diagramPage": 2
     },
@@ -1239,8 +1239,8 @@
       "dimensions": "101 x 34.5 x 8.5 mm",
       "pdfPage": 68,
       "diagram": "images/pad-shapes/fa263.png",
-      "diagramWidth": 1703,
-      "diagramHeight": 132,
+      "diagramWidth": 309,
+      "diagramHeight": 115,
       "diagramPage": 68
     },
     "FA264": {
@@ -1259,8 +1259,8 @@
       "dimensions": "75 x 55 x 8 mm",
       "pdfPage": 69,
       "diagram": "images/pad-shapes/fa265.png",
-      "diagramWidth": 769,
-      "diagramHeight": 182,
+      "diagramWidth": 233,
+      "diagramHeight": 174,
       "diagramPage": 69
     },
     "FA266": {
@@ -1279,8 +1279,8 @@
       "dimensions": "52 x 60 x 9 mm",
       "pdfPage": 72,
       "diagram": "images/pad-shapes/fa267.png",
-      "diagramWidth": 790,
-      "diagramHeight": 198,
+      "diagramWidth": 167,
+      "diagramHeight": 189,
       "diagramPage": 72
     },
     "FA27": {
@@ -1289,8 +1289,8 @@
       "dimensions": "44.5 x 55.5 x 9.5 mm",
       "pdfPage": 3,
       "diagram": "images/pad-shapes/fa27.png",
-      "diagramWidth": 785,
-      "diagramHeight": 193,
+      "diagramWidth": 141,
+      "diagramHeight": 176,
       "diagramPage": 3
     },
     "FA270": {
@@ -1299,8 +1299,8 @@
       "dimensions": "73 x 52.5 x 7 mm",
       "pdfPage": 72,
       "diagram": "images/pad-shapes/fa270.png",
-      "diagramWidth": 791,
-      "diagramHeight": 188,
+      "diagramWidth": 235,
+      "diagramHeight": 172,
       "diagramPage": 72
     },
     "FA271": {
@@ -1309,8 +1309,8 @@
       "dimensions": "68 x 45 x 8 mm",
       "pdfPage": 72,
       "diagram": "images/pad-shapes/fa271.png",
-      "diagramWidth": 1644,
-      "diagramHeight": 155,
+      "diagramWidth": 215,
+      "diagramHeight": 146,
       "diagramPage": 72
     },
     "FA272": {
@@ -1319,8 +1319,8 @@
       "dimensions": "40 x 44.5 x 7 mm",
       "pdfPage": 72,
       "diagram": "images/pad-shapes/fa272.png",
-      "diagramWidth": 998,
-      "diagramHeight": 154,
+      "diagramWidth": 132,
+      "diagramHeight": 142,
       "diagramPage": 72
     },
     "FA273": {
@@ -1329,8 +1329,8 @@
       "dimensions": "50.5 x 60.5 x 12.5 mm",
       "pdfPage": 72,
       "diagram": "images/pad-shapes/fa273.png",
-      "diagramWidth": 791,
-      "diagramHeight": 213,
+      "diagramWidth": 166,
+      "diagramHeight": 195,
       "diagramPage": 72
     },
     "FA275": {
@@ -1339,8 +1339,8 @@
       "dimensions": "100 x 31 x 9 mm",
       "pdfPage": 73,
       "diagram": "images/pad-shapes/fa275.png",
-      "diagramWidth": 790,
-      "diagramHeight": 119,
+      "diagramWidth": 308,
+      "diagramHeight": 103,
       "diagramPage": 73
     },
     "FA281": {
@@ -1349,8 +1349,8 @@
       "dimensions": "115 x 40.5 x 9.5 mm",
       "pdfPage": 73,
       "diagram": "images/pad-shapes/fa281.png",
-      "diagramWidth": 1463,
-      "diagramHeight": 264,
+      "diagramWidth": 369,
+      "diagramHeight": 249,
       "diagramPage": 73
     },
     "FA29": {
@@ -1359,8 +1359,8 @@
       "dimensions": "67 x 49 x 11 mm",
       "pdfPage": 3,
       "diagram": "images/pad-shapes/fa29.png",
-      "diagramWidth": 1511,
-      "diagramHeight": 174,
+      "diagramWidth": 206,
+      "diagramHeight": 156,
       "diagramPage": 3
     },
     "FA291": {
@@ -1369,8 +1369,8 @@
       "dimensions": "57 x 43.5 x 6.5 mm",
       "pdfPage": 73,
       "diagram": "images/pad-shapes/fa291.png",
-      "diagramWidth": 1592,
-      "diagramHeight": 158,
+      "diagramWidth": 186,
+      "diagramHeight": 147,
       "diagramPage": 73
     },
     "FA293": {
@@ -1389,8 +1389,8 @@
       "dimensions": "81 x 46 x 7.5 mm",
       "pdfPage": 74,
       "diagram": "images/pad-shapes/fa294.png",
-      "diagramWidth": 744,
-      "diagramHeight": 155,
+      "diagramWidth": 249,
+      "diagramHeight": 144,
       "diagramPage": 74
     },
     "FA296": {
@@ -1399,8 +1399,8 @@
       "dimensions": "75 x 55 x 7.5 mm",
       "pdfPage": 74,
       "diagram": "images/pad-shapes/fa296.png",
-      "diagramWidth": 925,
-      "diagramHeight": 190,
+      "diagramWidth": 231,
+      "diagramHeight": 174,
       "diagramPage": 74
     },
     "FA297": {
@@ -1409,7 +1409,7 @@
       "dimensions": "105 x 43.5 x 8 mm",
       "pdfPage": 75,
       "diagram": "images/pad-shapes/fa297.png",
-      "diagramWidth": 735,
+      "diagramWidth": 539,
       "diagramHeight": 139,
       "diagramPage": 75
     },
@@ -1429,8 +1429,8 @@
       "dimensions": "67 x 49 x 10 mm",
       "pdfPage": 3,
       "diagram": "images/pad-shapes/fa30.png",
-      "diagramWidth": 1511,
-      "diagramHeight": 174,
+      "diagramWidth": 206,
+      "diagramHeight": 156,
       "diagramPage": 3
     },
     "FA302": {
@@ -1439,7 +1439,7 @@
       "dimensions": "67.5 x 40 x 7.5 mm",
       "pdfPage": 75,
       "diagram": "images/pad-shapes/fa302.png",
-      "diagramWidth": 1417,
+      "diagramWidth": 424,
       "diagramHeight": 130,
       "diagramPage": 75
     },
@@ -1459,8 +1459,8 @@
       "dimensions": "75 x 53.5 x 9 mm",
       "pdfPage": 76,
       "diagram": "images/pad-shapes/fa304.png",
-      "diagramWidth": 744,
-      "diagramHeight": 189,
+      "diagramWidth": 233,
+      "diagramHeight": 173,
       "diagramPage": 76
     },
     "FA305": {
@@ -1479,8 +1479,8 @@
       "dimensions": "67 x 49 x 9 mm",
       "pdfPage": 3,
       "diagram": "images/pad-shapes/fa31.png",
-      "diagramWidth": 1511,
-      "diagramHeight": 174,
+      "diagramWidth": 206,
+      "diagramHeight": 156,
       "diagramPage": 3
     },
     "FA313": {
@@ -1489,8 +1489,8 @@
       "dimensions": "124 x 55 x 9.5 mm",
       "pdfPage": 77,
       "diagram": "images/pad-shapes/fa313.png",
-      "diagramWidth": 790,
-      "diagramHeight": 192,
+      "diagramWidth": 379,
+      "diagramHeight": 175,
       "diagramPage": 77
     },
     "FA314": {
@@ -1499,8 +1499,8 @@
       "dimensions": "90.5 x 41 x 8 mm",
       "pdfPage": 77,
       "diagram": "images/pad-shapes/fa314.png",
-      "diagramWidth": 790,
-      "diagramHeight": 152,
+      "diagramWidth": 284,
+      "diagramHeight": 136,
       "diagramPage": 77
     },
     "FA317": {
@@ -1509,8 +1509,8 @@
       "dimensions": "82 x 41 x 9.5 mm",
       "pdfPage": 77,
       "diagram": "images/pad-shapes/fa317.png",
-      "diagramWidth": 1501,
-      "diagramHeight": 141,
+      "diagramWidth": 465,
+      "diagramHeight": 132,
       "diagramPage": 77
     },
     "FA319/2": {
@@ -1519,8 +1519,8 @@
       "dimensions": "100 x 38.5 x 9.5 mm",
       "pdfPage": 78,
       "diagram": "images/pad-shapes/fa319-2.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 160,
+      "diagramWidth": 315,
+      "diagramHeight": 125,
       "diagramPage": 78
     },
     "FA32": {
@@ -1529,8 +1529,8 @@
       "dimensions": "58 x 65.5 x 11 mm",
       "pdfPage": 3,
       "diagram": "images/pad-shapes/fa32.png",
-      "diagramWidth": 1870,
-      "diagramHeight": 213,
+      "diagramWidth": 179,
+      "diagramHeight": 204,
       "diagramPage": 3
     },
     "FA320": {
@@ -1559,8 +1559,8 @@
       "dimensions": "81.5 x 42 x 9 mm",
       "pdfPage": 80,
       "diagram": "images/pad-shapes/fa323.png",
-      "diagramWidth": 2238,
-      "diagramHeight": 539,
+      "diagramWidth": 249,
+      "diagramHeight": 135,
       "diagramPage": 80
     },
     "FA325": {
@@ -1569,8 +1569,8 @@
       "dimensions": "43.5 x 25 x 5 mm",
       "pdfPage": 80,
       "diagram": "images/pad-shapes/fa325.png",
-      "diagramWidth": 1944,
-      "diagramHeight": 228,
+      "diagramWidth": 140,
+      "diagramHeight": 86,
       "diagramPage": 80
     },
     "FA33": {
@@ -1579,8 +1579,8 @@
       "dimensions": "51.5 x 12.5 mm",
       "pdfPage": 3,
       "diagram": "images/pad-shapes/fa33.png",
-      "diagramWidth": 818,
-      "diagramHeight": 180,
+      "diagramWidth": 356,
+      "diagramHeight": 170,
       "diagramPage": 3
     },
     "FA335": {
@@ -1589,8 +1589,8 @@
       "dimensions": "77.5 x 51.5 x 8.5 mm",
       "pdfPage": 81,
       "diagram": "images/pad-shapes/fa335.png",
-      "diagramWidth": 744,
-      "diagramHeight": 182,
+      "diagramWidth": 250,
+      "diagramHeight": 165,
       "diagramPage": 81
     },
     "FA337": {
@@ -1599,8 +1599,8 @@
       "dimensions": "36 x 52 x 6 mm",
       "pdfPage": 81,
       "diagram": "images/pad-shapes/fa337.png",
-      "diagramWidth": 1380,
-      "diagramHeight": 197,
+      "diagramWidth": 116,
+      "diagramHeight": 165,
       "diagramPage": 81
     },
     "FA34": {
@@ -1609,8 +1609,8 @@
       "dimensions": "66 x 49.5 x 11 mm",
       "pdfPage": 3,
       "diagram": "images/pad-shapes/fa34.png",
-      "diagramWidth": 791,
-      "diagramHeight": 175,
+      "diagramWidth": 207,
+      "diagramHeight": 159,
       "diagramPage": 3
     },
     "FA342": {
@@ -1619,8 +1619,8 @@
       "dimensions": "119.5 x 26.5 x 7 mm",
       "pdfPage": 81,
       "diagram": "images/pad-shapes/fa342.png",
-      "diagramWidth": 1418,
-      "diagramHeight": 224,
+      "diagramWidth": 366,
+      "diagramHeight": 215,
       "diagramPage": 81
     },
     "FA343": {
@@ -1629,8 +1629,8 @@
       "dimensions": "107 x 42.5 x 10 mm",
       "pdfPage": 81,
       "diagram": "images/pad-shapes/fa343.png",
-      "diagramWidth": 1439,
-      "diagramHeight": 372,
+      "diagramWidth": 637,
+      "diagramHeight": 224,
       "diagramPage": 81
     },
     "FA344": {
@@ -1639,8 +1639,8 @@
       "dimensions": "65.5 x 44.5 x 11.5 mm",
       "pdfPage": 82,
       "diagram": "images/pad-shapes/fa344.png",
-      "diagramWidth": 790,
-      "diagramHeight": 157,
+      "diagramWidth": 211,
+      "diagramHeight": 148,
       "diagramPage": 82
     },
     "FA346": {
@@ -1669,8 +1669,8 @@
       "dimensions": "64 x 60.5 x 9 mm",
       "pdfPage": 83,
       "diagram": "images/pad-shapes/fa348.png",
-      "diagramWidth": 791,
-      "diagramHeight": 211,
+      "diagramWidth": 204,
+      "diagramHeight": 195,
       "diagramPage": 83
     },
     "FA349": {
@@ -1679,8 +1679,8 @@
       "dimensions": "119.5 x 26.5 x 7 mm",
       "pdfPage": 83,
       "diagram": "images/pad-shapes/fa349.png",
-      "diagramWidth": 1421,
-      "diagramHeight": 107,
+      "diagramWidth": 367,
+      "diagramHeight": 89,
       "diagramPage": 83
     },
     "FA35": {
@@ -1689,8 +1689,8 @@
       "dimensions": "50 x 11 mm",
       "pdfPage": 4,
       "diagram": "images/pad-shapes/fa35.png",
-      "diagramWidth": 773,
-      "diagramHeight": 182,
+      "diagramWidth": 344,
+      "diagramHeight": 168,
       "diagramPage": 4
     },
     "FA350": {
@@ -1719,8 +1719,8 @@
       "dimensions": "31.5 x 37.5 x 5.5 mm",
       "pdfPage": 85,
       "diagram": "images/pad-shapes/fa352.png",
-      "diagramWidth": 1410,
-      "diagramHeight": 143,
+      "diagramWidth": 108,
+      "diagramHeight": 126,
       "diagramPage": 85
     },
     "FA354": {
@@ -1729,8 +1729,8 @@
       "dimensions": "97 x 51.5 x 7 mm",
       "pdfPage": 86,
       "diagram": "images/pad-shapes/fa354.png",
-      "diagramWidth": 790,
-      "diagramHeight": 182,
+      "diagramWidth": 306,
+      "diagramHeight": 167,
       "diagramPage": 86
     },
     "FA355/4": {
@@ -1739,8 +1739,8 @@
       "dimensions": "44.5 x 51 x 7 mm",
       "pdfPage": 86,
       "diagram": "images/pad-shapes/fa355-4.png",
-      "diagramWidth": 1383,
-      "diagramHeight": 181,
+      "diagramWidth": 146,
+      "diagramHeight": 165,
       "diagramPage": 86
     },
     "FA357": {
@@ -1749,8 +1749,8 @@
       "dimensions": "62 x 31.5 x 6.5 mm",
       "pdfPage": 86,
       "diagram": "images/pad-shapes/fa357.png",
-      "diagramWidth": 1384,
-      "diagramHeight": 230,
+      "diagramWidth": 210,
+      "diagramHeight": 197,
       "diagramPage": 86
     },
     "FA36": {
@@ -1759,8 +1759,8 @@
       "dimensions": "57.5 x 53 x 9 mm",
       "pdfPage": 4,
       "diagram": "images/pad-shapes/fa36.png",
-      "diagramWidth": 817,
-      "diagramHeight": 189,
+      "diagramWidth": 183,
+      "diagramHeight": 172,
       "diagramPage": 4
     },
     "FA363": {
@@ -1779,8 +1779,8 @@
       "dimensions": "70 x 46.5 x 13 mm",
       "pdfPage": 87,
       "diagram": "images/pad-shapes/fa366.png",
-      "diagramWidth": 772,
-      "diagramHeight": 155,
+      "diagramWidth": 217,
+      "diagramHeight": 146,
       "diagramPage": 87
     },
     "FA367": {
@@ -1819,8 +1819,8 @@
       "dimensions": "51.5 x 13/12 mm",
       "pdfPage": 4,
       "diagram": "images/pad-shapes/fa37.png",
-      "diagramWidth": 802,
-      "diagramHeight": 181,
+      "diagramWidth": 327,
+      "diagramHeight": 172,
       "diagramPage": 4
     },
     "FA372": {
@@ -1829,8 +1829,8 @@
       "dimensions": "85 x 42.5 x 8.5 mm",
       "pdfPage": 89,
       "diagram": "images/pad-shapes/fa372.png",
-      "diagramWidth": 772,
-      "diagramHeight": 146,
+      "diagramWidth": 475,
+      "diagramHeight": 137,
       "diagramPage": 89
     },
     "FA373": {
@@ -1839,8 +1839,8 @@
       "dimensions": "75.5 x 39.5 x 11.5 mm",
       "pdfPage": 89,
       "diagram": "images/pad-shapes/fa373.png",
-      "diagramWidth": 773,
-      "diagramHeight": 150,
+      "diagramWidth": 241,
+      "diagramHeight": 133,
       "diagramPage": 89
     },
     "FA374": {
@@ -1849,8 +1849,8 @@
       "dimensions": "95.5 x 42 x 8 mm",
       "pdfPage": 90,
       "diagram": "images/pad-shapes/fa374.png",
-      "diagramWidth": 2240,
-      "diagramHeight": 743,
+      "diagramWidth": 565,
+      "diagramHeight": 356,
       "diagramPage": 90
     },
     "FA375": {
@@ -1859,8 +1859,8 @@
       "dimensions": "111 x 36 x 7.5 mm",
       "pdfPage": 90,
       "diagram": "images/pad-shapes/fa375.png",
-      "diagramWidth": 1397,
-      "diagramHeight": 230,
+      "diagramWidth": 347,
+      "diagramHeight": 223,
       "diagramPage": 90
     },
     "FA377": {
@@ -1879,8 +1879,8 @@
       "dimensions": "71.5 x 50.5 x 8 mm",
       "pdfPage": 91,
       "diagram": "images/pad-shapes/fa379.png",
-      "diagramWidth": 1418,
-      "diagramHeight": 172,
+      "diagramWidth": 214,
+      "diagramHeight": 156,
       "diagramPage": 91
     },
     "FA38": {
@@ -1889,8 +1889,8 @@
       "dimensions": "50 x 12 mm",
       "pdfPage": 4,
       "diagram": "images/pad-shapes/fa38.png",
-      "diagramWidth": 771,
-      "diagramHeight": 188,
+      "diagramWidth": 382,
+      "diagramHeight": 170,
       "diagramPage": 4
     },
     "FA380": {
@@ -1899,8 +1899,8 @@
       "dimensions": "69.5 x 51.5 x 8.5 mm",
       "pdfPage": 91,
       "diagram": "images/pad-shapes/fa380.png",
-      "diagramWidth": 818,
-      "diagramHeight": 198,
+      "diagramWidth": 218,
+      "diagramHeight": 160,
       "diagramPage": 91
     },
     "FA381": {
@@ -1909,8 +1909,8 @@
       "dimensions": "102 x 45.5 x 11 mm",
       "pdfPage": 91,
       "diagram": "images/pad-shapes/fa381.png",
-      "diagramWidth": 925,
-      "diagramHeight": 340,
+      "diagramWidth": 337,
+      "diagramHeight": 323,
       "diagramPage": 91
     },
     "FA382": {
@@ -1919,8 +1919,8 @@
       "dimensions": "85 x 43 x 7.5 mm",
       "pdfPage": 92,
       "diagram": "images/pad-shapes/fa382.png",
-      "diagramWidth": 2238,
-      "diagramHeight": 667,
+      "diagramWidth": 266,
+      "diagramHeight": 274,
       "diagramPage": 92
     },
     "FA387": {
@@ -1929,8 +1929,8 @@
       "dimensions": "86.5 x 44.5 x 10.5 mm",
       "pdfPage": 92,
       "diagram": "images/pad-shapes/fa387.png",
-      "diagramWidth": 926,
-      "diagramHeight": 339,
+      "diagramWidth": 280,
+      "diagramHeight": 321,
       "diagramPage": 92
     },
     "FA388": {
@@ -1939,8 +1939,8 @@
       "dimensions": "118 x 45 x 8.5 mm",
       "pdfPage": 92,
       "diagram": "images/pad-shapes/fa388.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 295,
+      "diagramWidth": 378,
+      "diagramHeight": 278,
       "diagramPage": 92
     },
     "FA388/2": {
@@ -1949,8 +1949,8 @@
       "dimensions": "118 x 45 x 10.5 mm",
       "pdfPage": 92,
       "diagram": "images/pad-shapes/fa388-2.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 295,
+      "diagramWidth": 378,
+      "diagramHeight": 278,
       "diagramPage": 92
     },
     "FA39": {
@@ -1959,8 +1959,8 @@
       "dimensions": "44 x 9/12.5 mm",
       "pdfPage": 4,
       "diagram": "images/pad-shapes/fa39.png",
-      "diagramWidth": 1411,
-      "diagramHeight": 150,
+      "diagramWidth": 292,
+      "diagramHeight": 141,
       "diagramPage": 4
     },
     "FA390": {
@@ -1969,8 +1969,8 @@
       "dimensions": "74.5 x 47 x 8 mm",
       "pdfPage": 93,
       "diagram": "images/pad-shapes/fa390.png",
-      "diagramWidth": 1436,
-      "diagramHeight": 161,
+      "diagramWidth": 232,
+      "diagramHeight": 152,
       "diagramPage": 93
     },
     "FA395": {
@@ -1989,8 +1989,8 @@
       "dimensions": "95.5 x 40 x 7 mm",
       "pdfPage": 94,
       "diagram": "images/pad-shapes/fa398.png",
-      "diagramWidth": 1436,
-      "diagramHeight": 147,
+      "diagramWidth": 298,
+      "diagramHeight": 131,
       "diagramPage": 94
     },
     "FA399": {
@@ -1999,8 +1999,8 @@
       "dimensions": "69.5 x 51.5 x 7 mm",
       "pdfPage": 94,
       "diagram": "images/pad-shapes/fa399.png",
-      "diagramWidth": 1458,
-      "diagramHeight": 198,
+      "diagramWidth": 222,
+      "diagramHeight": 167,
       "diagramPage": 94
     },
     "FA40": {
@@ -2009,8 +2009,8 @@
       "dimensions": "41 x 21 mm",
       "pdfPage": 4,
       "diagram": "images/pad-shapes/fa40.png",
-      "diagramWidth": 1435,
-      "diagramHeight": 140,
+      "diagramWidth": 296,
+      "diagramHeight": 132,
       "diagramPage": 4
     },
     "FA400": {
@@ -2029,7 +2029,7 @@
       "dimensions": "99 x 40 x 7.5 mm",
       "pdfPage": 95,
       "diagram": "images/pad-shapes/fa401.png",
-      "diagramWidth": 775,
+      "diagramWidth": 564,
       "diagramHeight": 139,
       "diagramPage": 95
     },
@@ -2039,8 +2039,8 @@
       "dimensions": "41 x 44.5 x 6.5 mm",
       "pdfPage": 95,
       "diagram": "images/pad-shapes/fa403.png",
-      "diagramWidth": 743,
-      "diagramHeight": 155,
+      "diagramWidth": 135,
+      "diagramHeight": 147,
       "diagramPage": 95
     },
     "FA405": {
@@ -2049,8 +2049,8 @@
       "dimensions": "76.5 x 49.5 x 8 mm",
       "pdfPage": 95,
       "diagram": "images/pad-shapes/fa405.png",
-      "diagramWidth": 781,
-      "diagramHeight": 172,
+      "diagramWidth": 236,
+      "diagramHeight": 156,
       "diagramPage": 95
     },
     "FA406": {
@@ -2059,8 +2059,8 @@
       "dimensions": "102 x 49.5 x 8 mm",
       "pdfPage": 95,
       "diagram": "images/pad-shapes/fa406.png",
-      "diagramWidth": 1465,
-      "diagramHeight": 196,
+      "diagramWidth": 320,
+      "diagramHeight": 157,
       "diagramPage": 95
     },
     "FA407": {
@@ -2069,8 +2069,8 @@
       "dimensions": "100 x 56.5 x 8.5 mm",
       "pdfPage": 96,
       "diagram": "images/pad-shapes/fa407.png",
-      "diagramWidth": 757,
-      "diagramHeight": 185,
+      "diagramWidth": 311,
+      "diagramHeight": 176,
       "diagramPage": 96
     },
     "FA409": {
@@ -2089,8 +2089,8 @@
       "dimensions": "94.5 x 56 x 20 mm",
       "pdfPage": 4,
       "diagram": "images/pad-shapes/fa41.png",
-      "diagramWidth": 788,
-      "diagramHeight": 241,
+      "diagramWidth": 392,
+      "diagramHeight": 188,
       "diagramPage": 4
     },
     "FA410": {
@@ -2099,8 +2099,8 @@
       "dimensions": "82 x 38.5 x 10 mm",
       "pdfPage": 96,
       "diagram": "images/pad-shapes/fa410.png",
-      "diagramWidth": 769,
-      "diagramHeight": 147,
+      "diagramWidth": 235,
+      "diagramHeight": 130,
       "diagramPage": 96
     },
     "FA413": {
@@ -2109,8 +2109,8 @@
       "dimensions": "82.5 x 41 x 8.5 mm",
       "pdfPage": 97,
       "diagram": "images/pad-shapes/fa413.png",
-      "diagramWidth": 775,
-      "diagramHeight": 142,
+      "diagramWidth": 470,
+      "diagramHeight": 133,
       "diagramPage": 97
     },
     "FA416": {
@@ -2119,8 +2119,8 @@
       "dimensions": "85 x 37 x 8 mm",
       "pdfPage": 97,
       "diagram": "images/pad-shapes/fa416.png",
-      "diagramWidth": 1375,
-      "diagramHeight": 370,
+      "diagramWidth": 517,
+      "diagramHeight": 224,
       "diagramPage": 97
     },
     "FA417/4": {
@@ -2129,8 +2129,8 @@
       "dimensions": "50 x 38 x 8 mm",
       "pdfPage": 98,
       "diagram": "images/pad-shapes/fa417-4.png",
-      "diagramWidth": 818,
-      "diagramHeight": 180,
+      "diagramWidth": 127,
+      "diagramHeight": 163,
       "diagramPage": 98
     },
     "FA419": {
@@ -2139,8 +2139,8 @@
       "dimensions": "89 x 40.5 x 9.5 mm",
       "pdfPage": 98,
       "diagram": "images/pad-shapes/fa419.png",
-      "diagramWidth": 790,
-      "diagramHeight": 144,
+      "diagramWidth": 564,
+      "diagramHeight": 136,
       "diagramPage": 98
     },
     "FA42": {
@@ -2149,8 +2149,8 @@
       "dimensions": "44 x 43 x 10/16 mm",
       "pdfPage": 5,
       "diagram": "images/pad-shapes/fa42.png",
-      "diagramWidth": 790,
-      "diagramHeight": 153,
+      "diagramWidth": 140,
+      "diagramHeight": 138,
       "diagramPage": 5
     },
     "FA420": {
@@ -2159,8 +2159,8 @@
       "dimensions": "69.5 x 54.5 x 8 mm",
       "pdfPage": 98,
       "diagram": "images/pad-shapes/fa420.png",
-      "diagramWidth": 1147,
-      "diagramHeight": 178,
+      "diagramWidth": 213,
+      "diagramHeight": 169,
       "diagramPage": 98
     },
     "FA423/4": {
@@ -2169,8 +2169,8 @@
       "dimensions": "44.5 x 53.5 x 8.5 mm",
       "pdfPage": 99,
       "diagram": "images/pad-shapes/fa423-4.png",
-      "diagramWidth": 1443,
-      "diagramHeight": 187,
+      "diagramWidth": 145,
+      "diagramHeight": 169,
       "diagramPage": 99
     },
     "FA424": {
@@ -2179,8 +2179,8 @@
       "dimensions": "91.5 x 51.5 x 8 mm",
       "pdfPage": 99,
       "diagram": "images/pad-shapes/fa424.png",
-      "diagramWidth": 1363,
-      "diagramHeight": 199,
+      "diagramWidth": 285,
+      "diagramHeight": 163,
       "diagramPage": 99
     },
     "FA426": {
@@ -2189,8 +2189,8 @@
       "dimensions": "64 x 48 x 8 mm",
       "pdfPage": 99,
       "diagram": "images/pad-shapes/fa426.png",
-      "diagramWidth": 743,
-      "diagramHeight": 162,
+      "diagramWidth": 200,
+      "diagramHeight": 153,
       "diagramPage": 99
     },
     "FA428": {
@@ -2199,7 +2199,7 @@
       "dimensions": "82 x 41 x 9.5 mm",
       "pdfPage": 100,
       "diagram": "images/pad-shapes/fa428.png",
-      "diagramWidth": 790,
+      "diagramWidth": 469,
       "diagramHeight": 133,
       "diagramPage": 100
     },
@@ -2209,8 +2209,8 @@
       "dimensions": "94.5 x 40 x 7.5 mm",
       "pdfPage": 100,
       "diagram": "images/pad-shapes/fa430.png",
-      "diagramWidth": 1445,
-      "diagramHeight": 266,
+      "diagramWidth": 610,
+      "diagramHeight": 257,
       "diagramPage": 100
     },
     "FA431": {
@@ -2219,8 +2219,8 @@
       "dimensions": "103.5 x 42.5 x 8.5 mm",
       "pdfPage": 100,
       "diagram": "images/pad-shapes/fa431.png",
-      "diagramWidth": 1643,
-      "diagramHeight": 279,
+      "diagramWidth": 323,
+      "diagramHeight": 271,
       "diagramPage": 100
     },
     "FA432": {
@@ -2229,8 +2229,8 @@
       "dimensions": "68.5 x 55.5 x 9 mm",
       "pdfPage": 100,
       "diagram": "images/pad-shapes/fa432.png",
-      "diagramWidth": 1420,
-      "diagramHeight": 199,
+      "diagramWidth": 213,
+      "diagramHeight": 173,
       "diagramPage": 100
     },
     "FA433/4": {
@@ -2239,8 +2239,8 @@
       "dimensions": "35 x 46 x 7.5 mm",
       "pdfPage": 100,
       "diagram": "images/pad-shapes/fa433-4.png",
-      "diagramWidth": 1465,
-      "diagramHeight": 160,
+      "diagramWidth": 117,
+      "diagramHeight": 150,
       "diagramPage": 100
     },
     "FA434": {
@@ -2249,7 +2249,7 @@
       "dimensions": "98 x 64 x 8 mm",
       "pdfPage": 101,
       "diagram": "images/pad-shapes/fa434.png",
-      "diagramWidth": 948,
+      "diagramWidth": 645,
       "diagramHeight": 424,
       "diagramPage": 101
     },
@@ -2259,8 +2259,8 @@
       "dimensions": "43.5 x 49 x 9.5 mm",
       "pdfPage": 101,
       "diagram": "images/pad-shapes/fa435-4.png",
-      "diagramWidth": 1477,
-      "diagramHeight": 199,
+      "diagramWidth": 140,
+      "diagramHeight": 157,
       "diagramPage": 101
     },
     "FA436": {
@@ -2269,8 +2269,8 @@
       "dimensions": "77.5 x 42 x 9 mm",
       "pdfPage": 101,
       "diagram": "images/pad-shapes/fa436.png",
-      "diagramWidth": 769,
-      "diagramHeight": 154,
+      "diagramWidth": 490,
+      "diagramHeight": 138,
       "diagramPage": 101
     },
     "FA438": {
@@ -2279,8 +2279,8 @@
       "dimensions": "103 x 36.5 x 8.5 mm",
       "pdfPage": 101,
       "diagram": "images/pad-shapes/fa438.png",
-      "diagramWidth": 746,
-      "diagramHeight": 138,
+      "diagramWidth": 621,
+      "diagramHeight": 122,
       "diagramPage": 101
     },
     "FA441": {
@@ -2289,8 +2289,8 @@
       "dimensions": "77.5 x 51.5 x 8.5 mm",
       "pdfPage": 101,
       "diagram": "images/pad-shapes/fa441.png",
-      "diagramWidth": 744,
-      "diagramHeight": 175,
+      "diagramWidth": 522,
+      "diagramHeight": 167,
       "diagramPage": 101
     },
     "FA442/4": {
@@ -2299,7 +2299,7 @@
       "dimensions": "62 x 44.5 x 8 mm",
       "pdfPage": 102,
       "diagram": "images/pad-shapes/fa442-4.png",
-      "diagramWidth": 790,
+      "diagramWidth": 341,
       "diagramHeight": 157,
       "diagramPage": 102
     },
@@ -2309,7 +2309,7 @@
       "dimensions": "107 x 36.5 x 8 mm",
       "pdfPage": 102,
       "diagram": "images/pad-shapes/fa443.png",
-      "diagramWidth": 790,
+      "diagramWidth": 335,
       "diagramHeight": 236,
       "diagramPage": 102
     },
@@ -2319,7 +2319,7 @@
       "dimensions": "107 x 36.5 x 8 mm",
       "pdfPage": 102,
       "diagram": "images/pad-shapes/fa444.png",
-      "diagramWidth": 790,
+      "diagramWidth": 335,
       "diagramHeight": 241,
       "diagramPage": 102
     },
@@ -2329,7 +2329,7 @@
       "dimensions": "107 x 36.5 x 8 mm",
       "pdfPage": 102,
       "diagram": "images/pad-shapes/fa445.png",
-      "diagramWidth": 790,
+      "diagramWidth": 335,
       "diagramHeight": 240,
       "diagramPage": 102
     },
@@ -2339,7 +2339,7 @@
       "dimensions": "107 x 36.5 x 9 mm",
       "pdfPage": 102,
       "diagram": "images/pad-shapes/fa446.png",
-      "diagramWidth": 790,
+      "diagramWidth": 335,
       "diagramHeight": 238,
       "diagramPage": 102
     },
@@ -2359,8 +2359,8 @@
       "dimensions": "58 x 33.5 x 6 mm",
       "pdfPage": 103,
       "diagram": "images/pad-shapes/fa448.png",
-      "diagramWidth": 1397,
-      "diagramHeight": 123,
+      "diagramWidth": 189,
+      "diagramHeight": 114,
       "diagramPage": 103
     },
     "FA45": {
@@ -2369,8 +2369,8 @@
       "dimensions": "54 x 53 x 11 mm",
       "pdfPage": 5,
       "diagram": "images/pad-shapes/fa45.png",
-      "diagramWidth": 768,
-      "diagramHeight": 184,
+      "diagramWidth": 165,
+      "diagramHeight": 167,
       "diagramPage": 5
     },
     "FA450": {
@@ -2379,8 +2379,8 @@
       "dimensions": "94 x 31.5 x 7 mm",
       "pdfPage": 104,
       "diagram": "images/pad-shapes/fa450.png",
-      "diagramWidth": 2237,
-      "diagramHeight": 645,
+      "diagramWidth": 428,
+      "diagramHeight": 198,
       "diagramPage": 104
     },
     "FA452": {
@@ -2409,8 +2409,8 @@
       "dimensions": "61.5 x 46.5 x 7.5 mm",
       "pdfPage": 104,
       "diagram": "images/pad-shapes/fa454-4.png",
-      "diagramWidth": 1375,
-      "diagramHeight": 161,
+      "diagramWidth": 197,
+      "diagramHeight": 152,
       "diagramPage": 104
     },
     "FA455": {
@@ -2419,8 +2419,8 @@
       "dimensions": "99 x 54.5 x 9 mm",
       "pdfPage": 104,
       "diagram": "images/pad-shapes/fa455.png",
-      "diagramWidth": 953,
-      "diagramHeight": 175,
+      "diagramWidth": 287,
+      "diagramHeight": 167,
       "diagramPage": 104
     },
     "FA456": {
@@ -2429,8 +2429,8 @@
       "dimensions": "97.5 x 47 x 7 mm",
       "pdfPage": 105,
       "diagram": "images/pad-shapes/fa456.png",
-      "diagramWidth": 791,
-      "diagramHeight": 163,
+      "diagramWidth": 306,
+      "diagramHeight": 155,
       "diagramPage": 105
     },
     "FA457": {
@@ -2439,8 +2439,8 @@
       "dimensions": "90.5 x 62 x 8 mm",
       "pdfPage": 105,
       "diagram": "images/pad-shapes/fa457.png",
-      "diagramWidth": 925,
-      "diagramHeight": 205,
+      "diagramWidth": 288,
+      "diagramHeight": 196,
       "diagramPage": 105
     },
     "FA458": {
@@ -2449,8 +2449,8 @@
       "dimensions": "127 x 52.5 x 8 mm",
       "pdfPage": 105,
       "diagram": "images/pad-shapes/fa458.png",
-      "diagramWidth": 926,
-      "diagramHeight": 184,
+      "diagramWidth": 394,
+      "diagramHeight": 177,
       "diagramPage": 105
     },
     "FA46": {
@@ -2459,8 +2459,8 @@
       "dimensions": "44 x 11.5/13 mm",
       "pdfPage": 5,
       "diagram": "images/pad-shapes/fa46.png",
-      "diagramWidth": 723,
-      "diagramHeight": 164,
+      "diagramWidth": 293,
+      "diagramHeight": 152,
       "diagramPage": 5
     },
     "FA460": {
@@ -2469,8 +2469,8 @@
       "dimensions": "46.5 x 49.5 x 7 mm",
       "pdfPage": 105,
       "diagram": "images/pad-shapes/fa460.png",
-      "diagramWidth": 1375,
-      "diagramHeight": 175,
+      "diagramWidth": 151,
+      "diagramHeight": 157,
       "diagramPage": 105
     },
     "FA462": {
@@ -2479,8 +2479,8 @@
       "dimensions": "76.5 x 38 x 7 mm",
       "pdfPage": 105,
       "diagram": "images/pad-shapes/fa462.png",
-      "diagramWidth": 734,
-      "diagramHeight": 148,
+      "diagramWidth": 484,
+      "diagramHeight": 131,
       "diagramPage": 105
     },
     "FA463": {
@@ -2489,8 +2489,8 @@
       "dimensions": "58.5 x 35.5 x 8.5 mm",
       "pdfPage": 105,
       "diagram": "images/pad-shapes/fa463.png",
-      "diagramWidth": 734,
-      "diagramHeight": 123,
+      "diagramWidth": 184,
+      "diagramHeight": 114,
       "diagramPage": 105
     },
     "FA464": {
@@ -2499,8 +2499,8 @@
       "dimensions": "109.5 x 51 x 8.5 mm",
       "pdfPage": 106,
       "diagram": "images/pad-shapes/fa464.png",
-      "diagramWidth": 2228,
-      "diagramHeight": 649,
+      "diagramWidth": 464,
+      "diagramHeight": 279,
       "diagramPage": 106
     },
     "FA465": {
@@ -2519,8 +2519,8 @@
       "dimensions": "67.5 x 52 x 7.5 mm",
       "pdfPage": 106,
       "diagram": "images/pad-shapes/fa468.png",
-      "diagramWidth": 783,
-      "diagramHeight": 186,
+      "diagramWidth": 216,
+      "diagramHeight": 169,
       "diagramPage": 106
     },
     "FA47": {
@@ -2529,8 +2529,8 @@
       "dimensions": "40 x 50.5 x 7 mm",
       "pdfPage": 5,
       "diagram": "images/pad-shapes/fa47.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 212,
+      "diagramWidth": 128,
+      "diagramHeight": 162,
       "diagramPage": 5
     },
     "FA47/2": {
@@ -2539,8 +2539,8 @@
       "dimensions": "40 x 50.5 x 5.5 mm",
       "pdfPage": 5,
       "diagram": "images/pad-shapes/fa47-2.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 212,
+      "diagramWidth": 128,
+      "diagramHeight": 162,
       "diagramPage": 5
     },
     "FA47/3": {
@@ -2549,8 +2549,8 @@
       "dimensions": "40 x 50.5 x 9.5 mm",
       "pdfPage": 5,
       "diagram": "images/pad-shapes/fa47-3.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 212,
+      "diagramWidth": 128,
+      "diagramHeight": 162,
       "diagramPage": 5
     },
     "FA471": {
@@ -2559,8 +2559,8 @@
       "dimensions": "36 x 39 x 6 mm",
       "pdfPage": 106,
       "diagram": "images/pad-shapes/fa471.png",
-      "diagramWidth": 791,
-      "diagramHeight": 147,
+      "diagramWidth": 121,
+      "diagramHeight": 130,
       "diagramPage": 106
     },
     "FA473": {
@@ -2569,8 +2569,8 @@
       "dimensions": "110.5 x 53.5 x 8 mm",
       "pdfPage": 107,
       "diagram": "images/pad-shapes/fa473.png",
-      "diagramWidth": 783,
-      "diagramHeight": 187,
+      "diagramWidth": 338,
+      "diagramHeight": 171,
       "diagramPage": 107
     },
     "FA474": {
@@ -2579,8 +2579,8 @@
       "dimensions": "75.5 x 33 x 8 mm",
       "pdfPage": 107,
       "diagram": "images/pad-shapes/fa474.png",
-      "diagramWidth": 784,
-      "diagramHeight": 119,
+      "diagramWidth": 236,
+      "diagramHeight": 110,
       "diagramPage": 107
     },
     "FA475": {
@@ -2589,8 +2589,8 @@
       "dimensions": "97 x 43 x 7 mm",
       "pdfPage": 107,
       "diagram": "images/pad-shapes/fa475.png",
-      "diagramWidth": 790,
-      "diagramHeight": 154,
+      "diagramWidth": 303,
+      "diagramHeight": 142,
       "diagramPage": 107
     },
     "FA476": {
@@ -2599,8 +2599,8 @@
       "dimensions": "104 x 43.5 x 13 mm",
       "pdfPage": 107,
       "diagram": "images/pad-shapes/fa476.png",
-      "diagramWidth": 769,
-      "diagramHeight": 295,
+      "diagramWidth": 329,
+      "diagramHeight": 287,
       "diagramPage": 107
     },
     "FA477": {
@@ -2609,8 +2609,8 @@
       "dimensions": "104 x 43.5 x 13 mm",
       "pdfPage": 107,
       "diagram": "images/pad-shapes/fa477.png",
-      "diagramWidth": 769,
-      "diagramHeight": 304,
+      "diagramWidth": 328,
+      "diagramHeight": 295,
       "diagramPage": 107
     },
     "FA478": {
@@ -2619,8 +2619,8 @@
       "dimensions": "89 x 36.5 x 13.5 mm",
       "pdfPage": 108,
       "diagram": "images/pad-shapes/fa478.png",
-      "diagramWidth": 2238,
-      "diagramHeight": 678,
+      "diagramWidth": 284,
+      "diagramHeight": 250,
       "diagramPage": 108
     },
     "FA479": {
@@ -2629,8 +2629,8 @@
       "dimensions": "89 x 36.5 x 13.5 mm",
       "pdfPage": 108,
       "diagram": "images/pad-shapes/fa479.png",
-      "diagramWidth": 768,
-      "diagramHeight": 260,
+      "diagramWidth": 284,
+      "diagramHeight": 251,
       "diagramPage": 108
     },
     "FA48": {
@@ -2639,7 +2639,7 @@
       "dimensions": "44 x 46 x 16/11 mm",
       "pdfPage": 7,
       "diagram": "images/pad-shapes/fa48.png",
-      "diagramWidth": 877,
+      "diagramWidth": 302,
       "diagramHeight": 234,
       "diagramPage": 7
     },
@@ -2649,8 +2649,8 @@
       "dimensions": "74 x 37 x 7 mm",
       "pdfPage": 108,
       "diagram": "images/pad-shapes/fa480.png",
-      "diagramWidth": 1580,
-      "diagramHeight": 323,
+      "diagramWidth": 492,
+      "diagramHeight": 322,
       "diagramPage": 108
     },
     "FA481": {
@@ -2659,8 +2659,8 @@
       "dimensions": "88 x 48 x 8 mm",
       "pdfPage": 108,
       "diagram": "images/pad-shapes/fa481.png",
-      "diagramWidth": 824,
-      "diagramHeight": 177,
+      "diagramWidth": 279,
+      "diagramHeight": 160,
       "diagramPage": 108
     },
     "FA482": {
@@ -2669,8 +2669,8 @@
       "dimensions": "110 x 49 x 8 mm",
       "pdfPage": 108,
       "diagram": "images/pad-shapes/fa482.png",
-      "diagramWidth": 1469,
-      "diagramHeight": 198,
+      "diagramWidth": 347,
+      "diagramHeight": 162,
       "diagramPage": 108
     },
     "FA483": {
@@ -2679,8 +2679,8 @@
       "dimensions": "97 x 41 x 7 mm",
       "pdfPage": 108,
       "diagram": "images/pad-shapes/fa483.png",
-      "diagramWidth": 785,
-      "diagramHeight": 150,
+      "diagramWidth": 307,
+      "diagramHeight": 135,
       "diagramPage": 108
     },
     "FA484": {
@@ -2689,8 +2689,8 @@
       "dimensions": "116.5 x 41 x 9 mm",
       "pdfPage": 108,
       "diagram": "images/pad-shapes/fa484.png",
-      "diagramWidth": 1374,
-      "diagramHeight": 293,
+      "diagramWidth": 366,
+      "diagramHeight": 285,
       "diagramPage": 108
     },
     "FA485": {
@@ -2699,8 +2699,8 @@
       "dimensions": "32 x 39 x 5 mm",
       "pdfPage": 109,
       "diagram": "images/pad-shapes/fa485.png",
-      "diagramWidth": 986,
-      "diagramHeight": 139,
+      "diagramWidth": 254,
+      "diagramHeight": 131,
       "diagramPage": 109
     },
     "FA486": {
@@ -2709,8 +2709,8 @@
       "dimensions": "49.5 x 47.5 x 9 mm",
       "pdfPage": 109,
       "diagram": "images/pad-shapes/fa486.png",
-      "diagramWidth": 1471,
-      "diagramHeight": 199,
+      "diagramWidth": 167,
+      "diagramHeight": 161,
       "diagramPage": 109
     },
     "FA488": {
@@ -2719,8 +2719,8 @@
       "dimensions": "99.5 x 38 x 9 mm",
       "pdfPage": 109,
       "diagram": "images/pad-shapes/fa488.png",
-      "diagramWidth": 768,
-      "diagramHeight": 236,
+      "diagramWidth": 315,
+      "diagramHeight": 127,
       "diagramPage": 109
     },
     "FA489": {
@@ -2729,8 +2729,8 @@
       "dimensions": "88.5 x 47 x 7 mm",
       "pdfPage": 109,
       "diagram": "images/pad-shapes/fa489.png",
-      "diagramWidth": 790,
-      "diagramHeight": 164,
+      "diagramWidth": 282,
+      "diagramHeight": 155,
       "diagramPage": 109
     },
     "FA490": {
@@ -2739,8 +2739,8 @@
       "dimensions": "87 x 42.5 x 7.5 mm",
       "pdfPage": 109,
       "diagram": "images/pad-shapes/fa490.png",
-      "diagramWidth": 790,
-      "diagramHeight": 158,
+      "diagramWidth": 277,
+      "diagramHeight": 141,
       "diagramPage": 109
     },
     "FA491": {
@@ -2749,8 +2749,8 @@
       "dimensions": "78.5 x 46.5 x 7.5 mm",
       "pdfPage": 109,
       "diagram": "images/pad-shapes/fa491.png",
-      "diagramWidth": 1159,
-      "diagramHeight": 153,
+      "diagramWidth": 240,
+      "diagramHeight": 135,
       "diagramPage": 109
     },
     "FA495": {
@@ -2759,8 +2759,8 @@
       "dimensions": "35.5 x 42 x 5.5 mm",
       "pdfPage": 109,
       "diagram": "images/pad-shapes/fa495.png",
-      "diagramWidth": 743,
-      "diagramHeight": 154,
+      "diagramWidth": 122,
+      "diagramHeight": 140,
       "diagramPage": 109
     },
     "FA496": {
@@ -2769,8 +2769,8 @@
       "dimensions": "86 x 40 x 9 mm",
       "pdfPage": 110,
       "diagram": "images/pad-shapes/fa496.png",
-      "diagramWidth": 769,
-      "diagramHeight": 143,
+      "diagramWidth": 264,
+      "diagramHeight": 130,
       "diagramPage": 110
     },
     "FA497": {
@@ -2779,8 +2779,8 @@
       "dimensions": "62 x 41 x 7 mm",
       "pdfPage": 110,
       "diagram": "images/pad-shapes/fa497.png",
-      "diagramWidth": 790,
-      "diagramHeight": 153,
+      "diagramWidth": 201,
+      "diagramHeight": 136,
       "diagramPage": 110
     },
     "FA499/4": {
@@ -2789,7 +2789,7 @@
       "dimensions": "69 x 51.5 x 9 mm",
       "pdfPage": 110,
       "diagram": "images/pad-shapes/fa499-4.png",
-      "diagramWidth": 769,
+      "diagramWidth": 460,
       "diagramHeight": 167,
       "diagramPage": 110
     },
@@ -2799,8 +2799,8 @@
       "dimensions": "31.5 x 49 x 5.5 mm",
       "pdfPage": 7,
       "diagram": "images/pad-shapes/fa50.png",
-      "diagramWidth": 763,
-      "diagramHeight": 166,
+      "diagramWidth": 131,
+      "diagramHeight": 152,
       "diagramPage": 7
     },
     "FA51": {
@@ -2809,8 +2809,8 @@
       "dimensions": "78 x 50 x 11.5 mm",
       "pdfPage": 7,
       "diagram": "images/pad-shapes/fa51.png",
-      "diagramWidth": 772,
-      "diagramHeight": 175,
+      "diagramWidth": 234,
+      "diagramHeight": 158,
       "diagramPage": 7
     },
     "FA52": {
@@ -2819,8 +2819,8 @@
       "dimensions": "41 x 21/11 mm",
       "pdfPage": 7,
       "diagram": "images/pad-shapes/fa52.png",
-      "diagramWidth": 769,
-      "diagramHeight": 148,
+      "diagramWidth": 287,
+      "diagramHeight": 131,
       "diagramPage": 7
     },
     "FA54": {
@@ -2839,8 +2839,8 @@
       "dimensions": "50 x 12.5/10 mm",
       "pdfPage": 8,
       "diagram": "images/pad-shapes/fa55.png",
-      "diagramWidth": 818,
-      "diagramHeight": 176,
+      "diagramWidth": 316,
+      "diagramHeight": 159,
       "diagramPage": 8
     },
     "FA56": {
@@ -2849,8 +2849,8 @@
       "dimensions": "44 x 10 mm",
       "pdfPage": 8,
       "diagram": "images/pad-shapes/fa56.png",
-      "diagramWidth": 1484,
-      "diagramHeight": 190,
+      "diagramWidth": 305,
+      "diagramHeight": 149,
       "diagramPage": 8
     },
     "FA57": {
@@ -2859,8 +2859,8 @@
       "dimensions": "55 x 53 x 9 mm",
       "pdfPage": 8,
       "diagram": "images/pad-shapes/fa57.png",
-      "diagramWidth": 745,
-      "diagramHeight": 185,
+      "diagramWidth": 176,
+      "diagramHeight": 168,
       "diagramPage": 8
     },
     "FA60": {
@@ -2879,8 +2879,8 @@
       "dimensions": "102.5 x 42.5 x 8 mm",
       "pdfPage": 110,
       "diagram": "images/pad-shapes/fa600.png",
-      "diagramWidth": 831,
-      "diagramHeight": 154,
+      "diagramWidth": 323,
+      "diagramHeight": 143,
       "diagramPage": 110
     },
     "FA600/2": {
@@ -2889,8 +2889,8 @@
       "dimensions": "102.5 x 42.5 x 7 mm",
       "pdfPage": 110,
       "diagram": "images/pad-shapes/fa600-2.png",
-      "diagramWidth": 831,
-      "diagramHeight": 158,
+      "diagramWidth": 323,
+      "diagramHeight": 142,
       "diagramPage": 110
     },
     "FA602": {
@@ -2899,8 +2899,8 @@
       "dimensions": "41 x 42.5 x 7.5 mm",
       "pdfPage": 111,
       "diagram": "images/pad-shapes/fa602.png",
-      "diagramWidth": 839,
-      "diagramHeight": 155,
+      "diagramWidth": 138,
+      "diagramHeight": 140,
       "diagramPage": 111
     },
     "FA604/4": {
@@ -2909,8 +2909,8 @@
       "dimensions": "35 x 40.5 x 8 mm",
       "pdfPage": 111,
       "diagram": "images/pad-shapes/fa604-4.png",
-      "diagramWidth": 1443,
-      "diagramHeight": 147,
+      "diagramWidth": 113,
+      "diagramHeight": 130,
       "diagramPage": 111
     },
     "FA605/4": {
@@ -2919,8 +2919,8 @@
       "dimensions": "97.5 x 46.5 x 7 mm",
       "pdfPage": 111,
       "diagram": "images/pad-shapes/fa605-4.png",
-      "diagramWidth": 952,
-      "diagramHeight": 155,
+      "diagramWidth": 297,
+      "diagramHeight": 149,
       "diagramPage": 111
     },
     "FA606": {
@@ -2939,8 +2939,8 @@
       "dimensions": "98 x 42 x 7 mm",
       "pdfPage": 112,
       "diagram": "images/pad-shapes/fa609.png",
-      "diagramWidth": 1654,
-      "diagramHeight": 156,
+      "diagramWidth": 312,
+      "diagramHeight": 140,
       "diagramPage": 112
     },
     "FA61": {
@@ -2949,8 +2949,8 @@
       "dimensions": "94.5 x 56 x 20 mm",
       "pdfPage": 9,
       "diagram": "images/pad-shapes/fa61.png",
-      "diagramWidth": 884,
-      "diagramHeight": 327,
+      "diagramWidth": 391,
+      "diagramHeight": 179,
       "diagramPage": 9
     },
     "FA610": {
@@ -2959,8 +2959,8 @@
       "dimensions": "135.5 x 55 x 8 mm",
       "pdfPage": 112,
       "diagram": "images/pad-shapes/fa610.png",
-      "diagramWidth": 1626,
-      "diagramHeight": 194,
+      "diagramWidth": 445,
+      "diagramHeight": 184,
       "diagramPage": 112
     },
     "FA612": {
@@ -2969,8 +2969,8 @@
       "dimensions": "59 x 40 x 7.5 mm",
       "pdfPage": 112,
       "diagram": "images/pad-shapes/fa612.png",
-      "diagramWidth": 797,
-      "diagramHeight": 151,
+      "diagramWidth": 192,
+      "diagramHeight": 134,
       "diagramPage": 112
     },
     "FA613": {
@@ -2979,8 +2979,8 @@
       "dimensions": "81 x 46 x 9.5 mm",
       "pdfPage": 113,
       "diagram": "images/pad-shapes/fa613.png",
-      "diagramWidth": 744,
-      "diagramHeight": 159,
+      "diagramWidth": 258,
+      "diagramHeight": 150,
       "diagramPage": 113
     },
     "FA617": {
@@ -2989,8 +2989,8 @@
       "dimensions": "109.5 x 40 x 7.5 mm",
       "pdfPage": 113,
       "diagram": "images/pad-shapes/fa617.png",
-      "diagramWidth": 783,
-      "diagramHeight": 255,
+      "diagramWidth": 445,
+      "diagramHeight": 247,
       "diagramPage": 113
     },
     "FA618": {
@@ -2999,8 +2999,8 @@
       "dimensions": "109.5 x 40 x 7.5 mm",
       "pdfPage": 113,
       "diagram": "images/pad-shapes/fa618.png",
-      "diagramWidth": 783,
-      "diagramHeight": 254,
+      "diagramWidth": 471,
+      "diagramHeight": 246,
       "diagramPage": 113
     },
     "FA62": {
@@ -3009,7 +3009,7 @@
       "dimensions": "51 x 11 mm",
       "pdfPage": 9,
       "diagram": "images/pad-shapes/fa62.png",
-      "diagramWidth": 813,
+      "diagramWidth": 161,
       "diagramHeight": 142,
       "diagramPage": 9
     },
@@ -3019,8 +3019,8 @@
       "dimensions": "77.5 x 42 x 7 mm",
       "pdfPage": 113,
       "diagram": "images/pad-shapes/fa622.png",
-      "diagramWidth": 1046,
-      "diagramHeight": 154,
+      "diagramWidth": 246,
+      "diagramHeight": 138,
       "diagramPage": 113
     },
     "FA623": {
@@ -3029,8 +3029,8 @@
       "dimensions": "84.5 x 59.5 x 10 mm",
       "pdfPage": 114,
       "diagram": "images/pad-shapes/fa623.png",
-      "diagramWidth": 1281,
-      "diagramHeight": 200,
+      "diagramWidth": 267,
+      "diagramHeight": 191,
       "diagramPage": 114
     },
     "FA624": {
@@ -3039,8 +3039,8 @@
       "dimensions": "42 x 50 x 6.5 mm",
       "pdfPage": 114,
       "diagram": "images/pad-shapes/fa624.png",
-      "diagramWidth": 769,
-      "diagramHeight": 172,
+      "diagramWidth": 295,
+      "diagramHeight": 162,
       "diagramPage": 114
     },
     "FA629": {
@@ -3049,8 +3049,8 @@
       "dimensions": "88 x 40 x 10 mm",
       "pdfPage": 114,
       "diagram": "images/pad-shapes/fa629.png",
-      "diagramWidth": 785,
-      "diagramHeight": 318,
+      "diagramWidth": 308,
+      "diagramHeight": 279,
       "diagramPage": 114
     },
     "FA63": {
@@ -3079,8 +3079,8 @@
       "dimensions": "96.5 x 43.5 x 8 mm",
       "pdfPage": 115,
       "diagram": "images/pad-shapes/fa631.png",
-      "diagramWidth": 786,
-      "diagramHeight": 320,
+      "diagramWidth": 336,
+      "diagramHeight": 308,
       "diagramPage": 115
     },
     "FA634": {
@@ -3089,8 +3089,8 @@
       "dimensions": "64 x 44 x 10.5 mm",
       "pdfPage": 116,
       "diagram": "images/pad-shapes/fa634.png",
-      "diagramWidth": 2228,
-      "diagramHeight": 437,
+      "diagramWidth": 230,
+      "diagramHeight": 268,
       "diagramPage": 116
     },
     "FA636": {
@@ -3099,8 +3099,8 @@
       "dimensions": "102 x 40 x 9.5 mm",
       "pdfPage": 116,
       "diagram": "images/pad-shapes/fa636.png",
-      "diagramWidth": 769,
-      "diagramHeight": 287,
+      "diagramWidth": 334,
+      "diagramHeight": 278,
       "diagramPage": 116
     },
     "FA638": {
@@ -3109,8 +3109,8 @@
       "dimensions": "173.5 x 48.5 x 7 mm",
       "pdfPage": 116,
       "diagram": "images/pad-shapes/fa638.png",
-      "diagramWidth": 925,
-      "diagramHeight": 322,
+      "diagramWidth": 597,
+      "diagramHeight": 313,
       "diagramPage": 116
     },
     "FA64": {
@@ -3119,8 +3119,8 @@
       "dimensions": "65.5 x 59 x 10 mm",
       "pdfPage": 10,
       "diagram": "images/pad-shapes/fa64.png",
-      "diagramWidth": 793,
-      "diagramHeight": 194,
+      "diagramWidth": 205,
+      "diagramHeight": 185,
       "diagramPage": 10
     },
     "FA640": {
@@ -3129,8 +3129,8 @@
       "dimensions": "118 x 48.5 x 9.5 mm",
       "pdfPage": 116,
       "diagram": "images/pad-shapes/fa640.png",
-      "diagramWidth": 926,
-      "diagramHeight": 298,
+      "diagramWidth": 406,
+      "diagramHeight": 282,
       "diagramPage": 116
     },
     "FA641/4": {
@@ -3139,8 +3139,8 @@
       "dimensions": "88 x 43 x 8 mm",
       "pdfPage": 116,
       "diagram": "images/pad-shapes/fa641-4.png",
-      "diagramWidth": 927,
-      "diagramHeight": 154,
+      "diagramWidth": 271,
+      "diagramHeight": 137,
       "diagramPage": 116
     },
     "FA642": {
@@ -3149,8 +3149,8 @@
       "dimensions": "104 x 46.5 x 8 mm",
       "pdfPage": 117,
       "diagram": "images/pad-shapes/fa642.png",
-      "diagramWidth": 1595,
-      "diagramHeight": 308,
+      "diagramWidth": 314,
+      "diagramHeight": 300,
       "diagramPage": 117
     },
     "FA644": {
@@ -3159,8 +3159,8 @@
       "dimensions": "56 x 32 x 5 mm",
       "pdfPage": 117,
       "diagram": "images/pad-shapes/fa644.png",
-      "diagramWidth": 1440,
-      "diagramHeight": 119,
+      "diagramWidth": 176,
+      "diagramHeight": 106,
       "diagramPage": 117
     },
     "FA645": {
@@ -3169,8 +3169,8 @@
       "dimensions": "104 x 46.5 x 8 mm",
       "pdfPage": 117,
       "diagram": "images/pad-shapes/fa645.png",
-      "diagramWidth": 790,
-      "diagramHeight": 310,
+      "diagramWidth": 432,
+      "diagramHeight": 302,
       "diagramPage": 117
     },
     "FA649": {
@@ -3179,8 +3179,8 @@
       "dimensions": "99 x 55 x 8.5 mm",
       "pdfPage": 117,
       "diagram": "images/pad-shapes/fa649.png",
-      "diagramWidth": 935,
-      "diagramHeight": 192,
+      "diagramWidth": 304,
+      "diagramHeight": 175,
       "diagramPage": 117
     },
     "FA65": {
@@ -3189,8 +3189,8 @@
       "dimensions": "71.5 x 45 x 11.5 mm",
       "pdfPage": 10,
       "diagram": "images/pad-shapes/fa65.png",
-      "diagramWidth": 790,
-      "diagramHeight": 143,
+      "diagramWidth": 223,
+      "diagramHeight": 142,
       "diagramPage": 10
     },
     "FA651": {
@@ -3199,8 +3199,8 @@
       "dimensions": "72.5 x 30 x 10 mm",
       "pdfPage": 118,
       "diagram": "images/pad-shapes/fa651.png",
-      "diagramWidth": 795,
-      "diagramHeight": 118,
+      "diagramWidth": 211,
+      "diagramHeight": 93,
       "diagramPage": 118
     },
     "FA654": {
@@ -3209,8 +3209,8 @@
       "dimensions": "73.5 x 42 x 6.5 mm",
       "pdfPage": 118,
       "diagram": "images/pad-shapes/fa654.png",
-      "diagramWidth": 719,
-      "diagramHeight": 236,
+      "diagramWidth": 272,
+      "diagramHeight": 227,
       "diagramPage": 118
     },
     "FA656": {
@@ -3219,8 +3219,8 @@
       "dimensions": "120.5 x 57 x 7 mm",
       "pdfPage": 118,
       "diagram": "images/pad-shapes/fa656.png",
-      "diagramWidth": 790,
-      "diagramHeight": 194,
+      "diagramWidth": 367,
+      "diagramHeight": 178,
       "diagramPage": 118
     },
     "FA657": {
@@ -3229,8 +3229,8 @@
       "dimensions": "97 x 52 x 7 mm",
       "pdfPage": 118,
       "diagram": "images/pad-shapes/fa657.png",
-      "diagramWidth": 790,
-      "diagramHeight": 180,
+      "diagramWidth": 296,
+      "diagramHeight": 164,
       "diagramPage": 118
     },
     "FA658": {
@@ -3239,8 +3239,8 @@
       "dimensions": "67.5 x 48.5 x 7 mm",
       "pdfPage": 119,
       "diagram": "images/pad-shapes/fa658.png",
-      "diagramWidth": 1499,
-      "diagramHeight": 171,
+      "diagramWidth": 213,
+      "diagramHeight": 154,
       "diagramPage": 119
     },
     "FA659": {
@@ -3259,7 +3259,7 @@
       "dimensions": "109.5 x 50.5 x 11 mm",
       "pdfPage": 119,
       "diagram": "images/pad-shapes/fa662.png",
-      "diagramWidth": 790,
+      "diagramWidth": 464,
       "diagramHeight": 279,
       "diagramPage": 119
     },
@@ -3269,7 +3269,7 @@
       "dimensions": "113.5 x 55 x 8.5 mm",
       "pdfPage": 119,
       "diagram": "images/pad-shapes/fa663.png",
-      "diagramWidth": 790,
+      "diagramWidth": 640,
       "diagramHeight": 172,
       "diagramPage": 119
     },
@@ -3279,8 +3279,8 @@
       "dimensions": "94 x 33 x 8 mm",
       "pdfPage": 119,
       "diagram": "images/pad-shapes/fa664.png",
-      "diagramWidth": 1388,
-      "diagramHeight": 121,
+      "diagramWidth": 288,
+      "diagramHeight": 104,
       "diagramPage": 119
     },
     "FA665": {
@@ -3289,8 +3289,8 @@
       "dimensions": "41 x 54 x 6 mm",
       "pdfPage": 120,
       "diagram": "images/pad-shapes/fa665.png",
-      "diagramWidth": 720,
-      "diagramHeight": 187,
+      "diagramWidth": 136,
+      "diagramHeight": 170,
       "diagramPage": 120
     },
     "FA669/4": {
@@ -3299,8 +3299,8 @@
       "dimensions": "137.5 x 49.5 x 15 mm",
       "pdfPage": 120,
       "diagram": "images/pad-shapes/fa669-4.png",
-      "diagramWidth": 781,
-      "diagramHeight": 164,
+      "diagramWidth": 416,
+      "diagramHeight": 156,
       "diagramPage": 120
     },
     "FA67": {
@@ -3339,8 +3339,8 @@
       "dimensions": "137.5 x 49.5 x 6 mm",
       "pdfPage": 120,
       "diagram": "images/pad-shapes/fa670.png",
-      "diagramWidth": 781,
-      "diagramHeight": 164,
+      "diagramWidth": 416,
+      "diagramHeight": 156,
       "diagramPage": 120
     },
     "FA671": {
@@ -3349,7 +3349,7 @@
       "dimensions": "94 x 36.5 x 10 mm",
       "pdfPage": 120,
       "diagram": "images/pad-shapes/fa671.png",
-      "diagramWidth": 744,
+      "diagramWidth": 577,
       "diagramHeight": 119,
       "diagramPage": 120
     },
@@ -3359,8 +3359,8 @@
       "dimensions": "114.5 x 38.5 x 9.5 mm",
       "pdfPage": 120,
       "diagram": "images/pad-shapes/fa672.png",
-      "diagramWidth": 769,
-      "diagramHeight": 140,
+      "diagramWidth": 344,
+      "diagramHeight": 122,
       "diagramPage": 120
     },
     "FA674": {
@@ -3369,8 +3369,8 @@
       "dimensions": "97 x 42 x 7.5 mm",
       "pdfPage": 120,
       "diagram": "images/pad-shapes/fa674.png",
-      "diagramWidth": 790,
-      "diagramHeight": 142,
+      "diagramWidth": 545,
+      "diagramHeight": 134,
       "diagramPage": 120
     },
     "FA675": {
@@ -3379,8 +3379,8 @@
       "dimensions": "97 x 42 x 7.5 mm",
       "pdfPage": 120,
       "diagram": "images/pad-shapes/fa675.png",
-      "diagramWidth": 790,
-      "diagramHeight": 142,
+      "diagramWidth": 545,
+      "diagramHeight": 134,
       "diagramPage": 120
     },
     "FA676": {
@@ -3389,8 +3389,8 @@
       "dimensions": "114 x 37 x 9 mm",
       "pdfPage": 121,
       "diagram": "images/pad-shapes/fa676.png",
-      "diagramWidth": 790,
-      "diagramHeight": 133,
+      "diagramWidth": 332,
+      "diagramHeight": 116,
       "diagramPage": 121
     },
     "FA677": {
@@ -3399,8 +3399,8 @@
       "dimensions": "104 x 34.5 x 9 mm",
       "pdfPage": 121,
       "diagram": "images/pad-shapes/fa677.png",
-      "diagramWidth": 785,
-      "diagramHeight": 120,
+      "diagramWidth": 313,
+      "diagramHeight": 112,
       "diagramPage": 121
     },
     "FA679": {
@@ -3409,8 +3409,8 @@
       "dimensions": "83 x 39.5 x 8 mm",
       "pdfPage": 121,
       "diagram": "images/pad-shapes/fa679.png",
-      "diagramWidth": 769,
-      "diagramHeight": 146,
+      "diagramWidth": 252,
+      "diagramHeight": 128,
       "diagramPage": 121
     },
     "FA68": {
@@ -3419,8 +3419,8 @@
       "dimensions": "68 x 40.5 x 9.5 mm",
       "pdfPage": 11,
       "diagram": "images/pad-shapes/fa68.png",
-      "diagramWidth": 818,
-      "diagramHeight": 148,
+      "diagramWidth": 211,
+      "diagramHeight": 131,
       "diagramPage": 11
     },
     "FA680": {
@@ -3429,8 +3429,8 @@
       "dimensions": "155 x 53 x 7 mm",
       "pdfPage": 121,
       "diagram": "images/pad-shapes/fa680.png",
-      "diagramWidth": 790,
-      "diagramHeight": 178,
+      "diagramWidth": 477,
+      "diagramHeight": 170,
       "diagramPage": 121
     },
     "FA682": {
@@ -3439,8 +3439,8 @@
       "dimensions": "117.5 x 50.5 x 8 mm",
       "pdfPage": 122,
       "diagram": "images/pad-shapes/fa682.png",
-      "diagramWidth": 2238,
-      "diagramHeight": 645,
+      "diagramWidth": 355,
+      "diagramHeight": 316,
       "diagramPage": 122
     },
     "FA683": {
@@ -3449,7 +3449,7 @@
       "dimensions": "117.5 x 50.5 x 8 mm",
       "pdfPage": 122,
       "diagram": "images/pad-shapes/fa683.png",
-      "diagramWidth": 934,
+      "diagramWidth": 359,
       "diagramHeight": 316,
       "diagramPage": 122
     },
@@ -3459,8 +3459,8 @@
       "dimensions": "101.5 x 43 x 8 mm",
       "pdfPage": 122,
       "diagram": "images/pad-shapes/fa684.png",
-      "diagramWidth": 930,
-      "diagramHeight": 147,
+      "diagramWidth": 588,
+      "diagramHeight": 138,
       "diagramPage": 122
     },
     "FA685": {
@@ -3469,8 +3469,8 @@
       "dimensions": "101.5 x 43 x 8 mm",
       "pdfPage": 122,
       "diagram": "images/pad-shapes/fa685.png",
-      "diagramWidth": 934,
-      "diagramHeight": 147,
+      "diagramWidth": 588,
+      "diagramHeight": 139,
       "diagramPage": 122
     },
     "FA686": {
@@ -3479,8 +3479,8 @@
       "dimensions": "94 x 44.5 x 8.5 mm",
       "pdfPage": 122,
       "diagram": "images/pad-shapes/fa686.png",
-      "diagramWidth": 817,
-      "diagramHeight": 155,
+      "diagramWidth": 533,
+      "diagramHeight": 147,
       "diagramPage": 122
     },
     "FA69": {
@@ -3489,8 +3489,8 @@
       "dimensions": "89.5 x 49 x 10 mm",
       "pdfPage": 12,
       "diagram": "images/pad-shapes/fa69.png",
-      "diagramWidth": 2264,
-      "diagramHeight": 539,
+      "diagramWidth": 275,
+      "diagramHeight": 156,
       "diagramPage": 12
     },
     "FA69/2": {
@@ -3499,8 +3499,8 @@
       "dimensions": "89.5 x 49.5 x 9 mm",
       "pdfPage": 12,
       "diagram": "images/pad-shapes/fa69-2.png",
-      "diagramWidth": 2264,
-      "diagramHeight": 539,
+      "diagramWidth": 275,
+      "diagramHeight": 156,
       "diagramPage": 12
     },
     "FA69/3": {
@@ -3509,8 +3509,8 @@
       "dimensions": "89.5 x 49.5 x 11.5 mm",
       "pdfPage": 12,
       "diagram": "images/pad-shapes/fa69-3.png",
-      "diagramWidth": 2264,
-      "diagramHeight": 539,
+      "diagramWidth": 275,
+      "diagramHeight": 156,
       "diagramPage": 12
     },
     "FA691": {
@@ -3519,8 +3519,8 @@
       "dimensions": "85 x 44.5 x 7 mm",
       "pdfPage": 123,
       "diagram": "images/pad-shapes/fa691.png",
-      "diagramWidth": 1463,
-      "diagramHeight": 147,
+      "diagramWidth": 496,
+      "diagramHeight": 139,
       "diagramPage": 123
     },
     "FA696": {
@@ -3529,8 +3529,8 @@
       "dimensions": "55 x 53.5 x 9 mm",
       "pdfPage": 123,
       "diagram": "images/pad-shapes/fa696.png",
-      "diagramWidth": 769,
-      "diagramHeight": 185,
+      "diagramWidth": 177,
+      "diagramHeight": 169,
       "diagramPage": 123
     },
     "FA697": {
@@ -3539,8 +3539,8 @@
       "dimensions": "75 x 42.5 x 9.5 mm",
       "pdfPage": 123,
       "diagram": "images/pad-shapes/fa697.png",
-      "diagramWidth": 807,
-      "diagramHeight": 276,
+      "diagramWidth": 241,
+      "diagramHeight": 265,
       "diagramPage": 123
     },
     "FA698": {
@@ -3549,8 +3549,8 @@
       "dimensions": "81.5 x 37.5 x 9 mm",
       "pdfPage": 123,
       "diagram": "images/pad-shapes/fa698.png",
-      "diagramWidth": 785,
-      "diagramHeight": 139,
+      "diagramWidth": 252,
+      "diagramHeight": 122,
       "diagramPage": 123
     },
     "FA70": {
@@ -3559,8 +3559,8 @@
       "dimensions": "65.5 x 59 x 10 mm",
       "pdfPage": 12,
       "diagram": "images/pad-shapes/fa70.png",
-      "diagramWidth": 792,
-      "diagramHeight": 194,
+      "diagramWidth": 202,
+      "diagramHeight": 183,
       "diagramPage": 12
     },
     "FA700": {
@@ -3569,8 +3569,8 @@
       "dimensions": "78 x 42.5 x 8 mm",
       "pdfPage": 123,
       "diagram": "images/pad-shapes/fa700.png",
-      "diagramWidth": 769,
-      "diagramHeight": 154,
+      "diagramWidth": 245,
+      "diagramHeight": 138,
       "diagramPage": 123
     },
     "FA701": {
@@ -3579,8 +3579,8 @@
       "dimensions": "115 x 41 x 11 mm",
       "pdfPage": 124,
       "diagram": "images/pad-shapes/fa701.png",
-      "diagramWidth": 769,
-      "diagramHeight": 147,
+      "diagramWidth": 355,
+      "diagramHeight": 130,
       "diagramPage": 124
     },
     "FA702": {
@@ -3589,8 +3589,8 @@
       "dimensions": "115 x 41 x 11 mm",
       "pdfPage": 124,
       "diagram": "images/pad-shapes/fa702.png",
-      "diagramWidth": 769,
-      "diagramHeight": 147,
+      "diagramWidth": 355,
+      "diagramHeight": 130,
       "diagramPage": 124
     },
     "FA703": {
@@ -3599,8 +3599,8 @@
       "dimensions": "82 x 38.5 x 10.5 mm",
       "pdfPage": 124,
       "diagram": "images/pad-shapes/fa703.png",
-      "diagramWidth": 769,
-      "diagramHeight": 266,
+      "diagramWidth": 260,
+      "diagramHeight": 257,
       "diagramPage": 124
     },
     "FA704": {
@@ -3609,8 +3609,8 @@
       "dimensions": "82 x 38.5 x 10.5 mm",
       "pdfPage": 124,
       "diagram": "images/pad-shapes/fa704.png",
-      "diagramWidth": 769,
-      "diagramHeight": 265,
+      "diagramWidth": 260,
+      "diagramHeight": 256,
       "diagramPage": 124
     },
     "FA707": {
@@ -3619,8 +3619,8 @@
       "dimensions": "124 x 43 x 9 mm",
       "pdfPage": 124,
       "diagram": "images/pad-shapes/fa707.png",
-      "diagramWidth": 1631,
-      "diagramHeight": 269,
+      "diagramWidth": 377,
+      "diagramHeight": 268,
       "diagramPage": 124
     },
     "FA71": {
@@ -3629,8 +3629,8 @@
       "dimensions": "53.5 x 68.5 x 6.5 mm",
       "pdfPage": 12,
       "diagram": "images/pad-shapes/fa71.png",
-      "diagramWidth": 926,
-      "diagramHeight": 224,
+      "diagramWidth": 170,
+      "diagramHeight": 215,
       "diagramPage": 12
     },
     "FA710": {
@@ -3639,8 +3639,8 @@
       "dimensions": "82 x 42 x 10 mm",
       "pdfPage": 125,
       "diagram": "images/pad-shapes/fa710.png",
-      "diagramWidth": 926,
-      "diagramHeight": 155,
+      "diagramWidth": 257,
+      "diagramHeight": 138,
       "diagramPage": 125
     },
     "FA711": {
@@ -3649,7 +3649,7 @@
       "dimensions": "124 x 43 x 9 mm",
       "pdfPage": 125,
       "diagram": "images/pad-shapes/fa711.png",
-      "diagramWidth": 815,
+      "diagramWidth": 414,
       "diagramHeight": 403,
       "diagramPage": 125
     },
@@ -3659,7 +3659,7 @@
       "dimensions": "104 x 43 x 14.5 mm",
       "pdfPage": 125,
       "diagram": "images/pad-shapes/fa712.png",
-      "diagramWidth": 769,
+      "diagramWidth": 318,
       "diagramHeight": 279,
       "diagramPage": 125
     },
@@ -3669,8 +3669,8 @@
       "dimensions": "75.5 x 39.5 x 12 mm",
       "pdfPage": 125,
       "diagram": "images/pad-shapes/fa714.png",
-      "diagramWidth": 769,
-      "diagramHeight": 144,
+      "diagramWidth": 234,
+      "diagramHeight": 127,
       "diagramPage": 125
     },
     "FA716": {
@@ -3679,7 +3679,7 @@
       "dimensions": "101.5 x 43.5 x 7.5 mm",
       "pdfPage": 126,
       "diagram": "images/pad-shapes/fa716.png",
-      "diagramWidth": 795,
+      "diagramWidth": 671,
       "diagramHeight": 315,
       "diagramPage": 126
     },
@@ -3689,8 +3689,8 @@
       "dimensions": "129.5 x 40 x 9 mm",
       "pdfPage": 126,
       "diagram": "images/pad-shapes/fa717.png",
-      "diagramWidth": 769,
-      "diagramHeight": 159,
+      "diagramWidth": 393,
+      "diagramHeight": 129,
       "diagramPage": 126
     },
     "FA72": {
@@ -3699,8 +3699,8 @@
       "dimensions": "71 x 89 x 6.5 mm",
       "pdfPage": 12,
       "diagram": "images/pad-shapes/fa72.png",
-      "diagramWidth": 927,
-      "diagramHeight": 280,
+      "diagramWidth": 220,
+      "diagramHeight": 270,
       "diagramPage": 12
     },
     "FA722": {
@@ -3709,8 +3709,8 @@
       "dimensions": "137.5 x 43 x 9 mm",
       "pdfPage": 126,
       "diagram": "images/pad-shapes/fa722.png",
-      "diagramWidth": 1447,
-      "diagramHeight": 146,
+      "diagramWidth": 417,
+      "diagramHeight": 137,
       "diagramPage": 126
     },
     "FA724": {
@@ -3719,8 +3719,8 @@
       "dimensions": "73 x 54.5 x 8.5 mm",
       "pdfPage": 127,
       "diagram": "images/pad-shapes/fa724.png",
-      "diagramWidth": 744,
-      "diagramHeight": 181,
+      "diagramWidth": 227,
+      "diagramHeight": 172,
       "diagramPage": 127
     },
     "FA726": {
@@ -3729,8 +3729,8 @@
       "dimensions": "101.5 x 36.5 x 11 mm",
       "pdfPage": 127,
       "diagram": "images/pad-shapes/fa726.png",
-      "diagramWidth": 804,
-      "diagramHeight": 109,
+      "diagramWidth": 311,
+      "diagramHeight": 102,
       "diagramPage": 127
     },
     "FA727": {
@@ -3739,8 +3739,8 @@
       "dimensions": "137.5 x 44 x 9 mm",
       "pdfPage": 127,
       "diagram": "images/pad-shapes/fa727.png",
-      "diagramWidth": 779,
-      "diagramHeight": 146,
+      "diagramWidth": 417,
+      "diagramHeight": 138,
       "diagramPage": 127
     },
     "FA728": {
@@ -3749,8 +3749,8 @@
       "dimensions": "163.5 x 50 x 9.5 mm",
       "pdfPage": 127,
       "diagram": "images/pad-shapes/fa728.png",
-      "diagramWidth": 791,
-      "diagramHeight": 161,
+      "diagramWidth": 494,
+      "diagramHeight": 159,
       "diagramPage": 127
     },
     "FA73": {
@@ -3759,8 +3759,8 @@
       "dimensions": "51 x 12 mm",
       "pdfPage": 12,
       "diagram": "images/pad-shapes/fa73.png",
-      "diagramWidth": 820,
-      "diagramHeight": 179,
+      "diagramWidth": 357,
+      "diagramHeight": 170,
       "diagramPage": 12
     },
     "FA730": {
@@ -3769,8 +3769,8 @@
       "dimensions": "49.5 x 36 x 8 mm",
       "pdfPage": 127,
       "diagram": "images/pad-shapes/fa730.png",
-      "diagramWidth": 1436,
-      "diagramHeight": 138,
+      "diagramWidth": 162,
+      "diagramHeight": 121,
       "diagramPage": 127
     },
     "FA731": {
@@ -3779,8 +3779,8 @@
       "dimensions": "128 x 45.5 x 9 mm",
       "pdfPage": 127,
       "diagram": "images/pad-shapes/fa731.png",
-      "diagramWidth": 1411,
-      "diagramHeight": 327,
+      "diagramWidth": 403,
+      "diagramHeight": 318,
       "diagramPage": 127
     },
     "FA737": {
@@ -3789,8 +3789,8 @@
       "dimensions": "106.5 x 41 x 8 mm",
       "pdfPage": 128,
       "diagram": "images/pad-shapes/fa737.png",
-      "diagramWidth": 804,
-      "diagramHeight": 142,
+      "diagramWidth": 326,
+      "diagramHeight": 132,
       "diagramPage": 128
     },
     "FA738": {
@@ -3799,8 +3799,8 @@
       "dimensions": "114 x 39 x 9 mm",
       "pdfPage": 128,
       "diagram": "images/pad-shapes/fa738.png",
-      "diagramWidth": 818,
-      "diagramHeight": 143,
+      "diagramWidth": 350,
+      "diagramHeight": 126,
       "diagramPage": 128
     },
     "FA739": {
@@ -3809,8 +3809,8 @@
       "dimensions": "85.5 x 38 x 9 mm",
       "pdfPage": 128,
       "diagram": "images/pad-shapes/fa739.png",
-      "diagramWidth": 818,
-      "diagramHeight": 141,
+      "diagramWidth": 264,
+      "diagramHeight": 123,
       "diagramPage": 128
     },
     "FA740": {
@@ -3819,8 +3819,8 @@
       "dimensions": "122 x 55 x 8 mm",
       "pdfPage": 128,
       "diagram": "images/pad-shapes/fa740.png",
-      "diagramWidth": 833,
-      "diagramHeight": 194,
+      "diagramWidth": 384,
+      "diagramHeight": 178,
       "diagramPage": 128
     },
     "FA741": {
@@ -3829,8 +3829,8 @@
       "dimensions": "122 x 51.5 x 8 mm",
       "pdfPage": 128,
       "diagram": "images/pad-shapes/fa741.png",
-      "diagramWidth": 832,
-      "diagramHeight": 185,
+      "diagramWidth": 384,
+      "diagramHeight": 169,
       "diagramPage": 128
     },
     "FA742": {
@@ -3839,8 +3839,8 @@
       "dimensions": "122 x 48 x 8 mm",
       "pdfPage": 128,
       "diagram": "images/pad-shapes/fa742.png",
-      "diagramWidth": 832,
-      "diagramHeight": 175,
+      "diagramWidth": 384,
+      "diagramHeight": 158,
       "diagramPage": 128
     },
     "FA743": {
@@ -3849,8 +3849,8 @@
       "dimensions": "50 x 9 mm",
       "pdfPage": 128,
       "diagram": "images/pad-shapes/fa743.png",
-      "diagramWidth": 791,
-      "diagramHeight": 182,
+      "diagramWidth": 158,
+      "diagramHeight": 173,
       "diagramPage": 128
     },
     "FA744": {
@@ -3859,7 +3859,7 @@
       "dimensions": "101.5 x 43 x 9.5 mm",
       "pdfPage": 128,
       "diagram": "images/pad-shapes/fa744.png",
-      "diagramWidth": 772,
+      "diagramWidth": 579,
       "diagramHeight": 139,
       "diagramPage": 128
     },
@@ -3869,8 +3869,8 @@
       "dimensions": "88.5 x 37 x 11 mm",
       "pdfPage": 129,
       "diagram": "images/pad-shapes/fa747.png",
-      "diagramWidth": 795,
-      "diagramHeight": 138,
+      "diagramWidth": 275,
+      "diagramHeight": 121,
       "diagramPage": 129
     },
     "FA748": {
@@ -3879,8 +3879,8 @@
       "dimensions": "90.5 x 54.5 x 8 mm",
       "pdfPage": 129,
       "diagram": "images/pad-shapes/fa748.png",
-      "diagramWidth": 743,
-      "diagramHeight": 377,
+      "diagramWidth": 285,
+      "diagramHeight": 368,
       "diagramPage": 129
     },
     "FA749": {
@@ -3889,8 +3889,8 @@
       "dimensions": "90.5 x 54.5 x 8 mm",
       "pdfPage": 129,
       "diagram": "images/pad-shapes/fa749.png",
-      "diagramWidth": 745,
-      "diagramHeight": 377,
+      "diagramWidth": 285,
+      "diagramHeight": 368,
       "diagramPage": 129
     },
     "FA754": {
@@ -3899,8 +3899,8 @@
       "dimensions": "88.5 x 42 x 9.7 mm",
       "pdfPage": 129,
       "diagram": "images/pad-shapes/fa754.png",
-      "diagramWidth": 802,
-      "diagramHeight": 152,
+      "diagramWidth": 273,
+      "diagramHeight": 135,
       "diagramPage": 129
     },
     "FA755": {
@@ -3909,8 +3909,8 @@
       "dimensions": "94 x 33.8 x 7.5 mm",
       "pdfPage": 129,
       "diagram": "images/pad-shapes/fa755.png",
-      "diagramWidth": 1435,
-      "diagramHeight": 122,
+      "diagramWidth": 301,
+      "diagramHeight": 114,
       "diagramPage": 129
     },
     "FA756R": {
@@ -3929,8 +3929,8 @@
       "dimensions": "80 x 43 x 7.8 mm",
       "pdfPage": 129,
       "diagram": "images/pad-shapes/fa757.png",
-      "diagramWidth": 1414,
-      "diagramHeight": 161,
+      "diagramWidth": 258,
+      "diagramHeight": 144,
       "diagramPage": 129
     },
     "FA758": {
@@ -3949,8 +3949,8 @@
       "dimensions": "68 x 50 x 7 mm",
       "pdfPage": 130,
       "diagram": "images/pad-shapes/fa759.png",
-      "diagramWidth": 769,
-      "diagramHeight": 168,
+      "diagramWidth": 211,
+      "diagramHeight": 159,
       "diagramPage": 130
     },
     "FA76": {
@@ -3959,8 +3959,8 @@
       "dimensions": "48.5 x 58 x 7 mm",
       "pdfPage": 13,
       "diagram": "images/pad-shapes/fa76.png",
-      "diagramWidth": 1455,
-      "diagramHeight": 205,
+      "diagramWidth": 154,
+      "diagramHeight": 185,
       "diagramPage": 13
     },
     "FA760": {
@@ -3969,8 +3969,8 @@
       "dimensions": "83 x 49 x 8 mm",
       "pdfPage": 130,
       "diagram": "images/pad-shapes/fa760.png",
-      "diagramWidth": 925,
-      "diagramHeight": 169,
+      "diagramWidth": 256,
+      "diagramHeight": 155,
       "diagramPage": 130
     },
     "FA761": {
@@ -3979,7 +3979,7 @@
       "dimensions": "128 x 45.5 x 9 mm",
       "pdfPage": 130,
       "diagram": "images/pad-shapes/fa761.png",
-      "diagramWidth": 766,
+      "diagramWidth": 396,
       "diagramHeight": 318,
       "diagramPage": 130
     },
@@ -3989,8 +3989,8 @@
       "dimensions": "60 x 59 x 9 mm",
       "pdfPage": 13,
       "diagram": "images/pad-shapes/fa77.png",
-      "diagramWidth": 1447,
-      "diagramHeight": 199,
+      "diagramWidth": 187,
+      "diagramHeight": 182,
       "diagramPage": 13
     },
     "FA78": {
@@ -3999,8 +3999,8 @@
       "dimensions": "74.5 x 49 x 12 mm",
       "pdfPage": 13,
       "diagram": "images/pad-shapes/fa78.png",
-      "diagramWidth": 934,
-      "diagramHeight": 161,
+      "diagramWidth": 409,
+      "diagramHeight": 152,
       "diagramPage": 13
     },
     "FA79": {
@@ -4009,8 +4009,8 @@
       "dimensions": "174.5 x 72.5 x 10 mm",
       "pdfPage": 13,
       "diagram": "images/pad-shapes/fa79.png",
-      "diagramWidth": 929,
-      "diagramHeight": 233,
+      "diagramWidth": 523,
+      "diagramHeight": 226,
       "diagramPage": 13
     },
     "FA80": {
@@ -4019,8 +4019,8 @@
       "dimensions": "92 x 53.5 x 8 mm",
       "pdfPage": 13,
       "diagram": "images/pad-shapes/fa80.png",
-      "diagramWidth": 889,
-      "diagramHeight": 178,
+      "diagramWidth": 281,
+      "diagramHeight": 169,
       "diagramPage": 13
     },
     "FA80/2": {
@@ -4029,8 +4029,8 @@
       "dimensions": "92 x 53.5 x 9.5 mm",
       "pdfPage": 13,
       "diagram": "images/pad-shapes/fa80-2.png",
-      "diagramWidth": 889,
-      "diagramHeight": 178,
+      "diagramWidth": 281,
+      "diagramHeight": 169,
       "diagramPage": 13
     },
     "FA81": {
@@ -4039,8 +4039,8 @@
       "dimensions": "68 x 58.5 x 10.5 mm",
       "pdfPage": 13,
       "diagram": "images/pad-shapes/fa81.png",
-      "diagramWidth": 789,
-      "diagramHeight": 194,
+      "diagramWidth": 211,
+      "diagramHeight": 185,
       "diagramPage": 13
     },
     "FA83": {
@@ -4049,8 +4049,8 @@
       "dimensions": "47.5 x 37 x 9 mm",
       "pdfPage": 14,
       "diagram": "images/pad-shapes/fa83.png",
-      "diagramWidth": 2244,
-      "diagramHeight": 489,
+      "diagramWidth": 499,
+      "diagramHeight": 137,
       "diagramPage": 14
     },
     "FA83/2": {
@@ -4059,8 +4059,8 @@
       "dimensions": "47.5 x 37 x 10 mm",
       "pdfPage": 14,
       "diagram": "images/pad-shapes/fa83-2.png",
-      "diagramWidth": 2244,
-      "diagramHeight": 489,
+      "diagramWidth": 499,
+      "diagramHeight": 137,
       "diagramPage": 14
     },
     "FA84": {
@@ -4069,8 +4069,8 @@
       "dimensions": "46 x 45 x 8 mm",
       "pdfPage": 16,
       "diagram": "images/pad-shapes/fa84.png",
-      "diagramWidth": 2263,
-      "diagramHeight": 532,
+      "diagramWidth": 145,
+      "diagramHeight": 145,
       "diagramPage": 16
     },
     "FA84/2": {
@@ -4079,8 +4079,8 @@
       "dimensions": "46 x 45 x 6.5/8 mm",
       "pdfPage": 16,
       "diagram": "images/pad-shapes/fa84-2.png",
-      "diagramWidth": 2263,
-      "diagramHeight": 532,
+      "diagramWidth": 145,
+      "diagramHeight": 145,
       "diagramPage": 16
     },
     "FA84/3": {
@@ -4089,8 +4089,8 @@
       "dimensions": "46 x 45 x 6.5 mm",
       "pdfPage": 16,
       "diagram": "images/pad-shapes/fa84-3.png",
-      "diagramWidth": 2263,
-      "diagramHeight": 532,
+      "diagramWidth": 145,
+      "diagramHeight": 145,
       "diagramPage": 16
     },
     "FA85": {
@@ -4109,8 +4109,8 @@
       "dimensions": "77 x 42 x 7.5 mm",
       "pdfPage": 17,
       "diagram": "images/pad-shapes/fa86.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 160,
+      "diagramWidth": 234,
+      "diagramHeight": 134,
       "diagramPage": 17
     },
     "FA86/2": {
@@ -4119,8 +4119,8 @@
       "dimensions": "77 x 42 x 8.5 mm",
       "pdfPage": 17,
       "diagram": "images/pad-shapes/fa86-2.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 160,
+      "diagramWidth": 234,
+      "diagramHeight": 134,
       "diagramPage": 17
     },
     "FA88": {
@@ -4129,8 +4129,8 @@
       "dimensions": "63.5 x 55 x 9 mm",
       "pdfPage": 18,
       "diagram": "images/pad-shapes/fa88.png",
-      "diagramWidth": 791,
-      "diagramHeight": 194,
+      "diagramWidth": 198,
+      "diagramHeight": 174,
       "diagramPage": 18
     },
     "FA90": {
@@ -4139,8 +4139,8 @@
       "dimensions": "91 x 51.5 x 10 mm",
       "pdfPage": 18,
       "diagram": "images/pad-shapes/fa90.png",
-      "diagramWidth": 769,
-      "diagramHeight": 171,
+      "diagramWidth": 278,
+      "diagramHeight": 163,
       "diagramPage": 18
     },
     "FA92": {
@@ -4149,8 +4149,8 @@
       "dimensions": "81 x 42 x 7.5 mm",
       "pdfPage": 18,
       "diagram": "images/pad-shapes/fa92.png",
-      "diagramWidth": 773,
-      "diagramHeight": 152,
+      "diagramWidth": 249,
+      "diagramHeight": 135,
       "diagramPage": 18
     },
     "FA93": {
@@ -4169,8 +4169,8 @@
       "dimensions": "56 x 60 x 13 mm",
       "pdfPage": 19,
       "diagram": "images/pad-shapes/fa94.png",
-      "diagramWidth": 926,
-      "diagramHeight": 211,
+      "diagramWidth": 184,
+      "diagramHeight": 193,
       "diagramPage": 19
     },
     "FA95": {
@@ -4189,8 +4189,8 @@
       "dimensions": "31.5 x 52 x 5.5 mm",
       "pdfPage": 21,
       "diagram": "images/pad-shapes/fa99.png",
-      "diagramWidth": 1439,
-      "diagramHeight": 205,
+      "diagramWidth": 105,
+      "diagramHeight": 165,
       "diagramPage": 21
     },
     "GPFAX611HH": {
@@ -4199,8 +4199,8 @@
       "dimensions": "82 x 29 x 8.5 mm",
       "pdfPage": 112,
       "diagram": "images/pad-shapes/gpfax611hh.png",
-      "diagramWidth": 744,
-      "diagramHeight": 118,
+      "diagramWidth": 262,
+      "diagramHeight": 99,
       "diagramPage": 112
     },
     "SFA131/2": {
@@ -4239,8 +4239,8 @@
       "dimensions": "48 x 36.5 x 7.5 mm",
       "pdfPage": 40,
       "diagram": "images/pad-shapes/sfa176.png",
-      "diagramWidth": 769,
-      "diagramHeight": 137,
+      "diagramWidth": 152,
+      "diagramHeight": 120,
       "diagramPage": 40
     },
     "SFA186": {
@@ -4249,8 +4249,8 @@
       "dimensions": "31.5 x 51 x 5.5 mm",
       "pdfPage": 45,
       "diagram": "images/pad-shapes/sfa186.png",
-      "diagramWidth": 1430,
-      "diagramHeight": 180,
+      "diagramWidth": 105,
+      "diagramHeight": 163,
       "diagramPage": 45
     },
     "SFA193": {
@@ -4269,8 +4269,8 @@
       "dimensions": "75 x 37 x 9.5 mm",
       "pdfPage": 61,
       "diagram": "images/pad-shapes/sfa233.png",
-      "diagramWidth": 778,
-      "diagramHeight": 135,
+      "diagramWidth": 237,
+      "diagramHeight": 120,
       "diagramPage": 61
     },
     "SFA234": {
@@ -4279,8 +4279,8 @@
       "dimensions": "59 x 44.5 x 9.5 mm",
       "pdfPage": 61,
       "diagram": "images/pad-shapes/sfa234.png",
-      "diagramWidth": 1421,
-      "diagramHeight": 158,
+      "diagramWidth": 188,
+      "diagramHeight": 144,
       "diagramPage": 61
     },
     "SFA235": {
@@ -4299,8 +4299,8 @@
       "dimensions": "32 x 49 x 7 mm",
       "pdfPage": 66,
       "diagram": "images/pad-shapes/sfa255.png",
-      "diagramWidth": 785,
-      "diagramHeight": 177,
+      "diagramWidth": 109,
+      "diagramHeight": 160,
       "diagramPage": 66
     },
     "SFA257": {
@@ -4309,8 +4309,8 @@
       "dimensions": "41 x 43 x 7.5 mm",
       "pdfPage": 66,
       "diagram": "images/pad-shapes/sfa257.png",
-      "diagramWidth": 1431,
-      "diagramHeight": 154,
+      "diagramWidth": 131,
+      "diagramHeight": 138,
       "diagramPage": 66
     },
     "SFA257/2": {
@@ -4339,8 +4339,8 @@
       "dimensions": "46 x 53 x 6.5 mm",
       "pdfPage": 72,
       "diagram": "images/pad-shapes/sfa268.png",
-      "diagramWidth": 1432,
-      "diagramHeight": 198,
+      "diagramWidth": 149,
+      "diagramHeight": 169,
       "diagramPage": 72
     },
     "SFA283/4": {
@@ -4349,8 +4349,8 @@
       "dimensions": "44.5 x 53.5 x 8.5 mm",
       "pdfPage": 73,
       "diagram": "images/pad-shapes/sfa283-4.png",
-      "diagramWidth": 1380,
-      "diagramHeight": 198,
+      "diagramWidth": 145,
+      "diagramHeight": 170,
       "diagramPage": 73
     },
     "SFA301": {
@@ -4359,8 +4359,8 @@
       "dimensions": "54 x 51 x 8 mm",
       "pdfPage": 75,
       "diagram": "images/pad-shapes/sfa301.png",
-      "diagramWidth": 781,
-      "diagramHeight": 178,
+      "diagramWidth": 172,
+      "diagramHeight": 161,
       "diagramPage": 75
     },
     "SFA306": {
@@ -4369,8 +4369,8 @@
       "dimensions": "70 x 42 x 8 mm",
       "pdfPage": 77,
       "diagram": "images/pad-shapes/sfa306.png",
-      "diagramWidth": 799,
-      "diagramHeight": 152,
+      "diagramWidth": 218,
+      "diagramHeight": 135,
       "diagramPage": 77
     },
     "SFA319": {
@@ -4379,8 +4379,8 @@
       "dimensions": "100 x 38.5 x 12 mm",
       "pdfPage": 78,
       "diagram": "images/pad-shapes/sfa319.png",
-      "diagramWidth": 1934,
-      "diagramHeight": 160,
+      "diagramWidth": 315,
+      "diagramHeight": 125,
       "diagramPage": 78
     },
     "SFA321": {
@@ -4389,8 +4389,8 @@
       "dimensions": "55.5 x 49 x 7.5 mm",
       "pdfPage": 78,
       "diagram": "images/pad-shapes/sfa321.png",
-      "diagramWidth": 786,
-      "diagramHeight": 172,
+      "diagramWidth": 180,
+      "diagramHeight": 155,
       "diagramPage": 78
     },
     "SFA323/2": {
@@ -4399,8 +4399,8 @@
       "dimensions": "81 x 42 x 7 mm",
       "pdfPage": 80,
       "diagram": "images/pad-shapes/sfa323-2.png",
-      "diagramWidth": 2238,
-      "diagramHeight": 539,
+      "diagramWidth": 249,
+      "diagramHeight": 135,
       "diagramPage": 80
     },
     "SFA323/3": {
@@ -4409,8 +4409,8 @@
       "dimensions": "81 x 42 x 8 mm",
       "pdfPage": 80,
       "diagram": "images/pad-shapes/sfa323-3.png",
-      "diagramWidth": 2238,
-      "diagramHeight": 539,
+      "diagramWidth": 249,
+      "diagramHeight": 135,
       "diagramPage": 80
     },
     "SFA324": {
@@ -4429,8 +4429,8 @@
       "dimensions": "78 x 47.5 x 7 mm",
       "pdfPage": 81,
       "diagram": "images/pad-shapes/sfa336.png",
-      "diagramWidth": 800,
-      "diagramHeight": 320,
+      "diagramWidth": 513,
+      "diagramHeight": 300,
       "diagramPage": 81
     },
     "SFA353": {
@@ -4439,7 +4439,7 @@
       "dimensions": "97 x 41.5 x 9.5 mm",
       "pdfPage": 85,
       "diagram": "images/pad-shapes/sfa353.png",
-      "diagramWidth": 633,
+      "diagramWidth": 607,
       "diagramHeight": 376,
       "diagramPage": 85
     },
@@ -4449,8 +4449,8 @@
       "dimensions": "55.5 x 46 x 7 mm",
       "pdfPage": 86,
       "diagram": "images/pad-shapes/sfa356.png",
-      "diagramWidth": 773,
-      "diagramHeight": 156,
+      "diagramWidth": 176,
+      "diagramHeight": 147,
       "diagramPage": 86
     },
     "SFA358": {
@@ -4459,7 +4459,7 @@
       "dimensions": "86 x 40 x 9 mm",
       "pdfPage": 86,
       "diagram": "images/pad-shapes/sfa358.png",
-      "diagramWidth": 772,
+      "diagramWidth": 596,
       "diagramHeight": 259,
       "diagramPage": 86
     },
@@ -4469,7 +4469,7 @@
       "dimensions": "99 x 41 x 8 mm",
       "pdfPage": 92,
       "diagram": "images/pad-shapes/sfa384.png",
-      "diagramWidth": 1387,
+      "diagramWidth": 314,
       "diagramHeight": 281,
       "diagramPage": 92
     },
@@ -4479,8 +4479,8 @@
       "dimensions": "77 x 42 x 9.5 mm",
       "pdfPage": 93,
       "diagram": "images/pad-shapes/sfa393.png",
-      "diagramWidth": 1435,
-      "diagramHeight": 151,
+      "diagramWidth": 237,
+      "diagramHeight": 134,
       "diagramPage": 93
     },
     "SFA396": {
@@ -4489,8 +4489,8 @@
       "dimensions": "99 x 44 x 7.5 mm",
       "pdfPage": 94,
       "diagram": "images/pad-shapes/sfa396.png",
-      "diagramWidth": 828,
-      "diagramHeight": 369,
+      "diagramWidth": 583,
+      "diagramHeight": 361,
       "diagramPage": 94
     },
     "SFA408": {
@@ -4499,8 +4499,8 @@
       "dimensions": "100 x 38.5 x 12 mm",
       "pdfPage": 96,
       "diagram": "images/pad-shapes/sfa408.png",
-      "diagramWidth": 1383,
-      "diagramHeight": 137,
+      "diagramWidth": 310,
+      "diagramHeight": 126,
       "diagramPage": 96
     },
     "SFA411": {
@@ -4509,8 +4509,8 @@
       "dimensions": "81 x 42 x 8.5 mm",
       "pdfPage": 96,
       "diagram": "images/pad-shapes/sfa411.png",
-      "diagramWidth": 771,
-      "diagramHeight": 152,
+      "diagramWidth": 249,
+      "diagramHeight": 134,
       "diagramPage": 96
     },
     "SFA412": {
@@ -4519,8 +4519,8 @@
       "dimensions": "88 x 46.5 x 8.5 mm",
       "pdfPage": 96,
       "diagram": "images/pad-shapes/sfa412.png",
-      "diagramWidth": 771,
-      "diagramHeight": 156,
+      "diagramWidth": 270,
+      "diagramHeight": 147,
       "diagramPage": 96
     },
     "SFA415": {
@@ -4529,8 +4529,8 @@
       "dimensions": "81.5 x 37.5 x 9 mm",
       "pdfPage": 97,
       "diagram": "images/pad-shapes/sfa415.png",
-      "diagramWidth": 865,
-      "diagramHeight": 142,
+      "diagramWidth": 257,
+      "diagramHeight": 125,
       "diagramPage": 97
     },
     "SFA418": {
@@ -4539,8 +4539,8 @@
       "dimensions": "97 x 41.5 x 9.5 mm",
       "pdfPage": 98,
       "diagram": "images/pad-shapes/sfa418.png",
-      "diagramWidth": 799,
-      "diagramHeight": 148,
+      "diagramWidth": 557,
+      "diagramHeight": 138,
       "diagramPage": 98
     },
     "SFA425": {
@@ -4549,8 +4549,8 @@
       "dimensions": "55.5 x 54.5 x 8 mm",
       "pdfPage": 99,
       "diagram": "images/pad-shapes/sfa425.png",
-      "diagramWidth": 784,
-      "diagramHeight": 191,
+      "diagramWidth": 179,
+      "diagramHeight": 174,
       "diagramPage": 99
     },
     "SFA427": {
@@ -4569,7 +4569,7 @@
       "dimensions": "109.5 x 51 x 9.5 mm",
       "pdfPage": 109,
       "diagram": "images/pad-shapes/sfa492.png",
-      "diagramWidth": 1382,
+      "diagramWidth": 355,
       "diagramHeight": 317,
       "diagramPage": 109
     },
@@ -4579,8 +4579,8 @@
       "dimensions": "90 x 33 x 10 mm",
       "pdfPage": 110,
       "diagram": "images/pad-shapes/sfa498.png",
-      "diagramWidth": 1420,
-      "diagramHeight": 121,
+      "diagramWidth": 282,
+      "diagramHeight": 112,
       "diagramPage": 110
     },
     "SFA603": {
@@ -4589,8 +4589,8 @@
       "dimensions": "111 x 44.5 x 8 mm",
       "pdfPage": 111,
       "diagram": "images/pad-shapes/sfa603.png",
-      "diagramWidth": 769,
-      "diagramHeight": 308,
+      "diagramWidth": 370,
+      "diagramHeight": 304,
       "diagramPage": 111
     },
     "SFA607": {
@@ -4599,8 +4599,8 @@
       "dimensions": "94 x 36 x 10 mm",
       "pdfPage": 112,
       "diagram": "images/pad-shapes/sfa607.png",
-      "diagramWidth": 772,
-      "diagramHeight": 134,
+      "diagramWidth": 289,
+      "diagramHeight": 117,
       "diagramPage": 112
     },
     "SFA608": {
@@ -4609,8 +4609,8 @@
       "dimensions": "101.5 x 39 x 10.5 mm",
       "pdfPage": 112,
       "diagram": "images/pad-shapes/sfa608.png",
-      "diagramWidth": 772,
-      "diagramHeight": 141,
+      "diagramWidth": 310,
+      "diagramHeight": 125,
       "diagramPage": 112
     },
     "SFA621": {
@@ -4619,8 +4619,8 @@
       "dimensions": "27.8 mm",
       "pdfPage": 113,
       "diagram": "images/pad-shapes/sfa621.png",
-      "diagramWidth": 790,
-      "diagramHeight": 119,
+      "diagramWidth": 93,
+      "diagramHeight": 93,
       "diagramPage": 113
     },
     "SFA625": {
@@ -4629,7 +4629,7 @@
       "dimensions": "85 x 44.5 x 7 mm",
       "pdfPage": 114,
       "diagram": "images/pad-shapes/sfa625.png",
-      "diagramWidth": 779,
+      "diagramWidth": 550,
       "diagramHeight": 311,
       "diagramPage": 114
     },
@@ -4639,8 +4639,8 @@
       "dimensions": "72.5 x 53.5 x 8 mm",
       "pdfPage": 114,
       "diagram": "images/pad-shapes/sfa627.png",
-      "diagramWidth": 748,
-      "diagramHeight": 198,
+      "diagramWidth": 233,
+      "diagramHeight": 173,
       "diagramPage": 114
     },
     "SFA628": {
@@ -4649,8 +4649,8 @@
       "dimensions": "83 x 48 x 12 mm",
       "pdfPage": 114,
       "diagram": "images/pad-shapes/sfa628.png",
-      "diagramWidth": 735,
-      "diagramHeight": 316,
+      "diagramWidth": 327,
+      "diagramHeight": 307,
       "diagramPage": 114
     },
     "SFA632": {
@@ -4659,8 +4659,8 @@
       "dimensions": "90 x 39 x 10.5 mm",
       "pdfPage": 116,
       "diagram": "images/pad-shapes/sfa632.png",
-      "diagramWidth": 790,
-      "diagramHeight": 147,
+      "diagramWidth": 280,
+      "diagramHeight": 130,
       "diagramPage": 116
     },
     "SFA635": {
@@ -4669,7 +4669,7 @@
       "dimensions": "96.5 x 43 x 7.5 mm",
       "pdfPage": 116,
       "diagram": "images/pad-shapes/sfa635.png",
-      "diagramWidth": 808,
+      "diagramWidth": 603,
       "diagramHeight": 304,
       "diagramPage": 116
     },
@@ -4679,8 +4679,8 @@
       "dimensions": "97 x 39.5 x 7.5 mm",
       "pdfPage": 117,
       "diagram": "images/pad-shapes/sfa650.png",
-      "diagramWidth": 798,
-      "diagramHeight": 148,
+      "diagramWidth": 300,
+      "diagramHeight": 133,
       "diagramPage": 117
     },
     "SFA652": {
@@ -4689,8 +4689,8 @@
       "dimensions": "85 x 44.5 x 9 mm",
       "pdfPage": 118,
       "diagram": "images/pad-shapes/sfa652.png",
-      "diagramWidth": 790,
-      "diagramHeight": 154,
+      "diagramWidth": 495,
+      "diagramHeight": 145,
       "diagramPage": 118
     },
     "SFA655": {
@@ -4699,8 +4699,8 @@
       "dimensions": "85 x 44 x 9 mm",
       "pdfPage": 118,
       "diagram": "images/pad-shapes/sfa655.png",
-      "diagramWidth": 790,
-      "diagramHeight": 154,
+      "diagramWidth": 486,
+      "diagramHeight": 145,
       "diagramPage": 118
     },
     "SFA661/4": {
@@ -4709,7 +4709,7 @@
       "dimensions": "44.5 x 53.5 x 7.5 mm",
       "pdfPage": 119,
       "diagram": "images/pad-shapes/sfa661-4.png",
-      "diagramWidth": 776,
+      "diagramWidth": 147,
       "diagramHeight": 173,
       "diagramPage": 119
     },
@@ -4719,7 +4719,7 @@
       "dimensions": "80 x 43.5 x 8.5 mm",
       "pdfPage": 121,
       "diagram": "images/pad-shapes/sfa678.png",
-      "diagramWidth": 790,
+      "diagramWidth": 502,
       "diagramHeight": 138,
       "diagramPage": 121
     },
@@ -4729,8 +4729,8 @@
       "dimensions": "55.5 x 49.5 x 7.5 mm",
       "pdfPage": 121,
       "diagram": "images/pad-shapes/sfa681.png",
-      "diagramWidth": 784,
-      "diagramHeight": 172,
+      "diagramWidth": 175,
+      "diagramHeight": 155,
       "diagramPage": 121
     },
     "SFA693": {
@@ -4739,8 +4739,8 @@
       "dimensions": "111 x 36 x 7.5 mm",
       "pdfPage": 123,
       "diagram": "images/pad-shapes/sfa693.png",
-      "diagramWidth": 784,
-      "diagramHeight": 221,
+      "diagramWidth": 508,
+      "diagramHeight": 213,
       "diagramPage": 123
     },
     "SFA694": {
@@ -4749,8 +4749,8 @@
       "dimensions": "98.5 x 48.5 x 7.5 mm",
       "pdfPage": 123,
       "diagram": "images/pad-shapes/sfa694.png",
-      "diagramWidth": 824,
-      "diagramHeight": 350,
+      "diagramWidth": 583,
+      "diagramHeight": 343,
       "diagramPage": 123
     },
     "SFA705": {
@@ -4759,8 +4759,8 @@
       "dimensions": "113.5 x 55 x 8.5 mm",
       "pdfPage": 124,
       "diagram": "images/pad-shapes/sfa705.png",
-      "diagramWidth": 812,
-      "diagramHeight": 329,
+      "diagramWidth": 666,
+      "diagramHeight": 302,
       "diagramPage": 124
     },
     "SFA706": {
@@ -4769,8 +4769,8 @@
       "dimensions": "113.5 x 52 x 9.5 mm",
       "pdfPage": 124,
       "diagram": "images/pad-shapes/sfa706.png",
-      "diagramWidth": 806,
-      "diagramHeight": 386,
+      "diagramWidth": 659,
+      "diagramHeight": 372,
       "diagramPage": 124
     },
     "SFA708": {
@@ -4779,8 +4779,8 @@
       "dimensions": "84 x 44.5 x 7 mm",
       "pdfPage": 125,
       "diagram": "images/pad-shapes/sfa708.png",
-      "diagramWidth": 1398,
-      "diagramHeight": 298,
+      "diagramWidth": 268,
+      "diagramHeight": 290,
       "diagramPage": 125
     },
     "SFA719": {
@@ -4789,8 +4789,8 @@
       "dimensions": "85.5 x 38 x 9 mm",
       "pdfPage": 126,
       "diagram": "images/pad-shapes/sfa719.png",
-      "diagramWidth": 772,
-      "diagramHeight": 140,
+      "diagramWidth": 264,
+      "diagramHeight": 123,
       "diagramPage": 126
     },
     "SFA721": {
@@ -4799,8 +4799,8 @@
       "dimensions": "85 x 43 x 9.5 mm",
       "pdfPage": 126,
       "diagram": "images/pad-shapes/sfa721.png",
-      "diagramWidth": 769,
-      "diagramHeight": 154,
+      "diagramWidth": 262,
+      "diagramHeight": 138,
       "diagramPage": 126
     },
     "SFA732": {
@@ -4809,8 +4809,8 @@
       "dimensions": "109.5 x 40 x 7.5 mm",
       "pdfPage": 128,
       "diagram": "images/pad-shapes/sfa732.png",
-      "diagramWidth": 2238,
-      "diagramHeight": 645,
+      "diagramWidth": 346,
+      "diagramHeight": 245,
       "diagramPage": 128
     }
   },

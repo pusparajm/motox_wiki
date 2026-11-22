@@ -48,6 +48,17 @@ def cluster(objects):
     return groups
 
 
+def x_groups(objects, gap=100):
+    groups = []
+    for obj in sorted(objects, key=lambda item: item["x0"]):
+        if groups and obj["x0"] <= groups[-1]["x1"] + gap:
+            groups[-1]["objects"].append(obj)
+            groups[-1]["x1"] = max(groups[-1]["x1"], obj["x1"])
+        else:
+            groups.append({"objects": [obj], "x0": obj["x0"], "x1": obj["x1"]})
+    return groups
+
+
 def bounds(objects):
     xs = []
     ys = []
@@ -55,6 +66,11 @@ def bounds(objects):
         xs.extend([obj["x0"], obj["x1"]])
         ys.extend([obj["top"], obj["bottom"]])
     return min(xs), min(ys), max(xs), max(ys)
+
+
+def curve_bounds(objects):
+    curves = [obj for obj in objects if obj["object_type"] == "curve"]
+    return bounds(curves) if curves else bounds(objects)
 
 
 def extract(pdf_path: Path, output_dir: Path) -> dict:
@@ -83,6 +99,8 @@ def extract(pdf_path: Path, output_dir: Path) -> dict:
             and obj.get("x1", 0) <= 760
             and not (obj["object_type"] == "line" and (obj.get("width", 0) > 200 or obj.get("height", 0) > 100))
         ]
+        left_objects = [obj for obj in objects if obj.get("x1", 0) <= 300]
+        right_objects = [obj for obj in objects if obj.get("x0", 0) > 300]
 
         for index, group in enumerate(groups):
             start = max(word["bottom"] for word in group) + 3
@@ -91,32 +109,31 @@ def extract(pdf_path: Path, output_dir: Path) -> dict:
                 if index + 1 < len(groups)
                 else page.height - 20
             )
-            region = [
-                obj for obj in objects
-                if obj["top"] >= start - 2 and obj["top"] <= end
-            ]
-            if not region:
-                continue
+            def best_cluster(source):
+                region = [
+                    obj for obj in source
+                    if obj["top"] >= start - 2 and obj["top"] <= end
+                ]
+                best = None
+                for candidate in cluster(region):
+                    for xcandidate in x_groups(candidate["objects"]):
+                        items = xcandidate["objects"]
+                        curves = sum(1 for obj in items if obj["object_type"] == "curve")
+                        strokes = sum(1 for obj in items if obj.get("stroke"))
+                        x0, y0, x1, y1 = bounds(items)
+                        width, height = x1 - x0, y1 - y0
+                        if width < 8 or height < 8 or not curves:
+                            continue
+                        score = curves * 10 + strokes + min(width, 120) / 10 + min(height, 120) / 10
+                        if best is None or score > best[0]:
+                            best = (score, {"objects": items})
+                return best
 
-            best = None
-            for candidate in cluster(region):
-                items = candidate["objects"]
-                curves = sum(1 for obj in items if obj["object_type"] == "curve")
-                strokes = sum(1 for obj in items if obj.get("stroke"))
-                x0, y0, x1, y1 = bounds(items)
-                width, height = x1 - x0, y1 - y0
-                if width < 8 or height < 8:
-                    continue
-                if not curves:
-                    continue
-                score = curves * 10 + strokes + min(width, 120) / 10 + min(height, 120) / 10
-                if best is None or score > best[0]:
-                    best = (score, candidate)
-
+            best = best_cluster(left_objects) or best_cluster(right_objects)
             if not best:
                 continue
 
-            x0, y0, x1, y1 = bounds(best[1]["objects"])
+            x0, y0, x1, y1 = curve_bounds(best[1]["objects"])
             pad = 2.5
             crop = (
                 max(0, x0 - pad),

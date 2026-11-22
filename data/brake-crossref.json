@@ -1010,5 +1010,243 @@
   "yamaha-yzf-r7-2021-present-global": {
     "front_brake_pads": "EBC FA252HH · SBS 198/634/639 · Brembo 07YA23 · Vesrah VD-274",
     "rear_brake_pads": "EBC FA174HH · SBS 657 · Brembo 07HO36 · Vesrah VD-163"
+  },
+  "aprilia-rs-125-2021-present-global": {
+    "front_brake_pads": "EBC FA399 · SBS 821HS",
+    "rear_brake_pads": "EBC FA83 · SBS 544HF"
+  },
+  "aprilia-rsv4-2021-present-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rs-125-gp-2017-2019-global": {
+    "front_brake_pads": "EBC FA399 · SBS 821HS",
+    "rear_brake_pads": "EBC FA83 · SBS 544HF"
+  },
+  "aprilia-rs-4-125-ajp-cal-2011-2019-global": {
+    "front_brake_pads": "EBC FA399 · SBS 821HS",
+    "rear_brake_pads": "EBC FA93 · SBS 585HF"
+  },
+  "aprilia-rs-4-125-j-juan-cal-2011-2019-global": {
+    "front_brake_pads": "EBC FA95 · SBS 566HS",
+    "rear_brake_pads": "EBC FA83 · SBS 544HF"
+  },
+  "aprilia-mxv-450-2009-2013-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694RSI",
+    "rear_brake_pads": "EBC FA367 · SBS 790RSI"
+  },
+  "aprilia-rxv-450-2006-2013-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA367 · SBS 790SI"
+  },
+  "aprilia-sxv-450-2006-2013-global": {
+    "front_brake_pads": "EBC FA405 · SBS 842RSI",
+    "rear_brake_pads": "EBC FA367 · SBS 790RSI"
+  },
+  "aprilia-sxv-450-van-den-bosch-rep-2008-2010-global": {
+    "front_brake_pads": "SBS 695RST",
+    "rear_brake_pads": "EBC FA367 · SBS 790RSI"
+  },
+  "aprilia-rxv-550-2006-2013-global": {
+    "front_brake_pads": "EBC FA185 · SBS 694SI",
+    "rear_brake_pads": "EBC FA367 · SBS 790SI"
+  },
+  "aprilia-sxv-550-2006-2013-global": {
+    "front_brake_pads": "EBC FA405 · SBS 842RSI",
+    "rear_brake_pads": "EBC FA367 · SBS 790RSI"
+  },
+  "aprilia-sxv-550-van-den-bosch-rep-2008-2010-global": {
+    "front_brake_pads": "SBS 695RST",
+    "rear_brake_pads": "EBC FA367 · SBS 790RSI"
+  },
+  "aprilia-650-pegaso-1992-2000-global": {
+    "front_brake_pads": "EBC FA177 · SBS 681HF",
+    "rear_brake_pads": "EBC FA173 · SBS 651HF"
+  },
+  "aprilia-660-tuono-factory-2022-2023-global": {
+    "front_brake_pads": "SBS 900HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rs-660-extrem-2023-2023-global": {
+    "front_brake_pads": "SBS 900HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rs-660-trofeo-2022-2022-global": {
+    "front_brake_pads": "SBS 900HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-sl-750-shiver-gt-abs-2009-2012-global": {
+    "front_brake_pads": "EBC FA432 · SBS 844HS",
+    "rear_brake_pads": "SBS 675LS"
+  },
+  "aprilia-sl-750-shiver-abs-2007-2018-global": {
+    "front_brake_pads": "EBC FA432 · SBS 844HS",
+    "rear_brake_pads": "SBS 675LS"
+  },
+  "aprilia-na-850-mana-2007-2007-global": {
+    "front_brake_pads": "EBC FA432 · SBS 844HS",
+    "rear_brake_pads": "SBS 675LS"
+  },
+  "aprilia-na-850-mana-gt-abs-2009-2013-global": {
+    "front_brake_pads": "EBC FA432 · SBS 844HS",
+    "rear_brake_pads": "SBS 588HF"
+  },
+  "aprilia-na-850-mana-abs-2008-2011-global": {
+    "front_brake_pads": "EBC FA432 · SBS 844HS",
+    "rear_brake_pads": "SBS 588HF"
+  },
+  "aprilia-1000-blue-marlin-2002-2002-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-etv-1000-caponord-2001-2008-global": {
+    "front_brake_pads": "SBS 674HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-etv-1000-caponord-rally-raid-2004-2008-global": {
+    "front_brake_pads": "SBS 674HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rst-1000-futura-2001-2003-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA181 · SBS 671LS"
+  },
+  "aprilia-rsv-1000-factory-pista-2004-2004-global": {
+    "front_brake_pads": "SBS 762HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1000-falco-sl-r-2000-2004-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1000-nera-2004-2004-global": {
+    "front_brake_pads": "SBS 762HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1000-r-2000-2007-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1000-r-factory-2004-2008-global": {
+    "front_brake_pads": "SBS 762HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1000-sp-2000-2000-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1000-tuono-fighter-2003-2005-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1000-tuono-r-2003-2003-global": {
+    "front_brake_pads": "SBS 762HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1000-tuono-r-factory-abs-2006-2012-global": {
+    "front_brake_pads": "SBS 762HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1000-tuono-r-abs-2004-2012-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1000-tuono-v4-r-2011-2014-global": {
+    "front_brake_pads": "SBS 706HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv4-1000-factory-2009-2011-global": {
+    "front_brake_pads": "EBC FA447 · SBS 841HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv4-r-1000-abs-aprc-2010-2010-global": {
+    "front_brake_pads": "EBC FA447 · SBS 841HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv4-rf-1000-2015-2020-global": {
+    "front_brake_pads": "SBS 901HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv4-rr-1000-2015-2020-global": {
+    "front_brake_pads": "SBS 901HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1100-tuono-v4-2015-2015-global": {
+    "front_brake_pads": "SBS 900HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1100-tuono-v4-factory-2015-2018-global": {
+    "front_brake_pads": "SBS 900HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv-1100-tuono-v4-rr-2015-2019-global": {
+    "front_brake_pads": "SBS 900HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-rsv4-1100-factory-2019-2023-global": {
+    "front_brake_pads": "EBC FA447 · SBS 841HS",
+    "rear_brake_pads": "EBC FA266 · SBS 730LS"
+  },
+  "aprilia-50-dvx-2006-2008-global": {
+    "front_brake_pads": "SBS 2048",
+    "rear_brake_pads": "EBC FA165 · SBS 638SI"
+  },
+  "aprilia-90-dvx-2006-2014-global": {
+    "front_brake_pads": "SBS 2048",
+    "rear_brake_pads": "EBC FA165 · SBS 638SI"
+  },
+  "aprilia-250-2x4-2005-2006-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-250-dvx-2006-2009-global": {
+    "front_brake_pads": "EBC FA377 · SBS 810SI",
+    "rear_brake_pads": "SBS 775SI"
+  },
+  "aprilia-300-2x4-2010-2013-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-300-dvx-2009-2016-global": {
+    "front_brake_pads": "EBC FA377 · SBS 810SI",
+    "rear_brake_pads": "SBS 775SI"
+  },
+  "aprilia-400-dvx-2004-2008-global": {
+    "front_brake_pads": "EBC FA84 · SBS 592SI",
+    "rear_brake_pads": "EBC FA137 · SBS 649SI"
+  },
+  "aprilia-trv-400-2009-2013-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-450-h1-2010-2010-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-xc-450-2011-2014-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-550-h1-2009-2013-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-550-ltd-2009-2012-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-trv-550-2009-2014-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-700-diesel-2006-2014-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-700-h1-2009-2010-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-tbx-700-2012-2014-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-trv-700-2009-2012-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-1000-thundercat-2009-2014-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
+  },
+  "aprilia-trv-1000-2009-2014-global": {
+    "front_brake_pads": "EBC FA395 · SBS 822ATS"
   }
 }
