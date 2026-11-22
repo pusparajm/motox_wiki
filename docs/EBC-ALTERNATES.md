@@ -57,6 +57,9 @@ limited rule:
 3. The model does not already have an EBC code.
 4. No existing compound or brand data is overwritten.
 
+The brake fitment reference now includes fitment-only models with brake data, so
+the new EBC alternates are visible there as well as on the model pages.
+
 ## Phase plan
 
 1. **Aprilia** — done, 63 of 102 fixed.

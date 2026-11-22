@@ -773,7 +773,7 @@ def brake_crossref_tables(bikes):
     model_rows = []
     for mid, pads in crossref.items():
         bike = by_id.get(mid)
-        if not bike or bike.get("fitment_only"):
+        if not bike:
             continue
         front = pads.get("front_brake_pads", "") or service(bike, "front_brake_pads")
         rear = pads.get("rear_brake_pads", "") or service(bike, "rear_brake_pads")
