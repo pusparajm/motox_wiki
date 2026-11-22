@@ -994,6 +994,45 @@ h2 {
   font-weight: 500;
 }
 
+.pad-shape-ref {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.4rem;
+  margin: 0.2rem 0 0.1rem 0.35rem;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid var(--motox-border);
+  border-radius: 999px;
+  background: var(--pico-card-sectioning-background-color, rgba(0, 0, 0, 0.04));
+  font-size: 0.7rem;
+  line-height: 1.35;
+  vertical-align: middle;
+}
+
+.pad-shape-code {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.pad-shape-dim {
+  color: var(--pico-muted-color);
+  white-space: nowrap;
+}
+
+.pad-shape-link {
+  font-weight: 600;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.pad-shape-link:hover {
+  text-decoration-thickness: 2px;
+}
+
+.spec-table .pad-shape-ref {
+  margin-left: 0;
+}
+
 .spec-table-wrap {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;

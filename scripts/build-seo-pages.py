@@ -71,8 +71,70 @@ def load_bike_images():
 BIKE_IMAGES = load_bike_images()
 
 
+def load_ebc_shapes():
+    path = os.path.join(DATA, "ebc-pad-shapes.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as fh:
+        return json.load(fh).get("shapes", {})
+
+
+EBC_SHAPES = load_ebc_shapes()
+EBC_SOURCE = "https://www.ebcbrakes.com/wp-content/uploads/2024/01/EBC_UK_MC_Pad_Buyers_Guide_203.pdf"
+BRAKE_CROSSREF = read_json("brake-crossref.json", {})
+
+
 def esc(value):
     return html.escape(str(value or ""), quote=True)
+
+
+def normalize_ebc_code(code):
+    code = str(code or "").upper().replace(" ", "").strip()
+    match = re.match(r"^(RFA|EPFA|GPFAX|SFA|MXS|SXR|FA)(\d+)(.*)$", code)
+    if not match:
+        return code
+    return f"{match.group(1)}{int(match.group(2))}{match.group(3)}"
+
+
+def ebc_code_from_text(value):
+    match = re.search(
+        r"\b(?:EBC\s+)?((?:RFA|EPFA|GPFAX|SFA|MXS|SXR|FA)\s*\d+(?:/\d+)?[A-Z]*)\b",
+        str(value or ""),
+        flags=re.I,
+    )
+    return normalize_ebc_code(match.group(1)) if match else ""
+
+
+def ebc_shape_for_text(value):
+    code = ebc_code_from_text(value)
+    if not code:
+        return None
+    shape = EBC_SHAPES.get(code)
+    if shape:
+        return {**shape, "requestedCode": code}
+    base = re.sub(r"(HH|HS|LS|S|M|V)$", "", code)
+    shape = EBC_SHAPES.get(base)
+    if shape:
+        return {**shape, "requestedCode": base}
+    return None
+
+
+def pad_shape_ref(value, show_code=True):
+    shape = ebc_shape_for_text(value)
+    if not shape:
+        return ""
+    code = shape.get("requestedCode") or shape.get("code") or ""
+    dimensions = str(shape.get("dimensions") or "").replace(" x ", " × ")
+    link = f"{EBC_SOURCE}#page={shape.get('pdfPage', 1)}"
+    code_html = f'<span class="pad-shape-code">{esc(code)}</span>' if show_code else ""
+    return (
+        '<span class="pad-shape-ref">'
+        f"{code_html}"
+        f'<span class="pad-shape-dim">{esc(dimensions)}</span>'
+        f'<a class="pad-shape-link" href="{esc(link)}" target="_blank" rel="noopener" '
+        f'title="View the EBC drawing on PDF page {esc(shape.get("pdfPage", ""))}">EBC p.{esc(shape.get("pdfPage", ""))}</a>'
+        "</span>"
+    )
 
 
 def load():
@@ -614,7 +676,10 @@ def build_parts_fitment(bikes):
         front = service(bike, "front_brake_pads")
         rear = service(bike, "rear_brake_pads")
         if spark or front or rear:
-            brake_rows.append([bike_link(bike), esc(spark), esc(front), esc(rear)])
+            shape_refs = "".join(
+                ref for ref in (pad_shape_ref(front), pad_shape_ref(rear)) if ref
+            )
+            brake_rows.append([bike_link(bike), esc(spark), esc(front), esc(rear), shape_refs])
         front_bearing = service(bike, "front_wheel_bearings")
         rear_bearing = service(bike, "rear_wheel_bearings")
         steering = service(bike, "steering_head_bearings")
@@ -631,7 +696,7 @@ def build_parts_fitment(bikes):
       <h2>Brake pad and spark plug codes</h2>
       <p>The table lists the codes shown on each model page. Brake-pad entries combine the shape references recorded for each model; spark plug codes are shown where a verified plug is listed. Treat the codes as shape references, not as a guarantee that every compound or model year uses the same part.</p>
       <p>Where a brake-pad entry contains several numbers separated by slashes, those are shape references for the same backing plate. Pick the compound for your riding and confirm the seller's fitment data for your exact model year.</p>
-      {table(["Model", "Spark plug", "Front brake pads", "Rear brake pads"], brake_rows)}
+      {table(["Model", "Spark plug", "Front brake pads", "Rear brake pads", "EBC shape reference"], brake_rows)}
       <h2>Wheel bearing, steering head and fork seal codes</h2>
       <p>Bearing kit numbers are shown where fitment is confirmed. A kit number is not a bearing dimension: it identifies a set of bearings and seals. Fork seal sizes are oil-seal dimensions in millimetres (inner diameter × outer diameter × thickness).</p>
       {table(["Model", "Front wheel bearings", "Rear wheel bearings", "Steering head bearings", "Fork seal"], bearing_rows)}
@@ -707,7 +772,10 @@ def brake_crossref_tables(bikes):
         rear = pads.get("rear_brake_pads", "") or service(bike, "rear_brake_pads")
         if not front and not rear:
             continue
-        model_rows.append([bike_link(bike), esc(front), esc(rear)])
+        shape_refs = "".join(
+            ref for ref in (pad_shape_ref(front), pad_shape_ref(rear)) if ref
+        )
+        model_rows.append([bike_link(bike), esc(front), esc(rear), shape_refs])
     model_rows.sort(key=lambda row: row[0].lower())
 
     def ebc_key(item):
@@ -722,6 +790,7 @@ def brake_crossref_tables(bikes):
     for ebc, item in sorted(interchange.items(), key=ebc_key):
         shape_rows.append([
             esc(ebc),
+            pad_shape_ref(ebc, show_code=False),
             esc(", ".join(item.get("sbs", []))),
             esc(", ".join(item.get("ferodo", []))),
             esc(", ".join(item.get("dunlopad", []))),
@@ -740,7 +809,8 @@ def build_brake_fitment(bikes):
       <p>For the cross-brand equivalents of each shape, use the <a href="pad-shape-cross-reference.html">pad shape cross-reference</a>.</p>
 
       <h2 id="model-fitments">Motorcycle fitment table</h2>
-      {table(["Model", "Front brake pads", "Rear brake pads"], model_rows)}
+      <p>EBC shape badges show the shape code, the published pad dimensions and a direct link to the matching page of the official EBC Buyers Guide. The EBC line drawings themselves are not reproduced here.</p>
+      {table(["Model", "Front brake pads", "Rear brake pads", "EBC shape reference"], model_rows)}
 
       <h2>How to use the table</h2>
       <ul>
@@ -776,7 +846,8 @@ def build_pad_shape_crossref(bikes):
 
       <h2 id="shape-cross-reference">Pad shape cross-reference</h2>
       <p>The table lists the EBC shape against the equivalent SBS, Ferodo, Dunlopad, Emgo and Vesrah references. A single EBC shape can list several numbers when the same backing plate is offered in different thicknesses or compounds. Treat those as shape-family references, not as “any of these will fit every model”.</p>
-      {table(["EBC", "SBS", "Ferodo", "Dunlopad", "Emgo sintered", "Emgo full metal", "Vesrah"], shape_rows)}
+      <p>Shape data and dimensions are extracted from the EBC Buyers Guide. The EBC line drawings are not reproduced; the page link beside each shape opens the official EBC drawing.</p>
+      {table(["EBC", "Shape data", "SBS", "Ferodo", "Dunlopad", "Emgo sintered", "Emgo full metal", "Vesrah"], shape_rows)}
 
       <h2>Why one shape fits several models</h2>
       <p>Brake calipers are often shared across a model family or even across manufacturers. A pad shape is defined by the backing-plate outline, hole spacing, thickness and locating tabs. Once a caliper is used on several bikes, the same shape appears under many model names. The friction compound is separate: a commuter may use an organic or semi-sintered pad, while a sport or race model uses a sintered or race compound in the same shape.</p>
@@ -1487,9 +1558,10 @@ def build_comparisons_hub():
     )
 
 
-def property_table(rows):
+def property_table(rows, extras=None):
+    extras = extras or {}
     body = "".join(
-        f'<div class="spec-field"><span class="field-label">{esc(label)}</span><span class="field-value">{esc(value)}</span></div>'
+        f'<div class="spec-field"><span class="field-label">{esc(label)}</span><span class="field-value">{esc(value)}{extras.get(label, "")}</span></div>'
         for label, value in rows if value
     )
     return f'<div class="spec-fields">{body}</div>'
@@ -1868,13 +1940,26 @@ def static_sections_html(bike):
             note = ""
         if note:
             body += f'<p class="spec-note">{esc(note)}</p>'
-        field_rows = [
-            (f.get("label", ""), f.get("value", ""))
-            for f in section.get("fields") or []
-            if f.get("key") not in {"note", "data_status"}
-        ]
+        field_rows = []
+        shape_extras = {}
+        for item in section.get("fields") or []:
+            key_name = item.get("key")
+            if key_name in {"note", "data_status"}:
+                continue
+            label_text = item.get("label", "")
+            value_text = item.get("value", "")
+            field_rows.append((label_text, value_text))
+            if key_name in {"front_brake_pads", "rear_brake_pads"} and value_text:
+                shape_source = value_text
+                if not ebc_code_from_text(shape_source):
+                    shape_source = (BRAKE_CROSSREF.get(bike.get("id"), {}) or {}).get(key_name, "")
+                shape_ref = pad_shape_ref(shape_source)
+                if shape_ref:
+                    shape_extras[label_text] = shape_ref
         if field_rows:
-            body += property_table(field_rows)
+            body += property_table(field_rows, shape_extras)
+        if shape_extras:
+            body += '<p class="spec-note pad-shape-note">EBC shape badges show the code, published dimensions and a link to the official EBC drawing. EBC line drawings are not reproduced here.</p>'
         if section.get("table"):
             rows = section["table"]
             headers = list(rows[0].keys())
@@ -1989,12 +2074,18 @@ def maintenance_page(bike):
     if len(description) > 160:
         description = description[:157].rstrip() + "."
 
+    service_extras = {
+        label: pad_shape_ref(value)
+        for label, value in service_fields
+        if "brake pad" in label.lower() and pad_shape_ref(value)
+    }
     content = f"""
       {bike_image_html(bike)}
       <p>This page collects the service data recorded for the {bike_link(bike)}. It covers fluid capacities, wear parts, battery and brake-pad references, torque values and a practical maintenance checklist. Always confirm the exact model year and market against the workshop manual before ordering parts or tightening fasteners.</p>
       <p class="data-note">The model page remains the primary specification reference. This service page is a focused maintenance view of the same verified catalogue data.</p>
       <h2>Service data at a glance</h2>
-      {property_table(service_fields)}
+      {property_table(service_fields, service_extras)}
+      {f'<p class="spec-note pad-shape-note">EBC shape badges show the code, published dimensions and a link to the official EBC drawing. EBC line drawings are not reproduced here.</p>' if service_extras else ''}
       <h2>Torque specifications</h2>
       {torque_html}
       <h2>Maintenance checklist</h2>
