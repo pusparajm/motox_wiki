@@ -15,7 +15,7 @@ Current state:
 |---|---:|---|
 | Indexable model pages | 1,248 | `index,follow,max-image-preview:large` |
 | Fitment-only / thin pages | 3,471 | `noindex,follow` |
-| Guides and comparisons | 69 files | `index,follow` |
+| Guides, comparisons and service pages | 89 files | `index,follow` |
 | Reference pages | 101 | `index,follow` |
 
 All model pages remain live, searchable and linked. `noindex,follow` only asks
