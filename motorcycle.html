@@ -61,35 +61,27 @@
     function setStructuredData(bike) {
       const existing = document.getElementById('mx-jsonld');
       if (existing) existing.remove();
-      const spec = key => MotoX.getGeneralField(bike, key);
-      const quantity = (value, unitCode) => {
-        const num = parseFloat(String(value || '').replace(/,/g, ''));
-        return Number.isFinite(num) ? { '@type': 'QuantitativeValue', value: num, unitCode } : (value || undefined);
-      };
-      const fuel = spec('fuel_capacity') || '';
       const pageUrl = `https://motoxref.com/motorcycle/${encodeURIComponent(bike.id)}.html`;
+      const title = MotoX.formatBikeTitle(bike);
       const faq = MotoX.getBikeFaq(bike).map(item => ({
         '@type': 'Question',
         name: item.q,
         acceptedAnswer: { '@type': 'Answer', text: item.a }
       }));
       const graph = [{
-        '@type': 'Motorcycle',
-        name: MotoX.formatBikeTitle(bike),
-        brand: { '@type': 'Brand', name: bike.make },
-        model: bike.model,
-        vehicleModelDate: bike.year,
-        description: bike.summary || undefined,
-        bodyType: bike.category || undefined,
-        weight: quantity(spec('weight'), 'KGM'),
-        fuelCapacity: quantity(fuel, /kwh/i.test(fuel) ? 'KWH' : 'LTR'),
-        vehicleEngine: {
-          '@type': 'EngineSpecification',
-          engineDisplacement: quantity(bike.displacement, 'CMQ'),
-          enginePower: quantity(spec('power'), 'BHP'),
-          engineTorque: quantity(spec('torque'), 'NU')
-        },
-        url: pageUrl
+        '@type': 'TechArticle',
+        headline: title,
+        name: title,
+        description: bike.summary || '',
+        url: pageUrl,
+        mainEntityOfPage: pageUrl,
+        dateModified: new Date().toISOString().slice(0, 10),
+        inLanguage: 'en',
+        articleSection: 'Motorcycle Specifications',
+        author: { '@type': 'Organization', name: 'MotoX Wiki', url: 'https://motoxref.com/' },
+        publisher: { '@type': 'Organization', name: 'MotoX Wiki', url: 'https://motoxref.com/' },
+        about: { '@type': 'Thing', name: title },
+        keywords: [bike.make, bike.model, bike.category, 'motorcycle specifications', 'service data', 'torque specs'].filter(Boolean).join(', ')
       }, {
         '@type': 'BreadcrumbList',
         itemListElement: [

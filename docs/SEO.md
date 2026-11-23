@@ -157,7 +157,8 @@ Examples:
 - Added an H2 **Specifications** section.
 - Added a **Frequently Asked Questions** section generated from real data:
   - power, torque, seat height, weight, oil capacity/grade, top speed, fuel capacity
-- Added `FAQPage`, `Motorcycle` and `BreadcrumbList` structured data.
+- Added `FAQPage`, `TechArticle` and `BreadcrumbList` structured data.
+- Model and browse pages deliberately use `TechArticle`, not `Motorcycle`/`Product`, to avoid Google Product-snippet errors that require `offers`, `review` or `aggregateRating`.
 - Added **Related Models** and **Related Guides** links.
 - Added canonical, Open Graph and Twitter meta.
 

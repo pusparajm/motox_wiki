@@ -40,7 +40,7 @@ and rights approval.
 - `data/bike-images.json` — manifest used by the page builder. It records the source page,
   licence, licence URL, credit and alt text for each image.
 - `scripts/build-seo-pages.py` — renders the hero `<picture>`, `og:image`, Twitter image,
-  JSON-LD `Motorcycle.image` and the image sitemap entry.
+  JSON-LD `TechArticle.image` and the image sitemap entry.
 
 ## Page-speed rules
 

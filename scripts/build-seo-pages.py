@@ -2214,27 +2214,24 @@ def model_page(bike, related, guide_links, brand_href):
     twitter_card = "summary_large_image" if og_image else "summary"
     twitter_image_meta = f'\n  <meta name="twitter:image" content="{esc(og_image)}">' if og_image else ""
 
-    def qty(value, unit):
-        number = numeric(value)
-        return {"@type": "QuantitativeValue", "value": number, "unitCode": unit} if number else value
-
-    fuel = field(bike, "fuel_capacity") or ""
     graph = [{
-        "@type": "Motorcycle",
+        "@type": "TechArticle",
+        "headline": title(bike),
         "name": title(bike),
-        "brand": {"@type": "Brand", "name": bike.get("make", "")},
-        "model": bike.get("model", ""),
-        "vehicleModelDate": bike.get("year", ""),
-        "bodyType": bike.get("category", ""),
-        "weight": qty(field(bike, "weight"), "KGM"),
-        "fuelCapacity": qty(fuel, "KWH" if "kwh" in fuel.lower() else "LTR"),
-        "vehicleEngine": {
-            "@type": "EngineSpecification",
-            "engineDisplacement": qty(bike.get("displacement", ""), "CMQ"),
-            "enginePower": qty(field(bike, "power"), "BHP"),
-            "engineTorque": qty(field(bike, "torque"), "NU")
-        },
-        "url": url
+        "description": summary_text or description,
+        "url": url,
+        "mainEntityOfPage": url,
+        "dateModified": LAST_MOD,
+        "datePublished": LAST_MOD,
+        "inLanguage": "en",
+        "articleSection": "Motorcycle Specifications",
+        "author": {"@type": "Organization", "name": "MotoX Wiki", "url": SITE},
+        "publisher": {"@type": "Organization", "name": "MotoX Wiki", "url": SITE},
+        "about": {"@type": "Thing", "name": title(bike)},
+        "keywords": ", ".join(filter(None, [
+            bike.get("make", ""), bike.get("model", ""), bike.get("category", ""),
+            "motorcycle specifications", "service data", "torque specs"
+        ]))
     }, {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -2244,8 +2241,6 @@ def model_page(bike, related, guide_links, brand_href):
             {"@type": "ListItem", "position": 4, "name": title(bike), "item": url}
         ]
     }]
-    if summary_text:
-        graph[0]["description"] = summary_text
     if og_image:
         graph[0]["image"] = [og_image]
     if faq:
